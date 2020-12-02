@@ -1,0 +1,27 @@
+---
+title: F0 MUSIC
+---
+
+[Home](/Main%20Page.md) > [FF7](/FF7.md) > [Field](/FF7/Field.md) > [Script](/FF7/Field/Script.md) > [Opcodes](/FF7/Field/Script/Opcodes.md) > F0 MUSIC
+
+-   Opcode: **0xF0**
+-   Short name: **MUSIC**
+-   Long name: Play Music
+
+#### Memory layout
+
+| 0xF0 | *I* |
+|------|-----|
+
+#### Arguments
+
+-   **const UByte** *I*: ID for the music file that has been set in the
+    field file.
+
+#### Description
+
+Plays the music that has been defined for the field file. Multiple files
+of music can be set to play in one field file, so that they may be
+switched between during play in the field. If the argument is an index
+beyond the size of the list of music files set in the current field
+file, the game will crash.
