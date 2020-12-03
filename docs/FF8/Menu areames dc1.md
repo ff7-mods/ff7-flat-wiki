@@ -21,4 +21,4 @@ string that shows on the menu/load/save screens. The special character
 is **Balamb- Alcauld Plains**
 
   [Menu\_mngrp\_strings\_locations]: http://wiki.ffrtt.ru/index.php/FF8/Menu_mngrp_strings_locations
-  [namedec.bin]: ../Main%20namedic.md "wikilink"
+  [namedec.bin]: Main%20namedic.md "wikilink"

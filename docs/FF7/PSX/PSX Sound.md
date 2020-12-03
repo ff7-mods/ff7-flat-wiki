@@ -10,8 +10,8 @@ title: PSX Sound
 -   [AKAO sequence][]
 -   [Code Map][]
 
-  [Overview]: ../Sound/Overview.md "wikilink"
-  [INSTRx.DAT]: ../Sound/INSTRx.DAT.md "wikilink"
-  [INSTRx.ALL]: ../Sound/INSTRx.ALL.md "wikilink"
-  [AKAO sequence]: ../Sound/AKAO%20sequence.md "wikilink"
-  [Code Map]: ../Sound/Code%20Map.md "wikilink"
+  [Overview]: Sound/Overview.md "wikilink"
+  [INSTRx.DAT]: Sound/INSTRx.DAT.md "wikilink"
+  [INSTRx.ALL]: Sound/INSTRx.ALL.md "wikilink"
+  [AKAO sequence]: Sound/AKAO%20sequence.md "wikilink"
+  [Code Map]: Sound/Code%20Map.md "wikilink"

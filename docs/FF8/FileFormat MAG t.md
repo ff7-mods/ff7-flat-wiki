@@ -68,4 +68,4 @@ Example:
 To know, how to find out if the given file is texture, please reffer to
 [MAGfiles\_Generic][]
 
-  [MAGfiles\_Generic]: ../FileFormat%20magfiles.md "wikilink"
+  [MAGfiles\_Generic]: FileFormat%20magfiles.md "wikilink"

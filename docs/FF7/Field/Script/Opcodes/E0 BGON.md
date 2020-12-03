@@ -38,5 +38,5 @@ example, allowing the script to switch between an open door when a
 trigger is crossed and a closed door otherwise by simply [turning off][]
 the "closed door" background and turning on the "open door" background.
 
-  [background sprite]: ../../../Sprite.md "wikilink"
-  [turning off]: ../E1%20BGOFF.md "wikilink"
+  [background sprite]: ../../Sprite.md "wikilink"
+  [turning off]: E1%20BGOFF.md "wikilink"

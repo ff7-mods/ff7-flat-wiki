@@ -26,4 +26,4 @@ none
 Make this entity face the entity with the ID of the first parameter.
 That parameter is always set with [PUSHAC][].
 
-  [PUSHAC]: ../013%20PSHAC.md "wikilink"
+  [PUSHAC]: 013%20PSHAC.md "wikilink"

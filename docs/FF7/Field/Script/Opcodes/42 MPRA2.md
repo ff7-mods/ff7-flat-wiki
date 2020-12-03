@@ -29,6 +29,6 @@ Similar to [MPARA][], but allows a constant value of greater than one
 byte to be supplied. This does not apply if *B* is non-zero, as the
 address the value is retrieved from must be in the range 0 to 0xFF.
 
-  [WINDOW]: ../50%20WINDOW.md "wikilink"
-  [Variable]: ../../../Variable%20Dialog.md "wikilink"
-  [MPARA]: ../41%20MPARA.md "wikilink"
+  [WINDOW]: 50%20WINDOW.md "wikilink"
+  [Variable]: ../../Variable%20Dialog.md "wikilink"
+  [MPARA]: 41%20MPARA.md "wikilink"

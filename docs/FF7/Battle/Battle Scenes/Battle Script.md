@@ -405,5 +405,5 @@ The pushed value is, thus, the MP cost of the defined ability as a type
 with code 93)
 
   [this post]: http://forums.qhimm.com/index.php?topic=3290.msg45951#msg45951
-  [Address]: ../../Battle%20Scenes/Battle%20AI%20Addresses.md "wikilink"
-  [Command index]: ../../../Command%20data.md "wikilink"
+  [Address]: ../Battle%20Scenes/Battle%20AI%20Addresses.md "wikilink"
+  [Command index]: ../../Command%20data.md "wikilink"

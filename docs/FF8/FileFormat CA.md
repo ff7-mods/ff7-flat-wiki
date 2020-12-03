@@ -15,4 +15,4 @@ The format is almost the same as [Final Fantasy VII][]. Differences:
     repeated several times, and sizeof(each struct) = 0x28 (with zoom
     twice for each)
 
-  [Final Fantasy VII]: ../../FF7/Field/Camera%20Matrix.md "wikilink"
+  [Final Fantasy VII]: ../FF7/Field/Camera%20Matrix.md "wikilink"

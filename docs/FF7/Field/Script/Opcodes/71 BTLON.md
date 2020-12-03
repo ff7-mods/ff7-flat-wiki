@@ -23,4 +23,4 @@ Turns random encounters on or off for this field. Note that if a field
 does not have any [Encounter Data][] set in its field file, battles will
 not occur regardless of the argument passed with this opcode.
 
-  [Encounter Data]: ../../../Encounter.md "wikilink"
+  [Encounter Data]: ../../Encounter.md "wikilink"

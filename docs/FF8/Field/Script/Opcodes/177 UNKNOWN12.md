@@ -20,4 +20,4 @@ none
 
 Ends whatever [UNKNOWN11][] does.
 
-  [UNKNOWN11]: ../176%20UNKNOWN11.md "wikilink"
+  [UNKNOWN11]: 176%20UNKNOWN11.md "wikilink"

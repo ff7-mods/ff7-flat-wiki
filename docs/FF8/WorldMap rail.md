@@ -53,4 +53,4 @@ Always. Animation cannot be larger than 2048, and if is smaller than
 
 00 00 FE FF is far west. FF FF 01 00 is far east.
 
-  [World map WMX.obj]: ../WorldMap%20wmx.md "wikilink"
+  [World map WMX.obj]: WorldMap%20wmx.md "wikilink"

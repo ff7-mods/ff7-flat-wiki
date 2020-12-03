@@ -6,4 +6,4 @@ title: AKAO frames
 
 1.  REDIRECT [FF7/PSX/Sound/AKAO sequence][]
 
-  [FF7/PSX/Sound/AKAO sequence]: ../AKAO%20sequence.md "wikilink"
+  [FF7/PSX/Sound/AKAO sequence]: AKAO%20sequence.md "wikilink"

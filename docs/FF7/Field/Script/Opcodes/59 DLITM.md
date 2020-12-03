@@ -32,4 +32,4 @@ the item type and quantity are retrieved from memory. In this case, bank
 *B1* and address *T* retrieve the item type, whilst bank *B2* and
 address *A* retrieve the quantity to remove.
 
-  [Type of item]: ../../Item%20ID.md "wikilink"
+  [Type of item]: ../Item%20ID.md "wikilink"

@@ -150,4 +150,4 @@ values).
 Also, whenever I use numbers with $ signs above, it means I'm using hex
 values (hexadecimal).
 
-  [Terence Fergusson]: ../../../User:Terence%20Fergusson.md "wikilink"
+  [Terence Fergusson]: ../../User:Terence%20Fergusson.md "wikilink"

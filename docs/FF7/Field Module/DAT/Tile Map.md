@@ -137,5 +137,5 @@ SpriteTP\_Blend infos, you must use section 3.
 ` UINT8 State;`  
 `} SpriteTile2;`
 
-  [Cyberman]: ../../../../User:Cyberman.md "wikilink"
-  [Myst6re]: ../../../../User:Myst6re.md "wikilink"
+  [Cyberman]: ../../../User:Cyberman.md "wikilink"
+  [Myst6re]: ../../../User:Myst6re.md "wikilink"

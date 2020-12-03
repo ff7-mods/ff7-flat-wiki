@@ -202,7 +202,7 @@ supported by a small band of users. Unofficial patches have also been
 released with varying degrees of success. Not bad for a little engine
 that could.
 
-  [Halkun]: ../../User:Halkun.md "wikilink"
+  [Halkun]: ../User:Halkun.md "wikilink"
   [Nintendo]: http://www.nintendo.com/
   [<http://www.zophar.net/tech/psx.html>]: http://www.zophar.net/tech/psx.html
-  [Final Fantasy VIII]: ../../FF8.md "wikilink"
+  [Final Fantasy VIII]: ../FF8.md "wikilink"

@@ -28,5 +28,5 @@ the OK button. This allows the script to do other things while the
 window is open while preventing the player from dismissing the window
 too early (like play sounds or animations).
 
-  [AMES]: ../065%20AMES.md "wikilink"
-  [WINCLOSE]: ../04C%20WINCLOSE.md "wikilink"
+  [AMES]: 065%20AMES.md "wikilink"
+  [WINCLOSE]: 04C%20WINCLOSE.md "wikilink"

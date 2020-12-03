@@ -89,5 +89,5 @@ one that if the PC object crosses this line the object should be in the
 indentified triangle. FF7 will halt running if you are not in the
 **access** specified triangle.
 
-  [Kero]: ../../../User:Kero.md "wikilink"
-  [1]: ../../../assets/Field%20Wutai.jpg "Field_Wutai.jpg"
+  [Kero]: ../../User:Kero.md "wikilink"
+  [1]: ../../assets/Field%20Wutai.jpg "Field_Wutai.jpg"

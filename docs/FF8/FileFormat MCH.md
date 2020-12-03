@@ -148,7 +148,7 @@ unknown.
 
 <small>todo</small>
 
-  [Koral]: ../../User:Koral.md "wikilink"
+  [Koral]: ../User:Koral.md "wikilink"
   [JWP]: http://forums.qhimm.com/index.php?topic=6961.msg86318#msg86318
   [Vehek]: http://forums.qhimm.com/index.php?topic=13261.msg184344#msg184344
-  [TIM format]: ../../PSX/TIM%20format.md "wikilink"
+  [TIM format]: ../PSX/TIM%20format.md "wikilink"

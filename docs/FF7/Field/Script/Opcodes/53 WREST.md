@@ -30,11 +30,11 @@ Resets the given window, including the following parameters:
 The reset window has a position of approximately (5,5), with a width and
 height of approximately (0x130, 0x45).
 
-  [WMOVE]: ../51%20WMOVE.md "wikilink"
-  [WSIZW]: ../2F%20WSIZW.md "wikilink"
-  [WROW]: ../55%20WROW.md "wikilink"
-  [WINDOW]: ../50%20WINDOW.md "wikilink"
-  [WMODE]: ../52%20WMODE.md "wikilink"
-  [WSPCL]: ../36%20WSPCL.md "wikilink"
-  [MPARA]: ../41%20MPARA.md "wikilink"
-  [MPRA2]: ../42%20MPRA2.md "wikilink"
+  [WMOVE]: 51%20WMOVE.md "wikilink"
+  [WSIZW]: 2F%20WSIZW.md "wikilink"
+  [WROW]: 55%20WROW.md "wikilink"
+  [WINDOW]: 50%20WINDOW.md "wikilink"
+  [WMODE]: 52%20WMODE.md "wikilink"
+  [WSPCL]: 36%20WSPCL.md "wikilink"
+  [MPARA]: 41%20MPARA.md "wikilink"
+  [MPRA2]: 42%20MPRA2.md "wikilink"

@@ -24,4 +24,4 @@ given ID. As with [MOVA][], the entity ID is an offset in the entire
 entity list, and not into the visible object/entities list, and will
 also have no effect if a non-visible entity is given.
 
-  [MOVA]: ../AA%20MOVA.md "wikilink"
+  [MOVA]: AA%20MOVA.md "wikilink"

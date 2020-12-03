@@ -109,7 +109,7 @@ kilobytes at a time in this "quick mode" In this mode the kernel also
 only references files by what sector of the CD-ROM the data is located
 on, not by filename.
 
-  [Savemap]: ../../Savemap.md "wikilink"
-  [field scripting language]: ../../Field%20script.md "wikilink"
-  [1]: ../../../assets/Gears%20img%203.jpg "Gears_img_3.jpg"
-  [2]: ../../../assets/Gears%20img%204.jpg "Gears_img_4.jpg"
+  [Savemap]: ../Savemap.md "wikilink"
+  [field scripting language]: ../Field%20script.md "wikilink"
+  [1]: ../../assets/Gears%20img%203.jpg "Gears_img_3.jpg"
+  [2]: ../../assets/Gears%20img%204.jpg "Gears_img_4.jpg"

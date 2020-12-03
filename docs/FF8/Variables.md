@@ -310,6 +310,6 @@ battle scripts).
 -   FH Concert Crappiness
 -   Something in B-Garden classroom during the paratrooper attack.
 
-  [Shard]: ../../User:Shard.md "wikilink"
+  [Shard]: ../User:Shard.md "wikilink"
   [Cheat Engine table]: https://www.mediafire.com/?ucolf65ewq1yoty%7Cthis
-  [SEALEDOFF]: ../Field/Script/Opcodes/159%20SEALEDOFF.md "wikilink"
+  [SEALEDOFF]: Field/Script/Opcodes/159%20SEALEDOFF.md "wikilink"

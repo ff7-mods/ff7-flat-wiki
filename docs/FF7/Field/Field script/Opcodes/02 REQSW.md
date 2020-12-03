@@ -6,5 +6,5 @@ title: 02 REQSW
 
 1.  REDIRECT [FF7/Field/Script/Opcodes/02 REQSW][]
 
-  [FF7/Field/Script/Opcodes/02 REQSW]: ../../../Script/Opcodes/02%20REQSW.md
+  [FF7/Field/Script/Opcodes/02 REQSW]: ../../Script/Opcodes/02%20REQSW.md
     "wikilink"

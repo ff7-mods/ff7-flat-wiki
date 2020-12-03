@@ -104,5 +104,5 @@ zero), you should always color key.
 sampled from the palette is 0xFE, this value should be replaced with the
 reference alpha.*
 
-  [Mirex]: ../../User:Mirex.md "wikilink"
-  [Aali]: ../../User:Aali.md "wikilink"
+  [Mirex]: ../User:Mirex.md "wikilink"
+  [Aali]: ../User:Aali.md "wikilink"

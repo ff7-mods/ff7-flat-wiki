@@ -6,5 +6,5 @@ title: 01 REQ
 
 1.  REDIRECT [FF7/Field/Script/Opcodes/01 REQ][]
 
-  [FF7/Field/Script/Opcodes/01 REQ]: ../../../Script/Opcodes/01%20REQ.md
+  [FF7/Field/Script/Opcodes/01 REQ]: ../../Script/Opcodes/01%20REQ.md
     "wikilink"

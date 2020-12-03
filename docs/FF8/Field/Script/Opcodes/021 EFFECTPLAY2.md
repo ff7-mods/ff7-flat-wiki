@@ -36,5 +36,5 @@ Note: It seems each area can have a maximum of 32 sounds predefined
 (meaning sound ID 31 is the highest you can play with this). You have to
 use [EFFECTPLAY][] to use more than 32 sounds.
 
-  [SESTOP]: ../0CD%20SESTOP.md "wikilink"
-  [EFFECTPLAY]: ../0BC%20EFFECTPLAY.md "wikilink"
+  [SESTOP]: 0CD%20SESTOP.md "wikilink"
+  [EFFECTPLAY]: 0BC%20EFFECTPLAY.md "wikilink"

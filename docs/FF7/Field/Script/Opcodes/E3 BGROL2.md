@@ -26,4 +26,4 @@ Similar to [BGROL][], except the roll runs backwards through layers,
 rather than forwards. Rolling backwards past layer 0 for the area
 specified results in no background being shown.
 
-  [BGROL]: ../E2%20BGROL.md "wikilink"
+  [BGROL]: E2%20BGROL.md "wikilink"

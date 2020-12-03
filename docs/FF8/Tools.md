@@ -63,7 +63,7 @@ The following are patches that change the overall FFVIII experience.
 | Ifrit        | Editor of ff8 .dat files (enemy data)                             | [gjoerulv][] | 0.9.0.1          | [Forum][23], [Binary][24]                |
 | PuPu         | Field Importer/Exporter                                           | [Omzy][]     | 1                | [Forum][25]                              |
 
-  [Final Fantasy VIII]: ../../FF8.md "wikilink"
+  [Final Fantasy VIII]: ../FF8.md "wikilink"
   [Patch (Final Fantasy Soundfont Project)]: http://ffsf.aaron-kelley.net/patch.html
   [Aali]: http://forums.qhimm.com/index.php?action=profile;u=2862
   [Forum]: http://forums.qhimm.com/index.php?topic=8306.0

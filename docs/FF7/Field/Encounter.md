@@ -98,6 +98,6 @@ following order:
 -   Side Attack
 -   Attack From Both Sides
 
-  [battle IDs]: ../../Battle/Battle%20Scenes.md "wikilink"
-  [BTLTB]: ../Script/Opcodes/4B%20BTLTB.md "wikilink"
+  [battle IDs]: ../Battle/Battle%20Scenes.md "wikilink"
+  [BTLTB]: Script/Opcodes/4B%20BTLTB.md "wikilink"
   [Battle Mechanics Guide]: http://db.gamefaqs.com/console/psx/file/final_fantasy_vii_enemy_mech.txt

@@ -26,4 +26,4 @@ configuration in Final Fantasy VII configurator.
 
 [Back to Technical Problems page][]
 
-  [Back to Technical Problems page]: ../../Technical.md "wikilink"
+  [Back to Technical Problems page]: ../Technical.md "wikilink"

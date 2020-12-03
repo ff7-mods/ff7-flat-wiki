@@ -25,6 +25,6 @@ title: Video Formats
 `simply takes this moment to decode it to wav (of course, it's not as "simple" to complete such great work at all Cheesy)`  
 `--SilverWings`
 
-  [1]: ../Video%20Formats.md#PSMF%20Format "wikilink"
+  [1]: Video%20Formats.md#PSMF%20Format "wikilink"
   [`http://www.psp-hacks.com/forums/f134/guide-convert-pmf-to-avi-t159985`]:
     http://www.psp-hacks.com/forums/f134/guide-convert-pmf-to-avi-t159985

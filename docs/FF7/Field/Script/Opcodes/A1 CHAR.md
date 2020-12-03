@@ -55,4 +55,4 @@ with FObject3. As you can see, the argument provides no information as
 to which object to use. Simply put, as each CHAR entity is read, the
 next sequential field object in the loader is assigned to it.
 
-  [Section 3]: ../../../../../../../../../FF7/Field/Object%20Loader.md "wikilink"
+  [Section 3]: ../../../../../../../../FF7/Field/Object%20Loader.md "wikilink"

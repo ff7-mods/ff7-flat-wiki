@@ -32,4 +32,4 @@ coordinates, at the speed previously specified by [MSPED][]. The
 object's standard walk animation is used, found with animation ID 1 in
 the field object associated with this entity.
 
-  [MSPED]: ../B2%20MSPED.md "wikilink"
+  [MSPED]: B2%20MSPED.md "wikilink"

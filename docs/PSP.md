@@ -56,6 +56,6 @@ The GMO Format is described in greater detail here: [PSP GMO Format][]
 -   Gitaroo Man Lives!
 -   Exit
 
-  [Koral]: ../User:Koral.md "wikilink"
-  [PSP GMO Format]: ../PSP/GMO%20Format.md "wikilink"
-  [Final Fantasy: Dissidia]: ../Dissidia.md "wikilink"
+  [Koral]: User:Koral.md "wikilink"
+  [PSP GMO Format]: PSP/GMO%20Format.md "wikilink"
+  [Final Fantasy: Dissidia]: Dissidia.md "wikilink"

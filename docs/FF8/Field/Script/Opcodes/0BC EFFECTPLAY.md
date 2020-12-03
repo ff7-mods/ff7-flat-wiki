@@ -43,5 +43,5 @@ For example, when you touch a save point, it calls EFFECTPLAY on sound
 Sound channel 0 appears to be able to play sounds while it's already
 playing sounds. Each other channels can only play one sound at a time.
 
-  [SESTOP]: ../0CD%20SESTOP.md "wikilink"
-  [EFFECTPLAY2]: ../021%20EFFECTPLAY2.md "wikilink"
+  [SESTOP]: 0CD%20SESTOP.md "wikilink"
+  [EFFECTPLAY2]: 021%20EFFECTPLAY2.md "wikilink"

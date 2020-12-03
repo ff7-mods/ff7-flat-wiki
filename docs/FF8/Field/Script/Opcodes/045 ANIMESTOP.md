@@ -21,4 +21,4 @@ none
 
 Returns this entity to its [base animation][].
 
-  [base animation]: ../02C%20BASEANIME.md "wikilink"
+  [base animation]: 02C%20BASEANIME.md "wikilink"

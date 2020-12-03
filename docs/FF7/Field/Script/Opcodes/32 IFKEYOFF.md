@@ -26,4 +26,4 @@ execute the body of the "if" statement until the user has lifted the key
 that was previously held down or pressed. This way, the body of the
 statement will only be executed once, when the key is no longer pressed.
 
-  [IFKEYON]: ../31%20IFKEYON.md "wikilink"
+  [IFKEYON]: 31%20IFKEYON.md "wikilink"

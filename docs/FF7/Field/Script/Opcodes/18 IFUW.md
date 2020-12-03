@@ -30,4 +30,4 @@ title: 18 IFUW
 This is similar to the [IFUB][] opcode, but it allows the value to be
 larger than 0xFF.
 
-  [IFUB]: ../14%20IFUB.md "wikilink"
+  [IFUB]: 14%20IFUB.md "wikilink"

@@ -31,4 +31,4 @@ current op index to index for each script.
 THEN the script control is passed to the script *F* within the current
 entity with the priority *P*.
 
-  [priority]: ../../Priorities.md "wikilink"
+  [priority]: ../Priorities.md "wikilink"

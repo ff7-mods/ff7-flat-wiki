@@ -27,5 +27,5 @@ Vibrates the controller.
 
 [Category:Unfinished FF8 Opcodes][]
 
-  [Category:Unfinished FF8 Opcodes]: ../../../../../Category:Unfinished%20FF8%20Opcodes.md
+  [Category:Unfinished FF8 Opcodes]: ../../../../Category:Unfinished%20FF8%20Opcodes.md
     "wikilink"

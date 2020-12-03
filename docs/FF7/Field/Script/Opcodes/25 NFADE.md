@@ -37,4 +37,4 @@ title: 25 NFADE
 
 See [FADE][] op code page for full details.
 
-  [FADE]: ../6B%20FADE.md "wikilink"
+  [FADE]: 6B%20FADE.md "wikilink"

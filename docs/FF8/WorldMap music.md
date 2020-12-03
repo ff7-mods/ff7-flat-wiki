@@ -19,4 +19,4 @@ frames. AKAO are probably the same as in FF7: [AKAO frames][].
 
 **music5.obj** - ragnarok theme
 
-  [AKAO frames]: ../../FF7/AKAOframes.md "wikilink"
+  [AKAO frames]: ../FF7/AKAOframes.md "wikilink"

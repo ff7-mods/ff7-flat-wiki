@@ -30,5 +30,5 @@ Similar to [BGON][], only this opcode turns *off* the portion of
 background whose [background sprite][] specifies it as belonging to the
 scripted area and layer specified.
 
-  [BGON]: ../E0%20BGON.md "wikilink"
-  [background sprite]: ../../../Sprite.md "wikilink"
+  [BGON]: E0%20BGON.md "wikilink"
+  [background sprite]: ../../Sprite.md "wikilink"

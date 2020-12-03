@@ -39,6 +39,6 @@ window is closed and reopened.
 | 2   | Transparent Background |
 |     |                        |
 
-  [WINDOW]: ../50%20WINDOW.md "wikilink"
-  [MESSAGE]: ../40%20MESSAGE.md "wikilink"
-  [ASK]: ../48%20ASK.md "wikilink"
+  [WINDOW]: 50%20WINDOW.md "wikilink"
+  [MESSAGE]: 40%20MESSAGE.md "wikilink"
+  [ASK]: 48%20ASK.md "wikilink"

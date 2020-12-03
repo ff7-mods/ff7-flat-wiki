@@ -61,5 +61,5 @@ This section contains the armor data. Each record is 36 bytes long.
 | Other values have no effect |                                   |                                                                                                    |
 |            0x22             | 2 bytes                           | Unknown \[Always 0xFFFF\]                                                                          |
 
-  [Status Defense]: ../Battle/Status%20Effects.md "wikilink"
-  [Elemental Defense]: ../Battle/Elemental%20Data.md "wikilink"
+  [Status Defense]: Battle/Status%20Effects.md "wikilink"
+  [Elemental Defense]: Battle/Elemental%20Data.md "wikilink"

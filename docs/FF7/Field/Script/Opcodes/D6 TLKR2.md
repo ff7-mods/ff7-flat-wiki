@@ -23,4 +23,4 @@ title: D6 TLKR2
 
 Similar to [TALKR][], but allows a two-byte range value to be used.
 
-  [TALKR]: ../C5%20TALKR.md "wikilink"
+  [TALKR]: C5%20TALKR.md "wikilink"

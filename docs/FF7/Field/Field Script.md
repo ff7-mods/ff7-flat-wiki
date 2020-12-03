@@ -6,4 +6,4 @@ title: Field Script
 
 1.  REDIRECT [FF7/Field/Script][]
 
-  [FF7/Field/Script]: ../Script.md "wikilink"
+  [FF7/Field/Script]: Script.md "wikilink"

@@ -30,6 +30,6 @@ a [gateway][], and can complement their usage as it allows for more than
 12 gateways by simulating their behaviour through a [LINE][] which, when
 crossed, executes a MAPJUMP.
 
-  [Field ID]: ../../../Field%20List.md "wikilink"
-  [gateway]: ../../../3D%20Related.md "wikilink"
-  [LINE]: ../D0%20LINE.md "wikilink"
+  [Field ID]: ../../Field%20List.md "wikilink"
+  [gateway]: ../../3D%20Related.md "wikilink"
+  [LINE]: D0%20LINE.md "wikilink"

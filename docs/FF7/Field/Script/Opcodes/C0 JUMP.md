@@ -67,5 +67,5 @@ Neither animation nor sound is specified in this opcode. An animation is
 played by using an animation opcode such as [DFANM][], and a [SOUND][]
 played, before the jump.
 
-  [DFANM]: ../A2%20DFANM.md "wikilink"
-  [SOUND]: ../F1%20SOUND.md "wikilink"
+  [DFANM]: A2%20DFANM.md "wikilink"
+  [SOUND]: F1%20SOUND.md "wikilink"

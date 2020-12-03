@@ -23,4 +23,4 @@ play further in-game. This can be fixed using [Aali's OpenGL driver][].
 [Back to Technical Problems page][]
 
   [Aali's OpenGL driver]: http://forums.qhimm.com/index.php?topic=8306.0
-  [Back to Technical Problems page]: ../../Technical.md "wikilink"
+  [Back to Technical Problems page]: ../Technical.md "wikilink"

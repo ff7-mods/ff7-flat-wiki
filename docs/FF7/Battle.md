@@ -10,6 +10,6 @@ title: Battle
     -   [Battle Scenes (scene.bin)][]
     -   [Battle Animation (PC)][]
 
-  [Battle Mechanics]: ../Battle/Battle%20Mechanics.md "wikilink"
-  [Battle Scenes (scene.bin)]: ../Battle/Battle%20Scenes.md "wikilink"
-  [Battle Animation (PC)]: ../Battle/Battle%20Animation%20(PC).md "wikilink"
+  [Battle Mechanics]: Battle/Battle%20Mechanics.md "wikilink"
+  [Battle Scenes (scene.bin)]: Battle/Battle%20Scenes.md "wikilink"
+  [Battle Animation (PC)]: Battle/Battle%20Animation%20(PC).md "wikilink"

@@ -26,5 +26,5 @@ third in the party), but a Character ID (like in [MMBud][]). If the
 specified character ID is not in your party, the field object will turn
 to the main character.
 
-  [PTURA]: ../35%20PTURA.md "wikilink"
-  [MMBud]: ../CD%20MMBud.md "wikilink"
+  [PTURA]: 35%20PTURA.md "wikilink"
+  [MMBud]: CD%20MMBud.md "wikilink"

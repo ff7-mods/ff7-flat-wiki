@@ -20,4 +20,4 @@ none
 
 Enables user control. See [UCOFF][] for details.
 
-  [UCOFF]: ../04E%20UCOFF.md "wikilink"
+  [UCOFF]: 04E%20UCOFF.md "wikilink"

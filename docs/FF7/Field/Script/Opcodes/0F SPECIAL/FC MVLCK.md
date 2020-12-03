@@ -20,4 +20,4 @@ title: FC MVLCK
 Enables or disables the playing of movies; if the movie lock is set to
 on (1), movies will not be played with the [MOVIE][] opcode.
 
-  [MOVIE]: ../../F9%20MOVIE.md "wikilink"
+  [MOVIE]: ../F9%20MOVIE.md "wikilink"

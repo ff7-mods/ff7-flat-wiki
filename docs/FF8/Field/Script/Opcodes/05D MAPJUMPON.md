@@ -23,4 +23,4 @@ Lets the player leave a field via a field exit (ie walk off the screen
 to go to another area). This is the default behavior of fields. This
 function is only used to undo [MAPJUMPOFF][].
 
-  [MAPJUMPOFF]: ../05E%20MAPJUMPOFF.md "wikilink"
+  [MAPJUMPOFF]: 05E%20MAPJUMPOFF.md "wikilink"

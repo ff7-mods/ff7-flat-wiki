@@ -71,8 +71,8 @@ what they contain.\]</small>
 | Dissidia Data-Extration Tools  | Number of essential tools to view and extract the data files from the Dissidia game-files      | Vash         |                  | [Website][]          |
 | GMO File Viewer (aka mesh2rdm) | Powerful file viewer and extractor, exporting out models from Dissidia GMO files as OBJ or SMD | [MrAdults][] | v2.02            | [Blog and Website][] |
 
-  [Koral]: ../User:Koral.md "wikilink"
-  [PSP GMO Format]: ../PSP/GMO%20Format.md "wikilink"
+  [Koral]: User:Koral.md "wikilink"
+  [PSP GMO Format]: PSP/GMO%20Format.md "wikilink"
   [Website]: http://www.alucard.cc/
   [MrAdults]: http://forums.qhimm.com/index.php?action=profile;u=3607
   [Blog and Website]: http://www.richwhitehouse.com/index.php?postid=35

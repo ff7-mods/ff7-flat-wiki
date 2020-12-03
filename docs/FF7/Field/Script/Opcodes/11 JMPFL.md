@@ -24,4 +24,4 @@ just after the jump opcode itself and then skips the specified number of
 bytes. Unlike [JMPF][], this jump command allows jumps longer than 0xFF
 bytes.
 
-  [JMPF]: ../10%20JMPF.md "wikilink"
+  [JMPF]: 10%20JMPF.md "wikilink"

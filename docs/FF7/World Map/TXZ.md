@@ -93,5 +93,5 @@ These sections contain songs in standard AKAO format. Presumably the
 different overworld background themes are in there, don't know what
 else?
 
-  [FF7/WorldMap\_Module/TextureTable]: ../../WorldMap%20Module/TextureTable.md
+  [FF7/WorldMap\_Module/TextureTable]: ../WorldMap%20Module/TextureTable.md
     "wikilink"

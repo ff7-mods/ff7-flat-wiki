@@ -40,15 +40,15 @@ Each record is 28 bytes long.
 | 0x18   | 2 bytes                           | [Element][]                                  |
 | 0x1A   | 2 bytes                           | [Special Attack Flags][]                     |
 
-  [Impact Effect Id]: ../Battle/Impact%20Effect%20Id%20List.md "wikilink"
-  [Impact Sound]: ../Battle/Sound%20Effect%20Id%20List.md "wikilink"
-  [Camera Movement Id]: ../Battle/Camera%20Movement%20Id%20List?redlink=1.md
+  [Impact Effect Id]: Battle/Impact%20Effect%20Id%20List.md "wikilink"
+  [Impact Sound]: Battle/Sound%20Effect%20Id%20List.md "wikilink"
+  [Camera Movement Id]: Battle/Camera%20Movement%20Id%20List?redlink=1.md
     "wikilink"
-  [Target Flags]: ../Battle/Targeting%20Data.md "wikilink"
-  [Attack Effect Id]: ../Battle/Attack%20Effect%20Id%20List.md "wikilink"
-  [Damage Calculation]: ../Battle/Damage%20Calculation.md "wikilink"
-  [Attack Additional Effects]: ../Battle/Attack%20Special%20Effects.md
+  [Target Flags]: Battle/Targeting%20Data.md "wikilink"
+  [Attack Effect Id]: Battle/Attack%20Effect%20Id%20List.md "wikilink"
+  [Damage Calculation]: Battle/Damage%20Calculation.md "wikilink"
+  [Attack Additional Effects]: Battle/Attack%20Special%20Effects.md
     "wikilink"
-  [Status]: ../Battle/Status%20Effects.md "wikilink"
-  [Element]: ../Battle/Elemental%20Data.md "wikilink"
-  [Special Attack Flags]: ../Battle/Special%20Attack%20Flags.md "wikilink"
+  [Status]: Battle/Status%20Effects.md "wikilink"
+  [Element]: Battle/Elemental%20Data.md "wikilink"
+  [Special Attack Flags]: Battle/Special%20Attack%20Flags.md "wikilink"

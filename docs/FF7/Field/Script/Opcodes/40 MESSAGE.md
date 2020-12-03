@@ -24,5 +24,5 @@ title: 40 MESSAGE
 Displays a dialog in the [WINDOW][] that has previously been initialised
 to display this dialog.
 
-  [dialog]: ../../../Script.md "wikilink"
-  [WINDOW]: ../50%20WINDOW.md "wikilink"
+  [dialog]: ../../Script.md "wikilink"
+  [WINDOW]: 50%20WINDOW.md "wikilink"

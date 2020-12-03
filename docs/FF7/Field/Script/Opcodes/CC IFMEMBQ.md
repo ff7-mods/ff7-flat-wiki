@@ -26,5 +26,5 @@ the script immediately following this opcode and argument list will
 execute; otherwise, the script pointer is advanced by the second
 argument and execution continues.
 
-  [Character ID]: ../../../Character%20ID.md "wikilink"
-  [MMBud]: ../CD%20MMBud.md "wikilink"
+  [Character ID]: ../../Character%20ID.md "wikilink"
+  [MMBud]: CD%20MMBud.md "wikilink"

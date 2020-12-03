@@ -26,4 +26,4 @@ none
 Does exactly what you think. See [Item Codes][] for a list of item
 codes.
 
-  [Item Codes]: ../../../../Item%20Codes.md "wikilink"
+  [Item Codes]: ../../../Item%20Codes.md "wikilink"

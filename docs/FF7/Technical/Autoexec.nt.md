@@ -39,4 +39,4 @@ this problem.
 [Back to Technical Problems page][]
 
   [Microsoft Knowledge Base]: http://support.microsoft.com/default.aspx?scid=kb;en-us;324767
-  [Back to Technical Problems page]: ../../Technical.md "wikilink"
+  [Back to Technical Problems page]: ../Technical.md "wikilink"

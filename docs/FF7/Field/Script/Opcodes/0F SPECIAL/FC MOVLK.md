@@ -6,5 +6,5 @@ title: FC MOVLK
 
 1.  REDIRECT [FF7/Field/Script/Opcodes/0F SPECIAL/FC MVLCK][]
 
-  [FF7/Field/Script/Opcodes/0F SPECIAL/FC MVLCK]: ../../0F%20SPECIAL/FC%20MVLCK.md
+  [FF7/Field/Script/Opcodes/0F SPECIAL/FC MVLCK]: ../0F%20SPECIAL/FC%20MVLCK.md
     "wikilink"

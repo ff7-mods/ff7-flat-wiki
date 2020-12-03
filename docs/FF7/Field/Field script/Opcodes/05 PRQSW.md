@@ -6,5 +6,5 @@ title: 05 PRQSW
 
 1.  REDIRECT [FF7/Field/Script/Opcodes/05 PRQSW][]
 
-  [FF7/Field/Script/Opcodes/05 PRQSW]: ../../../Script/Opcodes/05%20PRQSW.md
+  [FF7/Field/Script/Opcodes/05 PRQSW]: ../../Script/Opcodes/05%20PRQSW.md
     "wikilink"

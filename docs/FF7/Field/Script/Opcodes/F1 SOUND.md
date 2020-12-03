@@ -31,4 +31,4 @@ sound with ID found at bank *B1* and address *I*. The direction of the
 sound can also be specified, with 0 indicating the left speaker, 40
 indicating center, and 7F indicating the right speaker.
 
-  [Sound ID]: ../../../Sound%20ID%20Table.md "wikilink"
+  [Sound ID]: ../../Sound%20ID%20Table.md "wikilink"

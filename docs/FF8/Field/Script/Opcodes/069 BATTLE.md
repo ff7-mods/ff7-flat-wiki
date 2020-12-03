@@ -46,4 +46,4 @@ Begin a battle with the given encounter id.
 
 +128: unknown
 
-  [Encounter ID]: ../../../../Encounter%20Codes.md "wikilink"
+  [Encounter ID]: ../../../Encounter%20Codes.md "wikilink"

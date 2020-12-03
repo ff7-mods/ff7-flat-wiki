@@ -20,4 +20,4 @@ none
 
 Shows this entity's model on the field. See also [HIDE][].
 
-  [HIDE]: ../061%20HIDE.md "wikilink"
+  [HIDE]: 061%20HIDE.md "wikilink"

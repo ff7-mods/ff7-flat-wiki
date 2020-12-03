@@ -217,4 +217,4 @@ character:
 | 0x2F   | 1 byte             | Home walking                                                                                                   |
 | 0x30   | 16 bytes           | Unknown (unused?)                                                                                              |
 
-  [Field vars]: ../Variables.md "wikilink"
+  [Field vars]: Variables.md "wikilink"

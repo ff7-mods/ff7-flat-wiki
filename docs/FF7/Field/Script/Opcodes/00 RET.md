@@ -29,8 +29,8 @@ signalled to the calling entity which can resume execution.
 If *return* is used when executing at base priority, execution will
 simply halt. This is what happens in the [entry scripts][].
 
-  [entity]: ../../Entity.md "wikilink"
-  [priority]: ../../Priorities.md "wikilink"
-  [REQEW]: ../03%20REQEW.md "wikilink"
-  [PRQEW]: ../06%20PRQEW.md "wikilink"
-  [entry scripts]: ../../../Scripts/Entry%20script.md "wikilink"
+  [entity]: ../Entity.md "wikilink"
+  [priority]: ../Priorities.md "wikilink"
+  [REQEW]: 03%20REQEW.md "wikilink"
+  [PRQEW]: 06%20PRQEW.md "wikilink"
+  [entry scripts]: ../../Scripts/Entry%20script.md "wikilink"

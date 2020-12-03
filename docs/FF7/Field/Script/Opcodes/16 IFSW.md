@@ -30,4 +30,4 @@ title: 16 IFSW
 This is similar to the [IFUW][] opcode, but the value compared to may be
 negative.
 
-  [IFUW]: ../18%20IFUW.md "wikilink"
+  [IFUW]: 18%20IFUW.md "wikilink"

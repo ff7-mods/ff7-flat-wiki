@@ -31,4 +31,4 @@ This is similar to the [IFUB][] opcode, but it allows a jump of more
 than 0xFF if the comparison does not hold. This opcode is used if the
 'if' block will be longer than 0xFF.
 
-  [IFUB]: ../14%20IFUB.md "wikilink"
+  [IFUB]: 14%20IFUB.md "wikilink"

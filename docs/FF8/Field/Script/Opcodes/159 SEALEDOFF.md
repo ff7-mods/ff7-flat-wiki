@@ -46,4 +46,4 @@ Flags:
 
 128\. Save
 
-  [byte 334]: ../../../../Variables.md "wikilink"
+  [byte 334]: ../../../Variables.md "wikilink"

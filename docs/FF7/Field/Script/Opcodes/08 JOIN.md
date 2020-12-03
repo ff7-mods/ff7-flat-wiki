@@ -36,4 +36,4 @@ the party members to appear at the walkmesh origin and attempt to JOIN
 from there. This is not normally the required behaviour and should be
 avoided.
 
-  [SPLIT]: ../09%20SPLIT.md "wikilink"
+  [SPLIT]: 09%20SPLIT.md "wikilink"

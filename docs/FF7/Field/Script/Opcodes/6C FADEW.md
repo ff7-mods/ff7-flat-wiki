@@ -24,4 +24,4 @@ issued by any entity, to fully complete before continuing execution. If
 no FADE has been issued by any entity, or previous FADE calls have
 already completed, the FADEW call is ignored.
 
-  [FADE]: ../6B%20FADE.md "wikilink"
+  [FADE]: 6B%20FADE.md "wikilink"

@@ -23,4 +23,4 @@ before a call to [CTURN][] to set which character will be faced. IDK
 what happens when you try to use literals for CTURN or why this function
 is necessary.
 
-  [CTURN]: ../090%20CTURN.md "wikilink"
+  [CTURN]: 090%20CTURN.md "wikilink"

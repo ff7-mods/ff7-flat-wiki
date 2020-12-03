@@ -6,4 +6,4 @@ title: The Kernel
 
 1.  REDIRECT [FF7/Kernel][]
 
-  [FF7/Kernel]: ../Kernel.md "wikilink"
+  [FF7/Kernel]: Kernel.md "wikilink"

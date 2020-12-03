@@ -105,55 +105,55 @@ All field files should contain 9 sections; it's what FF7 expects.
 <td style="text-align: center;"><p>0x06</p></td>
 <td style="text-align: center;"><p>4 bytes</p></td>
 <td style="text-align: center;"><p>Pointer to Section 1</p></td>
-<td style="text-align: center;"><p><a href="../Field/Field%20Script.md" title="wikilink">Field Script &amp; Dialog</a></p></td>
+<td style="text-align: center;"><p><a href="Field/Field%20Script.md" title="wikilink">Field Script &amp; Dialog</a></p></td>
 </tr>
 <tr class="even">
 <td style="text-align: center;"><p>0x0A</p></td>
 <td style="text-align: center;"><p>4 bytes</p></td>
 <td style="text-align: center;"><p>Pointer to Section 2</p></td>
-<td style="text-align: center;"><p><a href="../Field/Camera%20Matrix.md" title="wikilink">Camera Matrix</a></p></td>
+<td style="text-align: center;"><p><a href="Field/Camera%20Matrix.md" title="wikilink">Camera Matrix</a></p></td>
 </tr>
 <tr class="odd">
 <td style="text-align: center;"><p>0x0E</p></td>
 <td style="text-align: center;"><p>4 bytes</p></td>
 <td style="text-align: center;"><p>Pointer to Section 3</p></td>
-<td style="text-align: center;"><p><a href="../Field/Model%20Loader.md" title="wikilink">Model Loader</a></p></td>
+<td style="text-align: center;"><p><a href="Field/Model%20Loader.md" title="wikilink">Model Loader</a></p></td>
 </tr>
 <tr class="even">
 <td style="text-align: center;"><p>0x12</p></td>
 <td style="text-align: center;"><p>4 bytes</p></td>
 <td style="text-align: center;"><p>Pointer to Section 4</p></td>
-<td style="text-align: center;"><p><a href="../Field/Palette.md" title="wikilink">Palette</a></p></td>
+<td style="text-align: center;"><p><a href="Field/Palette.md" title="wikilink">Palette</a></p></td>
 </tr>
 <tr class="odd">
 <td style="text-align: center;"><p>0x16</p></td>
 <td style="text-align: center;"><p>4 bytes</p></td>
 <td style="text-align: center;"><p>Pointer to Section 5</p></td>
-<td style="text-align: center;"><p><a href="../Field/Walkmesh.md" title="wikilink">Walkmesh</a></p></td>
+<td style="text-align: center;"><p><a href="Field/Walkmesh.md" title="wikilink">Walkmesh</a></p></td>
 </tr>
 <tr class="even">
 <td style="text-align: center;"><p>0x1A</p></td>
 <td style="text-align: center;"><p>4 bytes</p></td>
 <td style="text-align: center;"><p>Pointer to Section 6</p></td>
-<td style="text-align: center;"><p><a href="../Field%20Module/DAT/Tile%20Map.md" title="wikilink">TileMap</a> (Unused)</p></td>
+<td style="text-align: center;"><p><a href="Field%20Module/DAT/Tile%20Map.md" title="wikilink">TileMap</a> (Unused)</p></td>
 </tr>
 <tr class="odd">
 <td style="text-align: center;"><p>0x1E</p></td>
 <td style="text-align: center;"><p>4 bytes</p></td>
 <td style="text-align: center;"><p>Pointer to Section 7</p></td>
-<td style="text-align: center;"><p><a href="../Field/Encounter.md" title="wikilink">Encounter</a></p></td>
+<td style="text-align: center;"><p><a href="Field/Encounter.md" title="wikilink">Encounter</a></p></td>
 </tr>
 <tr class="even">
 <td style="text-align: center;"><p>0x22</p></td>
 <td style="text-align: center;"><p>4 bytes</p></td>
 <td style="text-align: center;"><p>Pointer to Section 8</p></td>
-<td style="text-align: center;"><p><a href="../Field/Triggers.md" title="wikilink">Triggers</a></p></td>
+<td style="text-align: center;"><p><a href="Field/Triggers.md" title="wikilink">Triggers</a></p></td>
 </tr>
 <tr class="odd">
 <td style="text-align: center;"><p>0x26</p></td>
 <td style="text-align: center;"><p>4 bytes</p></td>
 <td style="text-align: center;"><p>Pointer to Section 9</p></td>
-<td style="text-align: center;"><p><a href="../Field/Background.md" title="wikilink">Background</a></p></td>
+<td style="text-align: center;"><p><a href="Field/Background.md" title="wikilink">Background</a></p></td>
 </tr>
 <tr class="even">
 <td style="text-align: center;"><p>0x2A</p></td>
@@ -207,32 +207,32 @@ at the begining of the file.
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: center;"><p><a href="../Field/Script.md" title="wikilink">Script</a></p></td>
+<td style="text-align: center;"><p><a href="Field/Script.md" title="wikilink">Script</a></p></td>
 <td style="text-align: center;"><p>Contains conversations, save point interaction etc.</p></td>
 </tr>
 <tr class="even">
-<td style="text-align: center;"><p><a href="../Field/Walkmesh.md" title="wikilink">Walkmesh</a></p></td>
+<td style="text-align: center;"><p><a href="Field/Walkmesh.md" title="wikilink">Walkmesh</a></p></td>
 <td style="text-align: center;"><p>Contains walkmesh triangles and access info.</p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: center;"><p><a href="../Field%20Module/DAT/Tile%20Map.md" title="wikilink">TileMap</a></p></td>
+<td style="text-align: center;"><p><a href="Field%20Module/DAT/Tile%20Map.md" title="wikilink">TileMap</a></p></td>
 <td style="text-align: center;"><p>Contains the information for the background, animation,<br />
 and static scene objects.</p></td>
 </tr>
 <tr class="even">
-<td style="text-align: center;"><p><a href="../Field/Camera%20Matrix.md" title="wikilink">Camera_Matrix</a></p></td>
+<td style="text-align: center;"><p><a href="Field/Camera%20Matrix.md" title="wikilink">Camera_Matrix</a></p></td>
 <td style="text-align: center;"><p>Contains camera info.</p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: center;"><p><a href="../Field/Triggers.md" title="wikilink">Triggers</a></p></td>
+<td style="text-align: center;"><p><a href="Field/Triggers.md" title="wikilink">Triggers</a></p></td>
 <td style="text-align: center;"><p>Contains triggers, singles, gateways and so on.</p></td>
 </tr>
 <tr class="even">
-<td style="text-align: center;"><p><a href="../Field/Encounter.md" title="wikilink">Encounter</a></p></td>
+<td style="text-align: center;"><p><a href="Field/Encounter.md" title="wikilink">Encounter</a></p></td>
 <td style="text-align: center;"><p>Battle Encounter information for location.</p></td>
 </tr>
 <tr class="odd">
-<td style="text-align: center;"><p><a href="../Field/Models.md" title="wikilink">Models</a></p></td>
+<td style="text-align: center;"><p><a href="Field/Models.md" title="wikilink">Models</a></p></td>
 <td style="text-align: center;"><p>Some info about field models.</p></td>
 </tr>
 </tbody>
@@ -350,20 +350,20 @@ Frame starts with the root rotations and root translations, followed by
 rotations for each bone. Rotations are stored as 3 floats (float is
 4byte floating-point number).
 
-  [here]: ../Field/Field%20ID.md "wikilink"
+  [here]: Field/Field%20ID.md "wikilink"
   [Snapshot of the PSX's VRAM demonstrating the background field files in various stages of assembly.]:
     Field_BackgroundVRAM.jpg
     "Snapshot of the PSX's VRAM demonstrating the background field files in various stages of assembly."
-  [LZS]: ../LZS%20format.md "wikilink"
+  [LZS]: LZS%20format.md "wikilink"
   [the forum]: http://forums.qhimm.com/index.php?topic=4358.msg58674#msg58674
-  [MIM file]: ../Field/MIMfile.md "wikilink"
-  [BSX file]: ../Field/BSX.md "wikilink"
-  [FIELD.TDB]: ../Field/FIELD.TDB.md "wikilink"
-  [BCX files]: ../Field/BCX.md "wikilink"
-  [Field Script]: ../Field/Script.md "wikilink"
-  [opcodes]: ../Field/Script/Opcodes.md "wikilink"
-  [F8 PMVIE]: ../Field/Script/Opcodes/F8%20PMVIE.md "wikilink"
-  [F9 MOVIE]: ../Field/Script/Opcodes/F9%20MOVIE.md "wikilink"
-  [Cyberman]: ../../User:Cyberman.md "wikilink"
-  [Mirex]: ../../User:Mirex.md "wikilink"
-  [Aali]: ../../User:Aali.md "wikilink"
+  [MIM file]: Field/MIMfile.md "wikilink"
+  [BSX file]: Field/BSX.md "wikilink"
+  [FIELD.TDB]: Field/FIELD.TDB.md "wikilink"
+  [BCX files]: Field/BCX.md "wikilink"
+  [Field Script]: Field/Script.md "wikilink"
+  [opcodes]: Field/Script/Opcodes.md "wikilink"
+  [F8 PMVIE]: Field/Script/Opcodes/F8%20PMVIE.md "wikilink"
+  [F9 MOVIE]: Field/Script/Opcodes/F9%20MOVIE.md "wikilink"
+  [Cyberman]: ../User:Cyberman.md "wikilink"
+  [Mirex]: ../User:Mirex.md "wikilink"
+  [Aali]: ../User:Aali.md "wikilink"

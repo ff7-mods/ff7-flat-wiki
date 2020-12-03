@@ -51,4 +51,4 @@ the other aspects of the program.
 
 ![][1]
 
-  [1]: ../../../assets/Kernel%20table.png "Kernel_table.png"
+  [1]: ../../assets/Kernel%20table.png "Kernel_table.png"

@@ -476,4 +476,4 @@ it sets the "run modifier" to full. The T5 command will actually set the
 battle to having been escaped from. If it's possible to escape from the
 battle, it will.
 
-  [Damage Calculations]: ../Damage%20Calculation.md "wikilink"
+  [Damage Calculations]: Damage%20Calculation.md "wikilink"

@@ -70,4 +70,4 @@ completed. For this, see [OFSTW][].
 | 2   | Quadratic (Smoothed)    |
 |     |                         |
 
-  [OFSTW]: ../C4%20OFSTW.md "wikilink"
+  [OFSTW]: C4%20OFSTW.md "wikilink"

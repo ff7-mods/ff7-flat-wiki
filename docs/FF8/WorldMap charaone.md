@@ -148,4 +148,4 @@ Example C\# source of file parsing as in OpenVIII (commit from
 `           }`  
 `}`
 
-  [1]: ../FileFormat%20ONE.md "wikilink"
+  [1]: FileFormat%20ONE.md "wikilink"

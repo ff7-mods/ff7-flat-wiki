@@ -29,4 +29,4 @@ is used when there is already a full party (with three members), the
 newly added party member occupies the last slot, overwriting the party
 member already there.
 
-  [PRTYE]: ../CA%20PRTYE.md "wikilink"
+  [PRTYE]: CA%20PRTYE.md "wikilink"

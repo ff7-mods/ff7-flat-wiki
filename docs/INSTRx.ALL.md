@@ -6,4 +6,4 @@ title: INSTRx.ALL
 
 1.  REDIRECT [FF7/INSTRx.ALL][]
 
-  [FF7/INSTRx.ALL]: ../FF7/INSTRx.ALL.md "wikilink"
+  [FF7/INSTRx.ALL]: FF7/INSTRx.ALL.md "wikilink"

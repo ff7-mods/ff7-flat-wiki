@@ -12,5 +12,5 @@ Links:
 
 [Opcodes][].
 
-  [Scripts]: ../Field/Script.md "wikilink"
-  [Opcodes]: ../Field/Script/Opcodes.md "wikilink"
+  [Scripts]: Field/Script.md "wikilink"
+  [Opcodes]: Field/Script/Opcodes.md "wikilink"

@@ -68,12 +68,12 @@ long.
 |             04h             | Can be used in Menu Out of Battle          |                                                                                                             |
 | Other values have no effect |                                            |                                                                                                             |
 
-  [Target Flags]: ../Battle/Targeting%20Data.md "wikilink"
-  [Attack Effect Id]: ../Battle/Attack%20Effect%20Id%20List.md "wikilink"
-  [Damage Calculation]: ../Battle/Damage%20Calculation.md "wikilink"
-  [Status Attack]: ../Battle/Status%20Effects.md "wikilink"
-  [Camera Movement Id]: ../Battle/Camera%20Movement%20Id%20List.md "wikilink"
-  [Attack Element]: ../Battle/Elemental%20Data.md "wikilink"
-  [Sound Effect Id]: ../Battle/Sound%20Effect%20Id%20List.md "wikilink"
-  [Impact Effect Id]: ../Battle/Impact%20Effect%20Id%20List.md "wikilink"
-  [Special Attack Flags]: ../Battle/Special%20Attack%20Flags.md "wikilink"
+  [Target Flags]: Battle/Targeting%20Data.md "wikilink"
+  [Attack Effect Id]: Battle/Attack%20Effect%20Id%20List.md "wikilink"
+  [Damage Calculation]: Battle/Damage%20Calculation.md "wikilink"
+  [Status Attack]: Battle/Status%20Effects.md "wikilink"
+  [Camera Movement Id]: Battle/Camera%20Movement%20Id%20List.md "wikilink"
+  [Attack Element]: Battle/Elemental%20Data.md "wikilink"
+  [Sound Effect Id]: Battle/Sound%20Effect%20Id%20List.md "wikilink"
+  [Impact Effect Id]: Battle/Impact%20Effect%20Id%20List.md "wikilink"
+  [Special Attack Flags]: Battle/Special%20Attack%20Flags.md "wikilink"

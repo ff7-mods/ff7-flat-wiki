@@ -472,12 +472,12 @@ happens elsewhere.
 So if the accuracy IS 0, then it will always hit. This is to prevent a
 divide by zero error.
 
-  [Physical Accuracy]: ../DamageFormula.md#0:%20Physical%20Accuracy%20Check
+  [Physical Accuracy]: DamageFormula.md#0:%20Physical%20Accuracy%20Check
     "wikilink"
-  [Critical Check]: ../DamageFormula.md#2:%20Critical%20Hit%20Check "wikilink"
-  [Magical Accuracy]: ../DamageFormula.md#1:%20Magical%20Accuracy%20Check
+  [Critical Check]: DamageFormula.md#2:%20Critical%20Hit%20Check "wikilink"
+  [Magical Accuracy]: DamageFormula.md#1:%20Magical%20Accuracy%20Check
     "wikilink"
-  [Level-based Accuracy]: ../DamageFormula.md#7:%20Level-based%20Accuracy
+  [Level-based Accuracy]: DamageFormula.md#7:%20Level-based%20Accuracy
     "wikilink"
-  [Manipulate]: ../DamageFormula.md#6:%20Manipulate%20Accuracy%20.28intended%20solely%20for%20playable%20characters.29
+  [Manipulate]: DamageFormula.md#6:%20Manipulate%20Accuracy%20.28intended%20solely%20for%20playable%20characters.29
     "wikilink"

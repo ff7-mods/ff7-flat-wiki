@@ -29,4 +29,4 @@ always clockwise.
 
 It is unknown how this differs from [UNKNOWN8][].
 
-  [UNKNOWN8]: ../173%20UNKNOWN8.md "wikilink"
+  [UNKNOWN8]: 173%20UNKNOWN8.md "wikilink"

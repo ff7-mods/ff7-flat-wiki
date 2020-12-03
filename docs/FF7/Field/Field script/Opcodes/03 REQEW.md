@@ -6,5 +6,5 @@ title: 03 REQEW
 
 1.  REDIRECT [FF7/Field/Script/Opcodes/03 REQEW][]
 
-  [FF7/Field/Script/Opcodes/03 REQEW]: ../../../Script/Opcodes/03%20REQEW.md
+  [FF7/Field/Script/Opcodes/03 REQEW]: ../../Script/Opcodes/03%20REQEW.md
     "wikilink"

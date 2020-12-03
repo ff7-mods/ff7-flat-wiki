@@ -46,4 +46,4 @@ the second argument of IFMEMBQ.
 | 8   | Cid       |
 |     |           |
 
-  [IFMEMBQ]: ../CC%20IFMEMBQ.md "wikilink"
+  [IFMEMBQ]: CC%20IFMEMBQ.md "wikilink"

@@ -30,7 +30,7 @@ Note that MOVIE removes the availability of the hand pointer above the
 player's head, even after the movie has finished playing. To re-enable
 it, use [SPECIAL: POINT][].
 
-  [PMVIE]: ../F8%20PMVIE.md "wikilink"
-  [frozen]: ../33%20UC.md "wikilink"
-  [SPECIAL: POINT]: ../0F%20SPECIAL/F5%20POINT.md
+  [PMVIE]: F8%20PMVIE.md "wikilink"
+  [frozen]: 33%20UC.md "wikilink"
+  [SPECIAL: POINT]: 0F%20SPECIAL/F5%20POINT.md
     "wikilink"

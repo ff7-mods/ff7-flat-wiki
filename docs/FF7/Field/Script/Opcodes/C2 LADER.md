@@ -91,5 +91,5 @@ without need for player interaction.
 | 3   | Left                       | Right                        |
 |     |                            |                              |
 
-  [LINE]: ../D0%20LINE.md "wikilink"
-  [PREQ]: ../04%20PREQ.md "wikilink"
+  [LINE]: D0%20LINE.md "wikilink"
+  [PREQ]: 04%20PREQ.md "wikilink"
