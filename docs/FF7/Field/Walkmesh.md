@@ -14,7 +14,7 @@ title: Walkmesh
 <div class="thumbcaption">
 <div class="magnify">
 
-![](Field_Wutai.jpg "Field_Wutai.jpg")
+![](../../assets/Field_Wutai.jpg)
 
 </div>
 

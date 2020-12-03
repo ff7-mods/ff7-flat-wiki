@@ -12,7 +12,7 @@ P-files are used as parts of field models, battle models, battle locations on PC
 
 *Feel free to add more information.*
 
-![](Ff7field3dfiles.png "Ff7field3dfiles.png")
+![](../assets/Ff7field3dfiles.png)
 
 ------------------------------------------------------------------------
 

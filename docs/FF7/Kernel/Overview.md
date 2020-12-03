@@ -20,4 +20,4 @@ As the Final Fantasy franchise grew, so did the size of the games. They all stil
 
 The Kernel is a threaded multitasking program that manages the whole system. It uses a simple software based memory manager that handles both RAM and video memory for all the modules in the game. Assisting the kernel are many statically linked Psy-Q libraries. In the case of the PC port, the Psy-Q libs were replaced with a PC equivalent. For example the SEQ player was replaced with a MIDI player, Both accomplish the same tasks, just with different formats and execution strategies. The table below is a generic representation of how the kernel sits in relation to the other aspects of the program.
 
-![](Kernel_table.png "Kernel_table.png")
+![](../../assets/Kernel_table.png)

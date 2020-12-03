@@ -33,7 +33,7 @@ The Field module loads modular "Field Files". In the PC version, the Field File 
 <div class="thumbcaption">
 <div class="magnify">
 
-![](Field_BackgroundVRAM.jpg "Field_BackgroundVRAM.jpg")
+![](../assets/Field_BackgroundVRAM.jpg)
 
 </div>
 
