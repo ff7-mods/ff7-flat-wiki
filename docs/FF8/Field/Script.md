@@ -10,4 +10,4 @@ Links:
 
 [Opcodes][].
 
-  [Opcodes]: FF8/Field/Script/Opcodes.md "wikilink"
+  [Opcodes]: Script/Opcodes.md "wikilink"

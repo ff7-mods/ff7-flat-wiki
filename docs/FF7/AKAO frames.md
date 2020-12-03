@@ -6,4 +6,4 @@ title: AKAO frames
 
 1.  REDIRECT [FF7/PSX/Sound/AKAO frames][]
 
-  [FF7/PSX/Sound/AKAO frames]: FF7/PSX/Sound/AKAO%20frames.md "wikilink"
+  [FF7/PSX/Sound/AKAO frames]: PSX/Sound/AKAO%20frames.md "wikilink"

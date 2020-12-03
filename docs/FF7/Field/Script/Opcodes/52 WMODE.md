@@ -39,6 +39,6 @@ window is closed and reopened.
 | 2   | Transparent Background |
 |     |                        |
 
-  [WINDOW]: FF7/Field/Script/Opcodes/50%20WINDOW.md "wikilink"
-  [MESSAGE]: FF7/Field/Script/Opcodes/40%20MESSAGE.md "wikilink"
-  [ASK]: FF7/Field/Script/Opcodes/48%20ASK.md "wikilink"
+  [WINDOW]: 50%20WINDOW.md "wikilink"
+  [MESSAGE]: 40%20MESSAGE.md "wikilink"
+  [ASK]: 48%20ASK.md "wikilink"

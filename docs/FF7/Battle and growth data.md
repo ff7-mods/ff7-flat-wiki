@@ -262,12 +262,12 @@ NOTES:
   [2]: #user-content-character-ai-data "wikilink"
   [3]: #user-content-scene.bin-look-up-file "wikilink"
   [4]: #user-content-magic-order "wikilink"
-  [Battle Scenes]: FF7/Battle/Battle%20scenes.md#AI%20Data "wikilink"
+  [Battle Scenes]: Battle/Battle%20scenes.md#AI%20Data "wikilink"
   [here]: http://forums.qhimm.com/index.php?topic=7928.msg97889#msg97889
-  [scene.bin]: FF7/Battle/Battle%20scenes.md "wikilink"
+  [scene.bin]: Battle/Battle%20scenes.md "wikilink"
   [http://forums.qhimm.com/index.php?topic=7186.0 Hojo]: http://forums.qhimm.com/index.php?topic=7186.0_Hojo
     "wikilink"
   [http://forums.qhimm.com/index.php?topic=8481.0 Proud Clod]: http://forums.qhimm.com/index.php?topic=8481.0_Proud_Clod
     "wikilink"
-  [`AAA:BBBBB`]: AAA:BBBBB.md
-  [Attack data]: FF7/Attack%20data.md "wikilink"
+  [`AAA:BBBBB`]: ../AAA:BBBBB.md
+  [Attack data]: Attack%20data.md "wikilink"

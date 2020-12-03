@@ -32,4 +32,4 @@ This is similar to the [IFSW][] opcode in allowing the comparison value
 to be negative, but in addition, allows the jump on comparison failure
 to be longer than 0xFF bytes.
 
-  [IFSW]: FF7/Field/Script/Opcodes/16%20IFSW.md "wikilink"
+  [IFSW]: 16%20IFSW.md "wikilink"

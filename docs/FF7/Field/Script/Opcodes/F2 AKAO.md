@@ -417,5 +417,5 @@ Operations 0x10/14/18/19 do not work on the PSX game from field script
 Operations 0xC8/C9/CA are not implemented in the PSX version or PC
 version despite the field script calling them.  
 
-  [Aali]: user:aali.md "wikilink"
-  [DLPB]: user:DLPB2.md "wikilink"
+  [Aali]: ../../../../user:aali.md "wikilink"
+  [DLPB]: ../../../../user:DLPB2.md "wikilink"

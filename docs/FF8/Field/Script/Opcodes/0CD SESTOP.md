@@ -24,4 +24,4 @@ none
 Stop the sound effect currently playing on the given channel. Channel is
 defined in the call to [EFFECTPLAY2][] and must be a power of 2.
 
-  [EFFECTPLAY2]: FF8/Field/Script/Opcodes/021%20EFFECTPLAY2.md "wikilink"
+  [EFFECTPLAY2]: 021%20EFFECTPLAY2.md "wikilink"

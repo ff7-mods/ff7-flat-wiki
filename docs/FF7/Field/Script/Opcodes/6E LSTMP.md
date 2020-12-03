@@ -27,4 +27,4 @@ given a field ID (0x1 to 0x40), so traversing via a gateway to the world
 map, then back to the field, will not cause the world map ID to be
 retrieved; rather, that same field ID will be loaded.
 
-  [field ID]: FF7/Field/Field%20ID.md "wikilink"
+  [field ID]: ../../Field%20ID.md "wikilink"

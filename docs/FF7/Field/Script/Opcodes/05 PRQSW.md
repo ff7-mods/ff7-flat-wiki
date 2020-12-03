@@ -31,4 +31,4 @@ the specified priority is already busy executing, the request will block
 until it becomes available and only then return. The remote execution is
 still carried out asynchronously, with no notification of completion.
 
-  [priority]: FF7/Field/Script/Priorities.md "wikilink"
+  [priority]: ../Priorities.md "wikilink"

@@ -30,4 +30,4 @@ Similar to [MOVE][], but the field object won't play its animation
 whilst it moves. Field object will not be rotated according to movement
 (it will move without changing direction).
 
-  [MOVE]: FF7/Field/Script/Opcodes/A8%20MOVE.md "wikilink"
+  [MOVE]: A8%20MOVE.md "wikilink"

@@ -288,4 +288,4 @@ just zeroes. Size of this section is 24 bytes \* NumBoundingBoxes.
 
 Not used anywhere. Size of this section is ( 4 \* NumVertices ).
 
-  [1]: assets/Ff7field3dfiles.png "Ff7field3dfiles.png"
+  [1]: ../assets/Ff7field3dfiles.png "Ff7field3dfiles.png"

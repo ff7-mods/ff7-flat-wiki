@@ -56,4 +56,4 @@ hours, and retrieved values for minutes and seconds.
 `WMODE(0,2,1)                 // Transparent, non-closable window`  
 `MESSAGE(0,1)                 // Display the window & timer`
 
-  [WSPCL]: FF7/Field/Script/Opcodes/36%20WSPCL.md "wikilink"
+  [WSPCL]: 36%20WSPCL.md "wikilink"

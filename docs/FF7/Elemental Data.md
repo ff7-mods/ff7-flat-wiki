@@ -6,4 +6,4 @@ title: Elemental Data
 
 1.  REDIRECT [FF7/Battle/Elemental Data][]
 
-  [FF7/Battle/Elemental Data]: FF7/Battle/Elemental%20Data.md "wikilink"
+  [FF7/Battle/Elemental Data]: Battle/Elemental%20Data.md "wikilink"

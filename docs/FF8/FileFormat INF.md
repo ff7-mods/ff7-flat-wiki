@@ -86,5 +86,5 @@ present (like FF7).
 Same as 576 bytes format + There is only one camera range and no screen
 range.
 
-  [1]: FF8/FileFormat%20PVP.md "wikilink"
-  [Final Fantasy VII]: FF7/Field/Triggers.md "wikilink"
+  [1]: FileFormat%20PVP.md "wikilink"
+  [Final Fantasy VII]: ../FF7/Field/Triggers.md "wikilink"

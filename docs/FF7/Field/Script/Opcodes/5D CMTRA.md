@@ -41,4 +41,4 @@ and address specified.
 This opcode is **not** implemented in the PC version of the game, nor
 used in the PlayStation version.
 
-  [Type of materia]: FF7/Field/Script/Materia%20ID.md "wikilink"
+  [Type of materia]: ../Materia%20ID.md "wikilink"

@@ -30,5 +30,5 @@ Similar to [BGON][], only this opcode turns *off* the portion of
 background whose [background sprite][] specifies it as belonging to the
 scripted area and layer specified.
 
-  [BGON]: FF7/Field/Script/Opcodes/E0%20BGON.md "wikilink"
-  [background sprite]: FF7/Field/Sprite.md "wikilink"
+  [BGON]: E0%20BGON.md "wikilink"
+  [background sprite]: ../../Sprite.md "wikilink"

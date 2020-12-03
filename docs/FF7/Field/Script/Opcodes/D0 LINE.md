@@ -115,5 +115,5 @@ It appears as though the priority for running the scripts is as follows:
 -   S1 - \[OK\]
 -   S6 - Go away
 
-  [Section 8]: FF7/Field/3D%20Related.md "wikilink"
-  [LINON]: FF7/Field/Script/Opcodes/D1%20LINON.md "wikilink"
+  [Section 8]: ../../3D%20Related.md "wikilink"
+  [LINON]: D1%20LINON.md "wikilink"

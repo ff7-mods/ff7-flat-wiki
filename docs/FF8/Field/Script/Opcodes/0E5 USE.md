@@ -20,4 +20,4 @@ none
 
 Opposite of [UNUSE][].
 
-  [UNUSE]: FF8/Field/Script/Opcodes/01A%20UNUSE.md "wikilink"
+  [UNUSE]: 01A%20UNUSE.md "wikilink"

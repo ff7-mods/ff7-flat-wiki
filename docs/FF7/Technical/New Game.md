@@ -25,6 +25,6 @@ installed.
 
 [Back to Technical Problems page][]
 
-  [this solution]: FF7/Technical/Movies.md "wikilink"
-  [1]: FF7/Technical/NoMovies.md "wikilink"
-  [Back to Technical Problems page]: FF7/Technical.md "wikilink"
+  [this solution]: Movies.md "wikilink"
+  [1]: NoMovies.md "wikilink"
+  [Back to Technical Problems page]: ../Technical.md "wikilink"

@@ -40,5 +40,5 @@ depending on the operation.
 
 [Opcode list][]
 
-  [Opcode list]: FF7/Field/Script/Opcodes/F2%20AKAO.md#Operation%20list
+  [Opcode list]: F2%20AKAO.md#Operation%20list
     "wikilink"

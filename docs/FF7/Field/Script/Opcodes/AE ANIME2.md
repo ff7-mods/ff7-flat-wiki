@@ -29,4 +29,4 @@ played.
 Makou Reactor Description: Play animation \#%1 of the field model and
 reset to previous state (speed=%2)
 
-  [ANIME1]: FF7/Field/Script/Opcodes/A3%20ANIME1.md "wikilink"
+  [ANIME1]: A3%20ANIME1.md "wikilink"

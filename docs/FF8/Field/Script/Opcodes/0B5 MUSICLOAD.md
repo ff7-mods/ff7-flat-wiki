@@ -24,4 +24,4 @@ none
 Preloads a new field music track. You can start the new track by calling
 [MUSICCHANGE][].
 
-  [MUSICCHANGE]: FF8/Field/Script/Opcodes/0B4%20MUSICCHANGE.md "wikilink"
+  [MUSICCHANGE]: 0B4%20MUSICCHANGE.md "wikilink"

@@ -34,5 +34,5 @@ overridden for a special event that requires a specific character setup.
 The player's original party configuration can then be set back to its
 original setup using [SPTYE][].
 
-  [Character IDs]: FF7/Field/Character%20ID.md "wikilink"
-  [SPTYE]: FF7/Field/Script/Opcodes/0A%20SPTYE.md "wikilink"
+  [Character IDs]: ../../Character%20ID.md "wikilink"
+  [SPTYE]: 0A%20SPTYE.md "wikilink"

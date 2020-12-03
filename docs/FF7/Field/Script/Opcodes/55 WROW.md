@@ -29,4 +29,4 @@ able to scroll the dialog in the window by pressing \[OK\] to see the
 proceeding lines of text. When all text has scrolled, the window will
 close as normal.
 
-  [WINDOW]: FF7/Field/Script/Opcodes/50%20WINDOW.md "wikilink"
+  [WINDOW]: 50%20WINDOW.md "wikilink"

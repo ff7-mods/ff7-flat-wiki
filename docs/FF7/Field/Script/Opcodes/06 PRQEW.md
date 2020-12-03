@@ -28,4 +28,4 @@ Requests that the entity associated with a character in the current
 party executes one of its member functions at a specified priority. The
 request will block until remote execution has finished before returning.
 
-  [priority]: FF7/Field/Script/Priorities.md "wikilink"
+  [priority]: ../Priorities.md "wikilink"

@@ -22,4 +22,4 @@ Enables "pushing" this entity. An entity's "push" script is run when the
 player walks into it. Detection range can presumably be set with
 [PUSHRADIUS][]
 
-  [PUSHRADIUS]: FF8/Field/Script/Opcodes/063%20PUSHRADIUS.md "wikilink"
+  [PUSHRADIUS]: 063%20PUSHRADIUS.md "wikilink"

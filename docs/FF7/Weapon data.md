@@ -68,12 +68,12 @@ long.
 |             04h             | Can be used in Menu Out of Battle          |                                                                                                             |
 | Other values have no effect |                                            |                                                                                                             |
 
-  [Target Flags]: FF7/Battle/Targeting%20Data.md "wikilink"
-  [Attack Effect Id]: FF7/Battle/Attack%20Effect%20Id%20List.md "wikilink"
-  [Damage Calculation]: FF7/Battle/Damage%20Calculation.md "wikilink"
-  [Status Attack]: FF7/Battle/Status%20Effects.md "wikilink"
-  [Camera Movement Id]: FF7/Battle/Camera%20Movement%20Id%20List.md "wikilink"
-  [Attack Element]: FF7/Battle/Elemental%20Data.md "wikilink"
-  [Sound Effect Id]: FF7/Battle/Sound%20Effect%20Id%20List.md "wikilink"
-  [Impact Effect Id]: FF7/Battle/Impact%20Effect%20Id%20List.md "wikilink"
-  [Special Attack Flags]: FF7/Battle/Special%20Attack%20Flags.md "wikilink"
+  [Target Flags]: Battle/Targeting%20Data.md "wikilink"
+  [Attack Effect Id]: Battle/Attack%20Effect%20Id%20List.md "wikilink"
+  [Damage Calculation]: Battle/Damage%20Calculation.md "wikilink"
+  [Status Attack]: Battle/Status%20Effects.md "wikilink"
+  [Camera Movement Id]: Battle/Camera%20Movement%20Id%20List.md "wikilink"
+  [Attack Element]: Battle/Elemental%20Data.md "wikilink"
+  [Sound Effect Id]: Battle/Sound%20Effect%20Id%20List.md "wikilink"
+  [Impact Effect Id]: Battle/Impact%20Effect%20Id%20List.md "wikilink"
+  [Special Attack Flags]: Battle/Special%20Attack%20Flags.md "wikilink"

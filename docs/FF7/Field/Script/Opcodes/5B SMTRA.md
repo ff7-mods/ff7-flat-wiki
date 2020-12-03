@@ -62,4 +62,4 @@ the following parameters:
 This equates to: (3\*16^1) + (2\*16^2) + (1\*16^3) == 0x010203 == 66051
 AP.
 
-  [Type of materia]: FF7/Field/Script/Materia%20ID.md "wikilink"
+  [Type of materia]: ../Materia%20ID.md "wikilink"

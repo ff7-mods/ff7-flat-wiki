@@ -23,4 +23,4 @@ none
 
 Sets up which disc is asked for when [DISCJUMP][] is called.
 
-  [DISCJUMP]: FF8/Field/Script/Opcodes/038%20DISCJUMP.md "wikilink"
+  [DISCJUMP]: 038%20DISCJUMP.md "wikilink"

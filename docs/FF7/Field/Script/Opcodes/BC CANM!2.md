@@ -29,4 +29,4 @@ given animation.
 Makou Reactor Description: Play partially the animation \#%1 of the
 field model (first frame=%2, last frame=%3, speed=%4)
 
-  [ANIM!2]: FF7/Field/Script/Opcodes/BA%20ANIM!2.md "wikilink"
+  [ANIM!2]: BA%20ANIM!2.md "wikilink"

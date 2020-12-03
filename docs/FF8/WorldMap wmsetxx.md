@@ -534,5 +534,5 @@ Starts with AKAO
 
 Starts with AKAO
 
-  [Wmset.obj]: FF8/WorldMap%20wmset.md "wikilink"
-  [texl.obj]: FF8/WorldMap%20texl.md "wikilink"
+  [Wmset.obj]: WorldMap%20wmset.md "wikilink"
+  [texl.obj]: WorldMap%20texl.md "wikilink"

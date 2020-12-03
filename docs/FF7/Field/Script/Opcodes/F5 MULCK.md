@@ -22,4 +22,4 @@ title: F5 MULCK
 Locks the [MUSIC][] to the current selection. Subsequent calls to change
 the music will fail unless a corresponding MULCK set to 0 is executed.
 
-  [MUSIC]: FF7/Field/Script/Opcodes/F0%20MUSIC.md "wikilink"
+  [MUSIC]: F0%20MUSIC.md "wikilink"

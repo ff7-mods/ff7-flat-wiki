@@ -30,6 +30,6 @@ the [SOLID][] and [WAIT][] lines are repeated indefinitely.
 
 If a jump longer than 0xFF is required, use [JMPBL][] instead.
 
-  [SOLID]: FF7/Field/Script/Opcodes/C7%20SOLID.md "wikilink"
-  [WAIT]: FF7/Field/Script/Opcodes/24%20WAIT.md "wikilink"
-  [JMPBL]: FF7/Field/Script/Opcodes/13%20JMPBL.md "wikilink"
+  [SOLID]: C7%20SOLID.md "wikilink"
+  [WAIT]: 24%20WAIT.md "wikilink"
+  [JMPBL]: 13%20JMPBL.md "wikilink"

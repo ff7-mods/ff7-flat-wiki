@@ -45,7 +45,7 @@ affect the battle module in an as-yet unseen way.
 </tr>
 <tr class="even">
 <td><p>0x40 (01000000)</p></td>
-<td><p>Activates the battle arena. The next chosen <a href="FF7/Field/Script/Opcodes/70%20BATTLE.md" title="wikilink">BATTLE</a> instead takes place in the arena,<br />
+<td><p>Activates the battle arena. The next chosen <a href="70%20BATTLE.md" title="wikilink">BATTLE</a> instead takes place in the arena,<br />
 but keeping the same enemy formation. The "keep going/no way" interface is enabled.</p></td>
 </tr>
 <tr class="odd">

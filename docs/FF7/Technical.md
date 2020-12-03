@@ -31,26 +31,26 @@ solution.
 -   [Game crashes when entering a battle][]
 -   [No movies are played at all][]
 
-  ['Error 112' during installation]: FF7/Technical/Error%20112.md "wikilink"
+  ['Error 112' during installation]: Technical/Error%20112.md "wikilink"
   [I get some weird error about C:\\WINDOWS\\SYSTEM32\\AUTOEXEC.NT when launching the installer]:
     FF7/Technical/Autoexec.nt "wikilink"
-  [I can't select Hardware rendering in game configuration]: FF7/Technical/Hardware%20rendering.md
+  [I can't select Hardware rendering in game configuration]: Technical/Hardware%20rendering.md
     "wikilink"
   [I get some error while starting game executable or game won't run at all]:
     FF7/Technical/Game_won't_run "wikilink"
-  [After pressing 'New game' I get only black screen or game crashes]: FF7/Technical/New%20game.md
+  [After pressing 'New game' I get only black screen or game crashes]: Technical/New%20game.md
     "wikilink"
-  [Game crashes when I try to enter Chocobo races]: FF7/Technical/Chocobo%20races.md
+  [Game crashes when I try to enter Chocobo races]: Technical/Chocobo%20races.md
     "wikilink"
-  [Movies are played upside down]: FF7/Technical/Movies.md "wikilink"
-  [I have Sound Blaster Live/Audigy card and problems with sound]: FF7/Technical/Sound%20blaster.md
+  [Movies are played upside down]: Technical/Movies.md "wikilink"
+  [I have Sound Blaster Live/Audigy card and problems with sound]: Technical/Sound%20blaster.md
     "wikilink"
-  [Game backgrounds or text looks crappy]: FF7/Technical/Graphic%20problems.md
+  [Game backgrounds or text looks crappy]: Technical/Graphic%20problems.md
     "wikilink"
-  [Game crashes after first fight in new game]: FF7/Technical/1st%20fight.md
+  [Game crashes after first fight in new game]: Technical/1st%20fight.md
     "wikilink"
-  [Bike minigame speed is way too fast]: FF7/Technical/Bike%20minigame.md
+  [Bike minigame speed is way too fast]: Technical/Bike%20minigame.md
     "wikilink"
-  [Game crashes in some places]: FF7/Technical/Random%20crashes.md "wikilink"
-  [Game crashes when entering a battle]: FF7/Technical/Swirl.md "wikilink"
-  [No movies are played at all]: FF7/Technical/NoMovies.md "wikilink"
+  [Game crashes in some places]: Technical/Random%20crashes.md "wikilink"
+  [Game crashes when entering a battle]: Technical/Swirl.md "wikilink"
+  [No movies are played at all]: Technical/NoMovies.md "wikilink"

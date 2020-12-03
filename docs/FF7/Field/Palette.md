@@ -45,6 +45,6 @@ internally. So the first color is page 0/color 0. Color 256 is page
 1/color 0. Color 628 is page 2/color 116. You'll see why in the
 [background][] section.
 
-  [Terence Fergusson]: User:Terence%20Fergusson.md "wikilink"
-  [myst6re]: User:Myst6re.md "wikilink"
-  [background]: FF7/Field/Background.md "wikilink"
+  [Terence Fergusson]: ../../User:Terence%20Fergusson.md "wikilink"
+  [myst6re]: ../../User:Myst6re.md "wikilink"
+  [background]: Background.md "wikilink"

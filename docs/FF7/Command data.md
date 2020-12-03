@@ -46,5 +46,5 @@ the targeting information of Cure, which has the same magic index as
 Choco/Mog has summon index, the attack the Battle Engine selected to
 perform was Summon attack 00h which is Choco/Mog.
 
-  [Target Flags]: FF7/Battle/Targeting%20Data.md "wikilink"
-  [Camera Movement Id]: FF7/Battle/Camera%20Movement%20Id%20List.md "wikilink"
+  [Target Flags]: Battle/Targeting%20Data.md "wikilink"
+  [Camera Movement Id]: Battle/Camera%20Movement%20Id%20List.md "wikilink"

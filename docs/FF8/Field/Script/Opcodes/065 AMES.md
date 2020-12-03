@@ -29,5 +29,5 @@ none
 
 Pop up a message window until [WINCLOSE][] or [MESSYNC][] is called.
 
-  [WINCLOSE]: FF8/Field/Script/Opcodes/04C%20WINCLOSE.md "wikilink"
-  [MESSYNC]: FF8/Field/Script/Opcodes/048%20MESSYNC.md "wikilink"
+  [WINCLOSE]: 04C%20WINCLOSE.md "wikilink"
+  [MESSYNC]: 048%20MESSYNC.md "wikilink"

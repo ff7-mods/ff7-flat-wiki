@@ -6,5 +6,5 @@ title: 04 PREQ
 
 1.  REDIRECT [FF7/Field/Script/Opcodes/04 PREQ][]
 
-  [FF7/Field/Script/Opcodes/04 PREQ]: FF7/Field/Script/Opcodes/04%20PREQ.md
+  [FF7/Field/Script/Opcodes/04 PREQ]: ../../Script/Opcodes/04%20PREQ.md
     "wikilink"

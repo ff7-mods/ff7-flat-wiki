@@ -30,7 +30,7 @@ sound-effect samples.
 A windoze program called [MarC's HiMD Renderer][] can convert these
 audio files. <small>-- [aljnx][]</small>
 
-  [1]: FF7:CC/Audio%20Formats.md#RIFF%20Format "wikilink"
-  [2]: FF7:CC/Audio%20Formats.md#SSCF%20Format "wikilink"
-  [MarC's HiMD Renderer]: FF7:CC.md#Viewers%20/%20Extractors "wikilink"
+  [1]: Audio%20Formats.md#RIFF%20Format "wikilink"
+  [2]: Audio%20Formats.md#SSCF%20Format "wikilink"
+  [MarC's HiMD Renderer]: ../FF7:CC.md#Viewers%20/%20Extractors "wikilink"
   [aljnx]: http://forums.qhimm.com/index.php?action=profile;u=4675

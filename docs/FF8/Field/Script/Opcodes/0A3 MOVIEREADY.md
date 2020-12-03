@@ -65,4 +65,4 @@ The movie that plays depends on which disc is currently active.
 | 32       |                          | Escape Hatch                      |                               |                            |
 | 33       |                          | Paratrooper fight                 |                               |                            |
 
-  [MOVIE]: FF8/Field/Script/Opcodes/04F%20MOVIE.md "wikilink"
+  [MOVIE]: 04F%20MOVIE.md "wikilink"

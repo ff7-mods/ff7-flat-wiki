@@ -6,4 +6,4 @@ title: Opcodes
 
 1.  REDIRECT [FF7/Field/Script/Opcodes][]
 
-  [FF7/Field/Script/Opcodes]: FF7/Field/Script/Opcodes.md "wikilink"
+  [FF7/Field/Script/Opcodes]: ../Script/Opcodes.md "wikilink"

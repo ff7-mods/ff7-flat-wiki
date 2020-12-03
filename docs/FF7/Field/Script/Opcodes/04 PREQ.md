@@ -31,4 +31,4 @@ request is asynchronous and returns immediately without waiting for the
 remote execution to start or finish. If the specified priority is
 already busy executing, the request will fail silently.
 
-  [priority]: FF7/Field/Script/Priorities.md "wikilink"
+  [priority]: ../Priorities.md "wikilink"

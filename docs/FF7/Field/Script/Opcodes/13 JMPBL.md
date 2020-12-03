@@ -24,4 +24,4 @@ just before the jump opcode itself and then moves the current byte
 pointer back the specified number of bytes. Unlike [JMPB][], this jump
 command allows jumps longer than 0xFF bytes.
 
-  [JMPB]: FF7/Field/Script/Opcodes/12%20JMPB.md "wikilink"
+  [JMPB]: 12%20JMPB.md "wikilink"

@@ -38,5 +38,5 @@ Deletes a quantity of materia with the given type and AP.
 This opcode does not appear to function correctly in the PC version of
 the game. In addition, it is only used once, in the [Debug Rooms][].
 
-  [Type of materia]: FF7/Field/Script/Materia%20ID.md "wikilink"
-  [Debug Rooms]: FF7/Debug%20Rooms.md "wikilink"
+  [Type of materia]: ../Materia%20ID.md "wikilink"
+  [Debug Rooms]: ../../../Debug%20Rooms.md "wikilink"

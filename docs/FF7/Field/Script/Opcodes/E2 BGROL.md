@@ -29,4 +29,4 @@ layer 2 for that area. If an invalid layer is given, or the background
 rolls past the last layer for this area, no background is displayed by
 this opcode.
 
-  [display layer]: FF7/Field/Script/Opcodes/E0%20BGON.md "wikilink"
+  [display layer]: E0%20BGON.md "wikilink"

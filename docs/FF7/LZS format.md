@@ -6,4 +6,4 @@ title: LZS format
 
 1.  REDIRECT [FF7/LZSS format][]
 
-  [FF7/LZSS format]: FF7/LZSS%20format.md "wikilink"
+  [FF7/LZSS format]: LZSS%20format.md "wikilink"

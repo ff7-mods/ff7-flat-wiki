@@ -31,4 +31,4 @@ sometimes used in areas such as shops.
 This should be used in combination with a [LINE][] to specify the line
 along which the player may not 'slip'.
 
-  [LINE]: FF7/Field/Script/Opcodes/D0%20LINE.md "wikilink"
+  [LINE]: D0%20LINE.md "wikilink"

@@ -24,4 +24,4 @@ none
 Pauses this script until *frame count* frames have passed since
 [SPUREADY][] was called.
 
-  [SPUREADY]: FF8/Field/Script/Opcodes/056%20SPUREADY.md "wikilink"
+  [SPUREADY]: 056%20SPUREADY.md "wikilink"

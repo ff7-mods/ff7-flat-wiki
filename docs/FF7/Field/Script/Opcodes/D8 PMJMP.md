@@ -22,5 +22,5 @@ title: D8 PMJMP
 Prepare to jump to the field indicated by *I*. Use before making the
 [map jump][].
 
-  [Field ID]: FF7/Field/Field%20List.md "wikilink"
-  [map jump]: FF7/Field/Script/Opcodes/60%20MAPJUMP.md "wikilink"
+  [Field ID]: ../../Field%20List.md "wikilink"
+  [map jump]: 60%20MAPJUMP.md "wikilink"

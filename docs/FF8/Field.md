@@ -12,5 +12,5 @@ Links:
 
 [Opcodes][].
 
-  [Scripts]: FF8/Field/Script.md "wikilink"
-  [Opcodes]: FF8/Field/Script/Opcodes.md "wikilink"
+  [Scripts]: Field/Script.md "wikilink"
+  [Opcodes]: Field/Script/Opcodes.md "wikilink"

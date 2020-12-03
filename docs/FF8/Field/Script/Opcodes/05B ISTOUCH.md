@@ -24,4 +24,4 @@ none
 Pushes 1 into temp variable 0 is the specified actor is within touch
 range of this entity. 0 Otherwise.
 
-  [PSHAC]: FF8/Field/Script/Opcodes/013%20PSHAC.md "wikilink"
+  [PSHAC]: 013%20PSHAC.md "wikilink"

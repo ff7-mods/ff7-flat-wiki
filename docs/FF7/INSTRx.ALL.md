@@ -6,4 +6,4 @@ title: INSTRx.ALL
 
 1.  REDIRECT [FF7/PSX/Sound/INSTRx.ALL][]
 
-  [FF7/PSX/Sound/INSTRx.ALL]: FF7/PSX/Sound/INSTRx.ALL.md "wikilink"
+  [FF7/PSX/Sound/INSTRx.ALL]: PSX/Sound/INSTRx.ALL.md "wikilink"

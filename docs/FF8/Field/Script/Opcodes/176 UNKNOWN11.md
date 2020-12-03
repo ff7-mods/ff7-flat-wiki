@@ -27,4 +27,4 @@ This is some kind of weird wait command. [UNKNOWN12][] is probably the
 waitsync for it. The second parameter is definitely a frame count, but I
 have no ides what the first parameter is (it's usually 0).
 
-  [UNKNOWN12]: FF8/Field/Script/Opcodes/177%20UNKNOWN12.md "wikilink"
+  [UNKNOWN12]: 177%20UNKNOWN12.md "wikilink"

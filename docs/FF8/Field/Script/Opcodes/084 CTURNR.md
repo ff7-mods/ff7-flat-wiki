@@ -30,4 +30,4 @@ defined as down, 64 right, 128 up, 192 left.
 
 It's unknown how this is any different from [CTURNL][].
 
-  [CTURNL]: FF8/Field/Script/Opcodes/085%20CTURNL.md "wikilink"
+  [CTURNL]: 085%20CTURNL.md "wikilink"

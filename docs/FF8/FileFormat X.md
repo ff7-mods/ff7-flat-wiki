@@ -378,7 +378,7 @@ different.
 ` where:`  
 ` A=1 B=2 C=6 D=7`
 
-  [List of battle stages]: FF8/BS%20list.md "wikilink"
-  [Click me for battle stage pointer list]: FF8/BattleStage/Pointers.md
+  [List of battle stages]: BS%20list.md "wikilink"
+  [Click me for battle stage pointer list]: BattleStage/Pointers.md
     "wikilink"
-  [TIMs]: PSX/TIM%20format.md "wikilink"
+  [TIMs]: ../PSX/TIM%20format.md "wikilink"

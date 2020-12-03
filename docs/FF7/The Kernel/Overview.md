@@ -6,4 +6,4 @@ title: Overview
 
 1.  REDIRECT [FF7/Kernel/Overview][]
 
-  [FF7/Kernel/Overview]: FF7/Kernel/Overview.md "wikilink"
+  [FF7/Kernel/Overview]: ../Kernel/Overview.md "wikilink"

@@ -49,4 +49,4 @@ the ability to retrieve line end-point values from memory.
 If two or more lines are defined in one entity, SLINE only updates the
 first LINE definition.
 
-  [LINE]: FF7/Field/Script/Opcodes/D0%20LINE.md "wikilink"
+  [LINE]: D0%20LINE.md "wikilink"

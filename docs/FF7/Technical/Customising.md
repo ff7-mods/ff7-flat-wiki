@@ -122,7 +122,7 @@ other, more modern alternatives.
 | Scene Reader               | Scene.bin (enemy data) unpacker/repacker. Replaced by Proud Clod's "scene data management" options.            | [M4v3R][]                                          | [1.0][]              | [Forum][61]                |
 | TrueMotion 2.0 Codec       | Codec required to play the movies in the game. Replaced by Aali's OpenGL Driver.                               | [Google][]                                         | 2.0                  | [Website][62]              |
 
-  [Final Fantasy VII]: FF7.md "wikilink"
+  [Final Fantasy VII]: ../../FF7.md "wikilink"
   [Aali]: http://forums.qhimm.com/index.php?action=profile;u=2862
   [Forum]: http://forums.qhimm.com/index.php?topic=8306.0
   [v0.7.11b]: http://backup.ninjaloot.se/share/ff7_opengl-0.7.11b.zip
@@ -180,7 +180,7 @@ other, more modern alternatives.
   [23]: http://forums.qhimm.com/index.php?topic=9548.0
   [myst6re]: http://forums.qhimm.com/index.php?action=profile;u=4778
   [24]: http://forums.qhimm.com/index.php?topic=9658.0
-  [Synergy Blades]: User:Synergy%20Blades.md "wikilink"
+  [Synergy Blades]: ../../User:Synergy%20Blades.md "wikilink"
   [25]: http://www.alaunus.com/wp/?page_id=4
   [26]: http://forums.qhimm.com/index.php?topic=6020.0
   [27]: http://forums.qhimm.com/index.php?topic=14194.0

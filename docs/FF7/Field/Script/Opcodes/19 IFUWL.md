@@ -31,4 +31,4 @@ title: 19 IFUWL
 This is similar to the [IFUW][] opcode, but allows for a jump on
 comparison failure of more than 0xFF bytes.
 
-  [IFUW]: FF7/Field/Script/Opcodes/18%20IFUW.md "wikilink"
+  [IFUW]: 18%20IFUW.md "wikilink"

@@ -166,4 +166,4 @@ listed here, and 32 is the last one (68388).
 `                   return 0; //For compiler`  
 `           }`
 
-  [WmsetXX.obj]: FF8/WorldMap%20wmsetxx.md "wikilink"
+  [WmsetXX.obj]: WorldMap%20wmsetxx.md "wikilink"

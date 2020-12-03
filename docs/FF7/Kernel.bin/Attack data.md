@@ -6,4 +6,4 @@ title: Attack data
 
 1.  redirect [FF7/Attack data][]
 
-  [FF7/Attack data]: FF7/Attack%20data.md "wikilink"
+  [FF7/Attack data]: ../Attack%20data.md "wikilink"

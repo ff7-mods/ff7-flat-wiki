@@ -222,8 +222,8 @@ performing actor and current action unless otherwise noted. Addresses
 | 25Ch        | Target's MP                                                        |
 | 260h        | Action's final Accuracy                                            |
 
-  [Attack Effect]: FF7/Battle/Attack%20Effect%20Id%20List.md "wikilink"
-  [Damage Calculation]: FF7/Battle/Damage%20Calculation.md "wikilink"
-  [Action's Element]: FF7/Battle/Elemental%20Data.md "wikilink"
-  [Attack Special Effects]: FF7/Battle/Attack%20Special%20Effects.md "wikilink"
-  [Inflicting Status(es)]: FF7/Battle/Status%20Effects.md "wikilink"
+  [Attack Effect]: Attack%20Effect%20Id%20List.md "wikilink"
+  [Damage Calculation]: Damage%20Calculation.md "wikilink"
+  [Action's Element]: Elemental%20Data.md "wikilink"
+  [Attack Special Effects]: Attack%20Special%20Effects.md "wikilink"
+  [Inflicting Status(es)]: Status%20Effects.md "wikilink"

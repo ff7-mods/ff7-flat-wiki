@@ -24,6 +24,6 @@ off, the player will not be able to transition to other fields defined
 by the gateways. MAPJUMP opcodes are not affected, and so a combination
 of [LINEs][] and [MAPJUMP][] could still achieve this.
 
-  [gateways]: FF7/Field/3D%20Related.md "wikilink"
-  [LINEs]: FF7/Field/Script/Opcodes/D0%20LINE.md "wikilink"
-  [MAPJUMP]: FF7/Field/Script/Opcodes/60%20MAPJUMP.md "wikilink"
+  [gateways]: ../../3D%20Related.md "wikilink"
+  [LINEs]: D0%20LINE.md "wikilink"
+  [MAPJUMP]: 60%20MAPJUMP.md "wikilink"

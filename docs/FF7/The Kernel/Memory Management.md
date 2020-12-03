@@ -6,5 +6,5 @@ title: Memory Management
 
 1.  REDIRECT [FF7/Kernel/Memory management][]
 
-  [FF7/Kernel/Memory management]: FF7/Kernel/Memory%20management.md
+  [FF7/Kernel/Memory management]: ../Kernel/Memory%20management.md
     "wikilink"

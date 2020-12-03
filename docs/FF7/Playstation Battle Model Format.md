@@ -6,5 +6,5 @@ title: Playstation Battle Model Format
 
 1.  REDIRECT [FF7/Battle model format (PSX)][]
 
-  [FF7/Battle model format (PSX)]: FF7/Battle%20model%20format%20(PSX).md
+  [FF7/Battle model format (PSX)]: Battle%20model%20format%20(PSX).md
     "wikilink"

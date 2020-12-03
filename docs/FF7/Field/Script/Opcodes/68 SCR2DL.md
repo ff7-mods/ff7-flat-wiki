@@ -33,4 +33,4 @@ Similar to [SCR2D][], except the scroll to the coordinates is linear;
 that is, the speed is constant throughout the duration of the screen
 scroll.
 
-  [SCR2D]: FF7/Field/Script/Opcodes/64%20SCR2D.md "wikilink"
+  [SCR2D]: 64%20SCR2D.md "wikilink"

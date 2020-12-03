@@ -28,4 +28,4 @@ delete everything there. This should fix the problem.
 
 [Back to Technical Problems page][]
 
-  [Back to Technical Problems page]: FF7/Technical.md "wikilink"
+  [Back to Technical Problems page]: ../Technical.md "wikilink"

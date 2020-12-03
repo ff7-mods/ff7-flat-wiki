@@ -26,4 +26,4 @@ Sets the asynchronous timer to 0 frames. See [SPUSYNC][] for details.
 This does something to access hardware, but I don't know what. Calling
 it causes some drives to make noises.
 
-  [SPUSYNC]: FF8/Field/Script/Opcodes/164%20SPUSYNC.md "wikilink"
+  [SPUSYNC]: 164%20SPUSYNC.md "wikilink"

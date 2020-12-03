@@ -105,4 +105,4 @@ handles that now. Likewise, removing the Blade Beam property does
 nothing to the Blade Beam attack itself. It was likely replaced by
 [Additional Effect][] 1Ah.
 
-  [Additional Effect]: FF7/Attack%20Special%20Effects.md "wikilink"
+  [Additional Effect]: ../Attack%20Special%20Effects.md "wikilink"

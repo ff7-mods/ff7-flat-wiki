@@ -29,4 +29,4 @@ continuing. The size of the message window can be set with [WINSIZE][].
 This is never used anywhere in the game, but it works. It was replaced
 by AMESW, which has built-in position and size parameters.
 
-  [WINSIZE]: FF8/Field/Script/Opcodes/04B%20WINSIZE.md "wikilink"
+  [WINSIZE]: 04B%20WINSIZE.md "wikilink"

@@ -45,8 +45,8 @@ number for the numerical display, [WNUMB][] is used.
 | 2   | Numeric (000000) |
 |     |                  |
 
-  [WINDOW]: FF7/Field/Script/Opcodes/50%20WINDOW.md "wikilink"
-  [MESSAGE]: FF7/Field/Script/Opcodes/40%20MESSAGE.md "wikilink"
-  [ASK]: FF7/Field/Script/Opcodes/48%20ASK.md "wikilink"
-  [STTIM]: FF7/Field/Script/Opcodes/38%20STTIM.md "wikilink"
-  [WNUMB]: FF7/Field/Script/Opcodes/37%20WNUMB.md "wikilink"
+  [WINDOW]: 50%20WINDOW.md "wikilink"
+  [MESSAGE]: 40%20MESSAGE.md "wikilink"
+  [ASK]: 48%20ASK.md "wikilink"
+  [STTIM]: 38%20STTIM.md "wikilink"
+  [WNUMB]: 37%20WNUMB.md "wikilink"

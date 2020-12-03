@@ -27,4 +27,4 @@ character entity's script.
 To open or shut the character's eyes (change the eye texture used), use
 [KAWAI][].
 
-  [KAWAI]: FF7/Field/Script/Opcodes/28%20KAWAI.md "wikilink"
+  [KAWAI]: 28%20KAWAI.md "wikilink"

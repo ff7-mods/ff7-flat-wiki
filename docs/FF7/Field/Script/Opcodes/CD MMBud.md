@@ -46,4 +46,4 @@ the second argument of IFMEMBQ.
 | 8   | Cid       |
 |     |           |
 
-  [IFMEMBQ]: FF7/Field/Script/Opcodes/CC%20IFMEMBQ.md "wikilink"
+  [IFMEMBQ]: CC%20IFMEMBQ.md "wikilink"

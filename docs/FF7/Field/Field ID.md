@@ -802,5 +802,5 @@ example with the [MAPJUMP][] and [LSTMP][] opcodes.
 | 0x0312 | ztruck     |                                                                                                       |
 |        |            |                                                                                                       |
 
-  [MAPJUMP]: FF7/Field/Script/Opcodes/60%20MAPJUMP.md "wikilink"
-  [LSTMP]: FF7/Field/Script/Opcodes/6E%20LSTMP.md "wikilink"
+  [MAPJUMP]: Script/Opcodes/60%20MAPJUMP.md "wikilink"
+  [LSTMP]: Script/Opcodes/6E%20LSTMP.md "wikilink"

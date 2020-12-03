@@ -27,4 +27,4 @@ This setting has global scope, that is, the character will still be
 locked when transitioning to a new field or to the world map and using
 the PHS.
 
-  [MMBud]: FF7/Field/Script/Opcodes/CD%20MMBud.md "wikilink"
+  [MMBud]: CD%20MMBud.md "wikilink"

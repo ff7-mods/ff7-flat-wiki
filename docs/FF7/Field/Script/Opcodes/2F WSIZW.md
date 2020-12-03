@@ -27,6 +27,6 @@ Resizes and/or repositions the window, after it has been created with
 the [WINDOW][] opcode. On the next [MESSAGE][] or [ASK][], the window
 will be positioned and sized with the new properties.
 
-  [WINDOW]: FF7/Field/Script/Opcodes/50%20WINDOW.md "wikilink"
-  [MESSAGE]: FF7/Field/Script/Opcodes/40%20MESSAGE.md "wikilink"
-  [ASK]: FF7/Field/Script/Opcodes/48%20ASK.md "wikilink"
+  [WINDOW]: 50%20WINDOW.md "wikilink"
+  [MESSAGE]: 40%20MESSAGE.md "wikilink"
+  [ASK]: 48%20ASK.md "wikilink"

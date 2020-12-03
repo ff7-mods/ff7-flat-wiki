@@ -6,5 +6,5 @@ title: F8 GMSPD
 
 1.  REDIRECT [FF7/Field/Script/Opcodes/0F SPECIAL/F8 SMSPD][]
 
-  [FF7/Field/Script/Opcodes/0F SPECIAL/F8 SMSPD]: FF7/Field/Script/Opcodes/0F%20SPECIAL/F8%20SMSPD.md
+  [FF7/Field/Script/Opcodes/0F SPECIAL/F8 SMSPD]: ../0F%20SPECIAL/F8%20SMSPD.md
     "wikilink"

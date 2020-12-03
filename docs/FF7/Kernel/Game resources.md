@@ -6,4 +6,4 @@ title: Game resources
 
 1.  REDIRECT [FF7/Kernel/Kernel.bin][]
 
-  [FF7/Kernel/Kernel.bin]: FF7/Kernel/Kernel.bin.md "wikilink"
+  [FF7/Kernel/Kernel.bin]: Kernel.bin.md "wikilink"

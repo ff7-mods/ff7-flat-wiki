@@ -23,4 +23,4 @@ title: FA MVIEF
 Stores the frame number of the current [MOVIE][] that is being
 displayed, in the bank and address specified.
 
-  [MOVIE]: FF7/Field/Script/Opcodes/F9%20MOVIE.md "wikilink"
+  [MOVIE]: F9%20MOVIE.md "wikilink"

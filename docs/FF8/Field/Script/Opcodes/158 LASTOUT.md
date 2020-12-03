@@ -20,4 +20,4 @@ none
 
 Ends the effects of [LASTIN][].
 
-  [LASTIN]: FF8/Field/Script/Opcodes/157%20LASTIN.md "wikilink"
+  [LASTIN]: 157%20LASTIN.md "wikilink"

@@ -242,5 +242,5 @@ Sometimes you will end up with negative values after subtracting the
 offsets, this is normal, the texture should be assumed to repeat itself
 indefinitely in all directions.*
 
-  [Cyberman]: User:Cyberman.md "wikilink"
-  [here]: FF7/WorldMap%20Module/TextureTable.md "wikilink"
+  [Cyberman]: ../User:Cyberman.md "wikilink"
+  [here]: WorldMap%20Module/TextureTable.md "wikilink"

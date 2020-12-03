@@ -6,5 +6,5 @@ title: FF RMVIT
 
 1.  REDIRECT [FF7/Field/Script/Opcodes/0F SPECIAL/FF RMITM][]
 
-  [FF7/Field/Script/Opcodes/0F SPECIAL/FF RMITM]: FF7/Field/Script/Opcodes/0F%20SPECIAL/FF%20RMITM.md
+  [FF7/Field/Script/Opcodes/0F SPECIAL/FF RMITM]: ../0F%20SPECIAL/FF%20RMITM.md
     "wikilink"

@@ -27,4 +27,4 @@ title: 6F SCRLP
 Similar to [SCRLA][Type], except the scroll moves towards the given
 party member, rather than a particular entity.
 
-  [Type]: FF7/Field/Script/Opcodes/63%20SCRLA.md "wikilink"
+  [Type]: 63%20SCRLA.md "wikilink"

@@ -28,4 +28,4 @@ none
 Does exactly what you think. See [Magic Codes][] for a list of magic
 codes.
 
-  [Magic Codes]: FF8/Magic%20Codes.md "wikilink"
+  [Magic Codes]: ../../../Magic%20Codes.md "wikilink"

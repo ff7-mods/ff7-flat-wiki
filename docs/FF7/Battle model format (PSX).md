@@ -413,7 +413,7 @@ period.
 
 ### Example of LZS playable character battle model file breakdown, using CLOUD.LZS
 
-\[Lazy Bastard\]: Using data from Akari's Q-Gears utilities source,.md.md
+\[Lazy Bastard\]: ../Using data from Akari's Q-Gears utilities source,.md
 information from the wiki, and my own intuition, I've mapped out
 CLOUD.LZS, Cloud's battle model, in entirety. It turns out that Akari's
 Q-Gears FF7 Battle Model Viewer/Extractor source applies to enemy
@@ -10968,7 +10968,7 @@ C0 02 00 03 C8 02 08 03
 
 ### Example of LZS enemy battle model file breakdown, using ENEMY016.LZS
 
-\[Lazy Bastard\]: Using data from Akari's Q-Gears utilities source,
+\[Lazy Bastard\]: ../Using data from Akari's Q-Gears utilities source,.md
 information from the wiki, and my own intuition, I've mapped out
 ENEMY016.LZS, the Shinra MP's battle model, in entirety. I've
 deliberately avoided dissecting animation data and similar data
@@ -14968,7 +14968,7 @@ Texture Data (modified TIM format) - \[at offset 0x000080D0\]:
   
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-  [LZS format]: FF7/LZS%20format.md "wikilink"
-  [TIM format]: PSX/TIM%20format.md "wikilink"
-  [animation data]: FF7/animation%20format.md "wikilink"
-  [Hierarchy files (.HRC)]: PSX/HRC.md "wikilink"
+  [LZS format]: LZS%20format.md "wikilink"
+  [TIM format]: ../PSX/TIM%20format.md "wikilink"
+  [animation data]: animation%20format.md "wikilink"
+  [Hierarchy files (.HRC)]: ../PSX/HRC.md "wikilink"

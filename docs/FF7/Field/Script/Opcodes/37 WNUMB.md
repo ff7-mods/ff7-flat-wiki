@@ -37,6 +37,6 @@ given for this opcode.
 If the value does not fit in the specified number of digits for the
 display, the higher units are not displayed.
 
-  [WSPCL]: FF7/Field/Script/Opcodes/36%20WSPCL.md "wikilink"
-  [STTIM]: FF7/Field/Script/Opcodes/38%20STTIM.md "wikilink"
-  [WINDOW]: FF7/Field/Script/Opcodes/50%20WINDOW.md "wikilink"
+  [WSPCL]: 36%20WSPCL.md "wikilink"
+  [STTIM]: 38%20STTIM.md "wikilink"
+  [WINDOW]: 50%20WINDOW.md "wikilink"

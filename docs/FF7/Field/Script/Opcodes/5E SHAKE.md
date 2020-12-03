@@ -83,5 +83,5 @@ functionality*
 | 2    | SHAKE Y axis only           | Y     | N/A           | N/A               | Must be &gt;0 | Must be &gt;0     |
 | 3    | SHAKE X & Y axis            | X & Y | Must be &gt;0 | Must be &gt;0     | Must be &gt;0 | Must be &gt;0     |
 
-  [SCR2DC]: FF7/Field/Script/Opcodes/66%20SCR2DC.md "wikilink"
-  [SCRLA]: FF7/Field/Script/Opcodes/63%20SCRLA.md "wikilink"
+  [SCR2DC]: 66%20SCR2DC.md "wikilink"
+  [SCRLA]: 63%20SCRLA.md "wikilink"

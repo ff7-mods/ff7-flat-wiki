@@ -66,15 +66,15 @@ The maximum allotted storage space on the PC version for all un-LZSed
 data in the kernel2.bin is 27KB (27648 bytes). This means that the total
 size of the extracted files (text and pointers) must be less than this.
 
-  [BIN-GZIP format]: FF7/Kernel/Low%20level%20libraries.md#BIN-GZIP%20Type%20Archives
+  [BIN-GZIP format]: Low%20level%20libraries.md#BIN-GZIP%20Type%20Archives
     "wikilink"
-  [FF Text files]: FF7/FF%20Text.md "wikilink"
-  [Command data]: FF7/Command%20data.md "wikilink"
-  [Attack data]: FF7/Attack%20data.md "wikilink"
-  [Battle and growth data]: FF7/Battle%20and%20growth%20data.md "wikilink"
-  [Initialization data]: FF7/Character%20starting%20stats.md "wikilink"
-  [Item data]: FF7/Item%20data.md "wikilink"
-  [Weapon data]: FF7/Weapon%20data.md "wikilink"
-  [Armor data]: FF7/Armor%20data.md "wikilink"
-  [Accessory data]: FF7/Accessory%20data.md "wikilink"
-  [Materia data]: FF7/Materia%20data.md "wikilink"
+  [FF Text files]: ../FF%20Text.md "wikilink"
+  [Command data]: ../Command%20data.md "wikilink"
+  [Attack data]: ../Attack%20data.md "wikilink"
+  [Battle and growth data]: ../Battle%20and%20growth%20data.md "wikilink"
+  [Initialization data]: ../Character%20starting%20stats.md "wikilink"
+  [Item data]: ../Item%20data.md "wikilink"
+  [Weapon data]: ../Weapon%20data.md "wikilink"
+  [Armor data]: ../Armor%20data.md "wikilink"
+  [Accessory data]: ../Accessory%20data.md "wikilink"
+  [Materia data]: ../Materia%20data.md "wikilink"

@@ -154,7 +154,7 @@ repeatedly.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="FF7/PSX/Sound/Opcodes/0x0099.md" title="wikilink">0x00-0x99</a></p></td>
+<td><p><a href="Opcodes/0x0099.md" title="wikilink">0x00-0x99</a></p></td>
 <td><p>Note, Tie, Rest</p></td>
 <td><p>1</p></td>
 <td></td>
@@ -168,154 +168,154 @@ repeatedly.
 <td><p>Should not be used.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="FF7/PSX/Sound/Opcodes/0xa0.md" title="wikilink">0xA0</a></p></td>
+<td><p><a href="Opcodes/0xa0.md" title="wikilink">0xA0</a></p></td>
 <td><p>Finish Channel</p></td>
 <td><p>1</p></td>
 <td></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p><a href="FF7/PSX/Sound/Opcodes/0xa1.md" title="wikilink">0xA1</a></p></td>
+<td><p><a href="Opcodes/0xa1.md" title="wikilink">0xA1</a></p></td>
 <td><p>Load Instrument</p></td>
 <td><p>2</p></td>
 <td><p>instrument: byte (0-127)</p></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p><a href="FF7/PSX/Sound/Opcodes/0x0099.md" title="wikilink">0xA2</a></p></td>
+<td><p><a href="Opcodes/0x0099.md" title="wikilink">0xA2</a></p></td>
 <td><p>Overwrite Next Note Length</p></td>
 <td><p>2</p></td>
 <td><p>length: byte</p></td>
 <td><p>Ignores the regular length (delta-time) of the next note and overwrites it with the specified length.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="FF7/PSX/Sound/Opcodes/0xa8aa.md" title="wikilink">0xA3</a></p></td>
+<td><p><a href="Opcodes/0xa8aa.md" title="wikilink">0xA3</a></p></td>
 <td><p>Channel Master Volume</p></td>
 <td><p>2</p></td>
 <td><p>volume: byte (0-127)</p></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p><a href="FF7/PSX/Sound/Opcodes/0xa4.md" title="wikilink">0xA4</a></p></td>
+<td><p><a href="Opcodes/0xa4.md" title="wikilink">0xA4</a></p></td>
 <td><p>Pitch Bend Slide</p></td>
 <td><p>3</p></td>
 <td><p>length: byte, semitones: signed byte</p></td>
 <td><p>When <code>length</code> is 0, it will be translated to 256 ticks.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="FF7/PSX/Sound/Opcodes/0xa5.md" title="wikilink">0xA5</a></p></td>
+<td><p><a href="Opcodes/0xa5.md" title="wikilink">0xA5</a></p></td>
 <td><p>Set Octave</p></td>
 <td><p>2</p></td>
 <td><p>octave: byte (0-15)</p></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p><a href="FF7/PSX/Sound/Opcodes/0xa5.md" title="wikilink">0xA6</a></p></td>
+<td><p><a href="Opcodes/0xa5.md" title="wikilink">0xA6</a></p></td>
 <td><p>Increase Octave</p></td>
 <td><p>1</p></td>
 <td></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p><a href="FF7/PSX/Sound/Opcodes/0xa5.md" title="wikilink">0xA7</a></p></td>
+<td><p><a href="Opcodes/0xa5.md" title="wikilink">0xA7</a></p></td>
 <td><p>Decrease Octave</p></td>
 <td><p>1</p></td>
 <td></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p><a href="FF7/PSX/Sound/Opcodes/0xa8aa.md" title="wikilink">0xA8</a></p></td>
+<td><p><a href="Opcodes/0xa8aa.md" title="wikilink">0xA8</a></p></td>
 <td><p>Channel Volume</p></td>
 <td><p>2</p></td>
 <td><p>volume: byte (0-127)</p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p><a href="FF7/PSX/Sound/Opcodes/0xa9.md" title="wikilink">0xA9</a></p></td>
+<td><p><a href="Opcodes/0xa9.md" title="wikilink">0xA9</a></p></td>
 <td><p>Channel Volume Slide</p></td>
 <td><p>3</p></td>
 <td><p>length: byte, volume: byte (0-127)</p></td>
 <td><p>When <code>length</code> is 0, it will be translated to 256 ticks.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="FF7/PSX/Sound/Opcodes/0xa8aa.md" title="wikilink">0xAA</a></p></td>
+<td><p><a href="Opcodes/0xa8aa.md" title="wikilink">0xAA</a></p></td>
 <td><p>Channel Pan</p></td>
 <td><p>2</p></td>
 <td><p>pan: byte (0-127)</p></td>
 <td><p>64 is the center.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="FF7/PSX/Sound/Opcodes/0xab.md" title="wikilink">0xAB</a></p></td>
+<td><p><a href="Opcodes/0xab.md" title="wikilink">0xAB</a></p></td>
 <td><p>Channel Pan Slide</p></td>
 <td><p>3</p></td>
 <td><p>length: byte, pan: byte (0-127)</p></td>
 <td><p>When <code>length</code> is 0, it will be translated to 256 ticks.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="FF7/PSX/Sound/Opcodes/0xac.md" title="wikilink">0xAC</a></p></td>
+<td><p><a href="Opcodes/0xac.md" title="wikilink">0xAC</a></p></td>
 <td><p>Noise Clock Frequency</p></td>
 <td><p>2</p></td>
 <td><p>clock: byte (0x00-0x3f)</p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p><a href="FF7/PSX/Sound/Opcodes/ADSR.md" title="wikilink">0xAD</a></p></td>
+<td><p><a href="Opcodes/ADSR.md" title="wikilink">0xAD</a></p></td>
 <td><p>ADSR: Attack Rate</p></td>
 <td><p>2</p></td>
 <td><p>attack_rate: byte (0x00-0x7f)</p></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p><a href="FF7/PSX/Sound/Opcodes/ADSR.md" title="wikilink">0xAE</a></p></td>
+<td><p><a href="Opcodes/ADSR.md" title="wikilink">0xAE</a></p></td>
 <td><p>ADSR: Decay Rate</p></td>
 <td><p>2</p></td>
 <td><p>decay_rate: byte (0x00-0x0f)</p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p><a href="FF7/PSX/Sound/Opcodes/ADSR.md" title="wikilink">0xAF</a></p></td>
+<td><p><a href="Opcodes/ADSR.md" title="wikilink">0xAF</a></p></td>
 <td><p>ADSR: Sustain Level</p></td>
 <td><p>2</p></td>
 <td><p>sustain_level: byte (0x00-0x0f)</p></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p><a href="FF7/PSX/Sound/Opcodes/ADSR.md" title="wikilink">0xB0</a></p></td>
+<td><p><a href="Opcodes/ADSR.md" title="wikilink">0xB0</a></p></td>
 <td><p>ADSR: Decay Rate &amp; Sustain Level</p></td>
 <td><p>3</p></td>
 <td><p>decay_rate: byte (0x00-0x0f), sustain_level: byte (0x00-0x0f)</p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p><a href="FF7/PSX/Sound/Opcodes/ADSR.md" title="wikilink">0xB1</a></p></td>
+<td><p><a href="Opcodes/ADSR.md" title="wikilink">0xB1</a></p></td>
 <td><p>ADSR: Sustain Rate</p></td>
 <td><p>2</p></td>
 <td><p>sustain_rate: byte (0x00-0x7f)</p></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p><a href="FF7/PSX/Sound/Opcodes/ADSR.md" title="wikilink">0xB2</a></p></td>
+<td><p><a href="Opcodes/ADSR.md" title="wikilink">0xB2</a></p></td>
 <td><p>ADSR: Release Rate</p></td>
 <td><p>2</p></td>
 <td><p>release_rate: byte (0x00-0x1f)</p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p><a href="FF7/PSX/Sound/Opcodes/ADSR.md" title="wikilink">0xB3</a></p></td>
+<td><p><a href="Opcodes/ADSR.md" title="wikilink">0xB3</a></p></td>
 <td><p>ADSR: Reset ADSR</p></td>
 <td><p>1</p></td>
 <td></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p><a href="FF7/PSX/Sound/Opcodes/0xb4b5.md" title="wikilink">0xB4</a></p></td>
+<td><p><a href="Opcodes/0xb4b5.md" title="wikilink">0xB4</a></p></td>
 <td><p>Vibrato (Channel Pitch LFO)</p></td>
 <td><p>4</p></td>
 <td><p>delay: byte, rate: byte, type: byte (0-15)</p></td>
 <td><p>When <code>rate</code> is 0, it will be translated to 256 ticks.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="FF7/PSX/Sound/Opcodes/0xb4b5.md" title="wikilink">0xB5</a></p></td>
+<td><p><a href="Opcodes/0xb4b5.md" title="wikilink">0xB5</a></p></td>
 <td><p>Vibrato Depth</p></td>
 <td><p>2</p></td>
 <td><p>depth: byte</p></td>
@@ -324,308 +324,308 @@ repeatedly.
 <p>When it is 1, the range is up to about ± 700 cents.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="FF7/PSX/Sound/Opcodes/0xb4b5.md" title="wikilink">0xB6</a></p></td>
+<td><p><a href="Opcodes/0xb4b5.md" title="wikilink">0xB6</a></p></td>
 <td><p>Turn Off Vibrato</p></td>
 <td><p>1</p></td>
 <td></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p><a href="FF7/PSX/Sound/Opcodes/ADSR.md" title="wikilink">0xB7</a></p></td>
+<td><p><a href="Opcodes/ADSR.md" title="wikilink">0xB7</a></p></td>
 <td><p>ADSR: Attack Mode</p></td>
 <td><p>2</p></td>
 <td><p>attack_mode: byte (1 or 5)</p></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p><a href="FF7/PSX/Sound/Opcodes/0xb8b9.md" title="wikilink">0xB8</a></p></td>
+<td><p><a href="Opcodes/0xb8b9.md" title="wikilink">0xB8</a></p></td>
 <td><p>Tremolo (Channel Volume LFO)</p></td>
 <td><p>4</p></td>
 <td><p>delay: byte, rate: byte, type: byte (0-15)</p></td>
 <td><p>When <code>rate</code> is 0, it will be translated to 256 ticks.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="FF7/PSX/Sound/Opcodes/0xb8b9.md" title="wikilink">0xB9</a></p></td>
+<td><p><a href="Opcodes/0xb8b9.md" title="wikilink">0xB9</a></p></td>
 <td><p>Tremolo Depth</p></td>
 <td><p>2</p></td>
 <td><p>depth: byte</p></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p><a href="FF7/PSX/Sound/Opcodes/0xb8b9.md" title="wikilink">0xBA</a></p></td>
+<td><p><a href="Opcodes/0xb8b9.md" title="wikilink">0xBA</a></p></td>
 <td><p>Turn Off Tremolo</p></td>
 <td><p>1</p></td>
 <td></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p><a href="FF7/PSX/Sound/Opcodes/ADSR.md" title="wikilink">0xBB</a></p></td>
+<td><p><a href="Opcodes/ADSR.md" title="wikilink">0xBB</a></p></td>
 <td><p>ADSR: Sustain Mode</p></td>
 <td><p>2</p></td>
 <td><p>sustain_mode: byte (1, 3, 5 or 7)</p></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p><a href="FF7/PSX/Sound/Opcodes/0xbcbd.md" title="wikilink">0xBC</a></p></td>
+<td><p><a href="Opcodes/0xbcbd.md" title="wikilink">0xBC</a></p></td>
 <td><p>Channel Pan LFO</p></td>
 <td><p>3</p></td>
 <td><p>rate: byte, type: byte (0-15)</p></td>
 <td><p>When <code>rate</code> is 0, it will be translated to 256 ticks.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="FF7/PSX/Sound/Opcodes/0xbcbd.md" title="wikilink">0xBD</a></p></td>
+<td><p><a href="Opcodes/0xbcbd.md" title="wikilink">0xBD</a></p></td>
 <td><p>Channel Pan LFO Depth</p></td>
 <td><p>2</p></td>
 <td><p>depth: byte</p></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p><a href="FF7/PSX/Sound/Opcodes/0xbcbd.md" title="wikilink">0xBE</a></p></td>
+<td><p><a href="Opcodes/0xbcbd.md" title="wikilink">0xBE</a></p></td>
 <td><p>Turn Off Channel Pan LFO</p></td>
 <td><p>1</p></td>
 <td></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p><a href="FF7/PSX/Sound/Opcodes/0xbf.md" title="wikilink">0xBF</a></p></td>
+<td><p><a href="Opcodes/0xbf.md" title="wikilink">0xBF</a></p></td>
 <td><p>ADSR: Release Mode</p></td>
 <td><p>2</p></td>
 <td><p>release_mode: byte (3 or 7)</p></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p><a href="FF7/PSX/Sound/Opcodes/0xc0c1.md" title="wikilink">0xC0</a></p></td>
+<td><p><a href="Opcodes/0xc0c1.md" title="wikilink">0xC0</a></p></td>
 <td><p>Channel Transpose (Absolute)</p></td>
 <td><p>2</p></td>
 <td><p>semitones: signed byte</p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p><a href="FF7/PSX/Sound/Opcodes/0xc0c1.md" title="wikilink">0xC1</a></p></td>
+<td><p><a href="Opcodes/0xc0c1.md" title="wikilink">0xC1</a></p></td>
 <td><p>Channel Transpose (Relative)</p></td>
 <td><p>2</p></td>
 <td><p>semitones: signed byte</p></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p><a href="FF7/PSX/Sound/Opcodes/0xc2c3.md" title="wikilink">0xC2</a></p></td>
+<td><p><a href="Opcodes/0xc2c3.md" title="wikilink">0xC2</a></p></td>
 <td><p>Turn On Reverb</p></td>
 <td><p>1</p></td>
 <td></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p><a href="FF7/PSX/Sound/Opcodes/0xc2c3.md" title="wikilink">0xC3</a></p></td>
+<td><p><a href="Opcodes/0xc2c3.md" title="wikilink">0xC3</a></p></td>
 <td><p>Turn Off Reverb</p></td>
 <td><p>1</p></td>
 <td></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p><a href="FF7/PSX/Sound/Opcodes/0xc4c5.md" title="wikilink">0xC4</a></p></td>
+<td><p><a href="Opcodes/0xc4c5.md" title="wikilink">0xC4</a></p></td>
 <td><p>Turn On Noise</p></td>
 <td><p>1</p></td>
 <td></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p><a href="FF7/PSX/Sound/Opcodes/0xc4c5.md" title="wikilink">0xC5</a></p></td>
+<td><p><a href="Opcodes/0xc4c5.md" title="wikilink">0xC5</a></p></td>
 <td><p>Turn Off Noise</p></td>
 <td><p>1</p></td>
 <td></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p><a href="FF7/PSX/Sound/Opcodes/0xc6c7.md" title="wikilink">0xC6</a></p></td>
+<td><p><a href="Opcodes/0xc6c7.md" title="wikilink">0xC6</a></p></td>
 <td><p>Turn On Frequency Modulation</p></td>
 <td><p>1</p></td>
 <td></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p><a href="FF7/PSX/Sound/Opcodes/0xc6c7.md" title="wikilink">0xC7</a></p></td>
+<td><p><a href="Opcodes/0xc6c7.md" title="wikilink">0xC7</a></p></td>
 <td><p>Turn Off Frequency Modulation</p></td>
 <td><p>1</p></td>
 <td></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p><a href="FF7/PSX/Sound/Opcodes/0xc8c9.md" title="wikilink">0xC8</a></p></td>
+<td><p><a href="Opcodes/0xc8c9.md" title="wikilink">0xC8</a></p></td>
 <td><p>Loop Point</p></td>
 <td><p>1</p></td>
 <td></td>
 <td><p>Remember the current offset as a loop point and increase the nesting level of the loop.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="FF7/PSX/Sound/Opcodes/0xc8c9.md" title="wikilink">0xC9</a></p></td>
+<td><p><a href="Opcodes/0xc8c9.md" title="wikilink">0xC9</a></p></td>
 <td><p>Return to Loop Point Up to N Times</p></td>
 <td><p>2</p></td>
 <td><p>times: byte</p></td>
 <td><p>On the Nth repeat, this instruction will end the current loop by decrementing the nesting level of the loop. Otherwise, it will increment the loop counter and return to the loop point. When <code>times</code> is 0, it will be translated to 256 times.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="FF7/PSX/Sound/Opcodes/0xc8c9.md" title="wikilink">0xCA</a></p></td>
+<td><p><a href="Opcodes/0xc8c9.md" title="wikilink">0xCA</a></p></td>
 <td><p>Return to Loop Point</p></td>
 <td><p>1</p></td>
 <td></td>
 <td><p>This instruction will increment the loop counter.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="FF7/PSX/Sound/Opcodes/0xcb.md" title="wikilink">0xCB</a></p></td>
+<td><p><a href="Opcodes/0xcb.md" title="wikilink">0xCB</a></p></td>
 <td><p>Reset Sound Effects</p></td>
 <td><p>1</p></td>
 <td></td>
 <td><p>Reset sound effects such as noise, frequency modulation, reverb, overlay voice and alternate voice.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="FF7/PSX/Sound/Opcodes/0xcccd.md" title="wikilink">0xCC</a></p></td>
+<td><p><a href="Opcodes/0xcccd.md" title="wikilink">0xCC</a></p></td>
 <td><p>Turn On Legato</p></td>
 <td><p>1</p></td>
 <td></td>
 <td><p>This instruction will stop the regular key on and key off performance of the subsequent notes and update the pitch only.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="FF7/PSX/Sound/Opcodes/0xcccd.md" title="wikilink">0xCD</a></p></td>
+<td><p><a href="Opcodes/0xcccd.md" title="wikilink">0xCD</a></p></td>
 <td><p>Turn Off Legato</p></td>
 <td><p>1</p></td>
 <td></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p><a href="FF7/PSX/Sound/Opcodes/0xcecf.md" title="wikilink">0xCE</a></p></td>
+<td><p><a href="Opcodes/0xcecf.md" title="wikilink">0xCE</a></p></td>
 <td><p>Turn On Noise and Toggle Noise On/Off after a Period of Time</p></td>
 <td><p>2</p></td>
 <td><p>delay: byte</p></td>
 <td><p>When <code>delay</code> is 0, it will be translated to 257 ticks.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="FF7/PSX/Sound/Opcodes/0xcecf.md" title="wikilink">0xCF</a></p></td>
+<td><p><a href="Opcodes/0xcecf.md" title="wikilink">0xCF</a></p></td>
 <td><p>Toggle Noise On/Off after a Period of Time</p></td>
 <td><p>2</p></td>
 <td><p>delay: byte</p></td>
 <td><p>When <code>delay</code> is 0, it will be translated to 257 ticks.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="FF7/PSX/Sound/Opcodes/0xd0d1.md" title="wikilink">0xD0</a></p></td>
+<td><p><a href="Opcodes/0xd0d1.md" title="wikilink">0xD0</a></p></td>
 <td><p>Turn On Full-Length Note Mode</p></td>
 <td><p>1</p></td>
 <td></td>
 <td><p>This instruction will stop the regular key off performance of the subsequent notes.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="FF7/PSX/Sound/Opcodes/0xd0d1.md" title="wikilink">0xD1</a></p></td>
+<td><p><a href="Opcodes/0xd0d1.md" title="wikilink">0xD1</a></p></td>
 <td><p>Turn Off Full-Length Note Mode</p></td>
 <td><p>1</p></td>
 <td></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p><a href="FF7/PSX/Sound/Opcodes/0xd2d3.md" title="wikilink">0xD2</a></p></td>
+<td><p><a href="Opcodes/0xd2d3.md" title="wikilink">0xD2</a></p></td>
 <td><p>Turn On Frequency Modulation and Toggle Frequency Modulation On/Off after a Period of Time</p></td>
 <td><p>2</p></td>
 <td><p>delay: byte</p></td>
 <td><p>When <code>delay</code> is 0, it will be translated to 257 ticks.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="FF7/PSX/Sound/Opcodes/0xd2d3.md" title="wikilink">0xD3</a></p></td>
+<td><p><a href="Opcodes/0xd2d3.md" title="wikilink">0xD3</a></p></td>
 <td><p>Toggle Frequency Modulation On/Off after a Period of Time</p></td>
 <td><p>2</p></td>
 <td><p>delay: byte</p></td>
 <td><p>When <code>delay</code> is 0, it will be translated to 257 ticks.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="FF7/PSX/Sound/Opcodes/0xd4d5.md" title="wikilink">0xD4</a></p></td>
+<td><p><a href="Opcodes/0xd4d5.md" title="wikilink">0xD4</a></p></td>
 <td><p>Turn On Playback Rate Side Chain</p></td>
 <td><p>1</p></td>
 <td></td>
 <td><p>Duplicate and use the playback frequency of the previous voice channel.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="FF7/PSX/Sound/Opcodes/0xd4d5.md" title="wikilink">0xD5</a></p></td>
+<td><p><a href="Opcodes/0xd4d5.md" title="wikilink">0xD5</a></p></td>
 <td><p>Turn Off Playback Rate Side Chain</p></td>
 <td><p>1</p></td>
 <td></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p><a href="FF7/PSX/Sound/Opcodes/0xd6d7.md" title="wikilink">0xD6</a></p></td>
+<td><p><a href="Opcodes/0xd6d7.md" title="wikilink">0xD6</a></p></td>
 <td><p>Turn On Pitch-Volume Side Chain</p></td>
 <td><p>1</p></td>
 <td></td>
 <td><p>Multiply the playback frequency of the previous voice channel to the output volume. Lower pitch will make the volume smaller.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="FF7/PSX/Sound/Opcodes/0xd6d7.md" title="wikilink">0xD7</a></p></td>
+<td><p><a href="Opcodes/0xd6d7.md" title="wikilink">0xD7</a></p></td>
 <td><p>Turn Off Pitch-Volume Side Chain</p></td>
 <td><p>1</p></td>
 <td></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p><a href="FF7/PSX/Sound/Opcodes/0xd8d9.md" title="wikilink">0xD8</a></p></td>
+<td><p><a href="Opcodes/0xd8d9.md" title="wikilink">0xD8</a></p></td>
 <td><p>Channel Fine Tuning (Absolute)</p></td>
 <td><p>2</p></td>
 <td><p>amount: signed byte</p></td>
 <td><p>The pitch can be changed in the range of one octave above and below. The <code>amount</code> is the multiplicand for the playback frequency, not a log-based parameter like cents. For example, when the <code>amount</code> is 127, the pitch will be multiplied by 127/128 (about +1 octave). Negative value ​​will lower the pitch.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="FF7/PSX/Sound/Opcodes/0xd8d9.md" title="wikilink">0xD9</a></p></td>
+<td><p><a href="Opcodes/0xd8d9.md" title="wikilink">0xD9</a></p></td>
 <td><p>Channel Fine Tuning (Relative)</p></td>
 <td><p>2</p></td>
 <td><p>amount: signed byte</p></td>
 <td><p>The <code>amount</code> will be added to the current tuning amount.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="FF7/PSX/Sound/Opcodes/0xdadb.md" title="wikilink">0xDA</a></p></td>
+<td><p><a href="Opcodes/0xdadb.md" title="wikilink">0xDA</a></p></td>
 <td><p>Turn On Portamento</p></td>
 <td><p>2</p></td>
 <td><p>speed: byte</p></td>
 <td><p>When <code>speed</code> is 0, it will be translated to 256 ticks.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="FF7/PSX/Sound/Opcodes/0xdadb.md" title="wikilink">0xDB</a></p></td>
+<td><p><a href="Opcodes/0xdadb.md" title="wikilink">0xDB</a></p></td>
 <td><p>Turn Off Portamento</p></td>
 <td><p>1</p></td>
 <td></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p><a href="FF7/PSX/Sound/Opcodes/0x0099.md" title="wikilink">0xDC</a></p></td>
+<td><p><a href="Opcodes/0x0099.md" title="wikilink">0xDC</a></p></td>
 <td><p>Fix Note Length</p></td>
 <td><p>2</p></td>
 <td><p>length_to_add: signed byte</p></td>
 <td><p>Ignore the regular length (delta-time) of subsequent notes and set to the fixed length. The <code>length_to_add</code> parameter will be added to the current length value. (the initial value is 0)</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="FF7/PSX/Sound/Opcodes/0xdd.md" title="wikilink">0xDD</a></p></td>
+<td><p><a href="Opcodes/0xdd.md" title="wikilink">0xDD</a></p></td>
 <td><p>Vibrato Depth Slide</p></td>
 <td><p>3</p></td>
 <td><p>length: byte, depth: byte</p></td>
 <td><p>When <code>length</code> is 0, it will be translated to 256 ticks.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="FF7/PSX/Sound/Opcodes/0xde.md" title="wikilink">0xDE</a></p></td>
+<td><p><a href="Opcodes/0xde.md" title="wikilink">0xDE</a></p></td>
 <td><p>Tremolo Depth Slide</p></td>
 <td><p>3</p></td>
 <td><p>length: byte, depth: byte</p></td>
 <td><p>When <code>length</code> is 0, it will be translated to 256 ticks.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="FF7/PSX/Sound/Opcodes/0xdf.md" title="wikilink">0xDF</a></p></td>
+<td><p><a href="Opcodes/0xdf.md" title="wikilink">0xDF</a></p></td>
 <td><p>Channel Pan LFO Depth Slide</p></td>
 <td><p>3</p></td>
 <td><p>length: byte, depth: byte</p></td>
 <td><p>When <code>length</code> is 0, it will be translated to 256 ticks.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="FF7/PSX/Sound/Opcodes/0xa0.md" title="wikilink">0xE0-0xE7</a></p></td>
+<td><p><a href="Opcodes/0xa0.md" title="wikilink">0xE0-0xE7</a></p></td>
 <td><p>Unimplemented</p></td>
 <td><p>1</p></td>
 <td></td>
 <td><p>Code-referenced to 0xA0. Should not be used.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="FF7/PSX/Sound/Opcodes/0xe8e9.md" title="wikilink">0xE8</a></p></td>
+<td><p><a href="Opcodes/0xe8e9.md" title="wikilink">0xE8</a></p></td>
 <td><p>Tempo</p></td>
 <td><p>3</p></td>
 <td><p>tempo: uint16</p></td>
@@ -633,147 +633,147 @@ repeatedly.
 <p>Note that this coefficient is different from other games with PlayStation AKAO.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="FF7/PSX/Sound/Opcodes/0xe8e9.md" title="wikilink">0xE9</a></p></td>
+<td><p><a href="Opcodes/0xe8e9.md" title="wikilink">0xE9</a></p></td>
 <td><p>Tempo Slide</p></td>
 <td><p>4</p></td>
 <td><p>length: byte, tempo: uint16</p></td>
 <td><p>When <code>length</code> is 0, it will be translated to 256 ticks.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="FF7/PSX/Sound/Opcodes/0xeaeb.md" title="wikilink">0xEA</a></p></td>
+<td><p><a href="Opcodes/0xeaeb.md" title="wikilink">0xEA</a></p></td>
 <td><p>Reverb Depth</p></td>
 <td><p>3</p></td>
 <td><p>depth: uint16</p></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p><a href="FF7/PSX/Sound/Opcodes/0xeaeb.md" title="wikilink">0xEB</a></p></td>
+<td><p><a href="Opcodes/0xeaeb.md" title="wikilink">0xEB</a></p></td>
 <td><p>Reverb Depth Slide</p></td>
 <td><p>4</p></td>
 <td><p>length: byte, depth: uint16</p></td>
 <td><p>When <code>length</code> is 0, it will be translated to 256 ticks.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="FF7/PSX/Sound/Opcodes/0xeced.md" title="wikilink">0xEC</a></p></td>
+<td><p><a href="Opcodes/0xeced.md" title="wikilink">0xEC</a></p></td>
 <td><p>Turn On Drum Mode</p></td>
 <td><p>3</p></td>
 <td><p>drum_map_offset: signed int16</p></td>
 <td><p>The <code>drum_map_offset</code> is a relative offset pointing to the drum instrument map table, which determines the instrument for each keys.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="FF7/PSX/Sound/Opcodes/0xeced.md" title="wikilink">0xED</a></p></td>
+<td><p><a href="Opcodes/0xeced.md" title="wikilink">0xED</a></p></td>
 <td><p>Turn Off Drum Mode</p></td>
 <td><p>1</p></td>
 <td></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p><a href="FF7/PSX/Sound/Opcodes/0xee.md" title="wikilink">0xEE</a></p></td>
+<td><p><a href="Opcodes/0xee.md" title="wikilink">0xEE</a></p></td>
 <td><p>Unconditional Jump</p></td>
 <td><p>3</p></td>
 <td><p>destination_offset: signed int16</p></td>
 <td><p>This instruction can be used to make an infinite loop.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="FF7/PSX/Sound/Opcodes/0xef.md" title="wikilink">0xEF</a></p></td>
+<td><p><a href="Opcodes/0xef.md" title="wikilink">0xEF</a></p></td>
 <td><p>CPU-Conditional Jump</p></td>
 <td><p>4</p></td>
 <td><p>condition: byte, destination_offset: signed int16</p></td>
 <td><p>Jump if the condition variable matches <code>condition</code>. The value of the condition variable can be set from the game program.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="FF7/PSX/Sound/Opcodes/0xf0f1.md" title="wikilink">0xF0</a></p></td>
+<td><p><a href="Opcodes/0xf0f1.md" title="wikilink">0xF0</a></p></td>
 <td><p>Jump on the Nth Repeat</p></td>
 <td><p>4</p></td>
 <td><p>times: byte, destination_offset: signed int16</p></td>
 <td><p>When <code>times</code> is 0, it will be translated to 256 times.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="FF7/PSX/Sound/Opcodes/0xf0f1.md" title="wikilink">0xF1</a></p></td>
+<td><p><a href="Opcodes/0xf0f1.md" title="wikilink">0xF1</a></p></td>
 <td><p>Break the Loop on the Nth Repeat</p></td>
 <td><p>4</p></td>
 <td><p>times: byte, destination_offset: signed int16</p></td>
 <td><p>Unlike 0xF0, this instruction will end the current loop by decrementing the nesting level of the loop. When <code>times</code> is 0, it will be translated to 256 times.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="FF7/PSX/Sound/Opcodes/0xa1.md" title="wikilink">0xF2</a></p></td>
+<td><p><a href="Opcodes/0xa1.md" title="wikilink">0xF2</a></p></td>
 <td><p>Load Instrument (No Attack Sample)</p></td>
 <td><p>2</p></td>
 <td><p>instrument: byte</p></td>
 <td><p>Unlike 0xA1, the sample before the loop point is replaced by a short, silence sample.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="FF7/PSX/Sound/Opcodes/0xf3.md" title="wikilink">0xF3</a></p></td>
+<td><p><a href="Opcodes/0xf3.md" title="wikilink">0xF3</a></p></td>
 <td><p>Unknown</p></td>
 <td><p>1</p></td>
 <td></td>
 <td><p>There is no actual use in music.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="FF7/PSX/Sound/Opcodes/0xf4f5.md" title="wikilink">0xF4</a></p></td>
+<td><p><a href="Opcodes/0xf4f5.md" title="wikilink">0xF4</a></p></td>
 <td><p>Turn On Overlay Voice</p></td>
 <td><p>3</p></td>
 <td><p>instrument: byte, instrument2: byte</p></td>
 <td><p>Play the same melody by different instruments on two voice channels. A free voice channel is required to work. Note that the two channels share the playback rate, and the pitch is not calculated for each instruments. Used in the song "Anxious Heart".</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="FF7/PSX/Sound/Opcodes/0xf4f5.md" title="wikilink">0xF5</a></p></td>
+<td><p><a href="Opcodes/0xf4f5.md" title="wikilink">0xF5</a></p></td>
 <td><p>Turn Off Overlay Voice</p></td>
 <td><p>1</p></td>
 <td></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p><a href="FF7/PSX/Sound/Opcodes/0xf4f5.md" title="wikilink">0xF6</a></p></td>
+<td><p><a href="Opcodes/0xf4f5.md" title="wikilink">0xF6</a></p></td>
 <td><p>Overlay Volume Balance</p></td>
 <td><p>2</p></td>
 <td><p>balance: byte (0-127)</p></td>
 <td><p>When the balance is 0, the volume of the primary voice will be 100% (127/128) of original and that of the secondary voice will be 0%. 127 is the opposite.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="FF7/PSX/Sound/Opcodes/0xf4f5.md" title="wikilink">0xF7</a></p></td>
+<td><p><a href="Opcodes/0xf4f5.md" title="wikilink">0xF7</a></p></td>
 <td><p>Overlay Volume Balance Slide</p></td>
 <td><p>3</p></td>
 <td><p>length: byte, balance: byte (0-127)</p></td>
 <td><p>When <code>length</code> is 0, it will be translated to 256 ticks.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="FF7/PSX/Sound/Opcodes/0xf8f9.md" title="wikilink">0xF8</a></p></td>
+<td><p><a href="Opcodes/0xf8f9.md" title="wikilink">0xF8</a></p></td>
 <td><p>Turn On Alternate Voice</p></td>
 <td><p>2</p></td>
 <td><p>release_rate: byte (0x00-0x1f)</p></td>
 <td><p>This instruction allows subsequent notes to be played on two alternating channels. At the same time, the ADSR release rate will be set to the specified value. A free voice channel is required to work. Check "Opening - Bombing Mission", "Tifa's Theme" and "Fortress of the Condor" for actual usage.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="FF7/PSX/Sound/Opcodes/0xf8f9.md" title="wikilink">0xF9</a></p></td>
+<td><p><a href="Opcodes/0xf8f9.md" title="wikilink">0xF9</a></p></td>
 <td><p>Turn Off Alternate Voice</p></td>
 <td><p>1</p></td>
 <td></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p><a href="FF7/PSX/Sound/Opcodes/0xa0.md" title="wikilink">0xFA-0xFC</a></p></td>
+<td><p><a href="Opcodes/0xa0.md" title="wikilink">0xFA-0xFC</a></p></td>
 <td><p>Unimplemented</p></td>
 <td><p>1</p></td>
 <td></td>
 <td><p>Code-referenced to 0xA0. Should not be used.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="FF7/PSX/Sound/Opcodes/0xfd.md" title="wikilink">0xFD</a></p></td>
+<td><p><a href="Opcodes/0xfd.md" title="wikilink">0xFD</a></p></td>
 <td><p>Time Signature</p></td>
 <td><p>3</p></td>
 <td><p>ticks_per_beat: byte, beats_per_measure: byte</p></td>
 <td><p>Note that two parameters can be 0. This pattern is used for initialization.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="FF7/PSX/Sound/Opcodes/0xfe.md" title="wikilink">0xFE</a></p></td>
+<td><p><a href="Opcodes/0xfe.md" title="wikilink">0xFE</a></p></td>
 <td><p>Measure Number</p></td>
 <td><p>3</p></td>
 <td><p>measure: short</p></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p><a href="FF7/PSX/Sound/Opcodes/0xa0.md" title="wikilink">0xFF</a></p></td>
+<td><p><a href="Opcodes/0xa0.md" title="wikilink">0xFF</a></p></td>
 <td><p>Unimplemented</p></td>
 <td><p>1</p></td>
 <td></td>
@@ -782,4 +782,4 @@ repeatedly.
 </tbody>
 </table>
 
-  [opcode 0xEC]: FF7/PSX/Sound/Opcodes/0xeced.md "wikilink"
+  [opcode 0xEC]: Opcodes/0xeced.md "wikilink"

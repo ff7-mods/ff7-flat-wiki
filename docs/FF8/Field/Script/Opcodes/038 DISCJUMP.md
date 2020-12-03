@@ -31,5 +31,5 @@ Walkmesh ID
 
 Same as [MAPJUMP3][], but also initiate a [DISC][] switch.
 
-  [MAPJUMP3]: FF8/Field/Script/Opcodes/02A%20MAPJUMP3.md "wikilink"
-  [DISC]: FF8/Field/Script/Opcodes/11F%20DISC.md "wikilink"
+  [MAPJUMP3]: 02A%20MAPJUMP3.md "wikilink"
+  [DISC]: 11F%20DISC.md "wikilink"

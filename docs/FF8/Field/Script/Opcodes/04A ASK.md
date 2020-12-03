@@ -37,4 +37,4 @@ with PSHI\_L 0.
 
 [AASK][] is an upgrade that also lets you set the window position.
 
-  [AASK]: FF8/Field/Script/Opcodes/06F%20AASK.md "wikilink"
+  [AASK]: 06F%20AASK.md "wikilink"

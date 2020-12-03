@@ -96,5 +96,5 @@ Known Values:
 
 ### 0x8083 - Material Specularity
 
-  [Koral]: User:Koral.md "wikilink"
+  [Koral]: ../User:Koral.md "wikilink"
   [MrAdults]: http://www.richwhitehouse.com/index.php?postid=34

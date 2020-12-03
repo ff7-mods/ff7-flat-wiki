@@ -58,5 +58,5 @@ will check if any of the directional buttons are being pressed.
 | 0b1000000000000000 / 32768 | Left            |         |             |
 |                            |                 |         |             |
 
-  [IFKEYON]: FF7/Field/Script/Opcodes/31%20IFKEYON.md "wikilink"
-  [IFKEYOFF]: FF7/Field/Script/Opcodes/32%20IFKEYOFF.md "wikilink"
+  [IFKEYON]: 31%20IFKEYON.md "wikilink"
+  [IFKEYOFF]: 32%20IFKEYOFF.md "wikilink"

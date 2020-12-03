@@ -25,6 +25,6 @@ Repositions the window, with the given ID, and a (x,y) translation. The
 window will be repositioned the next time a [MESSAGE][] or [ASK][],
 referencing this window, is issued.
 
-  [WINDOW]: FF7/Field/Script/Opcodes/50%20WINDOW.md "wikilink"
-  [MESSAGE]: FF7/Field/Script/Opcodes/40%20MESSAGE.md "wikilink"
-  [ASK]: FF7/Field/Script/Opcodes/48%20ASK.md "wikilink"
+  [WINDOW]: 50%20WINDOW.md "wikilink"
+  [MESSAGE]: 40%20MESSAGE.md "wikilink"
+  [ASK]: 48%20ASK.md "wikilink"

@@ -29,4 +29,4 @@ changes the animation being played, such as [MOVE][].
 Makou Reactor Description: Play loop animation \#%1 of the field model
 (speed=%2)
 
-  [MOVE]: FF7/Field/Script/Opcodes/A8%20MOVE.md "wikilink"
+  [MOVE]: A8%20MOVE.md "wikilink"

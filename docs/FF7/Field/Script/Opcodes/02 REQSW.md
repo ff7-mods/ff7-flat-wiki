@@ -30,5 +30,5 @@ the request will block until it becomes available and only then return.
 The remote execution is still carried out asynchronously, with no
 notification of completion.
 
-  [entity]: FF7/Field/Script/Entity.md "wikilink"
-  [priority]: FF7/Field/Script/Priorities.md "wikilink"
+  [entity]: ../Entity.md "wikilink"
+  [priority]: ../Priorities.md "wikilink"

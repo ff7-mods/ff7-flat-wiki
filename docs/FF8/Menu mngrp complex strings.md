@@ -30,4 +30,4 @@ Before the string sections, there is a section with a map of seek data.
 | UInt16                   | 2                 | Entry\_Length        | Length of entry from start.                            |
 | Byte \[Entry\_Length-8\] | Entry\_Length - 8 | [Encoded\_Strings][] | Entry might have more than string, each ends with 0x00 |
 
-  [Encoded\_Strings]: FF8/String%20Encoding.md "wikilink"
+  [Encoded\_Strings]: String%20Encoding.md "wikilink"

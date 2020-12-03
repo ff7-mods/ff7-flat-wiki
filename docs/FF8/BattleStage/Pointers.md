@@ -72,4 +72,4 @@ FF8 engine reads [Battle Stage files][] by positions coded in executable
 `           throw new Exception("0xFFF, unknown pointer!");`  
 `       }`
 
-  [Battle Stage files]: FF8/FileFormat%20X.md "wikilink"
+  [Battle Stage files]: ../FileFormat%20X.md "wikilink"

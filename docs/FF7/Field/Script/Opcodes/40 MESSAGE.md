@@ -24,5 +24,5 @@ title: 40 MESSAGE
 Displays a dialog in the [WINDOW][] that has previously been initialised
 to display this dialog.
 
-  [dialog]: FF7/Field/Script.md "wikilink"
-  [WINDOW]: FF7/Field/Script/Opcodes/50%20WINDOW.md "wikilink"
+  [dialog]: ../../Script.md "wikilink"
+  [WINDOW]: 50%20WINDOW.md "wikilink"

@@ -29,5 +29,5 @@ without waiting for the remote execution to start or finish. If the
 specified priority is already busy executing, the request will fail
 silently.
 
-  [entity]: FF7/Field/Script/Entity.md "wikilink"
-  [priority]: FF7/Field/Script/Priorities.md "wikilink"
+  [entity]: ../Entity.md "wikilink"
+  [priority]: ../Priorities.md "wikilink"

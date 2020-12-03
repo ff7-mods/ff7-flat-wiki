@@ -69,7 +69,7 @@ Technically this is a DWord, but the checksum generation method only stores the 
 <tr class="odd">
 <td><p>0x0008</p></td>
 <td><p>16 bytes</p></td>
-<td style="text-align: center;"><p><strong>Save Preview</strong>: Lead character's name, <a href="FF7/FF%20Text.md" title="wikilink">FF Text format</a> , terminated with 0xFF</p></td>
+<td style="text-align: center;"><p><strong>Save Preview</strong>: Lead character's name, <a href="FF%20Text.md" title="wikilink">FF Text format</a> , terminated with 0xFF</p></td>
 </tr>
 <tr class="even">
 <td><p>0x0018</p></td>
@@ -104,7 +104,7 @@ Technically this is a DWord, but the checksum generation method only stores the 
 <tr class="even">
 <td><p>0x0028</p></td>
 <td><p>32 bytes</p></td>
-<td style="text-align: center;"><p><strong>Save Preview</strong>: Save location, <a href="FF7/FF%20Text.md" title="wikilink">FF Text format</a>, terminated with 0xFF</p></td>
+<td style="text-align: center;"><p><strong>Save Preview</strong>: Save location, <a href="FF%20Text.md" title="wikilink">FF Text format</a>, terminated with 0xFF</p></td>
 </tr>
 <tr class="odd">
 <td><p>0x0048</p></td>
@@ -257,7 +257,7 @@ Technically this is a DWord, but only the lower Byte is used.</p></td>
 <tr class="odd">
 <td><p>0x0B94</p></td>
 <td><p>2 bytes</p></td>
-<td style="text-align: center;"><p>Current <a href="FF7/Engine%20basics.md" title="wikilink">module</a><br />
+<td style="text-align: center;"><p>Current <a href="Engine%20basics.md" title="wikilink">module</a><br />
 If value is 1, the game was saved in the field.<br />
 If value is 3, the game was saved in the world map.</p></td>
 </tr>
@@ -504,7 +504,7 @@ z_7[0]</p></td>
 <td><p>Yuffie's Initial Level (z_7 Unknown) Byte value before Yuffie join the team: 0x00.<br />
 (If byte's value is changed, then you can't fight Yuffie, so she can't be obtained).<br />
 Yuffie's Initial Level only is set when she already join the team.<br />
-Credit to <a href="Savemap.md" title="wikilink">(NFITC1)</a></p></td>
+Credit to <a href="../Savemap.md" title="wikilink">(NFITC1)</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>0x0BA7</p></td>
@@ -691,7 +691,7 @@ z_9[0]</p></td>
 z_9[4]</p></td>
 <td><p>1 byte</p></td>
 <td><p>Field Items, Sector 7 Train Graveyard<br />
-Item bit mask (<a href="Bit%20numbering.md" title="wikilink">LBS</a>) (applied when you pick them up).<br />
+Item bit mask (<a href="../Bit%20numbering.md" title="wikilink">LBS</a>) (applied when you pick them up).<br />
 Bit=0(Item on the floor), Bit=1(Item Picked Up).<br />
 0x01: Hi-Potion.(mds7st1|Barrel 1)<br />
 0x02: Echo Screen.(mds7st1|Barrel 2)<br />
@@ -728,7 +728,7 @@ z_9[6]</p></td>
 <tr class="odd">
 <td><p>0x0BD4</p></td>
 <td><p>1 byte</p></td>
-<td><p>Item bit mask (<a href="Bit%20numbering.md" title="wikilink">LBS</a>)(applied when you pick them up). Field Item / Materia<br />
+<td><p>Item bit mask (<a href="../Bit%20numbering.md" title="wikilink">LBS</a>)(applied when you pick them up). Field Item / Materia<br />
 Bit=0(Item on the floor), Bit=1(Item Picked Up).<br />
 0x01: Potion {md8_3/p/s1}<br />
 0x02: Potion + Phoenix Down {ealin_2/zu/s1}<br />
@@ -801,7 +801,7 @@ z_10[2]</p></td>
 z_10[6]</p></td>
 <td><p>1 byte</p></td>
 <td><p>Field Items, Sector 7 Wall Market and Shinra HQ<br />
-Item bit mask (<a href="Bit%20numbering.md" title="wikilink">LBS</a>) (applied when you pick them up).<br />
+Item bit mask (<a href="../Bit%20numbering.md" title="wikilink">LBS</a>) (applied when you pick them up).<br />
 Bit=0(Item on the floor), Bit=1(Item Picked Up).<br />
 0x01: Ether.(Corneo's masion basement floor) {colne_4/TAKARA/s1}<br />
 0x02: Hyper.(Corneo's masion corneo 's bedroom floor) {colne_6/TAKARA/s1}<br />
@@ -818,7 +818,7 @@ Bit=0(Item on the floor), Bit=1(Item Picked Up).<br />
 z_10[7]</p></td>
 <td><p>1 byte</p></td>
 <td><p>Field Items, Shinra HQ<br />
-Item bit mask (<a href="Bit%20numbering.md" title="wikilink">LBS</a>) (applied when you pick them up).<br />
+Item bit mask (<a href="../Bit%20numbering.md" title="wikilink">LBS</a>) (applied when you pick them up).<br />
 Bit=0(Item on the floor), Bit=1(Item Picked Up).<br />
 0x01: Third Midgar Part Key Item {blin65_1/PARTC/s1}<br />
 0x02: Fourth Midgar Part Key Item {blin65_1/PARTD/s1}<br />
@@ -900,7 +900,7 @@ z_11[2]</p></td>
 <td><p>0x0BEF<br />
 z_11[3]</p></td>
 <td><p>1 byte</p></td>
-<td><p>Items mask, Chocobo Farm (<a href="Bit%20numbering.md" title="wikilink">LBS</a>)(applied when you take the item).<br />
+<td><p>Items mask, Chocobo Farm (<a href="../Bit%20numbering.md" title="wikilink">LBS</a>)(applied when you take the item).<br />
 Bit=0(Item in field), Bit=1(Item taken).<br />
 0x01: Activated right after getting Choco-Mog{farm/mat/s1}(Is set by kernel, not from Field) (See 0x0BD4[4])<br />
 0x02: Activated right after getting Enemy Skill {blin68_2/mtr/s1}(Is set by kernel, not from Field) (See 0x0FC6[2])<br />
@@ -1052,7 +1052,7 @@ z_15[1]</p></td>
 <td><p>0x0C22<br />
 z_15[2]</p></td>
 <td><p>1 byte</p></td>
-<td><p>Chocobo display value on world map (<a href="Bit%20numbering.md" title="wikilink">LBS</a>).<br />
+<td><p>Chocobo display value on world map (<a href="../Bit%20numbering.md" title="wikilink">LBS</a>).<br />
 Bit=0(Disabled), Bit=1(Enabled).<br />
 Ex: Wild Chocobo (0x01) + Black Chocobo (0x20) = Byte value 0x21<br />
 0x01: Caught wild chocobo<br />
@@ -1069,7 +1069,7 @@ Ex: Wild Chocobo (0x01) + Black Chocobo (0x20) = Byte value 0x21<br />
 <td><p>0x0C23<br />
 z_15[3]</p></td>
 <td><p>1 byte</p></td>
-<td><p>Vehicle display value on world map (<a href="Bit%20numbering.md" title="wikilink">LBS</a>).<br />
+<td><p>Vehicle display value on world map (<a href="../Bit%20numbering.md" title="wikilink">LBS</a>).<br />
 Note: if disk is different than 1, buggy is invisible.<br />
 Bit=0(Disabled), Bit=1(Enabled).<br />
 Ex: Buggy (0x01) + Tiny Bronco (0x04) = Byte value 0x05<br />
@@ -1093,7 +1093,7 @@ Byte value 0x00: None<br />
 <td><p>0x0C24<br />
 z_16[0]</p></td>
 <td><p>1 byte</p></td>
-<td><p>Field mask, Corel (<a href="Bit%20numbering.md" title="wikilink">LBS</a>)(applied when you take the item).<br />
+<td><p>Field mask, Corel (<a href="../Bit%20numbering.md" title="wikilink">LBS</a>)(applied when you take the item).<br />
 Bit=0(Item in field), Bit=1(Item taken).<br />
 0x01: Barret talks about his hometown before enter the Ropeway for first time {ROPEST[1][1-Main][49]}<br />
 0x02: Free rest in corel inn {NCOINN[0][0-Main][5]}<br />
@@ -1109,7 +1109,7 @@ Bit=0(Item in field), Bit=1(Item taken).<br />
 <td><p>0x0C25<br />
 z_16[1]</p></td>
 <td><p>1 byte</p></td>
-<td><p>Field mask (<a href="Bit%20numbering.md" title="wikilink">LBS</a>)(applied when you take the item).<br />
+<td><p>Field mask (<a href="../Bit%20numbering.md" title="wikilink">LBS</a>)(applied when you take the item).<br />
 Bit=0(Item in field), Bit=1(Item taken).<br />
 0x01: Priscilla Warnings (Reset after read): "It gets deeper the farther you go..." or (High Voltage through tower base) {UJUNON2/cloud/s12}<br />
 0x02: Oldman: "Young man, do CPR!" {UJUNON4/oldm1/s3}<br />
@@ -1123,7 +1123,7 @@ Bit=0(Item in field), Bit=1(Item taken).<br />
 <td><p>0x0C26<br />
 z_16[2]</p></td>
 <td><p>1 byte</p></td>
-<td><p>Field mask (<a href="Bit%20numbering.md" title="wikilink">LBS</a>)(applied when you take the item).<br />
+<td><p>Field mask (<a href="../Bit%20numbering.md" title="wikilink">LBS</a>)(applied when you take the item).<br />
 Bit=0(Item in field), Bit=1(Item taken).<br />
 0x01: man1: "It's dangerous, please don't go!" if you choose "I'm still going" {SNOW/man1/s3}<br />
 0x02: Snowboard Key Item {SNMIN1/board/s1}<br />
@@ -1139,7 +1139,7 @@ Bit=0(Item in field), Bit=1(Item taken).<br />
 <td><p>0x0C27<br />
 z_16[3]</p></td>
 <td><p>1 byte</p></td>
-<td><p>Field mask (<a href="Bit%20numbering.md" title="wikilink">LBS</a>)(applied when you take the item).<br />
+<td><p>Field mask (<a href="../Bit%20numbering.md" title="wikilink">LBS</a>)(applied when you take the item).<br />
 Bit=0(Item in field), Bit=1(Item taken).<br />
 0x01: If you succeed climbing (to the top, not the cave, just before crater_1 map) {GAIA_32/ladd5/s4}<br />
 0x02: If you Push-over the rock {GAIIN_2/icerock/s1}<br />
@@ -1155,7 +1155,7 @@ Bit=0(Item in field), Bit=1(Item taken).<br />
 <td><p>0x0C28<br />
 z_16[4]</p></td>
 <td><p>1 byte</p></td>
-<td><p>Field mask (<a href="Bit%20numbering.md" title="wikilink">LBS</a>)(applied when you take the item).<br />
+<td><p>Field mask (<a href="../Bit%20numbering.md" title="wikilink">LBS</a>)(applied when you take the item).<br />
 Bit=0(Item in field), Bit=1(Item taken).<br />
 0x01: First time you enter GAIAFOOT map talk {GAIAFOOT/drctr/s0}<br />
 0x02:<br />
@@ -1171,7 +1171,7 @@ Bit=0(Item in field), Bit=1(Item taken).<br />
 <td><p>0x0C29<br />
 z_16[5]</p></td>
 <td><p>1 byte</p></td>
-<td><p>Field mask, Whirlwind Maze (<a href="Bit%20numbering.md" title="wikilink">LBS</a>)(applied when you take the item).<br />
+<td><p>Field mask, Whirlwind Maze (<a href="../Bit%20numbering.md" title="wikilink">LBS</a>)(applied when you take the item).<br />
 Bit=0(Item in field), Bit=1(Item taken).<br />
 0x01: If you give the Black Materia to Barret {TRNAD_1/ballet/s1}<br />
 0x02: If you give the Black Materia to {TRNAD_1/red/s1}<br />
@@ -1187,7 +1187,7 @@ Bit=0(Item in field), Bit=1(Item taken).<br />
 <td><p>0x0C2A<br />
 z_16[6]</p></td>
 <td><p>1 byte</p></td>
-<td><p>Field mask, Whirlwind Maze (<a href="Bit%20numbering.md" title="wikilink">LBS</a>)(applied when you take the item).<br />
+<td><p>Field mask, Whirlwind Maze (<a href="../Bit%20numbering.md" title="wikilink">LBS</a>)(applied when you take the item).<br />
 Bit=0(Item in field), Bit=1(Item taken).<br />
 0x01: Cloud: "What happened to this town? It's so run-down" {UJUNON1/drctr/s0}<br />
 0x02: If you have taken the Glacier Map before he offers you to, man3: "What nerve! You already tore down the map."<br />
@@ -1199,7 +1199,7 @@ Bit=0(Item in field), Bit=1(Item taken).<br />
 <td><p>0x0C2B<br />
 z_16[7]</p></td>
 <td><p>1 byte</p></td>
-<td><p>Field mask, Whirlwind Maze (<a href="Bit%20numbering.md" title="wikilink">LBS</a>)(applied when you take the item).<br />
+<td><p>Field mask, Whirlwind Maze (<a href="../Bit%20numbering.md" title="wikilink">LBS</a>)(applied when you take the item).<br />
 Bit=0(Item in field), Bit=1(Item taken).<br />
 0x01: Cid regets about gaving the Huge Materia to the Shinra {NCOREL/worry/s2}<br />
 0x02: After Barret finish talking about his hometown history then enters the ropeway {ROPEST/ad/S3}<br />
@@ -1215,7 +1215,7 @@ Bit=0(Item in field), Bit=1(Item taken).<br />
 <td><p>0x0C44<br />
 z_16[32]</p></td>
 <td><p>1 byte</p></td>
-<td><p>Progress items, Wallmarket (<a href="Bit%20numbering.md" title="wikilink">LBS</a>).<br />
+<td><p>Progress items, Wallmarket (<a href="../Bit%20numbering.md" title="wikilink">LBS</a>).<br />
 Bit=0(Item not obtained), Bit=1(Item obtained).<br />
 0x01: Cologne at Wallmarket {mktpb/woman2/s1}<br />
 0x02: Flower Cologne at Wallmarket {mktpb/woman2/s1}<br />
@@ -1231,7 +1231,7 @@ Bit=0(Item not obtained), Bit=1(Item obtained).<br />
 <td><p>0x0C45<br />
 z_16[33]</p></td>
 <td><p>1 byte</p></td>
-<td><p>Progress items, Wallmarket (<a href="Bit%20numbering.md" title="wikilink">LBS</a>).<br />
+<td><p>Progress items, Wallmarket (<a href="../Bit%20numbering.md" title="wikilink">LBS</a>).<br />
 Bit=0(Item not obtained), Bit=1(Item obtained).<br />
 0x01: Girl at Honey Bee Inn put make-up on cloud, poor result (result is random) {onna2/girl1/s3}<br />
 0x02: Girl at Honey Bee Inn put make-up on cloud, averange result (result is random) {onna2/girl1/s3}<br />
@@ -1247,7 +1247,7 @@ Bit=0(Item not obtained), Bit=1(Item obtained).<br />
 <td><p>0x0C46<br />
 z_16[34]</p></td>
 <td><p>1 byte</p></td>
-<td><p>Progress items, Wallmarket (<a href="Bit%20numbering.md" title="wikilink">LBS</a>).<br />
+<td><p>Progress items, Wallmarket (<a href="../Bit%20numbering.md" title="wikilink">LBS</a>).<br />
 Bit=0(Item not obtained), Bit=1(Item obtained).<br />
 0x01: Disinfectant at Wallmarket {mkt_s3/tensyu}<br />
 0x02: Deodorant at Wallmarket {mkt_s3/tensyu}<br />
@@ -1278,7 +1278,7 @@ Lingerie (Should be +1), Mystery panties (+3), Bikini briefs (+5)<br />
 <td><p>0x0C48<br />
 z_16[36]</p></td>
 <td><p>1 byte</p></td>
-<td><p>Field Objects, Sector 7 Train Graveyard (<a href="Bit%20numbering.md" title="wikilink">LBS</a>) (so far)<br />
+<td><p>Field Objects, Sector 7 Train Graveyard (<a href="../Bit%20numbering.md" title="wikilink">LBS</a>) (so far)<br />
 Bit=0(Original Position), Bit=1(Moved).<br />
 0x01: Train 1 Position. {mds7st2}<br />
 0x02: Train 2 Position. {mds7st2}<br />
@@ -1291,7 +1291,7 @@ Bit=0(Original Position), Bit=1(Moved).<br />
 z_16[37]</p></td>
 <td><p>1 byte</p></td>
 <td><p>Field Items, Sector 7 Wall Market<br />
-Items bit mask (<a href="Bit%20numbering.md" title="wikilink">LBS</a>)<br />
+Items bit mask (<a href="../Bit%20numbering.md" title="wikilink">LBS</a>)<br />
 0x01: Cloud see the first battery holder and figured out the idea of using a battery there... {wcrimb_1}<br />
 0x02: First battery applied up the wall of Wallmarket(0x02){wcrimb_1}<br />
 0x04: Second battery applied up the wall of Wallmarket(0x04){wcrimb_1}<br />
@@ -1456,7 +1456,7 @@ z_16[54]</p></td>
 <td><p>0x0C5B<br />
 z_16[55]</p></td>
 <td><p>1 byte</p></td>
-<td><p>Conversations mask (<a href="Bit%20numbering.md" title="wikilink">LBS</a>)(applied when you speak).<br />
+<td><p>Conversations mask (<a href="../Bit%20numbering.md" title="wikilink">LBS</a>)(applied when you speak).<br />
 Bit=0(Not spoken to), Bit=1(Spoken to).<br />
 0x01: Speaking to the children near the wall of Wallmarket(0x01)<br />
 0x02: Speaking to the children near the wall of Wallmarket(0x02)<br />
@@ -1744,7 +1744,7 @@ z_22[34]</p></td>
 <td><p>0x0D24<br />
 z_22[35]</p></td>
 <td><p>1 byte</p></td>
-<td><p>Conversations mask, Kalm (<a href="Bit%20numbering.md" title="wikilink">LBS</a>)(applied when you speak to someone).<br />
+<td><p>Conversations mask, Kalm (<a href="../Bit%20numbering.md" title="wikilink">LBS</a>)(applied when you speak to someone).<br />
 Bit=0(Not spoken to), Bit=1(Spoken to).<br />
 0x01:<br />
 0x02:<br />
@@ -1760,7 +1760,7 @@ Bit=0(Not spoken to), Bit=1(Spoken to).<br />
 <td><p>0x0D26<br />
 z_22[37]</p></td>
 <td><p>1 byte</p></td>
-<td><p>Conversations mask, Reactor under the plate (<a href="Bit%20numbering.md" title="wikilink">LBS</a>)(applied when you speak).<br />
+<td><p>Conversations mask, Reactor under the plate (<a href="../Bit%20numbering.md" title="wikilink">LBS</a>)(applied when you speak).<br />
 Bit=0(Not spoken to), Bit=1(Spoken to).<br />
 0x01: Speaking with Biggs(0x01)<br />
 0x02:<br />
@@ -1776,7 +1776,7 @@ Bit=0(Not spoken to), Bit=1(Spoken to).<br />
 <td><p>0x0D27<br />
 z_22[38]</p></td>
 <td><p>1 byte</p></td>
-<td><p>Conversations mask, Reactor under the plate (<a href="Bit%20numbering.md" title="wikilink">LBS</a>)(applied when you speak).<br />
+<td><p>Conversations mask, Reactor under the plate (<a href="../Bit%20numbering.md" title="wikilink">LBS</a>)(applied when you speak).<br />
 Bit=0(Not spoken to), Bit=1(Spoken to).<br />
 0x01: Speaking with Jesse(0x01)<br />
 0x02:<br />
@@ -1802,7 +1802,7 @@ Bit=0(Not spoken to), Bit=1(Spoken to).<br />
 <td><p>0x0D44<br />
 z_23[26]</p></td>
 <td><p>1 byte</p></td>
-<td><p>Conversations mask, Reactor under the plate (<a href="Bit%20numbering.md" title="wikilink">LBS</a>).<br />
+<td><p>Conversations mask, Reactor under the plate (<a href="../Bit%20numbering.md" title="wikilink">LBS</a>).<br />
 Bit=0(NOT Activated/Received/Spoken to), Bit=1(Activated/Received/Spoken to).<br />
 0x01:<br />
 0x02:<br />
@@ -1828,7 +1828,7 @@ Bit=0(NOT Activated/Received/Spoken to), Bit=1(Activated/Received/Spoken to).<br
 <td><p>0x0D47<br />
 z_24[0]</p></td>
 <td><p>1 byte</p></td>
-<td><p>Conversations mask, Shinra HQ (<a href="Bit%20numbering.md" title="wikilink">LBS</a>)(applied when you speak).<br />
+<td><p>Conversations mask, Shinra HQ (<a href="../Bit%20numbering.md" title="wikilink">LBS</a>)(applied when you speak).<br />
 Bit=0(Not spoken to), Bit=1(Spoken to).<br />
 0x01:<br />
 0x02:<br />
@@ -1844,7 +1844,7 @@ Bit=0(Not spoken to), Bit=1(Spoken to).<br />
 <td><p>0x0D49<br />
 z_24[2]</p></td>
 <td><p>1 byte</p></td>
-<td><p>Conversations mask, Shinra HQ (<a href="Bit%20numbering.md" title="wikilink">LBS</a>)(applied when you speak).<br />
+<td><p>Conversations mask, Shinra HQ (<a href="../Bit%20numbering.md" title="wikilink">LBS</a>)(applied when you speak).<br />
 Bit=0(Not spoken to), Bit=1(Spoken to).<br />
 0x01:<br />
 0x02:<br />
@@ -1860,7 +1860,7 @@ Bit=0(Not spoken to), Bit=1(Spoken to).<br />
 <td><p>0x0D4A<br />
 z_24[3]</p></td>
 <td><p>1 byte</p></td>
-<td><p>Conversations mask, Shinra HQ (<a href="Bit%20numbering.md" title="wikilink">LBS</a>)(applied when you speak).<br />
+<td><p>Conversations mask, Shinra HQ (<a href="../Bit%20numbering.md" title="wikilink">LBS</a>)(applied when you speak).<br />
 Bit=0(Not spoken to), Bit=1(Spoken to).<br />
 0x01: Third conversation while climbing Shinra HQ stairs (0x01)<br />
 0x02:<br />
@@ -1876,7 +1876,7 @@ Bit=0(Not spoken to), Bit=1(Spoken to).<br />
 <td><p>0x0D4C<br />
 z_24[5]</p></td>
 <td><p>1 byte</p></td>
-<td><p>Conversations mask, Shinra HQ (<a href="Bit%20numbering.md" title="wikilink">LBS</a>)(applied when you speak).<br />
+<td><p>Conversations mask, Shinra HQ (<a href="../Bit%20numbering.md" title="wikilink">LBS</a>)(applied when you speak).<br />
 Bit=0(Not spoken to), Bit=1(Spoken to).<br />
 0x01: Braking in Shinra HQ scene (0x01)<br />
 0x02: Taking out the guards and obtaining keycard 60(0x02)<br />
@@ -1892,7 +1892,7 @@ Bit=0(Not spoken to), Bit=1(Spoken to).<br />
 <td><p>0x0D50<br />
 z_24[9]</p></td>
 <td><p>1 byte</p></td>
-<td><p>Items mask, Shinra HQ (<a href="Bit%20numbering.md" title="wikilink">LBS</a>)(applied when you speak).<br />
+<td><p>Items mask, Shinra HQ (<a href="../Bit%20numbering.md" title="wikilink">LBS</a>)(applied when you speak).<br />
 Bit=0(Item on floor), Bit=1(Item taken).<br />
 0x01: Phoenix down from locker at floor 64 (0x01)<br />
 0x02: Ether from locker at floor 64(0x02)<br />
@@ -1908,7 +1908,7 @@ Bit=0(Item on floor), Bit=1(Item taken).<br />
 <td><p>0x0D52<br />
 z_24[11]</p></td>
 <td><p>2 bytes</p></td>
-<td><p>Bits kept for the doors at floor 63, Shinra HQ (<a href="Bit%20numbering.md" title="wikilink">LBS</a>)(applied when you speak).<br />
+<td><p>Bits kept for the doors at floor 63, Shinra HQ (<a href="../Bit%20numbering.md" title="wikilink">LBS</a>)(applied when you speak).<br />
 Bit=0(Door opened), Bit=1(Door closed).<br />
 </p></td>
 </tr>
@@ -1916,7 +1916,7 @@ Bit=0(Door opened), Bit=1(Door closed).<br />
 <td><p>0x0D55<br />
 z_24[14]</p></td>
 <td><p>1 byte</p></td>
-<td><p>Item mask, Shinra HQ (<a href="Bit%20numbering.md" title="wikilink">LBS</a>)(applied when you speak).<br />
+<td><p>Item mask, Shinra HQ (<a href="../Bit%20numbering.md" title="wikilink">LBS</a>)(applied when you speak).<br />
 Bit=0(Item on floor), Bit=1(Item taken).<br />
 0x01:<br />
 0x02: Coupon C from Shinra HQ(0x02)<br />
@@ -1932,7 +1932,7 @@ Bit=0(Item on floor), Bit=1(Item taken).<br />
 <td><p>0x0D56<br />
 z_24[15]</p></td>
 <td><p>1 byte</p></td>
-<td><p>Bits kept for some events on floor 63, Shinra HQ (<a href="Bit%20numbering.md" title="wikilink">LBS</a>)(Really needs to be investigated).<br />
+<td><p>Bits kept for some events on floor 63, Shinra HQ (<a href="../Bit%20numbering.md" title="wikilink">LBS</a>)(Really needs to be investigated).<br />
 Bit=0(Door opened), Bit=1(Door closed).<br />
 </p></td>
 </tr>
@@ -1940,7 +1940,7 @@ Bit=0(Door opened), Bit=1(Door closed).<br />
 <td><p>0x0D57<br />
 z_24[16]</p></td>
 <td><p>1 byte</p></td>
-<td><p>Conversations mask, Shinra HQ (<a href="Bit%20numbering.md" title="wikilink">LBS</a>)(applied when you speak).<br />
+<td><p>Conversations mask, Shinra HQ (<a href="../Bit%20numbering.md" title="wikilink">LBS</a>)(applied when you speak).<br />
 Bit=0(Not spoken to), Bit=1(Spoken to).<br />
 0x01: Hitting vending machine at floor 64(0x01)<br />
 0x02:<br />
@@ -1956,7 +1956,7 @@ Bit=0(Not spoken to), Bit=1(Spoken to).<br />
 <td><p>0x0D58<br />
 z_24[17]</p></td>
 <td><p>1 byte</p></td>
-<td><p>Conversations mask, Shinra HQ (<a href="Bit%20numbering.md" title="wikilink">LBS</a>)(applied when you speak).<br />
+<td><p>Conversations mask, Shinra HQ (<a href="../Bit%20numbering.md" title="wikilink">LBS</a>)(applied when you speak).<br />
 Bit=0(Not spoken to), Bit=1(Spoken to).<br />
 0x01:<br />
 0x02:<br />
@@ -1972,7 +1972,7 @@ Bit=0(Not spoken to), Bit=1(Spoken to).<br />
 <td><p>0x0D59<br />
 z_24[18]</p></td>
 <td><p>1 byte</p></td>
-<td><p>Conversations mask, Shinra HQ (<a href="Bit%20numbering.md" title="wikilink">LBS</a>)(applied when you speak).<br />
+<td><p>Conversations mask, Shinra HQ (<a href="../Bit%20numbering.md" title="wikilink">LBS</a>)(applied when you speak).<br />
 Bit=0(Not spoken to), Bit=1(Spoken to).<br />
 0x01: Midgar model lights up at floor 65<br />
 0x02:<br />
@@ -1988,7 +1988,7 @@ Bit=0(Not spoken to), Bit=1(Spoken to).<br />
 <td><p>0x0D5D<br />
 z_24[22]</p></td>
 <td><p>1 byte</p></td>
-<td><p>Conversations mask, Shinra HQ (<a href="Bit%20numbering.md" title="wikilink">LBS</a>)(applied when you speak).<br />
+<td><p>Conversations mask, Shinra HQ (<a href="../Bit%20numbering.md" title="wikilink">LBS</a>)(applied when you speak).<br />
 Bit=0(Not spoken to), Bit=1(Spoken to).<br />
 0x01:<br />
 0x02:<br />
@@ -2153,7 +2153,7 @@ z_26[0]</p></td>
 <td><p>0x0D75<br />
 z_26[1]</p></td>
 <td><p>1 byte</p></td>
-<td><p>Conversations mask, MDS7 (<a href="Bit%20numbering.md" title="wikilink">LBS</a>)(applied when you speak).<br />
+<td><p>Conversations mask, MDS7 (<a href="../Bit%20numbering.md" title="wikilink">LBS</a>)(applied when you speak).<br />
 Bit=0(Not spoken to), Bit=1(Spoken to). The value inside [] is the hex value of the entire byte.<br />
 Start sector 7 slums [0x00]<br />
 0x01: Right after enter s7 bar MAP[0xA1]<br />
@@ -2170,7 +2170,7 @@ Start sector 7 slums [0x00]<br />
 <td><p>0x0D76<br />
 z_26[2]</p></td>
 <td><p>1 byte</p></td>
-<td><p>Conversations mask, MDS7 (<a href="Bit%20numbering.md" title="wikilink">LBS</a>)(applied when you speak).<br />
+<td><p>Conversations mask, MDS7 (<a href="../Bit%20numbering.md" title="wikilink">LBS</a>)(applied when you speak).<br />
 Bit=0(Not spoken to), Bit=1(Spoken to). The value inside [] is the hex value of the entire byte.<br />
 Start sector 7 slums [0x00]<br />
 0x01: After you wake up in the Hideout[0x03]<br />
@@ -2187,7 +2187,7 @@ Start sector 7 slums [0x00]<br />
 <td><p>0x0D77<br />
 z_26[3]</p></td>
 <td><p>1 byte</p></td>
-<td><p>Conversations mask, MDS7 (<a href="Bit%20numbering.md" title="wikilink">LBS</a>)(applied when you speak).<br />
+<td><p>Conversations mask, MDS7 (<a href="../Bit%20numbering.md" title="wikilink">LBS</a>)(applied when you speak).<br />
 Bit=0(Not spoken to), Bit=1(Spoken to). The value inside [] is the hex value of the entire byte.<br />
 Start sector 7 slums [0x00]<br />
 0x01: Tell tifa did fight w/ barret (1) didn't fight (0)[0x05]or[0x04] if not<br />
@@ -2204,7 +2204,7 @@ Start sector 7 slums [0x00]<br />
 <td><p>0x0D78<br />
 z_26[4]</p></td>
 <td><p>1 byte</p></td>
-<td><p>Conversations mask, MDS7 (<a href="Bit%20numbering.md" title="wikilink">LBS</a>)(applied when you speak).<br />
+<td><p>Conversations mask, MDS7 (<a href="../Bit%20numbering.md" title="wikilink">LBS</a>)(applied when you speak).<br />
 Bit=0(Not spoken to), Bit=1(Spoken to). The value inside [] is the hex value of the entire byte.<br />
 Start sector 7 slums [0x00]<br />
 0x01: Barret chages in bar (set w/ z_26[1] state #2)[0x03]<br />
@@ -2221,7 +2221,7 @@ Start sector 7 slums [0x00]<br />
 <td><p>0x0D79<br />
 z_26[5]</p></td>
 <td><p>1 byte</p></td>
-<td><p>Conversations mask, MDS7 (<a href="Bit%20numbering.md" title="wikilink">LBS</a>)(applied when you speak).<br />
+<td><p>Conversations mask, MDS7 (<a href="../Bit%20numbering.md" title="wikilink">LBS</a>)(applied when you speak).<br />
 Bit=0(Not spoken to), Bit=1(Spoken to). The value inside [] is the hex value of the entire byte.<br />
 Start sector 7 slums [0x00]<br />
 0x01: set to 1 when tifa calls the machine down after you 1st talk down stairs, never gets unset[0x03]<br />
@@ -2238,7 +2238,7 @@ Start sector 7 slums [0x00]<br />
 <td><p>0x0D7A<br />
 z_26[6]</p></td>
 <td><p>1 byte</p></td>
-<td><p>Conversations mask, MDS7 (<a href="Bit%20numbering.md" title="wikilink">LBS</a>)(applied when you speak).<br />
+<td><p>Conversations mask, MDS7 (<a href="../Bit%20numbering.md" title="wikilink">LBS</a>)(applied when you speak).<br />
 Bit=0(Not spoken to), Bit=1(Spoken to). The value inside [] is the hex value of the entire byte.<br />
 Start sector 7 slums [0x00]<br />
 0x01: After hide out 1st talk[0x03]<br />
@@ -2255,7 +2255,7 @@ Start sector 7 slums [0x00]<br />
 <td><p>0x0D7B<br />
 z_26[7]</p></td>
 <td><p>1 byte</p></td>
-<td><p>Items mask, Training room at sector 5 (<a href="Bit%20numbering.md" title="wikilink">LBS</a>)(applied when you speak).<br />
+<td><p>Items mask, Training room at sector 5 (<a href="../Bit%20numbering.md" title="wikilink">LBS</a>)(applied when you speak).<br />
 Bit=0(Item on floor), Bit=1(Item taken).<br />
 0x01:<br />
 0x02:<br />
@@ -2337,7 +2337,7 @@ z_27[12]</p></td>
 <td><p>0x0DA4<br />
 z_27[32]</p></td>
 <td><p>6 bytes</p></td>
-<td><p>Chocobo Race - Chocobo Name (<a href="FF7/FF%20Text.md" title="wikilink">FF Text format</a>)</p></td>
+<td><p>Chocobo Race - Chocobo Name (<a href="FF%20Text.md" title="wikilink">FF Text format</a>)</p></td>
 </tr>
 <tr class="odd">
 <td><p>0x0DAA<br />
@@ -2837,32 +2837,32 @@ z_32[0]</p></td>
 <tr class="even">
 <td><p>0x0EC4</p></td>
 <td><p>6 bytes</p></td>
-<td><p>Name of Chocobo 1 (<a href="FF7/FF%20Text.md" title="wikilink">FF Text format</a>)</p></td>
+<td><p>Name of Chocobo 1 (<a href="FF%20Text.md" title="wikilink">FF Text format</a>)</p></td>
 </tr>
 <tr class="odd">
 <td><p>0x0ECA</p></td>
 <td><p>6 bytes</p></td>
-<td><p>Name of Chocobo 2 (<a href="FF7/FF%20Text.md" title="wikilink">FF Text format</a>)</p></td>
+<td><p>Name of Chocobo 2 (<a href="FF%20Text.md" title="wikilink">FF Text format</a>)</p></td>
 </tr>
 <tr class="even">
 <td><p>0x0ED0</p></td>
 <td><p>6 bytes</p></td>
-<td><p>Name of Chocobo 3 (<a href="FF7/FF%20Text.md" title="wikilink">FF Text format</a>)</p></td>
+<td><p>Name of Chocobo 3 (<a href="FF%20Text.md" title="wikilink">FF Text format</a>)</p></td>
 </tr>
 <tr class="odd">
 <td><p>0x0ED6</p></td>
 <td><p>6 bytes</p></td>
-<td><p>Name of Chocobo 4 (<a href="FF7/FF%20Text.md" title="wikilink">FF Text format</a>)</p></td>
+<td><p>Name of Chocobo 4 (<a href="FF%20Text.md" title="wikilink">FF Text format</a>)</p></td>
 </tr>
 <tr class="even">
 <td><p>0x0EDC</p></td>
 <td><p>6 bytes</p></td>
-<td><p>Name of Chocobo 5 (<a href="FF7/FF%20Text.md" title="wikilink">FF Text format</a>)</p></td>
+<td><p>Name of Chocobo 5 (<a href="FF%20Text.md" title="wikilink">FF Text format</a>)</p></td>
 </tr>
 <tr class="odd">
 <td><p>0x0EE2</p></td>
 <td><p>6 bytes</p></td>
-<td><p>Name of Chocobo 6 (<a href="FF7/FF%20Text.md" title="wikilink">FF Text format</a>)</p></td>
+<td><p>Name of Chocobo 6 (<a href="FF%20Text.md" title="wikilink">FF Text format</a>)</p></td>
 </tr>
 <tr class="even">
 <td><p>0x0EE8</p></td>
@@ -2957,7 +2957,7 @@ z_35[23]</p></td>
 <tr class="odd">
 <td><p>0x0F0C</p></td>
 <td><p>24 bytes</p></td>
-<td><p>Name of location (<a href="FF7/FF%20Text.md" title="wikilink">FF Text format</a>)</p></td>
+<td><p>Name of location (<a href="FF%20Text.md" title="wikilink">FF Text format</a>)</p></td>
 </tr>
 <tr class="even">
 <td><p>0x0F24</p></td>
@@ -3210,7 +3210,7 @@ z_38[44]</p></td>
 <td><p>0x0FC6<br />
 z_38[46]</p></td>
 <td><p>1 byte</p></td>
-<td><p>Items mask, Chocobo Farm (<a href="Bit%20numbering.md" title="wikilink">LBS</a>)(applied when you take the item).<br />
+<td><p>Items mask, Chocobo Farm (<a href="../Bit%20numbering.md" title="wikilink">LBS</a>)(applied when you take the item).<br />
 Bit=0(Item in field), Bit=1(Item taken).<br />
 0x01: Destruct Materia Animation displayed {sininb42/mtr/s3}<br />
 0x02: Destruct Materia {sininb42/mtr/s1}<br />
@@ -3233,7 +3233,7 @@ z_38[89]</p></td>
 <td><p>0x0FF4<br />
 z_38[92]</p></td>
 <td><p>1 byte</p></td>
-<td><p>Items mask, Mythril Mine (<a href="Bit%20numbering.md" title="wikilink">LBS</a>)(applied when you take the item).<br />
+<td><p>Items mask, Mythril Mine (<a href="../Bit%20numbering.md" title="wikilink">LBS</a>)(applied when you take the item).<br />
 Bit=0(Item in field), Bit=1(Item taken).<br />
 0x01: 4sbwy_6 - Tent<br />
 0x02: 4sbwy_3 - Potion<br />
@@ -3249,7 +3249,7 @@ Bit=0(Item in field), Bit=1(Item taken).<br />
 <td><p>0x0FF5<br />
 z_38[93]</p></td>
 <td><p>1 byte</p></td>
-<td><p>Items mask, (<a href="Bit%20numbering.md" title="wikilink">LBS</a>)(applied when you take the item).<br />
+<td><p>Items mask, (<a href="../Bit%20numbering.md" title="wikilink">LBS</a>)(applied when you take the item).<br />
 Bit=0(Item in field), Bit=1(Item taken).<br />
 0x01: elmin2_2 - Ether<br />
 0x02: losin1 - Comet Materia<br />
@@ -3265,7 +3265,7 @@ Bit=0(Item in field), Bit=1(Item taken).<br />
 <td><p>0x0FF6<br />
 z_38[94]</p></td>
 <td><p>1 byte</p></td>
-<td><p>Items mask, (<a href="Bit%20numbering.md" title="wikilink">LBS</a>)(applied when you take the item).<br />
+<td><p>Items mask, (<a href="../Bit%20numbering.md" title="wikilink">LBS</a>)(applied when you take the item).<br />
 Bit=0(Item in field), Bit=1(Item taken).<br />
 0x01: q_1 - Heaven's Cloud<br />
 0x02: q_3 - Megalixir<br />
@@ -3281,7 +3281,7 @@ Bit=0(Item in field), Bit=1(Item taken).<br />
 <td><p>0x0FF9<br />
 z_38[97]</p></td>
 <td><p>1 byte</p></td>
-<td><p>Items mask, Kalm (<a href="Bit%20numbering.md" title="wikilink">LBS</a>)(applied when you take the item).<br />
+<td><p>Items mask, Kalm (<a href="../Bit%20numbering.md" title="wikilink">LBS</a>)(applied when you take the item).<br />
 Bit=0(Item in field), Bit=1(Item taken).<br />
 0x01: Hidden Ether in the second floor of a house<br />
 0x02:<br />
@@ -3304,7 +3304,7 @@ Guide Book (0x01); Master Command(0x02); Master Magic (0x04); Master Summon (0x0
 <td><p>0x0FFC<br />
 z_38[100]</p></td>
 <td><p>1 byte</p></td>
-<td><p>Items mask, Kalm (<a href="Bit%20numbering.md" title="wikilink">LBS</a>)(applied when you take the item).<br />
+<td><p>Items mask, Kalm (<a href="../Bit%20numbering.md" title="wikilink">LBS</a>)(applied when you take the item).<br />
 Bit=0(Item in field), Bit=1(Item taken).<br />
 0x01: Peacemaker in a house<br />
 0x02:<br />
@@ -3320,7 +3320,7 @@ Bit=0(Item in field), Bit=1(Item taken).<br />
 <td><p>0x0FFD<br />
 z_38[101]</p></td>
 <td><p>1 byte</p></td>
-<td><p>Items mask, Kalm (<a href="Bit%20numbering.md" title="wikilink">LBS</a>)(applied when you take the item).<br />
+<td><p>Items mask, Kalm (<a href="../Bit%20numbering.md" title="wikilink">LBS</a>)(applied when you take the item).<br />
 Bit=0(Item in field), Bit=1(Item taken).<br />
 0x01:<br />
 0x02: Hidden Ether from house next to the Inn<br />
@@ -3336,7 +3336,7 @@ Bit=0(Item in field), Bit=1(Item taken).<br />
 <td><p>0x0FFE<br />
 z_38[102]</p></td>
 <td><p>1 byte</p></td>
-<td><p>Items mask, Mythril Mine (<a href="Bit%20numbering.md" title="wikilink">LBS</a>)(applied when you take the item).<br />
+<td><p>Items mask, Mythril Mine (<a href="../Bit%20numbering.md" title="wikilink">LBS</a>)(applied when you take the item).<br />
 Bit=0(Item in field), Bit=1(Item taken).<br />
 0x01:<br />
 0x02:<br />
@@ -3415,7 +3415,7 @@ z_38[]</p></td>
 <td><p>0x101E<br />
 z_38[134]</p></td>
 <td><p>1 byte</p></td>
-<td><p>Items mask, Junon (<a href="Bit%20numbering.md" title="wikilink">LBS</a>)(applied when you take the item).<br />
+<td><p>Items mask, Junon (<a href="../Bit%20numbering.md" title="wikilink">LBS</a>)(applied when you take the item).<br />
 Bit=0(Item in field), Bit=1(Item taken).<br />
 0x01: Mind Source<br />
 0x02: Power Source<br />
@@ -3543,7 +3543,7 @@ z_38[152]</p></td>
 <tr class="odd">
 <td><p>0x10</p></td>
 <td><p>12 bytes</p></td>
-<td><p>Name (<a href="FF7/FF%20Text.md" title="wikilink">FF Text</a> format) Game's Naming Boxes Cap you At 9 Chars</p></td>
+<td><p>Name (<a href="FF%20Text.md" title="wikilink">FF Text</a> format) Game's Naming Boxes Cap you At 9 Chars</p></td>
 </tr>
 <tr class="even">
 <td><p>0x1C</p></td>
@@ -4010,4 +4010,4 @@ Hex byte value: The Byte's value in hex when the bit change.(optional)
 
 Field Keyword: Field name code.
 
-  [LBS 0]: Bit%20numbering.md "wikilink"
+  [LBS 0]: ../Bit%20numbering.md "wikilink"

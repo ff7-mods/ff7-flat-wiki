@@ -27,5 +27,5 @@ field file has the correct music file(s) set, this opcode can be used to
 set regular or boss battle music for the current field's encounters, or
 even switched between in the script.
 
-  [MUSIC]: FF7/Field/Script/Opcodes/F0%20MUSIC.md "wikilink"
-  [BATTLE]: FF7/Field/Script/Opcodes/70%20BATTLE.md "wikilink"
+  [MUSIC]: F0%20MUSIC.md "wikilink"
+  [BATTLE]: 70%20BATTLE.md "wikilink"

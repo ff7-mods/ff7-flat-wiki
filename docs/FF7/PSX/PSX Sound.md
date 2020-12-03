@@ -10,8 +10,8 @@ title: PSX Sound
 -   [AKAO sequence][]
 -   [Code Map][]
 
-  [Overview]: FF7/PSX/Sound/Overview.md "wikilink"
-  [INSTRx.DAT]: FF7/PSX/Sound/INSTRx.DAT.md "wikilink"
-  [INSTRx.ALL]: FF7/PSX/Sound/INSTRx.ALL.md "wikilink"
-  [AKAO sequence]: FF7/PSX/Sound/AKAO%20sequence.md "wikilink"
-  [Code Map]: FF7/PSX/Sound/Code%20Map.md "wikilink"
+  [Overview]: Sound/Overview.md "wikilink"
+  [INSTRx.DAT]: Sound/INSTRx.DAT.md "wikilink"
+  [INSTRx.ALL]: Sound/INSTRx.ALL.md "wikilink"
+  [AKAO sequence]: Sound/AKAO%20sequence.md "wikilink"
+  [Code Map]: Sound/Code%20Map.md "wikilink"

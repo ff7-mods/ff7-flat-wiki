@@ -29,8 +29,8 @@ signalled to the calling entity which can resume execution.
 If *return* is used when executing at base priority, execution will
 simply halt. This is what happens in the [entry scripts][].
 
-  [entity]: FF7/Field/Script/Entity.md "wikilink"
-  [priority]: FF7/Field/Script/Priorities.md "wikilink"
-  [REQEW]: FF7/Field/Script/Opcodes/03%20REQEW.md "wikilink"
-  [PRQEW]: FF7/Field/Script/Opcodes/06%20PRQEW.md "wikilink"
-  [entry scripts]: FF7/Field/Scripts/Entry%20script.md "wikilink"
+  [entity]: ../Entity.md "wikilink"
+  [priority]: ../Priorities.md "wikilink"
+  [REQEW]: 03%20REQEW.md "wikilink"
+  [PRQEW]: 06%20PRQEW.md "wikilink"
+  [entry scripts]: ../../Scripts/Entry%20script.md "wikilink"

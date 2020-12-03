@@ -37,4 +37,4 @@ Thanks to Aaron for hosting these patches.
   [German Version]: http://aaronserv.dyndns.org/hosting/ffsf/downloads/ff7_1.02g.zip
   [Spanish Version]: http://aaronserv.dyndns.org/hosting/ffsf/downloads/ff7_1.02s.zip
   [Aali's OpenGL Driver]: http://forums.qhimm.com/index.php?topic=8306.0
-  [Back to Technical Problems page]: FF7/Technical.md "wikilink"
+  [Back to Technical Problems page]: ../Technical.md "wikilink"

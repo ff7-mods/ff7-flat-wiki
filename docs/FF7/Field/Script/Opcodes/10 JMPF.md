@@ -29,5 +29,5 @@ bytes. In the following example, the [WAIT][] line is skipped.
 
 If a jump longer than 0xFF is required, use [JMPFL][] instead.
 
-  [WAIT]: FF7/Field/Script/Opcodes/24%20WAIT.md "wikilink"
-  [JMPFL]: FF7/Field/Script/Opcodes/11%20JMPFL.md "wikilink"
+  [WAIT]: 24%20WAIT.md "wikilink"
+  [JMPFL]: 11%20JMPFL.md "wikilink"

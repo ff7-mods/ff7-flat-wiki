@@ -35,5 +35,5 @@ using [PRTYE][], has completed. An example would be the party being set
 to Barret only for the Dyne event/battle, and then returning the party
 back to the player's configuration before the Dyne event occurs.
 
-  [Character ID]: FF7/Field/Character%20ID.md "wikilink"
-  [PRTYE]: FF7/Field/Script/Opcodes/CA%20PRTYE.md "wikilink"
+  [Character ID]: ../../Character%20ID.md "wikilink"
+  [PRTYE]: CA%20PRTYE.md "wikilink"
