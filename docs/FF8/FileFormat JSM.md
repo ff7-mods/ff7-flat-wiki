@@ -56,7 +56,7 @@ Each opcode is 4 bytes.
 
 [Opcode List][]
 
-  [Entry point of each entity]: #user-content-entry-point-of-each-entity "wikilink"
-  [Entry point of each script]: #user-content-entry-point-of-each-script "wikilink"
-  [Script Data]: #user-content-script-data "wikilink"
+  [Entry point of each entity]: #entry-point-of-each-entity "wikilink"
+  [Entry point of each script]: #entry-point-of-each-script "wikilink"
+  [Script Data]: #script-data "wikilink"
   [Opcode List]: Field/Script/Opcodes.md "wikilink"

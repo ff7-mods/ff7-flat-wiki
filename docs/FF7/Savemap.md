@@ -129,47 +129,47 @@ Technically this is a DWord, but the checksum generation method only stores the 
 <tr class="odd">
 <td><p>0x0054</p></td>
 <td><p>132 bytes</p></td>
-<td style="text-align: center;"><p><strong><a href="#user-content-character-record" title="wikilink">Character Record</a></strong>: Cloud</p></td>
+<td style="text-align: center;"><p><strong><a href="#character-record" title="wikilink">Character Record</a></strong>: Cloud</p></td>
 </tr>
 <tr class="even">
 <td><p>0x00D8</p></td>
 <td><p>132 bytes</p></td>
-<td style="text-align: center;"><p><strong><a href="#user-content-character-record" title="wikilink">Character Record</a></strong>: Barret</p></td>
+<td style="text-align: center;"><p><strong><a href="#character-record" title="wikilink">Character Record</a></strong>: Barret</p></td>
 </tr>
 <tr class="odd">
 <td><p>0x015C</p></td>
 <td><p>132 bytes</p></td>
-<td style="text-align: center;"><p><strong><a href="#user-content-character-record" title="wikilink">Character Record</a></strong>: Tifa</p></td>
+<td style="text-align: center;"><p><strong><a href="#character-record" title="wikilink">Character Record</a></strong>: Tifa</p></td>
 </tr>
 <tr class="even">
 <td><p>0x01E0</p></td>
 <td><p>132 bytes</p></td>
-<td style="text-align: center;"><p><strong><a href="#user-content-character-record" title="wikilink">Character Record</a></strong>: Aeris's</p></td>
+<td style="text-align: center;"><p><strong><a href="#character-record" title="wikilink">Character Record</a></strong>: Aeris's</p></td>
 </tr>
 <tr class="odd">
 <td><p>0x0264</p></td>
 <td><p>132 bytes</p></td>
-<td style="text-align: center;"><p><strong><a href="#user-content-character-record" title="wikilink">Character Record</a></strong>: Red XIII</p></td>
+<td style="text-align: center;"><p><strong><a href="#character-record" title="wikilink">Character Record</a></strong>: Red XIII</p></td>
 </tr>
 <tr class="even">
 <td><p>0x02E8</p></td>
 <td><p>132 bytes</p></td>
-<td style="text-align: center;"><p><strong><a href="#user-content-character-record" title="wikilink">Character Record</a></strong>: Yuffie</p></td>
+<td style="text-align: center;"><p><strong><a href="#character-record" title="wikilink">Character Record</a></strong>: Yuffie</p></td>
 </tr>
 <tr class="odd">
 <td><p>0x036C</p></td>
 <td><p>132 bytes</p></td>
-<td style="text-align: center;"><p><strong><a href="#user-content-character-record" title="wikilink">Character Record</a></strong>: Cait Sith (or Young Cloud)</p></td>
+<td style="text-align: center;"><p><strong><a href="#character-record" title="wikilink">Character Record</a></strong>: Cait Sith (or Young Cloud)</p></td>
 </tr>
 <tr class="even">
 <td><p>0x03F0</p></td>
 <td><p>132 bytes</p></td>
-<td style="text-align: center;"><p><strong><a href="#user-content-character-record" title="wikilink">Character Record</a></strong>: Vincent (or Sephiroth)</p></td>
+<td style="text-align: center;"><p><strong><a href="#character-record" title="wikilink">Character Record</a></strong>: Vincent (or Sephiroth)</p></td>
 </tr>
 <tr class="odd">
 <td><p>0x0474</p></td>
 <td><p>132 bytes</p></td>
-<td style="text-align: center;"><p><strong><a href="#user-content-character-record" title="wikilink">Character Record</a></strong>: Cid</p></td>
+<td style="text-align: center;"><p><strong><a href="#character-record" title="wikilink">Character Record</a></strong>: Cid</p></td>
 </tr>
 <tr class="even">
 <td><p>0x04F8</p></td>
@@ -194,17 +194,17 @@ Technically this is a DWord, but the checksum generation method only stores the 
 <tr class="even">
 <td><p>0x04FC</p></td>
 <td><p>640 bytes</p></td>
-<td style="text-align: center;"><p>Party Item stock, 2 bytes per item, 320 item slots max [See <a href="#user-content-save-item-list" title="wikilink">save item list</a> below]</p></td>
+<td style="text-align: center;"><p>Party Item stock, 2 bytes per item, 320 item slots max [See <a href="#save-item-list" title="wikilink">save item list</a> below]</p></td>
 </tr>
 <tr class="odd">
 <td><p>0x077C</p></td>
 <td><p>800 bytes</p></td>
-<td style="text-align: center;"><p>Party Materia stock, 4 bytes per materia, 200 materia max [See <a href="#user-content-save-materia-list" title="wikilink">save materia list</a> ]</p></td>
+<td style="text-align: center;"><p>Party Materia stock, 4 bytes per materia, 200 materia max [See <a href="#save-materia-list" title="wikilink">save materia list</a> ]</p></td>
 </tr>
 <tr class="even">
 <td><p>0x0A9C</p></td>
 <td><p>192 bytes</p></td>
-<td style="text-align: center;"><p>Materia stolen by Yuffie, 4 bytes per materia, 48 materia max [See <a href="#user-content-save-materia-list" title="wikilink">save materia list</a> ]</p></td>
+<td style="text-align: center;"><p>Materia stolen by Yuffie, 4 bytes per materia, 48 materia max [See <a href="#save-materia-list" title="wikilink">save materia list</a> ]</p></td>
 </tr>
 <tr class="odd">
 <td><p>0x0B5C</p></td>
@@ -317,27 +317,27 @@ z_6[2]</p></td>
 <tr class="even">
 <td><p>0x0BA4</p></td>
 <td></td>
-<td style="text-align: center;"><p>[BEGINNING OF FIELD SCRIPT MEMORY <a href="#user-content-save-memory-bank-1.2f2" title="wikilink">BANK 1 (1/2)</a>]</p></td>
+<td style="text-align: center;"><p>[BEGINNING OF FIELD SCRIPT MEMORY <a href="#save-memory-bank-1.2f2" title="wikilink">BANK 1 (1/2)</a>]</p></td>
 </tr>
 <tr class="odd">
 <td><p>0x0CA4</p></td>
 <td></td>
-<td style="text-align: center;"><p>[BEGINNING OF FIELD SCRIPT MEMORY <a href="#user-content-save-memory-bank-3.2f4" title="wikilink">BANK 2 (3/4)</a>]</p></td>
+<td style="text-align: center;"><p>[BEGINNING OF FIELD SCRIPT MEMORY <a href="#save-memory-bank-3.2f4" title="wikilink">BANK 2 (3/4)</a>]</p></td>
 </tr>
 <tr class="even">
 <td><p>0x0DA4</p></td>
 <td></td>
-<td style="text-align: center;"><p>[BEGINNING OF FIELD SCRIPT MEMORY <a href="#user-content-save-memory-bank-b.2fc" title="wikilink">BANK 3 (B/C)</a>]</p></td>
+<td style="text-align: center;"><p>[BEGINNING OF FIELD SCRIPT MEMORY <a href="#save-memory-bank-b.2fc" title="wikilink">BANK 3 (B/C)</a>]</p></td>
 </tr>
 <tr class="odd">
 <td><p>0x0EA4</p></td>
 <td></td>
-<td style="text-align: center;"><p>[BEGINNING OF FIELD SCRIPT MEMORY <a href="#user-content-save-memory-bank-d.2fe" title="wikilink">BANK 4 (D/E)</a>]</p></td>
+<td style="text-align: center;"><p>[BEGINNING OF FIELD SCRIPT MEMORY <a href="#save-memory-bank-d.2fe" title="wikilink">BANK 4 (D/E)</a>]</p></td>
 </tr>
 <tr class="even">
 <td><p>0x0FA4</p></td>
 <td></td>
-<td style="text-align: center;"><p>[BEGINNING OF FIELD SCRIPT MEMORY <a href="#user-content-save-memory-bank-7.2ff" title="wikilink">BANK 5 (7/F)</a>]</p></td>
+<td style="text-align: center;"><p>[BEGINNING OF FIELD SCRIPT MEMORY <a href="#save-memory-bank-7.2ff" title="wikilink">BANK 5 (7/F)</a>]</p></td>
 </tr>
 <tr class="odd">
 <td><p>0x10A4</p></td>
@@ -2513,7 +2513,7 @@ z_27[60]</p></td>
 <tr class="odd">
 <td><p>0x0DC4</p></td>
 <td><p>16 bytes</p></td>
-<td><p>Chocobo slot 1 [See Below for <a href="#user-content-chocobo-record" title="wikilink">Chocobo Slot format</a>]</p></td>
+<td><p>Chocobo slot 1 [See Below for <a href="#chocobo-record" title="wikilink">Chocobo Slot format</a>]</p></td>
 </tr>
 <tr class="even">
 <td><p>0x0DD4</p></td>

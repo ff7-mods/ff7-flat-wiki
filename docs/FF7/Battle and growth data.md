@@ -257,11 +257,11 @@ NOTES:
     pointer ahead to load the summon attacks(?).
     -   Even if these were not NULL, they would be ignored.
 
-  [see below]: #user-content-character-data-record "wikilink"
-  [1]: #user-content-stat-curve-record "wikilink"
-  [2]: #user-content-character-ai-data "wikilink"
-  [3]: #user-content-scene.bin-look-up-file "wikilink"
-  [4]: #user-content-magic-order "wikilink"
+  [see below]: #character-data-record "wikilink"
+  [1]: #stat-curve-record "wikilink"
+  [2]: #character-ai-data "wikilink"
+  [3]: #scene.bin-look-up-file "wikilink"
+  [4]: #magic-order "wikilink"
   [Battle Scenes]: Battle/Battle%20scenes.md#AI%20Data "wikilink"
   [here]: http://forums.qhimm.com/index.php?topic=7928.msg97889#msg97889
   [scene.bin]: Battle/Battle%20scenes.md "wikilink"

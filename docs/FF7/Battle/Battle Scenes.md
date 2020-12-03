@@ -727,14 +727,14 @@ There are few programs written that will help you edit scene.bin file:
   [Scene Reader]: http://spinningcone.com/ff/stormmedia/projects/SceneReader.zip
   [kernel.bin]: ../Kernel/Kernel.bin.md "wikilink"
   [SceneFix]: http://forums.qhimm.com/index.php?topic=7127.0
-  [format explanation]: #user-content-battle-setup-1-format "wikilink"
-  [1]: #user-content-camera-placement-data-format "wikilink"
-  [2]: #user-content-battle-formation-data "wikilink"
-  [3]: #user-content-enemy-data-format "wikilink"
+  [format explanation]: #battle-setup-1-format "wikilink"
+  [1]: #camera-placement-data-format "wikilink"
+  [2]: #battle-formation-data "wikilink"
+  [3]: #enemy-data-format "wikilink"
   [4]: ../Attack%20data.md "wikilink"
   [in FF Text format]: ../FF%20Text.md "wikilink"
-  [5]: #user-content-ai-data "wikilink"
-  [Binary "Cover flags"]: #user-content-binary "Cover_Flags" "wikilink"
+  [5]: #ai-data "wikilink"
+  [Binary "Cover flags"]: #binary "Cover_Flags" "wikilink"
   [here]: Battle%20Scenes/Battle%20Script.md "wikilink"
   [SceneEdit]: http://www.subfan.pl/mav/SceneEdit.zip
   [Scenester]: http://aaronserv.dyndns.org/hosting/qhimmwiki/ramza_scenester_0.5.zip

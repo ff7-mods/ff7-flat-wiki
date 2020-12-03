@@ -115,7 +115,7 @@ PC files.
 Almost like the [chara.one][] file. The main difference is that the
 models data are compressed.
 
-  [field.bin]: #user-content-field-files "wikilink"
+  [field.bin]: #field-files "wikilink"
   [LZS]: ../FF7/LZS%20format.md "wikilink"
   [MCH]: FileFormat%20MCH.md "wikilink"
   [1]: FileFormat%20PVP.md "wikilink"
