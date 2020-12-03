@@ -2,15 +2,14 @@
 title: File List
 ---
 
-[Home](../../Main%20Page.md) > [Dissidia](../../Dissidia.md) > [GMO Files](../GMO%20Files.md) > File List
+[Home](../../Main Page.md) > [Dissidia](../../Dissidia.md) > [GMO Files](../GMO Files.md) > File List
 
 # GMO File List
 
-<small>[Aurenasek116][]</small>
+<small>[Aurenasek116](http://web.archive.org/web/20161116013929/http://forums.qhimm.com/index.php?action=profile;u=4603)</small>
 
   
-This is a complete list of GMO files corresponding to the in-game
-Models:
+This is a complete list of GMO files corresponding to the in-game Models:
 
 `File000854.gmo to File000874.gmo - Squall`  
 `File000877.gmo to File000889.gmo - Ultimecia`  
@@ -172,5 +171,3 @@ Models:
 `File003823.gmo to File003859.gmo - Maps`  
 `File003862.gmo - Star Skybox`  
 `File004000.gmo to File004044.gmo - Unknown Objects`
-
-  [Aurenasek116]: http://web.archive.org/web/20161116013929/http://forums.qhimm.com/index.php?action=profile;u=4603

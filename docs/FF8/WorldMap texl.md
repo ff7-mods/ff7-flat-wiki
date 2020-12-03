@@ -2,12 +2,9 @@
 title: WorldMap texl
 ---
 
-[Home](../Main%20Page.md) > [FF8](../FF8.md) > WorldMap texl
+[Home](../Main Page.md) > [FF8](../FF8.md) > WorldMap texl
 
-Contains 20 [.TIM][] Textures. Every texture is 128x256. Textures
-represent world map (grass, rocks, tunnel entries, gardens, towns). The
-textures appear every 0x12800 of bytes (75766 B). Part between next
-0x12800 and previous texture end is just filled with 0.
+Contains 20 [.TIM](../PSX/TIM file.md). Part between next 0x12800 and previous texture end is just filled with 0.
 
 | Number | Offset   | Comment                                                                              |
 |--------|----------|--------------------------------------------------------------------------------------|
@@ -31,5 +28,3 @@ textures appear every 0x12800 of bytes (75766 B). Part between next
 | 18     | 0x13A800 | Completely black                                                                     |
 | 19     | 0x14D000 | SAME AS 0x6F000 (7)                                                                  |
 | 20     | 0x15F800 | SAME AS 0x81800 (8)                                                                  |
-
-  [.TIM]: ../PSX/TIM%20file.md "wikilink"

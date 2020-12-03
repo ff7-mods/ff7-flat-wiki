@@ -2,11 +2,9 @@
 title: FileFormat VBF
 ---
 
-[Home](../Main%20Page.md) > [FF10](../FF10.md) > FileFormat VBF
+[Home](../Main Page.md) > [FF10](../FF10.md) > FileFormat VBF
 
-Final Fantasy X stores all of its' game data in a single large archive,
-called a VBF (Virtuos Big File) archive. [Virtuos][] is the developer
-contracted by Square Enix to handle the FFX/X-2 HD Remaster.
+Final Fantasy X stores all of its' game data in a single large archive, called a VBF (Virtuos Big File) archive. [Virtuos](https://en.wikipedia.org/wiki/Virtuos) is the developer contracted by Square Enix to handle the FFX/X-2 HD Remaster.
 
 ### VBF header format
 
@@ -25,5 +23,3 @@ contracted by Square Enix to handle the FFX/X-2 HD Remaster.
 | ...                                                         |                      |                   |                                                       |
 | 0x0010 + (numFiles \* 48)                                   | 4 bytes              | stringTableLength | Length of the string table                            |
 | 0x0014 + (numFiles \* 48)                                   | stringTableLength    | stringTable       | String table data                                     |
-
-  [Virtuos]: https://en.wikipedia.org/wiki/Virtuos

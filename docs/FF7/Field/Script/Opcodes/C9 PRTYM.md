@@ -2,7 +2,7 @@
 title: C9 PRTYM
 ---
 
-[Home](../../../../Main%20Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > C9 PRTYM
+[Home](../../../../Main Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > C9 PRTYM
 
 -   Opcode: **0xC9**
 -   Short name: **PRTYM**
@@ -19,8 +19,7 @@ title: C9 PRTYM
 
 #### Description
 
-Moves the specified character out of your party, if they are currently
-in it to begin with. If not, this has no effect.
+Moves the specified character out of your party, if they are currently in it to begin with. If not, this has no effect.
 
 #### Character IDs
 

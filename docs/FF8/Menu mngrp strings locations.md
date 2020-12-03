@@ -2,7 +2,7 @@
 title: Menu mngrp strings locations
 ---
 
-[Home](../Main%20Page.md) > [FF8](../FF8.md) > Menu mngrp strings locations
+[Home](../Main Page.md) > [FF8](../FF8.md) > Menu mngrp strings locations
 
 Many strings.
 
@@ -15,8 +15,5 @@ Many strings.
 
 ### String
 
-Strings end with **0x00**. [Strings are encoded][].  
-**\[Start of string location\]** = **\[Start of file\]** + **\[String
-offset value\]**
-
-  [Strings are encoded]: String%20Encoding.md "wikilink"
+Strings end with **0x00**. [Strings are encoded](String Encoding.md).  
+**\[Start of string location\]** = **\[Start of file\]** + **\[String offset value\]**

@@ -2,7 +2,7 @@
 title: 50 WINDOW
 ---
 
-[Home](../../../../Main%20Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 50 WINDOW
+[Home](../../../../Main Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 50 WINDOW
 
 -   Opcode: **0x50**
 -   Short name: **WINDOW**
@@ -15,8 +15,7 @@ title: 50 WINDOW
 
 #### Arguments
 
--   **const UByte** *N*: The numerical ID that the newly-created window
-    will be associated with.
+-   **const UByte** *N*: The numerical ID that the newly-created window will be associated with.
 -   **const UShort** *X*: X-coordinate of the window.
 -   **const UShort** *Y*: Y-coordinate of the window.
 -   **const UShort** *W*: Window width.
@@ -24,14 +23,9 @@ title: 50 WINDOW
 
 #### Description
 
-Creates a window with a given ID and placement/size parameters. Windows
-are used to show [dialog][], present [choices][] and so on, each of
-which reference the window's ID to insert text. This command only
-initializes a window ID, but does not present itself until a dialog
-command is issued on it.
+Creates a window with a given ID and placement/size parameters. Windows are used to show [dialog](FF7/Field/Script/Opcodes/40_MESSAGE "wikilink"), present [choices](48 ASK.md) and so on, each of which reference the window's ID to insert text. This command only initializes a window ID, but does not present itself until a dialog command is issued on it.
 
-Adjustments are made for windows that are either too close an edge, or
-the width / height is too big for the screen. Eg:
+Adjustments are made for windows that are either too close an edge, or the width / height is too big for the screen. Eg:
 
 `// Adjust window position if too close to an edge`  
 `const MIN_WINDOW_DISTANCE = 8 // Looks about right`  
@@ -39,6 +33,3 @@ the width / height is too big for the screen. Eg:
 `if (y < MIN_WINDOW_DISTANCE) { y = MIN_WINDOW_DISTANCE }`  
 `if (x + w + MIN_WINDOW_DISTANCE > GAME_WIDTH) { x = GAME_WIDTH - w - MIN_WINDOW_DISTANCE }`  
 `if (y + h + MIN_WINDOW_DISTANCE > GAME_HEIGHT) { y = GAME_HEIGHT - h - MIN_WINDOW_DISTANCE }`
-
-  [dialog]: 40%20MESSAGE.md "wikilink"
-  [choices]: 48%20ASK.md "wikilink"

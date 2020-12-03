@@ -2,31 +2,26 @@
 title: Image Formats
 ---
 
-[Home](../Main%20Page.md) > [FF7:CC](../FF7:CC.md) > Image Formats
+[Home](../Main Page.md) > [FF7:CC](../FF7:CC.md) > Image Formats
 
 # Image Interlacing
 
-Pixel-Data for all texture formats appears to have the same interlacing
-mechanism.
+Pixel-Data for all texture formats appears to have the same interlacing mechanism.
 
-The data is divided into 16x8 pixel-chunks, but is arranged in a strange
-sort of way:
+The data is divided into 16x8 pixel-chunks, but is arranged in a strange sort of way:
 
 `ABCD  MNOP  YZ...`  
 `EFGH  QRST   ...`  
 `IJKL  UVWX   ...`
 
-Then reading each chunk (in that order), grab rows of 16-pixels (like 8
-scanlines, top to bottom of chunk) and plot them like so:
+Then reading each chunk (in that order), grab rows of 16-pixels (like 8 scanlines, top to bottom of chunk) and plot them like so:
 
 `  1,  17,  33,  49,     5,  21,  37,  53,     9,  25,  41,  57,    13,  29,  45,  61,`  
 `  2,  18,  34,  50,     6,  22,  38,  54,    10,  26,  42,  58,    14,  30,  46,  62,`  
 `  3,  19,  35,  51,     7,  23,  39,  55,    11,  27,  43,  59,    15,  31,  47,  63,`  
 `  4   20,  36,  52,     8,  24,  40,  56,    12,  28,  44,  60,    16,  32,  48,  64`
 
-Interlacing is exactly the same, except that the interlacing in columns
-(numbered above: 1,17,33,49, 5,21,37,53, ... ) is determined by the
-width of the image.
+Interlacing is exactly the same, except that the interlacing in columns (numbered above: 1,17,33,49, 5,21,37,53, ... ) is determined by the width of the image.
 
 So,
 
@@ -42,13 +37,12 @@ if width = 128, then you get 1 interlaced column
 
 # Known FF7:CC Image Formats
 
--   [\[IMG][1]\]
--   [\[TEX][2]\]
--   [\[GT][3]\]
+-   [\[IMG](Image Formats.md#IMG Format)\]
+-   [\[TEX](Image Formats.md#TEX Format)\]
+-   [\[GT](Image Formats.md#GT Format)\]
 
   
-Note that the Pixel-data is interlaced for all of these formats, as
-described above.
+Note that the Pixel-data is interlaced for all of these formats, as described above.
 
   
 
@@ -57,25 +51,19 @@ described above.
 <small>Stub</small>
 
   
-\[IMG\] contain multiple palletted Images, perhaps sprites or HUD
-images.
+\[IMG\] contain multiple palletted Images, perhaps sprites or HUD images.
 
   
-The image palettes are 32bit format R8G8B8A8. Palettes for textures are
-fairly easy to notice because the alpha channel is pretty much all the
-time fully solid. For sprites it is slightly harder as they use alot of
-transparency. <small>-- Zande</small>
+The image palettes are 32bit format R8G8B8A8. Palettes for textures are fairly easy to notice because the alpha channel is pretty much all the time fully solid. For sprites it is slightly harder as they use alot of transparency. <small>-- Zande</small>
 
   
 
 ## TEX Format
 
-Note: the FF7:CC \[TEX\] format is NOT the same as the FF7 PC [TEX][]
-format.
+Note: the FF7:CC \[TEX\] format is NOT the same as the FF7 PC [TEX](../FF7/TEX format.md) format.
 
   
-\[TEX\] Files are Texture images used by Models, frequently found
-embedded within \[ATEL\] and \[!\] files which use them.
+\[TEX\] Files are Texture images used by Models, frequently found embedded within \[ATEL\] and \[!\] files which use them.
 
 `Header: 48 bytes [upto 0x2f]`  
   
@@ -96,18 +84,13 @@ embedded within \[ATEL\] and \[!\] files which use them.
 
 ## GT Format
 
-\[GT\] Files are Chapter End images, dispersed throughout the \[ATEL\]
-Event files in-line with when they are displayed during gameplay.
+\[GT\] Files are Chapter End images, dispersed throughout the \[ATEL\] Event files in-line with when they are displayed during gameplay.
 
   
-The "Format-Byte": - for GT files, this is always "4" = 256 colours and
-1-BpP.
+The "Format-Byte": - for GT files, this is always "4" = 256 colours and 1-BpP.
 
   
-For the GT files, the 4th byte in the header tells the colour depth
-format, if this byte is 3 the palette has 16 colours and 1 nibble per
-pixel. If the byte has a value of 4, there's 256 colours and 1 byte per
-pixel <small>-- Zande</small>
+For the GT files, the 4th byte in the header tells the colour depth format, if this byte is 3 the palette has 16 colours and 1 nibble per pixel. If the byte has a value of 4, there's 256 colours and 1 byte per pixel <small>-- Zande</small>
 
   
 
@@ -122,8 +105,3 @@ pixel <small>-- Zande</small>
   
 `Pixel Data: immedietly following Pallete [start offset = 0x410]`  
 `   width * height bytes (index to pallete entry)`
-
-  [1]: Image%20Formats.md#IMG%20Format "wikilink"
-  [2]: Image%20Formats.md#TEX%20Format "wikilink"
-  [3]: Image%20Formats.md#GT%20Format "wikilink"
-  [TEX]: ../FF7/TEX%20format.md "wikilink"

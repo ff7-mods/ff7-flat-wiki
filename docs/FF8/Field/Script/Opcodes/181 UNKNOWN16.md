@@ -2,7 +2,7 @@
 title: 181 UNKNOWN16
 ---
 
-[Home](../../../../Main%20Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 181 UNKNOWN16
+[Home](../../../../Main Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 181 UNKNOWN16
 
 -   Opcode: **0x181**
 -   Short name: **UNKNOWN16**
@@ -21,5 +21,4 @@ none
 
 #### Description
 
-Assigns this draw point an ID. Draw points with identical IDs share
-Full/Drained status.
+Assigns this draw point an ID. Draw points with identical IDs share Full/Drained status.

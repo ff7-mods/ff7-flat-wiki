@@ -2,7 +2,7 @@
 title: D6 TLKR2
 ---
 
-[Home](../../../../Main%20Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > D6 TLKR2
+[Home](../../../../Main Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > D6 TLKR2
 
 -   Opcode: **0xD6**
 -   Short name: **TLKR2**
@@ -15,12 +15,9 @@ title: D6 TLKR2
 
 #### Arguments
 
--   **const UByte** *B*: Bank to retrieve *T*, or zero if *T* is
-    specified as a literal value.
+-   **const UByte** *B*: Bank to retrieve *T*, or zero if *T* is specified as a literal value.
 -   **const UShort** *T*: Range value.
 
 #### Description
 
-Similar to [TALKR][], but allows a two-byte range value to be used.
-
-  [TALKR]: C5%20TALKR.md "wikilink"
+Similar to [TALKR](C5 TALKR.md), but allows a two-byte range value to be used.

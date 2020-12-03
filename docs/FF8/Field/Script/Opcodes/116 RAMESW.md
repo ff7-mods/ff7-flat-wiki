@@ -2,7 +2,7 @@
 title: 116 RAMESW
 ---
 
-[Home](../../../../Main%20Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 116 RAMESW
+[Home](../../../../Main Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 116 RAMESW
 
 -   Opcode: **0x116**
 -   Short name: **RAMESW**
@@ -27,7 +27,4 @@ none
 
 #### Description
 
-Pop up a message window and wait for the player to hit "ok." Unlike
-[AMESW][], RAMESW will let the script continue running.
-
-  [AMESW]: 064%20AMESW.md "wikilink"
+Pop up a message window and wait for the player to hit "ok." Unlike [AMESW](064 AMESW.md), RAMESW will let the script continue running.

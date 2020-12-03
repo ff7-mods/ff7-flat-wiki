@@ -2,18 +2,15 @@
 title: 0xa8aa
 ---
 
-[Home](../../../../Main%20Page.md) > [FF7](../../../../FF7.md) > [PSX](../../../PSX.md) > [Sound](../../Sound.md) > [Opcodes](../Opcodes.md) > 0xa8aa
+[Home](../../../../Main Page.md) > [FF7](../../../../FF7.md) > [PSX](../../../PSX.md) > [Sound](../../Sound.md) > [Opcodes](../Opcodes.md) > 0xa8aa
 
 ## 0xA8, 0xAA, 0xA3 (Channel Volume, Pan, Volume Modifier)
 
-0xA8 has one 8-bit parameter, which used in calculation of base channel
-volume.
+0xA8 has one 8-bit parameter, which used in calculation of base channel volume.
 
-0xAA has one 8-bit parameter, which used in calculation of channel pan
-(difference between left and right channel volume).
+0xAA has one 8-bit parameter, which used in calculation of channel pan (difference between left and right channel volume).
 
-0xA3 has one 8-bit parameter, which used in calculation of base channel
-volume.
+0xA3 has one 8-bit parameter, which used in calculation of base channel volume.
 
 ### Volume Calculation
 
@@ -61,8 +58,6 @@ volume.
   
 `right_volume = m_AKAO_VOLUME_TABLE_R[aa_parameter] * ((a8_parameter * a3_paramater * 0x7f) / 128) / 256 / 128;`
 
-If there is no A3 opcode in sequence (as in SENSUI.SND for example),
-default value 0x7f is used.
+If there is no A3 opcode in sequence (as in SENSUI.SND for example), default value 0x7f is used.
 
-If there is no A8 opcode in sequence, default value 0x7f.fe is used.
-(More precisely, 0x3fff is stored in memory.)
+If there is no A8 opcode in sequence, default value 0x7f.fe is used. (More precisely, 0x3fff is stored in memory.)

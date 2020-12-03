@@ -2,7 +2,7 @@
 title: 08A SETPARTY
 ---
 
-[Home](../../../../Main%20Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 08A SETPARTY
+[Home](../../../../Main Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 08A SETPARTY
 
 -   Opcode: **0x08A**
 -   Short name: **SETPARTY**
@@ -25,8 +25,7 @@ none
 
 #### Description
 
-Sets the active party to be the members with the input IDs. These IDs
-also work with the other party related functions.
+Sets the active party to be the members with the input IDs. These IDs also work with the other party related functions.
 
 -   0 Squall
 -   1 Zell

@@ -2,7 +2,7 @@
 title: 29 KAWIW
 ---
 
-[Home](../../../../Main%20Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 29 KAWIW
+[Home](../../../../Main Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 29 KAWIW
 
 -   Opcode: **0x29**
 -   Short name: **KAWIW**
@@ -19,8 +19,4 @@ None.
 
 #### Description
 
-Halts script execution until a prior [KAWAI][] operation has completed,
-such as a [LIGHT][] movement.
-
-  [KAWAI]: 28%20KAWAI.md "wikilink"
-  [LIGHT]: 28%20KAWAI/06%20LIGHT.md "wikilink"
+Halts script execution until a prior [KAWAI](FF7/Field/Script/Opcodes/28_KAWAI "wikilink") operation has completed, such as a [LIGHT](28 KAWAI/06 LIGHT.md) movement.

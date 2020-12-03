@@ -2,7 +2,7 @@
 title: FileFormat MAG t
 ---
 
-[Home](../Main%20Page.md) > [FF8](../FF8.md) > FileFormat MAG t
+[Home](../Main Page.md) > [FF8](../FF8.md) > FileFormat MAG t
 
 By MaKiPL
 
@@ -50,8 +50,7 @@ Example:
 
 -   Note: yes, there's no texture sign in name
 
-To know, how to find out if the given file is texture, please reffer to
-[MAGfiles\_Generic][]
+To know, how to find out if the given file is texture, please reffer to [MAGfiles\_Generic](FileFormat magfiles.md)
 
 ### Type C (chaos like)
 
@@ -65,7 +64,4 @@ Example:
 
 -   Note: yes, there's no texture sign in name
 
-To know, how to find out if the given file is texture, please reffer to
-[MAGfiles\_Generic][]
-
-  [MAGfiles\_Generic]: FileFormat%20magfiles.md "wikilink"
+To know, how to find out if the given file is texture, please reffer to [MAGfiles\_Generic](FileFormat magfiles.md)

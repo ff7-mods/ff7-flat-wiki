@@ -2,7 +2,7 @@
 title: CA PRTYE
 ---
 
-[Home](../../../../Main%20Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > CA PRTYE
+[Home](../../../../Main Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > CA PRTYE
 
 -   Opcode: **0xCA**
 -   Short name: **PRTYE**
@@ -21,11 +21,7 @@ title: CA PRTYE
 
 #### Description
 
-Changes the current party to the characters specified by each of the
-three arguments, or leaves the party member blank if the ID is 0xFE.
-Note that the chocobo entry will crash during battle, and that Young
-Cloud and Sephiroth occupy the same 'slots' used by Vincent and Cait
-Sith's character entries.
+Changes the current party to the characters specified by each of the three arguments, or leaves the party member blank if the ID is 0xFE. Note that the chocobo entry will crash during battle, and that Young Cloud and Sephiroth occupy the same 'slots' used by Vincent and Cait Sith's character entries.
 
 #### Character IDs
 

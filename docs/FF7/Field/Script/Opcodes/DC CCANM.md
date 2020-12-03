@@ -2,7 +2,7 @@
 title: DC CCANM
 ---
 
-[Home](../../../../Main%20Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > DC CCANM
+[Home](../../../../Main Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > DC CCANM
 
 -   Opcode: **0xDC**
 -   Short name: **CCANM**
@@ -16,11 +16,8 @@ title: DC CCANM
 #### Arguments
 
 -   **const UByte** *A*: Animation ID for selected action.
--   **const UByte** *I*: Id of selected action. (0 - stand, 1 - walk,
-    2 - run).
+-   **const UByte** *I*: Id of selected action. (0 - stand, 1 - walk, 2 - run).
 
 #### Description
 
-Opcode set animation id used for standart player action: stand, walk and
-run. This is global for location so if you want to change your player
-model you need to be sure that this model has animation with this id.
+Opcode set animation id used for standart player action: stand, walk and run. This is global for location so if you want to change your player model you need to be sure that this model has animation with this id.

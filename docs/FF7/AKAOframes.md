@@ -2,19 +2,15 @@
 title: AKAOframes
 ---
 
-[Home](../Main%20Page.md) > [FF7](../FF7.md) > AKAOframes
+[Home](../Main Page.md) > [FF7](../FF7.md) > AKAOframes
 
 # Introduction
 
-AKAO frames are most complicated frames in FF7 sound system. ("AKAO" is
-frame magic, probably developed by Minoru Akao, Square Enix sound
-programmer :) )
+AKAO frames are most complicated frames in FF7 sound system. ("AKAO" is frame magic, probably developed by Minoru Akao, Square Enix sound programmer :) )
 
-Frame is similar to MIDI sequence - it's custom tracker format for
-playing sequence sound, well tuned specially for PSX.
+Frame is similar to MIDI sequence - it's custom tracker format for playing sequence sound, well tuned specially for PSX.
 
-This frames are in all FF7 game modules: Field, Battle, Worldmap and in
-minigames.
+This frames are in all FF7 game modules: Field, Battle, Worldmap and in minigames.
 
 All files with exension \*.SND are AKAO.
 
@@ -26,8 +22,7 @@ All files with exension \*.SND are AKAO.
 
 **ENEMY6/FAN2.SND** - battle win "fanfare" sequence
 
-**MOVIE/OVER2.SND** - same game over sequence, don't know, why to
-duplicate data
+**MOVIE/OVER2.SND** - same game over sequence, don't know, why to duplicate data
 
 Other AKAO frames are hard-wired in other files.
 
@@ -48,18 +43,13 @@ struct AkaoHeader
 
 ## Channel info (size: 4 bytes + 2 bytes \* <channels count>)
 
-First there is 32-bit number (offset 0x10), which represents bitmask of
-used channels in this frame, after this frame there is <channels count>
-offsets to channel opcode data counting from current offset.
+First there is 32-bit number (offset 0x10), which represents bitmask of used channels in this frame, after this frame there is <channels count> offsets to channel opcode data counting from current offset.
 
 ## Channel Commands \[AKAO Opcodes\]
 
 Most complicated part.
 
-For every channel in AKAO frame there is set of commands to perform.
-This is similar to Field opcodes. Here I'll call this sound commands
-"opcodes". Every opcode has it's own number of arguments (from
-no-arguments, to 3 arguments).
+For every channel in AKAO frame there is set of commands to perform. This is similar to Field opcodes. Here I'll call this sound commands "opcodes". Every opcode has it's own number of arguments (from no-arguments, to 3 arguments).
 
 # Example (home-created AKAO frame):
 
@@ -77,8 +67,7 @@ no-arguments, to 3 arguments).
 
 **01 00 00 00** - this indicates, that used only one channel
 
-**00 00** - offset to first channel opcodes: in our example 0x00 means
-that next to this offset is opcodes for first channel
+**00 00** - offset to first channel opcodes: in our example 0x00 means that next to this offset is opcodes for first channel
 
 ## Channel commands
 
@@ -96,41 +85,28 @@ that next to this offset is opcodes for first channel
 
 **c8** - sets loop point
 
-**66** - 0x66 % 11 = 3 (3 means to take 3rd number from play length
-table), 0x66 / 11 = 9 (9 means to take pitch\[9\] from loaded instrument
-record index)
+**66** - 0x66 % 11 = 3 (3 means to take 3rd number from play length table), 0x66 / 11 = 9 (9 means to take pitch\[9\] from loaded instrument record index)
 
 **ca** - returns to saved loop point with opcode c8
 
-This example plays Chocobo "Whoo-Hoo" (instrument number 0x55)
-repeatedly.
+This example plays Chocobo "Whoo-Hoo" (instrument number 0x55) repeatedly.
 
 # Sound Opcode list
 
-[0xa0 (Finish Channel)][]
+[0xa0 (Finish Channel)](../0xa0 (Finish Channel).md)
 
-[0xa1 (Load Instrument)][]
+[0xa1 (Load Instrument)](../0xa1 (Load Instrument).md)
 
-[0xa5 (Pitch Divider)][]
+[0xa5 (Pitch Divider)](../0xa5 (Pitch Divider).md)
 
-[0xa8 (Channel Volume)][]
+[0xa8 (Channel Volume)](../0xa8 (Channel Volume).md)
 
-[0xaa (Channel Pan)][]
+[0xaa (Channel Pan)](../0xaa (Channel Pan).md)
 
-[0xc8 (Loop Point)][]
+[0xc8 (Loop Point)](../0xc8 (Loop Point).md)
 
-[0xca (Return to Loop Point)][]
+[0xca (Return to Loop Point)](../0xca (Return to Loop Point).md)
 
-[0xe8 (Tempo)][]
+[0xe8 (Tempo)](../0xe8 (Tempo).md)
 
-[0xea (Reverb Depth)][]
-
-  [0xa0 (Finish Channel)]: ../0xa0%20(Finish%20Channel).md "wikilink"
-  [0xa1 (Load Instrument)]: ../0xa1%20(Load%20Instrument).md "wikilink"
-  [0xa5 (Pitch Divider)]: ../0xa5%20(Pitch%20Divider).md "wikilink"
-  [0xa8 (Channel Volume)]: ../0xa8%20(Channel%20Volume).md "wikilink"
-  [0xaa (Channel Pan)]: ../0xaa%20(Channel%20Pan).md "wikilink"
-  [0xc8 (Loop Point)]: ../0xc8%20(Loop%20Point).md "wikilink"
-  [0xca (Return to Loop Point)]: ../0xca%20(Return%20to%20Loop%20Point).md "wikilink"
-  [0xe8 (Tempo)]: ../0xe8%20(Tempo).md "wikilink"
-  [0xea (Reverb Depth)]: ../0xea%20(Reverb%20Depth).md "wikilink"
+[0xea (Reverb Depth)](../0xea (Reverb Depth).md)

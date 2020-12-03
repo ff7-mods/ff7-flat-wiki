@@ -2,16 +2,13 @@
 title: FileFormat SYM
 ---
 
-[Home](../Main%20Page.md) > [FF8](../FF8.md) > FileFormat SYM
+[Home](../Main Page.md) > [FF8](../FF8.md) > FileFormat SYM
 
 By myst6re.
 
 ## Script entity/function names
 
-This is a text file, not present in the PSX version. Each line is 32
-characters (space padded) with the last character = \\n. The first lines
-are the names of the entities, **except the doors**. And after there are
-the names of the scripts.
+This is a text file, not present in the PSX version. Each line is 32 characters (space padded) with the last character = \\n. The first lines are the names of the entities, **except the doors**. And after there are the names of the scripts.
 
 Example:
 

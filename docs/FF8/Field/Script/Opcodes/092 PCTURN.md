@@ -2,7 +2,7 @@
 title: 092 PCTURN
 ---
 
-[Home](../../../../Main%20Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 092 PCTURN
+[Home](../../../../Main Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 092 PCTURN
 
 -   Opcode: **0x092**
 -   Short name: **PCTURN**
@@ -23,5 +23,4 @@ none
 
 #### Description
 
-Make this entity face the PC. *Speed* is number of frames (larger =
-slower turn).
+Make this entity face the PC. *Speed* is number of frames (larger = slower turn).

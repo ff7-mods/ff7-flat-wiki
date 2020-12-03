@@ -2,7 +2,7 @@
 title: 0C8 SEVOLTRANS
 ---
 
-[Home](../../../../Main%20Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 0C8 SEVOLTRANS
+[Home](../../../../Main Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 0C8 SEVOLTRANS
 
 -   Opcode: **0x0C8**
 -   Short name: **SEVOLTRANS**
@@ -25,5 +25,4 @@ none
 
 #### Description
 
-Transitions the volume of the sound in *sound channel* over *frame
-count*.
+Transitions the volume of the sound in *sound channel* over *frame count*.

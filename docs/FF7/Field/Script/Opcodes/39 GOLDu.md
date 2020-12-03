@@ -2,7 +2,7 @@
 title: 39 GOLDu
 ---
 
-[Home](../../../../Main%20Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 39 GOLDu
+[Home](../../../../Main Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 39 GOLDu
 
 -   Opcode: **0x39**
 -   Short name: **GOLDu**
@@ -31,8 +31,6 @@ Increase by an amount found in memory:
 
 #### Description
 
-Increases the amount of gil by a constant amount, or by an amount found
-in the source bank *B* and address *A*.
+Increases the amount of gil by a constant amount, or by an amount found in the source bank *B* and address *A*.
 
-The total gil is capped above by 0xFFFFFFFF; attempts to increment
-further will fail.
+The total gil is capped above by 0xFFFFFFFF; attempts to increment further will fail.

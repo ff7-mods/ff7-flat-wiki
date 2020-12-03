@@ -2,7 +2,7 @@
 title: 0CC BATTLEMODE
 ---
 
-[Home](../../../../Main%20Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 0CC BATTLEMODE
+[Home](../../../../Main Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 0CC BATTLEMODE
 
 -   Opcode: **0x0CC**
 -   Short name: **BATTLEMODE**
@@ -34,8 +34,7 @@ Set which flags are present during random battles.
 
 +4: Inherit countdown timer from field.
 
-+8: ? (prevents items/xp from being earned when used in otherwise
-regular battles)
++8: ? (prevents items/xp from being earned when used in otherwise regular battles)
 
 +16: Use current music as battle music.
 

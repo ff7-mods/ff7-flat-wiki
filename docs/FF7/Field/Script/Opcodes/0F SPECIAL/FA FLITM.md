@@ -2,7 +2,7 @@
 title: FA FLITM
 ---
 
-[Home](../../../../../Main%20Page.md) > [FF7](../../../../../FF7.md) > [Field](../../../../Field.md) > [Script](../../../Script.md) > [Opcodes](../../Opcodes.md) > [0F SPECIAL](../0F%20SPECIAL.md) > FA FLITM
+[Home](../../../../../Main Page.md) > [FF7](../../../../../FF7.md) > [Field](../../../../Field.md) > [Script](../../../Script.md) > [Opcodes](../../Opcodes.md) > [0F SPECIAL](../0F SPECIAL.md) > FA FLITM
 
 -   Opcode: **0x0FFA**
 -   Short name: **SPECIAL: FLITM**
@@ -19,6 +19,4 @@ None.
 
 #### Description
 
-Fills all available item entries so that the party has 99 of a wide
-variety of items, and leaves no room for other types of items. Some of
-the items will be invalid and have no name.
+Fills all available item entries so that the party has 99 of a wide variety of items, and leaves no room for other types of items. Some of the items will be invalid and have no name.

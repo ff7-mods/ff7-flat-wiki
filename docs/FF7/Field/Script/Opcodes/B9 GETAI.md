@@ -2,7 +2,7 @@
 title: B9 GETAI
 ---
 
-[Home](../../../../Main%20Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > B9 GETAI
+[Home](../../../../Main Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > B9 GETAI
 
 -   Opcode: **0xB9**
 -   Short name: **GETAI**
@@ -21,8 +21,4 @@ title: B9 GETAI
 
 #### Description
 
-Fetches the triangle ID on which the object of entity *E* is currently
-standing on, into bank *B*, address *A*. *E* is an offset into the
-entity list, not a visible object ID, and therefore includes non-visible
-entities; retrieving the triangle ID of a non-visible entity results in
-unusual values being retrieved.
+Fetches the triangle ID on which the object of entity *E* is currently standing on, into bank *B*, address *A*. *E* is an offset into the entity list, not a visible object ID, and therefore includes non-visible entities; retrieving the triangle ID of a non-visible entity results in unusual values being retrieved.

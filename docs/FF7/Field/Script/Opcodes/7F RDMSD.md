@@ -2,7 +2,7 @@
 title: 7F RDMSD
 ---
 
-[Home](../../../../Main%20Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 7F RDMSD
+[Home](../../../../Main Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 7F RDMSD
 
 -   Opcode: **0x7F**
 -   Short name: **RDMSD**
@@ -15,15 +15,9 @@ title: 7F RDMSD
 
 #### Arguments
 
--   **const UByte** *B*: Bank in which the seed value is stored, or zero
-    if *S* is specified as a literal value.
--   **const UByte** *S*: Seed for the random generator, or address for
-    the seed if *B* is non-zero.
+-   **const UByte** *B*: Bank in which the seed value is stored, or zero if *S* is specified as a literal value.
+-   **const UByte** *S*: Seed for the random generator, or address for the seed if *B* is non-zero.
 
 #### Description
 
-Seeds the random number generator used by [RANDOM][]. The lower four
-bits of the arguments are used as the seed value by altering the offset
-used to take a value from the table of pseudo-random numbers.
-
-  [RANDOM]: 99%20RANDOM.md "wikilink"
+Seeds the random number generator used by [RANDOM](99 RANDOM.md). The lower four bits of the arguments are used as the seed value by altering the offset used to take a value from the table of pseudo-random numbers.

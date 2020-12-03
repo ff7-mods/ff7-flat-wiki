@@ -2,7 +2,7 @@
 title: 95 INC
 ---
 
-[Home](../../../../Main%20Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 95 INC
+[Home](../../../../Main Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 95 INC
 
 -   Opcode: **0x95**
 -   Short name: **INC**
@@ -20,8 +20,4 @@ title: 95 INC
 
 #### Description
 
-Increments the 8-bit value found at bank **B**, address **A**. If the
-value is 0xFF, it will roll over to 0x00. If you specify a 16-bit bank,
-only the lower byte will be incremented, and if the lower byte is 0xFF,
-the higher byte will be unaffected whilst the lower byte will return to
-0x00.
+Increments the 8-bit value found at bank **B**, address **A**. If the value is 0xFF, it will roll over to 0x00. If you specify a 16-bit bank, only the lower byte will be incremented, and if the lower byte is 0xFF, the higher byte will be unaffected whilst the lower byte will return to 0x00.

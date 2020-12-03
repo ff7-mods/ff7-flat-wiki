@@ -2,19 +2,9 @@
 title: WorldMap charaone
 ---
 
-[Home](../Main%20Page.md) > [FF8](../FF8.md) > WorldMap charaone
+[Home](../Main Page.md) > [FF8](../FF8.md) > WorldMap charaone
 
-by Maki file is different than field [\[ONE][1]\] Basically you have to
-read the whole file step-by-step as there are minimum pointers and no
-sizes at all. Therefore just to read one character on world map you have
-to actually read all content of chara.one. You have to read whole TIM
-textures first, calculate the global size of TIM texture and advance
-further. Textures are always 0x10000000 08000000. My approach is to read
-uint64 and check if it contains TIM header. If not, then geometry
-section (see Chara). I named the bones/animation section as "section 12"
-because game engine calls function for chara.one files with 0x11 for
-reading the header data (chara) and then again with argument 0x12 having
-pointer to data as in Wiki in EAX. It's like:
+by Maki file is different than field [\[ONE](FileFormat ONE.md) and then again with argument 0x12 having pointer to data as in Wiki in EAX. It's like:
 
 `uint myPointer = charaOneFunction(pointer_to_Chara_section, 0x11...);`  
 `charaOneFunction(myPointer, 0x12...);`
@@ -31,8 +21,7 @@ pointer to data as in Wiki in EAX. It's like:
 
 Always 64 bytes length!
 
-UPDATE: Looks like it's 1:1 to MCH:
-<http://wiki.ffrtt.ru/index.php/FF8/FileFormat_MCH#Model-Data>
+UPDATE: Looks like it's 1:1 to MCH: <http://wiki.ffrtt.ru/index.php/FF8/FileFormat_MCH#Model-Data>
 
 | Offset | Length                     | Description                          |
 |--------|----------------------------|--------------------------------------|
@@ -82,18 +71,11 @@ AnimationKeypoint:
 | 0x08 + (boneID\*6) | short  | Bone\[boneID\].RotZ  |
 | 0x0A + (boneID\*6) | short  | Bone\[boneID\].RotY  |
 
-Case study: First character is Squall in chara.one. Two TIM 8BPP
-textures. Squall has 8 animations. First animation has one keypoint with
-16 bone translations. When moving it plays 2nd animation and has 0x14
-keypoints which every have 0x10 bone translations. You can edit origin
-XYZ offsets for every frame. Due to they way the file is constructed
-it's not so easy to actually test play other animations.
+Case study: First character is Squall in chara.one. Two TIM 8BPP textures. Squall has 8 animations. First animation has one keypoint with 16 bone translations. When moving it plays 2nd animation and has 0x14 keypoints which every have 0x10 bone translations. You can edit origin XYZ offsets for every frame. Due to they way the file is constructed it's not so easy to actually test play other animations.
 
 # source
 
-Example C\# source of file parsing as in OpenVIII (commit from
-16/02/1019):
-<https://github.com/MaKiPL/OpenVIII/blob/db46297fbc7961852e89427927df2e40623266a5/FF8/module_world_debug.cs#L202>
+Example C\# source of file parsing as in OpenVIII (commit from 16/02/1019): <https://github.com/MaKiPL/OpenVIII/blob/db46297fbc7961852e89427927df2e40623266a5/FF8/module_world_debug.cs#L202>
 
 `private static void ReadCharaOne(byte[] charaOneB)`  
 `       {`  
@@ -147,5 +129,3 @@ Example C\# source of file parsing as in OpenVIII (commit from
 `               return;`  
 `           }`  
 `}`
-
-  [1]: FileFormat%20ONE.md "wikilink"

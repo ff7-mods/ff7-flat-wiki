@@ -2,7 +2,7 @@
 title: 30 IFKEY
 ---
 
-[Home](../../../../Main%20Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 30 IFKEY
+[Home](../../../../Main Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 30 IFKEY
 
 -   Opcode: **0x30**
 -   Short name: **IFKEY**
@@ -20,22 +20,11 @@ title: 30 IFKEY
 
 #### Description
 
-Checks the status of a button being pressed; if pressed, regardless of
-the previous condition of the button press state (see [IFKEYON][] /
-[IFKEYOFF][]), the "if" body executes (that is, the script pointer is
-moved to the opcode after the current IFKEY). If the checked button
-fails the condition check, then the script pointer moves ahead *A*
-bytes.
+Checks the status of a button being pressed; if pressed, regardless of the previous condition of the button press state (see [IFKEYON](FF7/Field/Script/Opcodes/31_IFKEYON "wikilink") / [IFKEYOFF](32 IFKEYOFF.md). If the checked button fails the condition check, then the script pointer moves ahead *A* bytes.
 
-The highlighted keys in the button ID table below do not quite act as
-the rest when used with this particular opcode. For these keys, IFKEY
-acts in the same manner as IFKEYON; these keys cannot be checked
-repeatedly, and the if statement body will only execute once, regardless
-of whether the key is being held down.
+The highlighted keys in the button ID table below do not quite act as the rest when used with this particular opcode. For these keys, IFKEY acts in the same manner as IFKEYON; these keys cannot be checked repeatedly, and the if statement body will only execute once, regardless of whether the key is being held down.
 
-Button IDs can be ORd with each other to produce a combination of keys
-to check in one statement. For example, IFKEY with a key ID of 0x00F0
-will check if any of the directional buttons are being pressed.
+Button IDs can be ORd with each other to produce a combination of keys to check in one statement. For example, IFKEY with a key ID of 0x00F0 will check if any of the directional buttons are being pressed.
 
 #### Button IDs
 
@@ -57,6 +46,3 @@ will check if any of the directional buttons are being pressed.
 | 0b100000000000000 / 16384  | Down            |         |             |
 | 0b1000000000000000 / 32768 | Left            |         |             |
 |                            |                 |         |             |
-
-  [IFKEYON]: 31%20IFKEYON.md "wikilink"
-  [IFKEYOFF]: 32%20IFKEYOFF.md "wikilink"

@@ -2,19 +2,13 @@
 title: FileFormat PAK
 ---
 
-[Home](../Main%20Page.md) > [FF8](../FF8.md) > FileFormat PAK
+[Home](../Main Page.md) > [FF8](../FF8.md) > FileFormat PAK
 
-Final Fantasy VIII's movie files are stored within pak files. This is
-for the CD 2000 version only. Steam 2013 version uses avi files.
-**publish.pak** contains the message "Published by Square Electronic
-Arts L.L.C.". **disc1.pak**, **disc2.pak**, **disc3.pak**, and
-**disc4.pak** hold the rest of the FMV movies.
+Final Fantasy VIII's movie files are stored within pak files. This is for the CD 2000 version only. Steam 2013 version uses avi files. **publish.pak** contains the message "Published by Square Electronic Arts L.L.C.". **disc1.pak**, **disc2.pak**, **disc3.pak**, and **disc4.pak** hold the rest of the FMV movies.
 
 # PAK File Structure
 
-The PAK file has no header. Each movie usually contains a CAM file and
-two BINK videos. A PAK file can contain multiple movies. One BINK file
-is the low res the other is the high res.
+The PAK file has no header. Each movie usually contains a CAM file and two BINK videos. A PAK file can contain multiple movies. One BINK file is the low res the other is the high res.
 
 | Section         | Description |
 |-----------------|-------------|
@@ -45,9 +39,7 @@ is the low res the other is the high res.
 
 ## Pak File Details
 
-The filenames are based on the 2013 name scheme. I am using **h** suffix
-for high res and **l** suffix for low res. Disc numbers go from 0-3. And
-4 being for extra videos not fmv related.
+The filenames are based on the 2013 name scheme. I am using **h** suffix for high res and **l** suffix for low res. Disc numbers go from 0-3. And 4 being for extra videos not fmv related.
 
 ##### disc1.pak
 

@@ -2,7 +2,7 @@
 title: 0BD EFFECTLOAD
 ---
 
-[Home](../../../../Main%20Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 0BD EFFECTLOAD
+[Home](../../../../Main Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 0BD EFFECTLOAD
 
 -   Opcode: **0x0BD**
 -   Short name: **EFFECTLOAD**
@@ -21,8 +21,7 @@ none
 
 #### Description
 
-Start playing a background looping sound effect. Sound effect IDs follow
-no pattern I can see from the FMT file.
+Start playing a background looping sound effect. Sound effect IDs follow no pattern I can see from the FMT file.
 
   
 Test data

@@ -2,7 +2,7 @@
 title: 01E SET3
 ---
 
-[Home](../../../../Main%20Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 01E SET3
+[Home](../../../../Main Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 01E SET3
 
 -   Opcode: **0x01E**
 -   Short name: **SET3**
@@ -25,5 +25,4 @@ Walkmesh triangle ID.
 
 #### Description
 
-Place this entity's model at XCoord, YCoord, ZCoord standing on the
-given walkmesh triangle.
+Place this entity's model at XCoord, YCoord, ZCoord standing on the given walkmesh triangle.

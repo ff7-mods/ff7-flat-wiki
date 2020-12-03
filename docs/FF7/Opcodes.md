@@ -2,7 +2,7 @@
 title: Opcodes
 ---
 
-[Home](../Main%20Page.md) > [FF7](../FF7.md) > Opcodes
+[Home](../Main Page.md) > [FF7](../FF7.md) > Opcodes
 
 # Opcode Matrix
 
@@ -27,167 +27,15 @@ title: Opcodes
 
 ## Opcode Listings, Arguments & Descriptions
 
-<table>
-<thead>
-<tr class="header">
-<th style="text-align: center;"><p>Opcode</p></th>
-<th style="text-align: center;"><p>Name</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: center;"><p>0x00</p></td>
-<td style="text-align: center;"><p>RET</p></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;"><p>Arguments</p></td>
-<td style="text-align: center;"><p>Definition</p></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;"><p>(none)</p></td>
-<td style="text-align: center;"><p>(none)</p></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;"><p>Description</p></td>
-<td style="text-align: center;"></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;"><p>Returns control back to the standard program loop.<br />
-Usually you can control the PC again after this point.</p></td>
-<td style="text-align: center;"></td>
-</tr>
-</tbody>
-</table>
+<table><thead><tr class="header"><th style="text-align: center;"><p>Opcode</p></th><th style="text-align: center;"><p>Name</p></th></tr></thead><tbody><tr class="odd"><td style="text-align: center;"><p>0x00</p></td><td style="text-align: center;"><p>RET</p></td></tr><tr class="even"><td style="text-align: center;"><p>Arguments</p></td><td style="text-align: center;"><p>Definition</p></td></tr><tr class="odd"><td style="text-align: center;"><p>(none)</p></td><td style="text-align: center;"><p>(none)</p></td></tr><tr class="even"><td style="text-align: center;"><p>Description</p></td><td style="text-align: center;"></td></tr><tr class="odd"><td style="text-align: center;"><p>Returns control back to the standard program loop.<br />
+Usually you can control the PC again after this point.</p></td><td style="text-align: center;"></td></tr></tbody></table>
 
-<table>
-<thead>
-<tr class="header">
-<th style="text-align: center;"><p>Opcode</p></th>
-<th style="text-align: center;"><p>Name</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: center;"><p>0x01</p></td>
-<td style="text-align: center;"><p>REQ</p></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;"><p>Arguments</p></td>
-<td style="text-align: center;"><p>Definition</p></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;"><p>(none)</p></td>
-<td style="text-align: center;"><p>(none)</p></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;"><p>Description</p></td>
-<td style="text-align: center;"></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;"><p>Returns control back to the standard program loop.<br />
-Usually you can control the PC again after this point.</p></td>
-<td style="text-align: center;"></td>
-</tr>
-</tbody>
-</table>
+<table><thead><tr class="header"><th style="text-align: center;"><p>Opcode</p></th><th style="text-align: center;"><p>Name</p></th></tr></thead><tbody><tr class="odd"><td style="text-align: center;"><p>0x01</p></td><td style="text-align: center;"><p>REQ</p></td></tr><tr class="even"><td style="text-align: center;"><p>Arguments</p></td><td style="text-align: center;"><p>Definition</p></td></tr><tr class="odd"><td style="text-align: center;"><p>(none)</p></td><td style="text-align: center;"><p>(none)</p></td></tr><tr class="even"><td style="text-align: center;"><p>Description</p></td><td style="text-align: center;"></td></tr><tr class="odd"><td style="text-align: center;"><p>Returns control back to the standard program loop.<br />
+Usually you can control the PC again after this point.</p></td><td style="text-align: center;"></td></tr></tbody></table>
 
-<table>
-<thead>
-<tr class="header">
-<th style="text-align: center;"><p>Opcode</p></th>
-<th style="text-align: center;"><p>Name</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: center;"><p>0x30</p></td>
-<td style="text-align: center;"><p>WINDOW</p></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;"><p>Arguments</p></td>
-<td style="text-align: center;"><p>Definition</p></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;"><p>id = byte</p></td>
-<td style="text-align: center;"><p>Window ID</p></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;"><p>x = long</p></td>
-<td style="text-align: center;"><p>X coordinate for the upper left hand corner</p></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;"><p>y = long</p></td>
-<td style="text-align: center;"><p>Y coordinate for the upper left hand corner</p></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;"><p>h = long</p></td>
-<td style="text-align: center;"><p>Width of window in pixels</p></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;"><p>w = long</p></td>
-<td style="text-align: center;"><p>Height of window in pixels</p></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;"><p>Description</p></td>
-<td style="text-align: center;"></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;"><p>Initializes a windowpane. This does not display a window, but allows for a<br />
+<table><thead><tr class="header"><th style="text-align: center;"><p>Opcode</p></th><th style="text-align: center;"><p>Name</p></th></tr></thead><tbody><tr class="odd"><td style="text-align: center;"><p>0x30</p></td><td style="text-align: center;"><p>WINDOW</p></td></tr><tr class="even"><td style="text-align: center;"><p>Arguments</p></td><td style="text-align: center;"><p>Definition</p></td></tr><tr class="odd"><td style="text-align: center;"><p>id = byte</p></td><td style="text-align: center;"><p>Window ID</p></td></tr><tr class="even"><td style="text-align: center;"><p>x = long</p></td><td style="text-align: center;"><p>X coordinate for the upper left hand corner</p></td></tr><tr class="odd"><td style="text-align: center;"><p>y = long</p></td><td style="text-align: center;"><p>Y coordinate for the upper left hand corner</p></td></tr><tr class="even"><td style="text-align: center;"><p>h = long</p></td><td style="text-align: center;"><p>Width of window in pixels</p></td></tr><tr class="odd"><td style="text-align: center;"><p>w = long</p></td><td style="text-align: center;"><p>Height of window in pixels</p></td></tr><tr class="even"><td style="text-align: center;"><p>Description</p></td><td style="text-align: center;"></td></tr><tr class="odd"><td style="text-align: center;"><p>Initializes a windowpane. This does not display a window, but allows for a<br />
 "container" for the commands ASK and MESSAGE to place text within. It<br />
-is referenced by it's window ID.</p></td>
-<td style="text-align: center;"></td>
-</tr>
-</tbody>
-</table>
+is referenced by it's window ID.</p></td><td style="text-align: center;"></td></tr></tbody></table>
 
-<table>
-<thead>
-<tr class="header">
-<th style="text-align: center;"><p>Opcode</p></th>
-<th style="text-align: center;"><p>Name</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: center;"><p>0x48</p></td>
-<td style="text-align: center;"><p>ASK</p></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;"><p>Arguments</p></td>
-<td style="text-align: center;"><p>Definition</p></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;"><p>unknown = byte</p></td>
-<td style="text-align: center;"><p>Unknown</p></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;"><p>win = byte</p></td>
-<td style="text-align: center;"><p>Window ID to place data into</p></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;"><p>mes = byte</p></td>
-<td style="text-align: center;"><p>Which dialog to display from dialog table</p></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;"><p>1st = byte</p></td>
-<td style="text-align: center;"><p>Which line is the first choice</p></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;"><p>nth = byte</p></td>
-<td style="text-align: center;"><p>Which line is the last choice</p></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;"><p>var = byte</p></td>
-<td style="text-align: center;"><p>Unknown</p></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;"><p>Description</p></td>
-<td style="text-align: center;"></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;"><p>The ASK command opens a window with a set of choices to be picked<br />
-with the "selector finger" (Yubi) [WHERE IS THIS RETURNED?]</p></td>
-<td style="text-align: center;"></td>
-</tr>
-</tbody>
-</table>
+<table><thead><tr class="header"><th style="text-align: center;"><p>Opcode</p></th><th style="text-align: center;"><p>Name</p></th></tr></thead><tbody><tr class="odd"><td style="text-align: center;"><p>0x48</p></td><td style="text-align: center;"><p>ASK</p></td></tr><tr class="even"><td style="text-align: center;"><p>Arguments</p></td><td style="text-align: center;"><p>Definition</p></td></tr><tr class="odd"><td style="text-align: center;"><p>unknown = byte</p></td><td style="text-align: center;"><p>Unknown</p></td></tr><tr class="even"><td style="text-align: center;"><p>win = byte</p></td><td style="text-align: center;"><p>Window ID to place data into</p></td></tr><tr class="odd"><td style="text-align: center;"><p>mes = byte</p></td><td style="text-align: center;"><p>Which dialog to display from dialog table</p></td></tr><tr class="even"><td style="text-align: center;"><p>1st = byte</p></td><td style="text-align: center;"><p>Which line is the first choice</p></td></tr><tr class="odd"><td style="text-align: center;"><p>nth = byte</p></td><td style="text-align: center;"><p>Which line is the last choice</p></td></tr><tr class="even"><td style="text-align: center;"><p>var = byte</p></td><td style="text-align: center;"><p>Unknown</p></td></tr><tr class="odd"><td style="text-align: center;"><p>Description</p></td><td style="text-align: center;"></td></tr><tr class="even"><td style="text-align: center;"><p>The ASK command opens a window with a set of choices to be picked<br />
+with the "selector finger" (Yubi) [WHERE IS THIS RETURNED?]</p></td><td style="text-align: center;"></td></tr></tbody></table>

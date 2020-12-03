@@ -2,7 +2,7 @@
 title: 02E ANIMEKEEP
 ---
 
-[Home](../../../../Main%20Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 02E ANIMEKEEP
+[Home](../../../../Main Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 02E ANIMEKEEP
 
 -   Opcode: **0x02E**
 -   Short name: **ANIMEKEEP**
@@ -18,5 +18,4 @@ none
 
 #### Description
 
-Play an animation, then freeze the model on the last frame of the
-animation. Pauses script until animation finishes.
+Play an animation, then freeze the model on the last frame of the animation. Pauses script until animation finishes.

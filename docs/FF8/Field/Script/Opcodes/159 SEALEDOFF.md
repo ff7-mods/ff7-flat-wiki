@@ -2,7 +2,7 @@
 title: 159 SEALEDOFF
 ---
 
-[Home](../../../../Main%20Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 159 SEALEDOFF
+[Home](../../../../Main Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 159 SEALEDOFF
 
 -   Opcode: **0x159**
 -   Short name: **SEALEDOFF**
@@ -21,11 +21,9 @@ none
 
 #### Description
 
-Enables features of the game pertaining to the last dungeon's mechanic
-(items, saving, etc).
+Enables features of the game pertaining to the last dungeon's mechanic (items, saving, etc).
 
-Whether or not these are enabled/disabled is stored in [byte 334][].
-0=Sealed, 1=Unsealed
+Whether or not these are enabled/disabled is stored in [byte 334](../../../Variables.md). 0=Sealed, 1=Unsealed
 
 Flags:
 
@@ -45,5 +43,3 @@ Flags:
 64\. Resurrection
 
 128\. Save
-
-  [byte 334]: ../../../Variables.md "wikilink"

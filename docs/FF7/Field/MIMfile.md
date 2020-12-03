@@ -2,7 +2,7 @@
 title: MIMfile
 ---
 
-[Home](../../Main%20Page.md) > [FF7](../../FF7.md) > [Field](../Field.md) > MIMfile
+[Home](../../Main Page.md) > [FF7](../../FF7.md) > [Field](../Field.md) > MIMfile
 
 ## MIM File structure
 
@@ -37,8 +37,7 @@ After the palettes comes the
 `   UINT16   Width, Height;  // Width is the # of Word units (UINT16) the blocks are wide`  
 `} MIMBaseImage;`
 
-lastly the actual block data for display follows. The palettes are
-selected from information in the DAT section 3 data.
+lastly the actual block data for display follows. The palettes are selected from information in the DAT section 3 data.
 
 Sometimes there is a second MIM Block:
 

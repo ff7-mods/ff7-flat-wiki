@@ -2,7 +2,7 @@
 title: 034 RCANIMEKEEP
 ---
 
-[Home](../../../../Main%20Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 034 RCANIMEKEEP
+[Home](../../../../Main Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 034 RCANIMEKEEP
 
 -   Opcode: **0x034**
 -   Short name: **RCANIMEKEEP**
@@ -23,6 +23,4 @@ Model Animation ID
 
 #### Description
 
-Play the range of frames of an animation, then freeze the model on the
-last frame played. Used to make a character perform "half an animation"
-and then finish the animation later in a script.
+Play the range of frames of an animation, then freeze the model on the last frame played. Used to make a character perform "half an animation" and then finish the animation later in a script.

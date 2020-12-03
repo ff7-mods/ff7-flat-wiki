@@ -2,7 +2,7 @@
 title: 0E7 ANIMESPEED
 ---
 
-[Home](../../../../Main%20Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 0E7 ANIMESPEED
+[Home](../../../../Main Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 0E7 ANIMESPEED
 
 -   Opcode: **0x0E7**
 -   Short name: **ANIMESPEED**
@@ -21,5 +21,4 @@ none
 
 #### Description
 
-Sets the speed of this entity's animations. Frame speed of 1 means 2
-frames per second.
+Sets the speed of this entity's animations. Frame speed of 1 means 2 frames per second.

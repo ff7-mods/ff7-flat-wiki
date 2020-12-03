@@ -2,7 +2,7 @@
 title: 170 UNKNOWN5
 ---
 
-[Home](../../../../Main%20Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 170 UNKNOWN5
+[Home](../../../../Main Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 170 UNKNOWN5
 
 -   Opcode: **0x16A**
 -   Short name: **UNKNOWN5**
@@ -19,5 +19,4 @@ title: 170 UNKNOWN5
 
 #### Description
 
-If the party has the item with the given ID, pushes 1 to temporary
-variable 0. Otherwise, pushes 0.
+If the party has the item with the given ID, pushes 1 to temporary variable 0. Otherwise, pushes 0.

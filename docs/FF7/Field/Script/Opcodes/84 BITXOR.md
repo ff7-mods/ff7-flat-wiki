@@ -2,7 +2,7 @@
 title: 84 BITXOR
 ---
 
-[Home](../../../../Main%20Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 84 BITXOR
+[Home](../../../../Main Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 84 BITXOR
 
 -   Opcode: **0x84**
 -   Short name: **BITXOR**
@@ -22,8 +22,4 @@ title: 84 BITXOR
 
 #### Description
 
-Toggles the nth bit in the "Dest" location, where n is a number between
-0-7 supplied in "Bit". A value of zero in "Bit" will toggle the least
-significant bit. If the Source Bank is 0 then the bit to be changed is
-taken from "Bit". If the Source Bank is an 8 bit bank, then the
-â€œBitâ€ is the address in that bank where the operand is.
+Toggles the nth bit in the "Dest" location, where n is a number between 0-7 supplied in "Bit". A value of zero in "Bit" will toggle the least significant bit. If the Source Bank is 0 then the bit to be changed is taken from "Bit". If the Source Bank is an 8 bit bank, then the â€œBitâ€ is the address in that bank where the operand is.

@@ -2,7 +2,7 @@
 title: AC ANIMW
 ---
 
-[Home](../../../../Main%20Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > AC ANIMW
+[Home](../../../../Main Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > AC ANIMW
 
 -   Opcode: **0xAC**
 -   Short name: **ANIMW**
@@ -19,5 +19,4 @@ None.
 
 #### Description
 
-Waits for the animation to complete that has been previously played
-using any of the animation opcodes.
+Waits for the animation to complete that has been previously played using any of the animation opcodes.

@@ -2,7 +2,7 @@
 title: D8 PMJMP
 ---
 
-[Home](../../../../Main%20Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > D8 PMJMP
+[Home](../../../../Main Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > D8 PMJMP
 
 -   Opcode: **0xD8**
 -   Short name: **PMJMP**
@@ -15,12 +15,8 @@ title: D8 PMJMP
 
 #### Arguments
 
--   **const UShort** *I*: [Field ID][] of the map to prepare to jump to.
+-   **const UShort** *I*: [Field ID](../../Field List.md) of the map to prepare to jump to.
 
 #### Description
 
-Prepare to jump to the field indicated by *I*. Use before making the
-[map jump][].
-
-  [Field ID]: ../../Field%20List.md "wikilink"
-  [map jump]: 60%20MAPJUMP.md "wikilink"
+Prepare to jump to the field indicated by *I*. Use before making the [map jump](60 MAPJUMP.md).

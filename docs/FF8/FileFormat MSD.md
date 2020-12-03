@@ -2,14 +2,13 @@
 title: FileFormat MSD
 ---
 
-[Home](../Main%20Page.md) > [FF8](../FF8.md) > FileFormat MSD
+[Home](../Main Page.md) > [FF8](../FF8.md) > FileFormat MSD
 
 By myst6re.
 
 ## Field texts
 
-This file contains just a list of positions for each text, and text
-data. If you want to calculate the number of texts, you can do this:
+This file contains just a list of positions for each text, and text data. If you want to calculate the number of texts, you can do this:
 
     nbText = firstTextPos / 4
 

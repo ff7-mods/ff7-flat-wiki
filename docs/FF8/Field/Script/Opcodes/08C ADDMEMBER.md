@@ -2,7 +2,7 @@
 title: 08C ADDMEMBER
 ---
 
-[Home](../../../../Main%20Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 08C ADDMEMBER
+[Home](../../../../Main Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 08C ADDMEMBER
 
 -   Opcode: **0x08C**
 -   Short name: **ADDMEMBER**

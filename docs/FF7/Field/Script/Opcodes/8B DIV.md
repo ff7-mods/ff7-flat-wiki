@@ -2,7 +2,7 @@
 title: 8B DIV
 ---
 
-[Home](../../../../Main%20Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 8B DIV
+[Home](../../../../Main Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 8B DIV
 
 -   Opcode: **0x8B**
 -   Short name: **DIV**
@@ -22,8 +22,4 @@ title: 8B DIV
 
 #### Description
 
-Divides â€œDestâ€ by â€œDenâ€ and stores the result back into
-â€œDestâ€. The result of the division is rounded towards zero to the
-nearest integer. If the Source Bank is 0 then the â€œDenâ€ is the
-denominator. If the Source Bank is an 8 bit bank, then the â€œDenâ€ is
-the address in that bank where the denominator is.
+Divides â€œDestâ€ by â€œDenâ€ and stores the result back into â€œDestâ€. The result of the division is rounded towards zero to the nearest integer. If the Source Bank is 0 then the â€œDenâ€ is the denominator. If the Source Bank is an 8 bit bank, then the â€œDenâ€ is the address in that bank where the denominator is.

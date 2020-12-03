@@ -2,16 +2,13 @@
 title: Main harata
 ---
 
-[Home](../Main%20Page.md) > [FF8](../FF8.md) > Main harata
+[Home](../Main Page.md) > [FF8](../FF8.md) > Main harata
 
 By MaKiPL
 
 ------------------------------------------------------------------------
 
-Harata.cnf is unused file made by battle programmer for debug purpouse.
-The code associated with Harata.CNF file is completely lost, and the
-only leftover code for interpreting harata.cnf file content is unusable.
-From all the leftovers visible in code, the Harata.CNF could:
+Harata.cnf is unused file made by battle programmer for debug purpouse. The code associated with Harata.CNF file is completely lost, and the only leftover code for interpreting harata.cnf file content is unusable. From all the leftovers visible in code, the Harata.CNF could:
 
 -   Log battle debug data to specifiec path
 -   Autostart battle before mainmenu shows up for fast debugging

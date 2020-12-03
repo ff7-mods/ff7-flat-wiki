@@ -2,7 +2,7 @@
 title: 067 THROUGHON
 ---
 
-[Home](../../../../Main%20Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 067 THROUGHON
+[Home](../../../../Main Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 067 THROUGHON
 
 -   Opcode: **0x067**
 -   Short name: **THROUGHON**
@@ -18,5 +18,4 @@ none
 
 #### Description
 
-Disables players from colliding with this entity (ie makes them stop
-moving when too close).
+Disables players from colliding with this entity (ie makes them stop moving when too close).

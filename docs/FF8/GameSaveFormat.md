@@ -2,14 +2,13 @@
 title: GameSaveFormat
 ---
 
-[Home](../Main%20Page.md) > [FF8](../FF8.md) > GameSaveFormat
+[Home](../Main Page.md) > [FF8](../FF8.md) > GameSaveFormat
 
 By myst6re.
 
 ## The save format
 
-PC steam version: Offsets start from at 384 (0x0180). File is compressed
-with LZS.
+PC steam version: Offsets start from at 384 (0x0180). File is compressed with LZS.
 
 | Offset | Size                | Data                                                                                |
 |--------|---------------------|-------------------------------------------------------------------------------------|
@@ -106,7 +105,7 @@ with LZS.
 | 0x0D68 | 3\*1 bytes          | Direction (party1, party2, party3)                                                  |
 | 0x0D6B | 1 byte              | *Padding*                                                                           |
 | 0x0D6C | 4 bytes             | Unknown                                                                             |
-| 0x0D70 | 256 + 1024 bytes    | [Field vars][]                                                                      |
+| 0x0D70 | 256 + 1024 bytes    | [Field vars](Variables.md)                                              |
 | 0x1270 | 128 bytes           | Worldmap (TODO)                                                                     |
 | 0x12F0 | 128 bytes           | Triple Triad (TODO)                                                                 |
 | 0x1370 | 64 bytes            | Chocobo World (TODO)                                                                |
@@ -117,9 +116,7 @@ with LZS.
 
 The checksum calculation starts here.
 
-There are 16 G-F: Quetzalcoatl, Shiva, Ifrit, Siren, Brothers, Diablos,
-Carbuncle, Leviathan, Pandemonia, Cerberus, Alexander, Doomtrain,
-Bahamut, Cactuar, Tonberry, Eden.  
+There are 16 G-F: Quetzalcoatl, Shiva, Ifrit, Siren, Brothers, Diablos, Carbuncle, Leviathan, Pandemonia, Cerberus, Alexander, Doomtrain, Bahamut, Cactuar, Tonberry, Eden.  
 For each G-F:
 
 | Offset | Size     | Data                                                                       |
@@ -138,8 +135,7 @@ For each G-F:
 
 ### Characters
 
-Squall, Zell, Irvine, Quistis, Rinoa, Selphie, Seifer, Edea. For each
-character:
+Squall, Zell, Irvine, Quistis, Rinoa, Selphie, Seifer, Edea. For each character:
 
 | Offset | Size          | Data                                         |
 |--------|---------------|----------------------------------------------|
@@ -216,5 +212,3 @@ character:
 | 0x2E   | 1 byte             | Unknown                                                                                                        |
 | 0x2F   | 1 byte             | Home walking                                                                                                   |
 | 0x30   | 16 bytes           | Unknown (unused?)                                                                                              |
-
-  [Field vars]: Variables.md "wikilink"

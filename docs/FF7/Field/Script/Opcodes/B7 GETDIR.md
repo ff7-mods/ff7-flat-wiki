@@ -2,7 +2,7 @@
 title: B7 GETDIR
 ---
 
-[Home](../../../../Main%20Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > B7 GETDIR
+[Home](../../../../Main Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > B7 GETDIR
 
 -   Opcode: **0xB7**
 -   Short name: **GETDIR**
@@ -21,7 +21,4 @@ title: B7 GETDIR
 
 #### Description
 
-Fetches the direction of the entity given by *E* into bank *B*, address
-*A*. *E* is an offset into the entity list, not a visible object ID, and
-therefore includes non-visible entities; retrieving the direction of a
-non-visible entity results in unusual values being retrieved.
+Fetches the direction of the entity given by *E* into bank *B*, address *A*. *E* is an offset into the entity list, not a visible object ID, and therefore includes non-visible entities; retrieving the direction of a non-visible entity results in unusual values being retrieved.

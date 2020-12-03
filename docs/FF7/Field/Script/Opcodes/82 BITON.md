@@ -2,7 +2,7 @@
 title: 82 BITON
 ---
 
-[Home](../../../../Main%20Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 82 BITON
+[Home](../../../../Main Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 82 BITON
 
 -   Opcode: **0x82**
 -   Short name: **BITON**
@@ -22,8 +22,4 @@ title: 82 BITON
 
 #### Description
 
-Sets the nth bit in the "Dest" location, where n is a number between 0-7
-supplied in "Bit". A value of zero in "Bit" will set the least
-significant bit. If the Source Bank is 0 then the bit to be set is taken
-from "Bit". If the Source Bank is an 8 bit bank, then the â€œBitâ€ is
-the address in that bank where the operand is.
+Sets the nth bit in the "Dest" location, where n is a number between 0-7 supplied in "Bit". A value of zero in "Bit" will set the least significant bit. If the Source Bank is 0 then the bit to be set is taken from "Bit". If the Source Bank is an 8 bit bank, then the â€œBitâ€ is the address in that bank where the operand is.

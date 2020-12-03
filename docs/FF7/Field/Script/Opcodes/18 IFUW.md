@@ -2,7 +2,7 @@
 title: 18 IFUW
 ---
 
-[Home](../../../../Main%20Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 18 IFUW
+[Home](../../../../Main Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 18 IFUW
 
 -   Opcode: **0x18**
 -   Short name: **IFUW**
@@ -17,17 +17,11 @@ title: 18 IFUW
 
 -   **const Bit\[4\]** *B1*: First memory bank to access.
 -   **const Bit\[4\]** *B2*: Second memory bank to access.
--   **const UShort** *A*: Address, from the first bank, of the value to
-    retrieve.
--   **const UShort** *V*: Unsigned value to compare the retrieved value
-    to, or address from the second bank of the value to retrieve, if
-    *B2* is non-zero.
+-   **const UShort** *A*: Address, from the first bank, of the value to retrieve.
+-   **const UShort** *V*: Unsigned value to compare the retrieved value to, or address from the second bank of the value to retrieve, if *B2* is non-zero.
 -   **const UByte** *C*: Type of comparison to perform.
 -   **const UByte** *E*: Amount to jump if the comparison does not hold.
 
 #### Description
 
-This is similar to the [IFUB][] opcode, but it allows the value to be
-larger than 0xFF.
-
-  [IFUB]: 14%20IFUB.md "wikilink"
+This is similar to the [IFUB](14 IFUB.md) opcode, but it allows the value to be larger than 0xFF.

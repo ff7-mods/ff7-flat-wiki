@@ -2,7 +2,7 @@
 title: B6 DIRA
 ---
 
-[Home](../../../../Main%20Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > B6 DIRA
+[Home](../../../../Main Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > B6 DIRA
 
 -   Opcode: **0xB6**
 -   Short name: **DIRA**
@@ -19,9 +19,4 @@ title: B6 DIRA
 
 #### Description
 
-Instantaneously directs the field object towards the entity with the
-given ID. As with [MOVA][], the entity ID is an offset in the entire
-entity list, and not into the visible object/entities list, and will
-also have no effect if a non-visible entity is given.
-
-  [MOVA]: AA%20MOVA.md "wikilink"
+Instantaneously directs the field object towards the entity with the given ID. As with [MOVA](AA MOVA.md), the entity ID is an offset in the entire entity list, and not into the visible object/entities list, and will also have no effect if a non-visible entity is given.

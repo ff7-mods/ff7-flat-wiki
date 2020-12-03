@@ -2,166 +2,73 @@
 title: Battle Scenes
 ---
 
-[Home](../../Main%20Page.md) > [FF7](../../FF7.md) > [Battle](../Battle.md) > Battle Scenes
+[Home](../../Main Page.md) > [FF7](../../FF7.md) > [Battle](../Battle.md) > Battle Scenes
 
 ## Introduction
 
-FF7 keeps each enemy battle configuration is a file called "scene.bin"
-This file is located in the following directories.
+FF7 keeps each enemy battle configuration is a file called "scene.bin" This file is located in the following directories.
 
 |      PSX Version       |    PC Version     |
 |:----------------------:|:-----------------:|
 | /DATA/BATTLE/SCENE.BIN | /BATTLE/SCENE.BIN |
 |                        |                   |
 
-This file is exactly the same in both versions. This holds all the
-battle configurations for all enemies encountered in the game.
+This file is exactly the same in both versions. This holds all the battle configurations for all enemies encountered in the game.
 
 ## Scene.Bin file format
 
 ### Overview
 
-The scene.bin file contains 256 gziped files which give us information
-for all the FF7 monsters. In order to find these files in scene.bin, you
-have to know that the file is structured with blocks exactly 0x2000
-bytes in length. In the first table (scene.bin block), you will see what
-contains a block. Blocks are concatenated with each other to form the
-scene.bin file. So if you want to extract data from scene.bin, you'll
-need to find the correct blocks and to extract the gziped files from it.
-After that you simply ungzip those files and you'll find 256 files, with
-a length is 7808 bytes. Known information about those files can be found
-in the second table (The Data File specification). Because extracting
-file manually would be a pain, several tools was developed in order to
-help you. You can use [Scene Reader][] for example, it's a win32 tool to
-extract and repack scene.bin archive.
+The scene.bin file contains 256 gziped files which give us information for all the FF7 monsters. In order to find these files in scene.bin, you have to know that the file is structured with blocks exactly 0x2000 bytes in length. In the first table (scene.bin block), you will see what contains a block. Blocks are concatenated with each other to form the scene.bin file. So if you want to extract data from scene.bin, you'll need to find the correct blocks and to extract the gziped files from it. After that you simply ungzip those files and you'll find 256 files, with a length is 7808 bytes. Known information about those files can be found in the second table (The Data File specification). Because extracting file manually would be a pain, several tools was developed in order to help you. You can use [Scene Reader](http://spinningcone.com/ff/stormmedia/projects/SceneReader.zip) for example, it's a win32 tool to extract and repack scene.bin archive.
 
-Also note, that in [kernel.bin][] there is a look-up table for
-scene.bin, which tells how many files there are in each section of
-scene.bin. You need to update it every time you repack the file and
-something changes. The table is at offset 0x0F1C of the third section of
-the kernel.bin file. You can use [SceneFix][] program, which'll update
-the table for you.
+Also note, that in [kernel.bin](FF7/Kernel/Kernel.bin "wikilink") there is a look-up table for scene.bin, which tells how many files there are in each section of scene.bin. You need to update it every time you repack the file and something changes. The table is at offset 0x0F1C of the third section of the kernel.bin file. You can use [SceneFix](http://forums.qhimm.com/index.php?topic=7127.0) program, which'll update the table for you.
 
-We have 1024 possible battle numbers: 0 - 1023. Each group of \*4\*
-Battle Numbers refers to a particular Scene file: for instance, Battles
-0-3 refer to File 0 in Scene.bin, Battles 4-7 refer to File 1 in
-Scene.bin, and so forth.
+We have 1024 possible battle numbers: 0 - 1023. Each group of \*4\* Battle Numbers refers to a particular Scene file: for instance, Battles 0-3 refer to File 0 in Scene.bin, Battles 4-7 refer to File 1 in Scene.bin, and so forth.
 
 #### Japanese format
 
-In the japanese scene.bin, ennemies names and attacks names have a size
-of 16 bytes, instead of 32 bytes.
+In the japanese scene.bin, ennemies names and attacks names have a size of 16 bytes, instead of 32 bytes.
 
 ### General file format
 
-<table>
-<thead>
-<tr class="header">
-<th style="text-align: center;"><p>Offset</p></th>
-<th style="text-align: center;"><p>Length</p></th>
-<th style="text-align: center;"><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: center;"><p>0x0000</p></td>
-<td style="text-align: center;"><p>4 bytes</p></td>
-<td style="text-align: center;"><p>Pointer to first data file. You must multiply it by 4 to get actual data file offset. If the pointer is equal to FFFFFFFFh then it means that the end of block has been reached.</p></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;"><p>0x0004</p></td>
-<td style="text-align: center;"><p>4 bytes</p></td>
-<td style="text-align: center;"><p>Pointer to second data file. You must multiply it by 4 to get actual data file offset. If the pointer is equal to FFFFFFFFh then it means that the end of block has been reached.</p></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;"><p>...</p></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;"><p>0x003C</p></td>
-<td style="text-align: center;"><p>4 bytes</p></td>
-<td style="text-align: center;"><p>Last pointer, usually it equal FFFFFFFFh.</p></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;"><p>0x0040</p></td>
-<td style="text-align: center;"><p>4 * (pointer2 - pointer1) bytes</p></td>
-<td style="text-align: center;"><p>First data file in block. It's a gziped file.<br />
-<em>Note: Sometimes it may finish by 0xFF bytes, because its size must be multiple of 4.</em></p></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;"><p>pointer2 * 4</p></td>
-<td style="text-align: center;"><p>4 * (pointer3 - pointer2) bytes</p></td>
-<td style="text-align: center;"><p>Second data file in block. It's a gziped file.<br />
-<em>Note: Sometimes it may finish by 0xFF bytes, because its size must be multiple of 4.</em></p></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;"><p>...</p></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;"><p>lastpointer * 4</p></td>
-<td style="text-align: center;"><p>4 * (2000h - lastpointer) bytes</p></td>
-<td style="text-align: center;"><p>Last data file in block.<br />
-''Note: There are about 6 to 12 files in each block. Each block finishes by 0xFF bytes, because its length must be 2000h (8192d) bytes.</p></td>
-</tr>
-</tbody>
-</table>
+<table><thead><tr class="header"><th style="text-align: center;"><p>Offset</p></th><th style="text-align: center;"><p>Length</p></th><th style="text-align: center;"><p>Description</p></th></tr></thead><tbody><tr class="odd"><td style="text-align: center;"><p>0x0000</p></td><td style="text-align: center;"><p>4 bytes</p></td><td style="text-align: center;"><p>Pointer to first data file. You must multiply it by 4 to get actual data file offset. If the pointer is equal to FFFFFFFFh then it means that the end of block has been reached.</p></td></tr><tr class="even"><td style="text-align: center;"><p>0x0004</p></td><td style="text-align: center;"><p>4 bytes</p></td><td style="text-align: center;"><p>Pointer to second data file. You must multiply it by 4 to get actual data file offset. If the pointer is equal to FFFFFFFFh then it means that the end of block has been reached.</p></td></tr><tr class="odd"><td style="text-align: center;"><p>...</p></td><td style="text-align: center;"></td><td style="text-align: center;"></td></tr><tr class="even"><td style="text-align: center;"><p>0x003C</p></td><td style="text-align: center;"><p>4 bytes</p></td><td style="text-align: center;"><p>Last pointer, usually it equal FFFFFFFFh.</p></td></tr><tr class="odd"><td style="text-align: center;"><p>0x0040</p></td><td style="text-align: center;"><p>4 * (pointer2 - pointer1) bytes</p></td><td style="text-align: center;"><p>First data file in block. It's a gziped file.<br />
+<em>Note: Sometimes it may finish by 0xFF bytes, because its size must be multiple of 4.</em></p></td></tr><tr class="even"><td style="text-align: center;"><p>pointer2 * 4</p></td><td style="text-align: center;"><p>4 * (pointer3 - pointer2) bytes</p></td><td style="text-align: center;"><p>Second data file in block. It's a gziped file.<br />
+<em>Note: Sometimes it may finish by 0xFF bytes, because its size must be multiple of 4.</em></p></td></tr><tr class="odd"><td style="text-align: center;"><p>...</p></td><td style="text-align: center;"></td><td style="text-align: center;"></td></tr><tr class="even"><td style="text-align: center;"><p>lastpointer * 4</p></td><td style="text-align: center;"><p>4 * (2000h - lastpointer) bytes</p></td><td style="text-align: center;"><p>Last data file in block.<br />
+''Note: There are about 6 to 12 files in each block. Each block finishes by 0xFF bytes, because its length must be 2000h (8192d) bytes.</p></td></tr></tbody></table>
 
 ### Data file format
 
-| Offset |     Length     |                         Description                         |
-|:------:|:--------------:|:-----------------------------------------------------------:|
-| 0x0000 |    2 bytes     |                         Enemy ID 1                          |
-| 0x0002 |    2 bytes     |                         Enemy ID 2                          |
-| 0x0004 |    2 bytes     |                         Enemy ID 3                          |
-| 0x0006 |    2 bytes     |                   Padding (always FFFFh)                    |
-| 0x0008 | 4 \* 20 bytes  |      Battle Setup (4 records) ([format explanation][])      |
-| 0x0058 | 4 \* 48 bytes  | Camera Placement Data (4 records) ([format explanation][1]) |
-| 0x0118 | 6 \* 16 bytes  |  Battle Formation 1 (6 records) ([format explanation][2])   |
-| 0x0178 | 6 \* 16 bytes  |               Battle Formation 2 (6 records)                |
-| 0x01E8 | 6 \* 16 bytes  |               Battle Formation 3 (6 records)                |
-| 0x0238 | 6 \* 16 bytes  |               Battle Formation 4 (6 records)                |
-| 0x0298 |   184 bytes    |           Enemy Data 1 ([format explanation][3])            |
-| 0x0350 |   184 bytes    |                        Enemy Data 2                         |
-| 0x0408 |   184 bytes    |                        Enemy Data 3                         |
-| 0x04C0 | 32 \* 28 bytes |     Attack Data (32 records) ([format explanation][4])      |
-| 0x0840 | 32 \* 2 bytes  |                   Attack IDs (32 records)                   |
-| 0x0880 | 32 \* 32 bytes |      Attack Names (32 records, [in FF Text format][])       |
-| 0x0C80 |    2 bytes     |                Formation 1 AI Script Offset                 |
-| 0x0C82 |    2 bytes     |                Formation 2 AI Script Offset                 |
-| 0x0C84 |    2 bytes     |                Formation 3 AI Script Offset                 |
-| 0x0C86 |    2 bytes     |                Formation 4 AI Script Offset                 |
-| 0x0C88 | 0 - 504 bytes  |  Beginning of Formation AI Data ([format explanation][5])   |
-| 0x0E80 |    2 bytes     |                      Enemy 1 AI Offset                      |
-| 0x0E82 |    2 bytes     |                      Enemy 2 AI Offset                      |
-| 0x0E84 |    2 bytes     |                      Enemy 3 AI Offset                      |
-| 0x0E86 | 0 - 4090 bytes |       Beginning of AI Data ([format explanation][5])        |
+| Offset |     Length     |                                            Description                                             |
+|:------:|:--------------:|:--------------------------------------------------------------------------------------------------:|
+| 0x0000 |    2 bytes     |                                             Enemy ID 1                                             |
+| 0x0002 |    2 bytes     |                                             Enemy ID 2                                             |
+| 0x0004 |    2 bytes     |                                             Enemy ID 3                                             |
+| 0x0006 |    2 bytes     |                                       Padding (always FFFFh)                                       |
+| 0x0008 | 4 \* 20 bytes  |         Battle Setup (4 records) ([format explanation](#battle-setup-1-format)         |
+| 0x0058 | 4 \* 48 bytes  | Camera Placement Data (4 records) ([format explanation](#camera-placement-data-format) |
+| 0x0118 | 6 \* 16 bytes  |      Battle Formation 1 (6 records) ([format explanation](#battle-formation-data)      |
+| 0x0178 | 6 \* 16 bytes  |                                   Battle Formation 2 (6 records)                                   |
+| 0x01E8 | 6 \* 16 bytes  |                                   Battle Formation 3 (6 records)                                   |
+| 0x0238 | 6 \* 16 bytes  |                                   Battle Formation 4 (6 records)                                   |
+| 0x0298 |   184 bytes    |                 Enemy Data 1 ([format explanation](#enemy-data-format)                 |
+| 0x0350 |   184 bytes    |                                            Enemy Data 2                                            |
+| 0x0408 |   184 bytes    |                                            Enemy Data 3                                            |
+| 0x04C0 | 32 \* 28 bytes |            Attack Data (32 records) ([format explanation](../Attack data.md)             |
+| 0x0840 | 32 \* 2 bytes  |                                      Attack IDs (32 records)                                       |
+| 0x0880 | 32 \* 32 bytes |               Attack Names (32 records, [in FF Text format](../FF Text.md)               |
+| 0x0C80 |    2 bytes     |                                    Formation 1 AI Script Offset                                    |
+| 0x0C82 |    2 bytes     |                                    Formation 2 AI Script Offset                                    |
+| 0x0C84 |    2 bytes     |                                    Formation 3 AI Script Offset                                    |
+| 0x0C86 |    2 bytes     |                                    Formation 4 AI Script Offset                                    |
+| 0x0C88 | 0 - 504 bytes  |             Beginning of Formation AI Data ([format explanation](#ai-data)             |
+| 0x0E80 |    2 bytes     |                                         Enemy 1 AI Offset                                          |
+| 0x0E82 |    2 bytes     |                                         Enemy 2 AI Offset                                          |
+| 0x0E84 |    2 bytes     |                                         Enemy 3 AI Offset                                          |
+| 0x0E86 | 0 - 4090 bytes |                  Beginning of AI Data ([format explanation](#ai-data)                  |
 
 #### Battle Setup 1 format
 
-<table>
-<thead>
-<tr class="header">
-<th style="text-align: center;"><p>Offset</p></th>
-<th style="text-align: center;"><p>Length</p></th>
-<th style="text-align: center;"><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: center;"><p>0x0000</p></td>
-<td style="text-align: center;"><p>2 bytes</p></td>
-<td style="text-align: center;"><p><strong>Battle location, as follows:</strong></p></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;"><p> </p></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;"><p>0000h : Blank<br />
+<table><thead><tr class="header"><th style="text-align: center;"><p>Offset</p></th><th style="text-align: center;"><p>Length</p></th><th style="text-align: center;"><p>Description</p></th></tr></thead><tbody><tr class="odd"><td style="text-align: center;"><p>0x0000</p></td><td style="text-align: center;"><p>2 bytes</p></td><td style="text-align: center;"><p><strong>Battle location, as follows:</strong></p></td></tr><tr class="even"><td style="text-align: center;"><p> </p></td><td style="text-align: center;"></td><td style="text-align: center;"></td></tr><tr class="odd"><td style="text-align: center;"><p>0000h : Blank<br />
 0001h : Bizarro Battle - Center<br />
 0002h : Grassland<br />
 0003h : Mt Nibel<br />
@@ -250,97 +157,7 @@ of 16 bytes, instead of 32 bytes.
 0056h : Shinra HQ - Escape<br />
 0057h : Ultimate Weapon - Gongaga Reactor<br />
 0058h : Corel Prison - Dyne Battle<br />
-0059h : Ultimate Weapon - Forest</p></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;"><p>0x0002</p></td>
-<td style="text-align: center;"><p>2 bytes</p></td>
-<td style="text-align: center;"><p>Upon defeat of all opponents in current formation, begin battle with <a href="Battle%20scenes.md#Formation%20ID" title="wikilink">Formation ID</a> without ending battle scene</p></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;"><p>0x0004</p></td>
-<td style="text-align: center;"><p>2 bytes</p></td>
-<td style="text-align: center;"><p>Escape Counter</p></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;"><p>0x0006</p></td>
-<td style="text-align: center;"><p>2 bytes</p></td>
-<td style="text-align: center;"><p>Unused/Align 'FF'</p></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;"><p>0x0008</p></td>
-<td style="text-align: center;"><p>4 * 2 bytes</p></td>
-<td style="text-align: center;"><p><a href="Battle%20scenes.md#Formation%20ID" title="wikilink">Formation ID</a> of candidates for next Battle Arena battle. (default of 03E7h)</p></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;"><p>0x0010</p></td>
-<td style="text-align: center;"><p>2 bytes</p></td>
-<td style="text-align: center;"><p>Escapable Flag (Along with other flags)</p></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;"><p>0x0012</p></td>
-<td style="text-align: center;"><p>1 byte</p></td>
-<td style="text-align: center;"><p>Battle layout type (normal, ambush, side). 0-8 types.</p></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;"><p> </p></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;"><p>00 - Normal fight</p></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;"><p>01 - Preemptive</p></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;"><p>02 - Back attack</p></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;"><p>03 - Side attack</p></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;"><p>04 - Attacked from both sides (pincer attack, reverse side attack)</p></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;"><p>05 - Another attack from both sides battle (different maybe?)</p></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;"><p>06 - Another side attack</p></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;"><p>07 - A third side attack</p></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;"><p>08 - Normal battle that locks you in the front row, change command is disabled</p></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;"><p>0x0013</p></td>
-<td style="text-align: center;"><p>1 byte</p></td>
-<td style="text-align: center;"><p>Indexed Pre-Battle Camera position</p></td>
-</tr>
-</tbody>
-</table>
+0059h : Ultimate Weapon - Forest</p></td><td style="text-align: center;"></td><td style="text-align: center;"></td></tr><tr class="even"><td style="text-align: center;"><p>0x0002</p></td><td style="text-align: center;"><p>2 bytes</p></td><td style="text-align: center;"><p>Upon defeat of all opponents in current formation, begin battle with <a href="Battle scenes.md#Formation ID" title="wikilink">Formation ID</a> without ending battle scene</p></td></tr><tr class="odd"><td style="text-align: center;"><p>0x0004</p></td><td style="text-align: center;"><p>2 bytes</p></td><td style="text-align: center;"><p>Escape Counter</p></td></tr><tr class="even"><td style="text-align: center;"><p>0x0006</p></td><td style="text-align: center;"><p>2 bytes</p></td><td style="text-align: center;"><p>Unused/Align 'FF'</p></td></tr><tr class="odd"><td style="text-align: center;"><p>0x0008</p></td><td style="text-align: center;"><p>4 * 2 bytes</p></td><td style="text-align: center;"><p><a href="Battle scenes.md#Formation ID" title="wikilink">Formation ID</a> of candidates for next Battle Arena battle. (default of 03E7h)</p></td></tr><tr class="even"><td style="text-align: center;"><p>0x0010</p></td><td style="text-align: center;"><p>2 bytes</p></td><td style="text-align: center;"><p>Escapable Flag (Along with other flags)</p></td></tr><tr class="odd"><td style="text-align: center;"><p>0x0012</p></td><td style="text-align: center;"><p>1 byte</p></td><td style="text-align: center;"><p>Battle layout type (normal, ambush, side). 0-8 types.</p></td></tr><tr class="even"><td style="text-align: center;"><p> </p></td><td style="text-align: center;"></td><td style="text-align: center;"></td></tr><tr class="odd"><td style="text-align: center;"><p>00 - Normal fight</p></td><td style="text-align: center;"></td><td style="text-align: center;"></td></tr><tr class="even"><td style="text-align: center;"><p>01 - Preemptive</p></td><td style="text-align: center;"></td><td style="text-align: center;"></td></tr><tr class="odd"><td style="text-align: center;"><p>02 - Back attack</p></td><td style="text-align: center;"></td><td style="text-align: center;"></td></tr><tr class="even"><td style="text-align: center;"><p>03 - Side attack</p></td><td style="text-align: center;"></td><td style="text-align: center;"></td></tr><tr class="odd"><td style="text-align: center;"><p>04 - Attacked from both sides (pincer attack, reverse side attack)</p></td><td style="text-align: center;"></td><td style="text-align: center;"></td></tr><tr class="even"><td style="text-align: center;"><p>05 - Another attack from both sides battle (different maybe?)</p></td><td style="text-align: center;"></td><td style="text-align: center;"></td></tr><tr class="odd"><td style="text-align: center;"><p>06 - Another side attack</p></td><td style="text-align: center;"></td><td style="text-align: center;"></td></tr><tr class="even"><td style="text-align: center;"><p>07 - A third side attack</p></td><td style="text-align: center;"></td><td style="text-align: center;"></td></tr><tr class="odd"><td style="text-align: center;"><p>08 - Normal battle that locks you in the front row, change command is disabled</p></td><td style="text-align: center;"></td><td style="text-align: center;"></td></tr><tr class="even"><td style="text-align: center;"><p>0x0013</p></td><td style="text-align: center;"><p>1 byte</p></td><td style="text-align: center;"><p>Indexed Pre-Battle Camera position</p></td></tr></tbody></table>
 
 #### Camera Placement Data format
 
@@ -361,8 +178,7 @@ of 16 bytes, instead of 32 bytes.
 
 #### Battle Formation Data
 
-4 Possible battle formations per scene, maximum of 6 enemies per battle.
-Each enemy entry contains the following data:
+4 Possible battle formations per scene, maximum of 6 enemies per battle. Each enemy entry contains the following data:
 
 |                             Offset                              |                              Length                              |                        Description                        |
 |:---------------------------------------------------------------:|:----------------------------------------------------------------:|:---------------------------------------------------------:|
@@ -371,7 +187,7 @@ Each enemy entry contains the following data:
 |                              0x04                               |                             2 bytes                              |                        position Y                         |
 |                              0x06                               |                             2 bytes                              |                        position Z                         |
 |                              0x08                               |                             2 bytes                              |                            Row                            |
-|                              0x0A                               |                             2 bytes                              |                 [Binary "Cover flags"][]                  |
+|                              0x0A                               |                             2 bytes                              | [Binary "Cover flags"](#binary)  |
 |                              0x0C                               |                             4 bytes                              | Initial condition flags. Only last 5 bits are considered. |
 | style="background:rgb(204,204,255)" colspan ="2" rowspan="5" \| |                              0x0001                              |                          Visible                          |
 |                             0x0002                              | Indicates initial direction facing if players get a side attack. |                                                           |
@@ -381,64 +197,7 @@ Each enemy entry contains the following data:
 
 #### Enemy data format
 
-<table>
-<thead>
-<tr class="header">
-<th style="text-align: center;"><p>Offset</p></th>
-<th style="text-align: center;"><p>Length</p></th>
-<th style="text-align: center;"><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: center;"><p>0x0000</p></td>
-<td style="text-align: center;"><p>32 bytes</p></td>
-<td style="text-align: center;"><p>Enemy's name (completed by FFh bytes)</p></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;"><p>0x0020</p></td>
-<td style="text-align: center;"><p>1 byte</p></td>
-<td style="text-align: center;"><p>Enemy's level</p></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;"><p>0x0021</p></td>
-<td style="text-align: center;"><p>1 byte</p></td>
-<td style="text-align: center;"><p>Enemy's speed</p></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;"><p>0x0022</p></td>
-<td style="text-align: center;"><p>1 byte</p></td>
-<td style="text-align: center;"><p>Enemy's luck</p></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;"><p>0x0023</p></td>
-<td style="text-align: center;"><p>1 byte</p></td>
-<td style="text-align: center;"><p>Enemy's evade</p></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;"><p>0x0024</p></td>
-<td style="text-align: center;"><p>1 byte</p></td>
-<td style="text-align: center;"><p>Enemy's strength</p></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;"><p>0x0025</p></td>
-<td style="text-align: center;"><p>1 byte</p></td>
-<td style="text-align: center;"><p>Enemy's defense</p></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;"><p>0x0026</p></td>
-<td style="text-align: center;"><p>1 byte</p></td>
-<td style="text-align: center;"><p>Enemy's magic</p></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;"><p>0x0027</p></td>
-<td style="text-align: center;"><p>1 byte</p></td>
-<td style="text-align: center;"><p>Enemy's magic defense</p></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;"><p>0x0028</p></td>
-<td style="text-align: center;"><p>8 bytes</p></td>
-<td style="text-align: center;"><p>Element types (8 records):<br />
+<table><thead><tr class="header"><th style="text-align: center;"><p>Offset</p></th><th style="text-align: center;"><p>Length</p></th><th style="text-align: center;"><p>Description</p></th></tr></thead><tbody><tr class="odd"><td style="text-align: center;"><p>0x0000</p></td><td style="text-align: center;"><p>32 bytes</p></td><td style="text-align: center;"><p>Enemy's name (completed by FFh bytes)</p></td></tr><tr class="even"><td style="text-align: center;"><p>0x0020</p></td><td style="text-align: center;"><p>1 byte</p></td><td style="text-align: center;"><p>Enemy's level</p></td></tr><tr class="odd"><td style="text-align: center;"><p>0x0021</p></td><td style="text-align: center;"><p>1 byte</p></td><td style="text-align: center;"><p>Enemy's speed</p></td></tr><tr class="even"><td style="text-align: center;"><p>0x0022</p></td><td style="text-align: center;"><p>1 byte</p></td><td style="text-align: center;"><p>Enemy's luck</p></td></tr><tr class="odd"><td style="text-align: center;"><p>0x0023</p></td><td style="text-align: center;"><p>1 byte</p></td><td style="text-align: center;"><p>Enemy's evade</p></td></tr><tr class="even"><td style="text-align: center;"><p>0x0024</p></td><td style="text-align: center;"><p>1 byte</p></td><td style="text-align: center;"><p>Enemy's strength</p></td></tr><tr class="odd"><td style="text-align: center;"><p>0x0025</p></td><td style="text-align: center;"><p>1 byte</p></td><td style="text-align: center;"><p>Enemy's defense</p></td></tr><tr class="even"><td style="text-align: center;"><p>0x0026</p></td><td style="text-align: center;"><p>1 byte</p></td><td style="text-align: center;"><p>Enemy's magic</p></td></tr><tr class="odd"><td style="text-align: center;"><p>0x0027</p></td><td style="text-align: center;"><p>1 byte</p></td><td style="text-align: center;"><p>Enemy's magic defense</p></td></tr><tr class="even"><td style="text-align: center;"><p>0x0028</p></td><td style="text-align: center;"><p>8 bytes</p></td><td style="text-align: center;"><p>Element types (8 records):<br />
 00h - Fire<br />
 01h - Ice<br />
 02h - Bolt<br />
@@ -456,115 +215,20 @@ Each enemy entry contains the following data:
 0Eh - Scream<br />
 0Fh - HIDDEN<br />
 10h-1Fh - No Effect<br />
-20h-3Fh - <a href="Status%20Effects.md" title="wikilink">Statuses</a> (Damage done by actions that inflict these statuses will be modified)<br />
-FFh - No element</p></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;"><p>0x0030</p></td>
-<td style="text-align: center;"><p>8 bytes</p></td>
-<td style="text-align: center;"><p>Element rates for elements above, respectively (8 records):<br />
+20h-3Fh - <a href="Status Effects.md" title="wikilink">Statuses</a> (Damage done by actions that inflict these statuses will be modified)<br />
+FFh - No element</p></td></tr><tr class="odd"><td style="text-align: center;"><p>0x0030</p></td><td style="text-align: center;"><p>8 bytes</p></td><td style="text-align: center;"><p>Element rates for elements above, respectively (8 records):<br />
 00h - Death<br />
 02h - Double Damage<br />
 04h - Half Damage<br />
 05h - Nullify Damage<br />
 06h - Absorb 100%<br />
 07h - Full Cure<br />
-FFh - Nothing</p></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;"><p>0x0038</p></td>
-<td style="text-align: center;"><p>16 bytes</p></td>
-<td style="text-align: center;"><p>Action animation index (1 byte each).</p></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;"><p>0x0048</p></td>
-<td style="text-align: center;"><p>32 bytes</p></td>
-<td style="text-align: center;"><p>Enemy Attack ID's (2 bytes each).</p></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;"><p>0x0068</p></td>
-<td style="text-align: center;"><p>32 bytes</p></td>
-<td style="text-align: center;"><p>Enemy Attacks <a href="Camera%20Movement%20Id%20List.md" title="wikilink">Camera Movement Id</a> for single and multiple targets (2 bytes each). If set this will overwrite camera movement set in attack itself.</p></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;"><p>0x0088</p></td>
-<td style="text-align: center;"><p>4 bytes</p></td>
-<td style="text-align: center;"><p>Item drop/steal rates.<br />
-These are chances to get items listed in next section. 1 byte per item. If the rate is lower than 80h, for e.g. 08h - then this is a drop item and has 8/63 [63 is max] chance for drop. But if rate is higher than 80h, let's say... A0h, then this is an item for steal, and chances for successful steal is A0h - 80h = 20h = 32/63.</p></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;"><p>0x008C</p></td>
-<td style="text-align: center;"><p>8 bytes</p></td>
-<td style="text-align: center;"><p>This is a list of Item ID's which are described above. 2 bytes per item. FFFFh means no item.</p></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;"><p>0x0094</p></td>
-<td style="text-align: center;"><p>6 bytes</p></td>
-<td style="text-align: center;"><p>Indexes of up to three attacks (2 bytes each) that enemy can perform while manipulated or berserked</p></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;"><p>0x009A</p></td>
-<td style="text-align: center;"><p>2 bytes</p></td>
-<td style="text-align: center;"><p>Unknown data</p></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;"><p>0x009C</p></td>
-<td style="text-align: center;"><p>2 bytes</p></td>
-<td style="text-align: center;"><p>Enemy's MP</p></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;"><p>0x009E</p></td>
-<td style="text-align: center;"><p>2 bytes</p></td>
-<td style="text-align: center;"><p>AP points you receive when you win the battle</p></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;"><p>0x00A0</p></td>
-<td style="text-align: center;"><p>2 bytes</p></td>
-<td style="text-align: center;"><p>Enemy can be morphed into this item. FFFFh if it can't be morphed into anything.</p></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;"><p>0x00A2</p></td>
-<td style="text-align: center;"><p>1 byte</p></td>
-<td style="text-align: center;"><p>Multiplier for back damage. damage = damage * 0xXX / 8.</p></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;"><p>0x00A3</p></td>
-<td style="text-align: center;"><p>1 byte</p></td>
-<td style="text-align: center;"><p>align 0xff.</p></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;"><p>0x00A4</p></td>
-<td style="text-align: center;"><p>4 bytes</p></td>
-<td style="text-align: center;"><p>Enemy's HP</p></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;"><p>0x00A8</p></td>
-<td style="text-align: center;"><p>4 bytes</p></td>
-<td style="text-align: center;"><p>Exp points you receive when you win the battle</p></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;"><p>0x00AC</p></td>
-<td style="text-align: center;"><p>4 bytes</p></td>
-<td style="text-align: center;"><p>Gil you receive when you win the battle</p></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;"><p>0x00B0</p></td>
-<td style="text-align: center;"><p>4 bytes</p></td>
-<td style="text-align: center;"><p>Status immunities</p></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;"><p>0x00B4</p></td>
-<td style="text-align: center;"><p>4 bytes</p></td>
-<td style="text-align: center;"><p>Unknown [Always FFFFFFFFh]</p></td>
-</tr>
-</tbody>
-</table>
+FFh - Nothing</p></td></tr><tr class="even"><td style="text-align: center;"><p>0x0038</p></td><td style="text-align: center;"><p>16 bytes</p></td><td style="text-align: center;"><p>Action animation index (1 byte each).</p></td></tr><tr class="odd"><td style="text-align: center;"><p>0x0048</p></td><td style="text-align: center;"><p>32 bytes</p></td><td style="text-align: center;"><p>Enemy Attack ID's (2 bytes each).</p></td></tr><tr class="even"><td style="text-align: center;"><p>0x0068</p></td><td style="text-align: center;"><p>32 bytes</p></td><td style="text-align: center;"><p>Enemy Attacks <a href="Camera Movement Id List.md" title="wikilink">Camera Movement Id</a> for single and multiple targets (2 bytes each). If set this will overwrite camera movement set in attack itself.</p></td></tr><tr class="odd"><td style="text-align: center;"><p>0x0088</p></td><td style="text-align: center;"><p>4 bytes</p></td><td style="text-align: center;"><p>Item drop/steal rates.<br />
+These are chances to get items listed in next section. 1 byte per item. If the rate is lower than 80h, for e.g. 08h - then this is a drop item and has 8/63 [63 is max] chance for drop. But if rate is higher than 80h, let's say... A0h, then this is an item for steal, and chances for successful steal is A0h - 80h = 20h = 32/63.</p></td></tr><tr class="even"><td style="text-align: center;"><p>0x008C</p></td><td style="text-align: center;"><p>8 bytes</p></td><td style="text-align: center;"><p>This is a list of Item ID's which are described above. 2 bytes per item. FFFFh means no item.</p></td></tr><tr class="odd"><td style="text-align: center;"><p>0x0094</p></td><td style="text-align: center;"><p>6 bytes</p></td><td style="text-align: center;"><p>Indexes of up to three attacks (2 bytes each) that enemy can perform while manipulated or berserked</p></td></tr><tr class="even"><td style="text-align: center;"><p>0x009A</p></td><td style="text-align: center;"><p>2 bytes</p></td><td style="text-align: center;"><p>Unknown data</p></td></tr><tr class="odd"><td style="text-align: center;"><p>0x009C</p></td><td style="text-align: center;"><p>2 bytes</p></td><td style="text-align: center;"><p>Enemy's MP</p></td></tr><tr class="even"><td style="text-align: center;"><p>0x009E</p></td><td style="text-align: center;"><p>2 bytes</p></td><td style="text-align: center;"><p>AP points you receive when you win the battle</p></td></tr><tr class="odd"><td style="text-align: center;"><p>0x00A0</p></td><td style="text-align: center;"><p>2 bytes</p></td><td style="text-align: center;"><p>Enemy can be morphed into this item. FFFFh if it can't be morphed into anything.</p></td></tr><tr class="even"><td style="text-align: center;"><p>0x00A2</p></td><td style="text-align: center;"><p>1 byte</p></td><td style="text-align: center;"><p>Multiplier for back damage. damage = damage * 0xXX / 8.</p></td></tr><tr class="odd"><td style="text-align: center;"><p>0x00A3</p></td><td style="text-align: center;"><p>1 byte</p></td><td style="text-align: center;"><p>align 0xff.</p></td></tr><tr class="even"><td style="text-align: center;"><p>0x00A4</p></td><td style="text-align: center;"><p>4 bytes</p></td><td style="text-align: center;"><p>Enemy's HP</p></td></tr><tr class="odd"><td style="text-align: center;"><p>0x00A8</p></td><td style="text-align: center;"><p>4 bytes</p></td><td style="text-align: center;"><p>Exp points you receive when you win the battle</p></td></tr><tr class="even"><td style="text-align: center;"><p>0x00AC</p></td><td style="text-align: center;"><p>4 bytes</p></td><td style="text-align: center;"><p>Gil you receive when you win the battle</p></td></tr><tr class="odd"><td style="text-align: center;"><p>0x00B0</p></td><td style="text-align: center;"><p>4 bytes</p></td><td style="text-align: center;"><p>Status immunities</p></td></tr><tr class="even"><td style="text-align: center;"><p>0x00B4</p></td><td style="text-align: center;"><p>4 bytes</p></td><td style="text-align: center;"><p>Unknown [Always FFFFFFFFh]</p></td></tr></tbody></table>
 
 #### Formation ID
 
-Formation ID is an index to a formation within a given scene. It is the
-scene index bit shifted 2 to the left plus formation index within the
-scene.
+Formation ID is an index to a formation within a given scene. It is the scene index bit shifted 2 to the left plus formation index within the scene.
 
 `0 1 2 3 4 5 6 7 8 9 A B C D E F`  
 `[ - - - - - - - - - - - - ] [ ]`  
@@ -584,13 +248,7 @@ Formation 1 So this is Formation 1 in scene 163. (SOLDIER:3rd x2)
 
 #### AI Data
 
-This section contains Battle Script that is executed before or/and
-during every fight. Every enemy has it's own script, and this script is
-divided to a number of sections. Each script starts with 32 bytes of
-header that are divided into 16 parts representing 16 script types. The
-2-byte number in any section is an offset relative to the beginning of
-this 32 byte block that tells the script reader where the script starts
-for that script type.
+This section contains Battle Script that is executed before or/and during every fight. Every enemy has it's own script, and this script is divided to a number of sections. Each script starts with 32 bytes of header that are divided into 16 parts representing 16 script types. The 2-byte number in any section is an offset relative to the beginning of this 32 byte block that tells the script reader where the script starts for that script type.
 
 | Offset |   Script Type    |
 |:------:|:----------------:|
@@ -611,36 +269,22 @@ for that script type.
 |  0x1C  |  Custom Event 7  |
 |  0x1E  |  Custom Event 8  |
 
-Its structure and opcodes are described [here][].
+Its structure and opcodes are described [here](Battle Scenes/Battle Script.md).
 
 NOTES:
 
--   A monster's total AI size will always be an even number of bytes. If
-    the actual scripts are an odd number, a single NULL (FFh) will be
-    placed before the next monster's AI header (may not be required).
--   Battle begins after all characters' Initialize scripts have been run
-    (Players first, then enemies, then formation).
--   The only character with "Battle End" is in Cloud's AI. It's meant to
-    lower the character's Love Points with him if he lets them die or he
-    dies with them in the party (not sure which).
--   Pre-Action Event occurs on all battle participants prior to any
-    actions performed by any participant regardless of actor or target.
-    This includes all executed 92 commands that have a command index of
-    less than 21h. If any 92 commands are called in this section, the
-    command that caused this script to run has priority.
--   The Custom Event sections are not called by any event. They only
-    occur if they are called with the 92 command.
+-   A monster's total AI size will always be an even number of bytes. If the actual scripts are an odd number, a single NULL (FFh) will be placed before the next monster's AI header (may not be required).
+-   Battle begins after all characters' Initialize scripts have been run (Players first, then enemies, then formation).
+-   The only character with "Battle End" is in Cloud's AI. It's meant to lower the character's Love Points with him if he lets them die or he dies with them in the party (not sure which).
+-   Pre-Action Event occurs on all battle participants prior to any actions performed by any participant regardless of actor or target. This includes all executed 92 commands that have a command index of less than 21h. If any 92 commands are called in this section, the command that caused this script to run has priority.
+-   The Custom Event sections are not called by any event. They only occur if they are called with the 92 command.
 
 `60 22 <- command index "Run script"`  
 `60 0X <- where X is the script section in hex (eg. X = 8 would call Custom Event 1 since it is script id 08`  
 `         [not to be confused with offset])`  
 `92`
 
--   Custom Event 8 is only used on Mystery Ninja (all), Ultimate Weapons
-    in location other than above Cosmo Canyon, Safer Sephiroth, and the
-    final "showdown" between Cloud and Sephiroth. These characters have
-    scripts on them that do not remove them from battle when they are
-    defeated.
+-   Custom Event 8 is only used on Mystery Ninja (all), Ultimate Weapons in location other than above Cosmo Canyon, Safer Sephiroth, and the final "showdown" between Cloud and Sephiroth. These characters have scripts on them that do not remove them from battle when they are defeated.
 -   Custom Events 1-7 may not work. (not thoroughly tested)
 -   The order of scripts executed:
 
@@ -652,8 +296,7 @@ NOTES:
 
 ::Main (Enemy performs action)
 
-:\*Pre-Attack (If enemy script uses a 92 command with a command index of
-20h or less)
+:\*Pre-Attack (If enemy script uses a 92 command with a command index of 20h or less)
 
 ::Pre-Action Setup (occurs on all participants)
 
@@ -663,8 +306,7 @@ NOTES:
 
 :\*\#General Counter (Executed by all targets)
 
-:\*\#Physical Counter/Magical Counter (Executed by all targets depending
-on damage type)
+:\*\#Physical Counter/Magical Counter (Executed by all targets depending on damage type)
 
 :\*Battle ends
 
@@ -674,68 +316,33 @@ Battle End (all participants)
 
 #### Binary "Cover Flags"
 
-These flags are used in conjunction with row to determine if a target
-can be selected as the target of a **short-range attack**. The
-determination of this is worked out in this way: An enemy exists in row
-1 and another in row 2. If the enemy in row 1 shares a cover flag with
-the enemy in row 2 then the enemy in row 2 cannot be targeted until all
-enemies in row 1 that share a cover flag with the row 2 enemy is
-defeated. It works like this. Two active enemies exist, A and B.
+These flags are used in conjunction with row to determine if a target can be selected as the target of a **short-range attack**. The determination of this is worked out in this way: An enemy exists in row 1 and another in row 2. If the enemy in row 1 shares a cover flag with the enemy in row 2 then the enemy in row 2 cannot be targeted until all enemies in row 1 that share a cover flag with the row 2 enemy is defeated. It works like this. Two active enemies exist, A and B.
 
 `If ((B's row > A's row) and (B's cover flags AND A's cover flags) > 0) then enemy B cannot be targeted by short-range attacks.`
 
 for any enemies A and B.  
 Example:  
-Consider the Battery Cap x6 battle in the forest between Nibelheim and
-Rocket Town. Their cover flags (in binary) are:
+Consider the Battery Cap x6 battle in the forest between Nibelheim and Rocket Town. Their cover flags (in binary) are:
 
 `Row 1:       00100`  
 `Row 2:    00110 01100`  
 `Row 3: 00011 00100 11000`
 
-The battery caps in row 2 cannot be targeted by a short-range attack
-until the one in row 1 has been defeated because they share the 0x4
-cover flag. Once row 1 has been cleared:
+The battery caps in row 2 cannot be targeted by a short-range attack until the one in row 1 has been defeated because they share the 0x4 cover flag. Once row 1 has been cleared:
 
 `Row 2:    00110 01100`  
 `Row 3: 00011 00100 11000`
 
-The battery cap on left in row 2 covers the left two in row 3 because it
-shares flag 0x4 with the one in the middle and flag 0x2 with the one on
-the far left. As long as it is active these in row 3 cannot be targeted.
-Similarly, the battery cap on the right in row 2 shares the 0x4 flag
-with the middle of row 3 and the 0x8 flag with the far right of row 3 so
-these cannot be targeted until the right side of row 2 is defeated.  
-It is also necessary to note that because row 1 does not share any flags
-with the extreme right and left of row 3, they can be targeted if the
-corresponding enemy in row 2 is defeated even if the row 1 enemy is
-still active.  
-Also of note is that enemies in the same row that share cover flags are
-not considered.  
-Only the first five bits may be considered even though the value is
-stored as a word.  
+The battery cap on left in row 2 covers the left two in row 3 because it shares flag 0x4 with the one in the middle and flag 0x2 with the one on the far left. As long as it is active these in row 3 cannot be targeted. Similarly, the battery cap on the right in row 2 shares the 0x4 flag with the middle of row 3 and the 0x8 flag with the far right of row 3 so these cannot be targeted until the right side of row 2 is defeated.  
+It is also necessary to note that because row 1 does not share any flags with the extreme right and left of row 3, they can be targeted if the corresponding enemy in row 2 is defeated even if the row 1 enemy is still active.  
+Also of note is that enemies in the same row that share cover flags are not considered.  
+Only the first five bits may be considered even though the value is stored as a word.  
 
 ## Useful downloads
 
 There are few programs written that will help you edit scene.bin file:
 
--   [Scene Reader][]
--   [SceneEdit][]
--   [Scenester][]
--   [Proud Clod][]
-
-  [Scene Reader]: http://spinningcone.com/ff/stormmedia/projects/SceneReader.zip
-  [kernel.bin]: ../Kernel/Kernel.bin.md "wikilink"
-  [SceneFix]: http://forums.qhimm.com/index.php?topic=7127.0
-  [format explanation]: #battle-setup-1-format "wikilink"
-  [1]: #camera-placement-data-format "wikilink"
-  [2]: #battle-formation-data "wikilink"
-  [3]: #enemy-data-format "wikilink"
-  [4]: ../Attack%20data.md "wikilink"
-  [in FF Text format]: ../FF%20Text.md "wikilink"
-  [5]: #ai-data "wikilink"
-  [Binary "Cover flags"]: #binary "Cover_Flags" "wikilink"
-  [here]: Battle%20Scenes/Battle%20Script.md "wikilink"
-  [SceneEdit]: http://www.subfan.pl/mav/SceneEdit.zip
-  [Scenester]: http://aaronserv.dyndns.org/hosting/qhimmwiki/ramza_scenester_0.5.zip
-  [Proud Clod]: http://forums.qhimm.com/index.php?topic=8481.0
+-   [Scene Reader](http://spinningcone.com/ff/stormmedia/projects/SceneReader.zip)
+-   [SceneEdit](http://www.subfan.pl/mav/SceneEdit.zip)
+-   [Scenester](http://aaronserv.dyndns.org/hosting/qhimmwiki/ramza_scenester_0.5.zip)
+-   [Proud Clod](http://forums.qhimm.com/index.php?topic=8481.0)

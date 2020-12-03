@@ -2,10 +2,9 @@
 title: Coordinates encoding
 ---
 
-[Home](../Main%20Page.md) > [FF7](../FF7.md) > Coordinates encoding
+[Home](../Main Page.md) > [FF7](../FF7.md) > Coordinates encoding
 
-Coordinates on the world map are stored on 2 DWords and some basic
-decoding has to be done before you can manipulate them.
+Coordinates on the world map are stored on 2 DWords and some basic decoding has to be done before you can manipulate them.
 
 First DWord :
 
@@ -22,9 +21,7 @@ Notes :
 -   X is an unsigned value ranging from 0 to 0x47FFF
 -   Y is an unsigned value ranging from 0 to 0x37FFF
 -   Z is signed
--   Direction is multiplied by 0x10 after reading from save-game, but
-    that's not affecting anything so we can think of it as a byte value.
-    e.g: 00: South, 40: East, 80: North, C0: West
+-   Direction is multiplied by 0x10 after reading from save-game, but that's not affecting anything so we can think of it as a byte value. e.g: 00: South, 40: East, 80: North, C0: West
 
 | Value |          Object          |
 |:-----:|:------------------------:|

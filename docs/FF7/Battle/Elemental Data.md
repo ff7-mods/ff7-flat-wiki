@@ -2,12 +2,11 @@
 title: Elemental Data
 ---
 
-[Home](../../Main%20Page.md) > [FF7](../../FF7.md) > [Battle](../Battle.md) > Elemental Data
+[Home](../../Main Page.md) > [FF7](../../FF7.md) > [Battle](../Battle.md) > Elemental Data
 
 ## Elemental Data
 
-There are 16 elements in FF7. They are usually stored as a bitmask, but
-are instead stored as an index in the case of materia.
+There are 16 elements in FF7. They are usually stored as a bitmask, but are instead stored as an index in the case of materia.
 
 |  Bit   | Index | Element         |
 |:------:|-------|-----------------|
@@ -30,15 +29,7 @@ are instead stored as an index in the case of materia.
 
   
 NOTES:  
-The battle text (part 26 of the [KERNEL.BIN][]) refers to "Ice" as
-"Cold" and "Bolt" as "Lightning".  
-The names of elements 09h - 0Eh are not ever mentioned in the game.
-However, they are stored as battle text for the purpose of sensing.  
+The battle text (part 26 of the [KERNEL.BIN](../Kernel/Kernel.bin.md) refers to "Ice" as "Cold" and "Bolt" as "Lightning".  
+The names of elements 09h - 0Eh are not ever mentioned in the game. However, they are stored as battle text for the purpose of sensing.  
 "Hidden/Ultima" has no name mentioned in the battle text.  
-"Hidden/Ultima" is on only a few enemy exclusive attacks including
-Ultima Weapon's Ultima Beam. Elements 0Ah - 0Eh are considered Physical
-elements (though not enforced as such) and show up on physical attacks.
-Non-elemental attacks, such as Bahamuts' Flares, have no elements
-selected.
-
-  [KERNEL.BIN]: ../Kernel/Kernel.bin.md "wikilink"
+"Hidden/Ultima" is on only a few enemy exclusive attacks including Ultima Weapon's Ultima Beam. Elements 0Ah - 0Eh are considered Physical elements (though not enforced as such) and show up on physical attacks. Non-elemental attacks, such as Bahamuts' Flares, have no elements selected.

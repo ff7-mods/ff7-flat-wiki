@@ -2,25 +2,15 @@
 title: Source
 ---
 
-[Home](../../Main%20Page.md) > [FF7](../../FF7.md) > [Technical](../Technical.md) > Source
+[Home](../../Main Page.md) > [FF7](../../FF7.md) > [Technical](../Technical.md) > Source
 
 Source Code Forensics
 
-The PC port's executable contains some very interesting artifacts from
-it's development cycle. This is a listing of the known source files
-referenced within Final Fantasy 7's PC executable. This listing is
-attainable with a single UNIX like command, and cleaned up with a little
-editing.
+The PC port's executable contains some very interesting artifacts from it's development cycle. This is a listing of the known source files referenced within Final Fantasy 7's PC executable. This listing is attainable with a single UNIX like command, and cleaned up with a little editing.
 
-strings ff7.exe \| grep '\[cC\]:\\\\' \| tr '\[:upper:\]' '\[:lower:\]'
-\| sort \| uniq &gt; filelist.txt
+strings ff7.exe \| grep '\[cC\]:\\\\' \| tr '\[:upper:\]' '\[:lower:\]' \| sort \| uniq &gt; filelist.txt
 
-This is by far not a complete listing of source files. These only
-reference files that did memory allocation. Their function originally
-was to trace memory allocations and what source file was responsible.
-During the final build, it would seem the debug data was left in the
-executable, (abet disabled), and was in a plain-text format that could
-be grepped with the Linux "strings" command.
+This is by far not a complete listing of source files. These only reference files that did memory allocation. Their function originally was to trace memory allocations and what source file was responsible. During the final build, it would seem the debug data was left in the executable, (abet disabled), and was in a plain-text format that could be grepped with the Linux "strings" command.
 
 |                      Filename                      |
 |:--------------------------------------------------:|

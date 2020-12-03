@@ -2,7 +2,7 @@
 title: 20 MINIGAME
 ---
 
-[Home](../../../../Main%20Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 20 MINIGAME
+[Home](../../../../Main Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 20 MINIGAME
 
 -   Opcode: **0x20**
 -   Short name: **MINIGAME**
@@ -16,22 +16,15 @@ title: 20 MINIGAME
 #### Arguments
 
 -   **const UShort** *M*: Map ID to return to after game has completed.
--   **const Short** *X*: X-coordinate of the player after game has
-    completed.
--   **const Short** *Y*: Y-coordinate of the player after game has
-    completed.
--   **const Short** *Z*: Z-coordinate of the player after game has
-    completed.
+-   **const Short** *X*: X-coordinate of the player after game has completed.
+-   **const Short** *Y*: Y-coordinate of the player after game has completed.
+-   **const Short** *Z*: Z-coordinate of the player after game has completed.
 -   **const UByte** *G*: Game-specific value.
 -   **const UByte** *T*: Minigame type; see table below.
 
 #### Description
 
-Begins the minigame as defined by the final byte. Once the minigame has
-completed, the map ID given as the argument is loaded and the playable
-character is moved to the XYZ co-ordinates also specified. If an invalid
-minigame ID is passed as the final argument, the return map is loaded
-immediately.
+Begins the minigame as defined by the final byte. Once the minigame has completed, the map ID given as the argument is loaded and the playable character is moved to the XYZ co-ordinates also specified. If an invalid minigame ID is passed as the final argument, the return map is loaded immediately.
 
 #### Minigame IDs
 

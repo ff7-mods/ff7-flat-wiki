@@ -2,7 +2,7 @@
 title: 10D WORLDMAPJUMP
 ---
 
-[Home](../../../../Main%20Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 10D WORLDMAPJUMP
+[Home](../../../../Main Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 10D WORLDMAPJUMP
 
 -   Opcode: **0x10D**
 -   Short name: **WORLDMAPJUMP**
@@ -25,6 +25,4 @@ none
 
 #### Description
 
-Jumps the player to the world map. The game has a preset list of
-locations to jump to - there is no way AFAIK to jump to a specific XY
-point.
+Jumps the player to the world map. The game has a preset list of locations to jump to - there is no way AFAIK to jump to a specific XY point.

@@ -2,7 +2,7 @@
 title: 4B BTLTB
 ---
 
-[Home](../../../../Main%20Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 4B BTLTB
+[Home](../../../../Main Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 4B BTLTB
 
 -   Opcode: **0x4B**
 -   Short name: **BTLTB**
@@ -15,10 +15,8 @@ title: 4B BTLTB
 
 #### Arguments
 
--   **const UByte** *I*: ID of the encounter table to use, either 0
-    (standard) or 1.
+-   **const UByte** *I*: ID of the encounter table to use, either 0 (standard) or 1.
 
 #### Description
 
-Switches between the two sets of encounter data that may exist in a
-field file, depending on the ID given.
+Switches between the two sets of encounter data that may exist in a field file, depending on the ID given.

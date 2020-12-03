@@ -2,7 +2,7 @@
 title: Encounter Codes
 ---
 
-[Home](../Main%20Page.md) > [FF8](../FF8.md) > Encounter Codes
+[Home](../Main Page.md) > [FF8](../FF8.md) > Encounter Codes
 
 ## Usable Encounters
 
@@ -936,7 +936,5 @@ These encounters are in the game but are never used in the story.
 
 ## Notes
 
--   In the first Edea battle (136), if anyone but Squall is in the
-    party, the game crashes.
--   In the Odin battle (317), if no timer is set, it thinks the timer
-    ran out and he will Zantetsuken you immediately.
+-   In the first Edea battle (136), if anyone but Squall is in the party, the game crashes.
+-   In the Odin battle (317), if no timer is set, it thinks the timer ran out and he will Zantetsuken you immediately.

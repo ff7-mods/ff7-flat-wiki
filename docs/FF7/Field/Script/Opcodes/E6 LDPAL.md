@@ -2,7 +2,7 @@
 title: E6 LDPAL
 ---
 
-[Home](../../../../Main%20Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > E6 LDPAL
+[Home](../../../../Main Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > E6 LDPAL
 
 -   Opcode: **0xE6**
 -   Short name: **LDPAL**
@@ -17,12 +17,8 @@ title: E6 LDPAL
 
 -   **const Bit\[4\]** *B1*: Bank for palette array id.
 -   **const Bit\[4\]** *B2*: Bank for palette id.
--   **const UByte** *Vram palette id*: Id of palette. All palettes
-    loaded starting from vram\_x = 0, vram\_y = 0x1e0, so this index is
-    starting from vram\_y.
--   **const UByte** *Palette array id*: All palette loaded from in
-    special array 0x20 size of each item. But it just index and can be
-    used lo load full 256 colours (it just takes 0x10 slots of array).
+-   **const UByte** *Vram palette id*: Id of palette. All palettes loaded starting from vram\_x = 0, vram\_y = 0x1e0, so this index is starting from vram\_y.
+-   **const UByte** *Palette array id*: All palette loaded from in special array 0x20 size of each item. But it just index and can be used lo load full 256 colours (it just takes 0x10 slots of array).
 -   **const UByte** *Size*: Size of palette to copy + 1.
 
 #### Description

@@ -2,20 +2,17 @@
 title: BattleStructure
 ---
 
-[Home](../Main%20Page.md) > [FF8](../FF8.md) > BattleStructure
+[Home](../Main Page.md) > [FF8](../FF8.md) > BattleStructure
 
 By JeMaCheHi
 
-Scene.out contains enemy placement data and flags for each of the game's
-battle encounters.
+Scene.out contains enemy placement data and flags for each of the game's battle encounters.
 
-See the corresponding thread:
-<http://forums.qhimm.com/index.php?topic=15816.0>
+See the corresponding thread: <http://forums.qhimm.com/index.php?topic=15816.0>
 
 ## File Structure
 
-Scene.out contains no header. It is a raw list of 1024 encounters. Each
-encounter block consists of 128 bytes and has the following structure:
+Scene.out contains no header. It is a raw list of 1024 encounters. Each encounter block consists of 128 bytes and has the following structure:
 
 | Offset | Length | Description                                                                                                                                                                                                                                                                                                               |
 |--------|--------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -37,11 +34,7 @@ encounter block consists of 128 bytes and has the following structure:
 
 ## Notes
 
-Each 128block can have up to 8 enemies, but if more than 4 are shown at
-the same time, the game will crash. This could seem stupid, but it's
-not. If you think about some battles, like the final battle (where we
-have 8 enemies), all the monsters are present, but only one or two are
-shown at any given time. The rest appear through scripting.
+Each 128block can have up to 8 enemies, but if more than 4 are shown at the same time, the game will crash. This could seem stupid, but it's not. If you think about some battles, like the final battle (where we have 8 enemies), all the monsters are present, but only one or two are shown at any given time. The rest appear through scripting.
 
 Some byte fields are just 8 switches. Here's what I've found:
 
@@ -66,8 +59,4 @@ In 0x04, 0x05, 0x06, and 0x07
 
 +1: 8th enemy relative
 
-An important note: If you put an enemy that "summons" another one
-(Ultimecia summoning Griever, Sphinxara summoning jelleye...) it will
-summon the enemy from certain slot. This means that if you put that
-enemy in another battle, it will still summon that slot, because (I
-think) that summoning is scripted in its AI (in c9m???.dat)
+An important note: If you put an enemy that "summons" another one (Ultimecia summoning Griever, Sphinxara summoning jelleye...) it will summon the enemy from certain slot. This means that if you put that enemy in another battle, it will still summon that slot, because (I think) that summoning is scripted in its AI (in c9m???.dat)

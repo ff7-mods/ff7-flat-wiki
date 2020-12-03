@@ -2,25 +2,17 @@
 title: TEX format
 ---
 
-[Home](../Main%20Page.md) > [FF7](../FF7.md) > TEX format
+[Home](../Main Page.md) > [FF7](../FF7.md) > TEX format
 
-## TEX Texture Data Format for PC by [Mirex][] (Edits by [Aali][])
+## TEX Texture Data Format for PC by [Mirex](User:Mirex "wikilink") (Edits by [Aali](../User:Aali.md)
 
-FF7 PC texture consists of header, an optional palette and bitmap data.
-Usually data are stored like palletized picture, with bitmap pixels
-referencing to palette. Color 0 (in palette its usually black) is
-usually used as transparent color.
+FF7 PC texture consists of header, an optional palette and bitmap data. Usually data are stored like palletized picture, with bitmap pixels referencing to palette. Color 0 (in palette its usually black) is usually used as transparent color.
 
-*Pixel values of 0 may or may not be transparent, depending on the color
-key status, more on that later. This also applies to non-paletted
-formats.*
+*Pixel values of 0 may or may not be transparent, depending on the color key status, more on that later. This also applies to non-paletted formats.*
 
-When bit depth is 16 then data are stored as packed RGB in style RGB555,
-which means 5 bits per color in one 2 byte entry. I'm not sure if it is
-used in FF7 at all, its probably used in FF8.
+When bit depth is 16 then data are stored as packed RGB in style RGB555, which means 5 bits per color in one 2 byte entry. I'm not sure if it is used in FF7 at all, its probably used in FF8.
 
-*The tex format is actually very flexible and can take almost any
-non-paletted format as long as you describe it properly in the header.*
+*The tex format is actually very flexible and can take almost any non-paletted format as long as you describe it properly in the header.*
 
 | Offset | Size                                                                                                                                                                    | Description                                                                                                                          |
 |--------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
@@ -93,16 +85,6 @@ non-paletted format as long as you describe it properly in the header.*
 |        | Color key array                                                                                                                                                         |                                                                                                                                      |
 | Varies | Number of palettes \* 1 bytes.                                                                                                                                          |                                                                                                                                      |
 
-*Color keying: If the color key flag is zero, no color keying is
-performed and the color key array is ignored. Otherwise, the current
-palette index is used to retrieve a single byte from the color key
-array, this is the new color key flag, zero means don't do color
-keying.* If there is no color key array (and the color key flag is not
-zero), you should always color key.
+*Color keying: If the color key flag is zero, no color keying is performed and the color key array is ignored. Otherwise, the current palette index is used to retrieve a single byte from the color key array, this is the new color key flag, zero means don't do color keying.* If there is no color key array (and the color key flag is not zero), you should always color key.
 
-*Reference alpha: Only applies to paletted images, if the alpha value
-sampled from the palette is 0xFE, this value should be replaced with the
-reference alpha.*
-
-  [Mirex]: ../User:Mirex.md "wikilink"
-  [Aali]: ../User:Aali.md "wikilink"
+*Reference alpha: Only applies to paletted images, if the alpha value sampled from the palette is 0xFE, this value should be replaced with the reference alpha.*

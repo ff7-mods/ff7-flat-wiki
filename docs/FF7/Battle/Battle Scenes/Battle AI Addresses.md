@@ -2,18 +2,11 @@
 title: Battle AI Addresses
 ---
 
-[Home](../../../Main%20Page.md) > [FF7](../../../FF7.md) > [Battle](../../Battle.md) > [Battle Scenes](../Battle%20Scenes.md) > Battle AI Addresses
+[Home](../../../Main Page.md) > [FF7](../../../FF7.md) > [Battle](../../Battle.md) > [Battle Scenes](../Battle Scenes.md) > Battle AI Addresses
 
-*In this page, an "actor" is defined as an entity instance in a battle
-(scene). The "current actor" is an actor that is executing a script or
-performing an action. An "active actor" is one that can perform actions.
-An "action" is defined as an event with a visual representation in
-battle (eg. an attack or a position change).*
+*In this page, an "actor" is defined as an entity instance in a battle (scene). The "current actor" is an actor that is executing a script or performing an action. An "active actor" is one that can perform actions. An "action" is defined as an event with a visual representation in battle (eg. an attack or a position change).*
 
-Most of the complexities of AI scripts use different memory addresses to
-make decisions based on the actor performing an action or the target of
-an action. There are three categories of address each spanning a
-separate useable<sup>1</sup> address ranges.
+Most of the complexities of AI scripts use different memory addresses to make decisions based on the actor performing an action or the target of an action. There are three categories of address each spanning a separate useable<sup>1</sup> address ranges.
 
 | Range           | Usage                                                                                                         |
 |-----------------|---------------------------------------------------------------------------------------------------------------|
@@ -21,28 +14,16 @@ separate useable<sup>1</sup> address ranges.
 | 0x2000 - 0x21DF | Globally accessible values. Values are the same for all actors.                                               |
 | 0x4000 - 0x433F | Actor specific values. Contains information such as HP, MP, Level, stats, etc. One for each Actor, 10 in all. |
 
-Each address references a specific bit of memory rather than a byte
-which means individual bits can be manipulated without using BIT-wise
-operations in script. Every 8 address values is the beginning of a byte
-(ie. 0x0000, 0x0008, etc.). The code used to access an address
-determines whether a bit, byte, word, or dword is being read/written.  
-Addresses must be accessed directly. There is no pointer support to
-these values accessible in AI scripts.  
+Each address references a specific bit of memory rather than a byte which means individual bits can be manipulated without using BIT-wise operations in script. Every 8 address values is the beginning of a byte (ie. 0x0000, 0x0008, etc.). The code used to access an address determines whether a bit, byte, word, or dword is being read/written.  
+Addresses must be accessed directly. There is no pointer support to these values accessible in AI scripts.  
 
 ## Random Access Variables
 
-These values are used between scripts and not automatically set/cleared
-at any time during battle. If an address is set to a specific value in
-one script, it will retain that value when the next script begins. The
-initial value is 0. Each actor is allotted 1 kilobyte with which to
-store values and addresses are unique to the actor. Going beyond 3FFh as
-an address will result in memory leaks.
+These values are used between scripts and not automatically set/cleared at any time during battle. If an address is set to a specific value in one script, it will retain that value when the next script begins. The initial value is 0. Each actor is allotted 1 kilobyte with which to store values and addresses are unique to the actor. Going beyond 3FFh as an address will result in memory leaks.
 
 ## Global Values
 
-Generally these contain information about the battle itself. These
-values are the same when any actor accesses them, although they do
-change to reflect the battle's events.
+Generally these contain information about the battle itself. These values are the same when any actor accesses them, although they do change to reflect the battle's events.
 
 | Address | Value                                                                                                                   |
 |---------|-------------------------------------------------------------------------------------------------------------------------|
@@ -78,24 +59,18 @@ change to reflect the battle's events.
 | 0x2163  | Empty all players' Limit Bars (and other things)                                                                        |
 | 0x2164  | Players can learn limits (never unset?)                                                                                 |
 | 0x2165  | No reward screen?                                                                                                       |
-| 0x2170  | [Special Attack Flags][].                                                                                               |
+| 0x2170  | [Special Attack Flags](../Special Attack Flags.md).                                                     |
 | 0x2180  | Unknown (divisor of some sort related to limits)                                                                        |
 | 0x21A0  | During Emerald Weapon battle, keeps track of how many eyes are active. (Possible use in other battles, too)             |
 | 0x21C0  | Party's Gil                                                                                                             |
 
 ## Actor Specific
 
-These values are reflections of a given actor's status. They include
-some obvious things like Statuses, Level, HP, MP, etc and a few abstract
-things like Animation IDs for reactions. Every actor has their own copy
-of these values that reflects their instance. These values are accessed
-by masking the address with a specific actor(s) in the script. Using the
-mask will let the script interpreter know which set of physical
-addresses to use.
+These values are reflections of a given actor's status. They include some obvious things like Statuses, Level, HP, MP, etc and a few abstract things like Animation IDs for reactions. Every actor has their own copy of these values that reflects their instance. These values are accessed by masking the address with a specific actor(s) in the script. Using the mask will let the script interpreter know which set of physical addresses to use.
 
 | Address                                             | Value                                                                                     |
 |-----------------------------------------------------|-------------------------------------------------------------------------------------------|
-| 0x4000                                              | Bitmask of current [Statuses][]                                                           |
+| 0x4000                                              | Bitmask of current [Statuses](../Status Effects.md)                       |
 | 0x4020                                              | Set of flags relating to situation.                                                       |
 | style="background:rgb(204,204,255)" rowspan = 15 \| | 0x4020                                                                                    |
 | 0x4021                                              | Ally of current actor                                                                     |
@@ -153,11 +128,7 @@ addresses to use.
 
   
 
-Thanks to unchecked memory leaks<sup>1</sup>, any actor can directly
-access another actor's script values. The following table is to be read
-across to show what address should be used to access another actor's
-values starting at 4000. For example, Actor 2 can use 4D00 to access
-Actor6's values. Also, Actor 8 can use 2540 to access Actor 1's values.
+Thanks to unchecked memory leaks<sup>1</sup>, any actor can directly access another actor's script values. The following table is to be read across to show what address should be used to access another actor's values starting at 4000. For example, Actor 2 can use 4D00 to access Actor6's values. Also, Actor 8 can use 2540 to access Actor 1's values.
 
 | Actors<sup>2</sup> | Actor 0 | Actor 1 | Actor 2 | Actor 3 | Actor 4 | Actor 5 | Actor 6 | Actor 7 | Actor 8 | Actor 9 | RAVs<sup>3</sup> |
 |--------------------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|------------------|
@@ -172,26 +143,11 @@ Actor6's values. Also, Actor 8 can use 2540 to access Actor 1's values.
 | Actor 8            | 2220    | 2540    | 2880    | 2BC0    | 2F00    | 3240    | 3580    | 38C0    | \*      | 4340    | 4680             |
 | Actor 9            | 2220    | 2540    | 2880    | 2BC0    | 2F00    | 3240    | 3580    | 38C0    | 3C00    | \*      | 4340             |
 
-This is mostly unhelpful as formations can vary greatly and actors can
-still indirectly access each other's values based on controllable
-conditions. There are lots of examples of indirect access, the memory
-leak trick is just interesting.
+This is mostly unhelpful as formations can vary greatly and actors can still indirectly access each other's values based on controllable conditions. There are lots of examples of indirect access, the memory leak trick is just interesting.
 
   
 
 NOTES:  
-1 - Address values are only checked by the minimum value and stored
-accordingly. The structure in memory stores the Global Variables first,
-the Actor Variables second, and the Random Access Variables last.
-Technically, a value of 0xFFFF could be used as an address, but that
-would result in a memory leak producing erratic results.  
-2 - Actors 0-2 are player controlled characters, Actors 4-9 are enemies.
-Actor 3 is a omnipresent battle actor that holds formation AI, if it
-exists and is the placeholder for any summon models. It does nothing on
-its own and is only used in a few boss battles.  
-3 - This will access the Random Access Variables starting at 0x0000.
-This is stupid as it requires more work to get to them. Don't do it this
-way!  
-
-  [Special Attack Flags]: ../Special%20Attack%20Flags.md "wikilink"
-  [Statuses]: ../Status%20Effects.md "wikilink"
+1 - Address values are only checked by the minimum value and stored accordingly. The structure in memory stores the Global Variables first, the Actor Variables second, and the Random Access Variables last. Technically, a value of 0xFFFF could be used as an address, but that would result in a memory leak producing erratic results.  
+2 - Actors 0-2 are player controlled characters, Actors 4-9 are enemies. Actor 3 is a omnipresent battle actor that holds formation AI, if it exists and is the placeholder for any summon models. It does nothing on its own and is only used in a few boss battles.  
+3 - This will access the Random Access Variables starting at 0x0000. This is stupid as it requires more work to get to them. Don't do it this way!  

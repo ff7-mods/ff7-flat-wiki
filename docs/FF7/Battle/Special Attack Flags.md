@@ -2,12 +2,9 @@
 title: Special Attack Flags
 ---
 
-[Home](../../Main%20Page.md) > [FF7](../../FF7.md) > [Battle](../Battle.md) > Special Attack Flags
+[Home](../../Main Page.md) > [FF7](../../FF7.md) > [Battle](../Battle.md) > Special Attack Flags
 
-Attacks and Items can have additional Special Properties that Damage
-Calculation takes into account when applying damage. The storage of
-these bits is reversed from the standard way by having "0" if the effect
-is active and "1" if it is not.
+Attacks and Items can have additional Special Properties that Damage Calculation takes into account when applying damage. The storage of these bits is reversed from the standard way by having "0" if the effect is active and "1" if it is not.
 
 | Bit  | Effect                                                  |
 |:----:|---------------------------------------------------------|
@@ -29,21 +26,11 @@ is active and "1" if it is not.
 | 8000 | Unused                                                  |
 
   
-The 0004 bit here causes darkness to halve the accuracy byte when the
-ability data is loaded. The fact that this bit is unset for all enemy
-attacks is the true cause of the infamous "darkness bug", likely the
-design intent was to make this interaction configurable on a per-action
-basis, but then enemy actions were just never flagged. The other Unused
-ones don't seem to have any immediately obvious effect on damage
-calculation and they aren't used in any attack available to player or
-enemy. They are probably place-holders for temporary variables set
-during damage calculation.
+The 0004 bit here causes darkness to halve the accuracy byte when the ability data is loaded. The fact that this bit is unset for all enemy attacks is the true cause of the infamous "darkness bug", likely the design intent was to make this interaction configurable on a per-action basis, but then enemy actions were just never flagged. The other Unused ones don't seem to have any immediately obvious effect on damage calculation and they aren't used in any attack available to player or enemy. They are probably place-holders for temporary variables set during damage calculation.
 
 ## Attacks with Property 0002h
 
-After testing this significantly, it cannot be determined what this
-effect is based on a visual inspection. Here is a complete list of
-attacks that have this property. No enemy exclusive attacks have it.
+After testing this significantly, it cannot be determined what this effect is based on a visual inspection. Here is a complete list of attacks that have this property. No enemy exclusive attacks have it.
 
 -   Life
 -   Life2
@@ -92,17 +79,7 @@ attacks that have this property. No enemy exclusive attacks have it.
   
 Things it doesn't do:  
 -Alter Camera Movement (this info seems to be in the animation)  
--Affect Animations between single/multiple targets (although it looks
-like it should)  
+-Affect Animations between single/multiple targets (although it looks like it should)  
 -Change damage infliction timing (individually or all at once)  
--Alter Battle Timer for any character (this info seems to be in the
-animation)  
-NOTE: After going through and decompiling the executable for FFVIIPC, it
-does not look like this property is checked for. Neither does it check
-for the Blade Beam property. At one time this may have been the "use
-multi-target animation on multiple targets" flag, but the animation
-handles that now. Likewise, removing the Blade Beam property does
-nothing to the Blade Beam attack itself. It was likely replaced by
-[Additional Effect][] 1Ah.
-
-  [Additional Effect]: ../Attack%20Special%20Effects.md "wikilink"
+-Alter Battle Timer for any character (this info seems to be in the animation)  
+NOTE: After going through and decompiling the executable for FFVIIPC, it does not look like this property is checked for. Neither does it check for the Blade Beam property. At one time this may have been the "use multi-target animation on multiple targets" flag, but the animation handles that now. Likewise, removing the Blade Beam property does nothing to the Blade Beam attack itself. It was likely replaced by [Additional Effect](../Attack Special Effects.md) 1Ah.

@@ -2,7 +2,7 @@
 title: 08D SUBMEMBER
 ---
 
-[Home](../../../../Main%20Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 08D SUBMEMBER
+[Home](../../../../Main Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 08D SUBMEMBER
 
 -   Opcode: **0x08D**
 -   Short name: **SUBMEMBER**

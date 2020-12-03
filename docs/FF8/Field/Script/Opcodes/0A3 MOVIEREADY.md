@@ -2,7 +2,7 @@
 title: 0A3 MOVIEREADY
 ---
 
-[Home](../../../../Main%20Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 0A3 MOVIEREADY
+[Home](../../../../Main Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 0A3 MOVIEREADY
 
 -   Opcode: **0x0A3**
 -   Short name: **MOVIEREADY**
@@ -23,8 +23,7 @@ none
 
 #### Description
 
-Prepares a FMV movie to be played with [MOVIE][]. The second parameter
-is either 0 or 1, but I have no idea what it does.
+Prepares a FMV movie to be played with [MOVIE](04F MOVIE.md). The second parameter is either 0 or 1, but I have no idea what it does.
 
 The movie that plays depends on which disc is currently active.
 
@@ -64,5 +63,3 @@ The movie that plays depends on which disc is currently active.
 | 31       |                          | Balamb Ram                        | Lunar Cry Begins              |                            |
 | 32       |                          | Escape Hatch                      |                               |                            |
 | 33       |                          | Paratrooper fight                 |                               |                            |
-
-  [MOVIE]: 04F%20MOVIE.md "wikilink"

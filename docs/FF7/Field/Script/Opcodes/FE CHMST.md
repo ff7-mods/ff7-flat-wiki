@@ -2,7 +2,7 @@
 title: FE CHMST
 ---
 
-[Home](../../../../Main%20Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > FE CHMST
+[Home](../../../../Main Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > FE CHMST
 
 -   Opcode: **0xFE**
 -   Short name: **CHMST**
@@ -20,5 +20,4 @@ title: FE CHMST
 
 #### Description
 
-Stores a boolean value (0 for false, 1 for true) in the bank and address
-specified, indicating whether music is currently playing.
+Stores a boolean value (0 for false, 1 for true) in the bank and address specified, indicating whether music is currently playing.

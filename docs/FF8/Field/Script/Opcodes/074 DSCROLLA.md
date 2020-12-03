@@ -2,7 +2,7 @@
 title: 074 DSCROLLA
 ---
 
-[Home](../../../../Main%20Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 074 DSCROLLA
+[Home](../../../../Main Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 074 DSCROLLA
 
 -   Opcode: **0x074**
 -   Short name: **DSCROLLA**

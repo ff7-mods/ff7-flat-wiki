@@ -2,7 +2,7 @@
 title: 05A PUSHOFF
 ---
 
-[Home](../../../../Main%20Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 05A PUSHOFF
+[Home](../../../../Main Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 05A PUSHOFF
 
 -   Opcode: **0x05A**
 -   Short name: **PUSHOFF**
@@ -18,6 +18,4 @@ none
 
 #### Description
 
-Disables this entity's "push" script. See [PUSHON][].
-
-  [PUSHON]: 059%20PUSHON.md "wikilink"
+Disables this entity's "push" script. See [PUSHON](059 PUSHON.md).

@@ -2,7 +2,7 @@
 title: 0FF FACEDIRP
 ---
 
-[Home](../../../../Main%20Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 0FF FACEDIRP
+[Home](../../../../Main Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 0FF FACEDIRP
 
 -   Opcode: **0x0FF**
 -   Short name: **FACEDIRP**
@@ -23,5 +23,4 @@ none
 
 #### Description
 
-Turns this actor's head to face the given party member over *frame
-count*.
+Turns this actor's head to face the given party member over *frame count*.

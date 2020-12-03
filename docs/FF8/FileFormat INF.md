@@ -2,7 +2,7 @@
 title: FileFormat INF
 ---
 
-[Home](../Main%20Page.md) > [FF8](../FF8.md) > FileFormat INF
+[Home](../Main Page.md) > [FF8](../FF8.md) > FileFormat INF
 
 By myst6re.
 
@@ -13,7 +13,7 @@ By myst6re.
 | 0      | 9        | Name of field (\\0 terminated)                                                        |
 | 9      | 1        | Control Direction                                                                     |
 | 10     | 6        | Unknown                                                                               |
-| 16     | 2        | Like [\[PVP][1]\] value                                                               |
+| 16     | 2        | Like [\[PVP](FileFormat PVP.md)\] value                                   |
 | 18     | 2        | Height to focus the camera on the character (0= Focus on the feet, 200= normal focus) |
 | 20     | 8\*8     | Camera Ranges                                                                         |
 | 84     | 2\*8     | Screen Ranges                                                                         |
@@ -37,8 +37,7 @@ Each range corresponds to a background layer.
 
 ### Screen Range
 
-Always (0, 224, 320, 0) twice. The first range change the screen
-resolution, the second seems to do nothing.
+Always (0, 224, 320, 0) twice. The first range change the screen resolution, the second seems to do nothing.
 
 ## Gateways data
 
@@ -68,9 +67,7 @@ For each trigger:
 
 # Old formats
 
-In the PC version, you can sometimes see older versions of this format,
-there are three that are more similar to the format of [Final Fantasy
-VII][].
+In the PC version, you can sometimes see older versions of this format, there are three that are more similar to the format of [Final Fantasy VII](../FF7/Field/Triggers.md).
 
 ## 672 bytes format
 
@@ -78,13 +75,8 @@ The first Unknown data are 4 bytes and there is no PVP field.
 
 ## 576 bytes format
 
-Same as 672 bytes format + the first Unknown data in Gateways are not
-present (like FF7).
+Same as 672 bytes format + the first Unknown data in Gateways are not present (like FF7).
 
 ## 504 bytes format
 
-Same as 576 bytes format + There is only one camera range and no screen
-range.
-
-  [1]: FileFormat%20PVP.md "wikilink"
-  [Final Fantasy VII]: ../FF7/Field/Triggers.md "wikilink"
+Same as 576 bytes format + There is only one camera range and no screen range.

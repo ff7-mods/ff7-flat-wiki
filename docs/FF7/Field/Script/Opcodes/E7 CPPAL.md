@@ -2,7 +2,7 @@
 title: E7 CPPAL
 ---
 
-[Home](../../../../Main%20Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > E7 CPPAL
+[Home](../../../../Main Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > E7 CPPAL
 
 -   Opcode: **0xE7**
 -   Short name: **CPPAL**
@@ -17,12 +17,9 @@ title: E7 CPPAL
 
 -   **const Bit\[4\]** *B1*: Bank for source palette array id.
 -   **const Bit\[4\]** *B2*: Bank for destination palette array id.
--   **const UByte** *Source palette array id*: Source palette array id
-    to copy data from.
--   **const UByte** *Destination palette array id*: Destination palette
-    array id to copy data to.
--   **const UByte** *Size*: Size of palette data to copy + 1 (in
-    unsigned short).
+-   **const UByte** *Source palette array id*: Source palette array id to copy data from.
+-   **const UByte** *Destination palette array id*: Destination palette array id to copy data to.
+-   **const UByte** *Size*: Size of palette data to copy + 1 (in unsigned short).
 
 #### Description
 

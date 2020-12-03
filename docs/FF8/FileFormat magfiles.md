@@ -2,17 +2,15 @@
 title: FileFormat magfiles
 ---
 
-[Home](../Main%20Page.md) > [FF8](../FF8.md) > FileFormat magfiles
+[Home](../Main Page.md) > [FF8](../FF8.md) > FileFormat magfiles
 
 By MaKiPL
 
 ------------------------------------------------------------------------
 
-There is no unified format for MAG files. Every file has their own
-naming, even extension. You can't really distinguish them.
+There is no unified format for MAG files. Every file has their own naming, even extension. You can't really distinguish them.
 
-Files starting with 10 00 00 00 09 00 00 00 are obviously TIM texture.
-Files starting with null 4 bytes are in most cases "Packed magic file"
+Files starting with 10 00 00 00 09 00 00 00 are obviously TIM texture. Files starting with null 4 bytes are in most cases "Packed magic file"
 
 ## Packed magic file
 
@@ -31,8 +29,7 @@ Files starting with null 4 bytes are in most cases "Packed magic file"
 
 ## Environment objects
 
-**I'm aware it's chaotic**, like no tables and etc. but it's
-**up-to-date** information First, recognize file:
+**I'm aware it's chaotic**, like no tables and etc. but it's **up-to-date** information First, recognize file:
 
 1.Jump to pointer at 0xC \[Global\]
 
@@ -40,27 +37,17 @@ Files starting with null 4 bytes are in most cases "Packed magic file"
 
 3.If pointer is 00 00 00 00, just ignore it and move forward
 
-4.After noting all pointers that are not 00 00 00 00 (therefore
-inspecting Count\*4 bytes) just jump to selected one \[Relative jump
-from count int\]
+4.After noting all pointers that are not 00 00 00 00 (therefore inspecting Count\*4 bytes) just jump to selected one \[Relative jump from count int\]
 
-5.See third int (8th byte) for UNKNOWN(POLYGON TYPES see below)
-\[Relative jump from 03 00 00 00\]
+5.See third int (8th byte) for UNKNOWN(POLYGON TYPES see below) \[Relative jump from 03 00 00 00\]
 
-6.Read int at 20th byte for VERTICES offset \[Relative jump from 03 00
-00 00\]
+6.Read int at 20th byte for VERTICES offset \[Relative jump from 03 00 00 00\]
 
-7.Read int at 24th byte for VERTICES COUNT \[Vertex is 8 bytes! X Z Y W,
-where W is probably weight byte \[as in OBJ specification\] and is
-normally unused (as usual, even in casual OBJ files)\]
+7.Read int at 24th byte for VERTICES COUNT \[Vertex is 8 bytes! X Z Y W, where W is probably weight byte \[as in OBJ specification\] and is normally unused (as usual, even in casual OBJ files)\]
 
-Example: 09 00 9f 01 means there's 9f 01 (415) polygons of type 0x9.
-Therefore: 28\*415=11620 bytes to next polygon type or vertices if FF FF
-FF FF.
+Example: 09 00 9f 01 means there's 9f 01 (415) polygons of type 0x9. Therefore: 28\*415=11620 bytes to next polygon type or vertices if FF FF FF FF.
 
-GF Environment (stages like Cerberus gate; Alexander backdrop and etc.)
-geometry contains many polygon types (sic!). Every single polygon type
-is different than other.
+GF Environment (stages like Cerberus gate; Alexander backdrop and etc.) geometry contains many polygon types (sic!). Every single polygon type is different than other.
 
 `       private int[] _knownPolygons = new int[] `  
 `       {`  
@@ -76,11 +63,7 @@ is different than other.
 `           0x13,`  
 `       };`
 
-0xC points to geometry section. If \*0xC (pointers to geometries) is ==
-0, then file has no geometry (it is possible. Some files are only
-texture, some only geometry, some are only animation and some are
-everything). There should be no single case where the number of models
-in file exceed 12.
+0xC points to geometry section. If \*0xC (pointers to geometries) is == 0, then file has no geometry (it is possible. Some files are only texture, some only geometry, some are only animation and some are everything). There should be no single case where the number of models in file exceed 12.
 
 `0xC:`  
 ` PointersToModel:`  
@@ -198,8 +181,7 @@ Vertex:
 
 ## Textures
 
-1\. See 0x08, it points almost always to null data, but also indicates
-where to stop watching texture pointers
+1\. See 0x08, it points almost always to null data, but also indicates where to stop watching texture pointers
 
 2\. Jump to pointer 0x14 (almost always 0x30)
 
@@ -209,14 +191,9 @@ where to stop watching texture pointers
 
 5\. Jump to texture (pointer+\*(0x14)) e.g. 48+21675
 
-6\. There's no sizes, so if there's another texture after the one you're
-getting, then subdivide next texture position from current position to
-get size and determine texture resolution. If it's the last texture,
-then it gets a bit tricky, as in many ways the file is not ending with
-texture but SCOT for example..
+6\. There's no sizes, so if there's another texture after the one you're getting, then subdivide next texture position from current position to get size and determine texture resolution. If it's the last texture, then it gets a bit tricky, as in many ways the file is not ending with texture but SCOT for example..
 
-Texture is **8BPP** (does not contain palette/monochromatic) (one byte
-is all three channels in 24RGB manner)
+Texture is **8BPP** (does not contain palette/monochromatic) (one byte is all three channels in 24RGB manner)
 
 **Texture resolution is based on size:**
 
@@ -227,11 +204,7 @@ is all three channels in 24RGB manner)
 | 0x8000            | 256x256 (or 128x128)\*   |
 | 0x10000           | 256x256                  |
 
-GFs uses higher texture resolution, for example 0x2000 is 64x64 instead
-of 32x32, but many magic texture like fire effect animation atlas
-texture is using the lower resolution (the one with asterisk \*, for
-example 0x2000 for fire atlas animation texture it's 32x32 instead of
-64x64)
+GFs uses higher texture resolution, for example 0x2000 is 64x64 instead of 32x32, but many magic texture like fire effect animation atlas texture is using the lower resolution (the one with asterisk \*, for example 0x2000 for fire atlas animation texture it's 32x32 instead of 64x64)
 
 ## SCOT
 

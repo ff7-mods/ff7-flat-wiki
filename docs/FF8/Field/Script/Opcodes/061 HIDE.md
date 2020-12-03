@@ -2,7 +2,7 @@
 title: 061 HIDE
 ---
 
-[Home](../../../../Main%20Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 061 HIDE
+[Home](../../../../Main Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 061 HIDE
 
 -   Opcode: **0x061**
 -   Short name: **HIDE**
@@ -18,6 +18,4 @@ none
 
 #### Description
 
-Hides this entity's model on the field. See also [SHOW][].
-
-  [SHOW]: 060%20SHOW.md "wikilink"
+Hides this entity's model on the field. See also [SHOW](060 SHOW.md).

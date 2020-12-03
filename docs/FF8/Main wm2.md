@@ -2,7 +2,7 @@
 title: Main wm2
 ---
 
-[Home](../Main%20Page.md) > [FF8](../FF8.md) > Main wm2
+[Home](../Main Page.md) > [FF8](../FF8.md) > Main wm2
 
 By MaKiPL
 
@@ -14,8 +14,7 @@ By MaKiPL
 
 ## Structure
 
-File is 1728 bytes. Where every entry is 24 bytes. Though 1728/24 = 72
-entries
+File is 1728 bytes. Where every entry is 24 bytes. Though 1728/24 = 72 entries
 
 One entry:
 
@@ -31,12 +30,7 @@ One entry:
 
 ## Field location
 
-Old wiki page about wm2field stated, that X Y Z coordinates are based on
-12 bits. No, they aren't, I made a mistake. They are normal WORDs with
-sign-extension for X and Y and Z is normal WORD copying and no
-cmp(0x7FFF), so it's unsigned. The axis are indeed X Y Z, not X-ZY as
-everywhere else in FF8. Byte after fieldID is some sort of pointer,
-currently unknown what is it purpouse.
+Old wiki page about wm2field stated, that X Y Z coordinates are based on 12 bits. No, they aren't, I made a mistake. They are normal WORDs with sign-extension for X and Y and Z is normal WORD copying and no cmp(0x7FFF), so it's unsigned. The axis are indeed X Y Z, not X-ZY as everywhere else in FF8. Byte after fieldID is some sort of pointer, currently unknown what is it purpouse.
 
 ## Useful notes
 

@@ -2,7 +2,7 @@
 title: F9 FLMAT
 ---
 
-[Home](../../../../../Main%20Page.md) > [FF7](../../../../../FF7.md) > [Field](../../../../Field.md) > [Script](../../../Script.md) > [Opcodes](../../Opcodes.md) > [0F SPECIAL](../0F%20SPECIAL.md) > F9 FLMAT
+[Home](../../../../../Main Page.md) > [FF7](../../../../../FF7.md) > [Field](../../../../Field.md) > [Script](../../../Script.md) > [Opcodes](../../Opcodes.md) > [0F SPECIAL](../0F SPECIAL.md) > F9 FLMAT
 
 -   Opcode: **0x0FF9**
 -   Short name: **SPECIAL: FLMAT**
@@ -19,5 +19,4 @@ None.
 
 #### Description
 
-Fills all available materia entries so that the party has the maximum
-amount of materia that can be carried.
+Fills all available materia entries so that the party has the maximum amount of materia that can be carried.

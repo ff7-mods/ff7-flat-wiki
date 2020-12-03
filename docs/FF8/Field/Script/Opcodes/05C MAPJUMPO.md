@@ -2,7 +2,7 @@
 title: 05C MAPJUMPO
 ---
 
-[Home](../../../../Main%20Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 05C MAPJUMPO
+[Home](../../../../Main Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 05C MAPJUMPO
 
 -   Opcode: **0x05C**
 -   Short name: **MAPJUMPO**
@@ -23,8 +23,4 @@ none
 
 #### Description
 
-Jump the player to the field with the given ID and starting on the given
-walkmesh triangle. The walkmesh is almost always 0 because MAPJUMPO is
-intended to be used for teleporting the player into a cutscene, and the
-cutscenes place the characters where they need to be on initialization,
-so it doesn't matter where they're initially teleported.
+Jump the player to the field with the given ID and starting on the given walkmesh triangle. The walkmesh is almost always 0 because MAPJUMPO is intended to be used for teleporting the player into a cutscene, and the cutscenes place the characters where they need to be on initialization, so it doesn't matter where they're initially teleported.

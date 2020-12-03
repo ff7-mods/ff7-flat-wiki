@@ -2,7 +2,7 @@
 title: 038 DISCJUMP
 ---
 
-[Home](../../../../Main%20Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 038 DISCJUMP
+[Home](../../../../Main Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 038 DISCJUMP
 
 -   Opcode: **0x038**
 -   Short name: **DISCJUMP**
@@ -29,7 +29,4 @@ Walkmesh ID
 
 #### Description
 
-Same as [MAPJUMP3][], but also initiate a [DISC][] switch.
-
-  [MAPJUMP3]: 02A%20MAPJUMP3.md "wikilink"
-  [DISC]: 11F%20DISC.md "wikilink"
+Same as [MAPJUMP3](FF8/Field/Script/Opcodes/02A_MAPJUMP3 "wikilink"), but also initiate a [DISC](11F DISC.md) switch.

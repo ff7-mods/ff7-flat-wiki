@@ -2,7 +2,7 @@
 title: 0E6 SPLIT
 ---
 
-[Home](../../../../Main%20Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 0E6 SPLIT
+[Home](../../../../Main Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 0E6 SPLIT
 
 -   Opcode: **0x0E6**
 -   Short name: **SPLIT**
@@ -37,5 +37,4 @@ none
 
 #### Description
 
-Disables the party member conga line and sends each member to a specific
-spot.
+Disables the party member conga line and sends each member to a specific spot.

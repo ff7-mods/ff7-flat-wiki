@@ -2,7 +2,7 @@
 title: 81 SETWORD
 ---
 
-[Home](../../../../Main%20Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 81 SETWORD
+[Home](../../../../Main Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 81 SETWORD
 
 -   Opcode: **0x81**
 -   Short name: **SETWORD**
@@ -22,10 +22,4 @@ title: 81 SETWORD
 
 #### Description
 
-Writes the word value from the source address, or the value argument
-itself, into the destination 16-bit bank. If the source bank **S** is
-zero, the value given by **V** is written directly into the destination
-bank/address; otherwise, the value is retrieved from the source
-bank/address **S**/**V**, and then written to the destination
-bank/address **D**/**A**. If the destination is a 8-bit bank, only the
-low byte of the source will be written into it.
+Writes the word value from the source address, or the value argument itself, into the destination 16-bit bank. If the source bank **S** is zero, the value given by **V** is written directly into the destination bank/address; otherwise, the value is retrieved from the source bank/address **S**/**V**, and then written to the destination bank/address **D**/**A**. If the destination is a 8-bit bank, only the low byte of the source will be written into it.

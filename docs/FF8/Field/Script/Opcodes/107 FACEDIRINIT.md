@@ -2,7 +2,7 @@
 title: 107 FACEDIRINIT
 ---
 
-[Home](../../../../Main%20Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 107 FACEDIRINIT
+[Home](../../../../Main Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 107 FACEDIRINIT
 
 -   Opcode: **0x107**
 -   Short name: **FACEDIRINIT**
@@ -19,5 +19,4 @@ none
 
 #### Description
 
-Call this before using any other FACEDIR functions. It "unlocks" the
-character's head from its model.
+Call this before using any other FACEDIR functions. It "unlocks" the character's head from its model.

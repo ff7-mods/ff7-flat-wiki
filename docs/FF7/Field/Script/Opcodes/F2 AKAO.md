@@ -2,7 +2,7 @@
 title: F2 AKAO
 ---
 
-[Home](../../../../Main%20Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > F2 AKAO
+[Home](../../../../Main Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > F2 AKAO
 
 -   Opcode: **0xF2**
 -   Short name: **AKAO**
@@ -15,17 +15,12 @@ title: F2 AKAO
 
 #### Arguments
 
--   **const Bit\[4\]** *B1*: Bank to retrieve *Param1*, or zero if
-    *Param1* is specified as a literal value.
--   **const Bit\[4\]** *B2*: Bank to retrieve *Param2*, or zero if
-    *Param2* is specified as a literal value.
--   **const Bit\[4\]** *B3*: Bank to retrieve *Param3*, or zero if
-    *Param3* is specified as a literal value.
--   **const Bit\[4\]** *B4*: Bank to retrieve *Param4*, or zero if
-    *Param4* is specified as a literal value.
+-   **const Bit\[4\]** *B1*: Bank to retrieve *Param1*, or zero if *Param1* is specified as a literal value.
+-   **const Bit\[4\]** *B2*: Bank to retrieve *Param2*, or zero if *Param2* is specified as a literal value.
+-   **const Bit\[4\]** *B3*: Bank to retrieve *Param3*, or zero if *Param3* is specified as a literal value.
+-   **const Bit\[4\]** *B4*: Bank to retrieve *Param4*, or zero if *Param4* is specified as a literal value.
 -   **const Bit\[4\]** *0*: Zero.
--   **const Bit\[4\]** *B6*: Bank to retrieve *Param5*, or zero if
-    *Param5* is specified as a literal value.
+-   **const Bit\[4\]** *B6*: Bank to retrieve *Param5*, or zero if *Param5* is specified as a literal value.
 -   **const UByte** *Op*: Operation to perform.
 -   **const UByte** *Param1*: Parameter 1.
 -   **const UShort** *Param2*: Parameter 2.
@@ -35,10 +30,9 @@ title: F2 AKAO
 
 #### Description
 
-Perform an operation described by *Op*, and uses the parameters
-depending on the operation.
+Perform an operation described by *Op*, and uses the parameters depending on the operation.
 
-##### Operation list (by [Aali][] and [DLPB][])
+##### Operation list (by [Aali](user:aali "wikilink") and [DLPB](../../../../user:DLPB2.md)
 
 -   **10** Play music \[param1=Music ID\]
 -   **14** Same as 10
@@ -50,28 +44,22 @@ depending on the operation.
 
 <li>
 
-**20** Play one sound effect \[param1=Panning, param2=Effect ID on
-channel \#1\]
+**20** Play one sound effect \[param1=Panning, param2=Effect ID on channel \#1\]
 
 </li>
 <li>
 
-**21** Play two sound effects \[param1=Panning, param2=Effect ID on
-channel \#1, param3=Effect ID on channel \#2\]
+**21** Play two sound effects \[param1=Panning, param2=Effect ID on channel \#1, param3=Effect ID on channel \#2\]
 
 </li>
 <li>
 
-**22** Play three sound effects \[param1=Panning, param2=Effect ID on
-channel \#1, param3=Effect ID on channel \#2, param4=Effect ID on
-channel \#3\]
+**22** Play three sound effects \[param1=Panning, param2=Effect ID on channel \#1, param3=Effect ID on channel \#2, param4=Effect ID on channel \#3\]
 
 </li>
 <li>
 
-**23** Play four sound effects \[param1=Panning, param2=Effect ID on
-channel \#1, param3=Effect ID on channel \#2, param4=Effect ID on
-channel \#3, param5=Effect ID on channel \#4\]
+**23** Play four sound effects \[param1=Panning, param2=Effect ID on channel \#1, param3=Effect ID on channel \#2, param4=Effect ID on channel \#3, param5=Effect ID on channel \#4\]
 
 </li>
 <li>
@@ -96,26 +84,22 @@ channel \#3, param5=Effect ID on channel \#4\]
 </li>
 <li>
 
-**28** Play a sound effect on channel \#1 \[param1=Panning,
-param2=Effect ID\]
+**28** Play a sound effect on channel \#1 \[param1=Panning, param2=Effect ID\]
 
 </li>
 <li>
 
-**29** Play a sound effect on channel \#2 \[param1=Panning,
-param2=Effect ID\]
+**29** Play a sound effect on channel \#2 \[param1=Panning, param2=Effect ID\]
 
 </li>
 <li>
 
-**2A** Play a sound effect on channel \#3 \[param1=Panning,
-param2=Effect ID\]
+**2A** Play a sound effect on channel \#3 \[param1=Panning, param2=Effect ID\]
 
 </li>
 <li>
 
-**2B** Play a sound effect on channel \#4 \[param1=Panning,
-param2=Effect ID\]
+**2B** Play a sound effect on channel \#4 \[param1=Panning, param2=Effect ID\]
 
 </li>
 <li>
@@ -181,26 +165,22 @@ param2=Effect ID\]
 </li>
 <li>
 
-**A4** Volume transition (channel \#1) \[param1=Transition time,
-param2=Target volume\]
+**A4** Volume transition (channel \#1) \[param1=Transition time, param2=Target volume\]
 
 </li>
 <li>
 
-**A5** Volume transition (channel \#2) \[param1=Transition time,
-param2=Target volume\]
+**A5** Volume transition (channel \#2) \[param1=Transition time, param2=Target volume\]
 
 </li>
 <li>
 
-**A6** Volume transition (channel \#3) \[param1=Transition time,
-param2=Target volume\]
+**A6** Volume transition (channel \#3) \[param1=Transition time, param2=Target volume\]
 
 </li>
 <li>
 
-**A7** Volume transition (channel \#4) \[param1=Transition time,
-param2=Target volume\]
+**A7** Volume transition (channel \#4) \[param1=Transition time, param2=Target volume\]
 
 </li>
 <li>
@@ -225,26 +205,22 @@ param2=Target volume\]
 </li>
 <li>
 
-**AC** Pan transition (channel \#1) \[param1=Transition time,
-param2=Target panning\]
+**AC** Pan transition (channel \#1) \[param1=Transition time, param2=Target panning\]
 
 </li>
 <li>
 
-**AD** Pan transition (channel \#2) \[param1=Transition time,
-param2=Target panning\]
+**AD** Pan transition (channel \#2) \[param1=Transition time, param2=Target panning\]
 
 </li>
 <li>
 
-**AE** Pan transition (channel \#3) \[param1=Transition time,
-param2=Target panning\]
+**AE** Pan transition (channel \#3) \[param1=Transition time, param2=Target panning\]
 
 </li>
 <li>
 
-**AF** Pan transition (channel \#4) \[param1=Transition time,
-param2=Target panning\]
+**AF** Pan transition (channel \#4) \[param1=Transition time, param2=Target panning\]
 
 </li>
 
@@ -272,26 +248,22 @@ param2=Target panning\]
 </li>
 <li>
 
-**B4** Tempo transition (channel \#1) \[param1=Transition time,
-param2=Target tempo\]
+**B4** Tempo transition (channel \#1) \[param1=Transition time, param2=Target tempo\]
 
 </li>
 <li>
 
-**B5** Tempo transition (channel \#2) \[param1=Transition time,
-param2=Target tempo\]
+**B5** Tempo transition (channel \#2) \[param1=Transition time, param2=Target tempo\]
 
 </li>
 <li>
 
-**B6** Tempo transition (channel \#3) \[param1=Transition time,
-param2=Target tempo\]
+**B6** Tempo transition (channel \#3) \[param1=Transition time, param2=Target tempo\]
 
 </li>
 <li>
 
-**B7** Tempo transition (channel \#4) \[param1=Transition time,
-param2=Target tempo\]
+**B7** Tempo transition (channel \#4) \[param1=Transition time, param2=Target tempo\]
 
 </li>
 <li>
@@ -301,8 +273,7 @@ param2=Target tempo\]
 </li>
 <li>
 
-**B9** Volume transition for channel \#1 to \#4 \[param1=Transition
-time, param2=Target volume\]
+**B9** Volume transition for channel \#1 to \#4 \[param1=Transition time, param2=Target volume\]
 
 </li>
 <li>
@@ -312,8 +283,7 @@ time, param2=Target volume\]
 </li>
 <li>
 
-**BB** Pan transition for channel \#1 to \#4 \[param1=Transition time,
-param2=Target panning\]
+**BB** Pan transition for channel \#1 to \#4 \[param1=Transition time, param2=Target panning\]
 
 </li>
 <li>
@@ -323,8 +293,7 @@ param2=Target panning\]
 </li>
 <li>
 
-**BD** Tempo transition for channel \#1 to \#4 \[param1=Transition time,
-param2=Target tempo\]
+**BD** Tempo transition for channel \#1 to \#4 \[param1=Transition time, param2=Target tempo\]
 
 </li>
 
@@ -337,14 +306,12 @@ param2=Target tempo\]
 </li>
 <li>
 
-**C1** Music volume transition \[param1=Transition time, param2=Target
-volume\]
+**C1** Music volume transition \[param1=Transition time, param2=Target volume\]
 
 </li>
 <li>
 
-**C2** Music From-To volume transition \[param1=Transition time,
-param2=Starting volume, param3=Ending volume\]
+**C2** Music From-To volume transition \[param1=Transition time, param2=Starting volume, param3=Ending volume\]
 
 </li>
 
@@ -357,14 +324,12 @@ param2=Starting volume, param3=Ending volume\]
 </li>
 <li>
 
-**C9** Music balance transition \[param1=Transition time, param2=Target
-balance\]
+**C9** Music balance transition \[param1=Transition time, param2=Target balance\]
 
 </li>
 <li>
 
-**CA** Music From-To balance transition \[param1=Transition time,
-param2=Starting balance, param3=Ending balance\]
+**CA** Music From-To balance transition \[param1=Transition time, param2=Starting balance, param3=Ending balance\]
 
 </li>
 
@@ -377,14 +342,12 @@ param2=Starting balance, param3=Ending balance\]
 </li>
 <li>
 
-**D1** Music tempo transition \[param1=Transition time, param2=Target
-tempo\]
+**D1** Music tempo transition \[param1=Transition time, param2=Target tempo\]
 
 </li>
 <li>
 
-**D2** Music From-To tempo transition \[param1=Transition time,
-param2=Starting tempo, param3=Ending tempo\]
+**D2** Music From-To tempo transition \[param1=Transition time, param2=Starting tempo, param3=Ending tempo\]
 
 </li>
 
@@ -404,18 +367,10 @@ param2=Starting tempo, param3=Ending tempo\]
 
 #### Please Note
 
-Channel \#5 (used from operation 0x30) is dedicated to the menu and
-should not be used for anything else.  
-All transitions use the formula Transition\_time (in seconds) = param1 /
-60.  
-The pan (audio L/R balance) value range is 0 to 127, where 0 is fully
-left, 64 is centre, and 127 is fully right.  
+Channel \#5 (used from operation 0x30) is dedicated to the menu and should not be used for anything else.  
+All transitions use the formula Transition\_time (in seconds) = param1 / 60.  
+The pan (audio L/R balance) value range is 0 to 127, where 0 is fully left, 64 is centre, and 127 is fully right.  
 The maximum volume is 127.  
 The tempo value range is 0 to 127. The normal tempo is 0.  
-Operations 0x10/14/18/19 do not work on the PSX game from field script
-\[CURRENTLY CHECKING THIS\].  
-Operations 0xC8/C9/CA are not implemented in the PSX version or PC
-version despite the field script calling them.  
-
-  [Aali]: ../../../../user:aali.md "wikilink"
-  [DLPB]: ../../../../user:DLPB2.md "wikilink"
+Operations 0x10/14/18/19 do not work on the PSX game from field script \[CURRENTLY CHECKING THIS\].  
+Operations 0xC8/C9/CA are not implemented in the PSX version or PC version despite the field script calling them.  

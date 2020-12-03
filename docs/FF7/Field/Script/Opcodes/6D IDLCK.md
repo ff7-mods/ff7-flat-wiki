@@ -2,7 +2,7 @@
 title: 6D IDLCK
 ---
 
-[Home](../../../../Main%20Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 6D IDLCK
+[Home](../../../../Main Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 6D IDLCK
 
 -   Opcode: **0x6D**
 -   Short name: **IDLCK**
@@ -20,7 +20,4 @@ title: 6D IDLCK
 
 #### Description
 
-Dynamically turns on or off the boundary status for the set of edges
-marked by the triangle ID *I*. If the boundary status is switched to on,
-the player will not be able to cross the edges of the triangle given. If
-switched to off, the player may walk freely through the same edges.
+Dynamically turns on or off the boundary status for the set of edges marked by the triangle ID *I*. If the boundary status is switched to on, the player will not be able to cross the edges of the triangle given. If switched to off, the player may walk freely through the same edges.

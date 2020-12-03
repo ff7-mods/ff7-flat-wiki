@@ -2,7 +2,7 @@
 title: 6C FADEW
 ---
 
-[Home](../../../../Main%20Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 6C FADEW
+[Home](../../../../Main Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 6C FADEW
 
 -   Opcode: **0x6C**
 -   Short name: **FADEW**
@@ -19,9 +19,4 @@ None.
 
 #### Description
 
-Halts execution of the current script for a preceding [FADE][] command,
-issued by any entity, to fully complete before continuing execution. If
-no FADE has been issued by any entity, or previous FADE calls have
-already completed, the FADEW call is ignored.
-
-  [FADE]: 6B%20FADE.md "wikilink"
+Halts execution of the current script for a preceding [FADE](6B FADE.md) command, issued by any entity, to fully complete before continuing execution. If no FADE has been issued by any entity, or previous FADE calls have already completed, the FADEW call is ignored.

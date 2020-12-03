@@ -2,7 +2,7 @@
 title: D1 LINON
 ---
 
-[Home](../../../../Main%20Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > D1 LINON
+[Home](../../../../Main Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > D1 LINON
 
 -   Opcode: **0xD1**
 -   Short name: **LINON**
@@ -19,8 +19,4 @@ title: D1 LINON
 
 #### Description
 
-Turns on or off the [LINE][] that was registered by this entity in the
-current field. If set to off, the line will not be triggered by the
-character walking through them.
-
-  [LINE]: D0%20LINE.md "wikilink"
+Turns on or off the [LINE](D0 LINE.md) that was registered by this entity in the current field. If set to off, the line will not be triggered by the character walking through them.

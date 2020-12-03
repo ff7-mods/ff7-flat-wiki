@@ -2,13 +2,11 @@
 title: Animation Script
 ---
 
-[Home](../../../Main%20Page.md) > [FF7](../../../FF7.md) > [Battle](../../Battle.md) > [Battle Animation](../Battle%20Animation.md) > Animation Script
+[Home](../../../Main Page.md) > [FF7](../../../FF7.md) > [Battle](../../Battle.md) > [Battle Animation](../Battle Animation.md) > Animation Script
 
-This page contains information related to the AB animation files of
-battle models.
+This page contains information related to the AB animation files of battle models.
 
-Any code less than 8Eh is treated as a raw animation index to be
-executed.
+Any code less than 8Eh is treated as a raw animation index to be executed.
 
 | Code |                Arguments                 |                                                                                                                                   Effect                                                                                                                                    |
 |:----:|:----------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
@@ -128,12 +126,7 @@ executed.
 |  FF  |                                          |                                                                                                                               Duplicate of EE                                                                                                                               |
 |      |                                          |                                                                                                                                                                                                                                                                             |
 
-NOTES: A9 - This skips the next byte and causes it to play the animation
-in the byte afterwards before moving the script pointer to the third
-byte. It looks like this does some "clear state" action every time the
-idle script is executed, but the idle scripts all cause loops so this is
-executed after returning from any other animation. Most enemy idle
-scripts are
+NOTES: A9 - This skips the next byte and causes it to play the animation in the byte afterwards before moving the script pointer to the third byte. It looks like this does some "clear state" action every time the idle script is executed, but the idle scripts all cause loops so this is executed after returning from any other animation. Most enemy idle scripts are
 
 `A9 C9 00 C1`
 

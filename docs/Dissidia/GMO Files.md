@@ -2,30 +2,23 @@
 title: GMO Files
 ---
 
-[Home](../Main%20Page.md) > [Dissidia](../Dissidia.md) > GMO Files
+[Home](../Main Page.md) > [Dissidia](../Dissidia.md) > GMO Files
 
-<small>Last updated: [Koral][] 14:04, 30 Mar 2009 (EDT)</small>
+<small>Last updated: [Koral](../User:Koral.md)</small>
 
 # GMO Model File
 
-These files contain all the Characters and Location-Map models within
-the game.
+These files contain all the Characters and Location-Map models within the game.
 
-A complete list of Models referenced by the Filenames can be found here:
-\[\[Dissidia/GMO Files/File List\|\[GMO\] File List\]\]
+A complete list of Models referenced by the Filenames can be found here: \[\[Dissidia/GMO Files/File List\|\[GMO\] File List\]\]
 
 # Format Specifications
 
-<small>Information courtesy of [MrAdults][]</small>
+<small>Information courtesy of [MrAdults](http://www.richwhitehouse.com/index.php?postid=34)</small>
 
-\[GMO\] Files consist of various Chunks defining the type of data they
-contain, with no initial hard-coded offsets in the begining of the file.
-Each chunk must be parsed seperatly to determine its Type and Size,
-either to skip it entirey or attempt to extract the information
-contained within.
+\[GMO\] Files consist of various Chunks defining the type of data they contain, with no initial hard-coded offsets in the begining of the file. Each chunk must be parsed seperatly to determine its Type and Size, either to skip it entirey or attempt to extract the information contained within.
 
-As such, parsing these \[GMO\] files is a similar mechanism to parsing
-generic 3DS files.
+As such, parsing these \[GMO\] files is a similar mechanism to parsing generic 3DS files.
 
 ## File Header
 
@@ -38,28 +31,23 @@ After this comes the first specialised Chunk.
 
 ## Chunks
 
-Each Chunk contains an initial local header describing the Type and Size
-of the contents to come.
+Each Chunk contains an initial local header describing the Type and Size of the contents to come.
 
        0x00   SHORT   Chunk-Type
        0x02   SHORT   Size of Chunk-Header
        0x04   LONG    Size of Chunk-Data
 
-A number of Chunk-Types have been discovered, described in detail in the
-sections to follow.
+A number of Chunk-Types have been discovered, described in detail in the sections to follow.
 
 ### 0x0002 - File Start
 
-This Chunk can be described as the root Chunk containing all Sub-Chunks
-within.
+This Chunk can be described as the root Chunk containing all Sub-Chunks within.
 
 ### 0x0003 - Sub-File
 
-These Chunks mark the exact nature of the Chunks which follow, and can
-be determined by reading the last SHORT of the chunk.
+These Chunks mark the exact nature of the Chunks which follow, and can be determined by reading the last SHORT of the chunk.
 
-They usually mark Model or Skeletal data, although there may be more
-types which are currently undocumented.
+They usually mark Model or Skeletal data, although there may be more types which are currently undocumented.
 
 Known Values:
 
@@ -95,6 +83,3 @@ Known Values:
 ### 0x8082 - Material RGBA
 
 ### 0x8083 - Material Specularity
-
-  [Koral]: ../User:Koral.md "wikilink"
-  [MrAdults]: http://www.richwhitehouse.com/index.php?postid=34

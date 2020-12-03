@@ -2,7 +2,7 @@
 title: 71 BTLON
 ---
 
-[Home](../../../../Main%20Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 71 BTLON
+[Home](../../../../Main Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 71 BTLON
 
 -   Opcode: **0x71**
 -   Short name: **BTLON**
@@ -19,8 +19,4 @@ title: 71 BTLON
 
 #### Description
 
-Turns random encounters on or off for this field. Note that if a field
-does not have any [Encounter Data][] set in its field file, battles will
-not occur regardless of the argument passed with this opcode.
-
-  [Encounter Data]: ../../Encounter.md "wikilink"
+Turns random encounters on or off for this field. Note that if a field does not have any [Encounter Data](../../Encounter.md) set in its field file, battles will not occur regardless of the argument passed with this opcode.

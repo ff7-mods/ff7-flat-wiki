@@ -2,7 +2,7 @@
 title: 88 MINUS2
 ---
 
-[Home](../../../../Main%20Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 88 MINUS2
+[Home](../../../../Main Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 88 MINUS2
 
 -   Opcode: **0x88**
 -   Short name: **MINUS2**
@@ -17,15 +17,9 @@ title: 88 MINUS2
 
 -   **const Bit\[4\]** *D*: Destination bank
 -   **const Bit\[4\]** *S*: Source bank
--   **const UByte** *Dest*: The destination variable, to which the
-    operand is subtracted.
--   **const SWord** *Oper*: The operand to be subtracted from the
-    destination.
+-   **const UByte** *Dest*: The destination variable, to which the operand is subtracted.
+-   **const SWord** *Oper*: The operand to be subtracted from the destination.
 
 #### Description
 
-Subtracts two numbers and stores the result back into â€œDestâ€. The
-result of the subtraction wraps around into the 16-bit range. If the
-Source Bank is 0 then the â€œOperâ€ is subtracted from the destination
-value. If the Source Bank is an 16 bit bank, then the â€œOperâ€ is the
-address in that bank where the operand is.
+Subtracts two numbers and stores the result back into â€œDestâ€. The result of the subtraction wraps around into the 16-bit range. If the Source Bank is 0 then the â€œOperâ€ is subtracted from the destination value. If the Source Bank is an 16 bit bank, then the â€œOperâ€ is the address in that bank where the operand is.

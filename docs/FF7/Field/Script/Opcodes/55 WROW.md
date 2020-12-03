@@ -2,7 +2,7 @@
 title: 55 WROW
 ---
 
-[Home](../../../../Main%20Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 55 WROW
+[Home](../../../../Main Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 55 WROW
 
 -   Opcode: **0x55**
 -   Short name: **WROW**
@@ -15,18 +15,9 @@ title: 55 WROW
 
 #### Arguments
 
--   **const UByte** *N*: The ID of the [WINDOW][] whose height will be
-    set.
--   **const UByte** *R*: Number of rows of text that should fit in this
-    window.
+-   **const UByte** *N*: The ID of the [WINDOW](50 WINDOW.md) whose height will be set.
+-   **const UByte** *R*: Number of rows of text that should fit in this window.
 
 #### Description
 
-Sets the height of the window with ID *N*, by adjusting it to fit a
-specified number of rows of text, as given by *R*. If the dialog does
-not fit after adjusting the height of the window, the player will be
-able to scroll the dialog in the window by pressing \[OK\] to see the
-proceeding lines of text. When all text has scrolled, the window will
-close as normal.
-
-  [WINDOW]: 50%20WINDOW.md "wikilink"
+Sets the height of the window with ID *N*, by adjusting it to fit a specified number of rows of text, as given by *R*. If the dialog does not fit after adjusting the height of the window, the player will be able to scroll the dialog in the window by pressing \[OK\] to see the proceeding lines of text. When all text has scrolled, the window will close as normal.

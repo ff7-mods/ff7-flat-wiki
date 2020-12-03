@@ -2,8 +2,6 @@
 title: Overview
 ---
 
-[Home](../../Main%20Page.md) > [FF7](../../FF7.md) > [The Kernel](../The%20Kernel.md) > Overview
+[Home](../../Main Page.md) > [FF7](../../FF7.md) > [The Kernel](../The Kernel.md) > Overview
 
-1.  REDIRECT [FF7/Kernel/Overview][]
-
-  [FF7/Kernel/Overview]: ../Kernel/Overview.md "wikilink"
+1.  REDIRECT [FF7/Kernel/Overview](../Kernel/Overview.md)

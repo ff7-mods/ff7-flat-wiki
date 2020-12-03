@@ -2,7 +2,7 @@
 title: DA AKAO2
 ---
 
-[Home](../../../../Main%20Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > DA AKAO2
+[Home](../../../../Main Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > DA AKAO2
 
 -   Opcode: **0xDA**
 -   Short name: **AKAO2**
@@ -15,17 +15,12 @@ title: DA AKAO2
 
 #### Arguments
 
--   **const Bit\[4\]** *B1*: Bank to retrieve *Param1*, or zero if
-    *Param1* is specified as a literal value.
--   **const Bit\[4\]** *B2*: Bank to retrieve *Param2*, or zero if
-    *Param2* is specified as a literal value.
--   **const Bit\[4\]** *B3*: Bank to retrieve *Param3*, or zero if
-    *Param3* is specified as a literal value.
--   **const Bit\[4\]** *B4*: Bank to retrieve *Param4*, or zero if
-    *Param4* is specified as a literal value.
+-   **const Bit\[4\]** *B1*: Bank to retrieve *Param1*, or zero if *Param1* is specified as a literal value.
+-   **const Bit\[4\]** *B2*: Bank to retrieve *Param2*, or zero if *Param2* is specified as a literal value.
+-   **const Bit\[4\]** *B3*: Bank to retrieve *Param3*, or zero if *Param3* is specified as a literal value.
+-   **const Bit\[4\]** *B4*: Bank to retrieve *Param4*, or zero if *Param4* is specified as a literal value.
 -   **const Bit\[4\]** *0*: Zero.
--   **const Bit\[4\]** *B6*: Bank to retrieve *Param5*, or zero if
-    *Param5* is specified as a literal value.
+-   **const Bit\[4\]** *B6*: Bank to retrieve *Param5*, or zero if *Param5* is specified as a literal value.
 -   **const UByte** *Op*: Operation to perform.
 -   **const UShort** *Param1*: Parameter 1.
 -   **const UShort** *Param2*: Parameter 2.
@@ -35,10 +30,6 @@ title: DA AKAO2
 
 #### Description
 
-Perform an operation described by *Op*, and uses the parameters
-depending on the operation.
+Perform an operation described by *Op*, and uses the parameters depending on the operation.
 
-[Opcode list][]
-
-  [Opcode list]: F2%20AKAO.md#Operation%20list
-    "wikilink"
+[Opcode list](F2 AKAO.md#Operation list)

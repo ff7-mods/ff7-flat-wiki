@@ -2,9 +2,9 @@
 title: GMO Format
 ---
 
-[Home](../Main%20Page.md) > [PSP](../PSP.md) > GMO Format
+[Home](../Main Page.md) > [PSP](../PSP.md) > GMO Format
 
-<small>Last updated: [Koral][] 06:48, 7 Apr 2009 (EDT)</small>
+<small>Last updated: [Koral](../User:Koral.md)</small>
 
 # GMO Model-data container
 
@@ -17,14 +17,9 @@ title: GMO Format
 <small>Information: **MrAdults**, **Ukurere**</small>
 
   
-\[GMO\] Files consist of various Chunks defining the type of data they
-contain, with no initial hard-coded offsets in the begining of the file.
-Each chunk must be parsed seperatly to determine its Type and Size,
-either to skip it entirey or attempt to extract the information
-contained within.
+\[GMO\] Files consist of various Chunks defining the type of data they contain, with no initial hard-coded offsets in the begining of the file. Each chunk must be parsed seperatly to determine its Type and Size, either to skip it entirey or attempt to extract the information contained within.
 
-As such, parsing these \[GMO\] files is a similar mechanism to parsing
-generic 3DS files.
+As such, parsing these \[GMO\] files is a similar mechanism to parsing generic 3DS files.
 
   
 
@@ -42,33 +37,28 @@ After this comes the first specialised Chunk.
 
 ## Chunks
 
-Each Chunk contains an initial local header describing the Type and Size
-of the contents to come.
+Each Chunk contains an initial local header describing the Type and Size of the contents to come.
 
 `   0x00   SHORT   Chunk-Type`  
 `   0x02   SHORT   Size of Chunk-Header`  
 `   0x04   LONG    Size of Chunk-Data`
 
   
-A number of Chunk-Types have been discovered, described in detail in the
-sections to follow.
+A number of Chunk-Types have been discovered, described in detail in the sections to follow.
 
   
 
 ### 0x0002 - File Start
 
-This Chunk can be described as the root Chunk containing all Sub-Chunks
-within.
+This Chunk can be described as the root Chunk containing all Sub-Chunks within.
 
   
 
 ### 0x0003 - Sub-File
 
-These Chunks mark the exact nature of the Chunks which follow, and can
-be determined by reading the last SHORT of the chunk.
+These Chunks mark the exact nature of the Chunks which follow, and can be determined by reading the last SHORT of the chunk.
 
-They usually mark Model or Skeletal data, although there may be more
-types which are currently undocumented.
+They usually mark Model or Skeletal data, although there may be more types which are currently undocumented.
 
 Known Values:
 
@@ -109,7 +99,4 @@ Known Values:
 
 # References
 
--   [<http://www.richwhitehouse.com/index.php?postid=34>][]
-
-  [Koral]: ../User:Koral.md "wikilink"
-  [<http://www.richwhitehouse.com/index.php?postid=34>]: http://www.richwhitehouse.com/index.php?postid=34
+-   [<http://www.richwhitehouse.com/index.php?postid=34>](http://www.richwhitehouse.com/index.php?postid=34)

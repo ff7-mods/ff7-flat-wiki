@@ -2,7 +2,7 @@
 title: 99 RANDOM
 ---
 
-[Home](../../../../Main%20Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 99 RANDOM
+[Home](../../../../Main Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 99 RANDOM
 
 -   Opcode: **0x99**
 -   Short name: **RANDOM**
@@ -20,6 +20,4 @@ title: 99 RANDOM
 
 #### Description
 
-Places a random 8-bit value into the destination bank and address
-specified. If you specify a 16-bit bank, only the lower byte is
-randomised.
+Places a random 8-bit value into the destination bank and address specified. If you specify a 16-bit bank, only the lower byte is randomised.

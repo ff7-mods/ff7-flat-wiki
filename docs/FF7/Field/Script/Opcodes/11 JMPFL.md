@@ -2,7 +2,7 @@
 title: 11 JMPFL
 ---
 
-[Home](../../../../Main%20Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 11 JMPFL
+[Home](../../../../Main Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 11 JMPFL
 
 -   Opcode: **0x11**
 -   Short name: **JMPFL**
@@ -19,9 +19,4 @@ title: 11 JMPFL
 
 #### Description
 
-Jumps forward in the current script a specified amount. The jump begins
-just after the jump opcode itself and then skips the specified number of
-bytes. Unlike [JMPF][], this jump command allows jumps longer than 0xFF
-bytes.
-
-  [JMPF]: 10%20JMPF.md "wikilink"
+Jumps forward in the current script a specified amount. The jump begins just after the jump opcode itself and then skips the specified number of bytes. Unlike [JMPF](10 JMPF.md), this jump command allows jumps longer than 0xFF bytes.

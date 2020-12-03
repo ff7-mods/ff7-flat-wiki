@@ -2,21 +2,13 @@
 title: Overview
 ---
 
-[Home](../../../Main%20Page.md) > [FF7](../../../FF7.md) > [PSX](../../PSX.md) > [Sound](../Sound.md) > Overview
+[Home](../../../Main Page.md) > [FF7](../../../FF7.md) > [PSX](../../PSX.md) > [Sound](../Sound.md) > Overview
 
 ## Overview
 
-PSX FF7 sound system is tightly connected with PSX SPU implementation.
-There are 2 main types of sounds in FF7: streaming sound (background
-noise in video sequences) and tracker sound. Square Enix programmers
-didn't use any standard PSX formats such as SEQ, VAB & VAG, they wrote
-their own custom tracker. Streaming sound is standard PSX XA-ADPCM
-format, all sound streaming data is in Mode 2 sectors on FF7 CDROM game
-discs.
+PSX FF7 sound system is tightly connected with PSX SPU implementation. There are 2 main types of sounds in FF7: streaming sound (background noise in video sequences) and tracker sound. Square Enix programmers didn't use any standard PSX formats such as SEQ, VAB & VAG, they wrote their own custom tracker. Streaming sound is standard PSX XA-ADPCM format, all sound streaming data is in Mode 2 sectors on FF7 CDROM game discs.
 
-The custom tracker is often called AKAO and was programmed by Square
-Enix sound programmer Minoru Akao. FF7 uses the earliest version of the
-PlayStation AKAO sound driver.
+The custom tracker is often called AKAO and was programmed by Square Enix sound programmer Minoru Akao. FF7 uses the earliest version of the PlayStation AKAO sound driver.
 
 -   1st Generation (there are various minor differences between games)
     -   Final Fantasy 7 (1997)

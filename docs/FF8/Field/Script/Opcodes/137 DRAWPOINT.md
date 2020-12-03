@@ -2,7 +2,7 @@
 title: 137 DRAWPOINT
 ---
 
-[Home](../../../../Main%20Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 137 DRAWPOINT
+[Home](../../../../Main Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 137 DRAWPOINT
 
 -   Opcode: **0x137**
 -   Short name: **DRAWPOINT**
@@ -21,8 +21,7 @@ DrawPointID
 
 #### Description
 
-Sets drawable magic to the one from hardcoded array at index:
-DrawPointID-1
+Sets drawable magic to the one from hardcoded array at index: DrawPointID-1
 
 **array**:
 

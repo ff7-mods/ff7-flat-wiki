@@ -2,37 +2,32 @@
 title: Model Formats
 ---
 
-[Home](../Main%20Page.md) > [FF7:CC](../FF7:CC.md) > Model Formats
+[Home](../Main Page.md) > [FF7:CC](../FF7:CC.md) > Model Formats
 
-<small>[Koral][] 16:59, 29 Mar 2009 (EDT)</small>
+<small>[Koral](../User:Koral.md)</small>
 
 # Known FF7:CC Model Formats
 
 -   \[\[FF7:CC/Model Formats\#exp Format\|\[!\] (exp) Format\]\]
 
-Note that the Vertices must decoded in accordance with the PSP-GPU
-specifications, detailed below.
+Note that the Vertices must decoded in accordance with the PSP-GPU specifications, detailed below.
 
 # PSP Vertex Decoding and Rendering
 
-<small>Stub -- lots of info, may require a new page entirely devoted to
-this</small>
+<small>Stub -- lots of info, may require a new page entirely devoted to this</small>
 
 TODO
 
 ## exp Format
 
-\[!\] files contain all the information neccessary to correctly render
-and animate any 3D geometry on the PSP.
+\[!\] files contain all the information neccessary to correctly render and animate any 3D geometry on the PSP.
 
-Each \[!\]-File contains multiple Models and Textures to represent a
-single entity to render, additionally storing skeletal heirarchy and
-animation data chunks.
+Each \[!\]-File contains multiple Models and Textures to represent a single entity to render, additionally storing skeletal heirarchy and animation data chunks.
 
 These files include
 
--   [TYPE-0][] Characters, Monsters, NPCs and various prop Models
--   [TYPE-1][] Location Map Models
+-   [TYPE-0](Model Formats.md#exp TYPE-0 Models) Characters, Monsters, NPCs and various prop Models
+-   [TYPE-1](Model Formats.md#exp TYPE-1 Models) Location Map Models
 
 ### File Structure
 
@@ -70,8 +65,7 @@ These files include
            0x00   DWORD: TYPE of data [see notes]
            0x04   beginning of PSP-Encoded vertex data [see notes]
 
-The \*TYPE\* value determines how to parse the vertex-data which
-follows, and known values are:
+The \*TYPE\* value determines how to parse the vertex-data which follows, and known values are:
 
 -   00 - Used for Characters, Monsters, Props, etc
 -   01 - Used for Location-Maps
@@ -96,19 +90,16 @@ See the section on PSP-GPU for more information on parsing the vertices.
 
             [see notes]
 
-The PIXEL and PALLETE data are as per the [\[TEX][1]\] format
+The PIXEL and PALLETE data are as per the [\[TEX](Image Formats.md#TEX Format)\] format
 
     [Unknown Chunks]
        ?
 
 ## exp TYPE-0 Models
 
-These files use Skin-Weighted vertices exclusively, representing all the
-**Characters, Monsters, NPCs** and **small Event-specific props** shown
-throughout the game.
+These files use Skin-Weighted vertices exclusively, representing all the **Characters, Monsters, NPCs** and **small Event-specific props** shown throughout the game.
 
-This is a complete list of the RAW files corresponding to the in-game
-entity:
+This is a complete list of the RAW files corresponding to the in-game entity:
 
     2162 Zack - Soldier 1st Class
     2163 Zack - after Angeal's death
@@ -320,18 +311,10 @@ entity:
     2455 Worm
     2456-2457 Zack's last moment
 
-<small> -- [SilverWings][] </small>
+<small> -- [SilverWings](http://forums.qhimm.com/index.php?action=profile;u=3658) </small>
 
 ## exp TYPE-1 Models
 
 <small>Stub -- incomplete</small>
 
-These files contain static geometry with initial bounding-box data
-preceeding the vertex data, and usually represent all the **Location Map
-models** to render within the game.
-
-  [Koral]: ../User:Koral.md "wikilink"
-  [TYPE-0]: Model%20Formats.md#exp%20TYPE-0%20Models "wikilink"
-  [TYPE-1]: Model%20Formats.md#exp%20TYPE-1%20Models "wikilink"
-  [1]: Image%20Formats.md#TEX%20Format "wikilink"
-  [SilverWings]: http://forums.qhimm.com/index.php?action=profile;u=3658
+These files contain static geometry with initial bounding-box data preceeding the vertex data, and usually represent all the **Location Map models** to render within the game.

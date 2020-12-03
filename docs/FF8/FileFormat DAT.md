@@ -2,16 +2,13 @@
 title: FileFormat DAT
 ---
 
-[Home](../Main%20Page.md) > [FF8](../FF8.md) > FileFormat DAT
+[Home](../Main Page.md) > [FF8](../FF8.md) > FileFormat DAT
 
-By Mirex, JWP, random\_npc and myst6re. Edit: We now know the animation
-and skeleton- see
-<https://github.com/MaKiPL/OpenVIII/blob/4ac151daad7cd1475eb0694dd0715bc35d7a4b39/FF8/debug_battleDat.cs>
+By Mirex, JWP, random\_npc and myst6re. Edit: We now know the animation and skeleton- see <https://github.com/MaKiPL/OpenVIII/blob/4ac151daad7cd1475eb0694dd0715bc35d7a4b39/FF8/debug_battleDat.cs>
 
 ## Header
 
-DAT file is divided into 11 sections (except for c0m127.dat, which
-contains only 2 sections : 7th and 8th).
+DAT file is divided into 11 sections (except for c0m127.dat, which contains only 2 sections : 7th and 8th).
 
 | Offset              | Length                | Description                                            |
 |---------------------|-----------------------|--------------------------------------------------------|
@@ -145,208 +142,13 @@ Can be empty.
 
 ## Section 7: Informations & stats
 
-<table>
-<thead>
-<tr class="header">
-<th><p>Offset</p></th>
-<th><p>Length</p></th>
-<th><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>0</p></td>
-<td><p>24 bytes</p></td>
-<td><p>Monster name</p></td>
-</tr>
-<tr class="even">
-<td><p>24</p></td>
-<td><p>4 bytes</p></td>
-<td><p>HP values</p></td>
-</tr>
-<tr class="odd">
-<td><p>28</p></td>
-<td><p>4 bytes</p></td>
-<td><p>Str values</p></td>
-</tr>
-<tr class="even">
-<td><p>32</p></td>
-<td><p>4 bytes</p></td>
-<td><p>Vit values</p></td>
-</tr>
-<tr class="odd">
-<td><p>36</p></td>
-<td><p>4 bytes</p></td>
-<td><p>Mag values</p></td>
-</tr>
-<tr class="even">
-<td><p>40</p></td>
-<td><p>4 bytes</p></td>
-<td><p>Spr values</p></td>
-</tr>
-<tr class="odd">
-<td><p>44</p></td>
-<td><p>4 bytes</p></td>
-<td><p>Spd values</p></td>
-</tr>
-<tr class="even">
-<td><p>48</p></td>
-<td><p>4 bytes</p></td>
-<td><p>Eva values</p></td>
-</tr>
-<tr class="odd">
-<td><p>52</p></td>
-<td><p>16*4 bytes</p></td>
-<td><p>Abilities, low level</p></td>
-</tr>
-<tr class="even">
-<td><p>116</p></td>
-<td><p>16*4 bytes</p></td>
-<td><p>Abilities, med level</p></td>
-</tr>
-<tr class="odd">
-<td><p>180</p></td>
-<td><p>16*4 bytes</p></td>
-<td><p>Abilities, high level</p></td>
-</tr>
-<tr class="even">
-<td><p>244</p></td>
-<td><p>1 byte</p></td>
-<td><p>Med level start</p></td>
-</tr>
-<tr class="odd">
-<td><p>245</p></td>
-<td><p>1 byte</p></td>
-<td><p>High level start</p></td>
-</tr>
-<tr class="even">
-<td><p>246</p></td>
-<td><p>1 byte</p></td>
-<td><p>Unknown (flags, 3 bits used)</p></td>
-</tr>
-<tr class="odd">
-<td><p>247</p></td>
-<td><p>1 byte</p></td>
-<td><p>[LSB] Zombie / Fly / zz1 / zz2 / zz3 / Auto-Reflect / Auto-Shell / Auto-Protect [MSB]</p></td>
-</tr>
-<tr class="even">
-<td><p>248</p></td>
-<td><p>3 bytes</p></td>
-<td><p>Cards (low/med/high)</p></td>
-</tr>
-<tr class="odd">
-<td><p>251</p></td>
-<td><p>3 bytes</p></td>
-<td><p>Devour (low/med/high)</p></td>
-</tr>
-<tr class="even">
-<td><p>254</p></td>
-<td><p>1 byte</p></td>
-<td><p>[LSB] zz1 / zz2 / unused / unused / unused / unused / Diablos missed / Always obtains card [MSB]</p></td>
-</tr>
-<tr class="odd">
-<td><p>255</p></td>
-<td><p>1 byte</p></td>
-<td><p>Unknown (flags, 4 bits used)</p></td>
-</tr>
-<tr class="even">
-<td><p>256</p></td>
-<td><p>2 bytes</p></td>
-<td><p>Extra EXP</p></td>
-</tr>
-<tr class="odd">
-<td><p>258</p></td>
-<td><p>2 bytes</p></td>
-<td><p>EXP</p></td>
-</tr>
-<tr class="even">
-<td><p>260</p></td>
-<td><p>8 bytes</p></td>
-<td><p>Draw (low)</p></td>
-</tr>
-<tr class="odd">
-<td><p>268</p></td>
-<td><p>8 bytes</p></td>
-<td><p>Draw (med)</p></td>
-</tr>
-<tr class="even">
-<td><p>276</p></td>
-<td><p>8 bytes</p></td>
-<td><p>Draw (high)</p></td>
-</tr>
-<tr class="odd">
-<td><p>284</p></td>
-<td><p>8 bytes</p></td>
-<td><p>Mug (low)</p></td>
-</tr>
-<tr class="even">
-<td><p>292</p></td>
-<td><p>8 bytes</p></td>
-<td><p>Mug (med)</p></td>
-</tr>
-<tr class="odd">
-<td><p>300</p></td>
-<td><p>8 bytes</p></td>
-<td><p>Mug (high)</p></td>
-</tr>
-<tr class="even">
-<td><p>308</p></td>
-<td><p>8 bytes</p></td>
-<td><p>Drop (low)</p></td>
-</tr>
-<tr class="odd">
-<td><p>316</p></td>
-<td><p>8 bytes</p></td>
-<td><p>Drop (med)</p></td>
-</tr>
-<tr class="even">
-<td><p>324</p></td>
-<td><p>8 bytes</p></td>
-<td><p>Drop (high)</p></td>
-</tr>
-<tr class="odd">
-<td><p>332</p></td>
-<td><p>1 byte</p></td>
-<td><p>Mug rate</p></td>
-</tr>
-<tr class="even">
-<td><p>333</p></td>
-<td><p>1 byte</p></td>
-<td><p>Drop rate</p></td>
-</tr>
-<tr class="odd">
-<td><p>334</p></td>
-<td><p>1 byte</p></td>
-<td><p>Padding (0x00)</p></td>
-</tr>
-<tr class="even">
-<td><p>335</p></td>
-<td><p>1 byte</p></td>
-<td><p>APs</p></td>
-</tr>
-<tr class="odd">
-<td><p>336</p></td>
-<td><p>16 bytes</p></td>
-<td><p>Unknown</p></td>
-</tr>
-<tr class="even">
-<td><p>352</p></td>
-<td><p>8 bytes</p></td>
-<td><p>Elemental resistance<br />
-(Fire, Ice, Thunder, Earth, Poison, Wind, Water, Holy)</p></td>
-</tr>
-<tr class="odd">
-<td><p>360</p></td>
-<td><p>20 bytes</p></td>
-<td><p>Mental resistance<br />
+<table><thead><tr class="header"><th><p>Offset</p></th><th><p>Length</p></th><th><p>Description</p></th></tr></thead><tbody><tr class="odd"><td><p>0</p></td><td><p>24 bytes</p></td><td><p>Monster name</p></td></tr><tr class="even"><td><p>24</p></td><td><p>4 bytes</p></td><td><p>HP values</p></td></tr><tr class="odd"><td><p>28</p></td><td><p>4 bytes</p></td><td><p>Str values</p></td></tr><tr class="even"><td><p>32</p></td><td><p>4 bytes</p></td><td><p>Vit values</p></td></tr><tr class="odd"><td><p>36</p></td><td><p>4 bytes</p></td><td><p>Mag values</p></td></tr><tr class="even"><td><p>40</p></td><td><p>4 bytes</p></td><td><p>Spr values</p></td></tr><tr class="odd"><td><p>44</p></td><td><p>4 bytes</p></td><td><p>Spd values</p></td></tr><tr class="even"><td><p>48</p></td><td><p>4 bytes</p></td><td><p>Eva values</p></td></tr><tr class="odd"><td><p>52</p></td><td><p>16*4 bytes</p></td><td><p>Abilities, low level</p></td></tr><tr class="even"><td><p>116</p></td><td><p>16*4 bytes</p></td><td><p>Abilities, med level</p></td></tr><tr class="odd"><td><p>180</p></td><td><p>16*4 bytes</p></td><td><p>Abilities, high level</p></td></tr><tr class="even"><td><p>244</p></td><td><p>1 byte</p></td><td><p>Med level start</p></td></tr><tr class="odd"><td><p>245</p></td><td><p>1 byte</p></td><td><p>High level start</p></td></tr><tr class="even"><td><p>246</p></td><td><p>1 byte</p></td><td><p>Unknown (flags, 3 bits used)</p></td></tr><tr class="odd"><td><p>247</p></td><td><p>1 byte</p></td><td><p>[LSB] Zombie / Fly / zz1 / zz2 / zz3 / Auto-Reflect / Auto-Shell / Auto-Protect [MSB]</p></td></tr><tr class="even"><td><p>248</p></td><td><p>3 bytes</p></td><td><p>Cards (low/med/high)</p></td></tr><tr class="odd"><td><p>251</p></td><td><p>3 bytes</p></td><td><p>Devour (low/med/high)</p></td></tr><tr class="even"><td><p>254</p></td><td><p>1 byte</p></td><td><p>[LSB] zz1 / zz2 / unused / unused / unused / unused / Diablos missed / Always obtains card [MSB]</p></td></tr><tr class="odd"><td><p>255</p></td><td><p>1 byte</p></td><td><p>Unknown (flags, 4 bits used)</p></td></tr><tr class="even"><td><p>256</p></td><td><p>2 bytes</p></td><td><p>Extra EXP</p></td></tr><tr class="odd"><td><p>258</p></td><td><p>2 bytes</p></td><td><p>EXP</p></td></tr><tr class="even"><td><p>260</p></td><td><p>8 bytes</p></td><td><p>Draw (low)</p></td></tr><tr class="odd"><td><p>268</p></td><td><p>8 bytes</p></td><td><p>Draw (med)</p></td></tr><tr class="even"><td><p>276</p></td><td><p>8 bytes</p></td><td><p>Draw (high)</p></td></tr><tr class="odd"><td><p>284</p></td><td><p>8 bytes</p></td><td><p>Mug (low)</p></td></tr><tr class="even"><td><p>292</p></td><td><p>8 bytes</p></td><td><p>Mug (med)</p></td></tr><tr class="odd"><td><p>300</p></td><td><p>8 bytes</p></td><td><p>Mug (high)</p></td></tr><tr class="even"><td><p>308</p></td><td><p>8 bytes</p></td><td><p>Drop (low)</p></td></tr><tr class="odd"><td><p>316</p></td><td><p>8 bytes</p></td><td><p>Drop (med)</p></td></tr><tr class="even"><td><p>324</p></td><td><p>8 bytes</p></td><td><p>Drop (high)</p></td></tr><tr class="odd"><td><p>332</p></td><td><p>1 byte</p></td><td><p>Mug rate</p></td></tr><tr class="even"><td><p>333</p></td><td><p>1 byte</p></td><td><p>Drop rate</p></td></tr><tr class="odd"><td><p>334</p></td><td><p>1 byte</p></td><td><p>Padding (0x00)</p></td></tr><tr class="even"><td><p>335</p></td><td><p>1 byte</p></td><td><p>APs</p></td></tr><tr class="odd"><td><p>336</p></td><td><p>16 bytes</p></td><td><p>Unknown</p></td></tr><tr class="even"><td><p>352</p></td><td><p>8 bytes</p></td><td><p>Elemental resistance<br />
+(Fire, Ice, Thunder, Earth, Poison, Wind, Water, Holy)</p></td></tr><tr class="odd"><td><p>360</p></td><td><p>20 bytes</p></td><td><p>Mental resistance<br />
 (Death, Poison, Petrify, Darkness,<br />
 Silence, Beserk, Zombie, Sleep,<br />
 Haste, Slow, Stop, Regen,<br />
 Reflect, Doom, Slow Petrify, Float,<br />
-Confuse, Drain, Expulsion, ???)</p></td>
-</tr>
-</tbody>
-</table>
+Confuse, Drain, Expulsion, ???)</p></td></tr></tbody></table>
 
 ### Abilities
 
@@ -356,9 +158,7 @@ Confuse, Drain, Expulsion, ???)</p></td>
 `    uint16 ability_id;`  
 `}`
 
-kernel\_id is the used table in kernel.bin. May be 0x02 (= magic), 0x04
-(= item) or 0x08 (= monster ability). ability\_id is the ability in the
-selected kernel table.
+kernel\_id is the used table in kernel.bin. May be 0x02 (= magic), 0x04 (= item) or 0x08 (= monster ability). ability\_id is the ability in the selected kernel table.
 
 ### Draw/mug/drop
 
@@ -394,8 +194,7 @@ selected kernel table.
 
 ### Texts
 
-Text offsets is a list of text positions (2 bytes each) in the text
-sub-section.
+Text offsets is a list of text positions (2 bytes each) in the text sub-section.
 
 ## Section 9: Sounds
 
@@ -414,7 +213,7 @@ Contains AKAO sequence + unknown data (can be empty).
 
 ## Section 11: Textures
 
-Contains some [TIMs][] with size 128x128 (8bit paletized).
+Contains some [TIMs](../PSX/TIM format.md).
 
 | Offset          | Length            | Description    |
 |-----------------|-------------------|----------------|
@@ -422,5 +221,3 @@ Contains some [TIMs][] with size 128x128 (8bit paletized).
 | 4               | nbTIMs \* 4 bytes | TIMs Positions |
 | 4 + nbTIMs \* 4 | 4 bytes           | End of file    |
 | 8 + nbTIMs \* 4 | Varies \* nbTIMs  | TIMs           |
-
-  [TIMs]: ../PSX/TIM%20format.md "wikilink"

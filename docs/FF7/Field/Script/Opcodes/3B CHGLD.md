@@ -2,7 +2,7 @@
 title: 3B CHGLD
 ---
 
-[Home](../../../../Main%20Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 3B CHGLD
+[Home](../../../../Main Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 3B CHGLD
 
 -   Opcode: **0x3B**
 -   Short name: **CHGLD**
@@ -22,8 +22,4 @@ title: 3B CHGLD
 
 #### Description
 
-Copies the amount of gil the party has into the destination addresses.
-As the gil amount is a four-byte value, the arguments require two
-destination addresses to place two two-byte values into. Address 1 takes
-the lower two bytes of the gil amount, while address 2 takes the higher
-two bytes.
+Copies the amount of gil the party has into the destination addresses. As the gil amount is a four-byte value, the arguments require two destination addresses to place two two-byte values into. Address 1 takes the lower two bytes of the gil amount, while address 2 takes the higher two bytes.

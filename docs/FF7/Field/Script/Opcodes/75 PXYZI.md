@@ -2,7 +2,7 @@
 title: 75 PXYZI
 ---
 
-[Home](../../../../Main%20Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 75 PXYZI
+[Home](../../../../Main Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 75 PXYZI
 
 -   Opcode: **0x75**
 -   Short name: **PXYZI**
@@ -19,19 +19,12 @@ title: 75 PXYZI
 -   **const Bit\[4\]** *B2*: Bank to store *Y*.
 -   **const Bit\[4\]** *B3*: Bank to store *Z*.
 -   **const Bit\[4\]** *B4*: Bank to store *I*.
--   **const UByte** *P*: Party member to retrieve data from; range is 0
-    to 2.
--   **const UByte** *X*: Address to store the X-coordinate of the party
-    member.
--   **const UByte** *Y*: Address to store the Y-coordinate of the party
-    member.
--   **const UByte** *Z*: Address to store the Z-coordinate of the party
-    member.
--   **const UByte** *I*: Address to store the ID of the walkmesh
-    triangle the party member is standing on.
+-   **const UByte** *P*: Party member to retrieve data from; range is 0 to 2.
+-   **const UByte** *X*: Address to store the X-coordinate of the party member.
+-   **const UByte** *Y*: Address to store the Y-coordinate of the party member.
+-   **const UByte** *Z*: Address to store the Z-coordinate of the party member.
+-   **const UByte** *I*: Address to store the ID of the walkmesh triangle the party member is standing on.
 
 #### Description
 
-Retrieves the coordinates of the party member specified by *P*. If an
-invalid party member ID is specified, zeros are stored in the four
-addresses.
+Retrieves the coordinates of the party member specified by *P*. If an invalid party member ID is specified, zeros are stored in the four addresses.

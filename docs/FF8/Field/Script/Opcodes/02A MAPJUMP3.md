@@ -2,7 +2,7 @@
 title: 02A MAPJUMP3
 ---
 
-[Home](../../../../Main%20Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 02A MAPJUMP3
+[Home](../../../../Main Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 02A MAPJUMP3
 
 -   Opcode: **0x02A**
 -   Short name: **MAPJUMP3**
@@ -29,8 +29,4 @@ Walkmesh ID
 
 #### Description
 
-Jump the player to the field with the given ID at the specified
-coordinates. Last parameter is probably the angle to face, because it's
-never above 360 (the highest I've found is 240). Interestingly, the last
-parameter is always even, and except for the values 6 and 10, it's
-always a multiple of 4 in the game.
+Jump the player to the field with the given ID at the specified coordinates. Last parameter is probably the angle to face, because it's never above 360 (the highest I've found is 240). Interestingly, the last parameter is always even, and except for the values 6 and 10, it's always a multiple of 4 in the game.

@@ -2,7 +2,7 @@
 title: INSTRx.DAT
 ---
 
-[Home](../../../Main%20Page.md) > [FF7](../../../FF7.md) > [PSX](../../PSX.md) > [Sound](../Sound.md) > INSTRx.DAT
+[Home](../../../Main Page.md) > [FF7](../../../FF7.md) > [PSX](../../PSX.md) > [Sound](../Sound.md) > INSTRx.DAT
 
 There are two files of such type:
 
@@ -40,11 +40,4 @@ These files contain index data for all instruments from INSTRx.ALL.
 `  uint32_t pitch[12];    // predefined pitch set for instrument`  
 `};`
 
-Each index file takes 4 CDROM sectors, so rest unused data filled with
-zeroes. Attack and loop offsets isn't real file offsets, it's offsets to
-instruments in SPU internal memory (all instrument data from INSTRx.ALL
-files are copied by DMA to SPU memory in one chunk), so to translate
-INSTR.ALL you need to subtract 0x0ff0 (or you need to subtract 0x38540
-for INSTR2.DAT). INSTR.DAT file resides in PSX RAM at address 0x80075f30
-and when it's needed to load any instrument or to reset pitch for this
-instrument this table is used.
+Each index file takes 4 CDROM sectors, so rest unused data filled with zeroes. Attack and loop offsets isn't real file offsets, it's offsets to instruments in SPU internal memory (all instrument data from INSTRx.ALL files are copied by DMA to SPU memory in one chunk), so to translate INSTR.ALL you need to subtract 0x0ff0 (or you need to subtract 0x38540 for INSTR2.DAT). INSTR.DAT file resides in PSX RAM at address 0x80075f30 and when it's needed to load any instrument or to reset pitch for this instrument this table is used.

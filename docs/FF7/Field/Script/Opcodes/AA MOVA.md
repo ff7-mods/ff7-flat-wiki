@@ -2,7 +2,7 @@
 title: AA MOVA
 ---
 
-[Home](../../../../Main%20Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > AA MOVA
+[Home](../../../../Main Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > AA MOVA
 
 -   Opcode: **0xAA**
 -   Short name: **MOVA**
@@ -19,16 +19,8 @@ title: AA MOVA
 
 #### Description
 
-Moves the field object towards the entity with the given ID. Note that
-this is *not* a field object ID, in that the entity ID includes
-non-visible entities; in other words, this is an offset to an entity in
-the entire entity list, not just the visible entity list. However,
-attempting to move the field object to an entity that is not visible
-will fail, in that the MOVA opcode is ignored.
+Moves the field object towards the entity with the given ID. Note that this is *not* a field object ID, in that the entity ID includes non-visible entities; in other words, this is an offset to an entity in the entire entity list, not just the visible entity list. However, attempting to move the field object to an entity that is not visible will fail, in that the MOVA opcode is ignored.
 
-Also, the movement of the model comes up to the point of collision
-between the source and target models. It does not go all the way to the
-target models' position.
+Also, the movement of the model comes up to the point of collision between the source and target models. It does not go all the way to the target models' position.
 
-The moved entity also has to take a path adhering to the current active
-triangles on the walkmesh
+The moved entity also has to take a path adhering to the current active triangles on the walkmesh

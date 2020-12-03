@@ -2,7 +2,7 @@
 title: 0FE FACEDIRA
 ---
 
-[Home](../../../../Main%20Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 0FE FACEDIRA
+[Home](../../../../Main Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 0FE FACEDIRA
 
 -   Opcode: **0x0FE**
 -   Short name: **FACEDIRA**
@@ -23,5 +23,4 @@ none
 
 #### Description
 
-Turns this actor's head to face the given actor over the duration of
-*frame count*.
+Turns this actor's head to face the given actor over the duration of *frame count*.

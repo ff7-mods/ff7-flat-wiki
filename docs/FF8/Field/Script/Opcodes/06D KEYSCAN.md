@@ -2,7 +2,7 @@
 title: 06D KEYSCAN
 ---
 
-[Home](../../../../Main%20Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 06D KEYSCAN
+[Home](../../../../Main Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 06D KEYSCAN
 
 -   Opcode: **0x06D**
 -   Short name: **KEYSCAN**
@@ -32,7 +32,4 @@ none
 
 #### Description
 
-Writes 1 to temporary variable 0 (access with PSHI\_L 0) if the user is
-pressing any of the indicated keys. 0 otherwise. The script does not
-pause while doing this, so you have to run it in a touch or push script,
-or inside a looping subroutine.
+Writes 1 to temporary variable 0 (access with PSHI\_L 0) if the user is pressing any of the indicated keys. 0 otherwise. The script does not pause while doing this, so you have to run it in a touch or push script, or inside a looping subroutine.

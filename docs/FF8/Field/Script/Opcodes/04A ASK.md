@@ -2,7 +2,7 @@
 title: 04A ASK
 ---
 
-[Home](../../../../Main%20Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 04A ASK
+[Home](../../../../Main Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 04A ASK
 
 -   Opcode: **0x04A**
 -   Short name: **ASK**
@@ -31,10 +31,6 @@ none
 
 #### Description
 
-Opens a field message window and lets player choose a single line. ASK
-saves the chosen line index into a temp variable which you can retrieve
-with PSHI\_L 0.
+Opens a field message window and lets player choose a single line. ASK saves the chosen line index into a temp variable which you can retrieve with PSHI\_L 0.
 
-[AASK][] is an upgrade that also lets you set the window position.
-
-  [AASK]: 06F%20AASK.md "wikilink"
+[AASK](06F AASK.md) is an upgrade that also lets you set the window position.

@@ -2,7 +2,7 @@
 title: F8 PMVIE
 ---
 
-[Home](../../../../Main%20Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > F8 PMVIE
+[Home](../../../../Main Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > F8 PMVIE
 
 -   Opcode: **0xF8**
 -   Short name: **PMVIE**
@@ -19,8 +19,7 @@ title: F8 PMVIE
 
 #### Description
 
-Sets the movie file that will be played at a future point in the script
-by [MOVIE][].
+Sets the movie file that will be played at a future point in the script by [MOVIE](F9 MOVIE.md).
 
 #### FF7 Movie ID List
 
@@ -80,5 +79,3 @@ by [MOVIE][].
 | 2F  | funeral.avi   | Aeris funeral                                             |
 | 2F  | car\_1209.avi |                                                           |
 | 2F  | opening.avi   | Opening                                                   |
-
-  [MOVIE]: F9%20MOVIE.md "wikilink"

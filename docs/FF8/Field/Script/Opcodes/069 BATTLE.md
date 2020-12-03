@@ -2,7 +2,7 @@
 title: 069 BATTLE
 ---
 
-[Home](../../../../Main%20Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 069 BATTLE
+[Home](../../../../Main Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 069 BATTLE
 
 -   Opcode: **0x069**
 -   Short name: **BATTLE**
@@ -15,7 +15,7 @@ none
 #### Stack
 
   
-*[Encounter ID][]*
+*[Encounter ID](../../../Encounter Codes.md)*
 
 *Battle Flags*
 
@@ -45,5 +45,3 @@ Begin a battle with the given encounter id.
 +64: Force back attack
 
 +128: unknown
-
-  [Encounter ID]: ../../../Encounter%20Codes.md "wikilink"

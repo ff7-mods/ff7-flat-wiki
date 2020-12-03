@@ -2,7 +2,7 @@
 title: 3A GOLDd
 ---
 
-[Home](../../../../Main%20Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 3A GOLDd
+[Home](../../../../Main Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 3A GOLDd
 
 -   Opcode: **0x3A**
 -   Short name: **GOLDd**
@@ -31,8 +31,6 @@ Decrease by an amount found in memory:
 
 #### Description
 
-Decreases the amount of gil by a constant amount, or by an amount found
-in the source bank *B* and address *A*.
+Decreases the amount of gil by a constant amount, or by an amount found in the source bank *B* and address *A*.
 
-The total gil is capped below by 0; attempts to decrement further will
-fail.
+The total gil is capped below by 0; attempts to decrement further will fail.

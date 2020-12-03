@@ -2,7 +2,7 @@
 title: 0C9 SEPOS
 ---
 
-[Home](../../../../Main%20Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 0C9 SEPOS
+[Home](../../../../Main Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 0C9 SEPOS
 
 -   Opcode: **0x0C9**
 -   Short name: **SEPOS**

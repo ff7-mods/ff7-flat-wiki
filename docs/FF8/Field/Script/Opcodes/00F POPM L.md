@@ -2,7 +2,7 @@
 title: 00F POPM L
 ---
 
-[Home](../../../../Main%20Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 00F POPM L
+[Home](../../../../Main Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 00F POPM L
 
 -   Opcode: **0x00F**
 -   Short name: **POPM\_L**
@@ -18,5 +18,4 @@ Memory adress.
 
 #### Description
 
-Pop *value* from stack and store the first four bytes (long) in
-**Argument**.
+Pop *value* from stack and store the first four bytes (long) in **Argument**.

@@ -2,7 +2,7 @@
 title: 0B GTPYE
 ---
 
-[Home](../../../../Main%20Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 0B GTPYE
+[Home](../../../../Main Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 0B GTPYE
 
 -   Opcode: **0x0A**
 -   Short name: **GTPYE**
@@ -25,14 +25,6 @@ title: 0B GTPYE
 
 #### Description
 
-Retrieves the current party's [Character IDs][] into the banks and
-addresses specified for each party member. It is possible to retrieve
-values into three different banks, one for each member.
+Retrieves the current party's [Character IDs](../../Character ID.md) into the banks and addresses specified for each party member. It is possible to retrieve values into three different banks, one for each member.
 
-This is used to store the player's party configuration before they are
-overridden for a special event that requires a specific character setup.
-The player's original party configuration can then be set back to its
-original setup using [SPTYE][].
-
-  [Character IDs]: ../../Character%20ID.md "wikilink"
-  [SPTYE]: 0A%20SPTYE.md "wikilink"
+This is used to store the player's party configuration before they are overridden for a special event that requires a specific character setup. The player's original party configuration can then be set back to its original setup using [SPTYE](0A SPTYE.md).

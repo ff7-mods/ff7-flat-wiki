@@ -2,7 +2,7 @@
 title: DF MPPAL
 ---
 
-[Home](../../../../Main%20Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > DF MPPAL
+[Home](../../../../Main Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > DF MPPAL
 
 -   Opcode: **0xDF**
 -   Short name: **MPPAL**
@@ -20,10 +20,8 @@ title: DF MPPAL
 -   **const Bit\[4\]** *B3*: Bank for multiply green colour.
 -   **const Bit\[4\]** *B4*: Bank for multiply red colour.
 -   **const Bit\[4\]** *B6*: Bank for size of palette data.
--   **const UByte** *Source palette array id*: Source palette array id.
-    Take data from here and multiply it by BRG colour.
--   **const UByte** *Destination palette array id*: Destination palette
-    array id. Here we store data after multiplication
+-   **const UByte** *Source palette array id*: Source palette array id. Take data from here and multiply it by BRG colour.
+-   **const UByte** *Destination palette array id*: Destination palette array id. Here we store data after multiplication
 -   **const UByte** *Start colour*: Start colour for multiplication.
 -   **const UByte** *Multiply Blue*: Blue value for multiplying.
 -   **const UByte** *Multiply Green*: green value for multiplying.

@@ -2,50 +2,31 @@
 title: DialogWindow
 ---
 
-[Home](../../Main%20Page.md) > [FF7](../../FF7.md) > [Field](../Field.md) > DialogWindow
+[Home](../../Main Page.md) > [FF7](../../FF7.md) > [Field](../Field.md) > DialogWindow
 
 ## Description
 
-Field module of Final Fantasy VII han handle 4 dialog windows at once.
-All data for them stored in structures with size 0x30. There are a lot
-of additional arrays used for variables offsets and many other data used
-by windows.
+Field module of Final Fantasy VII han handle 4 dialog windows at once. All data for them stored in structures with size 0x30. There are a lot of additional arrays used for variables offsets and many other data used by windows.
 
-All windows can be called any time with 0x40 MESSAGE or 0x48 ASK
-opcodes. They will be called all the time, when window is shown on
-screen. Only after window is closed this opcode will be skipped and
-script pointer go to next opcode. There are a lot of window parameters
-opcode. they are set different parameters to window. They are 0x2E WCLS
-0x2F WSIZW 0x36 WSPCL 0x37 WNUMB 0x38 STTIM 0x41 MPARA 0x42 MPRA2 0x50
-WINDOW 0x51 WMOVE 0x52 WMODE 0x53 WREST 0x55 WROW 0x57 SWCOL. All of
-them write parameters directly to structure, but they need to be called
-from the same entity else they wait till the window is closed.
+All windows can be called any time with 0x40 MESSAGE or 0x48 ASK opcodes. They will be called all the time, when window is shown on screen. Only after window is closed this opcode will be skipped and script pointer go to next opcode. There are a lot of window parameters opcode. they are set different parameters to window. They are 0x2E WCLS 0x2F WSIZW 0x36 WSPCL 0x37 WNUMB 0x38 STTIM 0x41 MPARA 0x42 MPRA2 0x50 WINDOW 0x51 WMOVE 0x52 WMODE 0x53 WREST 0x55 WROW 0x57 SWCOL. All of them write parameters directly to structure, but they need to be called from the same entity else they wait till the window is closed.
 
-Window is state driven. The way how window handling input and shown are
-dependent on state. State handling called by MESSAGE and ASK opcode.
-State handling of this two opcodes a bit different. By default window
-state is zero (closed window).
+Window is state driven. The way how window handling input and shown are dependent on state. State handling called by MESSAGE and ASK opcode. State handling of this two opcodes a bit different. By default window state is zero (closed window).
 
 ## Memory Layout
 
-This is offsets to english version of game. But japanese has exactly
-same structure, just offsets a bit different. this is all offsets used
-by dialog windows (opcode reading offsets not included here).
+This is offsets to english version of game. But japanese has exactly same structure, just offsets a bit different. this is all offsets used by dialog windows (opcode reading offsets not included here).
 
-800491D0 character id -&gt; savemap block assosiation id. (0-0, 1-1,
-2-2, 3-3, 4-4, 5-5, 6-6, 7-7, 8-8, 9-6, A-7)
+800491D0 character id -&gt; savemap block assosiation id. (0-0, 1-1, 2-2, 3-3, 4-4, 5-5, 6-6, 7-7, 8-8, 9-6, A-7)
 
 80049208 window RGB. (size \[r\]\[g\]\[b\]x4)
 
-80071E2C number of opened windows. Increment this during window
-initialization. Decrement during closing.
+80071E2C number of opened windows. Increment this during window initialization. Decrement during closing.
 
 8007E7A8 offset to dialog block.
 
 8008326C \[\] windows parent entity (size 0x01).
 
-80083274 \[\]\[\]\[\]\[\] windows data (size 0x30). Pointer to dialog
-string.
+80083274 \[\]\[\]\[\]\[\] windows data (size 0x30). Pointer to dialog string.
 
 80083278 \[\]\[\] windows data (size 0x30). WINDOW x.
 
@@ -55,11 +36,9 @@ string.
 
 8008327E \[\]\[\] windows data (size 0x30). WINDOW height.
 
-80083280 \[\]\[\] windows data (size 0x30). WINDOW current width. Set
-during dialog init (width / 4) (8 - min value).
+80083280 \[\]\[\] windows data (size 0x30). WINDOW current width. Set during dialog init (width / 4) (8 - min value).
 
-80083282 \[\]\[\] windows data (size 0x30). WINDOW current height. Set
-during dialog init (height / 4) (8 - min value).
+80083282 \[\]\[\] windows data (size 0x30). WINDOW current height. Set during dialog init (height / 4) (8 - min value).
 
 80083284 \[\]\[\] windows data (size 0x30). Text scrolling value.
 
@@ -67,8 +46,7 @@ during dialog init (height / 4) (8 - min value).
 
 80083288 \[\]\[\] windows data (size 0x30). Bytes in window string.
 
-8008328A \[\]\[\] windows data (size 0x30). Current row in string.
-Incremented during copy.
+8008328A \[\]\[\] windows data (size 0x30). Current row in string. Incremented during copy.
 
 8008328D \[\] windows data (size 0x30). WMODE style.
 
@@ -76,8 +54,7 @@ Incremented during copy.
 
 8008328F \[\] windows data (size 0x30). WSPCL type.
 
-80083291 \[\] windows data (size 0x30). WNUMB number of digits in
-number.
+80083291 \[\] windows data (size 0x30). WNUMB number of digits in number.
 
 80083294 \[\]\[\]\[\]\[\] windows data (size 0x30). WNUMB number.
 
@@ -105,18 +82,13 @@ number.
 
 8009D7D0 \[\] savemap message speed.
 
-800E0738 digit-&gt;letter assosiation array (10-26 letters from
-character table)
+800E0738 digit-&gt;letter assosiation array (10-26 letters from character table)
 
-800E4214 memory bank array for getting variable for windows. 8 for each
-window. (size 0x8 0x1)
+800E4214 memory bank array for getting variable for windows. 8 for each window. (size 0x8 0x1)
 
-800E4234 reading offsets in dialog in field. One for each window. (size
-0x4).
+800E4234 reading offsets in dialog in field. One for each window. (size 0x4).
 
-800E424C total window height. Height of window with extra rows. Set this
-during B state in window as 8008328A (current row) \* 10 + 11. (size
-0x2).
+800E424C total window height. Height of window with extra rows. Set this during B state in window as 8008328A (current row) \* 10 + 11. (size 0x2).
 
 800E4278 \[\]\[\] name reading offset for dialog windows. (size 0x2).
 
@@ -124,24 +96,19 @@ during B state in window as 8008328A (current row) \* 10 + 11. (size
 
 800E4944 text for windows to diaplay. (size 0x100)
 
-800E4D48 offsets for getting variable from memory block for windows. 8
-for each window. (size 0x10 0x2)
+800E4D48 offsets for getting variable from memory block for windows. 8 for each window. (size 0x10 0x2)
 
-80114278 \[\]\[\] some data for windows. Set this to zero during window
-initialization
+80114278 \[\]\[\] some data for windows. Set this to zero during window initialization
 
 801142CC \[\]\[\] additional rows during text scrolling. (size 0x2).
 
 8011445C \[\]\[\] time to wait for windows. (size 0x2).
 
-80114470 \[\]\[\] field dialog value which content value how mush
-characters add at current character copy. (size 0x08 0x2).
+80114470 \[\]\[\] field dialog value which content value how mush characters add at current character copy. (size 0x08 0x2).
 
-80114480 \[\]\[\] field dialog OK button speed modificator. (size 0x08
-0x2).
+80114480 \[\]\[\] field dialog OK button speed modificator. (size 0x08 0x2).
 
-801144DC \[\]\[\] temp variable string. First we write variable here and
-then copy it to window string. (size 0x10).
+801144DC \[\]\[\] temp variable string. First we write variable here and then copy it to window string. (size 0x10).
 
 8011451C \[\]\[\] current variable read offset. (size 0x2).
 
@@ -153,8 +120,7 @@ then copy it to window string. (size 0x10).
 
 2 - text appears.
 
-3 - pause string output. (next part of sting will be added to outputed
-string after time).
+3 - pause string output. (next part of sting will be added to outputed string after time).
 
 4 - wait for next row (next row of text will show after OK button).
 
@@ -170,16 +136,13 @@ string after time).
 
 A
 
-B - pause string output. (text will be scrolled to next window while you
-hold OK button).
+B - pause string output. (text will be scrolled to next window while you hold OK button).
 
 C - scroll to next row during OK button press.
 
-D - pause string output. (next part of sting will be added to outputed
-string after OK button).
+D - pause string output. (next part of sting will be added to outputed string after OK button).
 
-E - wait for next window (next block of text will show after this).
-Opcodes 0xE8 0xE9.
+E - wait for next window (next block of text will show after this). Opcodes 0xE8 0xE9.
 
 message window states:
 
@@ -189,15 +152,11 @@ state 1: call "dialog\_window\_growth".
 
 state 2: call "dialog\_copy\_text\_from\_field".
 
-state 3: discrease 8011445C (wait time) by 1 each call. When wait time
-== 0, then set state to 2.
+state 3: discrease 8011445C (wait time) by 1 each call. When wait time == 0, then set state to 2.
 
-state 4: if "OK" button (0x0020) pressed then discrease 80083284 (dialog
-scrolling value) by 2. Increment 801142CC (additional rows) by 1. Set
-state to 8.
+state 4: if "OK" button (0x0020) pressed then discrease 80083284 (dialog scrolling value) by 2. Increment 801142CC (additional rows) by 1. Set state to 8.
 
-state 6: if WMODE cbc & 0x01 not set and "OK" button (0x0020) pressed
-then set state to 7 and call "dialog\_window\_discrease".
+state 6: if WMODE cbc & 0x01 not set and "OK" button (0x0020) pressed then set state to 7 and call "dialog\_window\_discrease".
 
 state 7: call "dialog\_window\_discrease".
 
@@ -205,16 +164,13 @@ state 8: call "dialog\_scroll\_text".
 
 state 9: call "dialog\_init\_next\_window".
 
-state B: if "OK" button (0x0020) pressed then set state to C. Discrease
-80083284 (dialog scrolling value) by 2. Set 800E424C to current\_row \*
-10 + 11.
+state B: if "OK" button (0x0020) pressed then set state to C. Discrease 80083284 (dialog scrolling value) by 2. Set 800E424C to current\_row \* 10 + 11.
 
 state C: call "dialog\_scroll\_text\_during\_ok".
 
 state D: if "OK" button (0x0020) pressed then set state to 2.
 
-state E: if "OK" button (0x0020) pressed then call
-"dialog\_init\_next\_window".
+state E: if "OK" button (0x0020) pressed then call "dialog\_init\_next\_window".
 
 ask window states:
 
@@ -224,15 +180,11 @@ state 1: call "dialog\_window\_growth".
 
 state 2: call "dialog\_copy\_text\_from\_field".
 
-state 3: discrease 8011445C (wait time) by 1 each call. When wait time
-== 0, then set state to 2.
+state 3: discrease 8011445C (wait time) by 1 each call. When wait time == 0, then set state to 2.
 
-state 4: if "OK" button (0x0020) pressed then discrease 80083284 (dialog
-scrolling value) by 2. Increment 801142CC (additional rows) by 1. Set
-state to 8.
+state 4: if "OK" button (0x0020) pressed then discrease 80083284 (dialog scrolling value) by 2. Increment 801142CC (additional rows) by 1. Set state to 8.
 
-state 6: if WMODE cbc & 0x01 not set then set (8008328E) enable pointer
-to 1.
+state 6: if WMODE cbc & 0x01 not set then set (8008328E) enable pointer to 1.
 
 `        if WMODE cbc & 0x01 not set and "UP" button (0x1000) pressed and first row less then current row then discrease current row by 1 and call "play_window_pointer_click_sound".`  
 `        if WMODE cbc & 0x01 not set and "DOWN" button (0x4000) pressed and currewnt row less then last row then increase current row by 1 and call "play_window_pointer_click_sound".`  
@@ -248,16 +200,13 @@ state 8: call "dialog\_scroll\_text".
 
 state 9: call "dialog\_init\_next\_window".
 
-state B: if "OK" button (0x0020) pressed then set state to C. Discrease
-80083284 (dialog scrolling value) by 2. Set 800E424C to current\_row \*
-10 + 11.
+state B: if "OK" button (0x0020) pressed then set state to C. Discrease 80083284 (dialog scrolling value) by 2. Set 800E424C to current\_row \* 10 + 11.
 
 state C: call "dialog\_scroll\_text\_during\_ok".
 
 state D: if "OK" button (0x0020) pressed then set state to 2.
 
-state E: if "OK" button (0x0020) pressed then call
-"dialog\_init\_next\_window".
+state E: if "OK" button (0x0020) pressed then call "dialog\_init\_next\_window".
 
 state cycle 0-&gt;1-&gt;2
 
@@ -520,11 +469,9 @@ field copy:
 
 XX - for any usual letter we inctement letter and byte data by 1.
 
-E0 - tabulation. Writes 0xA spaces(0x00) to string data. Increment
-letters and bytes data by 0xA.
+E0 - tabulation. Writes 0xA spaces(0x00) to string data. Increment letters and bytes data by 0xA.
 
-E1 - tabulation. Writes 0x4 spaces(0x00) to string data. Increment
-letters and bytes data by 0x4.
+E1 - tabulation. Writes 0x4 spaces(0x00) to string data. Increment letters and bytes data by 0x4.
 
 E2 - writes 0x0C, 0x00(, ) Increment letters and bytes data by 0x2.
 
@@ -541,67 +488,33 @@ E7 - next row.
 `       If row number equal to max row number - write FF to string. Set window state to 0x4. Write 0 to 80114470 array. Write 1 to 80114480 array.`  
 `       If row numbet less then max row number - write E7 to string. Increment byte and row data by 1.`
 
-E8 - next window. Set window state to 0xE. End string copying. Write FF
-to string. Write 0x0000 to 80114470 array. Write 0x0001 to 80114480
-array.
+E8 - next window. Set window state to 0xE. End string copying. Write FF to string. Write 0x0000 to 80114470 array. Write 0x0001 to 80114480 array.
 
-E9 - next window. Set window state to 0xE. End string copying. Write FF
-to string. Write 0x0000 to 80114470 array. Write 0x0001 to 80114480
-array.
+E9 - next window. Set window state to 0xE. End string copying. Write FF to string. Write 0x0000 to 80114470 array. Write 0x0001 to 80114480 array.
 
-EA - character name from savemap 0x00 character data. Copy 9 bytes or
-until encount FF. Increment letters and byte data by 1 for each copying
-byte. Descrease 80114470 by S5 for each copying byte.
+EA - character name from savemap 0x00 character data. Copy 9 bytes or until encount FF. Increment letters and byte data by 1 for each copying byte. Descrease 80114470 by S5 for each copying byte.
 
-EB - character name from savemap 0x01 character data. Copy 9 bytes or
-until encount FF. Increment letters and byte data by 1 for each copying
-byte. Descrease 80114470 by S5 for each copying byte.
+EB - character name from savemap 0x01 character data. Copy 9 bytes or until encount FF. Increment letters and byte data by 1 for each copying byte. Descrease 80114470 by S5 for each copying byte.
 
-EC - character name from savemap 0x02 character data. Copy 9 bytes or
-until encount FF. Increment letters and byte data by 1 for each copying
-byte. Descrease 80114470 by S5 for each copying byte.
+EC - character name from savemap 0x02 character data. Copy 9 bytes or until encount FF. Increment letters and byte data by 1 for each copying byte. Descrease 80114470 by S5 for each copying byte.
 
-ED - character name from savemap 0x03 character data. Copy 9 bytes or
-until encount FF. Increment letters and byte data by 1 for each copying
-byte. Descrease 80114470 by S5 for each copying byte.
+ED - character name from savemap 0x03 character data. Copy 9 bytes or until encount FF. Increment letters and byte data by 1 for each copying byte. Descrease 80114470 by S5 for each copying byte.
 
-EE - character name from savemap 0x04 character data. Copy 9 bytes or
-until encount FF. Increment letters and byte data by 1 for each copying
-byte. Descrease 80114470 by S5 for each copying byte.
+EE - character name from savemap 0x04 character data. Copy 9 bytes or until encount FF. Increment letters and byte data by 1 for each copying byte. Descrease 80114470 by S5 for each copying byte.
 
-EF - character name from savemap 0x05 character data. Copy 9 bytes or
-until encount FF. Increment letters and byte data by 1 for each copying
-byte. Descrease 80114470 by S5 for each copying byte.
+EF - character name from savemap 0x05 character data. Copy 9 bytes or until encount FF. Increment letters and byte data by 1 for each copying byte. Descrease 80114470 by S5 for each copying byte.
 
-F0 - character name from savemap 0x06 character data. Copy 9 bytes or
-until encount FF. Increment letters and byte data by 1 for each copying
-byte. Descrease 80114470 by S5 for each copying byte.
+F0 - character name from savemap 0x06 character data. Copy 9 bytes or until encount FF. Increment letters and byte data by 1 for each copying byte. Descrease 80114470 by S5 for each copying byte.
 
-F1 - character name from savemap 0x07 character data. Copy 9 bytes or
-until encount FF. Increment letters and byte data by 1 for each copying
-byte. Descrease 80114470 by S5 for each copying byte.
+F1 - character name from savemap 0x07 character data. Copy 9 bytes or until encount FF. Increment letters and byte data by 1 for each copying byte. Descrease 80114470 by S5 for each copying byte.
 
-F2 - character name from savemap 0x08 character data. Copy 9 bytes or
-until encount FF. Increment letters and byte data by 1 for each copying
-byte. Descrease 80114470 by S5 for each copying byte.
+F2 - character name from savemap 0x08 character data. Copy 9 bytes or until encount FF. Increment letters and byte data by 1 for each copying byte. Descrease 80114470 by S5 for each copying byte.
 
-F3 - party character name. Get character id from 0x0CAE party data in
-savemap and load character name from savemap data. Copy 9 bytes or until
-encount FF. If party character 0xFF (none) - write 0xA9(...) 9 times.
-Increment letters and byte data by 1 for each copying byte. Descrease
-80114470 by S5 for each copying byte.
+F3 - party character name. Get character id from 0x0CAE party data in savemap and load character name from savemap data. Copy 9 bytes or until encount FF. If party character 0xFF (none) - write 0xA9(...) 9 times. Increment letters and byte data by 1 for each copying byte. Descrease 80114470 by S5 for each copying byte.
 
-F4 - party character name. Get character id from 0x0CAF party data in
-savemap and load character name from savemap data. Copy 9 bytes or until
-encount FF. If party character 0xFF (none) - write 0xA9(...) 9 times.
-Increment letters and byte data by 1 for each copying byte. Descrease
-80114470 by S5 for each copying byte.
+F4 - party character name. Get character id from 0x0CAF party data in savemap and load character name from savemap data. Copy 9 bytes or until encount FF. If party character 0xFF (none) - write 0xA9(...) 9 times. Increment letters and byte data by 1 for each copying byte. Descrease 80114470 by S5 for each copying byte.
 
-F5 - party character name. Get character id from 0x0CB0 party data in
-savemap and load character name from savemap data. Copy 9 bytes or until
-encount FF. If party character 0xFF (none) - write 0xA9(...) 9 times.
-Increment letters and byte data by 1 for each copying byte. Descrease
-80114470 by S5 for each copying byte.
+F5 - party character name. Get character id from 0x0CB0 party data in savemap and load character name from savemap data. Copy 9 bytes or until encount FF. If party character 0xFF (none) - write 0xA9(...) 9 times. Increment letters and byte data by 1 for each copying byte. Descrease 80114470 by S5 for each copying byte.
 
 F6 - usual letter.
 
@@ -611,101 +524,49 @@ F8 - usual letter.
 
 F9 - usual letter.
 
-FA - copied to string together with next byte. Increment letters data by
-1 and byte data by 2. Used in the Japanese version to print special
-characters from the extended font. The sequence 0xFA00 translates to
-screen as '必'.
+FA - copied to string together with next byte. Increment letters data by 1 and byte data by 2. Used in the Japanese version to print special characters from the extended font. The sequence 0xFA00 translates to screen as '必'.
 
-FB - copied to string together with next byte. Increment letters data by
-1 and byte data by 2. Used in the Japanese version to print special
-characters from the extended font. The sequence 0xFB00 translates to
-screen as '安'.
+FB - copied to string together with next byte. Increment letters data by 1 and byte data by 2. Used in the Japanese version to print special characters from the extended font. The sequence 0xFB00 translates to screen as '安'.
 
-FC - copied to string together with next byte. Increment letters data by
-1 and byte data by 2. Used in the Japanese version to print special
-characters from the extended font. The sequence 0xFC00 translates to
-screen as '由'.
+FC - copied to string together with next byte. Increment letters data by 1 and byte data by 2. Used in the Japanese version to print special characters from the extended font. The sequence 0xFC00 translates to screen as '由'.
 
-FD - copied to string together with next byte. Increment letters data by
-1 and byte data by 2. Used in the Japanese version to print special
-characters from the extended font. The sequence 0xFD00 translates to
-screen as '友'.
+FD - copied to string together with next byte. Increment letters data by 1 and byte data by 2. Used in the Japanese version to print special characters from the extended font. The sequence 0xFD00 translates to screen as '友'.
 
-FE - special opcode. Write FE to string. Increment byte data by 1. Read
-next byte and do something according to it. Case 00-D1 are used in the
-Japanese version to print special characters from the extended font. The
-sequence 0xFE00 translates to screen as '孫'.
+FE - special opcode. Write FE to string. Increment byte data by 1. Read next byte and do something according to it. Case 00-D1 are used in the Japanese version to print special characters from the extended font. The sequence 0xFE00 translates to screen as '孫'.
 
-FED2 - increment byte data by 1. Write this byte to string. (colour
-formater: Gray)
+FED2 - increment byte data by 1. Write this byte to string. (colour formater: Gray)
 
-FED3 - increment byte data by 1. Write this byte to string. (colour
-formater: Blue)
+FED3 - increment byte data by 1. Write this byte to string. (colour formater: Blue)
 
-FED4 - increment byte data by 1. Write this byte to string. (colour
-formater: Red)
+FED4 - increment byte data by 1. Write this byte to string. (colour formater: Red)
 
-FED5 - increment byte data by 1. Write this byte to string. (colour
-formater: Purple)
+FED5 - increment byte data by 1. Write this byte to string. (colour formater: Purple)
 
-FED6 - increment byte data by 1. Write this byte to string. (colour
-formater: Green)
+FED6 - increment byte data by 1. Write this byte to string. (colour formater: Green)
 
-FED7 - increment byte data by 1. Write this byte to string. (colour
-formater: Cyan)
+FED7 - increment byte data by 1. Write this byte to string. (colour formater: Cyan)
 
-FED8 - increment byte data by 1. Write this byte to string. (colour
-formater: Yellow)
+FED8 - increment byte data by 1. Write this byte to string. (colour formater: Yellow)
 
-FED9 - increment byte data by 1. Write this byte to string. (colour
-formater: White)
+FED9 - increment byte data by 1. Write this byte to string. (colour formater: White)
 
-FEDA - increment byte data by 1. Write this byte to string. (colour
-formater: Flash)
+FEDA - increment byte data by 1. Write this byte to string. (colour formater: Flash)
 
-FEDB - increment byte data by 1. Write this byte to string. (colour
-formater: Rainbow)
+FEDB - increment byte data by 1. Write this byte to string. (colour formater: Rainbow)
 
-FEDC - remove FE from string by decrement byte data by 1. Set window
-state to 0xD. Write 0x0000 to 80114470 array. Write 0x0001 to 80114480
-array. End string copying. Write FF to string.
+FEDC - remove FE from string by decrement byte data by 1. Set window state to 0xD. Write 0x0000 to 80114470 array. Write 0x0001 to 80114480 array. End string copying. Write FF to string.
 
-FEDD - set window state to 0x3. Copy next byte and byte after it to
-8011445C array (swapped). Increment byte data by 3 (similar to write
-000000). Write FF to string. End string copying.
+FEDD - set window state to 0x3. Copy next byte and byte after it to 8011445C array (swapped). Increment byte data by 3 (similar to write 000000). Write FF to string. End string copying.
 
-FEDE - remove FE from string by decrement byte data by 1. Get 1 or 2
-byte value from memory bank. Convert that digit to string without
-preceding zeros (with ending FF). Copy 0x10 bytes (or until we met FF)
-of given string to window string incrementing byte and letter data by 1
-for each byte. Descrease 80114470 by S5 for each copying byte. There can
-be 8 variable in one window (for all variable opcodes DE DF E1).
+FEDE - remove FE from string by decrement byte data by 1. Get 1 or 2 byte value from memory bank. Convert that digit to string without preceding zeros (with ending FF). Copy 0x10 bytes (or until we met FF) of given string to window string incrementing byte and letter data by 1 for each byte. Descrease 80114470 by S5 for each copying byte. There can be 8 variable in one window (for all variable opcodes DE DF E1).
 
-FEDF - remove FE from string by decrement byte data by 1. Get 1 or 2
-byte value from memory bank. Convert that digit to string as hex without
-preceding zeros (with ending FF). Copy 0x10 bytes (or until we met FF)
-of given string to window string incrementing byte and letter data by 1
-for each byte. Descrease 80114470 by S5 for each copying byte. There can
-be 8 variable in one window (for all variable opcodes DE DF E1).
+FEDF - remove FE from string by decrement byte data by 1. Get 1 or 2 byte value from memory bank. Convert that digit to string as hex without preceding zeros (with ending FF). Copy 0x10 bytes (or until we met FF) of given string to window string incrementing byte and letter data by 1 for each byte. Descrease 80114470 by S5 for each copying byte. There can be 8 variable in one window (for all variable opcodes DE DF E1).
 
-FEE0 - remove FE from string by decrement byte data by 1. Set window
-state to 0xB. Write 0x0000 to 80114470 array. Write 0x0001 to 80114480
-array. End string copying. Write FF to string.
+FEE0 - remove FE from string by decrement byte data by 1. Set window state to 0xB. Write 0x0000 to 80114470 array. Write 0x0001 to 80114480 array. End string copying. Write FF to string.
 
-FEE1 - remove FE from string by decrement byte data by 1. Get 1 or 2
-byte value from memory bank. Convert that digit to string replacing
-preceding zeros with space (0x00) (with ending FF). Copy 0x10 bytes (or
-until we met FF) of given string to window string incrementing byte and
-letter data by 1 for each byte. Descrease 80114470 by S5 for each
-copying byte. There can be 8 variable in one window (for all variable
-opcodes DE DF E1).
+FEE1 - remove FE from string by decrement byte data by 1. Get 1 or 2 byte value from memory bank. Convert that digit to string replacing preceding zeros with space (0x00) (with ending FF). Copy 0x10 bytes (or until we met FF) of given string to window string incrementing byte and letter data by 1 for each byte. Descrease 80114470 by S5 for each copying byte. There can be 8 variable in one window (for all variable opcodes DE DF E1).
 
-FEE2 - remove FE from string by decrement byte data by 1. Get 3-4 byte
-as offset and 5-6 byte as length. Copy length bytes from memory block
-1/2 offset + offset to temp string (end string with 0xFF). Copy bytes
-from temp string to winfow string until we met FF, incrementing byte and
-letter data by 1 for each byte. Descrease 80114470 by S5 for each
-copying byte.
+FEE2 - remove FE from string by decrement byte data by 1. Get 3-4 byte as offset and 5-6 byte as length. Copy length bytes from memory block 1/2 offset + offset to temp string (end string with 0xFF). Copy bytes from temp string to winfow string until we met FF, incrementing byte and letter data by 1 for each byte. Descrease 80114470 by S5 for each copying byte.
 
 FEE3 - usual letter.
 
@@ -719,8 +580,7 @@ FEE7 - usual letter.
 
 FEE8 - usual letter.
 
-FEE9 - increment byte data by 1. Write this byte to string. (max letter
-width formater)
+FEE9 - increment byte data by 1. Write this byte to string. (max letter width formater)
 
 FEEA - unused (messed addres)
 
@@ -764,9 +624,6 @@ FEFD - unused (messed addres)
 
 FEFE - unused (messed addres)
 
-FEFF - remove FE from string by decrement byte data by 1. Set window
-state to 0xD. Write 0x0000 to 80114470 array. Write 0x0001 to 80114480
-array. End string copying. Write FF to string.
+FEFF - remove FE from string by decrement byte data by 1. Set window state to 0xD. Write 0x0000 to 80114470 array. Write 0x0001 to 80114480 array. End string copying. Write FF to string.
 
-FF - end string copying. Write FF to string. Set window state to 0x6.
-Write 0x0000 to 80114470 array.
+FF - end string copying. Write FF to string. Set window state to 0x6. Write 0x0000 to 80114470 array.

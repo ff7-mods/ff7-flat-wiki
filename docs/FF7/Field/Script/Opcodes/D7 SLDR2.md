@@ -2,7 +2,7 @@
 title: D7 SLDR2
 ---
 
-[Home](../../../../Main%20Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > D7 SLDR2
+[Home](../../../../Main Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > D7 SLDR2
 
 -   Opcode: **0xD7**
 -   Short name: **SLDR2**
@@ -15,12 +15,9 @@ title: D7 SLDR2
 
 #### Arguments
 
--   **const UByte** *B*: Bank to retrieve *R*, or zero if *R* is
-    specified as a literal value.
+-   **const UByte** *B*: Bank to retrieve *R*, or zero if *R* is specified as a literal value.
 -   **const UShort** *R*: Range value.
 
 #### Description
 
-Similar to [SLIDR][], but allows a two-byte range value to be used.
-
-  [SLIDR]: C6%20SLIDR.md "wikilink"
+Similar to [SLIDR](C6 SLIDR.md), but allows a two-byte range value to be used.

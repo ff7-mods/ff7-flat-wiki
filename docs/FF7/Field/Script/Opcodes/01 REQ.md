@@ -2,7 +2,7 @@
 title: 01 REQ
 ---
 
-[Home](../../../../Main%20Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 01 REQ
+[Home](../../../../Main Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 01 REQ
 
 -   Opcode: **0x01**
 -   Short name: **REQ**
@@ -15,19 +15,10 @@ title: 01 REQ
 
 #### Arguments
 
--   **const UByte** *E*: The ID of the target [entity][].
--   **const Bit\[3\]** *P*: The [priority][] at which we want to execute
-    the remote script (high 3 bits of byte).
--   **const Bit\[5\]** *F*: The ID of the specific member function of
-    *E* to be executed (low 5 bits of byte).
+-   **const UByte** *E*: The ID of the target [entity](../Entity.md).
+-   **const Bit\[3\]** *P*: The [priority](../Priorities.md).
+-   **const Bit\[5\]** *F*: The ID of the specific member function of *E* to be executed (low 5 bits of byte).
 
 #### Description
 
-Requests that a remote entity executes one of its member functions at a
-specified priority. The request is asynchronous and returns immediately
-without waiting for the remote execution to start or finish. If the
-specified priority is already busy executing, the request will fail
-silently.
-
-  [entity]: ../Entity.md "wikilink"
-  [priority]: ../Priorities.md "wikilink"
+Requests that a remote entity executes one of its member functions at a specified priority. The request is asynchronous and returns immediately without waiting for the remote execution to start or finish. If the specified priority is already busy executing, the request will fail silently.

@@ -2,7 +2,7 @@
 title: 11F DISC
 ---
 
-[Home](../../../../Main%20Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 11F DISC
+[Home](../../../../Main Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 11F DISC
 
 -   Opcode: **0x11F**
 -   Short name: **DISC**
@@ -21,6 +21,4 @@ none
 
 #### Description
 
-Sets up which disc is asked for when [DISCJUMP][] is called.
-
-  [DISCJUMP]: 038%20DISCJUMP.md "wikilink"
+Sets up which disc is asked for when [DISCJUMP](038 DISCJUMP.md) is called.

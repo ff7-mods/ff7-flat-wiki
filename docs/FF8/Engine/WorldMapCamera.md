@@ -2,18 +2,15 @@
 title: WorldMapCamera
 ---
 
-[Home](../../Main%20Page.md) > [FF8](../../FF8.md) > [Engine](../Engine.md) > WorldMapCamera
+[Home](../../Main Page.md) > [FF8](../../FF8.md) > [Engine](../Engine.md) > WorldMapCamera
 
 By MaKiPL. :\*
 
 ## Camera detail
 
-Camera on world map is set to look-at target. Look at target is Squall,
-that is read from chara.one in world.fs file.
+Camera on world map is set to look-at target. Look at target is Squall, that is read from chara.one in world.fs file.
 
-As the camera is look-at, then it works and moves on "logic" sphere.
-Memory in FF8 is static. Camera memory starts soon after last face
-indice layout is hold. Is after 3-4 unknown NULL bytes.
+As the camera is look-at, then it works and moves on "logic" sphere. Memory in FF8 is static. Camera memory starts soon after last face indice layout is hold. Is after 3-4 unknown NULL bytes.
 
 ### Camera build
 
@@ -42,14 +39,11 @@ Logical zoom, for FF8 they're fixed values:
 -   640 - when camera mode is set to far
 -   1024 - when camera mode is set to near
 
-These zoom is operated, when you in-game set the camera near-far
-preferences. (F default in Steam release)
+These zoom is operated, when you in-game set the camera near-far preferences. (F default in Steam release)
 
 ## Camera OPCODE
 
-PRESENTED OPCODE'S ARE FOR STEAM RELEASE! If no opcode for variable
-above, then this variable is mostly fixed and is not changed on world
-map itself. (This is for example static vars).
+PRESENTED OPCODE'S ARE FOR STEAM RELEASE! If no opcode for variable above, then this variable is mostly fixed and is not changed on world map itself. (This is for example static vars).
 
 ### Camera logical zoom
 
@@ -74,10 +68,7 @@ map itself. (This is for example static vars).
 `FF8_EN.exe+15871A - add [FF8_EN.exe+1C3ED02],ax`  
 `FF8_EN.exe+158936 - mov [ecx+0A],ax`
 
--   First ADD is applied on regular translation. The one that user can
-    rotate in-game mainly
--   Second ADD is applied on translations when character is going eg.
-    right, and camera is set to front
--   Third ADD is applied when Squall has moved enough in one direction,
-    so the camera is rotated hardly
+-   First ADD is applied on regular translation. The one that user can rotate in-game mainly
+-   Second ADD is applied on translations when character is going eg. right, and camera is set to front
+-   Third ADD is applied when Squall has moved enough in one direction, so the camera is rotated hardly
 -   Additional MOV is to finally check and correct camera rotation

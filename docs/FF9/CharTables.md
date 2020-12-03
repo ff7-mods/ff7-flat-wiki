@@ -2,7 +2,7 @@
 title: CharTables
 ---
 
-[Home](../Main%20Page.md) > [FF9](../FF9.md) > CharTables
+[Home](../Main Page.md) > [FF9](../FF9.md) > CharTables
 
 # Character Table for EU & US version
 
@@ -65,8 +65,7 @@ Dark grey areas are unused
 0xF9 is used to request an opcode  
 0xFA is used to request a character from Kanji Table A  
 0xFB is used to request a character from Kanji Table B  
-0xFC is used to request a character from External Kanji Table (only
-avalible for dialog scripts)  
+0xFC is used to request a character from External Kanji Table (only avalible for dialog scripts)  
 0xFE is marker for End of Page  
 0xFF is a marker for End of String  
 

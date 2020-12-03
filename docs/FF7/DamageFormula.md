@@ -2,38 +2,34 @@
 title: DamageFormula
 ---
 
-[Home](../Main%20Page.md) > [FF7](../FF7.md) > DamageFormula
+[Home](../Main Page.md) > [FF7](../FF7.md) > DamageFormula
 
 ## Accuracy Function considerations
 
-Each of the upper nybble of the damage calculation determines what
-checks are done to accuracy of the action and whether or not it will
-connect, be critical or miss. Here are the functions in order processed
-based on the upper nybble:
+Each of the upper nybble of the damage calculation determines what checks are done to accuracy of the action and whether or not it will connect, be critical or miss. Here are the functions in order processed based on the upper nybble:
 
-| Upper Nybble | Functions                                 |
-|--------------|-------------------------------------------|
-| 0            | None (always hits)                        |
-| 1            | [Physical Accuracy][], [Critical Check][] |
-| 2            | [Magical Accuracy][]                      |
-| 3            | Dummy \[3\] (always hits)                 |
-| 4            | Dummy \[4\] (always hits)                 |
-| 5            | Dummy \[5\] (always hits)                 |
-| 6            | [Physical Accuracy][], [Critical Check][] |
-| 7            | [Magical Accuracy][]                      |
-| 8            | [Level-based Accuracy][]                  |
-| 9            | [Manipulate][]                            |
-| A            | [Physical Accuracy][], [Critical Check][] |
-| B            | [Physical Accuracy][]                     |
-| C            | None (always hits)                        |
-| D            | None (always hits)                        |
-| E            | None (always hits)                        |
-| F            | None (always hits)                        |
+| Upper Nybble | Functions                                                                                                                                          |
+|--------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
+| 0            | None (always hits)                                                                                                                                 |
+| 1            | [Physical Accuracy](DamageFormula.md#0: Physical Accuracy Check), [Critical Check](DamageFormula.md#2: Critical Hit Check) |
+| 2            | [Magical Accuracy](DamageFormula.md#1: Magical Accuracy Check)                                                                         |
+| 3            | Dummy \[3\] (always hits)                                                                                                                          |
+| 4            | Dummy \[4\] (always hits)                                                                                                                          |
+| 5            | Dummy \[5\] (always hits)                                                                                                                          |
+| 6            | [Physical Accuracy](FF7/DamageFormula#0:_Physical_Accuracy_Check "wikilink"), [Critical Check](DamageFormula.md#2: Critical Hit Check) |
+| 7            | [Magical Accuracy](DamageFormula.md#1: Magical Accuracy Check)                                                                         |
+| 8            | [Level-based Accuracy](DamageFormula.md#7: Level-based Accuracy)                                                                       |
+| 9            | [Manipulate](DamageFormula.md#6: Manipulate Accuracy .28intended solely for playable characters.29)                                    |
+| A            | [Physical Accuracy](FF7/DamageFormula#0:_Physical_Accuracy_Check "wikilink"), [Critical Check](DamageFormula.md#2: Critical Hit Check) |
+| B            | [Physical Accuracy](FF7/DamageFormula#0:_Physical_Accuracy_Check "wikilink")                                                                       |
+| C            | None (always hits)                                                                                                                                 |
+| D            | None (always hits)                                                                                                                                 |
+| E            | None (always hits)                                                                                                                                 |
+| F            | None (always hits)                                                                                                                                 |
 
 # Damage Calculations
 
-These are the damage functions according to an unmodded FF7-ENG 1.02
-(1998)
+These are the damage functions according to an unmodded FF7-ENG 1.02 (1998)
 
 ## Standard Formulae
 
@@ -356,8 +352,7 @@ These are the damage functions according to an unmodded FF7-ENG 1.02
 
 # Accuracy Functions
 
-The point of these is to set the "attack will miss" flag in the current
-action memory structure.
+The point of these is to set the "attack will miss" flag in the current action memory structure.
 
 ### 0: Physical Accuracy Check
 
@@ -456,8 +451,7 @@ action memory structure.
        Set attack missed
     end if
 
-This doesn't actually place the target in the manipulate status. That
-happens elsewhere.
+This doesn't actually place the target in the manipulate status. That happens elsewhere.
 
 ### 7: Level-based Accuracy
 
@@ -469,15 +463,4 @@ happens elsewhere.
        end if
     end if
 
-So if the accuracy IS 0, then it will always hit. This is to prevent a
-divide by zero error.
-
-  [Physical Accuracy]: DamageFormula.md#0:%20Physical%20Accuracy%20Check
-    "wikilink"
-  [Critical Check]: DamageFormula.md#2:%20Critical%20Hit%20Check "wikilink"
-  [Magical Accuracy]: DamageFormula.md#1:%20Magical%20Accuracy%20Check
-    "wikilink"
-  [Level-based Accuracy]: DamageFormula.md#7:%20Level-based%20Accuracy
-    "wikilink"
-  [Manipulate]: DamageFormula.md#6:%20Manipulate%20Accuracy%20.28intended%20solely%20for%20playable%20characters.29
-    "wikilink"
+So if the accuracy IS 0, then it will always hit. This is to prevent a divide by zero error.

@@ -2,7 +2,7 @@
 title: F8 SMSPD
 ---
 
-[Home](../../../../../Main%20Page.md) > [FF7](../../../../../FF7.md) > [Field](../../../../Field.md) > [Script](../../../Script.md) > [Opcodes](../../Opcodes.md) > [0F SPECIAL](../0F%20SPECIAL.md) > F8 SMSPD
+[Home](../../../../../Main Page.md) > [FF7](../../../../../FF7.md) > [Field](../../../../Field.md) > [Script](../../../Script.md) > [Opcodes](../../Opcodes.md) > [0F SPECIAL](../0F SPECIAL.md) > F8 SMSPD
 
 -   Opcode: **0x0FF8**
 -   Short name: **SPECIAL: SMSPD**
@@ -20,5 +20,4 @@ title: F8 SMSPD
 
 #### Description
 
-Sets the Field Message speed, as found in the Config menu. The valid
-range is from 0 (the slowest setting) to FF (the fastest setting).
+Sets the Field Message speed, as found in the Config menu. The valid range is from 0 (the slowest setting) to FF (the fastest setting).

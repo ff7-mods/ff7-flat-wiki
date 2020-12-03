@@ -2,16 +2,15 @@
 title: WorldMap wmset
 ---
 
-[Home](../Main%20Page.md) > [FF8](../FF8.md) > WorldMap wmset
+[Home](../Main Page.md) > [FF8](../FF8.md) > WorldMap wmset
 
 ## File general info
 
-Please reefer to [WmsetXX.obj][] for more specific info.
+Please reefer to [WmsetXX.obj](WorldMap wmsetxx.md) for more specific info.
 
 ## Models section
 
-Researched by: Vehek
-(http://forums.qhimm.com/index.php?topic=13799.msg193791\#msg193791)
+Researched by: Vehek (http://forums.qhimm.com/index.php?topic=13799.msg193791\#msg193791)
 
 `struct`  
 `{`  
@@ -54,8 +53,7 @@ Researched by: Vehek
 
 ## Generic Wmset.obj models offsets
 
-GAME USES wmsetXX.obj file instead of THIS. This is list with models
-offsets FYI:
+GAME USES wmsetXX.obj file instead of THIS. This is list with models offsets FYI:
 
 `15612`  
 `18980`  
@@ -91,8 +89,7 @@ offsets FYI:
 `67896`  
 `68388`
 
-Texture offsets for above models, where index 0 is the first model
-listed here, and 32 is the last one (68388).
+Texture offsets for above models, where index 0 is the first model listed here, and 32 is the last one (68388).
 
 `           switch(index)`  
 `           {`  
@@ -165,5 +162,3 @@ listed here, and 32 is the last one (68388).
 `               default:`  
 `                   return 0; //For compiler`  
 `           }`
-
-  [WmsetXX.obj]: WorldMap%20wmsetxx.md "wikilink"

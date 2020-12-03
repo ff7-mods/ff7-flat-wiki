@@ -2,7 +2,7 @@
 title: BD ASPED
 ---
 
-[Home](../../../../Main%20Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > BD ASPED
+[Home](../../../../Main Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > BD ASPED
 
 -   Opcode: **0xBD**
 -   Short name: **ASPED**
@@ -15,14 +15,12 @@ title: BD ASPED
 
 #### Arguments
 
--   **const UByte** *B*: Bank to retrieve direction value, or zero if it
-    is specified as a literal value.
+-   **const UByte** *B*: Bank to retrieve direction value, or zero if it is specified as a literal value.
 -   **const UShort** *S*: Speed of animation.
 
 #### Description
 
-Set global model animation speed. Lager the value - faster all animation
-played by this model.
+Set global model animation speed. Lager the value - faster all animation played by this model.
 
 Default value = 16 -&gt; relative animation time scale 1
 

@@ -2,20 +2,17 @@
 title: Directory11 Field
 ---
 
-[Home](../../Main%20Page.md) > [Xeno](../../Xeno.md) > [GameDirectoryDescription](../GameDirectoryDescription.md) > Directory11 Field
+[Home](../../Main Page.md) > [Xeno](../../Xeno.md) > [GameDirectoryDescription](../GameDirectoryDescription.md) > Directory11 Field
 
 ## File Format
 
-There are pairs of two files. First one are field model textures. The
-second one are model, sprites data, as well as text and script.
+There are pairs of two files. First one are field model textures. The second one are model, sprites data, as well as text and script.
 
 ## First file - Textures and CLUT
 
 ## Second file - Field Data
 
-This is uniq pack of different data. There are always 8 files in there.
-All of them are compressed. The most part of header are unknown, except
-few data.
+This is uniq pack of different data. There are always 8 files in there. All of them are compressed. The most part of header are unknown, except few data.
 
 | Start offset |    Size    |             Value             |
 |:------------:|:----------:|:-----------------------------:|

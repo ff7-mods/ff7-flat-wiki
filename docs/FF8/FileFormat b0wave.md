@@ -2,14 +2,13 @@
 title: FileFormat b0wave
 ---
 
-[Home](../Main%20Page.md) > [FF8](../FF8.md) > FileFormat b0wave
+[Home](../Main Page.md) > [FF8](../FF8.md) > FileFormat b0wave
 
 By MaKiPL
 
 ------------------------------------------------------------------------
 
-b0wave.dat is file containing one 4BPP TIM texture with magic animation
-sequence, AKAO frame and font data. Current structure:
+b0wave.dat is file containing one 4BPP TIM texture with magic animation sequence, AKAO frame and font data. Current structure:
 
 | Offset | Name                      | Description                             |
 |--------|---------------------------|-----------------------------------------|
@@ -25,18 +24,15 @@ AKAO frame holds "win" music.
 
 ## Font Section
 
-Copied from myst6re [.TDW file][]
+Copied from myst6re [.TDW file](FileFormat TDW.md)
 
-| Offset       | Size                      | Data                        |
-|--------------|---------------------------|-----------------------------|
-| 0            | 4 bytes                   | Offset to widths (always 8) |
-| 4            | 4 bytes                   | Offset to texture           |
-| offsetWidths | offsetData - offsetWidths | [Character widths][]        |
-| offsetData   | varies                    | TIM Texture                 |
+| Offset       | Size                      | Data                                             |
+|--------------|---------------------------|--------------------------------------------------|
+| 0            | 4 bytes                   | Offset to widths (always 8)                      |
+| 4            | 4 bytes                   | Offset to texture                                |
+| offsetWidths | offsetData - offsetWidths | [Character widths](#character-widths) |
+| offsetData   | varies                    | TIM Texture                                      |
 
 ### Character widths
 
 Each width is 4 bits (two widths per byte).
-
-  [.TDW file]: FileFormat%20TDW.md "wikilink"
-  [Character widths]: #character-widths "wikilink"

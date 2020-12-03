@@ -2,7 +2,7 @@
 title: E1 BGOFF
 ---
 
-[Home](../../../../Main%20Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > E1 BGOFF
+[Home](../../../../Main Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > E1 BGOFF
 
 -   Opcode: **0xE1**
 -   Short name: **BGOFF**
@@ -15,20 +15,11 @@ title: E1 BGOFF
 
 #### Arguments
 
--   **const Bit\[4\]** *B1*: Bank to retrieve *A*, or zero if *A* is
-    specified as a literal.
--   **const Bit\[4\]** *B2*: Bank to retrieve *L*, or zero if *L* is
-    specified as a literal.
--   **const UByte** *A*: The ID of the background area to manipulate, as
-    specified in the background's sprite.
--   **const UByte** *L*: The ID of the layer of *L* to hide (turn off),
-    as specified in the background's sprite.
+-   **const Bit\[4\]** *B1*: Bank to retrieve *A*, or zero if *A* is specified as a literal.
+-   **const Bit\[4\]** *B2*: Bank to retrieve *L*, or zero if *L* is specified as a literal.
+-   **const UByte** *A*: The ID of the background area to manipulate, as specified in the background's sprite.
+-   **const UByte** *L*: The ID of the layer of *L* to hide (turn off), as specified in the background's sprite.
 
 #### Description
 
-Similar to [BGON][], only this opcode turns *off* the portion of
-background whose [background sprite][] specifies it as belonging to the
-scripted area and layer specified.
-
-  [BGON]: E0%20BGON.md "wikilink"
-  [background sprite]: ../../Sprite.md "wikilink"
+Similar to [BGON](FF7/Field/Script/Opcodes/E0_BGON "wikilink"), only this opcode turns *off* the portion of background whose [background sprite](../../Sprite.md) specifies it as belonging to the scripted area and layer specified.

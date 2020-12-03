@@ -2,12 +2,11 @@
 title: 015 REQSW
 ---
 
-[Home](../../../../Main%20Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 015 REQSW
+[Home](../../../../Main Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 015 REQSW
 
 -   Opcode: **0x015**
 -   Short name: **REQSW**
--   Long name: Request remote execution (asynchronous execution,
-    guaranteed)
+-   Long name: Request remote execution (asynchronous execution, guaranteed)
 
 #### Argument
 
@@ -19,5 +18,4 @@ The ID of the target Entity.
 
 #### Description
 
-Go to the method *Label* in the group **Argument** with a specified
-*Priority*.
+Go to the method *Label* in the group **Argument** with a specified *Priority*.

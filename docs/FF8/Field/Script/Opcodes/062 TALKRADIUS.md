@@ -2,7 +2,7 @@
 title: 062 TALKRADIUS
 ---
 
-[Home](../../../../Main%20Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 062 TALKRADIUS
+[Home](../../../../Main Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 062 TALKRADIUS
 
 -   Opcode: **0x062**
 -   Short name: **TALKRADIUS**
@@ -21,6 +21,4 @@ none
 
 #### Description
 
-Sets how many units maximum the player must be to fire this event's
-**talk** script when they press the OK button. Most humanoids have a
-talk radius of about 200.
+Sets how many units maximum the player must be to fire this event's **talk** script when they press the OK button. Most humanoids have a talk radius of about 200.

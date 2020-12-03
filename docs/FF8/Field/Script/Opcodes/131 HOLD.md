@@ -2,7 +2,7 @@
 title: 131 HOLD
 ---
 
-[Home](../../../../Main%20Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 131 HOLD
+[Home](../../../../Main Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 131 HOLD
 
 -   Opcode: **0x0131**
 -   Short name: **HOLD**

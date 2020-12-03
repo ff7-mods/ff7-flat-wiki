@@ -2,7 +2,7 @@
 title: 26 BLINK
 ---
 
-[Home](../../../../Main%20Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 26 BLINK
+[Home](../../../../Main Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 26 BLINK
 
 -   Opcode: **0x26**
 -   Short name: **BLINK**
@@ -19,12 +19,6 @@ title: 26 BLINK
 
 #### Description
 
-Specifies whether the eyes of the current entity's visible object should
-blink at random intervals. As there is no argument to specify which
-character this refers to, this opcode must be placed in the correct
-character entity's script.
+Specifies whether the eyes of the current entity's visible object should blink at random intervals. As there is no argument to specify which character this refers to, this opcode must be placed in the correct character entity's script.
 
-To open or shut the character's eyes (change the eye texture used), use
-[KAWAI][].
-
-  [KAWAI]: 28%20KAWAI.md "wikilink"
+To open or shut the character's eyes (change the eye texture used), use [KAWAI](28 KAWAI.md).

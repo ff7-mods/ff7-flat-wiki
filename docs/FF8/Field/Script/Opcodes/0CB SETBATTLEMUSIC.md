@@ -2,7 +2,7 @@
 title: 0CB SETBATTLEMUSIC
 ---
 
-[Home](../../../../Main%20Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 0CB SETBATTLEMUSIC
+[Home](../../../../Main Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 0CB SETBATTLEMUSIC
 
 -   Opcode: **0x0CB**
 -   Short name: **SETBATTLEMUSIC**
@@ -21,8 +21,7 @@ none
 
 #### Description
 
-Sets which battle music starts playing when a battle starts. Here are
-some common ones, but you can use any music in the game for a battle:
+Sets which battle music starts playing when a battle starts. Here are some common ones, but you can use any music in the game for a battle:
 
 | Music Track | Description                                             |
 |-------------|---------------------------------------------------------|

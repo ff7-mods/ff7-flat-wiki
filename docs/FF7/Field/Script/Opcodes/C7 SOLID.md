@@ -2,7 +2,7 @@
 title: C7 SOLID
 ---
 
-[Home](../../../../Main%20Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > C7 SOLID
+[Home](../../../../Main Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > C7 SOLID
 
 -   Opcode: **0xC7**
 -   Short name: **SOLID**
@@ -19,9 +19,4 @@ title: C7 SOLID
 
 #### Description
 
-Switches the solidity of the field object associated with this entity;
-that is, turns collision detection on or off. When off, the playable
-character will be able to walk through the entity's object, as if it
-were not there. This may be used for such objects as save points, where
-the character must be able to walk through the object to be able to
-access the save menu item.
+Switches the solidity of the field object associated with this entity; that is, turns collision detection on or off. When off, the playable character will be able to walk through the entity's object, as if it were not there. This may be used for such objects as save points, where the character must be able to walk through the object to be able to access the save menu item.

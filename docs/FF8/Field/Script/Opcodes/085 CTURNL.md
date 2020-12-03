@@ -2,7 +2,7 @@
 title: 085 CTURNL
 ---
 
-[Home](../../../../Main%20Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 085 CTURNL
+[Home](../../../../Main Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 085 CTURNL
 
 -   Opcode: **0x085**
 -   Short name: **CTURNL**
@@ -25,9 +25,6 @@ none
 
 Turns this entity.
 
-Note that Final Fantasy 8 uses 256 degree circles. Degrees 0 and 256 are
-defined as down, 64 right, 128 up, 192 left.
+Note that Final Fantasy 8 uses 256 degree circles. Degrees 0 and 256 are defined as down, 64 right, 128 up, 192 left.
 
-It's unknown how this is any different from [CTURNR][].
-
-  [CTURNR]: 084%20CTURNR.md "wikilink"
+It's unknown how this is any different from [CTURNR](084 CTURNR.md).

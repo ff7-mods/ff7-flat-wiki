@@ -2,7 +2,7 @@
 title: B2 MSPED
 ---
 
-[Home](../../../../Main%20Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > B2 MSPED
+[Home](../../../../Main Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > B2 MSPED
 
 -   Opcode: **0xB2**
 -   Short name: **MSPED**
@@ -15,8 +15,7 @@ title: B2 MSPED
 
 #### Arguments
 
--   **const UByte** *B*: Bank to retrieve *R*, or zero if *R* is
-    specified as a literal value.
+-   **const UByte** *B*: Bank to retrieve *R*, or zero if *R* is specified as a literal value.
 -   **const UShort** *S*: Speed value (8-bit fixed point).
 
 #### Description

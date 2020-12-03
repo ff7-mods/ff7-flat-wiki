@@ -2,7 +2,7 @@
 title: CE MMBLK
 ---
 
-[Home](../../../../Main%20Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > CE MMBLK
+[Home](../../../../Main Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > CE MMBLK
 
 -   Opcode: **0xCE**
 -   Short name: **MMBLK**
@@ -19,12 +19,6 @@ title: CE MMBLK
 
 #### Description
 
-Locks the character given by the argument in the Party Select screen.
-The player will not be able to move this character into or out of the
-party. The character IDs can be found in [MMBud][].
+Locks the character given by the argument in the Party Select screen. The player will not be able to move this character into or out of the party. The character IDs can be found in [MMBud](CD MMBud.md).
 
-This setting has global scope, that is, the character will still be
-locked when transitioning to a new field or to the world map and using
-the PHS.
-
-  [MMBud]: CD%20MMBud.md "wikilink"
+This setting has global scope, that is, the character will still be locked when transitioning to a new field or to the world map and using the PHS.

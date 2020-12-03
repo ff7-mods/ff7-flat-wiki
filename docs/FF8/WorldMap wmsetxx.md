@@ -2,23 +2,15 @@
 title: WorldMap wmsetxx
 ---
 
-[Home](../Main%20Page.md) > [FF8](../FF8.md) > WorldMap wmsetxx
+[Home](../Main Page.md) > [FF8](../FF8.md) > WorldMap wmsetxx
 
 ## Info
 
-WMSETxx.obj (where xx may refer to gr,us,it,fr,sp) is a multi-data world
-map file containing many core functions and 3D objects. This file
-contains almost everything: sounds, scripts, dialogs, texts, textures,
-models- all contained in one file. Main differences between
-en/it/gr/sp/fr are localized dialogs, so next sections have different
-offsets. Offsets before this are all the same. [Wmset.obj][] is probably
-never used in-game and is leftover. Dialogs in lang-en/wmset.obj are in
-english, but the file is different from wmsetus.obj.
+WMSETxx.obj (where xx may refer to gr,us,it,fr,sp) is a multi-data world map file containing many core functions and 3D objects. This file contains almost everything: sounds, scripts, dialogs, texts, textures, models- all contained in one file. Main differences between en/it/gr/sp/fr are localized dialogs, so next sections have different offsets. Offsets before this are all the same. [Wmset.obj](WorldMap wmset.md) is probably never used in-game and is leftover. Dialogs in lang-en/wmset.obj are in english, but the file is different from wmsetus.obj.
 
 ## General structure
 
-WMSETxx.obj is made from 48 sections. File starts with header, that has
-48\*4 bytes. Every offset is 4 bytes long.
+WMSETxx.obj is made from 48 sections. File starts with header, that has 48\*4 bytes. Every offset is 4 bytes long.
 
 | Offset        | Length  | Description      |
 |---------------|---------|------------------|
@@ -43,46 +35,27 @@ The last section is offset 188.
 | 2      | Byte   | ESI\*       |
 | 3      | Byte   | unused      |
 
--   ESI is the name of the register that holds the third byte parameter
-    of section1. It is used later to determine the encounter. When the
-    character makes a step on worldmap, the game loops through whole
-    section1 data and tests:
+-   ESI is the name of the register that holds the third byte parameter of section1. It is used later to determine the encounter. When the character makes a step on worldmap, the game loops through whole section1 data and tests:
 
-if the character is walking on groundID and regionID, if yes, then ESI
-is our multiplier to section4 containing encounters. Example entry:
+if the character is walking on groundID and regionID, if yes, then ESI is our multiplier to section4 containing encounters. Example entry:
 
 00 06 00 00:
 
-If Squall is in region = 0 and walks on ground with ID 6 (as far as I
-remember it's Balamb Plains or forest) then get encounters from section4
-that start at 0\*8; Other example:
+If Squall is in region = 0 and walks on ground with ID 6 (as far as I remember it's Balamb Plains or forest) then get encounters from section4 that start at 0\*8; Other example:
 
 04 1B 24 00:
 
-If Squall is in region = 4 and walks on ground with ID 0x1B, then get
-encounters from section4 that starts at 0x24\*8 = 288
+If Squall is in region = 4 and walks on ground with ID 0x1B, then get encounters from section4 that starts at 0x24\*8 = 288
 
-That way the engine can play encounter based on place you are, because
-if you're walking on Balamb beach, then engine should play encounter
-with beach, not snow plains. That's why if you change the for one map
-portion you can totally erase encounters in this region, because in
-example region 4 that may be Centra regions does not contain any
-BalambPlains, so there is no entry in section1 and therefore the engine
-finds the region encounters, but doesn't find the encounter entries for
-BalambPlainsGround in Centra ruins (this is totally an example).
+That way the engine can play encounter based on place you are, because if you're walking on Balamb beach, then engine should play encounter with beach, not snow plains. That's why if you change the for one map portion you can totally erase encounters in this region, because in example region 4 that may be Centra regions does not contain any BalambPlains, so there is no entry in section1 and therefore the engine finds the region encounters, but doesn't find the encounter entries for BalambPlainsGround in Centra ruins (this is totally an example).
 
 ### Section 2: World map Regions
 
-Nothing much to write here. 32x24 world map. Just open it via hexEditor.
-It's just bitmap (you can even convert bytes to image and mini worldmap
-will show) Every single byte is regionID used for example in section1
-for encounters.
+Nothing much to write here. 32x24 world map. Just open it via hexEditor. It's just bitmap (you can even convert bytes to image and mini worldmap will show) Every single byte is regionID used for example in section1 for encounters.
 
 ### Section 3: World Map Encounters Flags
 
-One byte per encounter group in section 4. Always 0 on railways/roads,
-always 12 on forests, 128 on Island closest to Hell/Heaven, 3 in
-Galbadia Desert (day and night) and 2 for everything else.
+One byte per encounter group in section 4. Always 0 on railways/roads, always 12 on forests, 128 on Island closest to Hell/Heaven, 3 in Galbadia Desert (day and night) and 2 for everything else.
 
 ### Section 4: World Map Encounters
 
@@ -90,33 +63,21 @@ Galbadia Desert (day and night) and 2 for everything else.
 |--------------------|----------|-------------------------------------------|
 | section1.ESI \* 16 | 16 bytes | 2 \* 8 bytes of encounters from scene.out |
 
-It's as simple as that: Squall makes step on worldmap, game gets Squall
-position and tests it with section2 containing region, then loops
-through section1 and tests groundID and regionID to find ESI multiplier,
-if random number generates battle, then game gets to section4 using ESI
-determined earlier with Squall step on world map and plays randomly one
-of the eight encounters (because one ESI/encounterEntry is 16 bytes,
-where first four words are the most common, other 2 medium and last 2
-rarest)
+It's as simple as that: Squall makes step on worldmap, game gets Squall position and tests it with section2 containing region, then loops through section1 and tests groundID and regionID to find ESI multiplier, if random number generates battle, then game gets to section4 using ESI determined earlier with Squall step on world map and plays randomly one of the eight encounters (because one ESI/encounterEntry is 16 bytes, where first four words are the most common, other 2 medium and last 2 rarest)
 
 ### Section 5: UNUSED Encounter Flags (after Lunar Cry)
 
 Unused in-game
 
-One byte (always 8 here) per encounter group in section 6. Analog to
-section 3, but for Lunar Cry encounters.
+One byte (always 8 here) per encounter group in section 6. Analog to section 3, but for Lunar Cry encounters.
 
 ### Section 6: World Map Encounters (after Lunar Cry)
 
-Same format as Section 4, but only with Lunar Cry encounters. You can
-use the section 1 to obtain ground, this way: search in section 1 for
-region == 10 (Esthar), and substract 80 from the esi value, you will
-obtain the correct esi for the section 6.
+Same format as Section 4, but only with Lunar Cry encounters. You can use the section 1 to obtain ground, this way: search in section 1 for region == 10 (Esthar), and substract 80 from the esi value, you will obtain the correct esi for the section 6.
 
 ### Section 7-8: roads, train track, bridge
 
-Related with Section 39. Maybe scripts in section 8. (like sections 10,
-12 and 32)
+Related with Section 39. Maybe scripts in section 8. (like sections 10, 12 and 32)
 
 Script format (ScriptsCount must be guessed):
 
@@ -125,12 +86,7 @@ Script format (ScriptsCount must be guessed):
 | 0                     | 4 \* ScriptsCount + 4 | List of script positions, not always sorted (ended with 0x00000000) |
 | 4 \* ScriptsCount + 4 | Varies + 4            | Scripts data (ended with 0x00000000)                                |
 
-In script data you have 4-bytes opcodes, the first byte is the
-identifier, and the last two bytes are the parameter (the second byte is
-always 0xFF). Scripts always start with 0x01 opcode, and finish with
-0x16 opcode. There is always one 0x04 opcode inside. For now most is
-unknown, I only understood that 0x2B opcode refer to scene ID in its
-parameter (you can find UFO, Koyo-K and Lac Obel battles in Section 32).
+In script data you have 4-bytes opcodes, the first byte is the identifier, and the last two bytes are the parameter (the second byte is always 0xFF). Scripts always start with 0x01 opcode, and finish with 0x16 opcode. There is always one 0x04 opcode inside. For now most is unknown, I only understood that 0x2B opcode refer to scene ID in its parameter (you can find UFO, Koyo-K and Lac Obel battles in Section 32).
 
 ### Section 9: UNKNOWN
 
@@ -146,8 +102,7 @@ Maybe scripts in section 12. (like sections 8, 10 and 32)
 
 This section provides dialogs on world map used in side quests.
 
-This section starts with header pointing to **relative** offsets to
-dialog/text portions.
+This section starts with header pointing to **relative** offsets to dialog/text portions.
 
 Dumped data from wmsetus.obj:
 
@@ -206,8 +161,7 @@ Dumped data from wmsetus.obj:
 | Various                  | 4 bytes | '00 00 00 00' - offset list end            |
 | Offset pointed by header | Various | Models (see below)                         |
 
-Researched by: Vehek
-(http://forums.qhimm.com/index.php?topic=13799.msg193791\#msg193791)
+Researched by: Vehek (http://forums.qhimm.com/index.php?topic=13799.msg193791\#msg193791)
 
 `struct`  
 `{`  
@@ -266,18 +220,11 @@ Starts with AKAO header
 
 ### Section 29: World map "water block"
 
-Section 29 is a duplicate segment from "full" water block (not segment!)
-used in world map (wmx.obj).
+Section 29 is a duplicate segment from "full" water block (not segment!) used in world map (wmx.obj).
 
 #### Usage
 
-<s>Whenever landing or entering ragnarok, the engine does not load
-segments from wmx.obj until the transition is done.</s> Whenever
-transforming viewport at certain speed, the engine can't keep up with
-loading the new segments/blocks. The areas that are not loaded but
-should be rendered in the same time are filled with this block. This can
-be seen when the camera view is set so that it rotates during ragnarok
-entering/exiting transition or placing character to different area.
+<s>Whenever landing or entering ragnarok, the engine does not load segments from wmx.obj until the transition is done.</s> Whenever transforming viewport at certain speed, the engine can't keep up with loading the new segments/blocks. The areas that are not loaded but should be rendered in the same time are filled with this block. This can be seen when the camera view is set so that it rotates during ragnarok entering/exiting transition or placing character to different area.
 
 ### Section 30: NULL
 
@@ -291,8 +238,7 @@ UNKNOWN
 
 This section provides location names (probably for Ragnarok landing?)
 
-This section starts with header pointing to **relative** offsets to
-dialog/text portions.
+This section starts with header pointing to **relative** offsets to dialog/text portions.
 
 Dumped data from wmsetus.obj:
 
@@ -319,8 +265,7 @@ UNKNOWN
 | 0x00   | WORD   | World block X |
 | 0x02   | WORD   | World block Y |
 
-Magic contained in world map draw point: (ID is: section35 magic
-entry+0x80 \[add 1 to be correct with list below\])
+Magic contained in world map draw point: (ID is: section35 magic entry+0x80 \[add 1 to be correct with list below\])
 
 `   129 0 1 Cure`  
 `   130 0 1 Esuna`  
@@ -451,10 +396,7 @@ entry+0x80 \[add 1 to be correct with list below\])
 `   255 0 0 Ultima`  
 `   256 1 1 Scan`
 
-Halfer: X = rowBlockAmount, which is 4 times segment amount so 4 \* 32 =
-128 or 0x80. The last bit tells which row of the two we are on, first or
-second. The range of top row is from 0x00 - 0x7F and second row's 0x80 -
-0xFF.
+Halfer: X = rowBlockAmount, which is 4 times segment amount so 4 \* 32 = 128 or 0x80. The last bit tells which row of the two we are on, first or second. The range of top row is from 0x00 - 0x7F and second row's 0x80 - 0xFF.
 
 Y is incremented whenever X goes over 0xFF.
 
@@ -464,12 +406,7 @@ Maybe scripts in section 37. (like sections 8, 10 and 12)
 
 ### Section 38: World map textures archive
 
-This section starts with header pointing to **relative** offsets to .TIM
-textures. When engine reads offset as 0 (00 00 00 00) then ends reading
-offsets (so 0 is end of offset list). This is one of the larger sections
-in file. THIS section is responsible for 1/2 world map textures (Those
-are really used in-game). There is 36 textures inside as of original
-release. Also, sea, beach and special effects texture is present.
+This section starts with header pointing to **relative** offsets to .TIM textures. When engine reads offset as 0 (00 00 00 00) then ends reading offsets (so 0 is end of offset list). This is one of the larger sections in file. THIS section is responsible for 1/2 world map textures (Those are really used in-game). There is 36 textures inside as of original release. Also, sea, beach and special effects texture is present.
 
 | Offset                   | Length  | Description                     |
 |--------------------------|---------|---------------------------------|
@@ -479,11 +416,7 @@ release. Also, sea, beach and special effects texture is present.
 
 ### Section 39: Textures - roads, train track, bridge
 
-This section starts with header pointing to **relative** offsets to .TIM
-textures. When engine reads offset as 0 (00 00 00 00) then ends reading
-offsets (so 0 is end of offset list). THIS section is responsible for
-train track textures, road textures, bridge train track texture (the one
-that gets through FH).
+This section starts with header pointing to **relative** offsets to .TIM textures. When engine reads offset as 0 (00 00 00 00) then ends reading offsets (so 0 is end of offset list). THIS section is responsible for train track textures, road textures, bridge train track texture (the one that gets through FH).
 
 | Offset                   | Length  | Description                     |
 |--------------------------|---------|---------------------------------|
@@ -493,9 +426,7 @@ that gets through FH).
 
 ### Section 40: One world map texture/NULL
 
-This section starts with header pointing to **relative** offsets to only
-one .TIM texture. This is the first texture that is in [texl.obj][] or
-wmsetxx.obj/Section 38.
+This section starts with header pointing to **relative** offsets to only one .TIM texture. This is the first texture that is in [texl.obj](WorldMap texl.md) or wmsetxx.obj/Section 38.
 
 | Offset        | Length                           | Description                     |
 |---------------|----------------------------------|---------------------------------|
@@ -510,11 +441,7 @@ UNKNOWN
 
 ### Section 42: Vehicle and object textures
 
-This section starts with header pointing to **relative** offsets to .TIM
-textures. When engine reads offset as 0 (00 00 00 00) then ends reading
-offsets (so 0 is end of offset list). THIS section is responsible for
-vehicles, world map objects textures (Balamb mobile, Galbadia mobile,
-Balamb halo ring, cactuar statue, lunatic pandora...)
+This section starts with header pointing to **relative** offsets to .TIM textures. When engine reads offset as 0 (00 00 00 00) then ends reading offsets (so 0 is end of offset list). THIS section is responsible for vehicles, world map objects textures (Balamb mobile, Galbadia mobile, Balamb halo ring, cactuar statue, lunatic pandora...)
 
 | Offset                   | Length  | Description                     |
 |--------------------------|---------|---------------------------------|
@@ -533,6 +460,3 @@ Starts with AKAO
 ### Section 45-48: Sound/music related
 
 Starts with AKAO
-
-  [Wmset.obj]: WorldMap%20wmset.md "wikilink"
-  [texl.obj]: WorldMap%20texl.md "wikilink"

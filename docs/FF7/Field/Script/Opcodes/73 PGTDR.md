@@ -2,7 +2,7 @@
 title: 73 PGTDR
 ---
 
-[Home](../../../../Main%20Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 73 PGTDR
+[Home](../../../../Main Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 73 PGTDR
 
 -   Opcode: **0x73**
 -   Short name: **PGTDR**
@@ -21,5 +21,4 @@ title: 73 PGTDR
 
 #### Description
 
-Fetches the orientation of the party member specified by *P* on the
-field, into the bank and address specified by *B* and *D*.
+Fetches the orientation of the party member specified by *P* on the field, into the bank and address specified by *B* and *D*.

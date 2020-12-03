@@ -2,7 +2,7 @@
 title: 02D ANIME
 ---
 
-[Home](../../../../Main%20Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 02D ANIME
+[Home](../../../../Main Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 02D ANIME
 
 -   Opcode: **0x02D**
 -   Short name: **ANIME**
@@ -18,5 +18,4 @@ none
 
 #### Description
 
-Play an animation, then return the model to its base animation. Pauses
-script until animation finishes.
+Play an animation, then return the model to its base animation. Pauses script until animation finishes.

@@ -2,11 +2,11 @@
 title: Triggers
 ---
 
-[Home](../../Main%20Page.md) > [FF7](../../FF7.md) > [Field](../Field.md) > Triggers
+[Home](../../Main Page.md) > [FF7](../../FF7.md) > [Field](../Field.md) > Triggers
 
 # Triggers/Gateways
 
-[1][] [2][] and [3][]
+[1](http://forums.qhimm.com/index.php?topic=4358.msg58674#msg58674) [2](http://forums.qhimm.com/index.php?topic=3247.msg53525#msg53525) and [3](http://forums.qhimm.com/index.php?topic=7129.msg87583#msg87583)
 
 | Offset | Size     | Data                                                                                                  |
 |--------|----------|-------------------------------------------------------------------------------------------------------|
@@ -80,8 +80,7 @@ behavior can be from 0 to 5:
 
 ## Shown arrows
 
-For each gateway you can show an arrow. If shown arrow = 1, a red arrow
-is displayed in the middle of the corresponding gateway line.
+For each gateway you can show an arrow. If shown arrow = 1, a red arrow is displayed in the middle of the corresponding gateway line.
 
 ## Arrows
 
@@ -93,7 +92,3 @@ This an arrow list to position an arrow where you want.
 | 4      | 4    | Position Z (signed)                        |
 | 8      | 4    | Position Y (signed)                        |
 | 12     | 4    | Arrow type (0= disabled, 1= red, 2= green) |
-
-  [1]: http://forums.qhimm.com/index.php?topic=4358.msg58674#msg58674
-  [2]: http://forums.qhimm.com/index.php?topic=3247.msg53525#msg53525
-  [3]: http://forums.qhimm.com/index.php?topic=7129.msg87583#msg87583

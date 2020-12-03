@@ -2,7 +2,7 @@
 title: F5 MULCK
 ---
 
-[Home](../../../../Main%20Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > F5 MULCK
+[Home](../../../../Main Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > F5 MULCK
 
 -   Opcode: **0xF5**
 -   Short name: **MULCK**
@@ -19,7 +19,4 @@ title: F5 MULCK
 
 #### Description
 
-Locks the [MUSIC][] to the current selection. Subsequent calls to change
-the music will fail unless a corresponding MULCK set to 0 is executed.
-
-  [MUSIC]: F0%20MUSIC.md "wikilink"
+Locks the [MUSIC](F0 MUSIC.md) to the current selection. Subsequent calls to change the music will fail unless a corresponding MULCK set to 0 is executed.

@@ -2,25 +2,25 @@
 title: Materia data
 ---
 
-[Home](../Main%20Page.md) > [FF7](../FF7.md) > Materia data
+[Home](../Main Page.md) > [FF7](../FF7.md) > Materia data
 
 ## KERNEL.BIN - Section 9: Materia data format
 
 This section contains the Materia data. Each record is 20 bytes long.
 
-| Offset | Length  | Description                        |
-|:------:|---------|------------------------------------|
-|  0x00  | 8 bytes | Level-up AP limits                 |
-|  0x08  | 1 byte  | Equip Effect                       |
-|  0x09  | 3 bytes | [Status Effects][]. Only first 24. |
-|  0x0C  | 1 byte  | [Element Index][]                  |
-|  0x0D  | 1 byte  | [Materia Type][]                   |
-|  0x0E  | 1 byte  | Materia attributes                 |
-|  0x0F  | 1 byte  | Materia attributes                 |
-|  0x10  | 1 byte  | Materia attributes                 |
-|  0x11  | 1 byte  | Materia attributes                 |
-|  0x12  | 1 byte  | Materia attributes                 |
-|  0x13  | 1 byte  | Materia attributes                 |
+| Offset | Length  | Description                                                            |
+|:------:|---------|------------------------------------------------------------------------|
+|  0x00  | 8 bytes | Level-up AP limits                                                     |
+|  0x08  | 1 byte  | Equip Effect                                                           |
+|  0x09  | 3 bytes | [Status Effects](Battle/Status Effects.md). Only first 24. |
+|  0x0C  | 1 byte  | [Element Index](Battle/Elemental Data.md)                  |
+|  0x0D  | 1 byte  | [Materia Type](Materia Types.md)                           |
+|  0x0E  | 1 byte  | Materia attributes                                                     |
+|  0x0F  | 1 byte  | Materia attributes                                                     |
+|  0x10  | 1 byte  | Materia attributes                                                     |
+|  0x11  | 1 byte  | Materia attributes                                                     |
+|  0x12  | 1 byte  | Materia attributes                                                     |
+|  0x13  | 1 byte  | Materia attributes                                                     |
 
 #### Equip Effects
 
@@ -49,13 +49,6 @@ This section contains the Materia data. Each record is 20 bytes long.
 | 0x14<sup>+</sup>  |     |     |     |        |     |      |       |       |
 | 0x15<sup>++</sup> | +1  | +2  | +4  |   +8   | +16 | +32  | +64%  | +128% |
 
-  *\** Although the Materia equip menu will claim that certain materia
-increase the Magic Def stat, they really increase Spirit.  
-  <sup>+</sup> These are valid bonus values in the PC version, but
-they're unused.  
-  <sup>++</sup> This value is allowable in the PC version although
-technically a memory leak.
-
-  [Status Effects]: Battle/Status%20Effects.md "wikilink"
-  [Element Index]: Battle/Elemental%20Data.md "wikilink"
-  [Materia Type]: Materia%20Types.md "wikilink"
+  *\** Although the Materia equip menu will claim that certain materia increase the Magic Def stat, they really increase Spirit.  
+  <sup>+</sup> These are valid bonus values in the PC version, but they're unused.  
+  <sup>++</sup> This value is allowable in the PC version although technically a memory leak.

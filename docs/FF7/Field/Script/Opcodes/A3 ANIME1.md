@@ -2,7 +2,7 @@
 title: A3 ANIME1
 ---
 
-[Home](../../../../Main%20Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > A3 ANIME1
+[Home](../../../../Main Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > A3 ANIME1
 
 -   Opcode: **0xA3**
 -   Short name: **ANIME1**
@@ -16,17 +16,12 @@ title: A3 ANIME1
 #### Arguments
 
 -   **const UByte** *A*: Animation ID for this entity's field object.
--   **const UByte** *S*: Speed the animation is played at. Real model
-    animation speed divide by this to calculate real play speed.
+-   **const UByte** *S*: Speed the animation is played at. Real model animation speed divide by this to calculate real play speed.
 
 #### Description
 
-Plays the animation found at ID *A* in this entity's field object, at
-the speed marked by *S*. When the animation is completed, the field
-object returns to its original state.
+Plays the animation found at ID *A* in this entity's field object, at the speed marked by *S*. When the animation is completed, the field object returns to its original state.
 
-The current script's execution is halted whilst the animation is played,
-and continues when the animation has completed.
+The current script's execution is halted whilst the animation is played, and continues when the animation has completed.
 
-Makou Reactor Description: Play animation \#%1 of the field model and
-reset to previous state (speed=%2)
+Makou Reactor Description: Play animation \#%1 of the field model and reset to previous state (speed=%2)

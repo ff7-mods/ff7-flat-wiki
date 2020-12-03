@@ -2,7 +2,7 @@
 title: 02C BASEANIME
 ---
 
-[Home](../../../../Main%20Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 02C BASEANIME
+[Home](../../../../Main Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 02C BASEANIME
 
 -   Opcode: **0x02C**
 -   Short name: **BASEANIME**
@@ -23,5 +23,4 @@ Model Animation ID
 
 #### Description
 
-Sets this entity's model to loop the given frames of this animation
-while it's idle.
+Sets this entity's model to loop the given frames of this animation while it's idle.

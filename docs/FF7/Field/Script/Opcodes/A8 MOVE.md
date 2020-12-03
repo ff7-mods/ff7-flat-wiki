@@ -2,7 +2,7 @@
 title: A8 MOVE
 ---
 
-[Home](../../../../Main%20Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > A8 MOVE
+[Home](../../../../Main Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > A8 MOVE
 
 -   Opcode: **0xA8**
 -   Short name: **MOVE**
@@ -15,21 +15,11 @@ title: A8 MOVE
 
 #### Arguments
 
--   **const Bit\[4\]** *B1*: Bank to retrieve X-coordinate, or zero if
-    it is specified as a literal value.
--   **const Bit\[4\]** *B2*: Bank to retrieve Y-coordinate, or zero if
-    it is specified as a literal value.
--   **const Short** *X*: X-coordinate, or lower byte specifying an
-    address for the value if *B1* is non-zero.
--   **const Short** *Y*: Y-coordinate, or lower byte specifying an
-    address for the value if *B2* is non-zero.
+-   **const Bit\[4\]** *B1*: Bank to retrieve X-coordinate, or zero if it is specified as a literal value.
+-   **const Bit\[4\]** *B2*: Bank to retrieve Y-coordinate, or zero if it is specified as a literal value.
+-   **const Short** *X*: X-coordinate, or lower byte specifying an address for the value if *B1* is non-zero.
+-   **const Short** *Y*: Y-coordinate, or lower byte specifying an address for the value if *B2* is non-zero.
 
 #### Description
 
-Makes the field object, associated with the entity this opcode's script
-resides in, walk (or move gradually) to the point specified by the
-coordinates, at the speed previously specified by [MSPED][]. The
-object's standard walk animation is used, found with animation ID 1 in
-the field object associated with this entity.
-
-  [MSPED]: B2%20MSPED.md "wikilink"
+Makes the field object, associated with the entity this opcode's script resides in, walk (or move gradually) to the point specified by the coordinates, at the speed previously specified by [MSPED](B2 MSPED.md). The object's standard walk animation is used, found with animation ID 1 in the field object associated with this entity.

@@ -2,7 +2,7 @@
 title: 53 WREST
 ---
 
-[Home](../../../../Main%20Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 53 WREST
+[Home](../../../../Main Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 53 WREST
 
 -   Opcode: **0x53**
 -   Short name: **WREST**
@@ -21,20 +21,9 @@ title: 53 WREST
 
 Resets the given window, including the following parameters:
 
--   Position and size, set by [WMOVE][], [WSIZW][], [WROW][] or even the
-    initial values set by [WINDOW][];
--   Background type, set by [WMODE][];
--   Numerical displays, set by [WSPCL][];
--   Message parameters, set by [MPARA][] and [MPRA2][].
+-   Position and size, set by [WMOVE](FF7/Field/Script/Opcodes/51_WMOVE "wikilink"), [WSIZW](FF7/Field/Script/Opcodes/2F_WSIZW "wikilink"), [WROW](FF7/Field/Script/Opcodes/55_WROW "wikilink") or even the initial values set by [WINDOW](50 WINDOW.md);
+-   Background type, set by [WMODE](52 WMODE.md);
+-   Numerical displays, set by [WSPCL](36 WSPCL.md);
+-   Message parameters, set by [MPARA](FF7/Field/Script/Opcodes/41_MPARA "wikilink") and [MPRA2](42 MPRA2.md).
 
-The reset window has a position of approximately (5,5), with a width and
-height of approximately (0x130, 0x45).
-
-  [WMOVE]: 51%20WMOVE.md "wikilink"
-  [WSIZW]: 2F%20WSIZW.md "wikilink"
-  [WROW]: 55%20WROW.md "wikilink"
-  [WINDOW]: 50%20WINDOW.md "wikilink"
-  [WMODE]: 52%20WMODE.md "wikilink"
-  [WSPCL]: 36%20WSPCL.md "wikilink"
-  [MPARA]: 41%20MPARA.md "wikilink"
-  [MPRA2]: 42%20MPRA2.md "wikilink"
+The reset window has a position of approximately (5,5), with a width and height of approximately (0x130, 0x45).

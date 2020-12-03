@@ -2,7 +2,7 @@
 title: 6B FADE
 ---
 
-[Home](../../../../Main%20Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 6B FADE
+[Home](../../../../Main Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 6B FADE
 
 -   Opcode: **0x6B**
 -   Short name: **FADE**
@@ -15,49 +15,30 @@ title: 6B FADE
 
 #### Arguments
 
--   **const Bit\[4\]** *B1*: Bank to retrieve *R*, or zero if *R* is
-    given as a literal value.
--   **const Bit\[4\]** *B2*: Bank to retrieve *G*, or zero if *G* is
-    given as a literal value.
+-   **const Bit\[4\]** *B1*: Bank to retrieve *R*, or zero if *R* is given as a literal value.
+-   **const Bit\[4\]** *B2*: Bank to retrieve *G*, or zero if *G* is given as a literal value.
 -   **const Bit\[4\]** *0*: Zero.
--   **const Bit\[4\]** *B3*: Bank to retrieve *B*, or zero if *B* is
-    given as a literal value.
--   **const UByte** *R*: Red component value, or address of red value if
-    *B1* is non-zero.
--   **const UByte** *G*: Green component value, or address of green
-    value if *B2* is non-zero.
--   **const UByte** *B*: Blue component value, or address of blue value
-    if *B3* is non-zero.
--   **const UByte** *S*: Speed of fade. Larger numbers indicate faster
-    fades.
+-   **const Bit\[4\]** *B3*: Bank to retrieve *B*, or zero if *B* is given as a literal value.
+-   **const UByte** *R*: Red component value, or address of red value if *B1* is non-zero.
+-   **const UByte** *G*: Green component value, or address of green value if *B2* is non-zero.
+-   **const UByte** *B*: Blue component value, or address of blue value if *B3* is non-zero.
+-   **const UByte** *S*: Speed of fade. Larger numbers indicate faster fades.
 -   **const UByte** *T*: Type of fade; see table.
--   **const UByte** *A*: Adjusts the speed of the fade, based on fade
-    in/out.
+-   **const UByte** *A*: Adjusts the speed of the fade, based on fade in/out.
 
 #### Description
 
-Fades the screen to the colour specified, either as literal values or
-values from memory, using the type of fade specified by *T*.
+Fades the screen to the colour specified, either as literal values or values from memory, using the type of fade specified by *T*.
 
-Fades are linear tweens that sit above the field. The from color and to
-color of the tweens are detailed below. After the tween has completed,
-the fades also set or do not set a holding color. For example, some
-fades go from the field colors to a light coloured overlay, but once
-finish, reset to back to field backgrounds.
+Fades are linear tweens that sit above the field. The from color and to color of the tweens are detailed below. After the tween has completed, the fades also set or do not set a holding color. For example, some fades go from the field colors to a light coloured overlay, but once finish, reset to back to field backgrounds.
 
-The transition fades between fields and menus do not appear to affected
-by this op code.
+The transition fades between fields and menus do not appear to affected by this op code.
 
-The overlay sits infront of field models and background (apart from any
-special models with KAWAI or SHINE effects). It also sits behind any
-messages that appear on the screen.
+The overlay sits infront of field models and background (apart from any special models with KAWAI or SHINE effects). It also sits behind any messages that appear on the screen.
 
-If a FADE (or NFADE) is in progress but another FADE (or NFADE) is
-called, the current fade is stopped and the new one continues. Both op
-codes control, what essentially is, a single fade layer, I believe...
+If a FADE (or NFADE) is in progress but another FADE (or NFADE) is called, the current fade is stopped and the new one continues. Both op codes control, what essentially is, a single fade layer, I believe...
 
-*Note: Where colorBlack is mentioned, this essentially means
-'transparent', eg you see the field without any overlay*
+*Note: Where colorBlack is mentioned, this essentially means 'transparent', eg you see the field without any overlay*
 
 #### Speed
 
@@ -70,22 +51,17 @@ The speed of the fade is specified by *S*, and is base on:
 `   16 -> 15 frames -> 0.5 secs`  
 `   32 -> 7.5 frames -> 0.25 secs`
 
-In the table below, I refer to a calculation formula *speedToSeconds*
-for *S* to seconds is represented as:
+In the table below, I refer to a calculation formula *speedToSeconds* for *S* to seconds is represented as:
 
 `   const speedToSeconds = (speed) => {`  
 `       return 8 / Math.pow(2, Math.log2(speed))`  
 `   }`
 
-With 'NFADE', the speed calculation is not required, the fade speed *S*
-represents the frame count for the fade.
+With 'NFADE', the speed calculation is not required, the fade speed *S* represents the frame count for the fade.
 
 #### Adjust
 
-If the type id is odd, the adjust is 0xFF, if even, it is 0x00. Whilst I
-haven't gone into depth with the adjust, it seemingly affects the wait
-for (FADEW). If set as per the table below, then the fade will take the
-time take as above and the FADEW will resolve once completed.
+If the type id is odd, the adjust is 0xFF, if even, it is 0x00. Whilst I haven't gone into depth with the adjust, it seemingly affects the wait for (FADEW). If set as per the table below, then the fade will take the time take as above and the FADEW will resolve once completed.
 
 #### Colours
 
@@ -96,9 +72,7 @@ Simple formulas based on the passed *r*, *g*, *b* values:
 `   colorInverse1 -> rgb(0xFF - r, 0xFF - g, 0xFF - b)`  
 `   colorInverse4 -> rgb(4 * (0xFF - r), 4 * (0xFF - g), 4 * (0xFF - b))`
 
-Frame by frame, the tweens will calculate the correct values between the
-**from** and **to** colours over the period of time of the fade. Eg:
-FROM rgb(10,10,10) -&gt; TO rgb(30,20,10) will increase like this:
+Frame by frame, the tweens will calculate the correct values between the **from** and **to** colours over the period of time of the fade. Eg: FROM rgb(10,10,10) -&gt; TO rgb(30,20,10) will increase like this:
 
 `   rgb(10,10,10)`  
 `   rgb(12,11,10)`  
@@ -114,10 +88,7 @@ FROM rgb(10,10,10) -&gt; TO rgb(30,20,10) will increase like this:
 
 #### Blending Modes
 
-Whilst it seems as though a fade my be a gradual opacity, in FF7, it
-isn't. Instead it is a blending of colors ontop of each other. Eg: We
-have a 2 pixel, a dark red one and a dark blue one and an orange overly,
-we apply it like this:
+Whilst it seems as though a fade my be a gradual opacity, in FF7, it isn't. Instead it is a blending of colors ontop of each other. Eg: We have a 2 pixel, a dark red one and a dark blue one and an orange overly, we apply it like this:
 
 `   GREEN  rgb( 40, 150, 70) -> BLEND DARK BLUE rgb( 50, 60, 130) ADDITIVE    -> rgb( 90, 210, 200)`  
 `   GREEN  rgb( 40, 150, 70) -> BLEND DARK BLUE rgb( 50, 60, 130) SUBTRACTIVE -> rgb(  0, 90,    0)`  

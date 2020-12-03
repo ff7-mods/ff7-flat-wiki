@@ -2,7 +2,7 @@
 title: 016 REQEW
 ---
 
-[Home](../../../../Main%20Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 016 REQEW
+[Home](../../../../Main Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 016 REQEW
 
 -   Opcode: **0x016**
 -   Short name: **REQEW**
@@ -18,5 +18,4 @@ The ID of the target Entity.
 
 #### Description
 
-Go to the method *Label* in the group **Argument** with a specified
-*Priority*.
+Go to the method *Label* in the group **Argument** with a specified *Priority*.

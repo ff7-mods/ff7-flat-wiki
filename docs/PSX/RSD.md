@@ -2,19 +2,13 @@
 title: RSD
 ---
 
-[Home](../Main%20Page.md) > [PSX](../PSX.md) > RSD
+[Home](../Main Page.md) > [PSX](../PSX.md) > RSD
 
 ## RSD resource data format
 
-An RSD file is product of the original Playstation Psy-Q 3D development
-libraries. They are often expoted by 3D modelers when converting from an
-LWO or DXF file to something more understandable by the PSX. It is in
-ascii, making it easy to edit by hand. When a 3D editor does an export,
-four text files are actually created, .rsd, .ply, .mat, and .grp. These
-can then be "compiled" into a binary .rsd file for the PSX.
+An RSD file is product of the original Playstation Psy-Q 3D development libraries. They are often expoted by 3D modelers when converting from an LWO or DXF file to something more understandable by the PSX. It is in ascii, making it easy to edit by hand. When a 3D editor does an export, four text files are actually created, .rsd, .ply, .mat, and .grp. These can then be "compiled" into a binary .rsd file for the PSX.
 
-In the PC version of Final Fantasy 7, the text .rsd file is used while
-the other files were "compiled" into [Polygon(.p)][] format.
+In the PC version of Final Fantasy 7, the text .rsd file is used while the other files were "compiled" into [Polygon(.p)](../FF7/P.md) format.
 
 The following example is "acaa.rsd", the RSD File for Yuffie's Head:
 
@@ -34,11 +28,9 @@ The first line is an ID. It is always the following.
 
 `@RSD940102`
 
-The number, 940102, is a date. January 2nd, 1994. This was created with
-one of the first SGI workstations for PSX development.
+The number, 940102, is a date. January 2nd, 1994. This was created with one of the first SGI workstations for PSX development.
 
-The Second line is a comment. Every line beginning with "\#" is ignored
-by the engine.
+The Second line is a comment. Every line beginning with "\#" is ignored by the engine.
 
 `# Output by SGI RSD fileset library libRsdObj.`
 
@@ -54,19 +46,12 @@ The Group file..
 
 `GRP=ACAB.GRP`
 
-On FF7PC, these files were compiled into a [Polygon(.p)][] file, but
-with the same four leter filename.
+On FF7PC, these files were compiled into a [Polygon(.p)](../FF7/P.md) file, but with the same four leter filename.
 
-The next line is telling how many textures this model uses. Usually it
-is 0, and there are no more lines. However, in our example it is 3, and
-there are 3 textures in here.
+The next line is telling how many textures this model uses. Usually it is 0, and there are no more lines. However, in our example it is 3, and there are 3 textures in here.
 
 `NTEX=3`
 
-In the last section you can see an array telling you the filenames for
-the textures. However, if you want to have the "real" filename, you'll
-have to replace "TIM" by "TEX""ACAC.TIM" --&gt; "ACAC.TEX"
+In the last section you can see an array telling you the filenames for the textures. However, if you want to have the "real" filename, you'll have to replace "TIM" by "TEX""ACAC.TIM" --&gt; "ACAC.TEX"
 
 `TEX[x]=y`
-
-  [Polygon(.p)]: ../FF7/P.md "wikilink"

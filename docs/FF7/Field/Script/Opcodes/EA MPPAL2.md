@@ -2,7 +2,7 @@
 title: EA MPPAL2
 ---
 
-[Home](../../../../Main%20Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > EA MPPAL2
+[Home](../../../../Main Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > EA MPPAL2
 
 -   Opcode: **0xEA**
 -   Short name: **MPPAL2**
@@ -20,10 +20,8 @@ title: EA MPPAL2
 -   **const Bit\[4\]** *B3*: Bank for multiply blue colour.
 -   **const Bit\[4\]** *B4*: Bank for multiply green colour.
 -   **const Bit\[4\]** *B5*: Bank for multiply red colour.
--   **const UByte** *Source palette array id*: Source palette array id.
-    Take data from here and multiply it by BRG colour.
--   **const UByte** *Destination palette array id*: Destination palette
-    array id. Here we store data after multiplication
+-   **const UByte** *Source palette array id*: Source palette array id. Take data from here and multiply it by BRG colour.
+-   **const UByte** *Destination palette array id*: Destination palette array id. Here we store data after multiplication
 -   **const UByte** *Multiply Blue*: Blue value for multiplying.
 -   **const UByte** *Multiply Green*: green value for multiplying.
 -   **const UByte** *Multiply Red*: Red value for multiplying.

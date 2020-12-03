@@ -2,7 +2,7 @@
 title: 8C DIV2
 ---
 
-[Home](../../../../Main%20Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 8C DIV2
+[Home](../../../../Main Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 8C DIV2
 
 -   Opcode: **0x8C**
 -   Short name: **DIV2**
@@ -17,14 +17,9 @@ title: 8C DIV2
 
 -   **const Bit\[4\]** *D*: Destination bank
 -   **const Bit\[4\]** *S*: Source bank
--   **const UByte** *Dest*: Contains the nominator of the division and
-    receives the quotient.
+-   **const UByte** *Dest*: Contains the nominator of the division and receives the quotient.
 -   **const SWord** *Den*: The denominator of the division.
 
 #### Description
 
-Divides â€œDestâ€ by â€œDenâ€ and stores the result back into
-â€œDestâ€. The result of the division is rounded towards negative
-infinity to the nearest integer. If the Source Bank is 0 then the
-â€œDenâ€ is the denominator. If the Source Bank is an 16 bit bank, then
-the â€œDenâ€ is the address in that bank where the denominator is.
+Divides â€œDestâ€ by â€œDenâ€ and stores the result back into â€œDestâ€. The result of the division is rounded towards negative infinity to the nearest integer. If the Source Bank is 0 then the â€œDenâ€ is the denominator. If the Source Bank is an 16 bit bank, then the â€œDenâ€ is the address in that bank where the denominator is.

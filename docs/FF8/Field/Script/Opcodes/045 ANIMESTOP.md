@@ -2,7 +2,7 @@
 title: 045 ANIMESTOP
 ---
 
-[Home](../../../../Main%20Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 045 ANIMESTOP
+[Home](../../../../Main Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 045 ANIMESTOP
 
 -   Opcode: **0x045**
 -   Short name: **ANIMESTOP**
@@ -19,6 +19,4 @@ none
 
 #### Description
 
-Returns this entity to its [base animation][].
-
-  [base animation]: 02C%20BASEANIME.md "wikilink"
+Returns this entity to its [base animation](02C BASEANIME.md).

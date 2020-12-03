@@ -2,21 +2,15 @@
 title: FileFormat X
 ---
 
-[Home](../Main%20Page.md) > [FF8](../FF8.md) > FileFormat X
+[Home](../Main Page.md) > [FF8](../FF8.md) > FileFormat X
 
-By MaKiPL. Thanks for help in research for: shakotay2 (XeNTaX), Halfer,
-Yagami Light. Complete list of original battle stages by Kaspar01: [List
-of battle stages][]
+By MaKiPL. Thanks for help in research for: shakotay2 (XeNTaX), Halfer, Yagami Light. Complete list of original battle stages by Kaspar01: [List of battle stages](BS list.md)
 
 ## Info
 
-.X file is uncompressed 3D stage model with texture embedeed. The file
-contains unused info (not used by FF8 engine), camera data, movement,
-translations and geometry data.
+.X file is uncompressed 3D stage model with texture embedeed. The file contains unused info (not used by FF8 engine), camera data, movement, translations and geometry data.
 
-Battle stages **DOES NOT** contain pointers to next sections. All
-pointers are **HARDCODED** in FF8.EXE. [Click me for battle stage
-pointer list][]
+Battle stages **DOES NOT** contain pointers to next sections. All pointers are **HARDCODED** in FF8.EXE. [Click me for battle stage pointer list](BattleStage/Pointers.md)
 
 | Name                      | Usually starting with:                  | Description                                                             |
 |---------------------------|-----------------------------------------|-------------------------------------------------------------------------|
@@ -27,11 +21,7 @@ pointer list][]
 
 ## How is this file handled by the engine?
 
-FF8 loads specific file and reads it from hardcoded (written in FF8
-code) position (or reads MIPS PlayStation assembly that contains battle
-stage load code). This hardcoded position points to camera data (in PC).
-Camera data has size uint16, which is calculated and relative jump is
-made. Just after camera, a typical section based file handling is made.
+FF8 loads specific file and reads it from hardcoded (written in FF8 code) position (or reads MIPS PlayStation assembly that contains battle stage load code). This hardcoded position points to camera data (in PC). Camera data has size uint16, which is calculated and relative jump is made. Just after camera, a typical section based file handling is made.
 
 | Offset | Length | Description                |
 |--------|--------|----------------------------|
@@ -77,17 +67,11 @@ made. Just after camera, a typical section based file handling is made.
 | 66     | 2 bytes                      | Nothing?                                                    |
 | 68     | ...up to end                 | Left null for storing some engine data AFTER loaded in-game |
 
-This might look difficult, but it's like multi-pointer file that starts
-at different location given by executable. See list at the beginning of
-this wiki to see which stages camera starts at which position (where
-FF8.exe really starts to read file as BattleStage) \[FF8 stores whole
-file, even with useless data before camera\] If this still makes
-trouble, see this video: TODO
+This might look difficult, but it's like multi-pointer file that starts at different location given by executable. See list at the beginning of this wiki to see which stages camera starts at which position (where FF8.exe really starts to read file as BattleStage) \[FF8 stores whole file, even with useless data before camera\] If this still makes trouble, see this video: TODO
 
 ## Camera data
 
-Starts at \~0x5d4 (see How the engine handles this file?).
-\[.text:00509820\]
+Starts at \~0x5d4 (see How the engine handles this file?). \[.text:00509820\]
 
 | Offset | Length   | Description                                           |
 |--------|----------|-------------------------------------------------------|
@@ -152,10 +136,7 @@ Starts at \~0x5d4 (see How the engine handles this file?).
 | 930    | array&lt;uint8\_t,128&gt; | unknown bytes                                                  |
 | 1058   | array&lt;uint8\_t,34&gt;  | unknown bytes                                                  |
 
-Total bytes of struct is **1092**. Still much is unknown about this
-struct. I adjusted things from OpenVIII source code. Though some numbers
-weren't adding up. I know the total size. So I adjusted one of the
-unknown bytes arrays to fit in the span.
+Total bytes of struct is **1092**. Still much is unknown about this struct. I adjusted things from OpenVIII source code. Though some numbers weren't adding up. I know the total size. So I adjusted one of the unknown bytes arrays to fit in the span.
 
 ###### Time
 
@@ -179,25 +160,17 @@ a0stg006.x:
 0x5d8 -&gt; 02 00 08 00 20 00
 
 1.  Get EOF-&gt; \*(0x5d8 + 8) -&gt; 32
-2.  Jump to EOF -&gt; 0x5d8 + 32 = 0x5F8 (This is now Camera Animation
-    Collection)
-3.  Get pointer to correct anim collection. In this case we will use
-    AnimCollectionID == 0, so: \*(0x5F8 + 0\*2 + 2) -&gt; 0x0c
-4.  Jump to Anim collection data: 0x5F8 + 0x0c = 0x604 (This is now
-    Camera Animation Set)
-5.  Jump to Camera animation by cameraAnimSetID, let's take for example
-    cameraAnimSetID == 7, so: \*(0x604 + 7\*2) -&gt; 0x25E. Now
-    carefully, jump by multiplying it by 2!
+2.  Jump to EOF -&gt; 0x5d8 + 32 = 0x5F8 (This is now Camera Animation Collection)
+3.  Get pointer to correct anim collection. In this case we will use AnimCollectionID == 0, so: \*(0x5F8 + 0\*2 + 2) -&gt; 0x0c
+4.  Jump to Anim collection data: 0x5F8 + 0x0c = 0x604 (This is now Camera Animation Set)
+5.  Jump to Camera animation by cameraAnimSetID, let's take for example cameraAnimSetID == 7, so: \*(0x604 + 7\*2) -&gt; 0x25E. Now carefully, jump by multiplying it by 2!
     1.  0x604 + (0x25E \* 2) = 0xAC0
 
-Therefore: a0stg006.x Camera animation 7 in camera collection 0 is at
-0xAC0
+Therefore: a0stg006.x Camera animation 7 in camera collection 0 is at 0xAC0
 
 ## Geometry
 
-Geometry contains groups, that contains Triangles and/or quads poligons.
-Models always stars at 01 00 01 00, and needs to be after camera data,
-either it's not model itself, but some other data.
+Geometry contains groups, that contains Triangles and/or quads poligons. Models always stars at 01 00 01 00, and needs to be after camera data, either it's not model itself, but some other data.
 
 #### Group
 
@@ -258,8 +231,7 @@ either it's not model itself, but some other data.
 | Blue                | Byte                    | Texture colourization (Blue)                  |
 | PSone GPU related   | Byte                    | PSOne instruction                             |
 
-Special Byte: This byte, needs to be divided to two bytes. So, for
-example, a 0xE5 needs to be treated like two bytes: 0x0E 0x05
+Special Byte: This byte, needs to be divided to two bytes. So, for example, a 0xE5 needs to be treated like two bytes: 0x0E 0x05
 
 | Singular of char    | Example      | Description         |
 |---------------------|--------------|---------------------|
@@ -268,16 +240,11 @@ example, a 0xE5 needs to be treated like two bytes: 0x0E 0x05
 
 #### CLUT ID
 
-The most important bit's are the first two on one byte, and last two on
-last byte. Example: 00000000 00111100 (00 3C) should be read like this:
-00111100 00000000 (3C 00) And the CLUT ID is revealed by watching this
-four bits: 001111\[00 00\]000000
+The most important bit's are the first two on one byte, and last two on last byte. Example: 00000000 00111100 (00 3C) should be read like this: 00111100 00000000 (3C 00) And the CLUT ID is revealed by watching this four bits: 001111\[00 00\]000000
 
-Same applies to reading CLUT colors (16bits) where they are: 1b-T, 5b-B,
-5b-G, 5b-R (Or RGBT if reordered as shown above)
+Same applies to reading CLUT colors (16bits) where they are: 1b-T, 5b-B, 5b-G, 5b-R (Or RGBT if reordered as shown above)
 
-Complete list (without replacing bit order - as is in HEX
-editor/memory):
+Complete list (without replacing bit order - as is in HEX editor/memory):
 
 | CLUT ID | BIT               | HEX   |
 |---------|-------------------|-------|
@@ -300,8 +267,7 @@ editor/memory):
 
 ## Texture
 
-Contains one [TIMs][] with various size 512x256, 673x256, 768x256
-(8BPP).
+Contains one [TIMs](../PSX/TIM format.md).
 
 ### UV calculation algorithm
 
@@ -323,8 +289,7 @@ For 24-bit TIM:
 
 `0xB2 byte is: 2*48 = 96`
 
-Unsure about this one. It could be 42.667 instead of 48. It takes 1.5x
-the space of 16 bit. I haven't seen a file that uses 24-bit yet.
+Unsure about this one. It could be 42.667 instead of 48. It takes 1.5x the space of 16 bit. I haven't seen a file that uses 24-bit yet.
 
 For 16-bit TIM:
 
@@ -338,9 +303,7 @@ For 4-bit TIM:
 
 `0xB2 byte is: 2*256 = 512`
 
-Each time you half the number of bits you double the amount of data you
-can store in the same space. So the calculated Texture Page is
-different.
+Each time you half the number of bits you double the amount of data you can store in the same space. So the calculated Texture Page is different.
 
 ### Face order / Translation/ triangulation
 
@@ -377,8 +340,3 @@ different.
 ` f 1/1 6/3 7/4`  
 ` where:`  
 ` A=1 B=2 C=6 D=7`
-
-  [List of battle stages]: BS%20list.md "wikilink"
-  [Click me for battle stage pointer list]: BattleStage/Pointers.md
-    "wikilink"
-  [TIMs]: ../PSX/TIM%20format.md "wikilink"

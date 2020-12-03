@@ -2,7 +2,7 @@
 title: 03F MOVEA
 ---
 
-[Home](../../../../Main%20Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 03F MOVEA
+[Home](../../../../Main Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 03F MOVEA
 
 -   Opcode: **0x03F**
 -   Short name: **MOVEA**

@@ -2,7 +2,7 @@
 title: 032 RANIMEKEEP
 ---
 
-[Home](../../../../Main%20Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 032 RANIMEKEEP
+[Home](../../../../Main Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 032 RANIMEKEEP
 
 -   Opcode: **0x032**
 -   Short name: **RANIMEKEEP**
@@ -18,5 +18,4 @@ none
 
 #### Description
 
-Play an animation, then freeze the model on the last frame of the
-animation.
+Play an animation, then freeze the model on the last frame of the animation.

@@ -2,22 +2,21 @@
 title: BCX
 ---
 
-[Home](../../Main%20Page.md) > [FF7](../../FF7.md) > [Field](../Field.md) > BCX
+[Home](../../Main Page.md) > [FF7](../../FF7.md) > [Field](../Field.md) > BCX
 
-BCX files have a similar structure to [BSX files][]. However, there are
-a few key differences.
+BCX files have a similar structure to [BSX files](BSX.md). However, there are a few key differences.
 
 ## BCX Header
 
-Same as [BSX files][1].
+Same as [BSX files](BSX.md#BSX Header).
 
 ## Skeleton Data Section
 
-Same as [BSX files][2].
+Same as [BSX files](BSX.md#Skeleton Data Section).
 
 ## Animation Data Section
 
-Same as [BSX files][3].
+Same as [BSX files](BSX.md#Animation Data Section).
 
 ## Model Info Section
 
@@ -36,19 +35,14 @@ This section begins first with a model header of 36 bytes:
 `    u32 blank2;`  
 `} // sizeof = 36`
 
-This header is followed by the skeleton data, the part headers and the
-animation headers, like in [BSX files][4]. (And there is no Textures
-Section)
+This header is followed by the skeleton data, the part headers and the animation headers, like in [BSX files](BSX.md#Models Section)
 
   
   
 
 ## EXAMPLE OF BCX FILE BREAKDOWN, USING CLOUD.BCX
 
-\[Lazy Bastard\]: ../../Using Akari's notes from Q-Gears, nudges in the right.md
-direction by Akari, the source from Micky's BSX/BCX viewer, and my own
-logical deduction, I've broken down CLOUD.BCX (Cloud's BCX file) as an
-example of BCX structure. Without further ado:
+\[Lazy Bastard\]: Using Akari's notes from Q-Gears, nudges in the right direction by Akari, the source from Micky's BSX/BCX viewer, and my own logical deduction, I've broken down CLOUD.BCX (Cloud's BCX file) as an example of BCX structure. Without further ado:
 
   
 **'BCX Header Section**' \[at offset 0x00000000\]
@@ -58,8 +52,7 @@ example of BCX structure. Without further ado:
   
 Breakdown:
 
-CC 2D 00 00 - size of the (decompressed) file in bytes (little-endian,
-so 0x00002DCC; 11724 bytes)
+CC 2D 00 00 - size of the (decompressed) file in bytes (little-endian, so 0x00002DCC; 11724 bytes)
 
 40 2B 00 00 - offset to 'Models Section' (little-endian, so 0x00002B40)
 
@@ -72,8 +65,7 @@ Note: 'BCX Header Section' runs until 'Skeleton Data Section'.
   
 **'Skeleton Data Section**' \[at offset 0x00000008\]:
 
-Note: Offset to 'Skeleton Data Section' contained in 'Models Section',
-Parts.
+Note: Offset to 'Skeleton Data Section' contained in 'Models Section', Parts.
 
 Note2: Number of parts contained in 'Models Section', Header.
 
@@ -667,8 +659,7 @@ Note: 'Skeleton Data Section' runs until 'Animation Data Section'.
   
 **'Animation Data Section**' \[at offset 0x00002398\]
 
-Note: Offset to 'Animation Data Section' contained in 'Models Section',
-Animation.
+Note: Offset to 'Animation Data Section' contained in 'Models Section', Animation.
 
 Note2: Number of animations contained in 'Models Section', Header.
 
@@ -756,8 +747,7 @@ Note2: Number of animations contained in 'Models Section', Header.
   
   
   
-3rd animation \[at offset 0x0000288C\]: ../../(assuming it goes until the.md
-beginning of the Model section, below)
+3rd animation \[at offset 0x0000288C\]: (assuming it goes until the beginning of the Model section, below)
 
 `00 00 00 00 20 00 00 00 FF 00 00 00 00 C0 00 00 FF FF FF 00 01 00 00 00 FF FF FF 00 01 01 00 00 FF FF FF 00`  
   
@@ -827,11 +817,9 @@ Breakdown:
 
 03 - Number of animations
 
-00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 58 00 38 02 -
-Unknown
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 58 00 38 02 - Unknown
 
-64 2B 00 80 - Offset to 'Model Section', Bones (little-endian, so
-0x80002B64)
+64 2B 00 80 - Offset to 'Model Section', Bones (little-endian, so 0x80002B64)
 
 00 00 00 00 - Unknown
 
@@ -845,8 +833,7 @@ Note: 'Models Section', Header runs until 'Models Section', Bones.
 ***'Models Section', Bones*** \[at offset 0x00002B64\]
 
   
-Note: Offset to 'Models Section', Bones contained in 'Models Section',
-Header.
+Note: Offset to 'Models Section', Bones contained in 'Models Section', Header.
 
 Note2: Number of bones contained in 'Models Section', Header.
 
@@ -885,8 +872,7 @@ Note: 'Models Section', Bones runs until 'Models Section', Parts.
 ***'Models Section', Parts*** \[at offset 0x00002BBC\]
 
   
-Note: Offset to 'Models Section', Parts not contained in any known
-value; determined based on the end of 'Models Section', Bones.
+Note: Offset to 'Models Section', Parts not contained in any known value; determined based on the end of 'Models Section', Bones.
 
   
 
@@ -910,8 +896,7 @@ value; determined based on the end of 'Models Section', Bones.
   
 Breakdown of first line of 'Models Section', Parts above:
 
-01 - Unknown; "0 - not calculate stage lighting and color. 1 -
-calculate."
+01 - Unknown; "0 - not calculate stage lighting and color. 1 - calculate."
 
 01 - Bone to which this part is attached to
 
@@ -941,15 +926,13 @@ calculate."
 
 AC 01 - Relative offset to ?
 
-AC 01 - Relative offset to texture settings. Indexed by 5th block data
-(control)
+AC 01 - Relative offset to texture settings. Indexed by 5th block data (control)
 
 AC 01 - Relative offset to one byte stream for every packet with texture
 
 28 02 - Relative offset to ?
 
-08 00 00 80 - Offset to skeleton data section (little-endian, so
-0x80000008)
+08 00 00 80 - Offset to skeleton data section (little-endian, so 0x80000008)
 
 00 00 00 00 - Offset to ?
 
@@ -964,8 +947,7 @@ Note: 'Models Section', Parts runs until 'Models Section', Animations.
 ***'Models Section', Animations*** \[at offset 0x00002D9C\]
 
   
-Note: Offset to 'Models Section', Animations not contained in any known
-value; determined based on the end of 'Models Section', Parts.
+Note: Offset to 'Models Section', Animations not contained in any known value; determined based on the end of 'Models Section', Parts.
 
   
 
@@ -988,20 +970,12 @@ Breakdown of first line of 'Models Section', Animations above:
 
 B4 00 - Relative offset to translation frames (little-endian, so 0x00B4)
 
-B4 00 - Relative offset to static translation frames (little-endian, so
-0x00B4)
+B4 00 - Relative offset to static translation frames (little-endian, so 0x00B4)
 
 B8 00 - Relative offset to rotation frames (little-endian, so 0x00B8)
 
-98 23 00 80 - Offset to animation data section (little-endian, so
-0x80002398)
+98 23 00 80 - Offset to animation data section (little-endian, so 0x80002398)
 
   
   
 Note: 'Models Section', Animations runs until the end of the file.
-
-  [BSX files]: BSX.md "wikilink"
-  [1]: BSX.md#BSX%20Header "wikilink"
-  [2]: BSX.md#Skeleton%20Data%20Section "wikilink"
-  [3]: BSX.md#Animation%20Data%20Section "wikilink"
-  [4]: BSX.md#Models%20Section "wikilink"

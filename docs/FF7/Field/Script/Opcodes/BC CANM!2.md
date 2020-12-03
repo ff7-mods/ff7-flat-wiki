@@ -2,7 +2,7 @@
 title: BC CANM!2
 ---
 
-[Home](../../../../Main%20Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > BC CANM!2
+[Home](../../../../Main Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > BC CANM!2
 
 -   Opcode: **0xBC**
 -   Short name: **CANM!2**
@@ -18,15 +18,10 @@ title: BC CANM!2
 -   **const UByte** *A*: Animation ID for this entity's field object.
 -   **const UByte** *F*: First frame of animation.
 -   **const UByte** *L*: Last frame of animation.
--   **const UByte** *S*: Relative speed of animation. Real model
-    animation speed divide by this to calculate real play speed.
+-   **const UByte** *S*: Relative speed of animation. Real model animation speed divide by this to calculate real play speed.
 
 #### Description
 
-Exactly the same as [ANIM!2][], but allow set first and last frame of
-given animation.
+Exactly the same as [ANIM!2](BA ANIM!2.md), but allow set first and last frame of given animation.
 
-Makou Reactor Description: Play partially the animation \#%1 of the
-field model (first frame=%2, last frame=%3, speed=%4)
-
-  [ANIM!2]: BA%20ANIM!2.md "wikilink"
+Makou Reactor Description: Play partially the animation \#%1 of the field model (first frame=%2, last frame=%3, speed=%4)

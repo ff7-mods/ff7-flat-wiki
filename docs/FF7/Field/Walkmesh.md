@@ -2,21 +2,19 @@
 title: Walkmesh
 ---
 
-[Home](../../Main%20Page.md) > [FF7](../../FF7.md) > [Field](../Field.md) > Walkmesh
+[Home](../../Main Page.md) > [FF7](../../FF7.md) > [Field](../Field.md) > Walkmesh
 
-### Section 5: Walkmesh ([Kero][])
+### Section 5: Walkmesh ([Kero](../../User:Kero.md)
 
 <div class="thumb tright">
 <div class="thumbinner" style="width: 182px">
 
-<figure>
-<img src="Field_Wutai.jpg" title="180px-Field_Wutai.jpg" width="180" alt="180px-Field_Wutai.jpg" /><figcaption aria-hidden="true"><img src="180px-Field_Wutai.jpg" title="fig:180px-Field_Wutai.jpg" alt="180px-Field_Wutai.jpg" /></figcaption>
-</figure>
+<figure><img src="Field_Wutai.jpg" title="180px-Field_Wutai.jpg" width="180" alt="180px-Field_Wutai.jpg" /><figcaption aria-hidden="true"><img src="180px-Field_Wutai.jpg" title="fig:180px-Field_Wutai.jpg" alt="180px-Field_Wutai.jpg" /></figcaption></figure>
 
 <div class="thumbcaption">
 <div class="magnify">
 
-![][1]
+![](Field_Wutai.jpg "Field_Wutai.jpg")
 
 </div>
 
@@ -26,14 +24,9 @@ Wutai Walkmesh
 </div>
 </div>
 
-Every every offset is here relative, 00 is at the start of section 5
-(after length indicator).
+Every every offset is here relative, 00 is at the start of section 5 (after length indicator).
 
-Section 5 of field files is a stored walkmesh. A walkmesh is a mesh of
-polygons on which characters move, telling the engine for example how
-high it is, and using this the character can, for example, cross bridges
-with the real feeling that in the middle he is at a higher place than on
-the sides. It has very simple structure.
+Section 5 of field files is a stored walkmesh. A walkmesh is a mesh of polygons on which characters move, telling the engine for example how high it is, and using this the character can, for example, cross bridges with the real feeling that in the middle he is at a higher place than on the sides. It has very simple structure.
 
 | Offset             | Name                     | Data Type | Length    | Description                 |
 |--------------------|--------------------------|-----------|-----------|-----------------------------|
@@ -45,8 +38,7 @@ the sides. It has very simple structure.
 
 Startofs 0x00 Length 0x04
 
-The walkmesh information is preceeded by a DWORD (4 bytes) unsigned int,
-named **NoS**, short for the Number of Sectors in the walkmesh.
+The walkmesh information is preceeded by a DWORD (4 bytes) unsigned int, named **NoS**, short for the Number of Sectors in the walkmesh.
 
 #### Sector pool
 
@@ -60,11 +52,7 @@ Startofs 0x04 Length NoS\*24
 `   vertex_3s v[3];     // a triangle has 3 vertices`  
 `} sect_t;          // Sector Type`
 
-The pool consists of sectors, which are in fact triangles, each with
-their vertices position. For each sector there are 3 vertices (3
-vertex\_3s). Res is always equal to v\[0\].z (it is just a padding
-value). The polygons are 'wound' clockwise, this makes determining if a
-point is within a triangle easier.
+The pool consists of sectors, which are in fact triangles, each with their vertices position. For each sector there are 3 vertices (3 vertex\_3s). Res is always equal to v\[0\].z (it is just a padding value). The polygons are 'wound' clockwise, this makes determining if a point is within a triangle easier.
 
 #### Access pool
 
@@ -74,20 +62,8 @@ Startofs 0x04 + NoS\*24 Length NoS\*6
 `   short acces1,acces2,acces3;`  
 `}`
 
-The access pool is an array of access data (ID's of triangles in the
-Mesh) in the mesh, the ID is the triangle you should be in if you cross
-that edge.
+The access pool is an array of access data (ID's of triangles in the Mesh) in the mesh, the ID is the triangle you should be in if you cross that edge.
 
-acces1 is for line from vertex 0 to 1 acces2 is for line from vertex 1
-to 2 acces3 is for line from vertex 2 to 0
+acces1 is for line from vertex 0 to 1 acces2 is for line from vertex 1 to 2 acces3 is for line from vertex 2 to 0
 
-If the edge value is 0xFFFF, than this edge cannot be crossed (it's
-blocked). The access pool and sector pool have the same number of
-entries, thus you use the same index value for both pools of data to
-access the data for the same triangle. The access data merely informs
-one that if the PC object crosses this line the object should be in the
-indentified triangle. FF7 will halt running if you are not in the
-**access** specified triangle.
-
-  [Kero]: ../../User:Kero.md "wikilink"
-  [1]: ../../assets/Field%20Wutai.jpg "Field_Wutai.jpg"
+If the edge value is 0xFFFF, than this edge cannot be crossed (it's blocked). The access pool and sector pool have the same number of entries, thus you use the same index value for both pools of data to access the data for the same triangle. The access data merely informs one that if the PC object crosses this line the object should be in the indentified triangle. FF7 will halt running if you are not in the **access** specified triangle.

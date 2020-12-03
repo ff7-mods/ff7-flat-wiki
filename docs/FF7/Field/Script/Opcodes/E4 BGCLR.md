@@ -2,7 +2,7 @@
 title: E4 BGCLR
 ---
 
-[Home](../../../../Main%20Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > E4 BGCLR
+[Home](../../../../Main Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > E4 BGCLR
 
 -   Opcode: **0xE4**
 -   Short name: **BGCLR**
@@ -15,13 +15,9 @@ title: E4 BGCLR
 
 #### Arguments
 
--   **const UByte** *B*: Bank to retrieve *A*, or zero if *A* is
-    specified as a literal.
--   **const UByte** *A*: The ID of the background area to clear, as
-    specified in the background's sprite, or the address to retrieve the
-    value if *B* is non-zero.
+-   **const UByte** *B*: Bank to retrieve *A*, or zero if *A* is specified as a literal.
+-   **const UByte** *A*: The ID of the background area to clear, as specified in the background's sprite, or the address to retrieve the value if *B* is non-zero.
 
 #### Description
 
-Hides all portions of background whose sprite specifies that it belongs
-to the background area given by *A*.
+Hides all portions of background whose sprite specifies that it belongs to the background area given by *A*.

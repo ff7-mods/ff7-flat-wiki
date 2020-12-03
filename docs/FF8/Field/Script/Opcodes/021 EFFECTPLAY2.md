@@ -2,7 +2,7 @@
 title: 021 EFFECTPLAY2
 ---
 
-[Home](../../../../Main%20Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 021 EFFECTPLAY2
+[Home](../../../../Main Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 021 EFFECTPLAY2
 
 -   Opcode: **0x021**
 -   Short name: **EFFECTPLAY2**
@@ -25,16 +25,6 @@ Field SFXID (in the SFX list for that field)
 
 #### Description
 
-Plays a sound effect through the given sound channel. The channel is
-important because it's the parameter used in [SESTOP][] to halt a
-specific sound effect (and to prevent multiple counds from silencing
-each other). AFAIK Channels go up to 2^20 (which is 1048576), so you can
-theoretically have 20 sounds playing at once. 0 doesn't seem like it's a
-usable channel, but this is untested.
+Plays a sound effect through the given sound channel. The channel is important because it's the parameter used in [SESTOP](0CD SESTOP.md), so you can theoretically have 20 sounds playing at once. 0 doesn't seem like it's a usable channel, but this is untested.
 
-Note: It seems each area can have a maximum of 32 sounds predefined
-(meaning sound ID 31 is the highest you can play with this). You have to
-use [EFFECTPLAY][] to use more than 32 sounds.
-
-  [SESTOP]: 0CD%20SESTOP.md "wikilink"
-  [EFFECTPLAY]: 0BC%20EFFECTPLAY.md "wikilink"
+Note: It seems each area can have a maximum of 32 sounds predefined (meaning sound ID 31 is the highest you can play with this). You have to use [EFFECTPLAY](0BC EFFECTPLAY.md) to use more than 32 sounds.

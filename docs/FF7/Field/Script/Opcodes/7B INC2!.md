@@ -2,7 +2,7 @@
 title: 7B INC2!
 ---
 
-[Home](../../../../Main%20Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 7B INC2!
+[Home](../../../../Main Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 7B INC2!
 
 -   Opcode: **0x7B**
 -   Short name: **INC2!**
@@ -16,8 +16,7 @@ title: 7B INC2!
 #### Arguments
 
 -   **const Bit\[4\]** *D*: Destination bank
--   **const UByte** *Dest*: The destination address in the bank where
-    the variable is incremented.
+-   **const UByte** *Dest*: The destination address in the bank where the variable is incremented.
 
 #### Description
 

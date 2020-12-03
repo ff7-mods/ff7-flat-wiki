@@ -2,16 +2,13 @@
 title: IMGRootDir
 ---
 
-[Home](../Main%20Page.md) > [FF9](../FF9.md) > IMGRootDir
+[Home](../Main Page.md) > [FF9](../FF9.md) > IMGRootDir
 
 # Root Directory
 
-The first sector of FF9.IMG contains a root directory of information
-with sector locations for subdirectories and the sector of the first
-file in that subdirectory.
+The first sector of FF9.IMG contains a root directory of information with sector locations for subdirectories and the sector of the first file in that subdirectory.
 
-note: [sector][] hereon refers to a 2048 byte chunk of the file keep
-this in mind when 'deciphering' information.
+note: [sector](glossary/sector.md) hereon refers to a 2048 byte chunk of the file keep this in mind when 'deciphering' information.
 
 ## Root Directory Header
 
@@ -27,8 +24,7 @@ The root directory begins with the following header format
 
 ## Root Directory Entries
 
-Following the Root Directory header are the entries for the
-subdirectories.
+Following the Root Directory header are the entries for the subdirectories.
 
 |             Name             | Units/Size | Description                                                           |
 |:----------------------------:|:----------:|:----------------------------------------------------------------------|
@@ -46,5 +42,3 @@ Directory Types
 |  0x03  | Heirarchical directory.                                      |
 |  0x04  | Not a directory but indicates the end of the directory list. |
 |        |                                                              |
-
-  [sector]: glossary/sector.md "wikilink"

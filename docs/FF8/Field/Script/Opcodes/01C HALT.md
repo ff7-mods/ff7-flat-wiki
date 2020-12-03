@@ -2,7 +2,7 @@
 title: 01C HALT
 ---
 
-[Home](../../../../Main%20Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 01C HALT
+[Home](../../../../Main Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 01C HALT
 
 -   Opcode: **0x01C**
 -   Short name: **HALT**
@@ -18,5 +18,4 @@ No change.
 
 #### Description
 
-Exits the current script and all scripts that are waiting on it. To end
-only the current script, use RET instead.
+Exits the current script and all scripts that are waiting on it. To end only the current script, use RET instead.

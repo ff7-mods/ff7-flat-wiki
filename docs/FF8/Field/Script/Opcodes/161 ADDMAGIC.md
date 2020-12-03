@@ -2,7 +2,7 @@
 title: 161 ADDMAGIC
 ---
 
-[Home](../../../../Main%20Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 161 ADDMAGIC
+[Home](../../../../Main Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 161 ADDMAGIC
 
 -   Opcode: **0x161**
 -   Short name: **ADDMAGIC**
@@ -25,7 +25,4 @@ none
 
 #### Description
 
-Does exactly what you think. See [Magic Codes][] for a list of magic
-codes.
-
-  [Magic Codes]: ../../../Magic%20Codes.md "wikilink"
+Does exactly what you think. See [Magic Codes](../../../Magic Codes.md) for a list of magic codes.

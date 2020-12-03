@@ -2,7 +2,7 @@
 title: 8F AND
 ---
 
-[Home](../../../../Main%20Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 8F AND
+[Home](../../../../Main Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 8F AND
 
 -   Opcode: **0x8F**
 -   Short name: **AND**
@@ -17,13 +17,9 @@ title: 8F AND
 
 -   **const Bit\[4\]** *D*: Destination bank
 -   **const Bit\[4\]** *S*: Source bank
--   **const UByte** *Dest*: Contains an operand of the bitwise AND and
-    receives the result.
+-   **const UByte** *Dest*: Contains an operand of the bitwise AND and receives the result.
 -   **const UByte** *Oper*: The second operand of the bitwise AND.
 
 #### Description
 
-Performs a bitwise AND operation between "Dest" and "Oper" and stores
-the result back into "Dest". If the Source Bank is 0 then the â€œOperâ€
-is the operand to AND with. If the Source Bank is an 8 bit bank, then
-the â€œOperâ€ is the address in that bank where the operand is.
+Performs a bitwise AND operation between "Dest" and "Oper" and stores the result back into "Dest". If the Source Bank is 0 then the â€œOperâ€ is the operand to AND with. If the Source Bank is an 8 bit bank, then the â€œOperâ€ is the address in that bank where the operand is.

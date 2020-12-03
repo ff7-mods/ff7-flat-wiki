@@ -2,7 +2,7 @@
 title: 15 IFUBL
 ---
 
-[Home](../../../../Main%20Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 15 IFUBL
+[Home](../../../../Main Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 15 IFUBL
 
 -   Opcode: **0x15**
 -   Short name: **IFUBL**
@@ -17,18 +17,11 @@ title: 15 IFUBL
 
 -   **const Bit\[4\]** *B1*: First memory bank to access.
 -   **const Bit\[4\]** *B2*: Second memory bank to access.
--   **const UByte** *A*: Address, from the first bank, of the value to
-    retrieve.
--   **const UByte** *V*: Unsigned value to compare the retrieved value
-    to, or address from the second bank of the value to retrieve.
+-   **const UByte** *A*: Address, from the first bank, of the value to retrieve.
+-   **const UByte** *V*: Unsigned value to compare the retrieved value to, or address from the second bank of the value to retrieve.
 -   **const UByte** *C*: Type of comparison to perform.
--   **const UShort** *E*: Amount to jump if the comparison does not
-    hold.
+-   **const UShort** *E*: Amount to jump if the comparison does not hold.
 
 #### Description
 
-This is similar to the [IFUB][] opcode, but it allows a jump of more
-than 0xFF if the comparison does not hold. This opcode is used if the
-'if' block will be longer than 0xFF.
-
-  [IFUB]: 14%20IFUB.md "wikilink"
+This is similar to the [IFUB](14 IFUB.md) opcode, but it allows a jump of more than 0xFF if the comparison does not hold. This opcode is used if the 'if' block will be longer than 0xFF.

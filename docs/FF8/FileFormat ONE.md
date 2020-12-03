@@ -2,14 +2,13 @@
 title: FileFormat ONE
 ---
 
-[Home](../Main%20Page.md) > [FF8](../FF8.md) > FileFormat ONE
+[Home](../Main Page.md) > [FF8](../FF8.md) > FileFormat ONE
 
 By myst6re.
 
 # chara.one Archive
 
-Each field contains a chara.one file that contains multiple field models
-(PNJs), or calls to main fields models (Squall, Laguna...).
+Each field contains a chara.one file that contains multiple field models (PNJs), or calls to main fields models (Squall, Laguna...).
 
 ## Header
 
@@ -36,9 +35,4 @@ For each model:
 
 ## Data
 
-This is the same data structure as a [MCH model][] (without header). In
-the PlayStation version, each model textures + data is [LZS][]
-compressed.
-
-  [MCH model]: FileFormat%20MCH.md "wikilink"
-  [LZS]: ../FF7/LZS%20format.md "wikilink"
+This is the same data structure as a [MCH model](FF8/FileFormat_MCH "wikilink") (without header). In the PlayStation version, each model textures + data is [LZS](../FF7/LZS format.md) compressed.

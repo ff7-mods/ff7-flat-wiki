@@ -2,14 +2,11 @@
 title: Status Effects
 ---
 
-[Home](../../Main%20Page.md) > [FF7](../../FF7.md) > [Battle](../Battle.md) > Status Effects
+[Home](../../Main Page.md) > [FF7](../../FF7.md) > [Battle](../Battle.md) > Status Effects
 
 ## Status Effects
 
-There are 31 Status effects in FF7. In attacks and items they are
-referred to as a 32-bit longword. In Materia they are only 24-bits so
-the last 8 cannot be affected. In weapons and armors they are
-represented as an index. Weapons have a low inflict chance.
+There are 31 Status effects in FF7. In attacks and items they are referred to as a 32-bit longword. In Materia they are only 24-bits so the last 8 cannot be affected. In weapons and armors they are represented as an index. Weapons have a low inflict chance.
 
 | Bit        | Index | Status       |
 |------------|-------|--------------|
@@ -46,12 +43,4 @@ represented as an index. Weapons have a low inflict chance.
 | 0x40000000 | 1E    | "Lucky Girl" |
 | 0x80000000 | 1F    | Imprisoned   |
 
-If "Dual Drain" is inflicted without "Dual", the game will crash.
-Section 4 of Terence Fergusson's
-[http://www.gamefaqs.com/console/psx/file/197341/22395 Battle Mechanics
-FAQ][] (a little more than half-way through) describes each of these
-statuses with great detail.
-
-  [http://www.gamefaqs.com/console/psx/file/197341/22395 Battle Mechanics FAQ]:
-    http://www.gamefaqs.com/console/psx/file/197341/22395_Battle_Mechanics_FAQ
-    "wikilink"
+If "Dual Drain" is inflicted without "Dual", the game will crash. Section 4 of Terence Fergusson's [http://www.gamefaqs.com/console/psx/file/197341/22395 Battle Mechanics FAQ](http://www.gamefaqs.com/console/psx/file/197341/22395_Battle_Mechanics_FAQ) describes each of these statuses with great detail.

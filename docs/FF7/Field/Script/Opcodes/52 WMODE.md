@@ -2,7 +2,7 @@
 title: 52 WMODE
 ---
 
-[Home](../../../../Main%20Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 52 WMODE
+[Home](../../../../Main Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 52 WMODE
 
 -   Opcode: **0x52**
 -   Short name: **WMODE**
@@ -21,14 +21,9 @@ title: 52 WMODE
 
 #### Description
 
-Changes properties associated with the [WINDOW][] whose ID is specified.
-The mode byte sets the style of the window, as detailed below. If the
-final byte is set to 1, the window cannot be closed by the player
-pushing \[OK\].
+Changes properties associated with the [WINDOW](50 WINDOW.md) whose ID is specified. The mode byte sets the style of the window, as detailed below. If the final byte is set to 1, the window cannot be closed by the player pushing \[OK\].
 
-The mode of the window should be changed before it is displayed with
-[MESSAGE][] or [ASK][], or the changes will not be visible unless the
-window is closed and reopened.
+The mode of the window should be changed before it is displayed with [MESSAGE](FF7/Field/Script/Opcodes/40_MESSAGE "wikilink") or [ASK](48 ASK.md), or the changes will not be visible unless the window is closed and reopened.
 
 #### Mode Table
 
@@ -38,7 +33,3 @@ window is closed and reopened.
 | 1   | No Background/Border   |
 | 2   | Transparent Background |
 |     |                        |
-
-  [WINDOW]: 50%20WINDOW.md "wikilink"
-  [MESSAGE]: 40%20MESSAGE.md "wikilink"
-  [ASK]: 48%20ASK.md "wikilink"

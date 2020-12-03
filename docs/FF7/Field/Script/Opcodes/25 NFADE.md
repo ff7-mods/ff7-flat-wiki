@@ -2,7 +2,7 @@
 title: 25 NFADE
 ---
 
-[Home](../../../../Main%20Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 25 NFADE
+[Home](../../../../Main Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 25 NFADE
 
 -   Opcode: **0x25**
 -   Short name: **NFADE**
@@ -15,26 +15,17 @@ title: 25 NFADE
 
 #### Arguments
 
--   **const Bit\[4\]** *B1*: Bank to retrieve *R*, or zero if *R* is
-    given as a literal value.
--   **const Bit\[4\]** *B2*: Bank to retrieve *G*, or zero if *G* is
-    given as a literal value.
+-   **const Bit\[4\]** *B1*: Bank to retrieve *R*, or zero if *R* is given as a literal value.
+-   **const Bit\[4\]** *B2*: Bank to retrieve *G*, or zero if *G* is given as a literal value.
 -   **const Bit\[4\]** *0*: Zero.
--   **const Bit\[4\]** *B3*: Bank to retrieve *B*, or zero if *B* is
-    given as a literal value.
+-   **const Bit\[4\]** *B3*: Bank to retrieve *B*, or zero if *B* is given as a literal value.
 -   **const UByte** *T*: Type of fade; see table.
--   **const UByte** *R*: Red component value, or address of red value if
-    *B1* is non-zero.
--   **const UByte** *G*: Green component value, or address of green
-    value if *B2* is non-zero.
--   **const UByte** *B*: Blue component value, or address of blue value
-    if *B3* is non-zero.
--   **const UByte** *S*: Speed of fade. Larger numbers indicate faster
-    fades.
+-   **const UByte** *R*: Red component value, or address of red value if *B1* is non-zero.
+-   **const UByte** *G*: Green component value, or address of green value if *B2* is non-zero.
+-   **const UByte** *B*: Blue component value, or address of blue value if *B3* is non-zero.
+-   **const UByte** *S*: Speed of fade. Larger numbers indicate faster fades.
 -   **const UByte** *unused*: Unused
 
 #### Description
 
-See [FADE][] op code page for full details.
-
-  [FADE]: 6B%20FADE.md "wikilink"
+See [FADE](6B FADE.md) op code page for full details.

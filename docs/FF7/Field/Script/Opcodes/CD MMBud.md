@@ -2,7 +2,7 @@
 title: CD MMBud
 ---
 
-[Home](../../../../Main%20Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > CD MMBud
+[Home](../../../../Main Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > CD MMBud
 
 -   Opcode: **0xCD**
 -   Short name: **MMBud**
@@ -15,21 +15,14 @@ title: CD MMBud
 
 #### Arguments
 
--   **const UByte** *S*: Switches the character on/off (1/0,
-    respectively).
+-   **const UByte** *S*: Switches the character on/off (1/0, respectively).
 -   **const UByte** *C*: Character ID whose status will change.
 
 #### Description
 
-Enables or disables the availability of this character in the game, as
-well as in the right-hand selector pane in the party select menu. If the
-character is currently in the party, this will have no effect as the
-character is already displayed in the current party list (left pane).
+Enables or disables the availability of this character in the game, as well as in the right-hand selector pane in the party select menu. If the character is currently in the party, this will have no effect as the character is already displayed in the current party list (left pane).
 
-This turns the character on or off globally. That is, if you turn off
-the character and then query whether the character is available with
-[IFMEMBQ][], the comparison will not hold, and the script will jump to
-the second argument of IFMEMBQ.
+This turns the character on or off globally. That is, if you turn off the character and then query whether the character is available with [IFMEMBQ](CC IFMEMBQ.md), the comparison will not hold, and the script will jump to the second argument of IFMEMBQ.
 
 #### Character IDs
 
@@ -45,5 +38,3 @@ the second argument of IFMEMBQ.
 | 7   | Vincent   |
 | 8   | Cid       |
 |     |           |
-
-  [IFMEMBQ]: CC%20IFMEMBQ.md "wikilink"

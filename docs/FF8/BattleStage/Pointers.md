@@ -2,12 +2,11 @@
 title: Pointers
 ---
 
-[Home](../../Main%20Page.md) > [FF8](../../FF8.md) > [BattleStage](../BattleStage.md) > Pointers
+[Home](../../Main Page.md) > [FF8](../../FF8.md) > [BattleStage](../BattleStage.md) > Pointers
 
 By MaKiPL.
 
-FF8 engine reads [Battle Stage files][] by positions coded in executable
-(.text section of .EXE)
+FF8 engine reads [Battle Stage files](../FileFormat X.md)
 
 **Here's the list:**
 
@@ -71,5 +70,3 @@ FF8 engine reads [Battle Stage files][] by positions coded in executable
 `           }`  
 `           throw new Exception("0xFFF, unknown pointer!");`  
 `       }`
-
-  [Battle Stage files]: ../FileFormat%20X.md "wikilink"

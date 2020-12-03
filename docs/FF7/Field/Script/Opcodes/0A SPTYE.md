@@ -2,7 +2,7 @@
 title: 0A SPTYE
 ---
 
-[Home](../../../../Main%20Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 0A SPTYE
+[Home](../../../../Main Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 0A SPTYE
 
 -   Opcode: **0x0A**
 -   Short name: **SPTYE**
@@ -25,15 +25,6 @@ title: 0A SPTYE
 
 #### Description
 
-Sets the current party, using the [Character ID][] values found at the
-banks and addresses specified by the arguments. It is possible to
-retrieve from three different banks.
+Sets the current party, using the [Character ID](../../Character ID.md) values found at the banks and addresses specified by the arguments. It is possible to retrieve from three different banks.
 
-This is used to set a party back to the player's configuration after a
-certain event, that requires specific characters that have been set
-using [PRTYE][], has completed. An example would be the party being set
-to Barret only for the Dyne event/battle, and then returning the party
-back to the player's configuration before the Dyne event occurs.
-
-  [Character ID]: ../../Character%20ID.md "wikilink"
-  [PRTYE]: CA%20PRTYE.md "wikilink"
+This is used to set a party back to the player's configuration after a certain event, that requires specific characters that have been set using [PRTYE](CA PRTYE.md), has completed. An example would be the party being set to Barret only for the Dyne event/battle, and then returning the party back to the player's configuration before the Dyne event occurs.

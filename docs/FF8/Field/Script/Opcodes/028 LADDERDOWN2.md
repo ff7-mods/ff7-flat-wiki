@@ -2,7 +2,7 @@
 title: 028 LADDERDOWN2
 ---
 
-[Home](../../../../Main%20Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 028 LADDERDOWN2
+[Home](../../../../Main Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 028 LADDERDOWN2
 
 -   Opcode: **0x028**
 -   Short name: **LADDERDOWN2**

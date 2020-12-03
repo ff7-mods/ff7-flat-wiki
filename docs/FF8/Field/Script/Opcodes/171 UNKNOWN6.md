@@ -2,7 +2,7 @@
 title: 171 UNKNOWN6
 ---
 
-[Home](../../../../Main%20Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 171 UNKNOWN6
+[Home](../../../../Main Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 171 UNKNOWN6
 
 -   Opcode: **0x171**
 -   Short name: **UNKNOWN6**
@@ -23,10 +23,6 @@ none
 
 #### Description
 
-Turns this entity clockwise to face some direction. The only noticeable
-difference between this and the other turn functions is that the turn is
-always clockwise.
+Turns this entity clockwise to face some direction. The only noticeable difference between this and the other turn functions is that the turn is always clockwise.
 
-It is unknown how this differs from [UNKNOWN8][].
-
-  [UNKNOWN8]: 173%20UNKNOWN8.md "wikilink"
+It is unknown how this differs from [UNKNOWN8](173 UNKNOWN8.md).

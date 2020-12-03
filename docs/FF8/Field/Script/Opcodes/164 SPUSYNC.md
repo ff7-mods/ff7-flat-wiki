@@ -2,7 +2,7 @@
 title: 164 SPUSYNC
 ---
 
-[Home](../../../../Main%20Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 164 SPUSYNC
+[Home](../../../../Main Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 164 SPUSYNC
 
 -   Opcode: **0x164**
 -   Short name: **SPUSYNC**
@@ -21,7 +21,4 @@ none
 
 #### Description
 
-Pauses this script until *frame count* frames have passed since
-[SPUREADY][] was called.
-
-  [SPUREADY]: 056%20SPUREADY.md "wikilink"
+Pauses this script until *frame count* frames have passed since [SPUREADY](056 SPUREADY.md) was called.

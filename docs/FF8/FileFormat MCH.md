@@ -2,20 +2,15 @@
 title: FileFormat MCH
 ---
 
-[Home](../Main%20Page.md) > [FF8](../FF8.md) > FileFormat MCH
+[Home](../Main Page.md) > [FF8](../FF8.md) > FileFormat MCH
 
-<small>Authors: [Koral][], [JWP][] and [Vehek][]</small>
+<small>Authors: [Koral](User:Koral "wikilink"), [JWP](http://forums.qhimm.com/index.php?topic=6961.msg86318#msg86318) and [Vehek](http://forums.qhimm.com/index.php?topic=13261.msg184344#msg184344)</small>
 
 # MCH Field Character Models
 
-Each MCH file contains a skinned-animated model representing a character
-on the field or world Maps. There appear to be multiple files of the
-same character representing differnt Level of Details.
+Each MCH file contains a skinned-animated model representing a character on the field or world Maps. There appear to be multiple files of the same character representing differnt Level of Details.
 
-They usually contain multiple TIM textures (standard PSX textures), mesh
-geometry, bones, skeleton heirarchy information and skinning
-information. The whereabouts of the Bone Animation data is currently
-unknown.
+They usually contain multiple TIM textures (standard PSX textures), mesh geometry, bones, skeleton heirarchy information and skinning information. The whereabouts of the Bone Animation data is currently unknown.
 
   
 
@@ -42,7 +37,7 @@ unknown.
 
 ## Texture-Data
 
-[TIM format][]
+[TIM format](../PSX/TIM format.md)
 
 `(for each Texture)`  
   
@@ -147,8 +142,3 @@ unknown.
 # MCH Model File List
 
 <small>todo</small>
-
-  [Koral]: ../User:Koral.md "wikilink"
-  [JWP]: http://forums.qhimm.com/index.php?topic=6961.msg86318#msg86318
-  [Vehek]: http://forums.qhimm.com/index.php?topic=13261.msg184344#msg184344
-  [TIM format]: ../PSX/TIM%20format.md "wikilink"

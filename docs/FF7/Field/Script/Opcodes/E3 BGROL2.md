@@ -2,7 +2,7 @@
 title: E3 BGROL2
 ---
 
-[Home](../../../../Main%20Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > E3 BGROL2
+[Home](../../../../Main Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > E3 BGROL2
 
 -   Opcode: **0xE3**
 -   Short name: **BGROL2**
@@ -15,15 +15,9 @@ title: E3 BGROL2
 
 #### Arguments
 
--   **const UByte** *B*: Bank to retrieve *A*, or zero if *A* is
-    specified as a literal.
--   **const UByte** *A*: The ID of the background area to roll, as
-    specified in the background's sprite.
+-   **const UByte** *B*: Bank to retrieve *A*, or zero if *A* is specified as a literal.
+-   **const UByte** *A*: The ID of the background area to roll, as specified in the background's sprite.
 
 #### Description
 
-Similar to [BGROL][], except the roll runs backwards through layers,
-rather than forwards. Rolling backwards past layer 0 for the area
-specified results in no background being shown.
-
-  [BGROL]: E2%20BGROL.md "wikilink"
+Similar to [BGROL](E2 BGROL.md), except the roll runs backwards through layers, rather than forwards. Rolling backwards past layer 0 for the area specified results in no background being shown.

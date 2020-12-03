@@ -2,7 +2,7 @@
 title: Armor data
 ---
 
-[Home](../Main%20Page.md) > [FF7](../FF7.md) > Armor data
+[Home](../Main Page.md) > [FF7](../FF7.md) > Armor data
 
 ## KERNEL.BIN - Section 7: Armor data format
 
@@ -20,7 +20,7 @@ This section contains the armor data. Each record is 36 bytes long.
 |            0x03             | 1 byte                            | Magic Defense                                                                                      |
 |            0x04             | 1 byte                            | Defense %                                                                                          |
 |            0x05             | 1 byte                            | Magic Defense %                                                                                    |
-|            0x06             | 1 byte                            | [Status Defense][]. Index of status bit.                                                           |
+|            0x06             | 1 byte                            | [Status Defense](Battle/Status Effects.md). Index of status bit.                       |
 |            0x07             | 2 bytes                           | Unknown                                                                                            |
 |            0x09             | 8 bytes                           | Materia Slots                                                                                      |
 |                             | 0x00                              | No Slot                                                                                            |
@@ -43,7 +43,7 @@ This section contains the armor data. Each record is 36 bytes long.
 |           0x0100            | Equipable on Cid                  |                                                                                                    |
 |           0x0200            | Equipable on Young Cloud          |                                                                                                    |
 |           0x0400            | Equipable on Sephiroth            |                                                                                                    |
-|            0x14             | 2 bytes                           | [Elemental Defense][]                                                                              |
+|            0x14             | 2 bytes                           | [Elemental Defense](Battle/Elemental Data.md)                                          |
 |            0x16             | 2 bytes                           | Unknown \[Always 0x00FF\]                                                                          |
 |            0x18             | 4 bytes                           | Stat Bonus                                                                                         |
 |                             | 0xFF                              | None                                                                                               |
@@ -60,6 +60,3 @@ This section contains the armor data. Each record is 36 bytes long.
 |             04h             | Can be used in Menu Out of Battle |                                                                                                    |
 | Other values have no effect |                                   |                                                                                                    |
 |            0x22             | 2 bytes                           | Unknown \[Always 0xFFFF\]                                                                          |
-
-  [Status Defense]: Battle/Status%20Effects.md "wikilink"
-  [Elemental Defense]: Battle/Elemental%20Data.md "wikilink"

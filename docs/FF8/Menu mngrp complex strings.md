@@ -2,7 +2,7 @@
 title: Menu mngrp complex strings
 ---
 
-[Home](../Main%20Page.md) > [FF8](../FF8.md) > Menu mngrp complex strings
+[Home](../Main Page.md) > [FF8](../FF8.md) > Menu mngrp complex strings
 
 ## Seek Map
 
@@ -24,10 +24,8 @@ Before the string sections, there is a section with a map of seek data.
 
 ## String Entry
 
-| Type                     | Size              | Value                | Description                                            |
-|--------------------------|-------------------|----------------------|--------------------------------------------------------|
-| Byte\[6\]                | 6                 | UNK                  | Fist one is **0xFFFFFFFFFFFF**                         |
-| UInt16                   | 2                 | Entry\_Length        | Length of entry from start.                            |
-| Byte \[Entry\_Length-8\] | Entry\_Length - 8 | [Encoded\_Strings][] | Entry might have more than string, each ends with 0x00 |
-
-  [Encoded\_Strings]: String%20Encoding.md "wikilink"
+| Type                     | Size              | Value                                              | Description                                            |
+|--------------------------|-------------------|----------------------------------------------------|--------------------------------------------------------|
+| Byte\[6\]                | 6                 | UNK                                                | Fist one is **0xFFFFFFFFFFFF**                         |
+| UInt16                   | 2                 | Entry\_Length                                      | Length of entry from start.                            |
+| Byte \[Entry\_Length-8\] | Entry\_Length - 8 | [Encoded\_Strings](String Encoding.md) | Entry might have more than string, each ends with 0x00 |

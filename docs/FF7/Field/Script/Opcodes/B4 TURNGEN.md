@@ -2,7 +2,7 @@
 title: B4 TURNGEN
 ---
 
-[Home](../../../../Main%20Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > B4 TURNGEN
+[Home](../../../../Main Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > B4 TURNGEN
 
 -   Opcode: **0xB4**
 -   Short name: **TURNGEN**
@@ -15,17 +15,12 @@ title: B4 TURNGEN
 
 #### Arguments
 
--   **const Byte** *B2*: Bank to retrieve Final rotation, or zero if
-    specifying *Final rotation* as a literal value.
--   **const Byte** *Final rotation*: Rotation value to which model will
-    be rotated.
--   **const Byte** *Rotate side type*: Specify how model will be
-    rotated. (0 - clockwise/ 1 - anti-clockwise/ 2 - closest)
+-   **const Byte** *B2*: Bank to retrieve Final rotation, or zero if specifying *Final rotation* as a literal value.
+-   **const Byte** *Final rotation*: Rotation value to which model will be rotated.
+-   **const Byte** *Rotate side type*: Specify how model will be rotated. (0 - clockwise/ 1 - anti-clockwise/ 2 - closest)
 -   **const Byte** *Steps in rotation*: Set number of steps in rotation.
--   **const Byte** *Type of steps calculation*: Specify how to calculate
-    rotation step by step. (1 - linear/ 2 - smooth.).
+-   **const Byte** *Type of steps calculation*: Specify how to calculate rotation step by step. (1 - linear/ 2 - smooth.).
 
 #### Description
 
-This opcode will be called until turn is over and then continue script
-execution.
+This opcode will be called until turn is over and then continue script execution.

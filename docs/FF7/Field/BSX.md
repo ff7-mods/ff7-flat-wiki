@@ -2,9 +2,9 @@
 title: BSX
 ---
 
-[Home](../../Main%20Page.md) > [FF7](../../FF7.md) > [Field](../Field.md) > BSX
+[Home](../../Main Page.md) > [FF7](../../FF7.md) > [Field](../Field.md) > BSX
 
-# BSX file structure (thanks to [Micky's tool][], Akari's work, and Lazy Bastard's work)
+# BSX file structure (thanks to [Micky's tool](http://web.archive.org/web/20170521085448/http://forums.qhimm.com/index.php?topic=8969.msg122920#msg122920), Akari's work, and Lazy Bastard's work)
 
 ## BSX Header
 
@@ -15,13 +15,11 @@ The BSX file, after it is decompressed, begin with a header of 8 bytes :
 `    u32 offset_models; // Offset to the models section`  
 `};`
 
-Note: The end of the BSX Header is directly before the beginning of the
-Skeleton Data Section.
+Note: The end of the BSX Header is directly before the beginning of the Skeleton Data Section.
 
 ## Skeleton Data Section
 
-This section contains the parts of the model's skeleton. For each model,
-there is :
+This section contains the parts of the model's skeleton. For each model, there is :
 
 | Offset                                                | Size                                          | Data                |
 |-------------------------------------------------------|-----------------------------------------------|---------------------|
@@ -56,9 +54,7 @@ Structures:
 `   u8 texCoordId[4];`  
 `} ColorTexturedQuad;// sizeof = 0x18`
 
-**Note for quads:** it is possible that the vertices are not in the
-correct order for display, If you see they display wrong, try swapping
-the last two vertices.
+**Note for quads:** it is possible that the vertices are not in the correct order for display, If you see they display wrong, try swapping the last two vertices.
 
 `typedef struct {`  
 `   u8 vertexIndex[3];`  
@@ -148,11 +144,8 @@ This section begins first with a model header of 16 bytes:
 `    u32 buffer_size; // Total buffer_size to reserve (see notes below)`  
 `}`
 
-Notes: The buffer\_size formula is the addition of buffer sizes of
-models.  
-To calculate a model buffer size, you need to add every part's
-buffer\_size together (see StrPart structure), then do: 2 \* (16 \*
-bone\_count + parts\_buffer\_size).
+Notes: The buffer\_size formula is the addition of buffer sizes of models.  
+To calculate a model buffer size, you need to add every part's buffer\_size together (see StrPart structure), then do: 2 \* (16 \* bone\_count + parts\_buffer\_size).
 
   
 Which is followed by num\_models number of :
@@ -186,13 +179,9 @@ Which is followed by num\_models number of :
 `    byte num_animations;   // Additional number of animations`  
 `} // sizeof = 48`
 
-Please note that this is additional number of animations in case of
-settings for models that has BCX file. They load BCX animations, parts
-and bones first, then add BSX parts. For example cloud's sword in some
-fields added to normal BCX cloud file.
+Please note that this is additional number of animations in case of settings for models that has BCX file. They load BCX animations, parts and bones first, then add BSX parts. For example cloud's sword in some fields added to normal BCX cloud file.
 
-Then, for each model, we have the parts, bones and animations (at the
-offset offset\_skeleton) :
+Then, for each model, we have the parts, bones and animations (at the offset offset\_skeleton) :
 
 `// Bones (if num_bones > 0)`  
 `struct StrBone {`  
@@ -238,10 +227,7 @@ offset offset\_skeleton) :
 `}`
 
   
-Note: Some characters, especially playable characters with BCX files,
-will sometimes not have bones or parts specified in the above
-subsection. In these cases, their animations may be immediately after
-the animations of other models.
+Note: Some characters, especially playable characters with BCX files, will sometimes not have bones or parts specified in the above subsection. In these cases, their animations may be immediately after the animations of other models.
 
 ## Textures Section
 
@@ -265,11 +251,7 @@ And finally, these headers are followed by texture data.
 
 ## EXAMPLE, USING MD1STIN.BSX
 
-\[Lazy Bastard\]: ../../Using Akari's notes from Q-Gears, the source from.md
-Micky's BSX/BCX viewer, information from the wiki, snippets of things
-from across the forums, and my own logical deduction, I've broken down
-MD1STIN.BSX (BSX file from the first field encountered in the game) as
-an example of BSX structure. Without further ado:
+\[Lazy Bastard\]: Using Akari's notes from Q-Gears, the source from Micky's BSX/BCX viewer, information from the wiki, snippets of things from across the forums, and my own logical deduction, I've broken down MD1STIN.BSX (BSX file from the first field encountered in the game) as an example of BSX structure. Without further ado:
 
   
 **'BSX Header Section**' \[at offset 0x00000000\]:
@@ -281,11 +263,9 @@ an example of BSX structure. Without further ado:
   
 Breakdown:
 
-30 07 01 00 - size of the (decompressed) file in bytes (little-endian,
-so 0x00010730; 67376 bytes)
+30 07 01 00 - size of the (decompressed) file in bytes (little-endian, so 0x00010730; 67376 bytes)
 
-9C F0 00 00 - offset to the 'Models Section' (little-endian, so
-0x0000F09C)
+9C F0 00 00 - offset to the 'Models Section' (little-endian, so 0x0000F09C)
 
   
   
@@ -299,21 +279,15 @@ Note: 'BSX Header Section' runs until 'Skeleton Data Section'.
 **'Skeleton Data Section**' \[at offset 0x00000008\]:
 
   
-Note: Model's 0 and 1, Cloud and Barret respectively, have no skeleton
-data in this BSX file, because theirs are already contained in their own
-BCX files. Sometimes playable characters will have extra skeleton data
-stored in BSX files, but not this time.
+Note: Model's 0 and 1, Cloud and Barret respectively, have no skeleton data in this BSX file, because theirs are already contained in their own BCX files. Sometimes playable characters will have extra skeleton data stored in BSX files, but not this time.
 
-Note2: Offset to 'Skeleton Data Section' contained in 'Models Section',
-Individual Bones/Parts/Animations Data.
+Note2: Offset to 'Skeleton Data Section' contained in 'Models Section', Individual Bones/Parts/Animations Data.
 
-Note3: Number of parts contained in 'Models Section', Individual Model
-Data.
+Note3: Number of parts contained in 'Models Section', Individual Model Data.
 
   
   
-Model 2 and Model 3, skeleton data for 1st part \[at offset
-0x00000008\]:
+Model 2 and Model 3, skeleton data for 1st part \[at offset 0x00000008\]:
 
   
 
@@ -333,8 +307,7 @@ Model 2 and Model 3, skeleton data for 1st part \[at offset
 
   
   
-Model 2 and Model 3, skeleton data for 2nd part \[at offset
-0x0000014C\]:
+Model 2 and Model 3, skeleton data for 2nd part \[at offset 0x0000014C\]:
 
   
 
@@ -387,8 +360,7 @@ Model 2 and Model 3, skeleton data for 2nd part \[at offset
   
   
   
-Model 2 and Model 3, skeleton data for 3rd part \[at offset
-0x00000570\]:
+Model 2 and Model 3, skeleton data for 3rd part \[at offset 0x00000570\]:
 
   
 
@@ -484,8 +456,7 @@ Model 2 and Model 3, skeleton data for 3rd part \[at offset
   
   
   
-Model 2 and Model 3, skeleton data for 4th part \[at offset
-0x00000E90\]:
+Model 2 and Model 3, skeleton data for 4th part \[at offset 0x00000E90\]:
 
   
 
@@ -511,8 +482,7 @@ Model 2 and Model 3, skeleton data for 4th part \[at offset
   
   
   
-Model 2 and Model 3, skeleton data for 5th part \[at offset
-0x00001068\]:
+Model 2 and Model 3, skeleton data for 5th part \[at offset 0x00001068\]:
 
   
 
@@ -531,8 +501,7 @@ Model 2 and Model 3, skeleton data for 5th part \[at offset
   
   
   
-Model 2 and Model 3, skeleton data for 6th part \[at offset
-0x00001194\]:
+Model 2 and Model 3, skeleton data for 6th part \[at offset 0x00001194\]:
 
   
 
@@ -548,8 +517,7 @@ Model 2 and Model 3, skeleton data for 6th part \[at offset
 
   
   
-Model 2 and Model 3, skeleton data for 7th part \[at offset
-0x00001284\]:
+Model 2 and Model 3, skeleton data for 7th part \[at offset 0x00001284\]:
 
   
 
@@ -573,8 +541,7 @@ Model 2 and Model 3, skeleton data for 7th part \[at offset
 
   
   
-Model 2 and Model 3, skeleton data for 8th part \[at offset
-0x0000145C\]:
+Model 2 and Model 3, skeleton data for 8th part \[at offset 0x0000145C\]:
 
   
 
@@ -592,8 +559,7 @@ Model 2 and Model 3, skeleton data for 8th part \[at offset
 
   
   
-Model 2 and Model 3, skeleton data for 9th part \[at offset
-0x00001588\]:
+Model 2 and Model 3, skeleton data for 9th part \[at offset 0x00001588\]:
 
   
 
@@ -609,8 +575,7 @@ Model 2 and Model 3, skeleton data for 9th part \[at offset
 
   
   
-Model 2 and Model 3, skeleton data for 10th part \[at offset
-0x00001678\]:
+Model 2 and Model 3, skeleton data for 10th part \[at offset 0x00001678\]:
 
   
 
@@ -630,8 +595,7 @@ Model 2 and Model 3, skeleton data for 10th part \[at offset
 
   
   
-Model 2 and Model 3, skeleton data for 11th part \[at offset
-0x000017E0\]:
+Model 2 and Model 3, skeleton data for 11th part \[at offset 0x000017E0\]:
 
   
 
@@ -645,8 +609,7 @@ Model 2 and Model 3, skeleton data for 11th part \[at offset
 
   
   
-Model 2 and Model 3, skeleton data for 12th part \[at offset
-0x0000189C\]:
+Model 2 and Model 3, skeleton data for 12th part \[at offset 0x0000189C\]:
 
   
 
@@ -677,8 +640,7 @@ Model 2 and Model 3, skeleton data for 12th part \[at offset
 
   
   
-Model 2 and Model 3, skeleton data for 13th part \[at offset
-0x00001A3C\]:
+Model 2 and Model 3, skeleton data for 13th part \[at offset 0x00001A3C\]:
 
   
 
@@ -698,8 +660,7 @@ Model 2 and Model 3, skeleton data for 13th part \[at offset
 
   
   
-Model 2 and Model 3, skeleton data for 14th part \[at offset
-0x00001BA4\]:
+Model 2 and Model 3, skeleton data for 14th part \[at offset 0x00001BA4\]:
 
   
 
@@ -714,8 +675,7 @@ Model 2 and Model 3, skeleton data for 14th part \[at offset
   
   
   
-Model 2 and Model 3, skeleton data for 15th part \[at offset
-0x00001C60\]:
+Model 2 and Model 3, skeleton data for 15th part \[at offset 0x00001C60\]:
 
   
 
@@ -1996,8 +1956,7 @@ Model 6, skeleton data for 15th part \[at offset 0x00007A44\]:
   
   
   
-Model 7, Model 8, and Model 9 skeleton data for 1st part \[at offset
-0x00007B44\]:
+Model 7, Model 8, and Model 9 skeleton data for 1st part \[at offset 0x00007B44\]:
 
   
 
@@ -2049,8 +2008,7 @@ Model 7, Model 8, and Model 9 skeleton data for 1st part \[at offset
   
   
   
-Model 7, Model 8, and Model 9, skeleton data for 2nd part \[at offset
-0x00007FC0\]:
+Model 7, Model 8, and Model 9, skeleton data for 2nd part \[at offset 0x00007FC0\]:
 
   
 
@@ -2098,8 +2056,7 @@ Model 7, Model 8, and Model 9, skeleton data for 2nd part \[at offset
   
   
   
-Model 7, Model 8, and Model 9, skeleton data for 3rd part \[at offset
-0x000083F8\]:
+Model 7, Model 8, and Model 9, skeleton data for 3rd part \[at offset 0x000083F8\]:
 
   
 
@@ -2159,8 +2116,7 @@ Model 7, Model 8, and Model 9, skeleton data for 3rd part \[at offset
   
   
   
-Model 7, Model 8, and Model 9, skeleton data for 4th part \[at offset
-0x0000894C\]:
+Model 7, Model 8, and Model 9, skeleton data for 4th part \[at offset 0x0000894C\]:
 
   
 
@@ -2188,8 +2144,7 @@ Model 7, Model 8, and Model 9, skeleton data for 4th part \[at offset
   
   
   
-Model 7, Model 8, and Model 9, skeleton data for 5th part \[at offset
-0x00008B50\]:
+Model 7, Model 8, and Model 9, skeleton data for 5th part \[at offset 0x00008B50\]:
 
   
 
@@ -2209,8 +2164,7 @@ Model 7, Model 8, and Model 9, skeleton data for 5th part \[at offset
   
   
   
-Model 7, Model 8, and Model 9, skeleton data for 6th part \[at offset
-0x00008C7C\]:
+Model 7, Model 8, and Model 9, skeleton data for 6th part \[at offset 0x00008C7C\]:
 
   
 
@@ -2226,8 +2180,7 @@ Model 7, Model 8, and Model 9, skeleton data for 6th part \[at offset
   
   
   
-Model 7, Model 8, and Model 9, skeleton data for 7th part \[at offset
-0x00008D38\]:
+Model 7, Model 8, and Model 9, skeleton data for 7th part \[at offset 0x00008D38\]:
 
   
 
@@ -2255,8 +2208,7 @@ Model 7, Model 8, and Model 9, skeleton data for 7th part \[at offset
   
   
   
-Model 7, Model 8, and Model 9, skeleton data for 8th part \[at offset
-0x00008F3C\]:
+Model 7, Model 8, and Model 9, skeleton data for 8th part \[at offset 0x00008F3C\]:
 
   
 
@@ -2276,8 +2228,7 @@ Model 7, Model 8, and Model 9, skeleton data for 8th part \[at offset
   
   
   
-Model 7, Model 8, and Model 9, skeleton data for 9th part \[at offset
-0x00009068\]:
+Model 7, Model 8, and Model 9, skeleton data for 9th part \[at offset 0x00009068\]:
 
   
 
@@ -2293,8 +2244,7 @@ Model 7, Model 8, and Model 9, skeleton data for 9th part \[at offset
   
   
   
-Model 7, Model 8, and Model 9, skeleton data for 10th part \[at offset
-0x00009124\]:
+Model 7, Model 8, and Model 9, skeleton data for 10th part \[at offset 0x00009124\]:
 
   
 
@@ -2316,8 +2266,7 @@ Model 7, Model 8, and Model 9, skeleton data for 10th part \[at offset
   
   
   
-Model 7, Model 8, and Model 9, skeleton data for 11th part \[at offset
-0x00009280\]:
+Model 7, Model 8, and Model 9, skeleton data for 11th part \[at offset 0x00009280\]:
 
   
 
@@ -2339,8 +2288,7 @@ Model 7, Model 8, and Model 9, skeleton data for 11th part \[at offset
   
   
   
-Model 7, Model 8, and Model 9, skeleton data for 12th part \[at offset
-0x000093CC\]:
+Model 7, Model 8, and Model 9, skeleton data for 12th part \[at offset 0x000093CC\]:
 
   
 
@@ -2360,8 +2308,7 @@ Model 7, Model 8, and Model 9, skeleton data for 12th part \[at offset
   
   
   
-Model 7, Model 8, and Model 9, skeleton data for 13th part \[at offset
-0x00009510\]:
+Model 7, Model 8, and Model 9, skeleton data for 13th part \[at offset 0x00009510\]:
 
   
 
@@ -2383,8 +2330,7 @@ Model 7, Model 8, and Model 9, skeleton data for 13th part \[at offset
   
   
   
-Model 7, Model 8, and Model 9, skeleton data for 14th part \[at offset
-0x0000966C\]:
+Model 7, Model 8, and Model 9, skeleton data for 14th part \[at offset 0x0000966C\]:
 
   
 
@@ -2406,8 +2352,7 @@ Model 7, Model 8, and Model 9, skeleton data for 14th part \[at offset
   
   
   
-Model 7, Model 8, and Model 9, skeleton data for 15th part \[at offset
-0x000097B8\]:
+Model 7, Model 8, and Model 9, skeleton data for 15th part \[at offset 0x000097B8\]:
 
   
 
@@ -2440,11 +2385,9 @@ Note: 'Skeleton Data Section' runs until 'Animation Data Section'.
 **'Animation Data Section**' \[at offset 0x000098FC\]:
 
   
-Note: Offset to 'Animation Data Section' contained in 'Models Section',
-Individual Bones/Parts/Animations Data.
+Note: Offset to 'Animation Data Section' contained in 'Models Section', Individual Bones/Parts/Animations Data.
 
-Note2: Number of animations contained in 'Models Section', Individual
-Model Data.
+Note2: Number of animations contained in 'Models Section', Individual Model Data.
 
   
   
@@ -2768,8 +2711,7 @@ Model 1 (Barret) 1st animation data \[at offset 0x0000AC20\]:
 
   
   
-Model 2, Model 3, Model 4, Model 5, and Model 6 1st animation data \[at
-offset 0x0000B668\]:
+Model 2, Model 3, Model 4, Model 5, and Model 6 1st animation data \[at offset 0x0000B668\]:
 
   
 
@@ -2783,8 +2725,7 @@ offset 0x0000B668\]:
 
   
   
-Model 2, Model 3, Model 4, Model 5, Model 6, Model 7, Model 8, and Model
-9 2nd animation data \[at offset 0x0000B720\]:
+Model 2, Model 3, Model 4, Model 5, Model 6, Model 7, Model 8, and Model 9 2nd animation data \[at offset 0x0000B720\]:
 
   
 
@@ -2836,8 +2777,7 @@ Model 2, Model 3, Model 4, Model 5, Model 6, Model 7, Model 8, and Model
 
   
   
-Model 2, Model 3, Model 4, Model 5, Model 6, Model 7, Model 8, and Model
-9 3rd animation data \[at offset 0x0000BB5C\]:
+Model 2, Model 3, Model 4, Model 5, Model 6, Model 7, Model 8, and Model 9 3rd animation data \[at offset 0x0000BB5C\]:
 
   
 
@@ -3184,8 +3124,7 @@ Model 5 4th animation data \[at offset 0x0000D6B0\]:
   
   
   
-Model 7, Model 8 and Model 9 1st animation data \[at offset
-0x0000DC78\]:
+Model 7, Model 8 and Model 9 1st animation data \[at offset 0x0000DC78\]:
 
   
 
@@ -3201,8 +3140,7 @@ Model 7, Model 8 and Model 9 1st animation data \[at offset
   
   
   
-Model 7, Model 8, and Model 9 4th animation data \[at offset
-0x0000DD30\]:
+Model 7, Model 8, and Model 9 4th animation data \[at offset 0x0000DD30\]:
 
   
 
@@ -3218,8 +3156,7 @@ Model 7, Model 8, and Model 9 4th animation data \[at offset
   
   
   
-Model 7, Model 8, and Model 9 5th animation data \[at offset
-0x0000DDE8\]:
+Model 7, Model 8, and Model 9 5th animation data \[at offset 0x0000DDE8\]:
 
   
 
@@ -3256,8 +3193,7 @@ Model 7, Model 8, and Model 9 5th animation data \[at offset
   
   
   
-Model 7, Model 8, and Model 9 6th animation data \[at offset
-0x0000E0F8\]:
+Model 7, Model 8, and Model 9 6th animation data \[at offset 0x0000E0F8\]:
 
   
 
@@ -3316,8 +3252,7 @@ Model 7, Model 8, and Model 9 6th animation data \[at offset
   
   
   
-Model 7, Model 8, and Model 9 7th animation data \[at offset
-0x0000E65C\]:
+Model 7, Model 8, and Model 9 7th animation data \[at offset 0x0000E65C\]:
 
   
 
@@ -3333,8 +3268,7 @@ Model 7, Model 8, and Model 9 7th animation data \[at offset
   
   
   
-Model 7, Model 8, and Model 9 8th animation data \[at offset
-0x0000E718\]:
+Model 7, Model 8, and Model 9 8th animation data \[at offset 0x0000E718\]:
 
   
 
@@ -3454,9 +3388,7 @@ Note: Animation Data Section runs directly into Models Section.
   
 Breakdown:
 
-9C F0 00 80 - Possibly memory address to load section to in PSX
-(little-endian, so 0x8000F09C) \[contiguous with other data loaded from
-this file? F09C is also
+9C F0 00 80 - Possibly memory address to load section to in PSX (little-endian, so 0x8000F09C) \[contiguous with other data loaded from this file? F09C is also
 
 the block offset for this data...\]
 
@@ -3464,13 +3396,11 @@ the block offset for this data...\]
 
 80 16 00 00 - "Pointer to texture data" (little-endian, so 0x00001680)
 
-E0 37 03 00 - "Pointer to something. We copy enviroment settings for
-models to where it points."
+E0 37 03 00 - "Pointer to something. We copy enviroment settings for models to where it points."
 
   
   
-Note: 'Models Section', Header runs until 'Models Section', Individual
-Model Data.
+Note: 'Models Section', Header runs until 'Models Section', Individual Model Data.
 
   
   
@@ -3489,13 +3419,11 @@ Model 0 (Cloud) Model Data - \[at offset 0x0000F0AC\]
   
 Breakdown:
 
-00 01 - Model ID (Cloud) \[actually, 01 is the body, and 00 is the
-face\]
+00 01 - Model ID (Cloud) \[actually, 01 is the body, and 00 is the face\]
 
 00 02 - "Scale; 12 bit fixed point"
 
-E0 01 00 00 - Relative offset to skeleton of model \[parts, bones, and
-animations\] (little endian, so 0x000001E0)
+E0 01 00 00 - Relative offset to skeleton of model \[parts, bones, and animations\] (little endian, so 0x000001E0)
 
 57 54 55 - RGB for something, respectively \[R==57; G==54; B==55\]
 
@@ -3507,9 +3435,7 @@ FF - Unknown
 
 93 90 91 - RGB1 for something, respectively \[R1==93; G1==90; B1==91\]
 
-00 - Additional number of bones in the model's skeleton \[not counting
-anything in BCX, if applicable\] (Cloud has no extra bones in this
-field)
+00 - Additional number of bones in the model's skeleton \[not counting anything in BCX, if applicable\] (Cloud has no extra bones in this field)
 
 00 06 75 F6 A2 F4 - Unknown
 
@@ -3519,9 +3445,7 @@ FF - Unknown
 
 6C 67 67 - RGB2 for something, respectively \[R2==6C; G2==67; B2==67\]
 
-00 - Additional number of parts in the model's skeleton \[not counting
-anything in BCX, if applicable\] (Cloud has no extra parts in this
-field)
+00 - Additional number of parts in the model's skeleton \[not counting anything in BCX, if applicable\] (Cloud has no extra parts in this field)
 
 76 F4 49 FA 67 F6 - Unknown
 
@@ -3531,8 +3455,7 @@ field)
 
 4D 4D 4D - RGB3 for something, respectively \[R3==4D; G3==4D; B3==4D\]
 
-01 - Additional number of animations \[not counting anything in BCX, if
-applicable\] (Cloud has one extra animation in this field)
+01 - Additional number of animations \[not counting anything in BCX, if applicable\] (Cloud has one extra animation in this field)
 
   
   
@@ -3547,13 +3470,11 @@ Model 1 (Barret) model data - \[at offset 0x0000F0DC\]
   
 Breakdown:
 
-02 03 - Model ID (Barret) \[actually, 03 is the body, and 02 is the
-face\]
+02 03 - Model ID (Barret) \[actually, 03 is the body, and 02 is the face\]
 
 00 02 - "Scale; 12 bit fixed point"
 
-C0 01 00 00 - Relative offset to skeleton of model \[parts, bones, and
-animations\] (little endian, so 0x000001C0)
+C0 01 00 00 - Relative offset to skeleton of model \[parts, bones, and animations\] (little endian, so 0x000001C0)
 
 57 54 55 - RGB for something, respectively \[R==57; G==54; B==55\]
 
@@ -3565,9 +3486,7 @@ FF - Unknown
 
 93 90 91 - RGB1 for something, respectively \[R1==93; G1==90; B1==91\]
 
-00 - Additional number of bones in the model's skeleton \[not counting
-anything in BCX, if applicable\] (Barret has no extra bones in this
-field)
+00 - Additional number of bones in the model's skeleton \[not counting anything in BCX, if applicable\] (Barret has no extra bones in this field)
 
 00 06 75 F6 A2 F4 - Unknown
 
@@ -3577,9 +3496,7 @@ FF - Unknown
 
 6C 67 67 - RGB2 for something, respectively \[R2==6C; G2==67; B2==67\]
 
-00 - Additional number of parts in the model's skeleton \[not counting
-anything in BCX, if applicable\] (Barret has no extra parts in this
-field)
+00 - Additional number of parts in the model's skeleton \[not counting anything in BCX, if applicable\] (Barret has no extra parts in this field)
 
 76 F4 49 FA 67 F6 - Unknown
 
@@ -3589,8 +3506,7 @@ field)
 
 4D 4D 4D - RGB3 for something, respectively \[R3==4D; G3==4D; B3==4D\]
 
-01 - Additional number of animations \[not counting anything in BCX, if
-applicable\] (Barret has one extra animation in this field)
+01 - Additional number of animations \[not counting anything in BCX, if applicable\] (Barret has one extra animation in this field)
 
   
   
@@ -3604,13 +3520,11 @@ Model 2 model data \[at offset 0x0000F10C\]
   
 Breakdown:
 
-11 00 - Model ID (little-endian, so 0x0011) \[actually, 00 is the body,
-and 11 is the face\]
+11 00 - Model ID (little-endian, so 0x0011) \[actually, 00 is the body, and 11 is the face\]
 
 00 02 - "Scale; 12 bit fixed point"
 
-A0 01 00 00 - Relative offset to skeleton of model \[parts, bones, and
-animations\] (little endian, so 0x000001A0)
+A0 01 00 00 - Relative offset to skeleton of model \[parts, bones, and animations\] (little endian, so 0x000001A0)
 
 57 54 55 - RGB for something, respectively \[R==57; G==54; B==55\]
 
@@ -3622,9 +3536,7 @@ animations\] (little endian, so 0x000001A0)
 
 93 90 91 - RGB1 for something, respectively \[R1==93; G1==90; B1==91\]
 
-16 - Additional number of bones in the model's skeleton \[not counting
-anything in BCX, if applicable\] (Model ID 2 has 0x16, or 22 bones in
-this field)
+16 - Additional number of bones in the model's skeleton \[not counting anything in BCX, if applicable\] (Model ID 2 has 0x16, or 22 bones in this field)
 
 00 06 75 F6 A2 F4 - Unknown
 
@@ -3634,9 +3546,7 @@ this field)
 
 6C 67 67 - RGB2 for something, respectively \[R2==6C; G2==67; B2==67\]
 
-0F - Additional number of parts in the model's skeleton \[not counting
-anything in BCX, if applicable\] (Model ID 2 has 0x0F, or 15 parts in
-this field)
+0F - Additional number of parts in the model's skeleton \[not counting anything in BCX, if applicable\] (Model ID 2 has 0x0F, or 15 parts in this field)
 
 76 F4 49 FA 67 F6 - Unknown
 
@@ -3646,8 +3556,7 @@ this field)
 
 4D 4D 4D - RGB3 for something, respectively \[R3==4D; G3==4D; B3==4D\]
 
-03 - Additional number of animations \[not counting anything in BCX, if
-applicable\] (Model 2 has 3 animation in this field)
+03 - Additional number of animations \[not counting anything in BCX, if applicable\] (Model 2 has 3 animation in this field)
 
   
   
@@ -3666,8 +3575,7 @@ Breakdown:
 
 00 02 - "Scale; 12 bit fixed point"
 
-D8 03 00 00 - Relative offset to skeleton of model
-\[parts/bones/animations\] (little-endian, so 0x000003D8)
+D8 03 00 00 - Relative offset to skeleton of model \[parts/bones/animations\] (little-endian, so 0x000003D8)
 
 57 54 55 - RGB for something, respectively \[R==57; G==54; B==55\]
 
@@ -3679,8 +3587,7 @@ D8 03 00 00 - Relative offset to skeleton of model
 
 93 90 91 - RGB1 for something, respectively
 
-16 - Additional number of bones in the model's skeleton \[not counting
-anything in BCX, if applicable\]
+16 - Additional number of bones in the model's skeleton \[not counting anything in BCX, if applicable\]
 
 00 06 75 F6 A2 F4 - Unknown
 
@@ -3690,8 +3597,7 @@ anything in BCX, if applicable\]
 
 6C 67 67 - RGB2 for something, respectively
 
-0F - Additional number of parts in the model's skeleton \[not counting
-anything in BCX, if applicable\]
+0F - Additional number of parts in the model's skeleton \[not counting anything in BCX, if applicable\]
 
 76 F4 49 FA 67 F6 - Unknown
 
@@ -3701,8 +3607,7 @@ anything in BCX, if applicable\]
 
 4D 4D 4D - RGB3 for something, respectively
 
-03 - Additional number of animations \[not counting anything in BCX, if
-applicable\]
+03 - Additional number of animations \[not counting anything in BCX, if applicable\]
 
   
   
@@ -3721,8 +3626,7 @@ Breakdown:
 
 00 02 - "Scale; 12 bit fixed point"
 
-10 06 00 00 - Relative offset to skeleton of model
-\[parts/bones/animations\] (little endian, so 0x00000610)
+10 06 00 00 - Relative offset to skeleton of model \[parts/bones/animations\] (little endian, so 0x00000610)
 
 57 54 55 - RGB for something, respectively
 
@@ -3734,8 +3638,7 @@ Breakdown:
 
 93 90 91 - RGB1 for something, respectively
 
-16 - Additional number of bones in the model's skeleton \[not counting
-anything in BCX, if applicable\]
+16 - Additional number of bones in the model's skeleton \[not counting anything in BCX, if applicable\]
 
 00 06 75 F6 A2 F4 - Unknown
 
@@ -3745,8 +3648,7 @@ anything in BCX, if applicable\]
 
 6C 67 67 - RGB2 for something, respectively
 
-0F - Additional number of parts in the model's skeleton \[not counting
-anything in BCX, if applicable\]
+0F - Additional number of parts in the model's skeleton \[not counting anything in BCX, if applicable\]
 
 76 F4 49 FA 67 F6 - Unknown
 
@@ -3756,8 +3658,7 @@ anything in BCX, if applicable\]
 
 4D 4D 4D - RGB3 for something, respectively
 
-05 - Additional number of animations \[not counting anything in BCX, if
-applicable\]
+05 - Additional number of animations \[not counting anything in BCX, if applicable\]
 
   
   
@@ -3778,8 +3679,7 @@ Breakdown:
 
 00 02 - "Scale; 12 bit fixed point"
 
-68 08 00 00 - Relative offset to skeleton of model
-\[parts/bones/animations\] (little endian, so 0x00000868)
+68 08 00 00 - Relative offset to skeleton of model \[parts/bones/animations\] (little endian, so 0x00000868)
 
 57 54 55 - RGB for something, respectively
 
@@ -3791,8 +3691,7 @@ Breakdown:
 
 93 90 91 - RGB1 for something, respectively
 
-16 - Additional number of bones in the model's skeleton \[not counting
-anything in BCX, if applicable\]
+16 - Additional number of bones in the model's skeleton \[not counting anything in BCX, if applicable\]
 
 00 06 75 F6 A2 F4 - Unknown
 
@@ -3802,8 +3701,7 @@ anything in BCX, if applicable\]
 
 6C 67 67 - RGB2 for something, respectively
 
-0F - Additional number of parts in the model's skeleton \[not counting
-anything in BCX, if applicable\]
+0F - Additional number of parts in the model's skeleton \[not counting anything in BCX, if applicable\]
 
 76 F4 49 FA 67 F6 - Unknown
 
@@ -3813,8 +3711,7 @@ anything in BCX, if applicable\]
 
 4D 4D 4D - RGB3 for something, respectively
 
-04 - Additional number of animations \[not counting anything in BCX, if
-applicable\]
+04 - Additional number of animations \[not counting anything in BCX, if applicable\]
 
   
   
@@ -3834,8 +3731,7 @@ Breakdown:
 
 00 02 - "Scale; 12 bit fixed point"
 
-B0 0A 00 00 - Relative offset to skeleton of model
-\[parts/bones/animations\] (little endian, so 0x00000AB0)
+B0 0A 00 00 - Relative offset to skeleton of model \[parts/bones/animations\] (little endian, so 0x00000AB0)
 
 57 54 55 - RGB for something, respectively
 
@@ -3847,8 +3743,7 @@ B0 0A 00 00 - Relative offset to skeleton of model
 
 93 90 91 - RGB1 for something, respectively
 
-16 - Additional number of bones in the model's skeleton \[not counting
-anything in BCX, if applicable\]
+16 - Additional number of bones in the model's skeleton \[not counting anything in BCX, if applicable\]
 
 00 06 75 F6 A2 F4 - Unknown
 
@@ -3858,8 +3753,7 @@ anything in BCX, if applicable\]
 
 6C 67 67 - RGB2 for something, respectively
 
-0F - Additional number of parts in the model's skeleton \[not counting
-anything in BCX, if applicable\]
+0F - Additional number of parts in the model's skeleton \[not counting anything in BCX, if applicable\]
 
 76 F4 49 FA 67 F6 - Unknown
 
@@ -3869,8 +3763,7 @@ anything in BCX, if applicable\]
 
 4D 4D 4D - RGB3 for something, respectively
 
-04 - Additional number of animations \[not counting anything in BCX, if
-applicable\]
+04 - Additional number of animations \[not counting anything in BCX, if applicable\]
 
   
   
@@ -3892,8 +3785,7 @@ Breakdown:
 
 00 02 - "Scale; 12 bit fixed point"
 
-F8 0C 00 00 - Relative offset to skeleton of model
-\[parts/bones/animations\] (little endian, so 0x00000CF8)
+F8 0C 00 00 - Relative offset to skeleton of model \[parts/bones/animations\] (little endian, so 0x00000CF8)
 
 57 54 55 - RGB for something, respectively
 
@@ -3905,8 +3797,7 @@ F8 0C 00 00 - Relative offset to skeleton of model
 
 93 90 91 - RGB1 for something, respectively
 
-16 - Additional number of bones in the model's skeleton \[not counting
-anything in BCX, if applicable\]
+16 - Additional number of bones in the model's skeleton \[not counting anything in BCX, if applicable\]
 
 00 06 75 F6 A2 F4 - Unknown
 
@@ -3916,8 +3807,7 @@ anything in BCX, if applicable\]
 
 6C 67 67 - RGB2 for something, respectively
 
-0F - Additional number of parts in the model's skeleton \[not counting
-anything in BCX, if applicable\]
+0F - Additional number of parts in the model's skeleton \[not counting anything in BCX, if applicable\]
 
 76 F4 49 FA 67 F6 - Unknown
 
@@ -3927,8 +3817,7 @@ anything in BCX, if applicable\]
 
 4D 4D 4D - RGB3 for something, respectively
 
-08 - Additional number of animations \[not counting anything in BCX, if
-applicable\]
+08 - Additional number of animations \[not counting anything in BCX, if applicable\]
 
   
   
@@ -3949,8 +3838,7 @@ Breakdown:
 
 00 02 - "Scale; 12 bit fixed point"
 
-80 0F 00 00 - Relative offset to skeleton of model
-\[parts/bones/animations\] (little endian, so 0x00000F80)
+80 0F 00 00 - Relative offset to skeleton of model \[parts/bones/animations\] (little endian, so 0x00000F80)
 
 57 54 55 - RGB for something, respectively
 
@@ -3962,8 +3850,7 @@ Breakdown:
 
 93 90 91 - RGB1 for something, respectively
 
-16 - Additional number of bones in the model's skeleton \[not counting
-anything in BCX, if applicable\]
+16 - Additional number of bones in the model's skeleton \[not counting anything in BCX, if applicable\]
 
 00 06 75 F6 A2 F4 - Unknown
 
@@ -3973,8 +3860,7 @@ anything in BCX, if applicable\]
 
 6C 67 67 - RGB2 for something, respectively
 
-0F - Additional number of parts in the model's skeleton \[not counting
-anything in BCX, if applicable\]
+0F - Additional number of parts in the model's skeleton \[not counting anything in BCX, if applicable\]
 
 76 F4 49 FA 67 F6 - Unknown
 
@@ -3984,8 +3870,7 @@ anything in BCX, if applicable\]
 
 4D 4D 4D - RGB3 for something, respectively
 
-08 - Additional number of animations \[not counting anything in BCX, if
-applicable\]
+08 - Additional number of animations \[not counting anything in BCX, if applicable\]
 
   
   
@@ -4006,8 +3891,7 @@ Breakdown:
 
 00 02 - "Scale; 12 bit fixed point"
 
-08 12 00 00 - Relative offset to skeleton of model
-\[parts/bones/animations\] (little endian, so 0x00001208)
+08 12 00 00 - Relative offset to skeleton of model \[parts/bones/animations\] (little endian, so 0x00001208)
 
 57 54 55 - RGB for something, respectively
 
@@ -4019,8 +3903,7 @@ Breakdown:
 
 93 90 91 - RGB1 for something, respectively
 
-16 - Additional number of bones in the model's skeleton \[not counting
-anything in BCX, if applicable\]
+16 - Additional number of bones in the model's skeleton \[not counting anything in BCX, if applicable\]
 
 00 06 75 F6 A2 F4 - Unknown
 
@@ -4030,8 +3913,7 @@ anything in BCX, if applicable\]
 
 6C 67 67 - RGB2 for something, respectively
 
-0F - Additional number of parts in the model's skeleton \[not counting
-anything in BCX, if applicable\]
+0F - Additional number of parts in the model's skeleton \[not counting anything in BCX, if applicable\]
 
 76 F4 49 FA 67 F6 - Unknown
 
@@ -4041,8 +3923,7 @@ anything in BCX, if applicable\]
 
 4D 4D 4D - RGB3 for something, respectively
 
-08 - Additional number of animations \[not counting anything in BCX, if
-applicable\]
+08 - Additional number of animations \[not counting anything in BCX, if applicable\]
 
   
   
@@ -4053,8 +3934,7 @@ applicable\]
 
   
   
-Model 0 (Cloud) animation data (no parts/bones data for Cloud) - \[at
-offset 0x0000F28C\]
+Model 0 (Cloud) animation data (no parts/bones data for Cloud) - \[at offset 0x0000F28C\]
 
   
 
@@ -4075,18 +3955,15 @@ Breakdown:
 
 B4 00 - Relative offset to translation frames (little-endian, so 0x00B4)
 
-94 02 - Relative offset to static translation frames (little-endian, so
-0x0294)
+94 02 - Relative offset to static translation frames (little-endian, so 0x0294)
 
 94 02 - Relative offset to rotation frames (little-endian, so 0x0294)
 
-FC 98 00 80 - Offset to animation data section (little-endian, so
-0x800098FC)
+FC 98 00 80 - Offset to animation data section (little-endian, so 0x800098FC)
 
   
   
-Model 1 (Barret) animation data (no parts/bones data for Barret) - \[at
-offset 0x0000F29C\]:
+Model 1 (Barret) animation data (no parts/bones data for Barret) - \[at offset 0x0000F29C\]:
 
   
 
@@ -4107,13 +3984,11 @@ Breakdown:
 
 B4 00 - Relative offset to translation frames (little-endian, so 0x00B4)
 
-16 01 - Relative offset to static translation frames (little-endian, so
-0x0116)
+16 01 - Relative offset to static translation frames (little-endian, so 0x0116)
 
 16 01 - Relative offset to rotation frames (little-endian, so 0x0116)
 
-20 AC 00 80 - Offset to animation data section (little-endian, so
-0x8000AC20)
+20 AC 00 80 - Offset to animation data section (little-endian, so 0x8000AC20)
 
   
   
@@ -4170,8 +4045,7 @@ Model 2 parts data \[at offset 0x0000F304\] (15 parts):
   
 Breakdown of first line of Model 2's parts above:
 
-01 - Unknown; "0 - not calculate stage lighting and color. 1 -
-calculate."
+01 - Unknown; "0 - not calculate stage lighting and color. 1 - calculate."
 
 01 - Bone to which this part is attached to
 
@@ -4201,8 +4075,7 @@ calculate."
 
 44 01 - Relative offset to ?
 
-44 01 - Relative offset to texture settings. Indexed by 5th block data
-(control)
+44 01 - Relative offset to texture settings. Indexed by 5th block data (control)
 
 44 01 - Relative offset to one byte stream for every packet with texture
 
@@ -4225,8 +4098,7 @@ Model 2 animation data \[at offset 0x0000F4E4\] (3 animations):
 
   
   
-Breakdown of 1st animation (first line) at top of group of animations
-above:
+Breakdown of 1st animation (first line) at top of group of animations above:
 
 01 00 - Number of frames (little-endian, so 0x0001)
 
@@ -4240,13 +4112,11 @@ above:
 
 B4 00 - Relative offset to translation frames (little-endian, so 0x00B4)
 
-B4 00 - Relative offset to static translation frames (little-endian, so
-0x00B4)
+B4 00 - Relative offset to static translation frames (little-endian, so 0x00B4)
 
 B8 00 - Relative offset to rotation frames (little-endian, so 0x00B8)
 
-68 B6 00 80 - Offset to animation data section (little-endian, so
-0x8000B668)
+68 B6 00 80 - Offset to animation data section (little-endian, so 0x8000B668)
 
   
   
@@ -4284,8 +4154,7 @@ Model 3 bones data \[at offset 0x0000F514\] (22 bones):
   
 Model 3 parts data \[at offset 0x0000F56C\] (15 parts):
 
-Note: In this case, Model 3 shares skeleton data with Model 2 (see
-offsets below).
+Note: In this case, Model 3 shares skeleton data with Model 2 (see offsets below).
 
   
 
@@ -4311,8 +4180,7 @@ offsets below).
   
 Model 3 animations data \[at offset 0x0000F74C\] (3 animations):
 
-Note: In this case, Model 3 shares animation data with Model 2 (see
-offsets below).
+Note: In this case, Model 3 shares animation data with Model 2 (see offsets below).
 
   
 
@@ -4761,7 +4629,4 @@ The rest of the file (20 bytes) is unknown:
 
 `14 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 - Unknown`
 
-Note: This small final section of BSX files does not exist in BCX files.
-This may provide some idea as to what this section is for.
-
-  [Micky's tool]: http://web.archive.org/web/20170521085448/http://forums.qhimm.com/index.php?topic=8969.msg122920#msg122920
+Note: This small final section of BSX files does not exist in BCX files. This may provide some idea as to what this section is for.

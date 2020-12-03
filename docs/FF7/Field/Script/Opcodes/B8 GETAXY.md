@@ -2,7 +2,7 @@
 title: B8 GETAXY
 ---
 
-[Home](../../../../Main%20Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > B8 GETAXY
+[Home](../../../../Main Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > B8 GETAXY
 
 -   Opcode: **0xB8**
 -   Short name: **GETAXY**
@@ -23,8 +23,4 @@ title: B8 GETAXY
 
 #### Description
 
-Fetches the current X- and Y-coordinates of the entity given by *E* into
-bank *B*, address *A*. *E* is an offset into the entity list, not a
-visible object ID, and therefore includes non-visible entities;
-retrieving the co-ordinates of a non-visible entity results in unusual
-values being retrieved.
+Fetches the current X- and Y-coordinates of the entity given by *E* into bank *B*, address *A*. *E* is an offset into the entity list, not a visible object ID, and therefore includes non-visible entities; retrieving the co-ordinates of a non-visible entity results in unusual values being retrieved.
