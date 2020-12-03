@@ -1,6 +1,5 @@
 ---
 title: 0A3 MOVIEREADY
-permalink: 0A3 MOVIEREADY.html
 ---
 
 [Home](../../../../Main%20Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 0A3 MOVIEREADY

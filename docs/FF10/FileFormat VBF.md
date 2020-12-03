@@ -1,6 +1,5 @@
 ---
 title: FileFormat VBF
-permalink: FileFormat VBF.html
 ---
 
 [Home](../Main%20Page.md) > [FF10](../FF10.md) > FileFormat VBF

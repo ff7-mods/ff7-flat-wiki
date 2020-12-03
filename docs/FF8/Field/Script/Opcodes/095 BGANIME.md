@@ -1,6 +1,5 @@
 ---
 title: 095 BGANIME
-permalink: 095 BGANIME.html
 ---
 
 [Home](../../../../Main%20Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 095 BGANIME

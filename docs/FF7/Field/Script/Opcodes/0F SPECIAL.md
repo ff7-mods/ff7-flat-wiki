@@ -1,6 +1,5 @@
 ---
 title: 0F SPECIAL
-permalink: 0F SPECIAL.html
 ---
 
 [Home](../../../../Main%20Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 0F SPECIAL

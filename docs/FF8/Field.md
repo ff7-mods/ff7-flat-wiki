@@ -1,6 +1,5 @@
 ---
 title: Field
-permalink: Field.html
 ---
 
 [Home](../Main%20Page.md) > [FF8](../FF8.md) > Field

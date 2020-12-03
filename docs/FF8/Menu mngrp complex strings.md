@@ -1,6 +1,5 @@
 ---
 title: Menu mngrp complex strings
-permalink: Menu mngrp complex strings.html
 ---
 
 [Home](../Main%20Page.md) > [FF8](../FF8.md) > Menu mngrp complex strings

@@ -1,6 +1,5 @@
 ---
 title: 05B ISTOUCH
-permalink: 05B ISTOUCH.html
 ---
 
 [Home](../../../../Main%20Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 05B ISTOUCH

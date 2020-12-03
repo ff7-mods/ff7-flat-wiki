@@ -1,6 +1,5 @@
 ---
 title: 029 MAPJUMP
-permalink: 029 MAPJUMP.html
 ---
 
 [Home](../../../../Main%20Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 029 MAPJUMP

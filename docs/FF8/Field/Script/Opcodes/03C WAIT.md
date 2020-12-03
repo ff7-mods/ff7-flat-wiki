@@ -1,6 +1,5 @@
 ---
 title: 03C WAIT
-permalink: 03C WAIT.html
 ---
 
 [Home](../../../../Main%20Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 03C WAIT

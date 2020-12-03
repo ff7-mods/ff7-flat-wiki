@@ -1,6 +1,5 @@
 ---
 title: Damage Calculation
-permalink: Damage Calculation.html
 ---
 
 [Home](../Main%20Page.md) > [FF7](../FF7.md) > Damage Calculation

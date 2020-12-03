@@ -1,6 +1,5 @@
 ---
 title: 107 FACEDIRINIT
-permalink: 107 FACEDIRINIT.html
 ---
 
 [Home](../../../../Main%20Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 107 FACEDIRINIT

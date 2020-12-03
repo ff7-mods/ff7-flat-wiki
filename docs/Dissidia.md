@@ -1,6 +1,5 @@
 ---
 title: Dissidia
-permalink: Dissidia.html
 ---
 
 [Home](Main%20Page.md) > Dissidia

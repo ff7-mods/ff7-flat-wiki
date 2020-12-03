@@ -1,6 +1,5 @@
 ---
 title: WorldMap wmsetxx
-permalink: WorldMap wmsetxx.html
 ---
 
 [Home](../Main%20Page.md) > [FF8](../FF8.md) > WorldMap wmsetxx

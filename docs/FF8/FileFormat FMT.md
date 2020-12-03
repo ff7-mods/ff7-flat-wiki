@@ -1,6 +1,5 @@
 ---
 title: FileFormat FMT
-permalink: FileFormat FMT.html
 ---
 
 [Home](../Main%20Page.md) > [FF8](../FF8.md) > FileFormat FMT

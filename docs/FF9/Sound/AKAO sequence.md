@@ -1,6 +1,5 @@
 ---
 title: AKAO sequence
-permalink: AKAO sequence.html
 ---
 
 [Home](../../Main%20Page.md) > [FF9](../../FF9.md) > [Sound](../Sound.md) > AKAO sequence

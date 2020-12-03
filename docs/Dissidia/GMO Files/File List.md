@@ -1,6 +1,5 @@
 ---
 title: File List
-permalink: File List.html
 ---
 
 [Home](../../Main%20Page.md) > [Dissidia](../../Dissidia.md) > [GMO Files](../GMO%20Files.md) > File List

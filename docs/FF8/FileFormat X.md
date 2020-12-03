@@ -1,6 +1,5 @@
 ---
 title: FileFormat X
-permalink: FileFormat X.html
 ---
 
 [Home](../Main%20Page.md) > [FF8](../FF8.md) > FileFormat X

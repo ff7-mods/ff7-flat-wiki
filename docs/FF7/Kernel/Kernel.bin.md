@@ -1,6 +1,5 @@
 ---
 title: Kernel.bin
-permalink: Kernel.bin.html
 ---
 
 [Home](../../Main%20Page.md) > [FF7](../../FF7.md) > [Kernel](../Kernel.md) > Kernel.bin

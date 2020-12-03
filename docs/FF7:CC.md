@@ -1,6 +1,5 @@
 ---
 title: FF7:CC
-permalink: FF7:CC.html
 ---
 
 [Home](Main%20Page.md) > FF7:CC

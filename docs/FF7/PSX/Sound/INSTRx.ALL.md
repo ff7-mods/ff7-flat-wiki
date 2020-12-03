@@ -1,6 +1,5 @@
 ---
 title: INSTRx.ALL
-permalink: INSTRx.ALL.html
 ---
 
 [Home](../../../Main%20Page.md) > [FF7](../../../FF7.md) > [PSX](../../PSX.md) > [Sound](../Sound.md) > INSTRx.ALL

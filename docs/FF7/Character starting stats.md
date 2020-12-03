@@ -1,6 +1,5 @@
 ---
 title: Character starting stats
-permalink: Character starting stats.html
 ---
 
 [Home](../Main%20Page.md) > [FF7](../FF7.md) > Character starting stats

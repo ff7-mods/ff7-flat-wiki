@@ -1,6 +1,5 @@
 ---
 title: WorldMap rail
-permalink: WorldMap rail.html
 ---
 
 [Home](../Main%20Page.md) > [FF8](../FF8.md) > WorldMap rail

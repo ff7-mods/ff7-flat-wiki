@@ -1,6 +1,5 @@
 ---
 title: 126 SETWITCH
-permalink: 126 SETWITCH.html
 ---
 
 [Home](../../../../Main%20Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 126 SETWITCH

@@ -1,6 +1,5 @@
 ---
 title: Item Codes
-permalink: Item Codes.html
 ---
 
 [Home](../Main%20Page.md) > [FF8](../FF8.md) > Item Codes

@@ -1,6 +1,5 @@
 ---
 title: FileFormat MAG t
-permalink: FileFormat MAG t.html
 ---
 
 [Home](../Main%20Page.md) > [FF8](../FF8.md) > FileFormat MAG t

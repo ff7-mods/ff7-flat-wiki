@@ -1,6 +1,5 @@
 ---
 title: 0xfd
-permalink: 0xfd.html
 ---
 
 [Home](../../../../Main%20Page.md) > [FF7](../../../../FF7.md) > [PSX](../../../PSX.md) > [Sound](../../Sound.md) > [Opcodes](../Opcodes.md) > 0xfd

@@ -1,6 +1,5 @@
 ---
 title: Another Mind
-permalink: Another Mind.html
 ---
 
 [Home](Main%20Page.md) > Another Mind

@@ -1,6 +1,5 @@
 ---
 title: 067 THROUGHON
-permalink: 067 THROUGHON.html
 ---
 
 [Home](../../../../Main%20Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 067 THROUGHON

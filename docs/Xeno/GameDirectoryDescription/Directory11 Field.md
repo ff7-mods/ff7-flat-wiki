@@ -1,6 +1,5 @@
 ---
 title: Directory11 Field
-permalink: Directory11 Field.html
 ---
 
 [Home](../../Main%20Page.md) > [Xeno](../../Xeno.md) > [GameDirectoryDescription](../GameDirectoryDescription.md) > Directory11 Field

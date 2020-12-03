@@ -1,6 +1,5 @@
 ---
 title: DB FCFIX
-permalink: DB FCFIX.html
 ---
 
 [Home](../../../../Main%20Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > DB FCFIX

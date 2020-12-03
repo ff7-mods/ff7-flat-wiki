@@ -1,6 +1,5 @@
 ---
 title: WorldMapCamera
-permalink: WorldMapCamera.html
 ---
 
 [Home](../../Main%20Page.md) > [FF8](../../FF8.md) > [Engine](../Engine.md) > WorldMapCamera

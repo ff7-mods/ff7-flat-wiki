@@ -1,6 +1,5 @@
 ---
 title: 056 SPUREADY
-permalink: 056 SPUREADY.html
 ---
 
 [Home](../../../../Main%20Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 056 SPUREADY

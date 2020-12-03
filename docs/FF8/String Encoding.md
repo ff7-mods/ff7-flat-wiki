@@ -1,6 +1,5 @@
 ---
 title: String Encoding
-permalink: String Encoding.html
 ---
 
 [Home](../Main%20Page.md) > [FF8](../FF8.md) > String Encoding

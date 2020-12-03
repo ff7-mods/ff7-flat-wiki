@@ -1,6 +1,5 @@
 ---
 title: 01 TRNSP
-permalink: 01 TRNSP.html
 ---
 
 [Home](../../../../../Main%20Page.md) > [FF7](../../../../../FF7.md) > [Field](../../../../Field.md) > [Script](../../../Script.md) > [Opcodes](../../Opcodes.md) > [28 KAWAI](../28%20KAWAI.md) > 01 TRNSP

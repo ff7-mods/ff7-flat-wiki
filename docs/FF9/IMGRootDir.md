@@ -1,6 +1,5 @@
 ---
 title: IMGRootDir
-permalink: IMGRootDir.html
 ---
 
 [Home](../Main%20Page.md) > [FF9](../FF9.md) > IMGRootDir

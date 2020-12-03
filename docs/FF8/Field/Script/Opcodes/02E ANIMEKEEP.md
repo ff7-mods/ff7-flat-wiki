@@ -1,6 +1,5 @@
 ---
 title: 02E ANIMEKEEP
-permalink: 02E ANIMEKEEP.html
 ---
 
 [Home](../../../../Main%20Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 02E ANIMEKEEP

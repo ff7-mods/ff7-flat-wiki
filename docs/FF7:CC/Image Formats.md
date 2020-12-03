@@ -1,6 +1,5 @@
 ---
 title: Image Formats
-permalink: Image Formats.html
 ---
 
 [Home](../Main%20Page.md) > [FF7:CC](../FF7:CC.md) > Image Formats

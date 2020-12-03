@@ -1,6 +1,5 @@
 ---
 title: Menu areames dc1
-permalink: Menu areames dc1.html
 ---
 
 [Home](../Main%20Page.md) > [FF8](../FF8.md) > Menu areames dc1

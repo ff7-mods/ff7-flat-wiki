@@ -1,6 +1,5 @@
 ---
 title: F3 MUSVT
-permalink: F3 MUSVT.html
 ---
 
 [Home](../../../../Main%20Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > F3 MUSVT

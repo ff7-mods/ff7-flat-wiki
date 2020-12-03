@@ -1,6 +1,5 @@
 ---
 title: BSZ
-permalink: BSZ.html
 ---
 
 [Home](../../Main%20Page.md) > [FF7](../../FF7.md) > [World Map](../World%20Map.md) > BSZ

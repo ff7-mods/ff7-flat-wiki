@@ -1,6 +1,5 @@
 ---
 title: Xeno
-permalink: Xeno.html
 ---
 
 [Home](Main%20Page.md) > Xeno

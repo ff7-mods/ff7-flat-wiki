@@ -1,6 +1,5 @@
 ---
 title: 174 UNKNOWN9
-permalink: 174 UNKNOWN9.html
 ---
 
 [Home](../../../../Main%20Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 174 UNKNOWN9

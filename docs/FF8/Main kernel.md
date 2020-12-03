@@ -1,6 +1,5 @@
 ---
 title: Main kernel
-permalink: Main kernel.html
 ---
 
 [Home](../Main%20Page.md) > [FF8](../FF8.md) > Main kernel

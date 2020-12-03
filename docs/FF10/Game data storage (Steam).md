@@ -1,6 +1,5 @@
 ---
 title: Game data storage (Steam)
-permalink: Game data storage (Steam).html
 ---
 
 [Home](../Main%20Page.md) > [FF10](../FF10.md) > Game data storage (Steam)

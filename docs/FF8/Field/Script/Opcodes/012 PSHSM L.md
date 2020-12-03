@@ -1,6 +1,5 @@
 ---
 title: 012 PSHSM L
-permalink: 012 PSHSM L.html
 ---
 
 [Home](../../../../Main%20Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 012 PSHSM L

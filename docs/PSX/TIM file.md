@@ -1,6 +1,5 @@
 ---
 title: TIM file
-permalink: TIM file.html
 ---
 
 [Home](../Main%20Page.md) > [PSX](../PSX.md) > TIM file

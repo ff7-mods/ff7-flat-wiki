@@ -1,6 +1,5 @@
 ---
 title: 24 WAIT
-permalink: 24 WAIT.html
 ---
 
 [Home](../../../../Main%20Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 24 WAIT

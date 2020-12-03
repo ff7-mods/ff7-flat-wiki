@@ -1,6 +1,5 @@
 ---
 title: 077 SCROLLSYNC
-permalink: 077 SCROLLSYNC.html
 ---
 
 [Home](../../../../Main%20Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 077 SCROLLSYNC

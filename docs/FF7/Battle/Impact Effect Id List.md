@@ -1,6 +1,5 @@
 ---
 title: Impact Effect Id List
-permalink: Impact Effect Id List.html
 ---
 
 [Home](../../Main%20Page.md) > [FF7](../../FF7.md) > [Battle](../Battle.md) > Impact Effect Id List

@@ -1,6 +1,5 @@
 ---
 title: 090 CTURN
-permalink: 090 CTURN.html
 ---
 
 [Home](../../../../Main%20Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 090 CTURN

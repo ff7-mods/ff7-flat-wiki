@@ -1,6 +1,5 @@
 ---
 title: BS list
-permalink: BS list.html
 ---
 
 [Home](../Main%20Page.md) > [FF8](../FF8.md) > BS list

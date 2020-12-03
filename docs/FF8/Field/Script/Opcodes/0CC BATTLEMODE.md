@@ -1,6 +1,5 @@
 ---
 title: 0CC BATTLEMODE
-permalink: 0CC BATTLEMODE.html
 ---
 
 [Home](../../../../Main%20Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 0CC BATTLEMODE

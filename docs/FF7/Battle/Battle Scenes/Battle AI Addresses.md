@@ -1,6 +1,5 @@
 ---
 title: Battle AI Addresses
-permalink: Battle AI Addresses.html
 ---
 
 [Home](../../../Main%20Page.md) > [FF7](../../../FF7.md) > [Battle](../../Battle.md) > [Battle Scenes](../Battle%20Scenes.md) > Battle AI Addresses

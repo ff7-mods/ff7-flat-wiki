@@ -1,6 +1,5 @@
 ---
 title: GMO Files
-permalink: GMO Files.html
 ---
 
 [Home](../Main%20Page.md) > [Dissidia](../Dissidia.md) > GMO Files

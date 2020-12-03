@@ -1,6 +1,5 @@
 ---
 title: 20 MINIGAME
-permalink: 20 MINIGAME.html
 ---
 
 [Home](../../../../Main%20Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 20 MINIGAME

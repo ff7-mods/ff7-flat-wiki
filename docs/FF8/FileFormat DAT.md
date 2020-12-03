@@ -1,6 +1,5 @@
 ---
 title: FileFormat DAT
-permalink: FileFormat DAT.html
 ---
 
 [Home](../Main%20Page.md) > [FF8](../FF8.md) > FileFormat DAT

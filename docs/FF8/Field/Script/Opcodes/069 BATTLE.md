@@ -1,6 +1,5 @@
 ---
 title: 069 BATTLE
-permalink: 069 BATTLE.html
 ---
 
 [Home](../../../../Main%20Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 069 BATTLE

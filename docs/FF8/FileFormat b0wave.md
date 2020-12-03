@@ -1,6 +1,5 @@
 ---
 title: FileFormat b0wave
-permalink: FileFormat b0wave.html
 ---
 
 [Home](../Main%20Page.md) > [FF8](../FF8.md) > FileFormat b0wave

@@ -1,6 +1,5 @@
 ---
 title: 00C AND
-permalink: 00C AND.html
 ---
 
 [Home](../../../../../Main%20Page.md) > [FF8](../../../../../FF8.md) > [Field](../../../../Field.md) > [Script](../../../Script.md) > [Opcodes](../../Opcodes.md) > [001 CAL](../001%20CAL.md) > 00C AND

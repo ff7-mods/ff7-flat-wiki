@@ -1,6 +1,5 @@
 ---
 title: FileFormat RAT MRT
-permalink: FileFormat RAT MRT.html
 ---
 
 [Home](../Main%20Page.md) > [FF8](../FF8.md) > FileFormat RAT MRT

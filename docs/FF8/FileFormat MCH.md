@@ -1,6 +1,5 @@
 ---
 title: FileFormat MCH
-permalink: FileFormat MCH.html
 ---
 
 [Home](../Main%20Page.md) > [FF8](../FF8.md) > FileFormat MCH

@@ -1,6 +1,5 @@
 ---
 title: 01F IDLOCK
-permalink: 01F IDLOCK.html
 ---
 
 [Home](../../../../Main%20Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 01F IDLOCK

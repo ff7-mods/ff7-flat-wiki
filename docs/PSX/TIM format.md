@@ -1,6 +1,5 @@
 ---
 title: TIM format
-permalink: TIM format.html
 ---
 
 [Home](../Main%20Page.md) > [PSX](../PSX.md) > TIM format

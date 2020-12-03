@@ -1,6 +1,5 @@
 ---
 title: INSTRx.DAT
-permalink: INSTRx.DAT.html
 ---
 
 [Home](../Main%20Page.md) > [FF7](../FF7.md) > INSTRx.DAT

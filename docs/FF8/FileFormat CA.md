@@ -1,6 +1,5 @@
 ---
 title: FileFormat CA
-permalink: FileFormat CA.html
 ---
 
 [Home](../Main%20Page.md) > [FF8](../FF8.md) > FileFormat CA

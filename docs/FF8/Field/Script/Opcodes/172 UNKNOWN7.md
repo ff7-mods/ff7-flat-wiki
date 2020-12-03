@@ -1,6 +1,5 @@
 ---
 title: 172 UNKNOWN7
-permalink: 172 UNKNOWN7.html
 ---
 
 [Home](../../../../Main%20Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 172 UNKNOWN7

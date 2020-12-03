@@ -1,6 +1,5 @@
 ---
 title: Main wm2
-permalink: Main wm2.html
 ---
 
 [Home](../Main%20Page.md) > [FF8](../FF8.md) > Main wm2

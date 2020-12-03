@@ -1,6 +1,5 @@
 ---
 title: Script
-permalink: Script.html
 ---
 
 [Home](../../Main%20Page.md) > [FF8](../../FF8.md) > [Field](../Field.md) > Script

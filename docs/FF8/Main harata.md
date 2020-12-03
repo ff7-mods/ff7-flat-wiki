@@ -1,6 +1,5 @@
 ---
 title: Main harata
-permalink: Main harata.html
 ---
 
 [Home](../Main%20Page.md) > [FF8](../FF8.md) > Main harata

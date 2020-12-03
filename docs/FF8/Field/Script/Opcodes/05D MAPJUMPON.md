@@ -1,6 +1,5 @@
 ---
 title: 05D MAPJUMPON
-permalink: 05D MAPJUMPON.html
 ---
 
 [Home](../../../../Main%20Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 05D MAPJUMPON

@@ -1,6 +1,5 @@
 ---
 title: BattleFiles
-permalink: BattleFiles.html
 ---
 
 [Home](../../Main%20Page.md) > [FF8](../../FF8.md) > [Engine const](../Engine%20const.md) > BattleFiles

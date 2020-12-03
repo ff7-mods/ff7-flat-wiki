@@ -1,6 +1,5 @@
 ---
 title: 027 LADDERUP2
-permalink: 027 LADDERUP2.html
 ---
 
 [Home](../../../../Main%20Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 027 LADDERUP2

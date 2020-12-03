@@ -1,6 +1,5 @@
 ---
 title: 02 REQSW
-permalink: 02 REQSW.html
 ---
 
 [Home](../../../../Main%20Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Field script](../../Field%20script.md) > [Opcodes](../Opcodes.md) > 02 REQSW

@@ -1,6 +1,5 @@
 ---
 title: 99 RANDOM
-permalink: 99 RANDOM.html
 ---
 
 [Home](../../../../Main%20Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 99 RANDOM

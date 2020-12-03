@@ -1,6 +1,5 @@
 ---
 title: 032 RANIMEKEEP
-permalink: 032 RANIMEKEEP.html
 ---
 
 [Home](../../../../Main%20Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 032 RANIMEKEEP

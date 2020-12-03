@@ -1,6 +1,5 @@
 ---
 title: FileFormat TDW
-permalink: FileFormat TDW.html
 ---
 
 [Home](../Main%20Page.md) > [FF8](../FF8.md) > FileFormat TDW

@@ -1,6 +1,5 @@
 ---
 title: 74 GETPC
-permalink: 74 GETPC.html
 ---
 
 [Home](../../../../Main%20Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 74 GETPC

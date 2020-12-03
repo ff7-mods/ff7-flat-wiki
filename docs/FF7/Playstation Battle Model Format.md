@@ -1,6 +1,5 @@
 ---
 title: Playstation Battle Model Format
-permalink: Playstation Battle Model Format.html
 ---
 
 [Home](../Main%20Page.md) > [FF7](../FF7.md) > Playstation Battle Model Format

@@ -1,6 +1,5 @@
 ---
 title: Attack data
-permalink: Attack data.html
 ---
 
 [Home](../../Main%20Page.md) > [FF7](../../FF7.md) > [Kernel.bin](../Kernel.bin.md) > Attack data
