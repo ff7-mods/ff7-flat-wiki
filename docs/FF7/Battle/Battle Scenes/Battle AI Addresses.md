@@ -193,5 +193,5 @@ its own and is only used in a few boss battles.
 This is stupid as it requires more work to get to them. Don't do it this
 way!  
 
-  [Special Attack Flags]: ../Special%20Attack%20Flags.md "wikilink"
-  [Statuses]: ../Status%20Effects.md "wikilink"
+  [Special Attack Flags]: ../../Special%20Attack%20Flags.md "wikilink"
+  [Statuses]: ../../Status%20Effects.md "wikilink"

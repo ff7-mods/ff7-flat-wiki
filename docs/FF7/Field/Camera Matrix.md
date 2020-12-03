@@ -111,4 +111,4 @@ After this is just blank U32 number, seems always zero and last, but not
 least the zoom (36-37) (don't know whether Signed or Unsigned). The
 bigger resize number, the bigger the model and walkmesh.
 
-  [Kero]: ../../User:Kero.md "wikilink"
+  [Kero]: ../../../User:Kero.md "wikilink"

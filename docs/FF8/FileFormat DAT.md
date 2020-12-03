@@ -423,4 +423,4 @@ Contains some [TIMs][] with size 128x128 (8bit paletized).
 | 4 + nbTIMs \* 4 | 4 bytes           | End of file    |
 | 8 + nbTIMs \* 4 | Varies \* nbTIMs  | TIMs           |
 
-  [TIMs]: ../PSX/TIM%20format.md "wikilink"
+  [TIMs]: ../../PSX/TIM%20format.md "wikilink"

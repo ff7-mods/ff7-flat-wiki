@@ -21,4 +21,4 @@ none
 Stops the currently playing background music and starts playing music
 loaded by [MUSICLOAD][].
 
-  [MUSICLOAD]: 0B5%20MUSICLOAD.md "wikilink"
+  [MUSICLOAD]: ../0B5%20MUSICLOAD.md "wikilink"

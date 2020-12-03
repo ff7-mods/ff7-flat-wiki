@@ -34,4 +34,4 @@ the statement will only execute once. The button state is reset when the
 user lets go of the button, and at this point, IFKEYON may evaluate to
 true once more when the button is repressed.
 
-  [IFKEY]: 30%20IFKEY.md "wikilink"
+  [IFKEY]: ../30%20IFKEY.md "wikilink"

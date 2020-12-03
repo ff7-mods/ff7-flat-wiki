@@ -21,4 +21,4 @@ None.
 
 An alias for [HMPMAX3][].
 
-  [HMPMAX3]: 3F%20HMPMAX3.md "wikilink"
+  [HMPMAX3]: ../3F%20HMPMAX3.md "wikilink"

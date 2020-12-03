@@ -53,5 +53,5 @@ This section contains the accessory data. Each record is 16 bytes long.
 |             04h             | Can be used in Menu Out of Battle |                                                |
 | Other values have no effect |                                   |                                                |
 
-  [Elements Affected]: Battle/Elemental%20Data.md "wikilink"
-  [Status Protect]: Battle/Status%20Effects.md "wikilink"
+  [Elements Affected]: ../Battle/Elemental%20Data.md "wikilink"
+  [Status Protect]: ../Battle/Status%20Effects.md "wikilink"

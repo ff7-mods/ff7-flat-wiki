@@ -25,4 +25,4 @@ Enables certain keys to be pressed after they are otherwise disabled
 (for example with [UCOFF][]). See some other page for the key values
 (will edit later)
 
-  [UCOFF]: ../../../Script/Opcodes/04E%20UCOFF.md "wikilink"
+  [UCOFF]: ../../../../Script/Opcodes/04E%20UCOFF.md "wikilink"

@@ -119,192 +119,192 @@ title: Opcodes
 [`354`` ``unknown`][]  
 [`355`` ``set`` ``battle`` ``countdown`` ``timer`][]
 
-  [`015`` ``push`` ``neg`]: ../../WorldMap%20Module/Script/Opcodes/015.md
+  [`015`` ``push`` ``neg`]: ../../../WorldMap%20Module/Script/Opcodes/015.md
     "wikilink"
-  [`017`` ``push`` ``logicnot`]: ../../WorldMap%20Module/Script/Opcodes/017.md
+  [`017`` ``push`` ``logicnot`]: ../../../WorldMap%20Module/Script/Opcodes/017.md
     "wikilink"
   [`018`` ``push`` ``distance`` ``from`` ``active`` ``entity`` ``to`` ``point`]:
     FF7/WorldMap_Module/Script/Opcodes/018 "wikilink"
   [`019`` ``push`` ``distance`` ``from`` ``active`` ``entity`` ``to`` ``entity`` ``by`` ``model`` ``id`]:
     FF7/WorldMap_Module/Script/Opcodes/019 "wikilink"
-  [`01b`` ``push`` ``unknown`]: ../../WorldMap%20Module/Script/Opcodes/01b.md
+  [`01b`` ``push`` ``unknown`]: ../../../WorldMap%20Module/Script/Opcodes/01b.md
     "wikilink"
-  [`030`` ``push`` ``mul`]: ../../WorldMap%20Module/Script/Opcodes/030.md
+  [`030`` ``push`` ``mul`]: ../../../WorldMap%20Module/Script/Opcodes/030.md
     "wikilink"
-  [`040`` ``push`` ``add`]: ../../WorldMap%20Module/Script/Opcodes/040.md
+  [`040`` ``push`` ``add`]: ../../../WorldMap%20Module/Script/Opcodes/040.md
     "wikilink"
-  [`041`` ``push`` ``sub`]: ../../WorldMap%20Module/Script/Opcodes/041.md
+  [`041`` ``push`` ``sub`]: ../../../WorldMap%20Module/Script/Opcodes/041.md
     "wikilink"
-  [`050`` ``push`` ``shl`]: ../../WorldMap%20Module/Script/Opcodes/050.md
+  [`050`` ``push`` ``shl`]: ../../../WorldMap%20Module/Script/Opcodes/050.md
     "wikilink"
-  [`051`` ``push`` ``shr`]: ../../WorldMap%20Module/Script/Opcodes/051.md
+  [`051`` ``push`` ``shr`]: ../../../WorldMap%20Module/Script/Opcodes/051.md
     "wikilink"
-  [`060`` ``push`` ``less`]: ../../WorldMap%20Module/Script/Opcodes/060.md
+  [`060`` ``push`` ``less`]: ../../../WorldMap%20Module/Script/Opcodes/060.md
     "wikilink"
-  [`061`` ``push`` ``greater`]: ../../WorldMap%20Module/Script/Opcodes/061.md
+  [`061`` ``push`` ``greater`]: ../../../WorldMap%20Module/Script/Opcodes/061.md
     "wikilink"
-  [`062`` ``push`` ``lessequal`]: ../../WorldMap%20Module/Script/Opcodes/062.md
+  [`062`` ``push`` ``lessequal`]: ../../../WorldMap%20Module/Script/Opcodes/062.md
     "wikilink"
-  [`063`` ``push`` ``greaterequal`]: ../../WorldMap%20Module/Script/Opcodes/063.md
+  [`063`` ``push`` ``greaterequal`]: ../../../WorldMap%20Module/Script/Opcodes/063.md
     "wikilink"
-  [`070`` ``push`` ``equal`]: ../../WorldMap%20Module/Script/Opcodes/070.md
+  [`070`` ``push`` ``equal`]: ../../../WorldMap%20Module/Script/Opcodes/070.md
     "wikilink"
-  [`080`` ``push`` ``and`]: ../../WorldMap%20Module/Script/Opcodes/080.md
+  [`080`` ``push`` ``and`]: ../../../WorldMap%20Module/Script/Opcodes/080.md
     "wikilink"
-  [`0a0`` ``push`` ``or`]: ../../WorldMap%20Module/Script/Opcodes/0a0.md
+  [`0a0`` ``push`` ``or`]: ../../../WorldMap%20Module/Script/Opcodes/0a0.md
     "wikilink"
-  [`0b0`` ``push`` ``logicand`]: ../../WorldMap%20Module/Script/Opcodes/0b0.md
+  [`0b0`` ``push`` ``logicand`]: ../../../WorldMap%20Module/Script/Opcodes/0b0.md
     "wikilink"
-  [`0c0`` ``push`` ``logicor`]: ../../WorldMap%20Module/Script/Opcodes/0c0.md
+  [`0c0`` ``push`` ``logicor`]: ../../../WorldMap%20Module/Script/Opcodes/0c0.md
     "wikilink"
-  [`0e0`` ``write`` ``bank`]: ../../WorldMap%20Module/Script/Opcodes/0e0.md
+  [`0e0`` ``write`` ``bank`]: ../../../WorldMap%20Module/Script/Opcodes/0e0.md
     "wikilink"
-  [`100`` ``reset`` ``stack`]: ../../WorldMap%20Module/Script/Opcodes/100.md
+  [`100`` ``reset`` ``stack`]: ../../../WorldMap%20Module/Script/Opcodes/100.md
     "wikilink"
-  [`110`` ``push`` ``constant`]: ../../WorldMap%20Module/Script/Opcodes/110.md
+  [`110`` ``push`` ``constant`]: ../../../WorldMap%20Module/Script/Opcodes/110.md
     "wikilink"
-  [`114`` ``push`` ``bit`` ``from`` ``bank0`]: ../../WorldMap%20Module/Script/Opcodes/114.md
+  [`114`` ``push`` ``bit`` ``from`` ``bank0`]: ../../../WorldMap%20Module/Script/Opcodes/114.md
     "wikilink"
-  [`117`` ``push`` ``special`]: ../../WorldMap%20Module/Script/Opcodes/117.md
+  [`117`` ``push`` ``special`]: ../../../WorldMap%20Module/Script/Opcodes/117.md
     "wikilink"
-  [`118`` ``push`` ``byte`` ``from`` ``bank0`]: ../../WorldMap%20Module/Script/Opcodes/118.md
+  [`118`` ``push`` ``byte`` ``from`` ``bank0`]: ../../../WorldMap%20Module/Script/Opcodes/118.md
     "wikilink"
-  [`119`` ``push`` ``byte`` ``from`` ``bank1`]: ../../WorldMap%20Module/Script/Opcodes/119.md
+  [`119`` ``push`` ``byte`` ``from`` ``bank1`]: ../../../WorldMap%20Module/Script/Opcodes/119.md
     "wikilink"
-  [`11c`` ``push`` ``word`` ``from`` ``bank0`]: ../../WorldMap%20Module/Script/Opcodes/11c.md
+  [`11c`` ``push`` ``word`` ``from`` ``bank0`]: ../../../WorldMap%20Module/Script/Opcodes/11c.md
     "wikilink"
-  [`11d`` ``push`` ``word`` ``from`` ``bank1`]: ../../WorldMap%20Module/Script/Opcodes/11d.md
+  [`11d`` ``push`` ``word`` ``from`` ``bank1`]: ../../../WorldMap%20Module/Script/Opcodes/11d.md
     "wikilink"
-  [`200`` ``jump`]: ../../WorldMap%20Module/Script/Opcodes/200.md "wikilink"
-  [`201`` ``jump`` ``if`` ``false`]: ../../WorldMap%20Module/Script/Opcodes/201.md
+  [`200`` ``jump`]: ../../../WorldMap%20Module/Script/Opcodes/200.md "wikilink"
+  [`201`` ``jump`` ``if`` ``false`]: ../../../WorldMap%20Module/Script/Opcodes/201.md
     "wikilink"
-  [`203`` ``return`]: ../../WorldMap%20Module/Script/Opcodes/203.md "wikilink"
-  [`204`` ``run`` ``function`]: ../../WorldMap%20Module/Script/Opcodes/204.md
+  [`203`` ``return`]: ../../../WorldMap%20Module/Script/Opcodes/203.md "wikilink"
+  [`204`` ``run`` ``function`]: ../../../WorldMap%20Module/Script/Opcodes/204.md
     "wikilink"
-  [`300`` ``load`` ``model`]: ../../WorldMap%20Module/Script/Opcodes/300.md
+  [`300`` ``load`` ``model`]: ../../../WorldMap%20Module/Script/Opcodes/300.md
     "wikilink"
-  [`302`` ``set`` ``player`` ``entity`]: ../../WorldMap%20Module/Script/Opcodes/302.md
+  [`302`` ``set`` ``player`` ``entity`]: ../../../WorldMap%20Module/Script/Opcodes/302.md
     "wikilink"
-  [`303`` ``set`` ``active`` ``entity`` ``movespeed`]: ../../WorldMap%20Module/Script/Opcodes/303.md
+  [`303`` ``set`` ``active`` ``entity`` ``movespeed`]: ../../../WorldMap%20Module/Script/Opcodes/303.md
     "wikilink"
-  [`304`` ``set`` ``active`` ``entity`` ``direction`` ``&`` ``facing`]: ../../WorldMap%20Module/Script/Opcodes/304.md
+  [`304`` ``set`` ``active`` ``entity`` ``direction`` ``&`` ``facing`]: ../../../WorldMap%20Module/Script/Opcodes/304.md
     "wikilink"
-  [`305`` ``set`` ``wait`` ``frames`]: ../../WorldMap%20Module/Script/Opcodes/305.md
+  [`305`` ``set`` ``wait`` ``frames`]: ../../../WorldMap%20Module/Script/Opcodes/305.md
     "wikilink"
-  [`306`` ``wait?`]: ../../WorldMap%20Module/Script/Opcodes/306.md "wikilink"
-  [`307`` ``set`` ``control`` ``lock`]: ../../WorldMap%20Module/Script/Opcodes/307.md
+  [`306`` ``wait?`]: ../../../WorldMap%20Module/Script/Opcodes/306.md "wikilink"
+  [`307`` ``set`` ``control`` ``lock`]: ../../../WorldMap%20Module/Script/Opcodes/307.md
     "wikilink"
-  [`308`` ``set`` ``active`` ``entity`` ``mesh`` ``coordinates`]: ../../WorldMap%20Module/Script/Opcodes/308.md
+  [`308`` ``set`` ``active`` ``entity`` ``mesh`` ``coordinates`]: ../../../WorldMap%20Module/Script/Opcodes/308.md
     "wikilink"
   [`309`` ``set`` ``active`` ``entity`` ``coordinates`` ``in`` ``mesh`]:
     FF7/WorldMap_Module/Script/Opcodes/309 "wikilink"
-  [`30a`` ``set`` ``active`` ``entity`` ``vertical`` ``speed`]: ../../WorldMap%20Module/Script/Opcodes/30a.md
+  [`30a`` ``set`` ``active`` ``entity`` ``vertical`` ``speed`]: ../../../WorldMap%20Module/Script/Opcodes/30a.md
     "wikilink"
-  [`30b`` ``set`` ``active`` ``entity`` ``y`` ``offset`]: ../../WorldMap%20Module/Script/Opcodes/30b.md
+  [`30b`` ``set`` ``active`` ``entity`` ``y`` ``offset`]: ../../../WorldMap%20Module/Script/Opcodes/30b.md
     "wikilink"
-  [`30c`` ``enter`` ``vehicle?`]: ../../WorldMap%20Module/Script/Opcodes/30c.md
+  [`30c`` ``enter`` ``vehicle?`]: ../../../WorldMap%20Module/Script/Opcodes/30c.md
     "wikilink"
-  [`30d`` ``stop`` ``entity`]: ../../WorldMap%20Module/Script/Opcodes/30d.md
+  [`30d`` ``stop`` ``entity`]: ../../../WorldMap%20Module/Script/Opcodes/30d.md
     "wikilink"
-  [`30e`` ``active`` ``entity`` ``play`` ``animation`]: ../../WorldMap%20Module/Script/Opcodes/30e.md
+  [`30e`` ``active`` ``entity`` ``play`` ``animation`]: ../../../WorldMap%20Module/Script/Opcodes/30e.md
     "wikilink"
-  [`310`` ``set`` ``active`` ``point`]: ../../WorldMap%20Module/Script/Opcodes/310.md
+  [`310`` ``set`` ``active`` ``point`]: ../../../WorldMap%20Module/Script/Opcodes/310.md
     "wikilink"
-  [`311`` ``set`` ``point`` ``mesh`` ``coordinates`]: ../../WorldMap%20Module/Script/Opcodes/311.md
+  [`311`` ``set`` ``point`` ``mesh`` ``coordinates`]: ../../../WorldMap%20Module/Script/Opcodes/311.md
     "wikilink"
-  [`312`` ``set`` ``point`` ``coordinates`` ``in`` ``mesh`]: ../../WorldMap%20Module/Script/Opcodes/312.md
+  [`312`` ``set`` ``point`` ``coordinates`` ``in`` ``mesh`]: ../../../WorldMap%20Module/Script/Opcodes/312.md
     "wikilink"
-  [`313`` ``set`` ``point`` ``terrain`` ``BGR`]: ../../WorldMap%20Module/Script/Opcodes/313.md
+  [`313`` ``set`` ``point`` ``terrain`` ``BGR`]: ../../../WorldMap%20Module/Script/Opcodes/313.md
     "wikilink"
-  [`314`` ``set`` ``point`` ``dropoff`` ``parameters`]: ../../WorldMap%20Module/Script/Opcodes/314.md
+  [`314`` ``set`` ``point`` ``dropoff`` ``parameters`]: ../../../WorldMap%20Module/Script/Opcodes/314.md
     "wikilink"
-  [`315`` ``set`` ``point`` ``sky`` ``top`` ``BGR`]: ../../WorldMap%20Module/Script/Opcodes/315.md
+  [`315`` ``set`` ``point`` ``sky`` ``top`` ``BGR`]: ../../../WorldMap%20Module/Script/Opcodes/315.md
     "wikilink"
-  [`316`` ``set`` ``point`` ``sky`` ``bottom`` ``BGR`]: ../../WorldMap%20Module/Script/Opcodes/316.md
+  [`316`` ``set`` ``point`` ``sky`` ``bottom`` ``BGR`]: ../../../WorldMap%20Module/Script/Opcodes/316.md
     "wikilink"
-  [`317`` ``trigger`` ``battle`]: ../../WorldMap%20Module/Script/Opcodes/317.md
+  [`317`` ``trigger`` ``battle`]: ../../../WorldMap%20Module/Script/Opcodes/317.md
     "wikilink"
-  [`318`` ``enter`` ``field`` ``scene`]: ../../WorldMap%20Module/Script/Opcodes/318.md
+  [`318`` ``enter`` ``field`` ``scene`]: ../../../WorldMap%20Module/Script/Opcodes/318.md
     "wikilink"
-  [`319`` ``set`` ``map`` ``options`]: ../../WorldMap%20Module/Script/Opcodes/319.md
+  [`319`` ``set`` ``map`` ``options`]: ../../../WorldMap%20Module/Script/Opcodes/319.md
     "wikilink"
-  [`31b`` ``noop`]: ../../WorldMap%20Module/Script/Opcodes/31b.md "wikilink"
-  [`31c`` ``unknown`]: ../../WorldMap%20Module/Script/Opcodes/31c.md "wikilink"
-  [`31d`` ``play`` ``sound`` ``effect`]: ../../WorldMap%20Module/Script/Opcodes/31d.md
+  [`31b`` ``noop`]: ../../../WorldMap%20Module/Script/Opcodes/31b.md "wikilink"
+  [`31c`` ``unknown`]: ../../../WorldMap%20Module/Script/Opcodes/31c.md "wikilink"
+  [`31d`` ``play`` ``sound`` ``effect`]: ../../../WorldMap%20Module/Script/Opcodes/31d.md
     "wikilink"
-  [`31f`` ``set`` ``camera`` ``rotation`` ``speed`]: ../../WorldMap%20Module/Script/Opcodes/31f.md
+  [`31f`` ``set`` ``camera`` ``rotation`` ``speed`]: ../../../WorldMap%20Module/Script/Opcodes/31f.md
     "wikilink"
-  [`320`` ``unknown`]: ../../WorldMap%20Module/Script/Opcodes/320.md "wikilink"
-  [`321`` ``unknown`]: ../../WorldMap%20Module/Script/Opcodes/321.md "wikilink"
-  [`324`` ``set`` ``window`` ``dimensions`]: ../../WorldMap%20Module/Script/Opcodes/324.md
+  [`320`` ``unknown`]: ../../../WorldMap%20Module/Script/Opcodes/320.md "wikilink"
+  [`321`` ``unknown`]: ../../../WorldMap%20Module/Script/Opcodes/321.md "wikilink"
+  [`324`` ``set`` ``window`` ``dimensions`]: ../../../WorldMap%20Module/Script/Opcodes/324.md
     "wikilink"
-  [`325`` ``set`` ``window`` ``message`]: ../../WorldMap%20Module/Script/Opcodes/325.md
+  [`325`` ``set`` ``window`` ``message`]: ../../../WorldMap%20Module/Script/Opcodes/325.md
     "wikilink"
-  [`326`` ``set`` ``window`` ``prompt`]: ../../WorldMap%20Module/Script/Opcodes/326.md
+  [`326`` ``set`` ``window`` ``prompt`]: ../../../WorldMap%20Module/Script/Opcodes/326.md
     "wikilink"
-  [`327`` ``wait`` ``for`` ``prompt`` ``acknowledge?`]: ../../WorldMap%20Module/Script/Opcodes/327.md
+  [`327`` ``wait`` ``for`` ``prompt`` ``acknowledge?`]: ../../../WorldMap%20Module/Script/Opcodes/327.md
     "wikilink"
-  [`328`` ``set`` ``active`` ``entity`` ``direction`]: ../../WorldMap%20Module/Script/Opcodes/328.md
+  [`328`` ``set`` ``active`` ``entity`` ``direction`]: ../../../WorldMap%20Module/Script/Opcodes/328.md
     "wikilink"
-  [`329`` ``unknown`]: ../../WorldMap%20Module/Script/Opcodes/329.md "wikilink"
-  [`32a`` ``unknown`]: ../../WorldMap%20Module/Script/Opcodes/32a.md "wikilink"
-  [`32b`` ``set`` ``battle`` ``lock`]: ../../WorldMap%20Module/Script/Opcodes/32b.md
+  [`329`` ``unknown`]: ../../../WorldMap%20Module/Script/Opcodes/329.md "wikilink"
+  [`32a`` ``unknown`]: ../../../WorldMap%20Module/Script/Opcodes/32a.md "wikilink"
+  [`32b`` ``set`` ``battle`` ``lock`]: ../../../WorldMap%20Module/Script/Opcodes/32b.md
     "wikilink"
-  [`32c`` ``set`` ``window`` ``parameters`]: ../../WorldMap%20Module/Script/Opcodes/32c.md
+  [`32c`` ``set`` ``window`` ``parameters`]: ../../../WorldMap%20Module/Script/Opcodes/32c.md
     "wikilink"
-  [`32d`` ``wait`` ``for`` ``window`` ``ready`]: ../../WorldMap%20Module/Script/Opcodes/32d.md
+  [`32d`` ``wait`` ``for`` ``window`` ``ready`]: ../../../WorldMap%20Module/Script/Opcodes/32d.md
     "wikilink"
-  [`32e`` ``wait`` ``for`` ``message`` ``acknowledge`]: ../../WorldMap%20Module/Script/Opcodes/32e.md
+  [`32e`` ``wait`` ``for`` ``message`` ``acknowledge`]: ../../../WorldMap%20Module/Script/Opcodes/32e.md
     "wikilink"
-  [`32f`` ``set`` ``player`` ``direction`]: ../../WorldMap%20Module/Script/Opcodes/32f.md
+  [`32f`` ``set`` ``player`` ``direction`]: ../../../WorldMap%20Module/Script/Opcodes/32f.md
     "wikilink"
-  [`330`` ``set`` ``active`` ``entity`]: ../../WorldMap%20Module/Script/Opcodes/330.md
+  [`330`` ``set`` ``active`` ``entity`]: ../../../WorldMap%20Module/Script/Opcodes/330.md
     "wikilink"
-  [`331`` ``exit`` ``vehicle`]: ../../WorldMap%20Module/Script/Opcodes/331.md
+  [`331`` ``exit`` ``vehicle`]: ../../../WorldMap%20Module/Script/Opcodes/331.md
     "wikilink"
-  [`332`` ``unknown`]: ../../WorldMap%20Module/Script/Opcodes/332.md "wikilink"
-  [`333`` ``rotate`` ``current`` ``entity`` ``to`` ``model`]: ../../WorldMap%20Module/Script/Opcodes/333.md
+  [`332`` ``unknown`]: ../../../WorldMap%20Module/Script/Opcodes/332.md "wikilink"
+  [`333`` ``rotate`` ``current`` ``entity`` ``to`` ``model`]: ../../../WorldMap%20Module/Script/Opcodes/333.md
     "wikilink"
-  [`334`` ``wait`` ``for`` ``function`]: ../../WorldMap%20Module/Script/Opcodes/334.md
+  [`334`` ``wait`` ``for`` ``function`]: ../../../WorldMap%20Module/Script/Opcodes/334.md
     "wikilink"
   [`336`` ``set`` ``active`` ``entity`` ``movespeed`` ``(honor`` ``walkmesh)`]:
     FF7/WorldMap_Module/Script/Opcodes/336 "wikilink"
-  [`339`` ``hide`` ``active`` ``entity`` ``model`]: ../../WorldMap%20Module/Script/Opcodes/339.md
+  [`339`` ``hide`` ``active`` ``entity`` ``model`]: ../../../WorldMap%20Module/Script/Opcodes/339.md
     "wikilink"
-  [`33a`` ``set`` ``active`` ``entity`` ``vertical`` ``speed`` ``2`]: ../../WorldMap%20Module/Script/Opcodes/33a.md
+  [`33a`` ``set`` ``active`` ``entity`` ``vertical`` ``speed`` ``2`]: ../../../WorldMap%20Module/Script/Opcodes/33a.md
     "wikilink"
-  [`33b`` ``fade`` ``out?`]: ../../WorldMap%20Module/Script/Opcodes/33b.md
+  [`33b`` ``fade`` ``out?`]: ../../../WorldMap%20Module/Script/Opcodes/33b.md
     "wikilink"
-  [`33c`` ``set`` ``field`` ``entry`` ``point?`]: ../../WorldMap%20Module/Script/Opcodes/33c.md
+  [`33c`` ``set`` ``field`` ``entry`` ``point?`]: ../../../WorldMap%20Module/Script/Opcodes/33c.md
     "wikilink"
-  [`33d`` ``set`` ``field`` ``entry`` ``point2?`]: ../../WorldMap%20Module/Script/Opcodes/33d.md
+  [`33d`` ``set`` ``field`` ``entry`` ``point2?`]: ../../../WorldMap%20Module/Script/Opcodes/33d.md
     "wikilink"
-  [`33e`` ``play`` ``music`]: ../../WorldMap%20Module/Script/Opcodes/33e.md
+  [`33e`` ``play`` ``music`]: ../../../WorldMap%20Module/Script/Opcodes/33e.md
     "wikilink"
   [`347`` ``move`` ``active`` ``entity`` ``to`` ``entity`` ``by`` ``model`` ``id?`]:
     FF7/WorldMap_Module/Script/Opcodes/347 "wikilink"
-  [`348`` ``fade`` ``in?`]: ../../WorldMap%20Module/Script/Opcodes/348.md
+  [`348`` ``fade`` ``in?`]: ../../../WorldMap%20Module/Script/Opcodes/348.md
     "wikilink"
-  [`349`` ``set`` ``world`` ``progress`]: ../../WorldMap%20Module/Script/Opcodes/349.md
+  [`349`` ``set`` ``world`` ``progress`]: ../../../WorldMap%20Module/Script/Opcodes/349.md
     "wikilink"
-  [`34a`` ``unknown`]: ../../WorldMap%20Module/Script/Opcodes/34a.md "wikilink"
-  [`34b`` ``set`` ``chocobo`` ``type`]: ../../WorldMap%20Module/Script/Opcodes/34b.md
+  [`34a`` ``unknown`]: ../../../WorldMap%20Module/Script/Opcodes/34a.md "wikilink"
+  [`34b`` ``set`` ``chocobo`` ``type`]: ../../../WorldMap%20Module/Script/Opcodes/34b.md
     "wikilink"
-  [`34c`` ``set`` ``submarine`` ``color`]: ../../WorldMap%20Module/Script/Opcodes/34c.md
+  [`34c`` ``set`` ``submarine`` ``color`]: ../../../WorldMap%20Module/Script/Opcodes/34c.md
     "wikilink"
-  [`34d`` ``show`` ``animation`` ``layer`]: ../../WorldMap%20Module/Script/Opcodes/34d.md
+  [`34d`` ``show`` ``animation`` ``layer`]: ../../../WorldMap%20Module/Script/Opcodes/34d.md
     "wikilink"
-  [`34e`` ``hide`` ``animation`` ``layer`]: ../../WorldMap%20Module/Script/Opcodes/34e.md
+  [`34e`` ``hide`` ``animation`` ``layer`]: ../../../WorldMap%20Module/Script/Opcodes/34e.md
     "wikilink"
-  [`34f`` ``set`` ``active`` ``entity`` ``y`` ``position`]: ../../WorldMap%20Module/Script/Opcodes/34f.md
+  [`34f`` ``set`` ``active`` ``entity`` ``y`` ``position`]: ../../../WorldMap%20Module/Script/Opcodes/34f.md
     "wikilink"
-  [`350`` ``set`` ``meteor`` ``texture`` ``on/off`]: ../../WorldMap%20Module/Script/Opcodes/350.md
+  [`350`` ``set`` ``meteor`` ``texture`` ``on/off`]: ../../../WorldMap%20Module/Script/Opcodes/350.md
     "wikilink"
-  [`351`` ``set`` ``music`` ``volume`]: ../../WorldMap%20Module/Script/Opcodes/351.md
+  [`351`` ``set`` ``music`` ``volume`]: ../../../WorldMap%20Module/Script/Opcodes/351.md
     "wikilink"
-  [`352`` ``shake`` ``camera`` ``on/off`]: ../../WorldMap%20Module/Script/Opcodes/352.md
+  [`352`` ``shake`` ``camera`` ``on/off`]: ../../../WorldMap%20Module/Script/Opcodes/352.md
     "wikilink"
-  [`353`` ``unknown`]: ../../WorldMap%20Module/Script/Opcodes/353.md "wikilink"
-  [`354`` ``unknown`]: ../../WorldMap%20Module/Script/Opcodes/354.md "wikilink"
-  [`355`` ``set`` ``battle`` ``countdown`` ``timer`]: ../../WorldMap%20Module/Script/Opcodes/355.md
+  [`353`` ``unknown`]: ../../../WorldMap%20Module/Script/Opcodes/353.md "wikilink"
+  [`354`` ``unknown`]: ../../../WorldMap%20Module/Script/Opcodes/354.md "wikilink"
+  [`355`` ``set`` ``battle`` ``countdown`` ``timer`]: ../../../WorldMap%20Module/Script/Opcodes/355.md
     "wikilink"

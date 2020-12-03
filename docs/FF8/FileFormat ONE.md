@@ -40,5 +40,5 @@ This is the same data structure as a [MCH model][] (without header). In
 the PlayStation version, each model textures + data is [LZS][]
 compressed.
 
-  [MCH model]: FileFormat%20MCH.md "wikilink"
-  [LZS]: ../FF7/LZS%20format.md "wikilink"
+  [MCH model]: ../FileFormat%20MCH.md "wikilink"
+  [LZS]: ../../FF7/LZS%20format.md "wikilink"

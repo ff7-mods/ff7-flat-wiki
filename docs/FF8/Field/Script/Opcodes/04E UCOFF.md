@@ -21,4 +21,4 @@ none
 Disable user control. Player will only be able to press "ok" (and
 pause?) to advance through dialogue. Ends when [UCON][] is called.
 
-  [UCON]: 04D%20UCON.md "wikilink"
+  [UCON]: ../04D%20UCON.md "wikilink"

@@ -35,4 +35,4 @@ Similar to [XYZI][], but does not specify a triangle ID. This lack of
 triangle ID may cause problems if the field object is set to move from
 its set position.
 
-  [XYZI]: A5%20XYZI.md "wikilink"
+  [XYZI]: ../A5%20XYZI.md "wikilink"

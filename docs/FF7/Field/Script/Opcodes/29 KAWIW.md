@@ -22,5 +22,5 @@ None.
 Halts script execution until a prior [KAWAI][] operation has completed,
 such as a [LIGHT][] movement.
 
-  [KAWAI]: 28%20KAWAI.md "wikilink"
-  [LIGHT]: 28%20KAWAI/06%20LIGHT.md "wikilink"
+  [KAWAI]: ../28%20KAWAI.md "wikilink"
+  [LIGHT]: ../28%20KAWAI/06%20LIGHT.md "wikilink"

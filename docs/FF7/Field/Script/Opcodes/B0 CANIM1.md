@@ -30,4 +30,4 @@ Makou Reactor Description: Play partially the animation \#%1 of the
 field model and reset to initial state (first frame=%2, last frame=%3,
 speed=%4)
 
-  [ANIME2]: AE%20ANIME2.md "wikilink"
+  [ANIME2]: ../AE%20ANIME2.md "wikilink"

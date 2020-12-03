@@ -123,7 +123,7 @@ pixel <small>-- Zande</small>
 `Pixel Data: immedietly following Pallete [start offset = 0x410]`  
 `   width * height bytes (index to pallete entry)`
 
-  [1]: Image%20Formats.md#IMG%20Format "wikilink"
-  [2]: Image%20Formats.md#TEX%20Format "wikilink"
-  [3]: Image%20Formats.md#GT%20Format "wikilink"
-  [TEX]: ../FF7/TEX%20format.md "wikilink"
+  [1]: ../Image%20Formats.md#IMG%20Format "wikilink"
+  [2]: ../Image%20Formats.md#TEX%20Format "wikilink"
+  [3]: ../Image%20Formats.md#GT%20Format "wikilink"
+  [TEX]: ../../FF7/TEX%20format.md "wikilink"

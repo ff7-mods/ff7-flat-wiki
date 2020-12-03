@@ -265,7 +265,7 @@ And finally, these headers are followed by texture data.
 
 ## EXAMPLE, USING MD1STIN.BSX
 
-\[Lazy Bastard\]: ../../Using Akari's notes from Q-Gears, the source from.md
+\[Lazy Bastard\]: ../../../Using Akari's notes from Q-Gears, the source from.md
 Micky's BSX/BCX viewer, information from the wiki, snippets of things
 from across the forums, and my own logical deduction, I've broken down
 MD1STIN.BSX (BSX file from the first field encountered in the game) as

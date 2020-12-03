@@ -257,7 +257,7 @@ of 16 bytes, instead of 32 bytes.
 <tr class="even">
 <td style="text-align: center;"><p>0x0002</p></td>
 <td style="text-align: center;"><p>2 bytes</p></td>
-<td style="text-align: center;"><p>Upon defeat of all opponents in current formation, begin battle with <a href="Battle%20scenes.md#Formation%20ID" title="wikilink">Formation ID</a> without ending battle scene</p></td>
+<td style="text-align: center;"><p>Upon defeat of all opponents in current formation, begin battle with <a href="../Battle%20scenes.md#Formation%20ID" title="wikilink">Formation ID</a> without ending battle scene</p></td>
 </tr>
 <tr class="odd">
 <td style="text-align: center;"><p>0x0004</p></td>
@@ -272,7 +272,7 @@ of 16 bytes, instead of 32 bytes.
 <tr class="odd">
 <td style="text-align: center;"><p>0x0008</p></td>
 <td style="text-align: center;"><p>4 * 2 bytes</p></td>
-<td style="text-align: center;"><p><a href="Battle%20scenes.md#Formation%20ID" title="wikilink">Formation ID</a> of candidates for next Battle Arena battle. (default of 03E7h)</p></td>
+<td style="text-align: center;"><p><a href="../Battle%20scenes.md#Formation%20ID" title="wikilink">Formation ID</a> of candidates for next Battle Arena battle. (default of 03E7h)</p></td>
 </tr>
 <tr class="even">
 <td style="text-align: center;"><p>0x0010</p></td>
@@ -456,7 +456,7 @@ Each enemy entry contains the following data:
 0Eh - Scream<br />
 0Fh - HIDDEN<br />
 10h-1Fh - No Effect<br />
-20h-3Fh - <a href="Status%20Effects.md" title="wikilink">Statuses</a> (Damage done by actions that inflict these statuses will be modified)<br />
+20h-3Fh - <a href="../Status%20Effects.md" title="wikilink">Statuses</a> (Damage done by actions that inflict these statuses will be modified)<br />
 FFh - No element</p></td>
 </tr>
 <tr class="odd">
@@ -484,7 +484,7 @@ FFh - Nothing</p></td>
 <tr class="even">
 <td style="text-align: center;"><p>0x0068</p></td>
 <td style="text-align: center;"><p>32 bytes</p></td>
-<td style="text-align: center;"><p>Enemy Attacks <a href="Camera%20Movement%20Id%20List.md" title="wikilink">Camera Movement Id</a> for single and multiple targets (2 bytes each). If set this will overwrite camera movement set in attack itself.</p></td>
+<td style="text-align: center;"><p>Enemy Attacks <a href="../Camera%20Movement%20Id%20List.md" title="wikilink">Camera Movement Id</a> for single and multiple targets (2 bytes each). If set this will overwrite camera movement set in attack itself.</p></td>
 </tr>
 <tr class="odd">
 <td style="text-align: center;"><p>0x0088</p></td>
@@ -725,17 +725,17 @@ There are few programs written that will help you edit scene.bin file:
 -   [Proud Clod][]
 
   [Scene Reader]: http://spinningcone.com/ff/stormmedia/projects/SceneReader.zip
-  [kernel.bin]: ../Kernel/Kernel.bin.md "wikilink"
+  [kernel.bin]: ../../Kernel/Kernel.bin.md "wikilink"
   [SceneFix]: http://forums.qhimm.com/index.php?topic=7127.0
   [format explanation]: #user-content-battle-setup-1-format "wikilink"
   [1]: #user-content-camera-placement-data-format "wikilink"
   [2]: #user-content-battle-formation-data "wikilink"
   [3]: #user-content-enemy-data-format "wikilink"
-  [4]: ../Attack%20data.md "wikilink"
-  [in FF Text format]: ../FF%20Text.md "wikilink"
+  [4]: ../../Attack%20data.md "wikilink"
+  [in FF Text format]: ../../FF%20Text.md "wikilink"
   [5]: #user-content-ai-data "wikilink"
   [Binary "Cover flags"]: #user-content-binary "Cover_Flags" "wikilink"
-  [here]: Battle%20Scenes/Battle%20Script.md "wikilink"
+  [here]: ../Battle%20Scenes/Battle%20Script.md "wikilink"
   [SceneEdit]: http://www.subfan.pl/mav/SceneEdit.zip
   [Scenester]: http://aaronserv.dyndns.org/hosting/qhimmwiki/ramza_scenester_0.5.zip
   [Proud Clod]: http://forums.qhimm.com/index.php?topic=8481.0

@@ -6,4 +6,4 @@ title: Game Resources
 
 1.  REDIRECT [FF7/Kernel/Game resources][]
 
-  [FF7/Kernel/Game resources]: ../Kernel/Game%20resources.md "wikilink"
+  [FF7/Kernel/Game resources]: ../../Kernel/Game%20resources.md "wikilink"

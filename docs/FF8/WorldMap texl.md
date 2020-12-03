@@ -32,4 +32,4 @@ textures appear every 0x12800 of bytes (75766 B). Part between next
 | 19     | 0x14D000 | SAME AS 0x6F000 (7)                                                                  |
 | 20     | 0x15F800 | SAME AS 0x81800 (8)                                                                  |
 
-  [.TIM]: ../PSX/TIM%20file.md "wikilink"
+  [.TIM]: ../../PSX/TIM%20file.md "wikilink"

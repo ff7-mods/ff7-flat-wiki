@@ -48,7 +48,7 @@ opcode refers solely to the final argument size, and the size of the
 literal that can be specified. If a literal of greater than 0xFF is
 needed, [MPRA2][] is used instead.
 
-  [WINDOW]: 50%20WINDOW.md "wikilink"
-  [Variable]: ../../Variable%20Dialog.md "wikilink"
-  [MESSAGE]: 40%20MESSAGE.md "wikilink"
-  [MPRA2]: 42%20MPRA2.md "wikilink"
+  [WINDOW]: ../50%20WINDOW.md "wikilink"
+  [Variable]: ../../../Variable%20Dialog.md "wikilink"
+  [MESSAGE]: ../40%20MESSAGE.md "wikilink"
+  [MPRA2]: ../42%20MPRA2.md "wikilink"

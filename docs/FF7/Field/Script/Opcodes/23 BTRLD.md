@@ -34,6 +34,6 @@ battle was.
 | 0: The party was not defeated. |                                                                                         |
 |                                |                                                                                         |
 
-  [BATTLE]: 70%20BATTLE.md "wikilink"
-  [battle mode]: 22%20BTMD2.md "wikilink"
-  [game over]: FF%20GAMEOVER.md "wikilink"
+  [BATTLE]: ../70%20BATTLE.md "wikilink"
+  [battle mode]: ../22%20BTMD2.md "wikilink"
+  [game over]: ../FF%20GAMEOVER.md "wikilink"

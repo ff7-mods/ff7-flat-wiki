@@ -56,6 +56,6 @@ they're unused.
   <sup>++</sup> This value is allowable in the PC version although
 technically a memory leak.
 
-  [Status Effects]: Battle/Status%20Effects.md "wikilink"
-  [Element Index]: Battle/Elemental%20Data.md "wikilink"
-  [Materia Type]: Materia%20Types.md "wikilink"
+  [Status Effects]: ../Battle/Status%20Effects.md "wikilink"
+  [Element Index]: ../Battle/Elemental%20Data.md "wikilink"
+  [Materia Type]: ../Materia%20Types.md "wikilink"

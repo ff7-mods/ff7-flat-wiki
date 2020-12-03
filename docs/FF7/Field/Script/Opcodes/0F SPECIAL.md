@@ -59,25 +59,25 @@ must also match the number of arguments for the operation type.
 [`FE`` ``RSGLB`][]  
 [`FF`` ``CLITM`][]
 
-  [`F5`` ``ARROW`]: 0F%20SPECIAL/F5%20ARROW.md
+  [`F5`` ``ARROW`]: ../0F%20SPECIAL/F5%20ARROW.md
     "wikilink"
-  [`F6`` ``PNAME`]: 0F%20SPECIAL/F6%20PNAME.md
+  [`F6`` ``PNAME`]: ../0F%20SPECIAL/F6%20PNAME.md
     "wikilink"
-  [`F7`` ``GMSPD`]: 0F%20SPECIAL/F7%20GMSPD.md
+  [`F7`` ``GMSPD`]: ../0F%20SPECIAL/F7%20GMSPD.md
     "wikilink"
-  [`F8`` ``SMSPD`]: 0F%20SPECIAL/F8%20SMSPD.md
+  [`F8`` ``SMSPD`]: ../0F%20SPECIAL/F8%20SMSPD.md
     "wikilink"
-  [`FB`` ``BTLCK`]: 0F%20SPECIAL/FB%20BTLCK.md
+  [`FB`` ``BTLCK`]: ../0F%20SPECIAL/FB%20BTLCK.md
     "wikilink"
-  [`FC`` ``MVLCK`]: 0F%20SPECIAL/FC%20MVLCK.md
+  [`FC`` ``MVLCK`]: ../0F%20SPECIAL/FC%20MVLCK.md
     "wikilink"
-  [`FD`` ``SPCNM`]: 0F%20SPECIAL/FD%20SPCNM.md
+  [`FD`` ``SPCNM`]: ../0F%20SPECIAL/FD%20SPCNM.md
     "wikilink"
-  [`FE`` ``RSGLB`]: 0F%20SPECIAL/FE%20RSGLB.md
+  [`FE`` ``RSGLB`]: ../0F%20SPECIAL/FE%20RSGLB.md
     "wikilink"
-  [`F9`` ``FLMAT`]: 0F%20SPECIAL/F9%20FLMAT.md
+  [`F9`` ``FLMAT`]: ../0F%20SPECIAL/F9%20FLMAT.md
     "wikilink"
-  [`FA`` ``FLITM`]: 0F%20SPECIAL/FA%20FLITM.md
+  [`FA`` ``FLITM`]: ../0F%20SPECIAL/FA%20FLITM.md
     "wikilink"
-  [`FF`` ``CLITM`]: 0F%20SPECIAL/FF%20CLITM.md
+  [`FF`` ``CLITM`]: ../0F%20SPECIAL/FF%20CLITM.md
     "wikilink"

@@ -167,7 +167,7 @@ archives:
 -   [Emerald][] - has mass extracting/repacking function
 -   [Unmass][] - general file extractor with LGP archives support
 
-  [Ficedula]: ../User:Ficedula.md "wikilink"
+  [Ficedula]: ../../User:Ficedula.md "wikilink"
   [LGP Editor]: http://sylphds.net/f2k3/index.html
   [1]: http://www.ficedula.com/
   [Qhimm's board]: http://forums.qhimm.com/

@@ -29,4 +29,4 @@ the turn is always counterclockwise.
 
 It is unknown how this differs from [UNKNOWN7][].
 
-  [UNKNOWN7]: 172%20UNKNOWN7.md "wikilink"
+  [UNKNOWN7]: ../172%20UNKNOWN7.md "wikilink"

@@ -125,7 +125,7 @@ well.
 -   [Ficedula's FF7 Text decoder][]
 -   [Reference table with FF7 Text values][]
 
-  [Dialog Window]: Field/DialogWindow.md#Special%20Letters "wikilink"
-  [KERNEL.BIN]: Kernel/Kernel.bin.md "wikilink"
+  [Dialog Window]: ../Field/DialogWindow.md#Special%20Letters "wikilink"
+  [KERNEL.BIN]: ../Kernel/Kernel.bin.md "wikilink"
   [Ficedula's FF7 Text decoder]: http://aaronserv.dyndns.org/hosting/qhimmwiki/ficedula_ff7textdecoder_1.00.zip
   [Reference table with FF7 Text values]: http://www.subfan.pl/ff7pl/fieldtool.tbl

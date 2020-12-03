@@ -20,4 +20,4 @@ none
 
 Disables this entity's "push" script. See [PUSHON][].
 
-  [PUSHON]: 059%20PUSHON.md "wikilink"
+  [PUSHON]: ../059%20PUSHON.md "wikilink"

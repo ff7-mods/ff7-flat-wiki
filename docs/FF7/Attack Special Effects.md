@@ -6,5 +6,5 @@ title: Attack Special Effects
 
 1.  REDIRECT [FF7/Battle/Attack Special Effects][]
 
-  [FF7/Battle/Attack Special Effects]: Battle/Attack%20Special%20Effects.md
+  [FF7/Battle/Attack Special Effects]: ../Battle/Attack%20Special%20Effects.md
     "wikilink"

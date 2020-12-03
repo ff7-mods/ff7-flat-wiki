@@ -25,6 +25,6 @@ installed.
 
 [Back to Technical Problems page][]
 
-  [this solution]: Movies.md "wikilink"
-  [1]: NoMovies.md "wikilink"
-  [Back to Technical Problems page]: ../Technical.md "wikilink"
+  [this solution]: ../Movies.md "wikilink"
+  [1]: ../NoMovies.md "wikilink"
+  [Back to Technical Problems page]: ../../Technical.md "wikilink"

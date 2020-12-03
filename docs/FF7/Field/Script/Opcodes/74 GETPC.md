@@ -28,4 +28,4 @@ the list, 1 for the member in the middle, and 2 for the member in the
 bottom slot, as found in the main menu. The character ID is then placed
 at the specified bank and address.
 
-  [Character ID]: ../../Character%20ID.md "wikilink"
+  [Character ID]: ../../../Character%20ID.md "wikilink"

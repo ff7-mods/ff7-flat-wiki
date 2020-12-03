@@ -11,4 +11,4 @@ contains 71,979 files.
 See the [VBF file format][] page for more information on how to access
 the data within this file.
 
-  [VBF file format]: FileFormat%20VBF.md "wikilink"
+  [VBF file format]: ../FileFormat%20VBF.md "wikilink"

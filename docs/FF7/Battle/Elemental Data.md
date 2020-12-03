@@ -41,4 +41,4 @@ elements (though not enforced as such) and show up on physical attacks.
 Non-elemental attacks, such as Bahamuts' Flares, have no elements
 selected.
 
-  [KERNEL.BIN]: ../Kernel/Kernel.bin.md "wikilink"
+  [KERNEL.BIN]: ../../Kernel/Kernel.bin.md "wikilink"

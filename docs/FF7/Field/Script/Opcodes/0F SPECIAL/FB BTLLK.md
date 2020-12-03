@@ -6,5 +6,5 @@ title: FB BTLLK
 
 1.  REDIRECT [FF7/Field/Script/Opcodes/0F SPECIAL/FB BTLCK][]
 
-  [FF7/Field/Script/Opcodes/0F SPECIAL/FB BTLCK]: ../0F%20SPECIAL/FB%20BTLCK.md
+  [FF7/Field/Script/Opcodes/0F SPECIAL/FB BTLCK]: ../../0F%20SPECIAL/FB%20BTLCK.md
     "wikilink"

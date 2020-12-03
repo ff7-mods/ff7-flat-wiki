@@ -69,4 +69,4 @@ have to replace "TIM" by "TEX""ACAC.TIM" --&gt; "ACAC.TEX"
 
 `TEX[x]=y`
 
-  [Polygon(.p)]: ../FF7/P.md "wikilink"
+  [Polygon(.p)]: ../../FF7/P.md "wikilink"

@@ -125,12 +125,12 @@ repeatedly.
 
 [0xea (Reverb Depth)][]
 
-  [0xa0 (Finish Channel)]: ../0xa0%20(Finish%20Channel).md "wikilink"
-  [0xa1 (Load Instrument)]: ../0xa1%20(Load%20Instrument).md "wikilink"
-  [0xa5 (Pitch Divider)]: ../0xa5%20(Pitch%20Divider).md "wikilink"
-  [0xa8 (Channel Volume)]: ../0xa8%20(Channel%20Volume).md "wikilink"
-  [0xaa (Channel Pan)]: ../0xaa%20(Channel%20Pan).md "wikilink"
-  [0xc8 (Loop Point)]: ../0xc8%20(Loop%20Point).md "wikilink"
-  [0xca (Return to Loop Point)]: ../0xca%20(Return%20to%20Loop%20Point).md "wikilink"
-  [0xe8 (Tempo)]: ../0xe8%20(Tempo).md "wikilink"
-  [0xea (Reverb Depth)]: ../0xea%20(Reverb%20Depth).md "wikilink"
+  [0xa0 (Finish Channel)]: ../../0xa0%20(Finish%20Channel).md "wikilink"
+  [0xa1 (Load Instrument)]: ../../0xa1%20(Load%20Instrument).md "wikilink"
+  [0xa5 (Pitch Divider)]: ../../0xa5%20(Pitch%20Divider).md "wikilink"
+  [0xa8 (Channel Volume)]: ../../0xa8%20(Channel%20Volume).md "wikilink"
+  [0xaa (Channel Pan)]: ../../0xaa%20(Channel%20Pan).md "wikilink"
+  [0xc8 (Loop Point)]: ../../0xc8%20(Loop%20Point).md "wikilink"
+  [0xca (Return to Loop Point)]: ../../0xca%20(Return%20to%20Loop%20Point).md "wikilink"
+  [0xe8 (Tempo)]: ../../0xe8%20(Tempo).md "wikilink"
+  [0xea (Reverb Depth)]: ../../0xea%20(Reverb%20Depth).md "wikilink"

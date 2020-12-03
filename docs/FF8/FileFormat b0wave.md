@@ -38,5 +38,5 @@ Copied from myst6re [.TDW file][]
 
 Each width is 4 bits (two widths per byte).
 
-  [.TDW file]: FileFormat%20TDW.md "wikilink"
+  [.TDW file]: ../FileFormat%20TDW.md "wikilink"
   [Character widths]: #user-content-character-widths "wikilink"

@@ -193,4 +193,4 @@ file][]
 </tbody>
 </table>
 
-  [Battle stage model file]: FileFormat%20X.md "wikilink"
+  [Battle stage model file]: ../FileFormat%20X.md "wikilink"

@@ -19,4 +19,4 @@ Strings end with **0x00**. [Strings are encoded][].
 **\[Start of string location\]** = **\[Start of file\]** + **\[String
 offset value\]**
 
-  [Strings are encoded]: String%20Encoding.md "wikilink"
+  [Strings are encoded]: ../String%20Encoding.md "wikilink"

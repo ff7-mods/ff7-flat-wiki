@@ -33,4 +33,4 @@ data in this file.
 | Location of packed file with .fs archive | 0x04   |
 | Compression used (1 = LZS; 0 = None)     | 0x08   |
 
-  [LZSed]: ../FF7/Kernel/Low%20level%20libraries.md#LZS%20Archives "wikilink"
+  [LZSed]: ../../FF7/Kernel/Low%20level%20libraries.md#LZS%20Archives "wikilink"

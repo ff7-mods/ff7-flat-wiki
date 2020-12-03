@@ -6,5 +6,5 @@ title: F5 POINT
 
 1.  REDIRECT [FF7/Field/Script/Opcodes/0F SPECIAL/F5 ARROW][]
 
-  [FF7/Field/Script/Opcodes/0F SPECIAL/F5 ARROW]: ../0F%20SPECIAL/F5%20ARROW.md
+  [FF7/Field/Script/Opcodes/0F SPECIAL/F5 ARROW]: ../../0F%20SPECIAL/F5%20ARROW.md
     "wikilink"

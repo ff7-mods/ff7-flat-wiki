@@ -104,9 +104,9 @@ is the equivalent of the if/else block being completed.
 
 </cpp>
 
-  [jump forward]: 10%20JMPF.md "wikilink"
-  [IFUBL]: 15%20IFUBL.md "wikilink"
-  [IFUW]: 18%20IFUW.md "wikilink"
-  [IFUWL]: 19%20IFUWL.md "wikilink"
-  [IFSW]: 16%20IFSW.md "wikilink"
-  [IFSWL]: 17%20IFSWL.md "wikilink"
+  [jump forward]: ../10%20JMPF.md "wikilink"
+  [IFUBL]: ../15%20IFUBL.md "wikilink"
+  [IFUW]: ../18%20IFUW.md "wikilink"
+  [IFUWL]: ../19%20IFUWL.md "wikilink"
+  [IFSW]: ../16%20IFSW.md "wikilink"
+  [IFSWL]: ../17%20IFSWL.md "wikilink"

@@ -24,4 +24,4 @@ title: 5A CKITM
 Copies the amount of item **I** the player has in their inventory, to
 the bank and address specified.
 
-  [Item ID]: ../../Item%20ID.md "wikilink"
+  [Item ID]: ../../../Item%20ID.md "wikilink"

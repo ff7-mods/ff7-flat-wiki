@@ -81,4 +81,4 @@ by [MOVIE][].
 | 2F  | car\_1209.avi |                                                           |
 | 2F  | opening.avi   | Opening                                                   |
 
-  [MOVIE]: F9%20MOVIE.md "wikilink"
+  [MOVIE]: ../F9%20MOVIE.md "wikilink"

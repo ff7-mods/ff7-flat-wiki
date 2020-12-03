@@ -40,4 +40,4 @@ bank 5 and address 1C for item type, and a value for item quantity.
 `SETBYTE(50,1C,5)`  
 `STITM(50,1C,0,A)`
 
-  [Type of item]: ../Item%20ID.md "wikilink"
+  [Type of item]: ../../Item%20ID.md "wikilink"

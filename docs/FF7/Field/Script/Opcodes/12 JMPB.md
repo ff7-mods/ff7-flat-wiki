@@ -30,6 +30,6 @@ the [SOLID][] and [WAIT][] lines are repeated indefinitely.
 
 If a jump longer than 0xFF is required, use [JMPBL][] instead.
 
-  [SOLID]: C7%20SOLID.md "wikilink"
-  [WAIT]: 24%20WAIT.md "wikilink"
-  [JMPBL]: 13%20JMPBL.md "wikilink"
+  [SOLID]: ../C7%20SOLID.md "wikilink"
+  [WAIT]: ../24%20WAIT.md "wikilink"
+  [JMPBL]: ../13%20JMPBL.md "wikilink"

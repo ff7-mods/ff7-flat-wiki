@@ -42,4 +42,4 @@ equip some last minute item. The field module, second only to the
 kernel, drives the game. It includes a powerful scripting system that
 can call any module within the game.
 
-  [1]: ../assets/Engine%20parts.jpg "Engine_parts.jpg"
+  [1]: ../../assets/Engine%20parts.jpg "Engine_parts.jpg"

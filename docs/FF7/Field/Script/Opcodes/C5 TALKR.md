@@ -29,4 +29,4 @@ button press that is further away than normal.
 
 For ranges larger than one byte, [TLKR2][] may be used.
 
-  [TLKR2]: D6%20TLKR2.md "wikilink"
+  [TLKR2]: ../D6%20TLKR2.md "wikilink"

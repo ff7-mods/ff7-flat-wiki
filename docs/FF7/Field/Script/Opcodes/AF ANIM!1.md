@@ -31,4 +31,4 @@ Script execution is not halted whilst the animation plays.
 Makou Reactor Description: Play animation \#%1 of the field model
 (speed=%2, type=1)
 
-  [ANIME1]: A3%20ANIME1.md "wikilink"
+  [ANIME1]: ../A3%20ANIME1.md "wikilink"

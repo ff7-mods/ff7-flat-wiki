@@ -29,4 +29,4 @@ given animation.
 Makou Reactor Description: Play partially the animation \#%1 of the
 field model (first frame=%2, last frame=%3, speed=%4)
 
-  [ANIM!1]: AF%20ANIM!1.md "wikilink"
+  [ANIM!1]: ../AF%20ANIM!1.md "wikilink"

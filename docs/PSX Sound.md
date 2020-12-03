@@ -6,4 +6,4 @@ title: PSX Sound
 
 1.  REDIRECT [FF7/PSX/PSX Sound][]
 
-  [FF7/PSX/PSX Sound]: FF7/PSX/PSX%20Sound.md "wikilink"
+  [FF7/PSX/PSX Sound]: ../FF7/PSX/PSX%20Sound.md "wikilink"

@@ -26,4 +26,4 @@ Seeds the random number generator used by [RANDOM][]. The lower four
 bits of the arguments are used as the seed value by altering the offset
 used to take a value from the table of pseudo-random numbers.
 
-  [RANDOM]: 99%20RANDOM.md "wikilink"
+  [RANDOM]: ../99%20RANDOM.md "wikilink"

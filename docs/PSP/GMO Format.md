@@ -111,5 +111,5 @@ Known Values:
 
 -   [<http://www.richwhitehouse.com/index.php?postid=34>][]
 
-  [Koral]: ../User:Koral.md "wikilink"
+  [Koral]: ../../User:Koral.md "wikilink"
   [<http://www.richwhitehouse.com/index.php?postid=34>]: http://www.richwhitehouse.com/index.php?postid=34

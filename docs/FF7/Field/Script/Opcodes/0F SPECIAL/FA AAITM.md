@@ -6,5 +6,5 @@ title: FA AAITM
 
 1.  REDIRECT [FF7/Field/Script/Opcodes/0F SPECIAL/FA FLITM][]
 
-  [FF7/Field/Script/Opcodes/0F SPECIAL/FA FLITM]: ../0F%20SPECIAL/FA%20FLITM.md
+  [FF7/Field/Script/Opcodes/0F SPECIAL/FA FLITM]: ../../0F%20SPECIAL/FA%20FLITM.md
     "wikilink"

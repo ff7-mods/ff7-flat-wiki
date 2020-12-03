@@ -76,10 +76,10 @@ mds7\_w.tut or mds7pb.tut) instead of these tutorials.
 **Note:** Between dialogs and akaos there may be a padding to align the
 akaos section.
 
-  [Halkun]: ../../User:Halkun.md "wikilink"
-  [Lasyan]: ../../User:Lasyan.md "wikilink"
-  [Qhimm]: ../../User:Qhimm.md "wikilink"
-  [Ficedula]: ../../User:Ficedula.md "wikilink"
-  [Cyberman]: ../../User:Cyberman.md "wikilink"
-  [00 RET]: Script/Opcodes/00%20RET.md "wikilink"
-  [opcode table]: Script/Opcodes.md "wikilink"
+  [Halkun]: ../../../User:Halkun.md "wikilink"
+  [Lasyan]: ../../../User:Lasyan.md "wikilink"
+  [Qhimm]: ../../../User:Qhimm.md "wikilink"
+  [Ficedula]: ../../../User:Ficedula.md "wikilink"
+  [Cyberman]: ../../../User:Cyberman.md "wikilink"
+  [00 RET]: ../Script/Opcodes/00%20RET.md "wikilink"
+  [opcode table]: ../Script/Opcodes.md "wikilink"

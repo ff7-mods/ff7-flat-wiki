@@ -23,4 +23,4 @@ Turns on or off the [LINE][] that was registered by this entity in the
 current field. If set to off, the line will not be triggered by the
 character walking through them.
 
-  [LINE]: D0%20LINE.md "wikilink"
+  [LINE]: ../D0%20LINE.md "wikilink"

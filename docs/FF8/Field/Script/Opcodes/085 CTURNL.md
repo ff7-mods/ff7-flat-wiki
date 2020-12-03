@@ -30,4 +30,4 @@ defined as down, 64 right, 128 up, 192 left.
 
 It's unknown how this is any different from [CTURNR][].
 
-  [CTURNR]: 084%20CTURNR.md "wikilink"
+  [CTURNR]: ../084%20CTURNR.md "wikilink"

@@ -22,4 +22,4 @@ none
 Close the last window created by [AMES][]. I haven't tried this for
 other types of windows...
 
-  [AMES]: 065%20AMES.md "wikilink"
+  [AMES]: ../065%20AMES.md "wikilink"

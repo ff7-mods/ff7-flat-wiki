@@ -35,4 +35,4 @@ Similar to [XYZI][], but does not specify a Z-coordinate. This lack of
 Z-coordinate may be a problem when placing the object on a mesh that has
 multiple Z-levels on the same X- and Y-coordinates.
 
-  [XYZI]: A5%20XYZI.md "wikilink"
+  [XYZI]: ../A5%20XYZI.md "wikilink"

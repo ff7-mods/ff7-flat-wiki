@@ -33,4 +33,4 @@ Similar to [SCR2D][], except the scroll is not instantaneous and is
 performed smoothly, with a slower start and ending, with speed peaking
 in the center of the scroll. The overall speed can be set with *S*.
 
-  [SCR2D]: 64%20SCR2D.md "wikilink"
+  [SCR2D]: ../64%20SCR2D.md "wikilink"

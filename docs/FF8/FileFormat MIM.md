@@ -35,4 +35,4 @@ The image contained in the MIM file is just a jumble of 16x16 tiles, to
 draw them properly you have to read the tile data from the [.map][]
 file.
 
-  [.map]: FileFormat%20MAP.md "wikilink"
+  [.map]: ../FileFormat%20MAP.md "wikilink"

@@ -31,4 +31,4 @@ and continues when the animation has completed.
 Makou Reactor Description: Play animation \#%1 of the field model
 (speed=%2, type=2)
 
-  [ANIME2]: AE%20ANIME2.md "wikilink"
+  [ANIME2]: ../AE%20ANIME2.md "wikilink"

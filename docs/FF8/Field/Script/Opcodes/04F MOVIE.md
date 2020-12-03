@@ -20,4 +20,4 @@ none
 
 Plays a FMV movie prepared by [MOVIEREADY][].
 
-  [MOVIEREADY]: 0A3%20MOVIEREADY.md "wikilink"
+  [MOVIEREADY]: ../0A3%20MOVIEREADY.md "wikilink"

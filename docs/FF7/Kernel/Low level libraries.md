@@ -165,25 +165,25 @@ names for the models were obfuscated a little. The data can be found in
 the [Hierarchy files (.HRC)][skeletal hierarchy (.HRC)], [Resource data
 files (.RSD)][resource data (.RSD)], and [Polygon files (.P)][].
 
-  [TIM file]: ../../PSX/TIM%20format.md "wikilink"
-  [KERNEL.BIN]: Kernel.bin.md "wikilink"
-  [LZS format]: ../LZS%20format.md "wikilink"
+  [TIM file]: ../../../PSX/TIM%20format.md "wikilink"
+  [KERNEL.BIN]: ../Kernel.bin.md "wikilink"
+  [LZS format]: ../../LZS%20format.md "wikilink"
   [Professor Haruhiko Okumura]: http://oku.edu.mie-u.ac.jp/~okumura/index-e.html
   [Abraham Lempel]: http://www.hpl.hp.com/about/bios/abraham_lempel.html
   [Jacob Ziv]: http://www.marconifoundation.org/pages/dynamic/fellows/fellow_details.php?roster_id=23
-  [here]: ../LGP%20format.md "wikilink"
-  [BIN]: Low%20level%20libraries.md#BIN%20archive%20data%20format
+  [here]: ../../LGP%20format.md "wikilink"
+  [BIN]: ../Low%20level%20libraries.md#BIN%20archive%20data%20format
     "wikilink"
-  [LZS]: Low%20level%20libraries.md#LZS%20Archives "wikilink"
-  [GPU]: ../../PSX/GPU.md "wikilink"
-  [1]: ../TEX%20format.md "wikilink"
-  [resource data (.RSD)]: ../../PSX/RSD.md "wikilink"
-  [textures (.TIM)]: ../../PSX/TIM%20file.md "wikilink"
-  [skeletal hierarchy (.HRC)]: ../../PSX/HRC.md "wikilink"
-  [Playstation battle model format]: ../Playstation%20Battle%20Model%20Format.md
+  [LZS]: ../Low%20level%20libraries.md#LZS%20Archives "wikilink"
+  [GPU]: ../../../PSX/GPU.md "wikilink"
+  [1]: ../../TEX%20format.md "wikilink"
+  [resource data (.RSD)]: ../../../PSX/RSD.md "wikilink"
+  [textures (.TIM)]: ../../../PSX/TIM%20file.md "wikilink"
+  [skeletal hierarchy (.HRC)]: ../../../PSX/HRC.md "wikilink"
+  [Playstation battle model format]: ../../Playstation%20Battle%20Model%20Format.md
     "wikilink"
-  [Playstation field model format]: ../Field/BSX.md "wikilink"
-  [FF7/Playstation battle scene format]: ../Playstation%20battle%20scene%20format.md
+  [Playstation field model format]: ../../Field/BSX.md "wikilink"
+  [FF7/Playstation battle scene format]: ../../Playstation%20battle%20scene%20format.md
     "wikilink"
-  [Playstation magic model]: ../Playstation%20magic%20model.md "wikilink"
-  [Polygon files (.P)]: ../P.md "wikilink"
+  [Playstation magic model]: ../../Playstation%20magic%20model.md "wikilink"
+  [Polygon files (.P)]: ../../P.md "wikilink"

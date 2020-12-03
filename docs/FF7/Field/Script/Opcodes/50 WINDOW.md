@@ -40,5 +40,5 @@ the width / height is too big for the screen. Eg:
 `if (x + w + MIN_WINDOW_DISTANCE > GAME_WIDTH) { x = GAME_WIDTH - w - MIN_WINDOW_DISTANCE }`  
 `if (y + h + MIN_WINDOW_DISTANCE > GAME_HEIGHT) { y = GAME_HEIGHT - h - MIN_WINDOW_DISTANCE }`
 
-  [dialog]: 40%20MESSAGE.md "wikilink"
-  [choices]: 48%20ASK.md "wikilink"
+  [dialog]: ../40%20MESSAGE.md "wikilink"
+  [choices]: ../48%20ASK.md "wikilink"

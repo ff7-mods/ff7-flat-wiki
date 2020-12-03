@@ -34,4 +34,4 @@ of 8).*
 
   [Character widths]: #user-content-character-widths "wikilink"
   [Texture (TIM)]: #user-content-texture "wikilink"
-  [TIM file]: ../PSX/TIM%20format.md "wikilink"
+  [TIM file]: ../../PSX/TIM%20format.md "wikilink"

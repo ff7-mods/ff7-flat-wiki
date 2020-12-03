@@ -21,4 +21,4 @@ No change.
 Disable this entity's scripts, hides its model, and makes it
 throughable. Call [USE][] to re-enable.
 
-  [USE]: 0E5%20USE.md "wikilink"
+  [USE]: ../0E5%20USE.md "wikilink"

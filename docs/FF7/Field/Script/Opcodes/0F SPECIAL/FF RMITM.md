@@ -6,5 +6,5 @@ title: FF RMITM
 
 1.  REDIRECT [FF7/Field/Script/Opcodes/0F SPECIAL/FF CLITM][]
 
-  [FF7/Field/Script/Opcodes/0F SPECIAL/FF CLITM]: ../0F%20SPECIAL/FF%20CLITM.md
+  [FF7/Field/Script/Opcodes/0F SPECIAL/FF CLITM]: ../../0F%20SPECIAL/FF%20CLITM.md
     "wikilink"

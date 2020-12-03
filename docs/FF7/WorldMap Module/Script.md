@@ -209,7 +209,7 @@ instruction pointer of 0 means the context is not active), just in case
 it is probably a good idea to make the first instruction always be a
 single [return][] instruction.
 
-  [opcode list]: ../WorldMap%20Module/Script/Opcodes.md "wikilink"
-  [330]: ../WorldMap%20Module/Script/Opcodes/330.md "wikilink"
-  [204]: ../WorldMap%20Module/Script/Opcodes/204.md "wikilink"
-  [return]: ../WorldMap%20Module/Script/Opcodes/203.md "wikilink"
+  [opcode list]: ../../WorldMap%20Module/Script/Opcodes.md "wikilink"
+  [330]: ../../WorldMap%20Module/Script/Opcodes/330.md "wikilink"
+  [204]: ../../WorldMap%20Module/Script/Opcodes/204.md "wikilink"
+  [return]: ../../WorldMap%20Module/Script/Opcodes/203.md "wikilink"

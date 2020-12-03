@@ -27,5 +27,5 @@ Requests that a remote entity executes one of its member functions at a
 specified priority. The request will block until remote execution has
 finished before returning.
 
-  [entity]: ../Entity.md "wikilink"
-  [priority]: ../Priorities.md "wikilink"
+  [entity]: ../../Entity.md "wikilink"
+  [priority]: ../../Priorities.md "wikilink"

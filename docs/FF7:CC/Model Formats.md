@@ -330,8 +330,8 @@ These files contain static geometry with initial bounding-box data
 preceeding the vertex data, and usually represent all the **Location Map
 models** to render within the game.
 
-  [Koral]: ../User:Koral.md "wikilink"
-  [TYPE-0]: Model%20Formats.md#exp%20TYPE-0%20Models "wikilink"
-  [TYPE-1]: Model%20Formats.md#exp%20TYPE-1%20Models "wikilink"
-  [1]: Image%20Formats.md#TEX%20Format "wikilink"
+  [Koral]: ../../User:Koral.md "wikilink"
+  [TYPE-0]: ../Model%20Formats.md#exp%20TYPE-0%20Models "wikilink"
+  [TYPE-1]: ../Model%20Formats.md#exp%20TYPE-1%20Models "wikilink"
+  [1]: ../Image%20Formats.md#TEX%20Format "wikilink"
   [SilverWings]: http://forums.qhimm.com/index.php?action=profile;u=3658

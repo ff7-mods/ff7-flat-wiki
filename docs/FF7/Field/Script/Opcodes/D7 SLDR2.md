@@ -23,4 +23,4 @@ title: D7 SLDR2
 
 Similar to [SLIDR][], but allows a two-byte range value to be used.
 
-  [SLIDR]: C6%20SLIDR.md "wikilink"
+  [SLIDR]: ../C6%20SLIDR.md "wikilink"

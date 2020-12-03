@@ -31,5 +31,5 @@ arguments (or the values found at the addresses if memory banks and
 address are specified). The move to the new coordinates is instant;
 variants exist for [linear][] and [smooth][] scrolling.
 
-  [linear]: 68%20SCR2DL.md "wikilink"
-  [smooth]: 66%20SCR2DC.md "wikilink"
+  [linear]: ../68%20SCR2DL.md "wikilink"
+  [smooth]: ../66%20SCR2DC.md "wikilink"

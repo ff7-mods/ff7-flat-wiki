@@ -12,4 +12,4 @@ directly into the [Savemap][] (from offset 0x0054 to 0x0BAF) which is
 explained in the "Menu" section. This data has the same format as the
 data explained in that section.
 
-  [Savemap]: Savemap.md "wikilink"
+  [Savemap]: ../Savemap.md "wikilink"

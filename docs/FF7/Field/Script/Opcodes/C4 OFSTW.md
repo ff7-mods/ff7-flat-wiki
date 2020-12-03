@@ -22,4 +22,4 @@ None.
 Halts current script execution until a previous [OFST][] has completed.
 This is only of use if the offset type is not instantaneous.
 
-  [OFST]: C3%20OFST.md "wikilink"
+  [OFST]: ../C3%20OFST.md "wikilink"

@@ -47,4 +47,4 @@ Directory Types
 |  0x04  | Not a directory but indicates the end of the directory list. |
 |        |                                                              |
 
-  [sector]: glossary/sector.md "wikilink"
+  [sector]: ../glossary/sector.md "wikilink"

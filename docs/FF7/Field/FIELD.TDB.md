@@ -37,5 +37,5 @@ Therefore each palette is 32bytes in length.
 Palettes are not selected from this file but from the BSX files for
 models.
 
-  [Cyberman]: ../../User:Cyberman.md "wikilink"
-  [LZS compressed]: ../LZS%20format.md "wikilink"
+  [Cyberman]: ../../../User:Cyberman.md "wikilink"
+  [LZS compressed]: ../../LZS%20format.md "wikilink"

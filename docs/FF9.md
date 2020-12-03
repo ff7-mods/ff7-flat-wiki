@@ -95,29 +95,29 @@ This chunk contains pointers to other DB structures.
 
 -   [Tools and Patches][]
 
-  [Image Root Directory]: FF9/IMGRootDir.md "wikilink"
-  [Image Sub Directory]: FF9/IMGSubDir.md "wikilink"
-  [Directories and data]: FF9/Dirs.md "wikilink"
-  [Directory '0']: FF9/Dirs/00.md "wikilink"
-  [Directory '1']: FF9/Dirs/01.md "wikilink"
-  [File Cluster Information]: FF9/File/Data.md "wikilink"
-  [Chunk 0x02: 3D Model data]: FF9/File/0x02.md "wikilink"
-  [Chunk 0x03: 3D Animation]: FF9/File/0x03.md "wikilink"
-  [Chunk 0x04: Image data(TIM\`s)]: FF9/File/0x04.md "wikilink"
-  [Chunk 0x05: Scripts]: FF9/File/0x05.md "wikilink"
-  [Chunk 0x0A: Field tiles]: FF9/File/0x0A.md "wikilink"
-  [Chunk 0x0B: Field walkmesh]: FF9/File/0x0B.md "wikilink"
-  [Chunk 0x0C: Battle scenes]: FF9/File/0x0C.md "wikilink"
-  [Chunk 0x12: Contain CLUT and TPage for models]: FF9/File/0x12.md
+  [Image Root Directory]: ../FF9/IMGRootDir.md "wikilink"
+  [Image Sub Directory]: ../FF9/IMGSubDir.md "wikilink"
+  [Directories and data]: ../FF9/Dirs.md "wikilink"
+  [Directory '0']: ../FF9/Dirs/00.md "wikilink"
+  [Directory '1']: ../FF9/Dirs/01.md "wikilink"
+  [File Cluster Information]: ../FF9/File/Data.md "wikilink"
+  [Chunk 0x02: 3D Model data]: ../FF9/File/0x02.md "wikilink"
+  [Chunk 0x03: 3D Animation]: ../FF9/File/0x03.md "wikilink"
+  [Chunk 0x04: Image data(TIM\`s)]: ../FF9/File/0x04.md "wikilink"
+  [Chunk 0x05: Scripts]: ../FF9/File/0x05.md "wikilink"
+  [Chunk 0x0A: Field tiles]: ../FF9/File/0x0A.md "wikilink"
+  [Chunk 0x0B: Field walkmesh]: ../FF9/File/0x0B.md "wikilink"
+  [Chunk 0x0C: Battle scenes]: ../FF9/File/0x0C.md "wikilink"
+  [Chunk 0x12: Contain CLUT and TPage for models]: ../FF9/File/0x12.md
     "wikilink"
-  [Chunk 0x1B: Pointers to other 'DB']: FF9/File/0x1B.md "wikilink"
-  [WorldMap]: FF9/WorldMap.md "wikilink"
-  [Character Tables]: FF9/CharTables.md "wikilink"
-  [European & US Tables]: FF9/CharTables.md#Character%20Table%20for%20EU%20.26%20US%20version
+  [Chunk 0x1B: Pointers to other 'DB']: ../FF9/File/0x1B.md "wikilink"
+  [WorldMap]: ../FF9/WorldMap.md "wikilink"
+  [Character Tables]: ../FF9/CharTables.md "wikilink"
+  [European & US Tables]: ../FF9/CharTables.md#Character%20Table%20for%20EU%20.26%20US%20version
     "wikilink"
-  [Japanese Table]: FF9/CharTables.md#Character%20Table%20for%20JP%20version
+  [Japanese Table]: ../FF9/CharTables.md#Character%20Table%20for%20JP%20version
     "wikilink"
-  [Kanji Table A]: FF9/CharTables.md#Kanji%20Table%20A "wikilink"
-  [Kanji Table B]: FF9/CharTables.md#Kanji%20Table%20B "wikilink"
-  [Sound]: FF9/Sound.md "wikilink"
-  [Tools and Patches]: FF9/Tools.md "wikilink"
+  [Kanji Table A]: ../FF9/CharTables.md#Kanji%20Table%20A "wikilink"
+  [Kanji Table B]: ../FF9/CharTables.md#Kanji%20Table%20B "wikilink"
+  [Sound]: ../FF9/Sound.md "wikilink"
+  [Tools and Patches]: ../FF9/Tools.md "wikilink"

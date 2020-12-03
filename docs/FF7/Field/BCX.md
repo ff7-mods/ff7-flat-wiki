@@ -45,7 +45,7 @@ Section)
 
 ## EXAMPLE OF BCX FILE BREAKDOWN, USING CLOUD.BCX
 
-\[Lazy Bastard\]: ../../Using Akari's notes from Q-Gears, nudges in the right.md
+\[Lazy Bastard\]: ../../../Using Akari's notes from Q-Gears, nudges in the right.md
 direction by Akari, the source from Micky's BSX/BCX viewer, and my own
 logical deduction, I've broken down CLOUD.BCX (Cloud's BCX file) as an
 example of BCX structure. Without further ado:
@@ -756,7 +756,7 @@ Note2: Number of animations contained in 'Models Section', Header.
   
   
   
-3rd animation \[at offset 0x0000288C\]: ../../(assuming it goes until the.md
+3rd animation \[at offset 0x0000288C\]: ../../../(assuming it goes until the.md
 beginning of the Model section, below)
 
 `00 00 00 00 20 00 00 00 FF 00 00 00 00 C0 00 00 FF FF FF 00 01 00 00 00 FF FF FF 00 01 01 00 00 FF FF FF 00`  
@@ -1000,8 +1000,8 @@ B8 00 - Relative offset to rotation frames (little-endian, so 0x00B8)
   
 Note: 'Models Section', Animations runs until the end of the file.
 
-  [BSX files]: BSX.md "wikilink"
-  [1]: BSX.md#BSX%20Header "wikilink"
-  [2]: BSX.md#Skeleton%20Data%20Section "wikilink"
-  [3]: BSX.md#Animation%20Data%20Section "wikilink"
-  [4]: BSX.md#Models%20Section "wikilink"
+  [BSX files]: ../BSX.md "wikilink"
+  [1]: ../BSX.md#BSX%20Header "wikilink"
+  [2]: ../BSX.md#Skeleton%20Data%20Section "wikilink"
+  [3]: ../BSX.md#Animation%20Data%20Section "wikilink"
+  [4]: ../BSX.md#Models%20Section "wikilink"
