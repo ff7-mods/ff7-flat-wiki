@@ -2,7 +2,7 @@
 title: IMGSubDir
 ---
 
-[Home](../Main%20Page.md.md) > [FF9](../FF9.md) > IMGSubDir
+[Home](../Main%20Page.md) > [FF9](../FF9.md) > IMGSubDir
 
 # Sub Directory Information
 

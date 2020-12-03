@@ -2,7 +2,7 @@
 title: Menu mngrp strings locations
 ---
 
-[Home](../Main%20Page.md.md) > [FF8](../FF8.md) > Menu mngrp strings locations
+[Home](../Main%20Page.md) > [FF8](../FF8.md) > Menu mngrp strings locations
 
 Many strings.
 

@@ -2,7 +2,7 @@
 title: RSD
 ---
 
-[Home](../Main%20Page.md.md) > [PSX](../PSX.md) > RSD
+[Home](../Main%20Page.md) > [PSX](../PSX.md) > RSD
 
 ## RSD resource data format
 

@@ -2,7 +2,7 @@
 title: 56 GWCOL
 ---
 
-[Home](../../../../Main%20Page.md.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 56 GWCOL
+[Home](../../../../Main%20Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 56 GWCOL
 
 -   Opcode: **0x56**
 -   Short name: **GWCOL**

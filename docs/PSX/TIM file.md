@@ -2,7 +2,7 @@
 title: TIM file
 ---
 
-[Home](../Main%20Page.md.md) > [PSX](../PSX.md) > TIM file
+[Home](../Main%20Page.md) > [PSX](../PSX.md) > TIM file
 
 1.  REDIRECT [PSX/TIM format][]
 

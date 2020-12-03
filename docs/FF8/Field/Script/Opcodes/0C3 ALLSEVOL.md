@@ -2,7 +2,7 @@
 title: 0C3 ALLSEVOL
 ---
 
-[Home](../../../../Main%20Page.md.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 0C3 ALLSEVOL
+[Home](../../../../Main%20Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 0C3 ALLSEVOL
 
 -   Opcode: **0x0C3**
 -   Short name: **ALLSEVOL**

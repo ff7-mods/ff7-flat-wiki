@@ -2,7 +2,7 @@
 title: 9F SEARCHX
 ---
 
-[Home](../../../../Main%20Page.md.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 9F SEARCHX
+[Home](../../../../Main%20Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 9F SEARCHX
 
 -   Opcode: **0x9F**
 -   Short name: **SEARCHX**

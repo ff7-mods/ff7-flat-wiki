@@ -2,7 +2,7 @@
 title: FileFormat b0wave
 ---
 
-[Home](../Main%20Page.md.md) > [FF8](../FF8.md) > FileFormat b0wave
+[Home](../Main%20Page.md) > [FF8](../FF8.md) > FileFormat b0wave
 
 By MaKiPL
 

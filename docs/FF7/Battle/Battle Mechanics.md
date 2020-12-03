@@ -2,7 +2,7 @@
 title: Battle Mechanics
 ---
 
-[Home](../../Main%20Page.md.md) > [FF7](../../FF7.md) > [Battle](../Battle.md) > Battle Mechanics
+[Home](../../Main%20Page.md) > [FF7](../../FF7.md) > [Battle](../Battle.md) > Battle Mechanics
 
 This page will be for Battle memory structures. This is consistent with
 the memory structure of the PC version. PSX may or may not reflect these

@@ -2,7 +2,7 @@
 title: 95 INC
 ---
 
-[Home](../../../../Main%20Page.md.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 95 INC
+[Home](../../../../Main%20Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 95 INC
 
 -   Opcode: **0x95**
 -   Short name: **INC**

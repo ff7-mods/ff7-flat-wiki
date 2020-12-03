@@ -2,7 +2,7 @@
 title: Text encoding
 ---
 
-[Home](../Main%20Page.md.md) > [FF7](../FF7.md) > Text encoding
+[Home](../Main%20Page.md) > [FF7](../FF7.md) > Text encoding
 
 FF Text is a format that Squaresoft used to store strings in the English
 version of Final Fantasy VII. Large subsets of the character (e.g. A-Z,

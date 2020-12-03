@@ -2,7 +2,7 @@
 title: DC CCANM
 ---
 
-[Home](../../../../Main%20Page.md.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > DC CCANM
+[Home](../../../../Main%20Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > DC CCANM
 
 -   Opcode: **0xDC**
 -   Short name: **CCANM**

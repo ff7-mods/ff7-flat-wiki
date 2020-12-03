@@ -2,7 +2,7 @@
 title: Command data
 ---
 
-[Home](../Main%20Page.md.md) > [FF7](../FF7.md) > Command data
+[Home](../Main%20Page.md) > [FF7](../FF7.md) > Command data
 
 ## KERNEL.BIN - Section 1: Command data format
 

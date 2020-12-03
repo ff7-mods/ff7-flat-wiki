@@ -2,7 +2,7 @@
 title: 04D UCON
 ---
 
-[Home](../../../../Main%20Page.md.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 04D UCON
+[Home](../../../../Main%20Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 04D UCON
 
 -   Opcode: **0x04D**
 -   Short name: **UCON**

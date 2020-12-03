@@ -2,7 +2,7 @@
 title: Battle
 ---
 
-[Home](../Main%20Page.md.md) > [FF7](../FF7.md) > Battle
+[Home](../Main%20Page.md) > [FF7](../FF7.md) > Battle
 
 -   The Battle Module
     -   Battle Overview

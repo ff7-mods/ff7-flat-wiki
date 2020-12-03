@@ -2,7 +2,7 @@
 title: TextureTable
 ---
 
-[Home](../../Main%20Page.md.md) > [FF7](../../FF7.md) > [WorldMap Module](../WorldMap%20Module.md) > TextureTable
+[Home](../../Main%20Page.md) > [FF7](../../FF7.md) > [WorldMap Module](../WorldMap%20Module.md) > TextureTable
 
 | ID  |   name    | width | height | u offset | v offset |
 |:---:|:---------:|:-----:|:------:|:--------:|:--------:|

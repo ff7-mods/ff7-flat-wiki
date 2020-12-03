@@ -2,7 +2,7 @@
 title: 03E MOVE
 ---
 
-[Home](../../../../Main%20Page.md.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 03E MOVE
+[Home](../../../../Main%20Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 03E MOVE
 
 -   Opcode: **0x03E**
 -   Short name: **MOVE**

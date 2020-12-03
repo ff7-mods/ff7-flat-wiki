@@ -2,7 +2,7 @@
 title: 126 SETWITCH
 ---
 
-[Home](../../../../Main%20Page.md.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 126 SETWITCH
+[Home](../../../../Main%20Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 126 SETWITCH
 
 -   Opcode: **0x0126**
 -   Short name: **SETWITCH**

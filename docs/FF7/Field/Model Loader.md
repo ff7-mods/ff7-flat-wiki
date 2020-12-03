@@ -2,7 +2,7 @@
 title: Model Loader
 ---
 
-[Home](../../Main%20Page.md.md) > [FF7](../../FF7.md) > [Field](../Field.md) > Model Loader
+[Home](../../Main%20Page.md) > [FF7](../../FF7.md) > [Field](../Field.md) > Model Loader
 
 ## Model loader (FF7 PC)
 

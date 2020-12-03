@@ -2,7 +2,7 @@
 title: FileFormat PAK
 ---
 
-[Home](../Main%20Page.md.md) > [FF8](../FF8.md) > FileFormat PAK
+[Home](../Main%20Page.md) > [FF8](../FF8.md) > FileFormat PAK
 
 Final Fantasy VIII's movie files are stored within pak files. This is
 for the CD 2000 version only. Steam 2013 version uses avi files.

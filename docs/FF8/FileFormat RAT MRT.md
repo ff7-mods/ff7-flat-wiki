@@ -2,7 +2,7 @@
 title: FileFormat RAT MRT
 ---
 
-[Home](../Main%20Page.md.md) > [FF8](../FF8.md) > FileFormat RAT MRT
+[Home](../Main%20Page.md) > [FF8](../FF8.md) > FileFormat RAT MRT
 
 By myst6re.
 

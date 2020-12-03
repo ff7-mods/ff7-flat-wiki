@@ -2,7 +2,7 @@
 title: Low level libraries
 ---
 
-[Home](../../Main%20Page.md.md) > [FF7](../../FF7.md) > [Kernel](../Kernel.md) > Low level libraries
+[Home](../../Main%20Page.md) > [FF7](../../FF7.md) > [Kernel](../Kernel.md) > Low level libraries
 
 ## PC to PSX comparison
 

@@ -2,7 +2,7 @@
 title: sector
 ---
 
-[Home](../../Main%20Page.md.md) > [FF9](../../FF9.md) > [glossary](../glossary.md) > sector
+[Home](../../Main%20Page.md) > [FF9](../../FF9.md) > [glossary](../glossary.md) > sector
 
 A sector refers to a ISO9660 Data Block size. This varies between modes
 and forms within the ISO format. However Playstation disk were recorded

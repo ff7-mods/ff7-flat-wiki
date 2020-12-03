@@ -2,7 +2,7 @@
 title: Playstation Battle Model Format
 ---
 
-[Home](../Main%20Page.md.md) > [FF7](../FF7.md) > Playstation Battle Model Format
+[Home](../Main%20Page.md) > [FF7](../FF7.md) > Playstation Battle Model Format
 
 1.  REDIRECT [FF7/Battle model format (PSX)][]
 

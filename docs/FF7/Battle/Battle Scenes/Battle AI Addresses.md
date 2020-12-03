@@ -2,7 +2,7 @@
 title: Battle AI Addresses
 ---
 
-[Home](../../../Main%20Page.md.md) > [FF7](../../../FF7.md) > [Battle](../../Battle.md) > [Battle Scenes](../Battle%20Scenes.md) > Battle AI Addresses
+[Home](../../../Main%20Page.md) > [FF7](../../../FF7.md) > [Battle](../../Battle.md) > [Battle Scenes](../Battle%20Scenes.md) > Battle AI Addresses
 
 *In this page, an "actor" is defined as an entity instance in a battle
 (scene). The "current actor" is an actor that is executing a script or

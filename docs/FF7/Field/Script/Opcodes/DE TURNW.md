@@ -2,7 +2,7 @@
 title: DE TURNW
 ---
 
-[Home](../../../../Main%20Page.md.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > DE TURNW
+[Home](../../../../Main%20Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > DE TURNW
 
 -   Opcode: **0xDE**
 -   Short name: **TURNW**

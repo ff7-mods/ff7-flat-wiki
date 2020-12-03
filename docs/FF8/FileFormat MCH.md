@@ -2,7 +2,7 @@
 title: FileFormat MCH
 ---
 
-[Home](../Main%20Page.md.md) > [FF8](../FF8.md) > FileFormat MCH
+[Home](../Main%20Page.md) > [FF8](../FF8.md) > FileFormat MCH
 
 <small>Authors: [Koral][], [JWP][] and [Vehek][]</small>
 

@@ -2,7 +2,7 @@
 title: 05C MAPJUMPO
 ---
 
-[Home](../../../../Main%20Page.md.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 05C MAPJUMPO
+[Home](../../../../Main%20Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 05C MAPJUMPO
 
 -   Opcode: **0x05C**
 -   Short name: **MAPJUMPO**

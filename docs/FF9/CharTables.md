@@ -2,7 +2,7 @@
 title: CharTables
 ---
 
-[Home](../Main%20Page.md.md) > [FF9](../FF9.md) > CharTables
+[Home](../Main%20Page.md) > [FF9](../FF9.md) > CharTables
 
 # Character Table for EU & US version
 

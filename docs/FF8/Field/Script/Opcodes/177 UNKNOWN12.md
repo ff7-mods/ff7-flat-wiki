@@ -2,7 +2,7 @@
 title: 177 UNKNOWN12
 ---
 
-[Home](../../../../Main%20Page.md.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 177 UNKNOWN12
+[Home](../../../../Main%20Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 177 UNKNOWN12
 
 -   Opcode: **0x177**
 -   Short name: **UNKNOWN12**

@@ -2,7 +2,7 @@
 title: 0CC BATTLEMODE
 ---
 
-[Home](../../../../Main%20Page.md.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 0CC BATTLEMODE
+[Home](../../../../Main%20Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 0CC BATTLEMODE
 
 -   Opcode: **0x0CC**
 -   Short name: **BATTLEMODE**

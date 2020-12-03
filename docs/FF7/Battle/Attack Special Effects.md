@@ -2,7 +2,7 @@
 title: Attack Special Effects
 ---
 
-[Home](../../Main%20Page.md.md) > [FF7](../../FF7.md) > [Battle](../Battle.md) > Attack Special Effects
+[Home](../../Main%20Page.md) > [FF7](../../FF7.md) > [Battle](../Battle.md) > Attack Special Effects
 
 Attacks and Items can have additional Special Effects that take place
 after Damage Calculation is performed. Several of them take a Modifier

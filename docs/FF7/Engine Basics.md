@@ -2,7 +2,7 @@
 title: Engine Basics
 ---
 
-[Home](../Main%20Page.md.md) > [FF7](../FF7.md) > Engine Basics
+[Home](../Main%20Page.md) > [FF7](../FF7.md) > Engine Basics
 
 ## Parts of the Engine
 

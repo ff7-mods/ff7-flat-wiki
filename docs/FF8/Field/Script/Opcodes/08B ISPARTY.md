@@ -2,7 +2,7 @@
 title: 08B ISPARTY
 ---
 
-[Home](../../../../Main%20Page.md.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 08B ISPARTY
+[Home](../../../../Main%20Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 08B ISPARTY
 
 -   Opcode: **0x08B**
 -   Short name: **ISPARTY**

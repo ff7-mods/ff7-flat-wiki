@@ -2,7 +2,7 @@
 title: Main harata
 ---
 
-[Home](../Main%20Page.md.md) > [FF8](../FF8.md) > Main harata
+[Home](../Main%20Page.md) > [FF8](../FF8.md) > Main harata
 
 By MaKiPL
 

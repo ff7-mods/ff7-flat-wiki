@@ -2,7 +2,7 @@
 title: 1st fight
 ---
 
-[Home](../../Main%20Page.md.md) > [FF7](../../FF7.md) > [Technical](../Technical.md) > 1st fight
+[Home](../../Main%20Page.md) > [FF7](../../FF7.md) > [Technical](../Technical.md) > 1st fight
 
 ### Symptoms
 

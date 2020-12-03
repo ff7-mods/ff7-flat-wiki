@@ -2,7 +2,7 @@
 title: FileFormat JSM
 ---
 
-[Home](../Main%20Page.md.md) > [FF8](../FF8.md) > FileFormat JSM
+[Home](../Main%20Page.md) > [FF8](../FF8.md) > FileFormat JSM
 
 By myst6re.
 

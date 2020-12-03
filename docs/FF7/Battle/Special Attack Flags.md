@@ -2,7 +2,7 @@
 title: Special Attack Flags
 ---
 
-[Home](../../Main%20Page.md.md) > [FF7](../../FF7.md) > [Battle](../Battle.md) > Special Attack Flags
+[Home](../../Main%20Page.md) > [FF7](../../FF7.md) > [Battle](../Battle.md) > Special Attack Flags
 
 Attacks and Items can have additional Special Properties that Damage
 Calculation takes into account when applying damage. The storage of

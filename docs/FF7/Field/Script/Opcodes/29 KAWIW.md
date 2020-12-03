@@ -2,7 +2,7 @@
 title: 29 KAWIW
 ---
 
-[Home](../../../../Main%20Page.md.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 29 KAWIW
+[Home](../../../../Main%20Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 29 KAWIW
 
 -   Opcode: **0x29**
 -   Short name: **KAWIW**

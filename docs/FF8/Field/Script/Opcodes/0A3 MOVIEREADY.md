@@ -2,7 +2,7 @@
 title: 0A3 MOVIEREADY
 ---
 
-[Home](../../../../Main%20Page.md.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 0A3 MOVIEREADY
+[Home](../../../../Main%20Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 0A3 MOVIEREADY
 
 -   Opcode: **0x0A3**
 -   Short name: **MOVIEREADY**

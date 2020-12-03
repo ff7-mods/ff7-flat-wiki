@@ -2,7 +2,7 @@
 title: Damage Calculation
 ---
 
-[Home](../../Main%20Page.md.md) > [FF7](../../FF7.md) > [Battle](../Battle.md) > Damage Calculation
+[Home](../../Main%20Page.md) > [FF7](../../FF7.md) > [Battle](../Battle.md) > Damage Calculation
 
 In Attacks, Items, and Weapons there exists a single byte that tells the
 Battle Engine how to calculate damage based on an attack's set Power and

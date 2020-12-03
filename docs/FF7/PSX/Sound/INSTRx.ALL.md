@@ -2,7 +2,7 @@
 title: INSTRx.ALL
 ---
 
-[Home](../../../Main%20Page.md.md) > [FF7](../../../FF7.md) > [PSX](../../PSX.md) > [Sound](../Sound.md) > INSTRx.ALL
+[Home](../../../Main%20Page.md) > [FF7](../../../FF7.md) > [PSX](../../PSX.md) > [Sound](../Sound.md) > INSTRx.ALL
 
 There is two files of this structure on FF7 game discs:
 

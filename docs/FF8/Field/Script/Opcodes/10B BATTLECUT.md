@@ -2,7 +2,7 @@
 title: 10B BATTLECUT
 ---
 
-[Home](../../../../Main%20Page.md.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 10B BATTLECUT
+[Home](../../../../Main%20Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 10B BATTLECUT
 
 -   Opcode: **0x10B**
 -   Short name: **BATTLECUT**

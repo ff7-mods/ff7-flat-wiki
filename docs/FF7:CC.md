@@ -2,7 +2,7 @@
 title: FF7:CC
 ---
 
-[Home](Main%20Page.md.md) > FF7:CC
+[Home](Main%20Page.md) > FF7:CC
 
 <small> My first ever wiki entry! Apologies for any inconsistencies etc.
 </small>

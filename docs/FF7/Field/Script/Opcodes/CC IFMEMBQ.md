@@ -2,7 +2,7 @@
 title: CC IFMEMBQ
 ---
 
-[Home](../../../../Main%20Page.md.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > CC IFMEMBQ
+[Home](../../../../Main%20Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > CC IFMEMBQ
 
 -   Opcode: **0xCC**
 -   Short name: **IFMEMBQ**

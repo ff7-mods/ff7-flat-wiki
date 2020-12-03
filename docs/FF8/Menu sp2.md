@@ -2,7 +2,7 @@
 title: Menu sp2
 ---
 
-[Home](../Main%20Page.md.md) > [FF8](../FF8.md) > Menu sp2
+[Home](../Main%20Page.md) > [FF8](../FF8.md) > Menu sp2
 
 by MaKi  
 updated by Sebanisu

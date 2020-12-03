@@ -2,7 +2,7 @@
 title: WorldMapCamera
 ---
 
-[Home](../../Main%20Page.md.md) > [FF8](../../FF8.md) > [Engine](../Engine.md) > WorldMapCamera
+[Home](../../Main%20Page.md) > [FF8](../../FF8.md) > [Engine](../Engine.md) > WorldMapCamera
 
 By MaKiPL. :\*
 

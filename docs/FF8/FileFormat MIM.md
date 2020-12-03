@@ -2,7 +2,7 @@
 title: FileFormat MIM
 ---
 
-[Home](../Main%20Page.md.md) > [FF8](../FF8.md) > FileFormat MIM
+[Home](../Main%20Page.md) > [FF8](../FF8.md) > FileFormat MIM
 
 By Aali.
 

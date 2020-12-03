@@ -2,7 +2,7 @@
 title: 0CB SETBATTLEMUSIC
 ---
 
-[Home](../../../../Main%20Page.md.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 0CB SETBATTLEMUSIC
+[Home](../../../../Main%20Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 0CB SETBATTLEMUSIC
 
 -   Opcode: **0x0CB**
 -   Short name: **SETBATTLEMUSIC**

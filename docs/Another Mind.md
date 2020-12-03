@@ -2,7 +2,7 @@
 title: Another Mind
 ---
 
-[Home](Main%20Page.md.md) > Another Mind
+[Home](Main%20Page.md) > Another Mind
 
 (The following Was ripped off of Wikipedia because I'm lazy)
 

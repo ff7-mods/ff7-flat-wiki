@@ -2,7 +2,7 @@
 title: Tools
 ---
 
-[Home](../Main%20Page.md.md) > [FF9](../FF9.md) > Tools
+[Home](../Main%20Page.md) > [FF9](../FF9.md) > Tools
 
 ### Editors
 

@@ -2,7 +2,7 @@
 title: 164 SPUSYNC
 ---
 
-[Home](../../../../Main%20Page.md.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 164 SPUSYNC
+[Home](../../../../Main%20Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 164 SPUSYNC
 
 -   Opcode: **0x164**
 -   Short name: **SPUSYNC**

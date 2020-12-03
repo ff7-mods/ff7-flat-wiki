@@ -2,7 +2,7 @@
 title: Data
 ---
 
-[Home](../../Main%20Page.md.md) > [FF9](../../FF9.md) > [File](../File.md) > Data
+[Home](../../Main%20Page.md) > [FF9](../../FF9.md) > [File](../File.md) > Data
 
 Almost all files in FF9 has structure, which starts from 2 bytes DB (hex
 numbers). This record points, that after we'll have pointer list, which

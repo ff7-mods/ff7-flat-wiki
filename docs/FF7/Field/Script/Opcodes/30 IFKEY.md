@@ -2,7 +2,7 @@
 title: 30 IFKEY
 ---
 
-[Home](../../../../Main%20Page.md.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 30 IFKEY
+[Home](../../../../Main%20Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 30 IFKEY
 
 -   Opcode: **0x30**
 -   Short name: **IFKEY**

@@ -2,7 +2,7 @@
 title: Weapon data
 ---
 
-[Home](../Main%20Page.md.md) > [FF7](../FF7.md) > Weapon data
+[Home](../Main%20Page.md) > [FF7](../FF7.md) > Weapon data
 
 ## KERNEL.BIN - Section 6: Weapon data format
 

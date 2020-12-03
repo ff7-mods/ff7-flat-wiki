@@ -2,7 +2,7 @@
 title: Video Formats
 ---
 
-[Home](../Main%20Page.md.md) > [FF7:CC](../FF7:CC.md) > Video Formats
+[Home](../Main%20Page.md) > [FF7:CC](../FF7:CC.md) > Video Formats
 
 # Known FF7:CC Video Formats
 

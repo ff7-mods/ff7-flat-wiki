@@ -2,7 +2,7 @@
 title: Attack Special Properties
 ---
 
-[Home](../Main%20Page.md.md) > [FF7](../FF7.md) > Attack Special Properties
+[Home](../Main%20Page.md) > [FF7](../FF7.md) > Attack Special Properties
 
 1.  REDIRECT [FF7/Battle/Special Attack Flags][]
 

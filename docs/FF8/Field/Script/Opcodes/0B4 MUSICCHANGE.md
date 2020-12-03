@@ -2,7 +2,7 @@
 title: 0B4 MUSICCHANGE
 ---
 
-[Home](../../../../Main%20Page.md.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 0B4 MUSICCHANGE
+[Home](../../../../Main%20Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 0B4 MUSICCHANGE
 
 -   Opcode: **0x0B4**
 -   Short name: **MUSICCHANGE**
