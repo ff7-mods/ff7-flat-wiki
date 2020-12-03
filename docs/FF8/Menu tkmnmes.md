@@ -2,7 +2,7 @@
 title: Menu tkmnmes
 ---
 
-[Home](Main%20Page.md) > [FF8](FF8.md) > Menu tkmnmes
+[Home](../Main%20Page.md.md) > [FF8](../FF8.md) > Menu tkmnmes
 
 These files have a good deal of the Menu text.
 

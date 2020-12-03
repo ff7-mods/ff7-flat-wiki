@@ -2,7 +2,7 @@
 title: Movies
 ---
 
-[Home](Main%20Page.md) > [FF7](FF7.md) > [Technical](FF7/Technical.md) > Movies
+[Home](../../Main%20Page.md.md) > [FF7](../../FF7.md) > [Technical](../Technical.md) > Movies
 
 ### Symptoms
 

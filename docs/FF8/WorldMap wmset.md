@@ -2,7 +2,7 @@
 title: WorldMap wmset
 ---
 
-[Home](Main%20Page.md) > [FF8](FF8.md) > WorldMap wmset
+[Home](../Main%20Page.md.md) > [FF8](../FF8.md) > WorldMap wmset
 
 ## File general info
 

@@ -2,7 +2,7 @@
 title: Animation Script
 ---
 
-[Home](Main%20Page.md) > [FF7](FF7.md) > [Battle](FF7/Battle.md) > [Battle Animation](FF7/Battle/Battle%20Animation.md) > Animation Script
+[Home](../../../Main%20Page.md.md) > [FF7](../../../FF7.md) > [Battle](../../Battle.md) > [Battle Animation](../Battle%20Animation.md) > Animation Script
 
 This page contains information related to the AB animation files of
 battle models.

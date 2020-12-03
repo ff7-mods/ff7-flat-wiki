@@ -2,7 +2,7 @@
 title: FF8
 ---
 
-[Home](Main%20Page.md) > FF8
+[Home](Main%20Page.md.md) > FF8
 
 # Contents
 

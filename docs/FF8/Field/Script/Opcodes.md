@@ -2,7 +2,7 @@
 title: Opcodes
 ---
 
-[Home](Main%20Page.md) > [FF8](FF8.md) > [Field](FF8/Field.md) > [Script](FF8/Field/Script.md) > Opcodes
+[Home](../../../Main%20Page.md.md) > [FF8](../../../FF8.md) > [Field](../../Field.md) > [Script](../Script.md) > Opcodes
 
 By Aali, myst6re and Shard.
 

@@ -2,7 +2,7 @@
 title: FileFormat TDW
 ---
 
-[Home](Main%20Page.md) > [FF8](FF8.md) > FileFormat TDW
+[Home](../Main%20Page.md.md) > [FF8](../FF8.md) > FileFormat TDW
 
 By myst6re.
 

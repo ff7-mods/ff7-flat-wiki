@@ -2,7 +2,7 @@
 title: Attack data
 ---
 
-[Home](Main%20Page.md) > [FF7](FF7.md) > Attack data
+[Home](../Main%20Page.md.md) > [FF7](../FF7.md) > Attack data
 
 ## KERNEL.BIN - Section 2: Attack data format
 

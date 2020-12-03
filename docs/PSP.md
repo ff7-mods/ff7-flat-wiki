@@ -2,7 +2,7 @@
 title: PSP
 ---
 
-[Home](Main%20Page.md) > PSP
+[Home](Main%20Page.md.md) > PSP
 
 <small> This section is for PSP-hardware specific information which
 Crises-Core and Dissidia data is orientated towards. </small>

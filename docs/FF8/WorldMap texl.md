@@ -2,7 +2,7 @@
 title: WorldMap texl
 ---
 
-[Home](Main%20Page.md) > [FF8](FF8.md) > WorldMap texl
+[Home](../Main%20Page.md.md) > [FF8](../FF8.md) > WorldMap texl
 
 Contains 20 [.TIM][] Textures. Every texture is 128x256. Textures
 represent world map (grass, rocks, tunnel entries, gardens, towns). The

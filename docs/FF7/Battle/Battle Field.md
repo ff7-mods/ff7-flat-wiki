@@ -2,7 +2,7 @@
 title: Battle Field
 ---
 
-[Home](Main%20Page.md) > [FF7](FF7.md) > [Battle](FF7/Battle.md) > Battle Field
+[Home](../../Main%20Page.md.md) > [FF7](../../FF7.md) > [Battle](../Battle.md) > Battle Field
 
 Battle fields are simple 3d models drawed in 3d space.
 

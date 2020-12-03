@@ -2,7 +2,7 @@
 title: DB FCFIX
 ---
 
-[Home](Main%20Page.md) > [FF7](FF7.md) > [Field](FF7/Field.md) > [Script](FF7/Field/Script.md) > [Opcodes](FF7/Field/Script/Opcodes.md) > DB FCFIX
+[Home](../../../../Main%20Page.md.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > DB FCFIX
 
 -   Opcode: **0xDB**
 -   Short name: **FCFIX**

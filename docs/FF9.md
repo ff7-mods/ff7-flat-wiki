@@ -2,7 +2,7 @@
 title: FF9
 ---
 
-[Home](Main%20Page.md) > FF9
+[Home](Main%20Page.md.md) > FF9
 
 # Final Fantasy 9 Information
 

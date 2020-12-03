@@ -2,7 +2,7 @@
 title: 0CD SESTOP
 ---
 
-[Home](Main%20Page.md) > [FF8](FF8.md) > [Field](FF8/Field.md) > [Script](FF8/Field/Script.md) > [Opcodes](FF8/Field/Script/Opcodes.md) > 0CD SESTOP
+[Home](../../../../Main%20Page.md.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 0CD SESTOP
 
 -   Opcode: **0x0CD**
 -   Short name: **SESTOP**

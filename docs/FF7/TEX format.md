@@ -2,7 +2,7 @@
 title: TEX format
 ---
 
-[Home](Main%20Page.md) > [FF7](FF7.md) > TEX format
+[Home](../Main%20Page.md.md) > [FF7](../FF7.md) > TEX format
 
 ## TEX Texture Data Format for PC by [Mirex][] (Edits by [Aali][])
 

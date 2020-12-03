@@ -2,7 +2,7 @@
 title: INSTRx.ALL
 ---
 
-[Home](Main%20Page.md) > INSTRx.ALL
+[Home](Main%20Page.md.md) > INSTRx.ALL
 
 1.  REDIRECT [FF7/INSTRx.ALL][]
 

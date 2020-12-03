@@ -2,7 +2,7 @@
 title: 63 SCRLA
 ---
 
-[Home](Main%20Page.md) > [FF7](FF7.md) > [Field](FF7/Field.md) > [Script](FF7/Field/Script.md) > [Opcodes](FF7/Field/Script/Opcodes.md) > 63 SCRLA
+[Home](../../../../Main%20Page.md.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 63 SCRLA
 
 -   Opcode: **0x63**
 -   Short name: **SCRLA**

@@ -2,7 +2,7 @@
 title: 174 UNKNOWN9
 ---
 
-[Home](Main%20Page.md) > [FF8](FF8.md) > [Field](FF8/Field.md) > [Script](FF8/Field/Script.md) > [Opcodes](FF8/Field/Script/Opcodes.md) > 174 UNKNOWN9
+[Home](../../../../Main%20Page.md.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 174 UNKNOWN9
 
 -   Opcode: **0x174**
 -   Short name: **UNKNOWN9**

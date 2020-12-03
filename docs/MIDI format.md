@@ -2,7 +2,7 @@
 title: MIDI format
 ---
 
-[Home](Main%20Page.md) > MIDI format
+[Home](Main%20Page.md.md) > MIDI format
 
 # Standard MIDI File (SMF) Format
 

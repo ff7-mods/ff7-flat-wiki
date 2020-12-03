@@ -2,7 +2,7 @@
 title: Battle Script
 ---
 
-[Home](Main%20Page.md) > [FF7](FF7.md) > [Battle](FF7/Battle.md) > [Battle Scenes](FF7/Battle/Battle%20Scenes.md) > Battle Script
+[Home](../../../Main%20Page.md.md) > [FF7](../../../FF7.md) > [Battle](../../Battle.md) > [Battle Scenes](../Battle%20Scenes.md) > Battle Script
 
 (Information on opcodes provided by Terence Fergusson. Almost all
 information comes from [this post][] on the forums.)

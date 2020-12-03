@@ -2,7 +2,7 @@
 title: WorldMap charaone
 ---
 
-[Home](Main%20Page.md) > [FF8](FF8.md) > WorldMap charaone
+[Home](../Main%20Page.md.md) > [FF8](../FF8.md) > WorldMap charaone
 
 by Maki file is different than field [\[ONE][1]\] Basically you have to
 read the whole file step-by-step as there are minimum pointers and no

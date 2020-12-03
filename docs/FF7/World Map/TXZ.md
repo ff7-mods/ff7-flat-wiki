@@ -2,7 +2,7 @@
 title: TXZ
 ---
 
-[Home](Main%20Page.md) > [FF7](FF7.md) > [World Map](FF7/World%20Map.md) > TXZ
+[Home](../../Main%20Page.md.md) > [FF7](../../FF7.md) > [World Map](../World%20Map.md) > TXZ
 
 ## WM0.TXZ
 

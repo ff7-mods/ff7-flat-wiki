@@ -2,7 +2,7 @@
 title: FileFormat DAT
 ---
 
-[Home](Main%20Page.md) > [FF8](FF8.md) > FileFormat DAT
+[Home](../Main%20Page.md.md) > [FF8](../FF8.md) > FileFormat DAT
 
 By Mirex, JWP, random\_npc and myst6re. Edit: We now know the animation
 and skeleton- see

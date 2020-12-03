@@ -2,7 +2,7 @@
 title: Model Formats
 ---
 
-[Home](Main%20Page.md) > [FF7:CC](FF7:CC.md) > Model Formats
+[Home](../Main%20Page.md.md) > [FF7:CC](../FF7:CC.md) > Model Formats
 
 <small>[Koral][] 16:59, 29 Mar 2009 (EDT)</small>
 

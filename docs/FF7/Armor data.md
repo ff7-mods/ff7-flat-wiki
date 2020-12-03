@@ -2,7 +2,7 @@
 title: Armor data
 ---
 
-[Home](Main%20Page.md) > [FF7](FF7.md) > Armor data
+[Home](../Main%20Page.md.md) > [FF7](../FF7.md) > Armor data
 
 ## KERNEL.BIN - Section 7: Armor data format
 

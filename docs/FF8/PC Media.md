@@ -2,7 +2,7 @@
 title: PC Media
 ---
 
-[Home](Main%20Page.md) > [FF8](FF8.md) > PC Media
+[Home](../Main%20Page.md.md) > [FF8](../FF8.md) > PC Media
 
 # Data File Format
 

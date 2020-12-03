@@ -2,7 +2,7 @@
 title: FF1NES
 ---
 
-[Home](Main%20Page.md) > FF1NES
+[Home](Main%20Page.md.md) > FF1NES
 
 To understand how the data is organized for Final Fantasy 1, you must
 first understand how the original NES operated.

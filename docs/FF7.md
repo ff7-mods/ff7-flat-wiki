@@ -2,7 +2,7 @@
 title: FF7
 ---
 
-[Home](Main%20Page.md) > FF7
+[Home](Main%20Page.md.md) > FF7
 
 <small> This is a Stub article. A Wiki version of Gears should go here.
 For more information, select the "discussion" tab above so we can best

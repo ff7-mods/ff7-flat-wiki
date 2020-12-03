@@ -2,7 +2,7 @@
 title: Encounter
 ---
 
-[Home](Main%20Page.md) > [FF7](FF7.md) > [Field](FF7/Field.md) > Encounter
+[Home](../../Main%20Page.md.md) > [FF7](../../FF7.md) > [Field](../Field.md) > Encounter
 
 ## Overview
 

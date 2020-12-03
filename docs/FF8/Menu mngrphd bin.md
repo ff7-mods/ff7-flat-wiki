@@ -2,7 +2,7 @@
 title: Menu mngrphd bin
 ---
 
-[Home](Main%20Page.md) > [FF8](FF8.md) > Menu mngrphd bin
+[Home](../Main%20Page.md.md) > [FF8](../FF8.md) > Menu mngrphd bin
 
 This is the map for [mngrp.bin][]. Locations to data and the size of the
 section.

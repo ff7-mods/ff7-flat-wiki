@@ -2,7 +2,7 @@
 title: Kernel.bin
 ---
 
-[Home](Main%20Page.md) > [FF7](FF7.md) > [Kernel](FF7/Kernel.md) > Kernel.bin
+[Home](../../Main%20Page.md.md) > [FF7](../../FF7.md) > [Kernel](../Kernel.md) > Kernel.bin
 
 ## Important Files
 

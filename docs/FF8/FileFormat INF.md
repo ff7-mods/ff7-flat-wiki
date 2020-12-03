@@ -2,7 +2,7 @@
 title: FileFormat INF
 ---
 
-[Home](Main%20Page.md) > [FF8](FF8.md) > FileFormat INF
+[Home](../Main%20Page.md.md) > [FF8](../FF8.md) > FileFormat INF
 
 By myst6re.
 

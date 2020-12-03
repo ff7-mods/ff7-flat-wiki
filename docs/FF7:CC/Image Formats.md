@@ -2,7 +2,7 @@
 title: Image Formats
 ---
 
-[Home](Main%20Page.md) > [FF7:CC](FF7:CC.md) > Image Formats
+[Home](../Main%20Page.md.md) > [FF7:CC](../FF7:CC.md) > Image Formats
 
 # Image Interlacing
 

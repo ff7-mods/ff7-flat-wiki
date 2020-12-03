@@ -2,7 +2,7 @@
 title: FileFormat MSK
 ---
 
-[Home](Main%20Page.md) > [FF8](FF8.md) > FileFormat MSK
+[Home](../Main%20Page.md.md) > [FF8](../FF8.md) > FileFormat MSK
 
 By myst6re.
 

@@ -2,7 +2,7 @@
 title: WorldMap music
 ---
 
-[Home](Main%20Page.md) > [FF8](FF8.md) > WorldMap music
+[Home](../Main%20Page.md.md) > [FF8](../FF8.md) > WorldMap music
 
 musicN.obj (where n is 0,1,2,3,4 and 5) is file, that contains AKAO
 frames. AKAO are probably the same as in FF7: [AKAO frames][].

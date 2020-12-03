@@ -2,7 +2,7 @@
 title: Targeting Data
 ---
 
-[Home](Main%20Page.md) > [FF7](FF7.md) > [Battle](FF7/Battle.md) > Targeting Data
+[Home](../../Main%20Page.md.md) > [FF7](../../FF7.md) > [Battle](../Battle.md) > Targeting Data
 
 ## Targeting Data
 

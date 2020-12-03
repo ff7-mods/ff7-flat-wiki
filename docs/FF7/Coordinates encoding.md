@@ -2,7 +2,7 @@
 title: Coordinates encoding
 ---
 
-[Home](Main%20Page.md) > [FF7](FF7.md) > Coordinates encoding
+[Home](../Main%20Page.md.md) > [FF7](../FF7.md) > Coordinates encoding
 
 Coordinates on the world map are stored on 2 DWords and some basic
 decoding has to be done before you can manipulate them.

@@ -2,7 +2,7 @@
 title: BS list
 ---
 
-[Home](Main%20Page.md) > [FF8](FF8.md) > BS list
+[Home](../Main%20Page.md.md) > [FF8](../FF8.md) > BS list
 
 This list was written by kaspar01.
 

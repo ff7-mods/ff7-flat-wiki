@@ -2,7 +2,7 @@
 title: GMO Files
 ---
 
-[Home](Main%20Page.md) > [Dissidia](Dissidia.md) > GMO Files
+[Home](../Main%20Page.md.md) > [Dissidia](../Dissidia.md) > GMO Files
 
 <small>Last updated: [Koral][] 14:04, 30 Mar 2009 (EDT)</small>
 

@@ -2,7 +2,7 @@
 title: Main wm2
 ---
 
-[Home](Main%20Page.md) > [FF8](FF8.md) > Main wm2
+[Home](../Main%20Page.md.md) > [FF8](../FF8.md) > Main wm2
 
 By MaKiPL
 

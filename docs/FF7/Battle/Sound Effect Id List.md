@@ -2,7 +2,7 @@
 title: Sound Effect Id List
 ---
 
-[Home](Main%20Page.md) > [FF7](FF7.md) > [Battle](FF7/Battle.md) > Sound Effect Id List
+[Home](../../Main%20Page.md.md) > [FF7](../../FF7.md) > [Battle](../Battle.md) > Sound Effect Id List
 
 | Id  |               List Of Attacks               |                Description                |
 |:---:|:-------------------------------------------:|:-----------------------------------------:|

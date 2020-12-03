@@ -2,7 +2,7 @@
 title: F3 MUSVT
 ---
 
-[Home](Main%20Page.md) > [FF7](FF7.md) > [Field](FF7/Field.md) > [Script](FF7/Field/Script.md) > [Opcodes](FF7/Field/Script/Opcodes.md) > F3 MUSVT
+[Home](../../../../Main%20Page.md.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > F3 MUSVT
 
 -   Opcode: **0xF3**
 -   Short name: **MUSVT**

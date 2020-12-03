@@ -2,7 +2,7 @@
 title: FA FLITM
 ---
 
-[Home](Main%20Page.md) > [FF7](FF7.md) > [Field](FF7/Field.md) > [Script](FF7/Field/Script.md) > [Opcodes](FF7/Field/Script/Opcodes.md) > [0F SPECIAL](FF7/Field/Script/Opcodes/0F%20SPECIAL.md) > FA FLITM
+[Home](../../../../../Main%20Page.md.md) > [FF7](../../../../../FF7.md) > [Field](../../../../Field.md) > [Script](../../../Script.md) > [Opcodes](../../Opcodes.md) > [0F SPECIAL](../0F%20SPECIAL.md) > FA FLITM
 
 -   Opcode: **0x0FFA**
 -   Short name: **SPECIAL: FLITM**

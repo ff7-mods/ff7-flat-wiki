@@ -2,7 +2,7 @@
 title: Item data
 ---
 
-[Home](Main%20Page.md) > [FF7](FF7.md) > Item data
+[Home](../Main%20Page.md.md) > [FF7](../FF7.md) > Item data
 
 ## KERNEL.BIN - Section 5: Item data format
 

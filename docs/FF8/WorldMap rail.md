@@ -2,7 +2,7 @@
 title: WorldMap rail
 ---
 
-[Home](Main%20Page.md) > [FF8](FF8.md) > WorldMap rail
+[Home](../Main%20Page.md.md) > [FF8](../FF8.md) > WorldMap rail
 
 By MaKiPL
 
