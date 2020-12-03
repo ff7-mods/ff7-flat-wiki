@@ -1,5 +1,6 @@
 ---
 title: Animation Script
+permalink: Animation Script.html
 ---
 
 [Home](../../../Main%20Page.md) > [FF7](../../../FF7.md) > [Battle](../../Battle.md) > [Battle Animation](../Battle%20Animation.md) > Animation Script

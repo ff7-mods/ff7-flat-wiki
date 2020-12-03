@@ -1,5 +1,6 @@
 ---
 title: HRC
+permalink: HRC.html
 ---
 
 [Home](../Main%20Page.md) > [PSX](../PSX.md) > HRC

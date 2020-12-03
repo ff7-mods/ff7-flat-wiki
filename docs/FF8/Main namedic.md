@@ -1,5 +1,6 @@
 ---
 title: Main namedic
+permalink: Main namedic.html
 ---
 
 [Home](../Main%20Page.md) > [FF8](../FF8.md) > Main namedic

@@ -1,5 +1,6 @@
 ---
 title: 06 PRQEW
+permalink: 06 PRQEW.html
 ---
 
 [Home](../../../../Main%20Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Field script](../../Field%20script.md) > [Opcodes](../Opcodes.md) > 06 PRQEW

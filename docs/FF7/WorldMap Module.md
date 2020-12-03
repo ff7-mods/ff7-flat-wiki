@@ -1,5 +1,6 @@
 ---
 title: WorldMap Module
+permalink: WorldMap Module.html
 ---
 
 [Home](../Main%20Page.md) > [FF7](../FF7.md) > WorldMap Module

@@ -1,5 +1,6 @@
 ---
 title: Model Formats
+permalink: Model Formats.html
 ---
 
 [Home](../Main%20Page.md) > [FF7:CC](../FF7:CC.md) > Model Formats

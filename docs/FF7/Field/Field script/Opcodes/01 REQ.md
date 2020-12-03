@@ -1,5 +1,6 @@
 ---
 title: 01 REQ
+permalink: 01 REQ.html
 ---
 
 [Home](../../../../Main%20Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Field script](../../Field%20script.md) > [Opcodes](../Opcodes.md) > 01 REQ

@@ -1,5 +1,6 @@
 ---
 title: Main Page
+permalink: Main Page.html
 ---
 
 [Home]() > Main Page

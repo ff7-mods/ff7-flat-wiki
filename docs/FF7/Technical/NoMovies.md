@@ -1,5 +1,6 @@
 ---
 title: NoMovies
+permalink: NoMovies.html
 ---
 
 [Home](../../Main%20Page.md) > [FF7](../../FF7.md) > [Technical](../Technical.md) > NoMovies

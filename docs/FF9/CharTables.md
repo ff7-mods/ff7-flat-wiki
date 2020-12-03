@@ -1,5 +1,6 @@
 ---
 title: CharTables
+permalink: CharTables.html
 ---
 
 [Home](../Main%20Page.md) > [FF9](../FF9.md) > CharTables

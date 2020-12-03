@@ -1,5 +1,6 @@
 ---
 title: Error 112
+permalink: Error 112.html
 ---
 
 [Home](../../Main%20Page.md) > [FF7](../../FF7.md) > [Technical](../Technical.md) > Error 112

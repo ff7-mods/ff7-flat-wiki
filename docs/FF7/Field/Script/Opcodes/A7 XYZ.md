@@ -1,5 +1,6 @@
 ---
 title: A7 XYZ
+permalink: A7 XYZ.html
 ---
 
 [Home](../../../../Main%20Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > A7 XYZ

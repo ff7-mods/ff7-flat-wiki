@@ -1,5 +1,6 @@
 ---
 title: 181 UNKNOWN16
+permalink: 181 UNKNOWN16.html
 ---
 
 [Home](../../../../Main%20Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 181 UNKNOWN16

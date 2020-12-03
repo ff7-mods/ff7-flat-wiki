@@ -1,5 +1,6 @@
 ---
 title: Battle and growth data
+permalink: Battle and growth data.html
 ---
 
 [Home](../Main%20Page.md) > [FF7](../FF7.md) > Battle and growth data

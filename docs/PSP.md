@@ -1,5 +1,6 @@
 ---
 title: PSP
+permalink: PSP.html
 ---
 
 [Home](Main%20Page.md) > PSP

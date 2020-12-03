@@ -1,5 +1,6 @@
 ---
 title: Menu tkmnmes
+permalink: Menu tkmnmes.html
 ---
 
 [Home](../Main%20Page.md) > [FF8](../FF8.md) > Menu tkmnmes

@@ -1,5 +1,6 @@
 ---
 title: Menu mngrphd bin
+permalink: Menu mngrphd bin.html
 ---
 
 [Home](../Main%20Page.md) > [FF8](../FF8.md) > Menu mngrphd bin

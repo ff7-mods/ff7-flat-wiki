@@ -1,5 +1,6 @@
 ---
 title: 086 ADDPARTY
+permalink: 086 ADDPARTY.html
 ---
 
 [Home](../../../../Main%20Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 086 ADDPARTY

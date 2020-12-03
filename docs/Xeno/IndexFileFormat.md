@@ -1,5 +1,6 @@
 ---
 title: IndexFileFormat
+permalink: IndexFileFormat.html
 ---
 
 [Home](../Main%20Page.md) > [Xeno](../Xeno.md) > IndexFileFormat

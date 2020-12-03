@@ -1,5 +1,6 @@
 ---
 title: A2 DFANM
+permalink: A2 DFANM.html
 ---
 
 [Home](../../../../Main%20Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > A2 DFANM

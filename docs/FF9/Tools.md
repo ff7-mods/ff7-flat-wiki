@@ -1,5 +1,6 @@
 ---
 title: Tools
+permalink: Tools.html
 ---
 
 [Home](../Main%20Page.md) > [FF9](../FF9.md) > Tools

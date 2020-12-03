@@ -1,5 +1,6 @@
 ---
 title: 0C8 SEVOLTRANS
+permalink: 0C8 SEVOLTRANS.html
 ---
 
 [Home](../../../../Main%20Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 0C8 SEVOLTRANS

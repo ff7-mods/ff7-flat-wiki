@@ -1,5 +1,6 @@
 ---
 title: 10D WORLDMAPJUMP
+permalink: 10D WORLDMAPJUMP.html
 ---
 
 [Home](../../../../Main%20Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 10D WORLDMAPJUMP

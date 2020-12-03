@@ -1,5 +1,6 @@
 ---
 title: sector
+permalink: sector.html
 ---
 
 [Home](../../Main%20Page.md) > [FF9](../../FF9.md) > [glossary](../glossary.md) > sector

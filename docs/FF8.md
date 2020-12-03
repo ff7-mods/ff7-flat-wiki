@@ -1,5 +1,6 @@
 ---
 title: FF8
+permalink: FF8.html
 ---
 
 [Home](Main%20Page.md) > FF8

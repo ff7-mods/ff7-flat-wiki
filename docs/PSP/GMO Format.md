@@ -1,5 +1,6 @@
 ---
 title: GMO Format
+permalink: GMO Format.html
 ---
 
 [Home](../Main%20Page.md) > [PSP](../PSP.md) > GMO Format

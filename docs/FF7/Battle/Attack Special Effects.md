@@ -1,5 +1,6 @@
 ---
 title: Attack Special Effects
+permalink: Attack Special Effects.html
 ---
 
 [Home](../../Main%20Page.md) > [FF7](../../FF7.md) > [Battle](../Battle.md) > Attack Special Effects

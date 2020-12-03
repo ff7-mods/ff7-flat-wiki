@@ -1,5 +1,6 @@
 ---
 title: MIDI format
+permalink: MIDI format.html
 ---
 
 [Home](Main%20Page.md) > MIDI format

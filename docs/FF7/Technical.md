@@ -1,5 +1,6 @@
 ---
 title: Technical
+permalink: Technical.html
 ---
 
 [Home](../Main%20Page.md) > [FF7](../FF7.md) > Technical

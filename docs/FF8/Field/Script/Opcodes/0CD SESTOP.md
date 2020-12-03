@@ -1,5 +1,6 @@
 ---
 title: 0CD SESTOP
+permalink: 0CD SESTOP.html
 ---
 
 [Home](../../../../Main%20Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 0CD SESTOP

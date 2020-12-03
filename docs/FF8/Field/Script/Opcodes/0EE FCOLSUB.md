@@ -1,5 +1,6 @@
 ---
 title: 0EE FCOLSUB
+permalink: 0EE FCOLSUB.html
 ---
 
 [Home](../../../../Main%20Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 0EE FCOLSUB

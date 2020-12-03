@@ -1,5 +1,6 @@
 ---
 title: Command data
+permalink: Command data.html
 ---
 
 [Home](../Main%20Page.md) > [FF7](../FF7.md) > Command data

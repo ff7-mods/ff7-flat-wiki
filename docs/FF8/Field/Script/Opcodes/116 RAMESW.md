@@ -1,5 +1,6 @@
 ---
 title: 116 RAMESW
+permalink: 116 RAMESW.html
 ---
 
 [Home](../../../../Main%20Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 116 RAMESW

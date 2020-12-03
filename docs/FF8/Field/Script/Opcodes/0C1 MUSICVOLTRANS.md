@@ -1,5 +1,6 @@
 ---
 title: 0C1 MUSICVOLTRANS
+permalink: 0C1 MUSICVOLTRANS.html
 ---
 
 [Home](../../../../Main%20Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 0C1 MUSICVOLTRANS

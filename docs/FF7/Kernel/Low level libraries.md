@@ -1,5 +1,6 @@
 ---
 title: Low level libraries
+permalink: Low level libraries.html
 ---
 
 [Home](../../Main%20Page.md) > [FF7](../../FF7.md) > [Kernel](../Kernel.md) > Low level libraries

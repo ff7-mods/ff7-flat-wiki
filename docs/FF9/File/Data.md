@@ -1,5 +1,6 @@
 ---
 title: Data
+permalink: Data.html
 ---
 
 [Home](../../Main%20Page.md) > [FF9](../../FF9.md) > [File](../File.md) > Data

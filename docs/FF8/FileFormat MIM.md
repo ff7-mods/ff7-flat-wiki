@@ -1,5 +1,6 @@
 ---
 title: FileFormat MIM
+permalink: FileFormat MIM.html
 ---
 
 [Home](../Main%20Page.md) > [FF8](../FF8.md) > FileFormat MIM

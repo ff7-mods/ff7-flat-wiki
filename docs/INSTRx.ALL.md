@@ -1,5 +1,6 @@
 ---
 title: INSTRx.ALL
+permalink: INSTRx.ALL.html
 ---
 
 [Home](Main%20Page.md) > INSTRx.ALL

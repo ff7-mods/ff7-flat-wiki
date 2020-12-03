@@ -1,5 +1,6 @@
 ---
 title: Targeting Data
+permalink: Targeting Data.html
 ---
 
 [Home](../Main%20Page.md) > [FF7](../FF7.md) > Targeting Data

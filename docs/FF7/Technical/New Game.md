@@ -1,5 +1,6 @@
 ---
 title: New Game
+permalink: New Game.html
 ---
 
 [Home](../../Main%20Page.md) > [FF7](../../FF7.md) > [Technical](../Technical.md) > New Game

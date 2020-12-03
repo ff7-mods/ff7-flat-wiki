@@ -1,5 +1,6 @@
 ---
 title: FIELD.TBL
+permalink: FIELD.TBL.html
 ---
 
 [Home](Main%20Page.md) > FIELD.TBL

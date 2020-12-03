@@ -1,5 +1,6 @@
 ---
 title: Sound Effect Id List
+permalink: Sound Effect Id List.html
 ---
 
 [Home](../../Main%20Page.md) > [FF7](../../FF7.md) > [Battle](../Battle.md) > Sound Effect Id List

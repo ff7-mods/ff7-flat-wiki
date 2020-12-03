@@ -1,5 +1,6 @@
 ---
 title: C2 LADER
+permalink: C2 LADER.html
 ---
 
 [Home](../../../../Main%20Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > C2 LADER

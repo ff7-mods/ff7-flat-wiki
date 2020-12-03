@@ -1,5 +1,6 @@
 ---
 title: 06D KEYSCAN
+permalink: 06D KEYSCAN.html
 ---
 
 [Home](../../../../Main%20Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 06D KEYSCAN

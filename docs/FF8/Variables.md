@@ -1,5 +1,6 @@
 ---
 title: Variables
+permalink: Variables.html
 ---
 
 [Home](../Main%20Page.md) > [FF8](../FF8.md) > Variables

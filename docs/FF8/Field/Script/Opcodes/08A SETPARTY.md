@@ -1,5 +1,6 @@
 ---
 title: 08A SETPARTY
+permalink: 08A SETPARTY.html
 ---
 
 [Home](../../../../Main%20Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 08A SETPARTY

@@ -1,5 +1,6 @@
 ---
 title: Sound
+permalink: Sound.html
 ---
 
 [Home](../Main%20Page.md) > [FF9](../FF9.md) > Sound

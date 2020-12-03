@@ -1,5 +1,6 @@
 ---
 title: 2A PMOVA
+permalink: 2A PMOVA.html
 ---
 
 [Home](../../../../Main%20Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 2A PMOVA

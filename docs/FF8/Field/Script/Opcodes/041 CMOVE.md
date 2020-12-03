@@ -1,5 +1,6 @@
 ---
 title: 041 CMOVE
+permalink: 041 CMOVE.html
 ---
 
 [Home](../../../../Main%20Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 041 CMOVE

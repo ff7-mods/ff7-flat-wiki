@@ -1,5 +1,6 @@
 ---
 title: 02B SETMODEL
+permalink: 02B SETMODEL.html
 ---
 
 [Home](../../../../Main%20Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 02B SETMODEL

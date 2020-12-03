@@ -1,5 +1,6 @@
 ---
 title: FileFormat JSM
+permalink: FileFormat JSM.html
 ---
 
 [Home](../Main%20Page.md) > [FF8](../FF8.md) > FileFormat JSM

@@ -1,5 +1,6 @@
 ---
 title: FF7
+permalink: FF7.html
 ---
 
 [Home](Main%20Page.md) > FF7

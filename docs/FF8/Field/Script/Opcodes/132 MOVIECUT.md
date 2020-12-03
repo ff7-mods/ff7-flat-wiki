@@ -1,5 +1,6 @@
 ---
 title: 132 MOVIECUT
+permalink: 132 MOVIECUT.html
 ---
 
 [Home](../../../../Main%20Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 132 MOVIECUT

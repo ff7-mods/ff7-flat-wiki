@@ -1,5 +1,6 @@
 ---
 title: INSTRx.DAT
+permalink: INSTRx.DAT.html
 ---
 
 [Home](Main%20Page.md) > INSTRx.DAT

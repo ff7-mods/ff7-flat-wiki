@@ -1,5 +1,6 @@
 ---
 title: WorldMap texl
+permalink: WorldMap texl.html
 ---
 
 [Home](../Main%20Page.md) > [FF8](../FF8.md) > WorldMap texl

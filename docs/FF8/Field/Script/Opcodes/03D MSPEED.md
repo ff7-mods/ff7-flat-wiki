@@ -1,5 +1,6 @@
 ---
 title: 03D MSPEED
+permalink: 03D MSPEED.html
 ---
 
 [Home](../../../../Main%20Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 03D MSPEED

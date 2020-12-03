@@ -1,5 +1,6 @@
 ---
 title: IMGSubDir
+permalink: IMGSubDir.html
 ---
 
 [Home](../Main%20Page.md) > [FF9](../FF9.md) > IMGSubDir

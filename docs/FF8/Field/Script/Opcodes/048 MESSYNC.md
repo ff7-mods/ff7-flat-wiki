@@ -1,5 +1,6 @@
 ---
 title: 048 MESSYNC
+permalink: 048 MESSYNC.html
 ---
 
 [Home](../../../../Main%20Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 048 MESSYNC

@@ -1,5 +1,6 @@
 ---
 title: Menu mngrp strings locations
+permalink: Menu mngrp strings locations.html
 ---
 
 [Home](../Main%20Page.md) > [FF8](../FF8.md) > Menu mngrp strings locations

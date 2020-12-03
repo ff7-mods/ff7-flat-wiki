@@ -1,5 +1,6 @@
 ---
 title: Hardware Rendering
+permalink: Hardware Rendering.html
 ---
 
 [Home](../../Main%20Page.md) > [FF7](../../FF7.md) > [Technical](../Technical.md) > Hardware Rendering

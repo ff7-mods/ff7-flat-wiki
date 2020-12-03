@@ -1,5 +1,6 @@
 ---
 title: PSX
+permalink: PSX.html
 ---
 
 [Home](Main%20Page.md) > PSX

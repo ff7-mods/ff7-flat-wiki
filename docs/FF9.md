@@ -1,5 +1,6 @@
 ---
 title: FF9
+permalink: FF9.html
 ---
 
 [Home](Main%20Page.md) > FF9

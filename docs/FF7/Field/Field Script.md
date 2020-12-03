@@ -1,5 +1,6 @@
 ---
 title: Field Script
+permalink: Field Script.html
 ---
 
 [Home](../../Main%20Page.md) > [FF7](../../FF7.md) > [Field](../Field.md) > Field Script

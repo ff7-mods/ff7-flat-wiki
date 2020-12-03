@@ -1,5 +1,6 @@
 ---
 title: FileFormat r0win
+permalink: FileFormat r0win.html
 ---
 
 [Home](../Main%20Page.md) > [FF8](../FF8.md) > FileFormat r0win

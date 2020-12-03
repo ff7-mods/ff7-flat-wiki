@@ -1,5 +1,6 @@
 ---
 title: 02C BASEANIME
+permalink: 02C BASEANIME.html
 ---
 
 [Home](../../../../Main%20Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 02C BASEANIME

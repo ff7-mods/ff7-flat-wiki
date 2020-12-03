@@ -1,5 +1,6 @@
 ---
 title: 028 LADDERDOWN2
+permalink: 028 LADDERDOWN2.html
 ---
 
 [Home](../../../../Main%20Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 028 LADDERDOWN2

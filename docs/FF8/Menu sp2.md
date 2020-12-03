@@ -1,5 +1,6 @@
 ---
 title: Menu sp2
+permalink: Menu sp2.html
 ---
 
 [Home](../Main%20Page.md) > [FF8](../FF8.md) > Menu sp2

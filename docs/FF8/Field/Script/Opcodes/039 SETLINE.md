@@ -1,5 +1,6 @@
 ---
 title: 039 SETLINE
+permalink: 039 SETLINE.html
 ---
 
 [Home](../../../../Main%20Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 039 SETLINE

@@ -1,5 +1,6 @@
 ---
 title: 061 HIDE
+permalink: 061 HIDE.html
 ---
 
 [Home](../../../../Main%20Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 061 HIDE

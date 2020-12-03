@@ -1,5 +1,6 @@
 ---
 title: 021 EFFECTPLAY2
+permalink: 021 EFFECTPLAY2.html
 ---
 
 [Home](../../../../Main%20Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 021 EFFECTPLAY2

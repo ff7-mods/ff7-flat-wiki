@@ -1,5 +1,6 @@
 ---
 title: FF1NES
+permalink: FF1NES.html
 ---
 
 [Home](Main%20Page.md) > FF1NES

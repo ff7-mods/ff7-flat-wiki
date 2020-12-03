@@ -1,5 +1,6 @@
 ---
 title: Introduction
+permalink: Introduction.html
 ---
 
 [Home](../Main%20Page.md) > [Xeno](../Xeno.md) > Introduction

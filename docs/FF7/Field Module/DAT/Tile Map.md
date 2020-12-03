@@ -1,5 +1,6 @@
 ---
 title: Tile Map
+permalink: Tile Map.html
 ---
 
 [Home](../../../Main%20Page.md) > [FF7](../../../FF7.md) > [Field Module](../../Field%20Module.md) > [DAT](../DAT.md) > Tile Map

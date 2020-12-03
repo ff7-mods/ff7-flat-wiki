@@ -1,5 +1,6 @@
 ---
 title: 02A MAPJUMP3
+permalink: 02A MAPJUMP3.html
 ---
 
 [Home](../../../../Main%20Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 02A MAPJUMP3

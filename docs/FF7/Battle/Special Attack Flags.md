@@ -1,5 +1,6 @@
 ---
 title: Special Attack Flags
+permalink: Special Attack Flags.html
 ---
 
 [Home](../../Main%20Page.md) > [FF7](../../FF7.md) > [Battle](../Battle.md) > Special Attack Flags

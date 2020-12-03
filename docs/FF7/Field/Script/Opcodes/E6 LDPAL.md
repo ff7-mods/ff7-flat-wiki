@@ -1,5 +1,6 @@
 ---
 title: E6 LDPAL
+permalink: E6 LDPAL.html
 ---
 
 [Home](../../../../Main%20Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > E6 LDPAL

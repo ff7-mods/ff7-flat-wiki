@@ -1,5 +1,6 @@
 ---
 title: BC CANM!2
+permalink: BC CANM!2.html
 ---
 
 [Home](../../../../Main%20Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > BC CANM!2
