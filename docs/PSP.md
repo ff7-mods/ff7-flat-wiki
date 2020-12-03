@@ -2,7 +2,7 @@
 title: PSP
 ---
 
-[Home](Main Page.md) > PSP
+[Home](Main_Page.md) > PSP
 
 <small> This section is for PSP-hardware specific information which Crises-Core and Dissidia data is orientated towards. </small>
 
@@ -43,7 +43,7 @@ TODO
 <small>Information: **MrAdults**, **Ukurere**</small>
 
   
-The GMO Format is described in greater detail here: [PSP GMO Format](PSP/GMO Format.md)
+The GMO Format is described in greater detail here: [PSP GMO Format](PSP/GMO_Format.md)
 
   
 

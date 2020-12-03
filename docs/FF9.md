@@ -2,7 +2,7 @@
 title: FF9
 ---
 
-[Home](Main Page.md) > FF9
+[Home](Main_Page.md) > FF9
 
 # Final Fantasy 9 Information
 
@@ -72,13 +72,13 @@ This chunk contains pointers to other DB structures.
 
 # [Character Tables](FF9/CharTables.md)
 
-## [European & US Tables](FF9/CharTables.md#Character Table for EU .26 US version)
+## [European & US Tables](FF9/CharTables.md#Character_Table_for_EU_.26_US_version)
 
-## [Japanese Table](FF9/CharTables.md#Character Table for JP version)
+## [Japanese Table](FF9/CharTables.md#Character_Table_for_JP_version)
 
-## [Kanji Table A](FF9/CharTables.md#Kanji Table A)
+## [Kanji Table A](FF9/CharTables.md#Kanji_Table_A)
 
-## [Kanji Table B](FF9/CharTables.md#Kanji Table B)
+## [Kanji Table B](FF9/CharTables.md#Kanji_Table_B)
 
 # Sound
 

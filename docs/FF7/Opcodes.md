@@ -2,7 +2,7 @@
 title: Opcodes
 ---
 
-[Home](../Main Page.md) > [FF7](../FF7.md) > Opcodes
+[Home](../Main_Page.md) > [FF7](../FF7.md) > Opcodes
 
 # Opcode Matrix
 

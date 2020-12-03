@@ -2,7 +2,7 @@
 title: Script
 ---
 
-[Home](../../Main Page.md) > [FF8](../../FF8.md) > [Field](../Field.md) > Script
+[Home](../../Main_Page.md) > [FF8](../../FF8.md) > [Field](../Field.md) > Script
 
 This page is currently under construction.
 

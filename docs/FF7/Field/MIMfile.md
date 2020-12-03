@@ -2,7 +2,7 @@
 title: MIMfile
 ---
 
-[Home](../../Main Page.md) > [FF7](../../FF7.md) > [Field](../Field.md) > MIMfile
+[Home](../../Main_Page.md) > [FF7](../../FF7.md) > [Field](../Field.md) > MIMfile
 
 ## MIM File structure
 

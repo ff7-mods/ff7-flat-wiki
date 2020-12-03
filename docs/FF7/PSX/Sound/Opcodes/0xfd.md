@@ -2,7 +2,7 @@
 title: 0xfd
 ---
 
-[Home](../../../../Main Page.md) > [FF7](../../../../FF7.md) > [PSX](../../../PSX.md) > [Sound](../../Sound.md) > [Opcodes](../Opcodes.md) > 0xfd
+[Home](../../../../Main_Page.md) > [FF7](../../../../FF7.md) > [PSX](../../../PSX.md) > [Sound](../../Sound.md) > [Opcodes](../Opcodes.md) > 0xfd
 
 ## 0xFD (Unknown Yet)
 

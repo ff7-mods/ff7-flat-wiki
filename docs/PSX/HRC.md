@@ -2,7 +2,7 @@
 title: HRC
 ---
 
-[Home](../Main Page.md) > [PSX](../PSX.md) > HRC
+[Home](../Main_Page.md) > [PSX](../PSX.md) > HRC
 
 ## HRC Hierarchy data format
 

@@ -2,7 +2,7 @@
 title: Variables
 ---
 
-[Home](../Main Page.md) > [FF8](../FF8.md) > Variables
+[Home](../Main_Page.md) > [FF8](../FF8.md) > Variables
 
 By [Shard](../User:Shard.md).
 
@@ -73,7 +73,7 @@ Items in grey are unused by field scripts (some of them may be used in battle sc
 | Byte        | 306-319     | Reserved for Hacktuar / FF8Voice                                                                                                                                        |
 | Byte        | 320-332     | Ultimecia Gallery related (pictures viewed?)                                                                                                                            |
 | Byte        | 333         | Ultimecia Armory chest flags                                                                                                                                            |
-| Byte        | 334         | Ultimecia Castle seals. See [SEALEDOFF](Field/Script/Opcodes/159 SEALEDOFF.md) for details.                                                                 |
+| Byte        | 334         | Ultimecia Castle seals. See [SEALEDOFF](Field/Script/Opcodes/159_SEALEDOFF.md) for details.                                                                 |
 | Byte        | 335         | Card related                                                                                                                                                            |
 | Byte        | 336         | Deling City bus related                                                                                                                                                 |
 | Byte        | 338-340     | Deling Sewer gates opened                                                                                                                                               |

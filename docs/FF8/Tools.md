@@ -2,7 +2,7 @@
 title: Tools
 ---
 
-[Home](../Main Page.md) > [FF8](../FF8.md) > Tools
+[Home](../Main_Page.md) > [FF8](../FF8.md) > Tools
 
 ## Essentials
 

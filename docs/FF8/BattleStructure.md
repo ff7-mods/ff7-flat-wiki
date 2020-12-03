@@ -2,7 +2,7 @@
 title: BattleStructure
 ---
 
-[Home](../Main Page.md) > [FF8](../FF8.md) > BattleStructure
+[Home](../Main_Page.md) > [FF8](../FF8.md) > BattleStructure
 
 By JeMaCheHi
 

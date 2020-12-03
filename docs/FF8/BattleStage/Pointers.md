@@ -2,11 +2,11 @@
 title: Pointers
 ---
 
-[Home](../../Main Page.md) > [FF8](../../FF8.md) > [BattleStage](../BattleStage.md) > Pointers
+[Home](../../Main_Page.md) > [FF8](../../FF8.md) > [BattleStage](../BattleStage.md) > Pointers
 
 By MaKiPL.
 
-FF8 engine reads [Battle Stage files](../FileFormat X.md)
+FF8 engine reads [Battle Stage files](../FileFormat_X.md)
 
 **Here's the list:**
 

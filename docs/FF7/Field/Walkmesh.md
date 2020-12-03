@@ -2,7 +2,7 @@
 title: Walkmesh
 ---
 
-[Home](../../Main Page.md) > [FF7](../../FF7.md) > [Field](../Field.md) > Walkmesh
+[Home](../../Main_Page.md) > [FF7](../../FF7.md) > [Field](../Field.md) > Walkmesh
 
 ### Section 5: Walkmesh ([Kero](../../User:Kero.md)
 

@@ -2,7 +2,7 @@
 title: Dissidia
 ---
 
-[Home](Main Page.md) > Dissidia
+[Home](Main_Page.md) > Dissidia
 
 <small> Last updated: [Koral](User:Koral.md) </small>
 
@@ -33,7 +33,7 @@ The name "Dissidia" comes from the latin word "Dissidium", which originated word
 ### GMO Models
 
 -   These files contain all the **Characters** and **Location-Map** models within the game.
--   The data-format is standard [PSP GMO Format](PSP/GMO Format.md)
+-   The data-format is standard [PSP GMO Format](PSP/GMO_Format.md)
 -   A complete list of Models referenced by the Filenames can be found here: \[\[Dissidia/GMO\_Files/File\_List\|\[GMO\] File List\]\]
 
 .

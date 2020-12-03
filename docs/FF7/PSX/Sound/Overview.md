@@ -2,7 +2,7 @@
 title: Overview
 ---
 
-[Home](../../../Main Page.md) > [FF7](../../../FF7.md) > [PSX](../../PSX.md) > [Sound](../Sound.md) > Overview
+[Home](../../../Main_Page.md) > [FF7](../../../FF7.md) > [PSX](../../PSX.md) > [Sound](../Sound.md) > Overview
 
 ## Overview
 

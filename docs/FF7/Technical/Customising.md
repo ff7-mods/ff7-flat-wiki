@@ -2,7 +2,7 @@
 title: Customising
 ---
 
-[Home](../../Main Page.md) > [FF7](../../FF7.md) > [Technical](../Technical.md) > Customising
+[Home](../../Main_Page.md) > [FF7](../../FF7.md) > [Technical](../Technical.md) > Customising
 
 ## Essentials
 

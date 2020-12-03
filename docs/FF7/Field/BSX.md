@@ -2,7 +2,7 @@
 title: BSX
 ---
 
-[Home](../../Main Page.md) > [FF7](../../FF7.md) > [Field](../Field.md) > BSX
+[Home](../../Main_Page.md) > [FF7](../../FF7.md) > [Field](../Field.md) > BSX
 
 # BSX file structure (thanks to [Micky's tool](http://web.archive.org/web/20170521085448/http://forums.qhimm.com/index.php?topic=8969.msg122920#msg122920), Akari's work, and Lazy Bastard's work)
 

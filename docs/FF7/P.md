@@ -2,7 +2,7 @@
 title: P
 ---
 
-[Home](../Main Page.md) > [FF7](../FF7.md) > P
+[Home](../Main_Page.md) > [FF7](../FF7.md) > P
 
 This page describes format of P files.
 

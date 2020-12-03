@@ -2,7 +2,7 @@
 title: 0xa8aa
 ---
 
-[Home](../../../../Main Page.md) > [FF7](../../../../FF7.md) > [PSX](../../../PSX.md) > [Sound](../../Sound.md) > [Opcodes](../Opcodes.md) > 0xa8aa
+[Home](../../../../Main_Page.md) > [FF7](../../../../FF7.md) > [PSX](../../../PSX.md) > [Sound](../../Sound.md) > [Opcodes](../Opcodes.md) > 0xa8aa
 
 ## 0xA8, 0xAA, 0xA3 (Channel Volume, Pan, Volume Modifier)
 

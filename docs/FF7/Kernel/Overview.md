@@ -2,7 +2,7 @@
 title: Overview
 ---
 
-[Home](../../Main Page.md) > [FF7](../../FF7.md) > [Kernel](../Kernel.md) > Overview
+[Home](../../Main_Page.md) > [FF7](../../FF7.md) > [Kernel](../Kernel.md) > Overview
 
 ## History
 

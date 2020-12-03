@@ -2,7 +2,7 @@
 title: Script
 ---
 
-[Home](../../Main Page.md) > [FF7](../../FF7.md) > [Field](../Field.md) > Script
+[Home](../../Main_Page.md) > [FF7](../../FF7.md) > [Field](../Field.md) > Script
 
 ### Section 1: Dialog and Event ([Halkun](User:Halkun "wikilink"), [Lasyan](User:Lasyan "wikilink"), [Qhimm](User:Qhimm "wikilink") and [Ficedula](../../User:Ficedula.md)
 
@@ -32,7 +32,7 @@ The data in this section also has a header with the following format.
 
 Here we have all of the pointers tables, one for each section. Pointers are 2 bytes length. Each table has a length of 64 bytes, which means a section can have 32 scripts max. Each pointer refers to the first command of the current script. The section number N begins at the offset header\_length+N\*64. Note: the only way to retrieve the length of a script is to subtract the position of the next script to the position of the current script.
 
-[Cyberman](User:Cyberman "wikilink") 14:05, 30 Dec 2006 (CST) Unused events in the event script subsection point to a [00 RET](Script/Opcodes/00 RET.md). This must be strictly adhered too or the FF7 engine will crash.
+[Cyberman](User:Cyberman "wikilink") 14:05, 30 Dec 2006 (CST) Unused events in the event script subsection point to a [00 RET](Script/Opcodes/00_RET.md). This must be strictly adhered too or the FF7 engine will crash.
 
 #### Event Script
 

@@ -2,7 +2,7 @@
 title: Savemap
 ---
 
-[Home](../Main Page.md) > [FF7](../FF7.md) > Savemap
+[Home](../Main_Page.md) > [FF7](../FF7.md) > Savemap
 
 ### The Savemap
 
@@ -20,7 +20,7 @@ Technically this is a DWord, but the checksum generation method only stores the 
 0x09: Young Cloud<br />
 0x0A: Sephiroth<br />
 0x0B: Chocobo<br />
-0xFF: None</p></td><td style="text-align: center;"></td></tr><tr class="odd"><td><p>0x0006</p></td><td><p>1 byte</p></td><td style="text-align: center;"><p><strong>Save Preview</strong>: 2nd character's portrait</p></td></tr><tr class="even"><td><p>0x0007</p></td><td><p>1 byte</p></td><td style="text-align: center;"><p><strong>Save Preview</strong>: 3rd character's portrait</p></td></tr><tr class="odd"><td><p>0x0008</p></td><td><p>16 bytes</p></td><td style="text-align: center;"><p><strong>Save Preview</strong>: Lead character's name, <a href="FF Text.md" title="wikilink">FF Text format</a> , terminated with 0xFF</p></td></tr><tr class="even"><td><p>0x0018</p></td><td><p>2 bytes</p></td><td style="text-align: center;"><p><strong>Save Preview</strong>: Lead character's current HP</p></td></tr><tr class="odd"><td><p>0x001A</p></td><td><p>2 bytes</p></td><td style="text-align: center;"><p><strong>Save Preview</strong>: Lead character's max HP</p></td></tr><tr class="even"><td><p>0x001C</p></td><td><p>2 bytes</p></td><td style="text-align: center;"><p><strong>Save Preview</strong>: Lead character's current MP</p></td></tr><tr class="odd"><td><p>0x001E</p></td><td><p>2 bytes</p></td><td style="text-align: center;"><p><strong>Save Preview</strong>: Lead character's max MP</p></td></tr><tr class="even"><td><p>0x0020</p></td><td><p>4 bytes</p></td><td style="text-align: center;"><p><strong>Save Preview</strong>: Amount of Gil</p></td></tr><tr class="odd"><td><p>0x0024</p></td><td><p>4 bytes</p></td><td style="text-align: center;"><p><strong>Save Preview</strong>: Total number of seconds played</p></td></tr><tr class="even"><td><p>0x0028</p></td><td><p>32 bytes</p></td><td style="text-align: center;"><p><strong>Save Preview</strong>: Save location, <a href="FF Text.md" title="wikilink">FF Text format</a>, terminated with 0xFF</p></td></tr><tr class="odd"><td><p>0x0048</p></td><td><p>3 bytes</p></td><td style="text-align: center;"><p>RGB value for upper left corner of window</p></td></tr><tr class="even"><td><p>0x004B</p></td><td><p>3 bytes</p></td><td style="text-align: center;"><p>RGB value for upper right corner of window</p></td></tr><tr class="odd"><td><p>0x004E</p></td><td><p>3 bytes</p></td><td style="text-align: center;"><p>RGB value for lower left corner of window</p></td></tr><tr class="even"><td><p>0x0051</p></td><td><p>3 bytes</p></td><td style="text-align: center;"><p>RGB value for lower right corner of window</p></td></tr><tr class="odd"><td><p>0x0054</p></td><td><p>132 bytes</p></td><td style="text-align: center;"><p><strong><a href="#character-record" title="wikilink">Character Record</a></strong>: Cloud</p></td></tr><tr class="even"><td><p>0x00D8</p></td><td><p>132 bytes</p></td><td style="text-align: center;"><p><strong><a href="#character-record" title="wikilink">Character Record</a></strong>: Barret</p></td></tr><tr class="odd"><td><p>0x015C</p></td><td><p>132 bytes</p></td><td style="text-align: center;"><p><strong><a href="#character-record" title="wikilink">Character Record</a></strong>: Tifa</p></td></tr><tr class="even"><td><p>0x01E0</p></td><td><p>132 bytes</p></td><td style="text-align: center;"><p><strong><a href="#character-record" title="wikilink">Character Record</a></strong>: Aeris's</p></td></tr><tr class="odd"><td><p>0x0264</p></td><td><p>132 bytes</p></td><td style="text-align: center;"><p><strong><a href="#character-record" title="wikilink">Character Record</a></strong>: Red XIII</p></td></tr><tr class="even"><td><p>0x02E8</p></td><td><p>132 bytes</p></td><td style="text-align: center;"><p><strong><a href="#character-record" title="wikilink">Character Record</a></strong>: Yuffie</p></td></tr><tr class="odd"><td><p>0x036C</p></td><td><p>132 bytes</p></td><td style="text-align: center;"><p><strong><a href="#character-record" title="wikilink">Character Record</a></strong>: Cait Sith (or Young Cloud)</p></td></tr><tr class="even"><td><p>0x03F0</p></td><td><p>132 bytes</p></td><td style="text-align: center;"><p><strong><a href="#character-record" title="wikilink">Character Record</a></strong>: Vincent (or Sephiroth)</p></td></tr><tr class="odd"><td><p>0x0474</p></td><td><p>132 bytes</p></td><td style="text-align: center;"><p><strong><a href="#character-record" title="wikilink">Character Record</a></strong>: Cid</p></td></tr><tr class="even"><td><p>0x04F8</p></td><td><p>1 byte</p></td><td style="text-align: center;"><p>Party member in slot 1 [uses same format as character portrait above]</p></td></tr><tr class="odd"><td><p>0x04F9</p></td><td><p>1 byte</p></td><td style="text-align: center;"><p>Party member in slot 2</p></td></tr><tr class="even"><td><p>0x04FA</p></td><td><p>1 byte</p></td><td style="text-align: center;"><p>Party member in slot 3</p></td></tr><tr class="odd"><td><p>0x04FB</p></td><td><p>1 byte</p></td><td style="text-align: center;"><p>Alignment (Always 0xFF)</p></td></tr><tr class="even"><td><p>0x04FC</p></td><td><p>640 bytes</p></td><td style="text-align: center;"><p>Party Item stock, 2 bytes per item, 320 item slots max [See <a href="#save-item-list" title="wikilink">save item list</a> below]</p></td></tr><tr class="odd"><td><p>0x077C</p></td><td><p>800 bytes</p></td><td style="text-align: center;"><p>Party Materia stock, 4 bytes per materia, 200 materia max [See <a href="#save-materia-list" title="wikilink">save materia list</a> ]</p></td></tr><tr class="even"><td><p>0x0A9C</p></td><td><p>192 bytes</p></td><td style="text-align: center;"><p>Materia stolen by Yuffie, 4 bytes per materia, 48 materia max [See <a href="#save-materia-list" title="wikilink">save materia list</a> ]</p></td></tr><tr class="odd"><td><p>0x0B5C</p></td><td><p>32 bytes</p></td><td style="text-align: center;"><p>z_3 Unknown (Always 0xFF?)</p></td></tr><tr class="even"><td><p>0x0B7C</p></td><td><p>4 bytes</p></td><td style="text-align: center;"><p>Party's Gil amount</p></td></tr><tr class="odd"><td><p>0x0B80</p></td><td><p>4 bytes</p></td><td style="text-align: center;"><p>Total number of seconds played</p></td></tr><tr class="even"><td><p>0x0B84</p></td><td><p>4 bytes</p></td><td style="text-align: center;"><p>Countdown Timer (in seconds)</p></td></tr><tr class="odd"><td><p>0x0B88</p></td><td><p>12 bytes</p></td><td style="text-align: center;"><p>z_4 Unknown</p></td></tr><tr class="even"><td><p>0x0B88<br />
+0xFF: None</p></td><td style="text-align: center;"></td></tr><tr class="odd"><td><p>0x0006</p></td><td><p>1 byte</p></td><td style="text-align: center;"><p><strong>Save Preview</strong>: 2nd character's portrait</p></td></tr><tr class="even"><td><p>0x0007</p></td><td><p>1 byte</p></td><td style="text-align: center;"><p><strong>Save Preview</strong>: 3rd character's portrait</p></td></tr><tr class="odd"><td><p>0x0008</p></td><td><p>16 bytes</p></td><td style="text-align: center;"><p><strong>Save Preview</strong>: Lead character's name, <a href="FF_Text.md" title="wikilink">FF Text format</a> , terminated with 0xFF</p></td></tr><tr class="even"><td><p>0x0018</p></td><td><p>2 bytes</p></td><td style="text-align: center;"><p><strong>Save Preview</strong>: Lead character's current HP</p></td></tr><tr class="odd"><td><p>0x001A</p></td><td><p>2 bytes</p></td><td style="text-align: center;"><p><strong>Save Preview</strong>: Lead character's max HP</p></td></tr><tr class="even"><td><p>0x001C</p></td><td><p>2 bytes</p></td><td style="text-align: center;"><p><strong>Save Preview</strong>: Lead character's current MP</p></td></tr><tr class="odd"><td><p>0x001E</p></td><td><p>2 bytes</p></td><td style="text-align: center;"><p><strong>Save Preview</strong>: Lead character's max MP</p></td></tr><tr class="even"><td><p>0x0020</p></td><td><p>4 bytes</p></td><td style="text-align: center;"><p><strong>Save Preview</strong>: Amount of Gil</p></td></tr><tr class="odd"><td><p>0x0024</p></td><td><p>4 bytes</p></td><td style="text-align: center;"><p><strong>Save Preview</strong>: Total number of seconds played</p></td></tr><tr class="even"><td><p>0x0028</p></td><td><p>32 bytes</p></td><td style="text-align: center;"><p><strong>Save Preview</strong>: Save location, <a href="FF_Text.md" title="wikilink">FF Text format</a>, terminated with 0xFF</p></td></tr><tr class="odd"><td><p>0x0048</p></td><td><p>3 bytes</p></td><td style="text-align: center;"><p>RGB value for upper left corner of window</p></td></tr><tr class="even"><td><p>0x004B</p></td><td><p>3 bytes</p></td><td style="text-align: center;"><p>RGB value for upper right corner of window</p></td></tr><tr class="odd"><td><p>0x004E</p></td><td><p>3 bytes</p></td><td style="text-align: center;"><p>RGB value for lower left corner of window</p></td></tr><tr class="even"><td><p>0x0051</p></td><td><p>3 bytes</p></td><td style="text-align: center;"><p>RGB value for lower right corner of window</p></td></tr><tr class="odd"><td><p>0x0054</p></td><td><p>132 bytes</p></td><td style="text-align: center;"><p><strong><a href="#character-record" title="wikilink">Character Record</a></strong>: Cloud</p></td></tr><tr class="even"><td><p>0x00D8</p></td><td><p>132 bytes</p></td><td style="text-align: center;"><p><strong><a href="#character-record" title="wikilink">Character Record</a></strong>: Barret</p></td></tr><tr class="odd"><td><p>0x015C</p></td><td><p>132 bytes</p></td><td style="text-align: center;"><p><strong><a href="#character-record" title="wikilink">Character Record</a></strong>: Tifa</p></td></tr><tr class="even"><td><p>0x01E0</p></td><td><p>132 bytes</p></td><td style="text-align: center;"><p><strong><a href="#character-record" title="wikilink">Character Record</a></strong>: Aeris's</p></td></tr><tr class="odd"><td><p>0x0264</p></td><td><p>132 bytes</p></td><td style="text-align: center;"><p><strong><a href="#character-record" title="wikilink">Character Record</a></strong>: Red XIII</p></td></tr><tr class="even"><td><p>0x02E8</p></td><td><p>132 bytes</p></td><td style="text-align: center;"><p><strong><a href="#character-record" title="wikilink">Character Record</a></strong>: Yuffie</p></td></tr><tr class="odd"><td><p>0x036C</p></td><td><p>132 bytes</p></td><td style="text-align: center;"><p><strong><a href="#character-record" title="wikilink">Character Record</a></strong>: Cait Sith (or Young Cloud)</p></td></tr><tr class="even"><td><p>0x03F0</p></td><td><p>132 bytes</p></td><td style="text-align: center;"><p><strong><a href="#character-record" title="wikilink">Character Record</a></strong>: Vincent (or Sephiroth)</p></td></tr><tr class="odd"><td><p>0x0474</p></td><td><p>132 bytes</p></td><td style="text-align: center;"><p><strong><a href="#character-record" title="wikilink">Character Record</a></strong>: Cid</p></td></tr><tr class="even"><td><p>0x04F8</p></td><td><p>1 byte</p></td><td style="text-align: center;"><p>Party member in slot 1 [uses same format as character portrait above]</p></td></tr><tr class="odd"><td><p>0x04F9</p></td><td><p>1 byte</p></td><td style="text-align: center;"><p>Party member in slot 2</p></td></tr><tr class="even"><td><p>0x04FA</p></td><td><p>1 byte</p></td><td style="text-align: center;"><p>Party member in slot 3</p></td></tr><tr class="odd"><td><p>0x04FB</p></td><td><p>1 byte</p></td><td style="text-align: center;"><p>Alignment (Always 0xFF)</p></td></tr><tr class="even"><td><p>0x04FC</p></td><td><p>640 bytes</p></td><td style="text-align: center;"><p>Party Item stock, 2 bytes per item, 320 item slots max [See <a href="#save-item-list" title="wikilink">save item list</a> below]</p></td></tr><tr class="odd"><td><p>0x077C</p></td><td><p>800 bytes</p></td><td style="text-align: center;"><p>Party Materia stock, 4 bytes per materia, 200 materia max [See <a href="#save-materia-list" title="wikilink">save materia list</a> ]</p></td></tr><tr class="even"><td><p>0x0A9C</p></td><td><p>192 bytes</p></td><td style="text-align: center;"><p>Materia stolen by Yuffie, 4 bytes per materia, 48 materia max [See <a href="#save-materia-list" title="wikilink">save materia list</a> ]</p></td></tr><tr class="odd"><td><p>0x0B5C</p></td><td><p>32 bytes</p></td><td style="text-align: center;"><p>z_3 Unknown (Always 0xFF?)</p></td></tr><tr class="even"><td><p>0x0B7C</p></td><td><p>4 bytes</p></td><td style="text-align: center;"><p>Party's Gil amount</p></td></tr><tr class="odd"><td><p>0x0B80</p></td><td><p>4 bytes</p></td><td style="text-align: center;"><p>Total number of seconds played</p></td></tr><tr class="even"><td><p>0x0B84</p></td><td><p>4 bytes</p></td><td style="text-align: center;"><p>Countdown Timer (in seconds)</p></td></tr><tr class="odd"><td><p>0x0B88</p></td><td><p>12 bytes</p></td><td style="text-align: center;"><p>z_4 Unknown</p></td></tr><tr class="even"><td><p>0x0B88<br />
 z_4[0]</p></td><td><p>4 byte</p></td><td style="text-align: center;"><p>Used to calculate fractions of seconds (1/65535) of Game timer (0x0B80).<br />
 Technically this is a DWord, but only the lower Word is used.</p></td></tr><tr class="odd"><td><p>0x0B8C<br />
 z_4[4]</p></td><td><p>4 byte</p></td><td style="text-align: center;"><p>Used to calculate fractions of seconds (1/65535) of Countdown timer (0x0B84).<br />
@@ -28,7 +28,7 @@ Share the same value with 0x0B88.</p></td></tr><tr class="even"><td><p>0x0B90<br
 z_4[8]</p></td><td><p>4 byte</p></td><td style="text-align: center;"><p>This is set along with Current map value (0x0B94).<br />
 If Current module value is 1, this is set to 2.<br />
 If Current module value is 3, this is set to 0.<br />
-Technically this is a DWord, but only the lower Byte is used.</p></td></tr><tr class="odd"><td><p>0x0B94</p></td><td><p>2 bytes</p></td><td style="text-align: center;"><p>Current <a href="Engine basics.md" title="wikilink">module</a><br />
+Technically this is a DWord, but only the lower Byte is used.</p></td></tr><tr class="odd"><td><p>0x0B94</p></td><td><p>2 bytes</p></td><td style="text-align: center;"><p>Current <a href="Engine_basics.md" title="wikilink">module</a><br />
 If value is 1, the game was saved in the field.<br />
 If value is 3, the game was saved in the world map.</p></td></tr><tr class="even"><td><p>0x0B96</p></td><td><p>2 bytes</p></td><td style="text-align: center;"><p>Current location</p></td></tr><tr class="odd"><td><p>0x0B98</p></td><td><p>2 bytes</p></td><td style="text-align: center;"><p>Alignment (Always 0x00)</p></td></tr><tr class="even"><td><p>0x0B9A</p></td><td><p>2 bytes</p></td><td style="text-align: center;"><p>X location on Field map (Signed)</p></td></tr><tr class="odd"><td><p>0x0B9C</p></td><td><p>2 bytes</p></td><td style="text-align: center;"><p>Y location on Field map (Signed)</p></td></tr><tr class="even"><td><p>0x0B9E</p></td><td><p>2 bytes</p></td><td style="text-align: center;"><p>Triangle Id of player on Field map (Unsigned)</p></td></tr><tr class="odd"><td><p>0x0BA0</p></td><td><p>1 byte</p></td><td style="text-align: center;"><p>Direction of Player Model on Field Map(Unsigned)</p></td></tr><tr class="even"><td><p>0x0BA1</p></td><td><p>3 bytes</p></td><td style="text-align: center;"><p>z_6 Unknown</p></td></tr><tr class="odd"><td><p>0x0BA1<br />
 z_6[0]</p></td><td><p>1 byte</p></td><td style="text-align: center;"><p>Field Encounter Timer: StepID/Seed (<a href="http://web.archive.org/web/20170518233623/http://forums.qhimm.com/index.php?topic=6431.msg81091#msg81091">[1</a>])</p></td></tr><tr class="even"><td><p>0x0BA2<br />
@@ -75,7 +75,7 @@ z_8[16]</p></td><td><p>1 bytes</p></td><td><p>Countdown Timer Frames. From 0 to 
 z_9[0]</p></td><td><p>4 byte</p></td><td><p>Unknown (Always 0x00?)<br />
 </p></td></tr><tr class="even"><td><p>0x0BC8<br />
 z_9[4]</p></td><td><p>1 byte</p></td><td><p>Field Items, Sector 7 Train Graveyard<br />
-Item bit mask (<a href="../Bit numbering.md" title="wikilink">LBS</a>) (applied when you pick them up).<br />
+Item bit mask (<a href="../Bit_numbering.md" title="wikilink">LBS</a>) (applied when you pick them up).<br />
 Bit=0(Item on the floor), Bit=1(Item Picked Up).<br />
 0x01: Hi-Potion.(mds7st1|Barrel 1)<br />
 0x02: Echo Screen.(mds7st1|Barrel 2)<br />
@@ -97,7 +97,7 @@ z_9[5]</p></td><td><p>1 byte</p></td><td><p>Field Items<br />
 0x80: Unused<br />
 </p></td></tr><tr class="even"><td><p>0x0BCA<br />
 z_9[6]</p></td><td><p>10 byte</p></td><td><p>Unknown (Always 0x00?)<br />
-</p></td></tr><tr class="odd"><td><p>0x0BD4</p></td><td><p>1 byte</p></td><td><p>Item bit mask (<a href="../Bit numbering.md" title="wikilink">LBS</a>)(applied when you pick them up). Field Item / Materia<br />
+</p></td></tr><tr class="odd"><td><p>0x0BD4</p></td><td><p>1 byte</p></td><td><p>Item bit mask (<a href="../Bit_numbering.md" title="wikilink">LBS</a>)(applied when you pick them up). Field Item / Materia<br />
 Bit=0(Item on the floor), Bit=1(Item Picked Up).<br />
 0x01: Potion {md8_3/p/s1}<br />
 0x02: Potion + Phoenix Down {ealin_2/zu/s1}<br />
@@ -140,7 +140,7 @@ z_10[1]</p></td><td><p>1 byte</p></td><td><p>Field Items<br />
 z_10[2]</p></td><td><p>4 byte</p></td><td><p>Unknown (Always 0x00?)<br />
 </p></td></tr><tr class="odd"><td><p>0x0BDC<br />
 z_10[6]</p></td><td><p>1 byte</p></td><td><p>Field Items, Sector 7 Wall Market and Shinra HQ<br />
-Item bit mask (<a href="../Bit numbering.md" title="wikilink">LBS</a>) (applied when you pick them up).<br />
+Item bit mask (<a href="../Bit_numbering.md" title="wikilink">LBS</a>) (applied when you pick them up).<br />
 Bit=0(Item on the floor), Bit=1(Item Picked Up).<br />
 0x01: Ether.(Corneo's masion basement floor) {colne_4/TAKARA/s1}<br />
 0x02: Hyper.(Corneo's masion corneo 's bedroom floor) {colne_6/TAKARA/s1}<br />
@@ -152,7 +152,7 @@ Bit=0(Item on the floor), Bit=1(Item Picked Up).<br />
 0x80: Second Midgar Part at Shinra HQ {blin65_1/PARTB/s1}<br />
 </p></td></tr><tr class="even"><td><p>0x0BDD<br />
 z_10[7]</p></td><td><p>1 byte</p></td><td><p>Field Items, Shinra HQ<br />
-Item bit mask (<a href="../Bit numbering.md" title="wikilink">LBS</a>) (applied when you pick them up).<br />
+Item bit mask (<a href="../Bit_numbering.md" title="wikilink">LBS</a>) (applied when you pick them up).<br />
 Bit=0(Item on the floor), Bit=1(Item Picked Up).<br />
 0x01: Third Midgar Part Key Item {blin65_1/PARTC/s1}<br />
 0x02: Fourth Midgar Part Key Item {blin65_1/PARTD/s1}<br />
@@ -189,7 +189,7 @@ z_11[0]</p></td><td><p>1 byte</p></td><td><p>Northern Cave - Progress (TODO: mor
 z_11[1]</p></td><td><p>1 byte</p></td><td><p>Unknown (Always 0x00?)<br />
 </p></td></tr><tr class="even"><td><p>0x0BEE<br />
 z_11[2]</p></td><td><p>1 byte</p></td><td><p>Northern Cave - Progress (TODO: more info)</p></td></tr><tr class="odd"><td><p>0x0BEF<br />
-z_11[3]</p></td><td><p>1 byte</p></td><td><p>Items mask, Chocobo Farm (<a href="../Bit numbering.md" title="wikilink">LBS</a>)(applied when you take the item).<br />
+z_11[3]</p></td><td><p>1 byte</p></td><td><p>Items mask, Chocobo Farm (<a href="../Bit_numbering.md" title="wikilink">LBS</a>)(applied when you take the item).<br />
 Bit=0(Item in field), Bit=1(Item taken).<br />
 0x01: Activated right after getting Choco-Mog{farm/mat/s1}(Is set by kernel, not from Field) (See 0x0BD4[4])<br />
 0x02: Activated right after getting Enemy Skill {blin68_2/mtr/s1}(Is set by kernel, not from Field) (See 0x0FC6[2])<br />
@@ -231,7 +231,7 @@ z_15[0]</p></td><td><p>1 byte</p></td><td><p>Which Chocobo was taken out from th
 00 / 01 - 06 Which stable's Chocobo was taken out. The stable is displayed empty, but still occupied. 00: Chocobo can be taken out even if another Chocobo is exist on world map. - (* Glitch) Not 00: Chocobo cannot be taken out even if no Chocobo is exist on world map.</p></td></tr><tr class="even"><td><p>0x0C21<br />
 z_15[1]</p></td><td><p>1 byte</p></td><td><p>Riding off wild chocobo dialog options.<br />
 0x01 Enter direction to Chocobo Farm &amp; Show send/release Wild Chocobo option when riding off. ON: Right of ranch / Show option OFF: In front of cage / Hide option Set to "ON" after buying chocobo stable.</p></td></tr><tr class="odd"><td><p>0x0C22<br />
-z_15[2]</p></td><td><p>1 byte</p></td><td><p>Chocobo display value on world map (<a href="../Bit numbering.md" title="wikilink">LBS</a>).<br />
+z_15[2]</p></td><td><p>1 byte</p></td><td><p>Chocobo display value on world map (<a href="../Bit_numbering.md" title="wikilink">LBS</a>).<br />
 Bit=0(Disabled), Bit=1(Enabled).<br />
 Ex: Wild Chocobo (0x01) + Black Chocobo (0x20) = Byte value 0x21<br />
 0x01: Caught wild chocobo<br />
@@ -243,7 +243,7 @@ Ex: Wild Chocobo (0x01) + Black Chocobo (0x20) = Byte value 0x21<br />
 0x40: Gold<br />
 0x80: None?<br />
 </p></td></tr><tr class="even"><td><p>0x0C23<br />
-z_15[3]</p></td><td><p>1 byte</p></td><td><p>Vehicle display value on world map (<a href="../Bit numbering.md" title="wikilink">LBS</a>).<br />
+z_15[3]</p></td><td><p>1 byte</p></td><td><p>Vehicle display value on world map (<a href="../Bit_numbering.md" title="wikilink">LBS</a>).<br />
 Note: if disk is different than 1, buggy is invisible.<br />
 Bit=0(Disabled), Bit=1(Enabled).<br />
 Ex: Buggy (0x01) + Tiny Bronco (0x04) = Byte value 0x05<br />
@@ -257,7 +257,7 @@ Byte value 0x00: None<br />
 0x40: Unknown/Unused<br />
 0x80: Unknown/Unused<br />
 </p></td></tr><tr class="odd"><td><p>0x0C24</p></td><td><p>97 bytes</p></td><td><p>z_16 Unknown</p></td></tr><tr class="even"><td><p>0x0C24<br />
-z_16[0]</p></td><td><p>1 byte</p></td><td><p>Field mask, Corel (<a href="../Bit numbering.md" title="wikilink">LBS</a>)(applied when you take the item).<br />
+z_16[0]</p></td><td><p>1 byte</p></td><td><p>Field mask, Corel (<a href="../Bit_numbering.md" title="wikilink">LBS</a>)(applied when you take the item).<br />
 Bit=0(Item in field), Bit=1(Item taken).<br />
 0x01: Barret talks about his hometown before enter the Ropeway for first time {ROPEST[1][1-Main][49]}<br />
 0x02: Free rest in corel inn {NCOINN[0][0-Main][5]}<br />
@@ -268,7 +268,7 @@ Bit=0(Item in field), Bit=1(Item taken).<br />
 0x40: Huge Materia Key Item {NOREL3[1][0-Main][7]}<br />
 0x80: Ultima Materia {NCOREL2[2][4][26]}{NCOREL3[24][4][20]}{NCOIN2[8][1][25]}<br />
 </p></td></tr><tr class="odd"><td><p>0x0C25<br />
-z_16[1]</p></td><td><p>1 byte</p></td><td><p>Field mask (<a href="../Bit numbering.md" title="wikilink">LBS</a>)(applied when you take the item).<br />
+z_16[1]</p></td><td><p>1 byte</p></td><td><p>Field mask (<a href="../Bit_numbering.md" title="wikilink">LBS</a>)(applied when you take the item).<br />
 Bit=0(Item in field), Bit=1(Item taken).<br />
 0x01: Priscilla Warnings (Reset after read): "It gets deeper the farther you go..." or (High Voltage through tower base) {UJUNON2/cloud/s12}<br />
 0x02: Oldman: "Young man, do CPR!" {UJUNON4/oldm1/s3}<br />
@@ -277,7 +277,7 @@ Bit=0(Item in field), Bit=1(Item taken).<br />
 0x10: Priscilla: "It gets deeper the farther you go..." {UJUNON2/cloud/s12}<br />
 0x20: Tifa: "No...it was 5 years ago" {JUMIN/tifa/s9}<br />
 0x40: Cloud: "Hey</p></td></tr><tr class="even"><td><p>0x0C26<br />
-z_16[2]</p></td><td><p>1 byte</p></td><td><p>Field mask (<a href="../Bit numbering.md" title="wikilink">LBS</a>)(applied when you take the item).<br />
+z_16[2]</p></td><td><p>1 byte</p></td><td><p>Field mask (<a href="../Bit_numbering.md" title="wikilink">LBS</a>)(applied when you take the item).<br />
 Bit=0(Item in field), Bit=1(Item taken).<br />
 0x01: man1: "It's dangerous, please don't go!" if you choose "I'm still going" {SNOW/man1/s3}<br />
 0x02: Snowboard Key Item {SNMIN1/board/s1}<br />
@@ -288,7 +288,7 @@ Bit=0(Item in field), Bit=1(Item taken).<br />
 0x40: Glacier Map Key Item {SNMIN2/dscvmap/s4}<br />
 0x80: First time you do Snowboard {SNOW/playgam/s2}<br />
 </p></td></tr><tr class="odd"><td><p>0x0C27<br />
-z_16[3]</p></td><td><p>1 byte</p></td><td><p>Field mask (<a href="../Bit numbering.md" title="wikilink">LBS</a>)(applied when you take the item).<br />
+z_16[3]</p></td><td><p>1 byte</p></td><td><p>Field mask (<a href="../Bit_numbering.md" title="wikilink">LBS</a>)(applied when you take the item).<br />
 Bit=0(Item in field), Bit=1(Item taken).<br />
 0x01: If you succeed climbing (to the top, not the cave, just before crater_1 map) {GAIA_32/ladd5/s4}<br />
 0x02: If you Push-over the rock {GAIIN_2/icerock/s1}<br />
@@ -299,7 +299,7 @@ Bit=0(Item in field), Bit=1(Item taken).<br />
 0x40: First time you enter Holzoff's house(2nd room) / If you collaps at the Great Glacier {HOLU_2/drctr/s0}<br />
 0x80: History about Yamski and mini Cliff tutorial {HOLU_1/drctr/s0}<br />
 </p></td></tr><tr class="even"><td><p>0x0C28<br />
-z_16[4]</p></td><td><p>1 byte</p></td><td><p>Field mask (<a href="../Bit numbering.md" title="wikilink">LBS</a>)(applied when you take the item).<br />
+z_16[4]</p></td><td><p>1 byte</p></td><td><p>Field mask (<a href="../Bit_numbering.md" title="wikilink">LBS</a>)(applied when you take the item).<br />
 Bit=0(Item in field), Bit=1(Item taken).<br />
 0x01: First time you enter GAIAFOOT map talk {GAIAFOOT/drctr/s0}<br />
 0x02:<br />
@@ -310,7 +310,7 @@ Bit=0(Item in field), Bit=1(Item taken).<br />
 0x40: Sephiroth illusion Nibelheim{WOA_3/gonivl1,gonivl2,gonivl3/s2}<br />
 0x80: First time cloud enter map crater_1 and talk about meteor and the crater {CRATER_1/drctr/s0}<br />
 </p></td></tr><tr class="odd"><td><p>0x0C29<br />
-z_16[5]</p></td><td><p>1 byte</p></td><td><p>Field mask, Whirlwind Maze (<a href="../Bit numbering.md" title="wikilink">LBS</a>)(applied when you take the item).<br />
+z_16[5]</p></td><td><p>1 byte</p></td><td><p>Field mask, Whirlwind Maze (<a href="../Bit_numbering.md" title="wikilink">LBS</a>)(applied when you take the item).<br />
 Bit=0(Item in field), Bit=1(Item taken).<br />
 0x01: If you give the Black Materia to Barret {TRNAD_1/ballet/s1}<br />
 0x02: If you give the Black Materia to {TRNAD_1/red/s1}<br />
@@ -321,14 +321,14 @@ Bit=0(Item in field), Bit=1(Item taken).<br />
 0x40: Black Cape man down {CRATER_1/blkdown/s4}<br />
 0x80: Black Cape man jump off {TRNAD_2/drctr/s0}<br />
 </p></td></tr><tr class="even"><td><p>0x0C2A<br />
-z_16[6]</p></td><td><p>1 byte</p></td><td><p>Field mask, Whirlwind Maze (<a href="../Bit numbering.md" title="wikilink">LBS</a>)(applied when you take the item).<br />
+z_16[6]</p></td><td><p>1 byte</p></td><td><p>Field mask, Whirlwind Maze (<a href="../Bit_numbering.md" title="wikilink">LBS</a>)(applied when you take the item).<br />
 Bit=0(Item in field), Bit=1(Item taken).<br />
 0x01: Cloud: "What happened to this town? It's so run-down" {UJUNON1/drctr/s0}<br />
 0x02: If you have taken the Glacier Map before he offers you to, man3: "What nerve! You already tore down the map."<br />
 0x04: Screen shake then Random Battle{GAIIN_6/drctr/s0}<br />
 0x08: Shiva Summon in Priscilla's house {PRISILA/sivamt/s1}<br />
 0x10: Black Cape man: "Ughâ¦ Errgaahh</p></td></tr><tr class="odd"><td><p>0x0C2B<br />
-z_16[7]</p></td><td><p>1 byte</p></td><td><p>Field mask, Whirlwind Maze (<a href="../Bit numbering.md" title="wikilink">LBS</a>)(applied when you take the item).<br />
+z_16[7]</p></td><td><p>1 byte</p></td><td><p>Field mask, Whirlwind Maze (<a href="../Bit_numbering.md" title="wikilink">LBS</a>)(applied when you take the item).<br />
 Bit=0(Item in field), Bit=1(Item taken).<br />
 0x01: Cid regets about gaving the Huge Materia to the Shinra {NCOREL/worry/s2}<br />
 0x02: After Barret finish talking about his hometown history then enters the ropeway {ROPEST/ad/S3}<br />
@@ -339,7 +339,7 @@ Bit=0(Item in field), Bit=1(Item taken).<br />
 0x40:<br />
 0x80:<br />
 </p></td></tr><tr class="even"><td><p>0x0C44<br />
-z_16[32]</p></td><td><p>1 byte</p></td><td><p>Progress items, Wallmarket (<a href="../Bit numbering.md" title="wikilink">LBS</a>).<br />
+z_16[32]</p></td><td><p>1 byte</p></td><td><p>Progress items, Wallmarket (<a href="../Bit_numbering.md" title="wikilink">LBS</a>).<br />
 Bit=0(Item not obtained), Bit=1(Item obtained).<br />
 0x01: Cologne at Wallmarket {mktpb/woman2/s1}<br />
 0x02: Flower Cologne at Wallmarket {mktpb/woman2/s1}<br />
@@ -350,7 +350,7 @@ Bit=0(Item not obtained), Bit=1(Item obtained).<br />
 0x40: Pharmacy coupon at Wallmarket {mkt_s2/line01/s3}<br />
 0x80: Obtained any Wig at Wallmarket {mkt_mens/event/s1}<br />
 </p></td></tr><tr class="odd"><td><p>0x0C45<br />
-z_16[33]</p></td><td><p>1 byte</p></td><td><p>Progress items, Wallmarket (<a href="../Bit numbering.md" title="wikilink">LBS</a>).<br />
+z_16[33]</p></td><td><p>1 byte</p></td><td><p>Progress items, Wallmarket (<a href="../Bit_numbering.md" title="wikilink">LBS</a>).<br />
 Bit=0(Item not obtained), Bit=1(Item obtained).<br />
 0x01: Girl at Honey Bee Inn put make-up on cloud, poor result (result is random) {onna2/girl1/s3}<br />
 0x02: Girl at Honey Bee Inn put make-up on cloud, averange result (result is random) {onna2/girl1/s3}<br />
@@ -361,7 +361,7 @@ Bit=0(Item not obtained), Bit=1(Item obtained).<br />
 0x40: Satin Dress [0xAA] {mktpb/oldm3/s1}<br />
 0x80: Silk Dress [0x9A] {mktpb/oldm3/s1}<br />
 </p></td></tr><tr class="even"><td><p>0x0C46<br />
-z_16[34]</p></td><td><p>1 byte</p></td><td><p>Progress items, Wallmarket (<a href="../Bit numbering.md" title="wikilink">LBS</a>).<br />
+z_16[34]</p></td><td><p>1 byte</p></td><td><p>Progress items, Wallmarket (<a href="../Bit_numbering.md" title="wikilink">LBS</a>).<br />
 Bit=0(Item not obtained), Bit=1(Item obtained).<br />
 0x01: Disinfectant at Wallmarket {mkt_s3/tensyu}<br />
 0x02: Deodorant at Wallmarket {mkt_s3/tensyu}<br />
@@ -382,7 +382,7 @@ Lingerie (Should be +1), Mystery panties (+3), Bikini briefs (+5)<br />
 12 to 18 Points: Choose Aerith<br />
 19 or more Points: Choose Cloud<br />
 </p></td></tr><tr class="even"><td><p>0x0C48<br />
-z_16[36]</p></td><td><p>1 byte</p></td><td><p>Field Objects, Sector 7 Train Graveyard (<a href="../Bit numbering.md" title="wikilink">LBS</a>) (so far)<br />
+z_16[36]</p></td><td><p>1 byte</p></td><td><p>Field Objects, Sector 7 Train Graveyard (<a href="../Bit_numbering.md" title="wikilink">LBS</a>) (so far)<br />
 Bit=0(Original Position), Bit=1(Moved).<br />
 0x01: Train 1 Position. {mds7st2}<br />
 0x02: Train 2 Position. {mds7st2}<br />
@@ -390,7 +390,7 @@ Bit=0(Original Position), Bit=1(Moved).<br />
 0x08, 0x10, 0x20, 0x40, 0x80: Unused<br />
 </p></td></tr><tr class="odd"><td><p>0x0C49<br />
 z_16[37]</p></td><td><p>1 byte</p></td><td><p>Field Items, Sector 7 Wall Market<br />
-Items bit mask (<a href="../Bit numbering.md" title="wikilink">LBS</a>)<br />
+Items bit mask (<a href="../Bit_numbering.md" title="wikilink">LBS</a>)<br />
 0x01: Cloud see the first battery holder and figured out the idea of using a battery there... {wcrimb_1}<br />
 0x02: First battery applied up the wall of Wallmarket(0x02){wcrimb_1}<br />
 0x04: Second battery applied up the wall of Wallmarket(0x04){wcrimb_1}<br />
@@ -475,7 +475,7 @@ z_16[51]</p></td><td><p>1 byte</p></td><td><p>Battle modifier linked with 0x0C4D
 z_16[52]</p></td><td><p>2 bytes</p></td><td><p>Fort Condor Funds</p></td></tr><tr class="even"><td><p>0x0C5A<br />
 z_16[54]</p></td><td><p>1 byte</p></td><td><p>Number of Fort Condor Battles Lost<br />
 </p></td></tr><tr class="odd"><td><p>0x0C5B<br />
-z_16[55]</p></td><td><p>1 byte</p></td><td><p>Conversations mask (<a href="../Bit numbering.md" title="wikilink">LBS</a>)(applied when you speak).<br />
+z_16[55]</p></td><td><p>1 byte</p></td><td><p>Conversations mask (<a href="../Bit_numbering.md" title="wikilink">LBS</a>)(applied when you speak).<br />
 Bit=0(Not spoken to), Bit=1(Spoken to).<br />
 0x01: Speaking to the children near the wall of Wallmarket(0x01)<br />
 0x02: Speaking to the children near the wall of Wallmarket(0x02)<br />
@@ -557,7 +557,7 @@ z_20[4] &amp; Z_20[5]</p></td><td><p>2 Bytes</p></td><td><p>Battle Square Battle
 z_22[18]</p></td><td><p>1 byte</p></td><td><p>Aeris flower quest progress.<br />
 0x01: if we buy flower from Aeris.</p></td></tr><tr class="odd"><td><p>0x0D23<br />
 z_22[34]</p></td><td><p>1 byte</p></td><td><p>Current room in TUNNEL_1. From 1 to 6. If less then 1 then we go to TUNNEL_3. If 6 then to TUNNEL_2. Used instead of duplicating tunnel rooms. Start room set during mission 5 reactor train minigame.</p></td></tr><tr class="even"><td><p>0x0D24<br />
-z_22[35]</p></td><td><p>1 byte</p></td><td><p>Conversations mask, Kalm (<a href="../Bit numbering.md" title="wikilink">LBS</a>)(applied when you speak to someone).<br />
+z_22[35]</p></td><td><p>1 byte</p></td><td><p>Conversations mask, Kalm (<a href="../Bit_numbering.md" title="wikilink">LBS</a>)(applied when you speak to someone).<br />
 Bit=0(Not spoken to), Bit=1(Spoken to).<br />
 0x01:<br />
 0x02:<br />
@@ -568,7 +568,7 @@ Bit=0(Not spoken to), Bit=1(Spoken to).<br />
 0x40:<br />
 0x80:<br />
 </p></td></tr><tr class="odd"><td><p>0x0D26<br />
-z_22[37]</p></td><td><p>1 byte</p></td><td><p>Conversations mask, Reactor under the plate (<a href="../Bit numbering.md" title="wikilink">LBS</a>)(applied when you speak).<br />
+z_22[37]</p></td><td><p>1 byte</p></td><td><p>Conversations mask, Reactor under the plate (<a href="../Bit_numbering.md" title="wikilink">LBS</a>)(applied when you speak).<br />
 Bit=0(Not spoken to), Bit=1(Spoken to).<br />
 0x01: Speaking with Biggs(0x01)<br />
 0x02:<br />
@@ -579,7 +579,7 @@ Bit=0(Not spoken to), Bit=1(Spoken to).<br />
 0x40:<br />
 0x80:<br />
 </p></td></tr><tr class="even"><td><p>0x0D27<br />
-z_22[38]</p></td><td><p>1 byte</p></td><td><p>Conversations mask, Reactor under the plate (<a href="../Bit numbering.md" title="wikilink">LBS</a>)(applied when you speak).<br />
+z_22[38]</p></td><td><p>1 byte</p></td><td><p>Conversations mask, Reactor under the plate (<a href="../Bit_numbering.md" title="wikilink">LBS</a>)(applied when you speak).<br />
 Bit=0(Not spoken to), Bit=1(Spoken to).<br />
 0x01: Speaking with Jesse(0x01)<br />
 0x02:<br />
@@ -590,7 +590,7 @@ Bit=0(Not spoken to), Bit=1(Spoken to).<br />
 0x40:<br />
 0x80:<br />
 </p></td></tr><tr class="odd"><td><p>0x0D29</p></td><td><p>1 Byte</p></td><td><p>Yuffie can be found in the forests? (LSB only) others used?</p></td></tr><tr class="even"><td><p>0x0D2A</p></td><td><p>28 Bytes</p></td><td><p>z_23 Unknown</p></td></tr><tr class="odd"><td><p>0x0D44<br />
-z_23[26]</p></td><td><p>1 byte</p></td><td><p>Conversations mask, Reactor under the plate (<a href="../Bit numbering.md" title="wikilink">LBS</a>).<br />
+z_23[26]</p></td><td><p>1 byte</p></td><td><p>Conversations mask, Reactor under the plate (<a href="../Bit_numbering.md" title="wikilink">LBS</a>).<br />
 Bit=0(NOT Activated/Received/Spoken to), Bit=1(Activated/Received/Spoken to).<br />
 0x01:<br />
 0x02:<br />
@@ -601,7 +601,7 @@ Bit=0(NOT Activated/Received/Spoken to), Bit=1(Activated/Received/Spoken to).<br
 0x40: Turbo Ether {MIN51_2}<br />
 0x80: Aerith on roof event starts<br />
 </p></td></tr><tr class="even"><td><p>0x0D46</p></td><td><p>1 byte</p></td><td><p>Don's Mission Progress (more needed here)</p></td></tr><tr class="odd"><td><p>0x0D47</p></td><td><p>31 Bytes</p></td><td><p>z_24 Unknown</p></td></tr><tr class="even"><td><p>0x0D47<br />
-z_24[0]</p></td><td><p>1 byte</p></td><td><p>Conversations mask, Shinra HQ (<a href="../Bit numbering.md" title="wikilink">LBS</a>)(applied when you speak).<br />
+z_24[0]</p></td><td><p>1 byte</p></td><td><p>Conversations mask, Shinra HQ (<a href="../Bit_numbering.md" title="wikilink">LBS</a>)(applied when you speak).<br />
 Bit=0(Not spoken to), Bit=1(Spoken to).<br />
 0x01:<br />
 0x02:<br />
@@ -612,7 +612,7 @@ Bit=0(Not spoken to), Bit=1(Spoken to).<br />
 0x40:<br />
 0x80:<br />
 </p></td></tr><tr class="odd"><td><p>0x0D49<br />
-z_24[2]</p></td><td><p>1 byte</p></td><td><p>Conversations mask, Shinra HQ (<a href="../Bit numbering.md" title="wikilink">LBS</a>)(applied when you speak).<br />
+z_24[2]</p></td><td><p>1 byte</p></td><td><p>Conversations mask, Shinra HQ (<a href="../Bit_numbering.md" title="wikilink">LBS</a>)(applied when you speak).<br />
 Bit=0(Not spoken to), Bit=1(Spoken to).<br />
 0x01:<br />
 0x02:<br />
@@ -623,7 +623,7 @@ Bit=0(Not spoken to), Bit=1(Spoken to).<br />
 0x40:<br />
 0x80: Second conversation while climbing Shinra HQ stairs(0x80)<br />
 </p></td></tr><tr class="even"><td><p>0x0D4A<br />
-z_24[3]</p></td><td><p>1 byte</p></td><td><p>Conversations mask, Shinra HQ (<a href="../Bit numbering.md" title="wikilink">LBS</a>)(applied when you speak).<br />
+z_24[3]</p></td><td><p>1 byte</p></td><td><p>Conversations mask, Shinra HQ (<a href="../Bit_numbering.md" title="wikilink">LBS</a>)(applied when you speak).<br />
 Bit=0(Not spoken to), Bit=1(Spoken to).<br />
 0x01: Third conversation while climbing Shinra HQ stairs (0x01)<br />
 0x02:<br />
@@ -634,7 +634,7 @@ Bit=0(Not spoken to), Bit=1(Spoken to).<br />
 0x40:<br />
 0x80:<br />
 </p></td></tr><tr class="odd"><td><p>0x0D4C<br />
-z_24[5]</p></td><td><p>1 byte</p></td><td><p>Conversations mask, Shinra HQ (<a href="../Bit numbering.md" title="wikilink">LBS</a>)(applied when you speak).<br />
+z_24[5]</p></td><td><p>1 byte</p></td><td><p>Conversations mask, Shinra HQ (<a href="../Bit_numbering.md" title="wikilink">LBS</a>)(applied when you speak).<br />
 Bit=0(Not spoken to), Bit=1(Spoken to).<br />
 0x01: Braking in Shinra HQ scene (0x01)<br />
 0x02: Taking out the guards and obtaining keycard 60(0x02)<br />
@@ -645,7 +645,7 @@ Bit=0(Not spoken to), Bit=1(Spoken to).<br />
 0x40: Approaching Shinra HQ and conversation at the front door scene(0x40)<br />
 0x80:<br />
 </p></td></tr><tr class="even"><td><p>0x0D50<br />
-z_24[9]</p></td><td><p>1 byte</p></td><td><p>Items mask, Shinra HQ (<a href="../Bit numbering.md" title="wikilink">LBS</a>)(applied when you speak).<br />
+z_24[9]</p></td><td><p>1 byte</p></td><td><p>Items mask, Shinra HQ (<a href="../Bit_numbering.md" title="wikilink">LBS</a>)(applied when you speak).<br />
 Bit=0(Item on floor), Bit=1(Item taken).<br />
 0x01: Phoenix down from locker at floor 64 (0x01)<br />
 0x02: Ether from locker at floor 64(0x02)<br />
@@ -656,10 +656,10 @@ Bit=0(Item on floor), Bit=1(Item taken).<br />
 0x40:<br />
 0x80:<br />
 </p></td></tr><tr class="odd"><td><p>0x0D52<br />
-z_24[11]</p></td><td><p>2 bytes</p></td><td><p>Bits kept for the doors at floor 63, Shinra HQ (<a href="../Bit numbering.md" title="wikilink">LBS</a>)(applied when you speak).<br />
+z_24[11]</p></td><td><p>2 bytes</p></td><td><p>Bits kept for the doors at floor 63, Shinra HQ (<a href="../Bit_numbering.md" title="wikilink">LBS</a>)(applied when you speak).<br />
 Bit=0(Door opened), Bit=1(Door closed).<br />
 </p></td></tr><tr class="even"><td><p>0x0D55<br />
-z_24[14]</p></td><td><p>1 byte</p></td><td><p>Item mask, Shinra HQ (<a href="../Bit numbering.md" title="wikilink">LBS</a>)(applied when you speak).<br />
+z_24[14]</p></td><td><p>1 byte</p></td><td><p>Item mask, Shinra HQ (<a href="../Bit_numbering.md" title="wikilink">LBS</a>)(applied when you speak).<br />
 Bit=0(Item on floor), Bit=1(Item taken).<br />
 0x01:<br />
 0x02: Coupon C from Shinra HQ(0x02)<br />
@@ -670,10 +670,10 @@ Bit=0(Item on floor), Bit=1(Item taken).<br />
 0x40:<br />
 0x80:<br />
 </p></td></tr><tr class="odd"><td><p>0x0D56<br />
-z_24[15]</p></td><td><p>1 byte</p></td><td><p>Bits kept for some events on floor 63, Shinra HQ (<a href="../Bit numbering.md" title="wikilink">LBS</a>)(Really needs to be investigated).<br />
+z_24[15]</p></td><td><p>1 byte</p></td><td><p>Bits kept for some events on floor 63, Shinra HQ (<a href="../Bit_numbering.md" title="wikilink">LBS</a>)(Really needs to be investigated).<br />
 Bit=0(Door opened), Bit=1(Door closed).<br />
 </p></td></tr><tr class="even"><td><p>0x0D57<br />
-z_24[16]</p></td><td><p>1 byte</p></td><td><p>Conversations mask, Shinra HQ (<a href="../Bit numbering.md" title="wikilink">LBS</a>)(applied when you speak).<br />
+z_24[16]</p></td><td><p>1 byte</p></td><td><p>Conversations mask, Shinra HQ (<a href="../Bit_numbering.md" title="wikilink">LBS</a>)(applied when you speak).<br />
 Bit=0(Not spoken to), Bit=1(Spoken to).<br />
 0x01: Hitting vending machine at floor 64(0x01)<br />
 0x02:<br />
@@ -684,7 +684,7 @@ Bit=0(Not spoken to), Bit=1(Spoken to).<br />
 0x40:<br />
 0x80:<br />
 </p></td></tr><tr class="odd"><td><p>0x0D58<br />
-z_24[17]</p></td><td><p>1 byte</p></td><td><p>Conversations mask, Shinra HQ (<a href="../Bit numbering.md" title="wikilink">LBS</a>)(applied when you speak).<br />
+z_24[17]</p></td><td><p>1 byte</p></td><td><p>Conversations mask, Shinra HQ (<a href="../Bit_numbering.md" title="wikilink">LBS</a>)(applied when you speak).<br />
 Bit=0(Not spoken to), Bit=1(Spoken to).<br />
 0x01:<br />
 0x02:<br />
@@ -695,7 +695,7 @@ Bit=0(Not spoken to), Bit=1(Spoken to).<br />
 0x40: Placing midgar second part(0x40)<br />
 0x80: Placing midgar first part(0x80)<br />
 </p></td></tr><tr class="even"><td><p>0x0D59<br />
-z_24[18]</p></td><td><p>1 byte</p></td><td><p>Conversations mask, Shinra HQ (<a href="../Bit numbering.md" title="wikilink">LBS</a>)(applied when you speak).<br />
+z_24[18]</p></td><td><p>1 byte</p></td><td><p>Conversations mask, Shinra HQ (<a href="../Bit_numbering.md" title="wikilink">LBS</a>)(applied when you speak).<br />
 Bit=0(Not spoken to), Bit=1(Spoken to).<br />
 0x01: Midgar model lights up at floor 65<br />
 0x02:<br />
@@ -706,7 +706,7 @@ Bit=0(Not spoken to), Bit=1(Spoken to).<br />
 0x40:<br />
 0x80: Last conversation with floor 63 machine<br />
 </p></td></tr><tr class="odd"><td><p>0x0D5D<br />
-z_24[22]</p></td><td><p>1 byte</p></td><td><p>Conversations mask, Shinra HQ (<a href="../Bit numbering.md" title="wikilink">LBS</a>)(applied when you speak).<br />
+z_24[22]</p></td><td><p>1 byte</p></td><td><p>Conversations mask, Shinra HQ (<a href="../Bit_numbering.md" title="wikilink">LBS</a>)(applied when you speak).<br />
 Bit=0(Not spoken to), Bit=1(Spoken to).<br />
 0x01:<br />
 0x02:<br />
@@ -781,7 +781,7 @@ z_26[0]</p></td><td><p>1 byte</p></td><td><p>MDS7PLR1 event flags.<br />
 0x20:<br />
 0x40:<br />
 0x80:</p></td></tr><tr class="odd"><td><p>0x0D75<br />
-z_26[1]</p></td><td><p>1 byte</p></td><td><p>Conversations mask, MDS7 (<a href="../Bit numbering.md" title="wikilink">LBS</a>)(applied when you speak).<br />
+z_26[1]</p></td><td><p>1 byte</p></td><td><p>Conversations mask, MDS7 (<a href="../Bit_numbering.md" title="wikilink">LBS</a>)(applied when you speak).<br />
 Bit=0(Not spoken to), Bit=1(Spoken to). The value inside [] is the hex value of the entire byte.<br />
 Start sector 7 slums [0x00]<br />
 0x01: Right after enter s7 bar MAP[0xA1]<br />
@@ -793,7 +793,7 @@ Start sector 7 slums [0x00]<br />
 0x40: Girl talk about reactor explotion[0xED]<br />
 0x80: Right after enter s7 bar MAP[0xA1]<br />
 </p></td></tr><tr class="even"><td><p>0x0D76<br />
-z_26[2]</p></td><td><p>1 byte</p></td><td><p>Conversations mask, MDS7 (<a href="../Bit numbering.md" title="wikilink">LBS</a>)(applied when you speak).<br />
+z_26[2]</p></td><td><p>1 byte</p></td><td><p>Conversations mask, MDS7 (<a href="../Bit_numbering.md" title="wikilink">LBS</a>)(applied when you speak).<br />
 Bit=0(Not spoken to), Bit=1(Spoken to). The value inside [] is the hex value of the entire byte.<br />
 Start sector 7 slums [0x00]<br />
 0x01: After you wake up in the Hideout[0x03]<br />
@@ -805,7 +805,7 @@ Start sector 7 slums [0x00]<br />
 0x40: Unknown[0x00]<br />
 0x80: Unknown[0x00]<br />
 </p></td></tr><tr class="odd"><td><p>0x0D77<br />
-z_26[3]</p></td><td><p>1 byte</p></td><td><p>Conversations mask, MDS7 (<a href="../Bit numbering.md" title="wikilink">LBS</a>)(applied when you speak).<br />
+z_26[3]</p></td><td><p>1 byte</p></td><td><p>Conversations mask, MDS7 (<a href="../Bit_numbering.md" title="wikilink">LBS</a>)(applied when you speak).<br />
 Bit=0(Not spoken to), Bit=1(Spoken to). The value inside [] is the hex value of the entire byte.<br />
 Start sector 7 slums [0x00]<br />
 0x01: Tell tifa did fight w/ barret (1) didn't fight (0)[0x05]or[0x04] if not<br />
@@ -817,7 +817,7 @@ Start sector 7 slums [0x00]<br />
 0x40: Unknown[0x00]<br />
 0x80: Unknown[0x00]<br />
 </p></td></tr><tr class="even"><td><p>0x0D78<br />
-z_26[4]</p></td><td><p>1 byte</p></td><td><p>Conversations mask, MDS7 (<a href="../Bit numbering.md" title="wikilink">LBS</a>)(applied when you speak).<br />
+z_26[4]</p></td><td><p>1 byte</p></td><td><p>Conversations mask, MDS7 (<a href="../Bit_numbering.md" title="wikilink">LBS</a>)(applied when you speak).<br />
 Bit=0(Not spoken to), Bit=1(Spoken to). The value inside [] is the hex value of the entire byte.<br />
 Start sector 7 slums [0x00]<br />
 0x01: Barret chages in bar (set w/ z_26[1] state #2)[0x03]<br />
@@ -829,7 +829,7 @@ Start sector 7 slums [0x00]<br />
 0x40: Unknown[0x00]<br />
 0x80: Unknown[0x00]<br />
 </p></td></tr><tr class="odd"><td><p>0x0D79<br />
-z_26[5]</p></td><td><p>1 byte</p></td><td><p>Conversations mask, MDS7 (<a href="../Bit numbering.md" title="wikilink">LBS</a>)(applied when you speak).<br />
+z_26[5]</p></td><td><p>1 byte</p></td><td><p>Conversations mask, MDS7 (<a href="../Bit_numbering.md" title="wikilink">LBS</a>)(applied when you speak).<br />
 Bit=0(Not spoken to), Bit=1(Spoken to). The value inside [] is the hex value of the entire byte.<br />
 Start sector 7 slums [0x00]<br />
 0x01: set to 1 when tifa calls the machine down after you 1st talk down stairs, never gets unset[0x03]<br />
@@ -841,7 +841,7 @@ Start sector 7 slums [0x00]<br />
 0x40: After giving Barret the materia tutorial[0x5D]<br />
 0x80: Unknown[0x00]<br />
 </p></td></tr><tr class="even"><td><p>0x0D7A<br />
-z_26[6]</p></td><td><p>1 byte</p></td><td><p>Conversations mask, MDS7 (<a href="../Bit numbering.md" title="wikilink">LBS</a>)(applied when you speak).<br />
+z_26[6]</p></td><td><p>1 byte</p></td><td><p>Conversations mask, MDS7 (<a href="../Bit_numbering.md" title="wikilink">LBS</a>)(applied when you speak).<br />
 Bit=0(Not spoken to), Bit=1(Spoken to). The value inside [] is the hex value of the entire byte.<br />
 Start sector 7 slums [0x00]<br />
 0x01: After hide out 1st talk[0x03]<br />
@@ -853,7 +853,7 @@ Start sector 7 slums [0x00]<br />
 0x40: After you wake up in the Hideout[0x6F]<br />
 0x80: After you get out the Hideout and talk to tifa [0xEF]<br />
 </p></td></tr><tr class="odd"><td><p>0x0D7B<br />
-z_26[7]</p></td><td><p>1 byte</p></td><td><p>Items mask, Training room at sector 5 (<a href="../Bit numbering.md" title="wikilink">LBS</a>)(applied when you speak).<br />
+z_26[7]</p></td><td><p>1 byte</p></td><td><p>Items mask, Training room at sector 5 (<a href="../Bit_numbering.md" title="wikilink">LBS</a>)(applied when you speak).<br />
 Bit=0(Item on floor), Bit=1(Item taken).<br />
 0x01:<br />
 0x02:<br />
@@ -894,7 +894,7 @@ z_27[12]</p></td><td><p>1 byte</p></td><td><p>Event flags inside Junon.<br />
 ## Save Memory Bank B/C
 
 <table><caption><strong>Table 1: FF7 Save Slot</strong></caption><thead><tr class="header"><th><p>Offset</p></th><th><p>Length</p></th><th><p>Description</p></th></tr></thead><tbody><tr class="odd"><td><p>0x0DA4</p></td><td><p>32/64 Bytes</p></td><td><p>z_27 Unknown[32-63] Last 32 bytes of 64</p></td></tr><tr class="even"><td><p>0x0DA4<br />
-z_27[32]</p></td><td><p>6 bytes</p></td><td><p>Chocobo Race - Chocobo Name (<a href="FF Text.md" title="wikilink">FF Text format</a>)</p></td></tr><tr class="odd"><td><p>0x0DAA<br />
+z_27[32]</p></td><td><p>6 bytes</p></td><td><p>Chocobo Race - Chocobo Name (<a href="FF_Text.md" title="wikilink">FF Text format</a>)</p></td></tr><tr class="odd"><td><p>0x0DAA<br />
 z_27[38]</p></td><td><p>1 bytes</p></td><td><p>Chocobo Race(G1) - Jockey<br />
 00: Cloud<br />
 01: Tifa<br />
@@ -1058,7 +1058,7 @@ Number of battles to get past in order to unlock Chaos &amp; Death Penalty</p></
 Northern Cave - Progress (TODO: more info) 0x94</p></td></tr><tr class="even"><td><p>0x0EA7</p></td><td><p>3 bytes</p></td><td><p>z_32 Unknown</p></td></tr><tr class="odd"><td><p>0x0EA7<br />
 z_32[0]</p></td><td><p>1 bytes</p></td><td><p>Northern Cave - Progress (TODO: more info)</p></td></tr><tr class="even"><td><p>0x0EAA</p></td><td><p>2 Bytes</p></td><td><p>Step counter. Used in great glacier to count the steps until passing out and resetted whenever you enter it. Value to pass out = 544</p></td></tr><tr class="odd"><td><p>0x0EAC</p></td><td><p>22 bytes</p></td><td><p>z_33 Unknown</p></td></tr><tr class="even"><td><p>0x0EC2</p></td><td><p>1 byte</p></td><td><p>Field pointers mask (hand over party leader's head + red and green arrows)<br />
 0x00: Inactive<br />
-0x02: Active</p></td></tr><tr class="odd"><td><p>0x0EC3</p></td><td><p>1 byte</p></td><td><p>z_34 Unknown. <del>If you have max materias in your equipment it is set to non-zero (needs to be confirmed)</del> FALSE! (By Ss4).</p></td></tr><tr class="even"><td><p>0x0EC4</p></td><td><p>6 bytes</p></td><td><p>Name of Chocobo 1 (<a href="FF Text.md" title="wikilink">FF Text format</a>)</p></td></tr><tr class="odd"><td><p>0x0ECA</p></td><td><p>6 bytes</p></td><td><p>Name of Chocobo 2 (<a href="FF Text.md" title="wikilink">FF Text format</a>)</p></td></tr><tr class="even"><td><p>0x0ED0</p></td><td><p>6 bytes</p></td><td><p>Name of Chocobo 3 (<a href="FF Text.md" title="wikilink">FF Text format</a>)</p></td></tr><tr class="odd"><td><p>0x0ED6</p></td><td><p>6 bytes</p></td><td><p>Name of Chocobo 4 (<a href="FF Text.md" title="wikilink">FF Text format</a>)</p></td></tr><tr class="even"><td><p>0x0EDC</p></td><td><p>6 bytes</p></td><td><p>Name of Chocobo 5 (<a href="FF Text.md" title="wikilink">FF Text format</a>)</p></td></tr><tr class="odd"><td><p>0x0EE2</p></td><td><p>6 bytes</p></td><td><p>Name of Chocobo 6 (<a href="FF Text.md" title="wikilink">FF Text format</a>)</p></td></tr><tr class="even"><td><p>0x0EE8</p></td><td><p>2 bytes</p></td><td><p>Stamina of Chocobo 1</p></td></tr><tr class="odd"><td><p>0x0EEA</p></td><td><p>2 bytes</p></td><td><p>Stamina of Chocobo 2</p></td></tr><tr class="even"><td><p>0x0EEC</p></td><td><p>2 bytes</p></td><td><p>Stamina of Chocobo 3</p></td></tr><tr class="odd"><td><p>0x0EEE</p></td><td><p>2 bytes</p></td><td><p>Stamina of Chocobo 4</p></td></tr><tr class="even"><td><p>0x0EF0</p></td><td><p>2 bytes</p></td><td><p>Stamina of Chocobo 5</p></td></tr><tr class="odd"><td><p>0x0EF2</p></td><td><p>2 bytes</p></td><td><p>Stamina of Chocobo 6</p></td></tr><tr class="even"><td><p>0x0EF4</p></td><td><p>1 byte</p></td><td><p>Vincent Regularly/Change Submarine Color. (Bit-mask)<br />
+0x02: Active</p></td></tr><tr class="odd"><td><p>0x0EC3</p></td><td><p>1 byte</p></td><td><p>z_34 Unknown. <del>If you have max materias in your equipment it is set to non-zero (needs to be confirmed)</del> FALSE! (By Ss4).</p></td></tr><tr class="even"><td><p>0x0EC4</p></td><td><p>6 bytes</p></td><td><p>Name of Chocobo 1 (<a href="FF_Text.md" title="wikilink">FF Text format</a>)</p></td></tr><tr class="odd"><td><p>0x0ECA</p></td><td><p>6 bytes</p></td><td><p>Name of Chocobo 2 (<a href="FF_Text.md" title="wikilink">FF Text format</a>)</p></td></tr><tr class="even"><td><p>0x0ED0</p></td><td><p>6 bytes</p></td><td><p>Name of Chocobo 3 (<a href="FF_Text.md" title="wikilink">FF Text format</a>)</p></td></tr><tr class="odd"><td><p>0x0ED6</p></td><td><p>6 bytes</p></td><td><p>Name of Chocobo 4 (<a href="FF_Text.md" title="wikilink">FF Text format</a>)</p></td></tr><tr class="even"><td><p>0x0EDC</p></td><td><p>6 bytes</p></td><td><p>Name of Chocobo 5 (<a href="FF_Text.md" title="wikilink">FF Text format</a>)</p></td></tr><tr class="odd"><td><p>0x0EE2</p></td><td><p>6 bytes</p></td><td><p>Name of Chocobo 6 (<a href="FF_Text.md" title="wikilink">FF Text format</a>)</p></td></tr><tr class="even"><td><p>0x0EE8</p></td><td><p>2 bytes</p></td><td><p>Stamina of Chocobo 1</p></td></tr><tr class="odd"><td><p>0x0EEA</p></td><td><p>2 bytes</p></td><td><p>Stamina of Chocobo 2</p></td></tr><tr class="even"><td><p>0x0EEC</p></td><td><p>2 bytes</p></td><td><p>Stamina of Chocobo 3</p></td></tr><tr class="odd"><td><p>0x0EEE</p></td><td><p>2 bytes</p></td><td><p>Stamina of Chocobo 4</p></td></tr><tr class="even"><td><p>0x0EF0</p></td><td><p>2 bytes</p></td><td><p>Stamina of Chocobo 5</p></td></tr><tr class="odd"><td><p>0x0EF2</p></td><td><p>2 bytes</p></td><td><p>Stamina of Chocobo 6</p></td></tr><tr class="even"><td><p>0x0EF4</p></td><td><p>1 byte</p></td><td><p>Vincent Regularly/Change Submarine Color. (Bit-mask)<br />
 0x01:<br />
 0x02:<br />
 0x04: Vincent Regulary. Has the character entered the party regularly? Byte value (Yes:[0xFF]; No:[0xFB])(NEEDS TO BE CHECKED)<br />
@@ -1083,7 +1083,7 @@ z_35[10]</p></td><td><p>1 byte</p></td><td><p>Save flag.<br />
 0x02: set when we in save (menu or point? please check) and unset when out<br />
 Other byte values: 0x10, 0x12, 0x51</p></td></tr><tr class="odd"><td><p>0x0F04<br />
 z_35[22]</p></td><td><p>1 byte</p></td><td><p>Northern Cave - Progress (TODO: more info)</p></td></tr><tr class="even"><td><p>0x0F05<br />
-z_35[23]</p></td><td><p>1 byte</p></td><td><p>Northern Cave - Progress (TODO: more info)</p></td></tr><tr class="odd"><td><p>0x0F0C</p></td><td><p>24 bytes</p></td><td><p>Name of location (<a href="FF Text.md" title="wikilink">FF Text format</a>)</p></td></tr><tr class="even"><td><p>0x0F24</p></td><td><p>5 bytes</p></td><td><p>z_36 Unknown</p></td></tr><tr class="odd"><td><p>0x0F29</p></td><td><p>1 bytes</p></td><td><p>Save on the world map - Tutorial seen (To be Checked)<br />
+z_35[23]</p></td><td><p>1 byte</p></td><td><p>Northern Cave - Progress (TODO: more info)</p></td></tr><tr class="odd"><td><p>0x0F0C</p></td><td><p>24 bytes</p></td><td><p>Name of location (<a href="FF_Text.md" title="wikilink">FF Text format</a>)</p></td></tr><tr class="even"><td><p>0x0F24</p></td><td><p>5 bytes</p></td><td><p>z_36 Unknown</p></td></tr><tr class="odd"><td><p>0x0F29</p></td><td><p>1 bytes</p></td><td><p>Save on the world map - Tutorial seen (To be Checked)<br />
 0x3B: Seen<br />
 0x33: Not Seen</p></td></tr><tr class="even"><td><p>0x0F2A</p></td><td><p>50 bytes</p></td><td><p>z_37 Unknown</p></td></tr><tr class="odd"><td><p>0x0F2A<br />
 z_37[0]</p></td><td><p>1 byte</p></td><td><p>Needs more research. 0x01:<br />
@@ -1155,7 +1155,7 @@ z_38[44]</p></td><td><p>2 bytes</p></td><td><p>Fields items mask.<br />
 0x0002: second potion on MD1STIN.<br />
 0x0004: potion at NMKIN3.<br />
 0x0008: phoenix down on NKMIN1.</p></td></tr><tr class="odd"><td><p>0x0FC6<br />
-z_38[46]</p></td><td><p>1 byte</p></td><td><p>Items mask, Chocobo Farm (<a href="../Bit numbering.md" title="wikilink">LBS</a>)(applied when you take the item).<br />
+z_38[46]</p></td><td><p>1 byte</p></td><td><p>Items mask, Chocobo Farm (<a href="../Bit_numbering.md" title="wikilink">LBS</a>)(applied when you take the item).<br />
 Bit=0(Item in field), Bit=1(Item taken).<br />
 0x01: Destruct Materia Animation displayed {sininb42/mtr/s3}<br />
 0x02: Destruct Materia {sininb42/mtr/s1}<br />
@@ -1168,7 +1168,7 @@ Bit=0(Item in field), Bit=1(Item taken).<br />
 </p></td></tr><tr class="even"><td><p>0x0FF1<br />
 z_38[89]</p></td><td><p>1 byte</p></td><td><p>On Buggy vehicle. Specifies if a character is on a Buggy. Only if a Buggy is present.<br />
 0x0E: On; 0x0C: Off</p></td></tr><tr class="odd"><td><p>0x0FF4<br />
-z_38[92]</p></td><td><p>1 byte</p></td><td><p>Items mask, Mythril Mine (<a href="../Bit numbering.md" title="wikilink">LBS</a>)(applied when you take the item).<br />
+z_38[92]</p></td><td><p>1 byte</p></td><td><p>Items mask, Mythril Mine (<a href="../Bit_numbering.md" title="wikilink">LBS</a>)(applied when you take the item).<br />
 Bit=0(Item in field), Bit=1(Item taken).<br />
 0x01: 4sbwy_6 - Tent<br />
 0x02: 4sbwy_3 - Potion<br />
@@ -1179,7 +1179,7 @@ Bit=0(Item in field), Bit=1(Item taken).<br />
 0x40: psdun_3 - Long Range materia<br />
 0x80: gnmk - Titan Materia<br />
 </p></td></tr><tr class="even"><td><p>0x0FF5<br />
-z_38[93]</p></td><td><p>1 byte</p></td><td><p>Items mask, (<a href="../Bit numbering.md" title="wikilink">LBS</a>)(applied when you take the item).<br />
+z_38[93]</p></td><td><p>1 byte</p></td><td><p>Items mask, (<a href="../Bit_numbering.md" title="wikilink">LBS</a>)(applied when you take the item).<br />
 Bit=0(Item in field), Bit=1(Item taken).<br />
 0x01: elmin2_2 - Ether<br />
 0x02: losin1 - Comet Materia<br />
@@ -1190,7 +1190,7 @@ Bit=0(Item in field), Bit=1(Item taken).<br />
 0x40: q_3 - Conformer<br />
 0x80: q_4 - Spirit Lance<br />
 </p></td></tr><tr class="odd"><td><p>0x0FF6<br />
-z_38[94]</p></td><td><p>1 byte</p></td><td><p>Items mask, (<a href="../Bit numbering.md" title="wikilink">LBS</a>)(applied when you take the item).<br />
+z_38[94]</p></td><td><p>1 byte</p></td><td><p>Items mask, (<a href="../Bit_numbering.md" title="wikilink">LBS</a>)(applied when you take the item).<br />
 Bit=0(Item in field), Bit=1(Item taken).<br />
 0x01: q_1 - Heaven's Cloud<br />
 0x02: q_3 - Megalixir<br />
@@ -1201,7 +1201,7 @@ Bit=0(Item in field), Bit=1(Item taken).<br />
 0x40: las1_2 las4_0 - Elixir<br />
 0x80: las1_2 las4_0 - Mystle<br />
 </p></td></tr><tr class="even"><td><p>0x0FF9<br />
-z_38[97]</p></td><td><p>1 byte</p></td><td><p>Items mask, Kalm (<a href="../Bit numbering.md" title="wikilink">LBS</a>)(applied when you take the item).<br />
+z_38[97]</p></td><td><p>1 byte</p></td><td><p>Items mask, Kalm (<a href="../Bit_numbering.md" title="wikilink">LBS</a>)(applied when you take the item).<br />
 Bit=0(Item in field), Bit=1(Item taken).<br />
 0x01: Hidden Ether in the second floor of a house<br />
 0x02:<br />
@@ -1214,7 +1214,7 @@ Bit=0(Item in field), Bit=1(Item taken).<br />
 </p></td></tr><tr class="odd"><td><p>0x0FFB<br />
 z_38[99]</p></td><td><p>1 byte</p></td><td><p>Kalm Traveler rewards visibility (each bit set back to 0 when picked up)<br />
 Guide Book (0x01); Master Command(0x02); Master Magic (0x04); Master Summon (0x08); Gold Chocobo (0x10)</p></td></tr><tr class="even"><td><p>0x0FFC<br />
-z_38[100]</p></td><td><p>1 byte</p></td><td><p>Items mask, Kalm (<a href="../Bit numbering.md" title="wikilink">LBS</a>)(applied when you take the item).<br />
+z_38[100]</p></td><td><p>1 byte</p></td><td><p>Items mask, Kalm (<a href="../Bit_numbering.md" title="wikilink">LBS</a>)(applied when you take the item).<br />
 Bit=0(Item in field), Bit=1(Item taken).<br />
 0x01: Peacemaker in a house<br />
 0x02:<br />
@@ -1225,7 +1225,7 @@ Bit=0(Item in field), Bit=1(Item taken).<br />
 0x40:<br />
 0x80:<br />
 </p></td></tr><tr class="odd"><td><p>0x0FFD<br />
-z_38[101]</p></td><td><p>1 byte</p></td><td><p>Items mask, Kalm (<a href="../Bit numbering.md" title="wikilink">LBS</a>)(applied when you take the item).<br />
+z_38[101]</p></td><td><p>1 byte</p></td><td><p>Items mask, Kalm (<a href="../Bit_numbering.md" title="wikilink">LBS</a>)(applied when you take the item).<br />
 Bit=0(Item in field), Bit=1(Item taken).<br />
 0x01:<br />
 0x02: Hidden Ether from house next to the Inn<br />
@@ -1236,7 +1236,7 @@ Bit=0(Item in field), Bit=1(Item taken).<br />
 0x40:<br />
 0x80:<br />
 </p></td></tr><tr class="even"><td><p>0x0FFE<br />
-z_38[102]</p></td><td><p>1 byte</p></td><td><p>Items mask, Mythril Mine (<a href="../Bit numbering.md" title="wikilink">LBS</a>)(applied when you take the item).<br />
+z_38[102]</p></td><td><p>1 byte</p></td><td><p>Items mask, Mythril Mine (<a href="../Bit_numbering.md" title="wikilink">LBS</a>)(applied when you take the item).<br />
 Bit=0(Item in field), Bit=1(Item taken).<br />
 0x01:<br />
 0x02:<br />
@@ -1265,7 +1265,7 @@ z_38[]</p></td><td><p>1 byte</p></td><td><p>2<sup>nd</sup> party member char ID 
 </p></td></tr><tr class="odd"><td><p>0x100C<br />
 z_38[]</p></td><td><p>1 byte</p></td><td><p>3<sup>ed</sup> party member char ID in Group 3. Final Boss Battle: Bizarro Sephiroth.<br />
 </p></td></tr><tr class="even"><td><p>0x101E<br />
-z_38[134]</p></td><td><p>1 byte</p></td><td><p>Items mask, Junon (<a href="../Bit numbering.md" title="wikilink">LBS</a>)(applied when you take the item).<br />
+z_38[134]</p></td><td><p>1 byte</p></td><td><p>Items mask, Junon (<a href="../Bit_numbering.md" title="wikilink">LBS</a>)(applied when you take the item).<br />
 Bit=0(Item in field), Bit=1(Item taken).<br />
 0x01: Mind Source<br />
 0x02: Power Source<br />
@@ -1282,7 +1282,7 @@ z_38[152]</p></td><td><p>1 byte</p></td><td><p>Field screen rain switch (non-zer
 
 ## Character Record
 
-<table><caption><strong>Table 2: Character Record</strong></caption><thead><tr class="header"><th><p>Offset</p></th><th><p>Length</p></th><th><p>Description</p></th></tr></thead><tbody><tr class="odd"><td><p>0x00</p></td><td><p>1 byte</p></td><td><p>Character ID - Ignored If Not Cait / Vincent???</p></td></tr><tr class="even"><td><p>0x01</p></td><td><p>1 byte</p></td><td><p>Level (1-99)</p></td></tr><tr class="odd"><td><p>0x02</p></td><td><p>1 byte</p></td><td><p>Strength (0-255)</p></td></tr><tr class="even"><td><p>0x03</p></td><td><p>1 byte</p></td><td><p>Vitality (0-255)</p></td></tr><tr class="odd"><td><p>0x04</p></td><td><p>1 byte</p></td><td><p>Magic (0-255)</p></td></tr><tr class="even"><td><p>0x05</p></td><td><p>1 byte</p></td><td><p>Spirit (0-255)</p></td></tr><tr class="odd"><td><p>0x06</p></td><td><p>1 byte</p></td><td><p>Dexterity (0-255)</p></td></tr><tr class="even"><td><p>0x07</p></td><td><p>1 byte</p></td><td><p>Luck (0-255)</p></td></tr><tr class="odd"><td><p>0x08</p></td><td><p>1 byte</p></td><td><p>Strength Bonus (Power Sources used)</p></td></tr><tr class="even"><td><p>0x09</p></td><td><p>1 byte</p></td><td><p>Vitality Bonus (Guard Sources used)</p></td></tr><tr class="odd"><td><p>0x0A</p></td><td><p>1 byte</p></td><td><p>Magic Bonus (Magic Sources used)</p></td></tr><tr class="even"><td><p>0x0B</p></td><td><p>1 byte</p></td><td><p>Spirit Bonus (Mind Sources used)</p></td></tr><tr class="odd"><td><p>0x0C</p></td><td><p>1 byte</p></td><td><p>Dexterity Bonus (Speed Sources used)</p></td></tr><tr class="even"><td><p>0x0D</p></td><td><p>1 byte</p></td><td><p>Luck Bonus (Luck Sources used)</p></td></tr><tr class="odd"><td><p>0x0E</p></td><td><p>1 byte</p></td><td><p>Current limit level (1-4)</p></td></tr><tr class="even"><td><p>0x0F</p></td><td><p>1 byte</p></td><td><p>Current limit bar (0xFF = limit break)</p></td></tr><tr class="odd"><td><p>0x10</p></td><td><p>12 bytes</p></td><td><p>Name (<a href="FF Text.md" title="wikilink">FF Text</a> format) Game's Naming Boxes Cap you At 9 Chars</p></td></tr><tr class="even"><td><p>0x1C</p></td><td><p>1 byte</p></td><td><p>Equipped weapon</p></td></tr><tr class="odd"><td><p>0x1D</p></td><td><p>1 byte</p></td><td><p>Equipped armor</p></td></tr><tr class="even"><td><p>0x1E</p></td><td><p>1 byte</p></td><td><p>Equipped accessory</p></td></tr><tr class="odd"><td><p>0x1F</p></td><td><p>1 byte</p></td><td><p>Character flags - 0x10-Sadness, 0x20-Fury</p></td></tr><tr class="even"><td><p>0x20</p></td><td><p>1 byte</p></td><td><p>Char order - 0xFF-Normal, 0xFE-Back row</p></td></tr><tr class="odd"><td><p>0x21</p></td><td><p>1 byte</p></td><td><p>Level progress bar (0-63) Games Gui Hides Values &lt;4, 4-63 are visible as "progress"</p></td></tr><tr class="even"><td><p>0x22</p></td><td><p>2 bytes</p></td><td><p>Learned limit skills<br />
+<table><caption><strong>Table 2: Character Record</strong></caption><thead><tr class="header"><th><p>Offset</p></th><th><p>Length</p></th><th><p>Description</p></th></tr></thead><tbody><tr class="odd"><td><p>0x00</p></td><td><p>1 byte</p></td><td><p>Character ID - Ignored If Not Cait / Vincent???</p></td></tr><tr class="even"><td><p>0x01</p></td><td><p>1 byte</p></td><td><p>Level (1-99)</p></td></tr><tr class="odd"><td><p>0x02</p></td><td><p>1 byte</p></td><td><p>Strength (0-255)</p></td></tr><tr class="even"><td><p>0x03</p></td><td><p>1 byte</p></td><td><p>Vitality (0-255)</p></td></tr><tr class="odd"><td><p>0x04</p></td><td><p>1 byte</p></td><td><p>Magic (0-255)</p></td></tr><tr class="even"><td><p>0x05</p></td><td><p>1 byte</p></td><td><p>Spirit (0-255)</p></td></tr><tr class="odd"><td><p>0x06</p></td><td><p>1 byte</p></td><td><p>Dexterity (0-255)</p></td></tr><tr class="even"><td><p>0x07</p></td><td><p>1 byte</p></td><td><p>Luck (0-255)</p></td></tr><tr class="odd"><td><p>0x08</p></td><td><p>1 byte</p></td><td><p>Strength Bonus (Power Sources used)</p></td></tr><tr class="even"><td><p>0x09</p></td><td><p>1 byte</p></td><td><p>Vitality Bonus (Guard Sources used)</p></td></tr><tr class="odd"><td><p>0x0A</p></td><td><p>1 byte</p></td><td><p>Magic Bonus (Magic Sources used)</p></td></tr><tr class="even"><td><p>0x0B</p></td><td><p>1 byte</p></td><td><p>Spirit Bonus (Mind Sources used)</p></td></tr><tr class="odd"><td><p>0x0C</p></td><td><p>1 byte</p></td><td><p>Dexterity Bonus (Speed Sources used)</p></td></tr><tr class="even"><td><p>0x0D</p></td><td><p>1 byte</p></td><td><p>Luck Bonus (Luck Sources used)</p></td></tr><tr class="odd"><td><p>0x0E</p></td><td><p>1 byte</p></td><td><p>Current limit level (1-4)</p></td></tr><tr class="even"><td><p>0x0F</p></td><td><p>1 byte</p></td><td><p>Current limit bar (0xFF = limit break)</p></td></tr><tr class="odd"><td><p>0x10</p></td><td><p>12 bytes</p></td><td><p>Name (<a href="FF_Text.md" title="wikilink">FF Text</a> format) Game's Naming Boxes Cap you At 9 Chars</p></td></tr><tr class="even"><td><p>0x1C</p></td><td><p>1 byte</p></td><td><p>Equipped weapon</p></td></tr><tr class="odd"><td><p>0x1D</p></td><td><p>1 byte</p></td><td><p>Equipped armor</p></td></tr><tr class="even"><td><p>0x1E</p></td><td><p>1 byte</p></td><td><p>Equipped accessory</p></td></tr><tr class="odd"><td><p>0x1F</p></td><td><p>1 byte</p></td><td><p>Character flags - 0x10-Sadness, 0x20-Fury</p></td></tr><tr class="even"><td><p>0x20</p></td><td><p>1 byte</p></td><td><p>Char order - 0xFF-Normal, 0xFE-Back row</p></td></tr><tr class="odd"><td><p>0x21</p></td><td><p>1 byte</p></td><td><p>Level progress bar (0-63) Games Gui Hides Values &lt;4, 4-63 are visible as "progress"</p></td></tr><tr class="even"><td><p>0x22</p></td><td><p>2 bytes</p></td><td><p>Learned limit skills<br />
 0x0001: Limit Lv. 1-1<br />
 0x0002: Limit Lv. 1-2<br />
 <small>0x0004: Always 0 (reserved bit or spacer/breaker/end of limit)</small><br />
@@ -1495,7 +1495,7 @@ Format: Bit mask: Bit description \[Hex byte value\] {Field Keyword}
 Example: 0x04: Set to 1 if we choose no drink when talking to tifa. \[0x0F\] {MDS7PB\_1}  
 Bit mask: Is the bit position number in hex. Bit7(0x80)\|Bit6(0x40)\|Bit5(0x20)\|Bit4(0x10)\|Bit3(0x08)\|Bit2(0x04)\|Bit1(0x02)\|Bit0(0x01)
 
-Note: We use [LBS 0](../Bit numbering.md) bit numbering.
+Note: We use [LBS 0](../Bit_numbering.md) bit numbering.
 
 Bit description: What bit does.
 
