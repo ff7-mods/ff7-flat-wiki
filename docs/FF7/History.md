@@ -2,9 +2,7 @@
 title: History
 ---
 
-[Home](../index.md) > [FF7](../FF7.md) > History
-
-<small>*from [Halkun](../User:Halkun.md)'s "Gears" document*</small>
+<small>*from [Halkun](User:Halkun "wikilink")'s "Gears" document*</small>
 
   
 

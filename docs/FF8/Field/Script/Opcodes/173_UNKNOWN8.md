@@ -2,8 +2,6 @@
 title: 173_UNKNOWN8
 ---
 
-[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 173 UNKNOWN8
-
 -   Opcode: **0x173**
 -   Short name: **UNKNOWN8**
 -   Long name: Clockwise Turn

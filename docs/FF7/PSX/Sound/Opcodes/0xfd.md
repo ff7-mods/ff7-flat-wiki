@@ -2,8 +2,6 @@
 title: 0xfd
 ---
 
-[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [PSX](../../../PSX.md) > [Sound](../../Sound.md) > [Opcodes](../Opcodes.md) > 0xfd
-
 ## 0xFD (Unknown Yet)
 
 Has two 8-bit parameters.

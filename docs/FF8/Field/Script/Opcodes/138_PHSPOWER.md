@@ -2,8 +2,6 @@
 title: 138_PHSPOWER
 ---
 
-[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 138 PHSPOWER
-
 -   Opcode: **0x138**
 -   Short name: **PHSPOWER**
 -   Long name: Enable/Disable PHS

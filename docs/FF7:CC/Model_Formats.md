@@ -2,9 +2,7 @@
 title: Model_Formats
 ---
 
-[Home](../index.md) > [FF7:CC](../FF7:CC.md) > Model Formats
-
-<small>[Koral](../User:Koral.md)</small>
+<small>[Koral](User:Koral "wikilink") 16:59, 29 Mar 2009 (EDT)</small>
 
 # Known FF7:CC Model Formats
 
@@ -26,8 +24,8 @@ Each \[!\]-File contains multiple Models and Textures to represent a single enti
 
 These files include
 
--   [TYPE-0](Model_Formats.md#exp_TYPE-0_Models) Characters, Monsters, NPCs and various prop Models
--   [TYPE-1](Model_Formats.md#exp_TYPE-1_Models) Location Map Models
+-   [TYPE-0](FF7:CC/Model_Formats#exp_TYPE-0_Models "wikilink") Characters, Monsters, NPCs and various prop Models
+-   [TYPE-1](FF7:CC/Model_Formats#exp_TYPE-1_Models "wikilink") Location Map Models
 
 ### File Structure
 
@@ -90,7 +88,7 @@ See the section on PSP-GPU for more information on parsing the vertices.
 
             [see notes]
 
-The PIXEL and PALLETE data are as per the [\[TEX](Image_Formats.md#TEX_Format)\] format
+The PIXEL and PALLETE data are as per the [\[TEX](FF7:CC/Image_Formats#TEX_Format "wikilink")\] format
 
     [Unknown Chunks]
        ?

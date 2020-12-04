@@ -2,11 +2,9 @@
 title: Video_Formats
 ---
 
-[Home](../index.md) > [FF7:CC](../FF7:CC.md) > Video Formats
-
 # Known FF7:CC Video Formats
 
--   [\[PSMF](Video_Formats.md#PSMF_Format)\]
+-   [\[PSMF](FF7:CC/Video_Formats#PSMF_Format "wikilink")\]
 
   
 

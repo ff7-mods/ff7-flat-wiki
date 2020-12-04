@@ -2,8 +2,6 @@
 title: 0E7_ANIMESPEED
 ---
 
-[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 0E7 ANIMESPEED
-
 -   Opcode: **0x0E7**
 -   Short name: **ANIMESPEED**
 -   Long name: Set animation speed

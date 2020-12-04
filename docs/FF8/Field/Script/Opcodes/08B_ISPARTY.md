@@ -2,8 +2,6 @@
 title: 08B_ISPARTY
 ---
 
-[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 08B ISPARTY
-
 -   Opcode: **0x08B**
 -   Short name: **ISPARTY**
 -   Long name: Get position in party

@@ -2,8 +2,6 @@
 title: Overview
 ---
 
-[Home](../../index.md) > [FF7](../../FF7.md) > [Kernel](../Kernel.md) > Overview
-
 ## History
 
 The kernel is a throwback to the very first Final Fantasy game for the Nintendo's original 8 bit system. The NES could only natively read 32 kilobytes of program ROM. To get around this incredible limitation, Nintendo developed "memory mappers" that allowed parts of the program to be switched out, or "banked" and replaced with other parts stored on the game cartridge.

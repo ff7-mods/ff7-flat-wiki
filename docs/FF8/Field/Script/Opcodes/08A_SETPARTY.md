@@ -2,8 +2,6 @@
 title: 08A_SETPARTY
 ---
 
-[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 08A SETPARTY
-
 -   Opcode: **0x08A**
 -   Short name: **SETPARTY**
 -   Long name: Set active party members

@@ -2,8 +2,6 @@
 title: 034_RCANIMEKEEP
 ---
 
-[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 034 RCANIMEKEEP
-
 -   Opcode: **0x034**
 -   Short name: **RCANIMEKEEP**
 -   Long name: Resume script, controlled animation, keep last frame

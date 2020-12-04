@@ -2,8 +2,6 @@
 title: INSTRx.ALL
 ---
 
-[Home](../../../index.md) > [FF7](../../../FF7.md) > [PSX](../../PSX.md) > [Sound](../Sound.md) > INSTRx.ALL
-
 There is two files of this structure on FF7 game discs:
 
 -   SOUND/INSTR.ALL - Main game sounds (93 instruments)

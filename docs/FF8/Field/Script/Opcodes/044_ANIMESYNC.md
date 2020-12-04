@@ -2,8 +2,6 @@
 title: 044_ANIMESYNC
 ---
 
-[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 044 ANIMESYNC
-
 -   Opcode: **0x044**
 -   Short name: **ANIMESYNC**
 -   Long name: Animation Synchronize

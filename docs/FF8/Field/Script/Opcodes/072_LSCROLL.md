@@ -2,8 +2,6 @@
 title: 072_LSCROLL
 ---
 
-[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 072 LSCROLL
-
 -   Opcode: **0x072**
 -   Short name: **LSCROLL**
 -   Long name: L? Scroll

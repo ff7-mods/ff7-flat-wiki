@@ -2,8 +2,6 @@
 title: 060_SHOW
 ---
 
-[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 060 SHOW
-
 -   Opcode: **0x060**
 -   Short name: **SHOW**
 -   Long name: Show entity

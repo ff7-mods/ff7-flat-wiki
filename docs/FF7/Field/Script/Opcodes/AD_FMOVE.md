@@ -2,8 +2,6 @@
 title: AD_FMOVE
 ---
 
-[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > AD FMOVE
-
 -   Opcode: **0xA9**
 -   Short name: **CMOVE**
 -   Long name: Move Object (No Animation)

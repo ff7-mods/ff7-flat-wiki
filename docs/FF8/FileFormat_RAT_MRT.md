@@ -2,8 +2,6 @@
 title: FileFormat_RAT_MRT
 ---
 
-[Home](../index.md) > [FF8](../FF8.md) > FileFormat RAT MRT
-
 By myst6re.
 
 ## Field Rate and battle Formations (Encounter)

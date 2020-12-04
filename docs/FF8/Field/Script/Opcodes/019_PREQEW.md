@@ -2,8 +2,6 @@
 title: 019_PREQEW
 ---
 
-[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 019 PREQEW
-
 -   Opcode: **0x019**
 -   Short name: **PREQEW**
 -   Long name: Request party entity execution (synchronous, guaranteed)

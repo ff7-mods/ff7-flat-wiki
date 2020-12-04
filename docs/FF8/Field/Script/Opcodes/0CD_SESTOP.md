@@ -2,8 +2,6 @@
 title: 0CD_SESTOP
 ---
 
-[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 0CD SESTOP
-
 -   Opcode: **0x0CD**
 -   Short name: **SESTOP**
 -   Long name: Stop sound effect

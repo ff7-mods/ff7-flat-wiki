@@ -2,8 +2,6 @@
 title: 041_CMOVE
 ---
 
-[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 041 CMOVE
-
 -   Opcode: **0x041**
 -   Short name: **CMOVE**
 -   Long name: C? Move

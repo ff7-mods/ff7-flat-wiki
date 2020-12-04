@@ -2,8 +2,6 @@
 title: Menu_mngrp_strings_locations
 ---
 
-[Home](../index.md) > [FF8](../FF8.md) > Menu mngrp strings locations
-
 Many strings.
 
 ### Header String Offsets

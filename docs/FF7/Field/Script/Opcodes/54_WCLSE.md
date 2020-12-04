@@ -2,8 +2,6 @@
 title: 54_WCLSE
 ---
 
-[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 54 WCLSE
-
 -   Opcode: **0x54**
 -   Short name: **WCLSE**
 -   Long name: Window Close

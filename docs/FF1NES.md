@@ -2,8 +2,6 @@
 title: FF1NES
 ---
 
-[Home](index.md) > FF1NES
-
 To understand how the data is organized for Final Fantasy 1, you must first understand how the original NES operated.
 
 The NES had a 6502 microprocessor, this gave the system a maximum of 65,536 bytes, or 64K of addressable memory. At the time, RAM was very expensive, costing upwardly of one dollar per kilobyte of storage. When Nintendo created the original NES, the game slot plugged in 32K of ROM, split into two sections of 16K each. As games grew, "mapping" technologies allowed the top half of 16K to be swapped out for other sections of 16K ROM.

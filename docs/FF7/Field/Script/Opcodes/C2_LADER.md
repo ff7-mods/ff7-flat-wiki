@@ -2,8 +2,6 @@
 title: C2_LADER
 ---
 
-[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > C2 LADER
-
 -   Opcode: **0xC2**
 -   Short name: **LADER**
 -   Long name: Ladder
@@ -38,7 +36,7 @@ The coordinates specify the end-point of the ladder; the current position of the
 
 ### Notes
 
-This opcode is used as part of the character's entity, rather than in a seperate entity, as with a [LINE](FF7/Field/Script/Opcodes/D0_LINE "wikilink"). A LINE is used to set the start point of the ladder on the walkmesh. When this LINE is crossed by the player, a script in the LINE then uses a [PREQ](04_PREQ.md), calling the script in the party leader that defines the LADER, causing the character to switch to 'climbing mode'.
+This opcode is used as part of the character's entity, rather than in a seperate entity, as with a [LINE](D0_LINE.md). A LINE is used to set the start point of the ladder on the walkmesh. When this LINE is crossed by the player, a script in the LINE then uses a [PREQ](04_PREQ.md) (or one of its variants), calling the script in the party leader that defines the LADER, causing the character to switch to 'climbing mode'.
 
 To set up a two-way ladder, two LINEs are used at either end, with different values for the LADER arguments, such as differing end points.
 

@@ -2,8 +2,6 @@
 title: 129_MENUNAME
 ---
 
-[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 129 MENUNAME
-
 -   Opcode: **0x0129**
 -   Short name: **MENUNAME**
 -   Long name: Name Character/GF

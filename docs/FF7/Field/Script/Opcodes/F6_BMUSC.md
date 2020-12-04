@@ -2,8 +2,6 @@
 title: F6_BMUSC
 ---
 
-[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > F6 BMUSC
-
 -   Opcode: **0xF6**
 -   Short name: **BMUSC**
 -   Long name: Battle Music
@@ -19,4 +17,4 @@ title: F6_BMUSC
 
 #### Description
 
-Sets the [MUSIC](FF7/Field/Script/Opcodes/F0_MUSIC "wikilink") that will play when the next [BATTLE](70_BATTLE.md) set, this opcode can be used to set regular or boss battle music for the current field's encounters, or even switched between in the script.
+Sets the [MUSIC](F0_MUSIC.md) that will play when the next [BATTLE](70_BATTLE.md) is issued. As with the MUSIC opcode, the ID represents an offset into the list of music files that have been set by the field file. Hence, provided the field file has the correct music file(s) set, this opcode can be used to set regular or boss battle music for the current field's encounters, or even switched between in the script.

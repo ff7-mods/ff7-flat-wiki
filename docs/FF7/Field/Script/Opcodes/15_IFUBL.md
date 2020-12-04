@@ -2,8 +2,6 @@
 title: 15_IFUBL
 ---
 
-[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 15 IFUBL
-
 -   Opcode: **0x15**
 -   Short name: **IFUBL**
 -   Long name: If (Unsigned Byte, Long Jump)

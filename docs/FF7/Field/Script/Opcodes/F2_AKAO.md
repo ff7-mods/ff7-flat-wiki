@@ -2,8 +2,6 @@
 title: F2_AKAO
 ---
 
-[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > F2 AKAO
-
 -   Opcode: **0xF2**
 -   Short name: **AKAO**
 -   Long name: Sound Operation (byte param1)
@@ -32,7 +30,7 @@ title: F2_AKAO
 
 Perform an operation described by *Op*, and uses the parameters depending on the operation.
 
-##### Operation list (by [Aali](user:aali "wikilink") and [DLPB](../../../../user:DLPB2.md)
+##### Operation list (by [Aali](user:aali "wikilink") and [DLPB](user:DLPB2 "wikilink"))
 
 -   **10** Play music \[param1=Music ID\]
 -   **14** Same as 10

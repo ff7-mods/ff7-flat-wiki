@@ -2,8 +2,6 @@
 title: 025_LADDERUP
 ---
 
-[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 025 LADDERUP
-
 -   Opcode: **0x025**
 -   Short name: **LADDERUP**
 -   Long name: ????

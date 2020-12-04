@@ -2,8 +2,6 @@
 title: IndexFileFormat
 ---
 
-[Home](../index.md) > [Xeno](../Xeno.md) > IndexFileFormat
-
 The original file structure was deleted from the disk, exept two start files: SLUS\_xxx.xx and SYSTEM.CNF, but after game starts file structure restores and game works whith it.
 
 The file that holds all file structure are the very first on the disk (no matter english or japanese copy of game). It starts from 24 sector and has size of 16 sectors.

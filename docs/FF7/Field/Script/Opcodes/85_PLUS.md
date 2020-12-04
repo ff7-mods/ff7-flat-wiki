@@ -2,8 +2,6 @@
 title: 85_PLUS
 ---
 
-[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 85 PLUS
-
 -   Opcode: **0x85**
 -   Short name: **PLUS**
 -   Long name: Addition (8-bit)

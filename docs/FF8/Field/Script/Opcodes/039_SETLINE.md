@@ -2,8 +2,6 @@
 title: 039_SETLINE
 ---
 
-[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 039 SETLINE
-
 -   Opcode: **0x039**
 -   Short name: **SETLINE**
 -   Long name: Set Line Bounds

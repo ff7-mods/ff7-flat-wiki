@@ -2,8 +2,6 @@
 title: FileFormat_CA
 ---
 
-[Home](../index.md) > [FF8](../FF8.md) > FileFormat CA
-
 By myst6re.
 
 ## Camera

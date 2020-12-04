@@ -2,13 +2,11 @@
 title: Memory_management
 ---
 
-[Home](../../index.md) > [FF7](../../FF7.md) > [Kernel](../Kernel.md) > Memory management
-
 ## RAM management
 
 No matter what module is banked into memory, there is a section of memory 4,340 bytes long (0x10F4 bytes) that is reserved for all the variables for the entire game. This entire image is called the "[Savemap](../Savemap.md)". When it's time to save a game, this section of memory is copied to non-volatile ram, such as a hard disk or memory card.
 
-Within the [Savemap](../Savemap.md) there are 5 banks of memory that are directly accessible by the [field scripting language](FF7/Field_script "wikilink"). These can either be accessed 8 bits or 16 bits at a time depending on the field command argument. The following table is basic memory map of the banks and how they relate to the [Savemap](../Savemap.md). There is also an allocation for 256 bytes for temporary field variables. These are not used between field files and are not saved.
+Within the [Savemap](../Savemap.md) there are 5 banks of memory that are directly accessible by the [field scripting language](../Field_script.md). These can either be accessed 8 bits or 16 bits at a time depending on the field command argument. The following table is basic memory map of the banks and how they relate to the [Savemap](../Savemap.md). There is also an allocation for 256 bytes for temporary field variables. These are not used between field files and are not saved.
 
 | Offset | 8 Bit Field Bank | 16 Bit Filed Bank |                  Description                   |
 |:------:|:----------------:|:-----------------:|:----------------------------------------------:|

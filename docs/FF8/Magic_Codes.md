@@ -2,8 +2,6 @@
 title: Magic_Codes
 ---
 
-[Home](../index.md) > [FF8](../FF8.md) > Magic Codes
-
 | Index | Spell      |
 |-------|------------|
 | 001   | Fire       |

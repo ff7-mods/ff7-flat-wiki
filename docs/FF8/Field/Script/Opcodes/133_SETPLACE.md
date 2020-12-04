@@ -2,8 +2,6 @@
 title: 133_SETPLACE
 ---
 
-[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 133 SETPLACE
-
 -   Opcode: **0x0133**
 -   Short name: **SETPLACE**
 -   Long name: Set Area Display Name

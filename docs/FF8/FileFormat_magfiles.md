@@ -2,8 +2,6 @@
 title: FileFormat_magfiles
 ---
 
-[Home](../index.md) > [FF8](../FF8.md) > FileFormat magfiles
-
 By MaKiPL
 
 ------------------------------------------------------------------------

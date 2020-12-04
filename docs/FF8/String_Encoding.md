@@ -2,8 +2,6 @@
 title: String_Encoding
 ---
 
-[Home](../index.md) > [FF8](../FF8.md) > String Encoding
-
 # String Encoding
 
 FF8 strings are converted to byte arrays.[Char Table](https://sourceforge.net/p/ifrit/code-0/HEAD/tree/trunk%20ifrit-code-0/Resources/textformat.ifr) Some of which aligns to the grid of text in the texture if you -32 from the value. Some values are 1 byte = 2 characters, most are 1 byte = 1 character. There are also special bytes that use up 1-3 bytes.

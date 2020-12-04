@@ -2,8 +2,6 @@
 title: 009_POPI_L
 ---
 
-[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 009 POPI L
-
 -   Opcode: **0x009**
 -   Short name: **POPI\_L**
 -   Long name: Pop to Temp List (long)

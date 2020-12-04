@@ -2,8 +2,6 @@
 title: E1_BGOFF
 ---
 
-[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > E1 BGOFF
-
 -   Opcode: **0xE1**
 -   Short name: **BGOFF**
 -   Long name: Background Off
@@ -22,4 +20,4 @@ title: E1_BGOFF
 
 #### Description
 
-Similar to [BGON](FF7/Field/Script/Opcodes/E0_BGON "wikilink"), only this opcode turns *off* the portion of background whose [background sprite](../../Sprite.md) specifies it as belonging to the scripted area and layer specified.
+Similar to [BGON](E0_BGON.md), only this opcode turns *off* the portion of background whose [background sprite](../../Sprite.md) specifies it as belonging to the scripted area and layer specified.

@@ -2,8 +2,6 @@
 title: 03F_MOVEA
 ---
 
-[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 03F MOVEA
-
 -   Opcode: **0x03F**
 -   Short name: **MOVEA**
 -   Long name: Move to Actor

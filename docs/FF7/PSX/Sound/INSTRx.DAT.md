@@ -2,8 +2,6 @@
 title: INSTRx.DAT
 ---
 
-[Home](../../../index.md) > [FF7](../../../FF7.md) > [PSX](../../PSX.md) > [Sound](../Sound.md) > INSTRx.DAT
-
 There are two files of such type:
 
 | File             | Number of Instruments | Load Offset        | Load Size            | Description                                 |

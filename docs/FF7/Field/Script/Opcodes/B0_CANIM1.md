@@ -2,8 +2,6 @@
 title: B0_CANIM1
 ---
 
-[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > B0 CANIM1
-
 -   Opcode: **0xB0**
 -   Short name: **CANIM1**
 -   Long name: Particial Animation.

@@ -2,8 +2,6 @@
 title: 176_UNKNOWN11
 ---
 
-[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 176 UNKNOWN11
-
 -   Opcode: **0x176**
 -   Short name: **UNKNOWN11**
 -   Long name: (?)
@@ -23,4 +21,4 @@ none
 
 #### Description
 
-This is some kind of weird wait command. [UNKNOWN12](177_UNKNOWN12.md).
+This is some kind of weird wait command. [UNKNOWN12](177_UNKNOWN12.md) is probably the waitsync for it. The second parameter is definitely a frame count, but I have no ides what the first parameter is (it's usually 0).

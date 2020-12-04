@@ -2,8 +2,6 @@
 title: DamageFormula
 ---
 
-[Home](../index.md) > [FF7](../FF7.md) > DamageFormula
-
 ## Accuracy Function considerations
 
 Each of the upper nybble of the damage calculation determines what checks are done to accuracy of the action and whether or not it will connect, be critical or miss. Here are the functions in order processed based on the upper nybble:
@@ -11,16 +9,16 @@ Each of the upper nybble of the damage calculation determines what checks are do
 | Upper Nybble | Functions                                                                                                                                          |
 |--------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
 | 0            | None (always hits)                                                                                                                                 |
-| 1            | [Physical Accuracy](DamageFormula.md#0:_Physical_Accuracy_Check), [Critical Check](DamageFormula.md#2:_Critical_Hit_Check) |
-| 2            | [Magical Accuracy](DamageFormula.md#1:_Magical_Accuracy_Check)                                                                         |
+| 1            | [Physical Accuracy](FF7/DamageFormula#0:_Physical_Accuracy_Check "wikilink"), [Critical Check](FF7/DamageFormula#2:_Critical_Hit_Check "wikilink") |
+| 2            | [Magical Accuracy](FF7/DamageFormula#1:_Magical_Accuracy_Check "wikilink")                                                                         |
 | 3            | Dummy \[3\] (always hits)                                                                                                                          |
 | 4            | Dummy \[4\] (always hits)                                                                                                                          |
 | 5            | Dummy \[5\] (always hits)                                                                                                                          |
-| 6            | [Physical Accuracy](DamageFormula.md#0:_Physical_Accuracy_Check), [Critical Check](DamageFormula.md#2:_Critical_Hit_Check) |
-| 7            | [Magical Accuracy](DamageFormula.md#1:_Magical_Accuracy_Check)                                                                         |
-| 8            | [Level-based Accuracy](DamageFormula.md#7:_Level-based_Accuracy)                                                                       |
-| 9            | [Manipulate](DamageFormula.md#6:_Manipulate_Accuracy_.28intended_solely_for_playable_characters.29)                                    |
-| A            | [Physical Accuracy](FF7/DamageFormula#0:_Physical_Accuracy_Check "wikilink"), [Critical Check](DamageFormula.md#2:_Critical_Hit_Check) |
+| 6            | [Physical Accuracy](FF7/DamageFormula#0:_Physical_Accuracy_Check "wikilink"), [Critical Check](FF7/DamageFormula#2:_Critical_Hit_Check "wikilink") |
+| 7            | [Magical Accuracy](FF7/DamageFormula#1:_Magical_Accuracy_Check "wikilink")                                                                         |
+| 8            | [Level-based Accuracy](FF7/DamageFormula#7:_Level-based_Accuracy "wikilink")                                                                       |
+| 9            | [Manipulate](FF7/DamageFormula#6:_Manipulate_Accuracy_.28intended_solely_for_playable_characters.29 "wikilink")                                    |
+| A            | [Physical Accuracy](FF7/DamageFormula#0:_Physical_Accuracy_Check "wikilink"), [Critical Check](FF7/DamageFormula#2:_Critical_Hit_Check "wikilink") |
 | B            | [Physical Accuracy](FF7/DamageFormula#0:_Physical_Accuracy_Check "wikilink")                                                                       |
 | C            | None (always hits)                                                                                                                                 |
 | D            | None (always hits)                                                                                                                                 |

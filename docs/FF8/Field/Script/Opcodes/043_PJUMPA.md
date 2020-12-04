@@ -2,8 +2,6 @@
 title: 043_PJUMPA
 ---
 
-[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 043 PJUMPA
-
 -   Opcode: **0x043**
 -   Short name: **PJUMPA**
 -   Long name: Jump Actor to Party Member

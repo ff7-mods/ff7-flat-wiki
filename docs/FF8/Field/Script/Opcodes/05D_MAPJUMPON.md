@@ -2,8 +2,6 @@
 title: 05D_MAPJUMPON
 ---
 
-[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 05D MAPJUMPON
-
 -   Opcode: **0x05D**
 -   Short name: **MAPJUMPON**
 -   Long name: Enable Field Exits

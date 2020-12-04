@@ -2,8 +2,6 @@
 title: 58_STITM
 ---
 
-[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 58 STITM
-
 -   Opcode: **0x58**
 -   Short name: **STITM**
 -   Long name: Set Item

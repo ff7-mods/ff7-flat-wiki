@@ -2,8 +2,6 @@
 title: Accessory_data
 ---
 
-[Home](../index.md) > [FF7](../FF7.md) > Accessory data
-
 ## KERNEL.BIN - Section 8: Accessory data format
 
 This section contains the accessory data. Each record is 16 bytes long.

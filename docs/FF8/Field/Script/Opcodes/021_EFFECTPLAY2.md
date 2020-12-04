@@ -2,8 +2,6 @@
 title: 021_EFFECTPLAY2
 ---
 
-[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 021 EFFECTPLAY2
-
 -   Opcode: **0x021**
 -   Short name: **EFFECTPLAY2**
 -   Long name: Play sound effect
@@ -25,6 +23,6 @@ Field SFXID (in the SFX list for that field)
 
 #### Description
 
-Plays a sound effect through the given sound channel. The channel is important because it's the parameter used in [SESTOP](0CD_SESTOP.md), so you can theoretically have 20 sounds playing at once. 0 doesn't seem like it's a usable channel, but this is untested.
+Plays a sound effect through the given sound channel. The channel is important because it's the parameter used in [SESTOP](0CD_SESTOP.md) to halt a specific sound effect (and to prevent multiple counds from silencing each other). AFAIK Channels go up to 2^20 (which is 1048576), so you can theoretically have 20 sounds playing at once. 0 doesn't seem like it's a usable channel, but this is untested.
 
 Note: It seems each area can have a maximum of 32 sounds predefined (meaning sound ID 31 is the highest you can play with this). You have to use [EFFECTPLAY](0BC_EFFECTPLAY.md) to use more than 32 sounds.

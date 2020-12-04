@@ -2,8 +2,6 @@
 title: 00E_EOR
 ---
 
-[Home](../../../../../index.md) > [FF8](../../../../../FF8.md) > [Field](../../../../Field.md) > [Script](../../../Script.md) > [Opcodes](../../Opcodes.md) > [001 CAL](../001_CAL.md) > 00E EOR
-
 -   CAL Opcode: **0x00E EOR**
 
 #### Stack

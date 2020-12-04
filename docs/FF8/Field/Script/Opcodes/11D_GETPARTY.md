@@ -2,8 +2,6 @@
 title: 11D_GETPARTY
 ---
 
-[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 11D GETPARTY
-
 -   Opcode: **0x11D**
 -   Short name: **GETPARTY**
 -   Long name: Get characetr in party slot

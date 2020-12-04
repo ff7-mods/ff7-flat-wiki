@@ -2,8 +2,6 @@
 title: 28_KAWAI
 ---
 
-[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 28 KAWAI
-
 -   Opcode: **0x28**
 -   Short name: **KAWAI**
 -   Long name: Character Graphics Opcode (Multibyte sequence)
@@ -25,10 +23,10 @@ KAWAI is a multipurpose, graphics-related opcode that performs a variety of diff
 
 #### Subcodes by Opcode
 
-[`00`` ``EYETX`](28_KAWAI/00_EYETX.md)  
-[`01`` ``TRNSP`](28_KAWAI/01_TRNSP.md)  
-[`02`` ``AMBNT`](28_KAWAI/02_AMBNT.md)  
-[`06`` ``LIGHT`](28_KAWAI/06_LIGHT.md)  
-[`0A`` ``SBOBJ`](28_KAWAI/0A_SBOBJ.md)  
-[`0D`` ``SHINE`](28_KAWAI/0D_SHINE.md)  
-[`FF`` ``RESET`](28_KAWAI/FF_RESET.md)
+[`00`` ``EYETX`](FF7/Field/Script/Opcodes/28_KAWAI/00_EYETX "wikilink")  
+[`01`` ``TRNSP`](FF7/Field/Script/Opcodes/28_KAWAI/01_TRNSP "wikilink")  
+[`02`` ``AMBNT`](FF7/Field/Script/Opcodes/28_KAWAI/02_AMBNT "wikilink")  
+[`06`` ``LIGHT`](FF7/Field/Script/Opcodes/28_KAWAI/06_LIGHT "wikilink")  
+[`0A`` ``SBOBJ`](FF7/Field/Script/Opcodes/28_KAWAI/0A_SBOBJ "wikilink")  
+[`0D`` ``SHINE`](FF7/Field/Script/Opcodes/28_KAWAI/0D_SHINE "wikilink")  
+[`FF`` ``RESET`](FF7/Field/Script/Opcodes/28_KAWAI/FF_RESET "wikilink")

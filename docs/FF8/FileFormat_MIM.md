@@ -2,8 +2,6 @@
 title: FileFormat_MIM
 ---
 
-[Home](../index.md) > [FF8](../FF8.md) > FileFormat MIM
-
 By Aali.
 
 # MIM Files

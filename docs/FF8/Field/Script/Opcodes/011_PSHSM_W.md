@@ -2,8 +2,6 @@
 title: 011_PSHSM_W
 ---
 
-[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 011 PSHSM W
-
 -   Opcode: **0x011**
 -   Short name: **PSHSM\_W**
 -   Long name: Push signed from memory (word)

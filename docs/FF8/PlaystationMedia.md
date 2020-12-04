@@ -2,8 +2,6 @@
 title: PlaystationMedia
 ---
 
-[Home](../index.md) > [FF8](../FF8.md) > PlaystationMedia
-
 By myst6re
 
 # FF8DISCX.IMG File Format

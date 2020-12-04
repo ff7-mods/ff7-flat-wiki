@@ -2,8 +2,6 @@
 title: 56_GWCOL
 ---
 
-[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 56 GWCOL
-
 -   Opcode: **0x56**
 -   Short name: **GWCOL**
 -   Long name: Get Window Colour

@@ -2,8 +2,6 @@
 title: 09F_SETGETA
 ---
 
-[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 09F SETGETA
-
 -   Opcode: **0x09F**
 -   Short name: **SETGETA**
 -   Long name: Set/Get Actor?
@@ -23,4 +21,4 @@ none
 
 ?
 
-[Category:Unfinished FF8 Opcodes](../../../../Category:Unfinished_FF8_Opcodes.md)
+[Category:Unfinished FF8 Opcodes](Category:Unfinished_FF8_Opcodes "wikilink")

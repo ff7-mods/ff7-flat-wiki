@@ -2,8 +2,6 @@
 title: 84_BITXOR
 ---
 
-[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 84 BITXOR
-
 -   Opcode: **0x84**
 -   Short name: **BITXOR**
 -   Long name: Toggle Bit

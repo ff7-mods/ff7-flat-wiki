@@ -2,8 +2,6 @@
 title: Animation_Script
 ---
 
-[Home](../../../index.md) > [FF7](../../../FF7.md) > [Battle](../../Battle.md) > [Battle Animation](../Battle_Animation.md) > Animation Script
-
 This page contains information related to the AB animation files of battle models.
 
 Any code less than 8Eh is treated as a raw animation index to be executed.

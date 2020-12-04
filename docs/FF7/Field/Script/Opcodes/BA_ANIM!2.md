@@ -2,8 +2,6 @@
 title: BA_ANIM!2
 ---
 
-[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > BA ANIM!2
-
 -   Opcode: **0xBA**
 -   Short name: **ANIM!2**
 -   Long name: Animate/Stay

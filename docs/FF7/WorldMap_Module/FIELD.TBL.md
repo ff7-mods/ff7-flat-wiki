@@ -2,8 +2,6 @@
 title: FIELD.TBL
 ---
 
-[Home](../../index.md) > [FF7](../../FF7.md) > [WorldMap Module](../WorldMap_Module.md) > FIELD.TBL
-
 ## General
 
 This file contains the definition of what field map should be loaded and also the coordinates to which the character should begin at when the () opcode is executed during world scripting.

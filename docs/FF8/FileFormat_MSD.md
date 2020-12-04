@@ -2,8 +2,6 @@
 title: FileFormat_MSD
 ---
 
-[Home](../index.md) > [FF8](../FF8.md) > FileFormat MSD
-
 By myst6re.
 
 ## Field texts

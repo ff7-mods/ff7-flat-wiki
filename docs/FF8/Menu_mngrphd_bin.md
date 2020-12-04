@@ -2,8 +2,6 @@
 title: Menu_mngrphd_bin
 ---
 
-[Home](../index.md) > [FF8](../FF8.md) > Menu mngrphd bin
-
 This is the map for [mngrp.bin](Menu_mngrp_bin.md). Locations to data and the size of the section.
 
 ## Entry

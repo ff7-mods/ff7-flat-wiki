@@ -2,8 +2,6 @@
 title: 171_UNKNOWN6
 ---
 
-[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 171 UNKNOWN6
-
 -   Opcode: **0x171**
 -   Short name: **UNKNOWN6**
 -   Long name: Clockwise Turn

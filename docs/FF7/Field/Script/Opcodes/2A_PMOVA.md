@@ -2,8 +2,6 @@
 title: 2A_PMOVA
 ---
 
-[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 2A PMOVA
-
 -   Opcode: **0x2A**
 -   Short name: **PMOVA**
 -   Long name: Move to Party Member

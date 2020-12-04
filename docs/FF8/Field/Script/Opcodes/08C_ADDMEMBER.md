@@ -2,8 +2,6 @@
 title: 08C_ADDMEMBER
 ---
 
-[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 08C ADDMEMBER
-
 -   Opcode: **0x08C**
 -   Short name: **ADDMEMBER**
 -   Long name: Add party member to game

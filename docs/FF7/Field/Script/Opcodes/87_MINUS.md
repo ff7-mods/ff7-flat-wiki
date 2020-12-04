@@ -2,8 +2,6 @@
 title: 87_MINUS
 ---
 
-[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 87 MINUS
-
 -   Opcode: **0x87**
 -   Short name: **MINUS**
 -   Long name: Subtraction (8-bit)

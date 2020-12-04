@@ -2,8 +2,6 @@
 title: 37_WNUMB
 ---
 
-[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 37 WNUMB
-
 -   Opcode: **0x37**
 -   Short name: **WNUMB**
 -   Long name: Set Number
@@ -23,6 +21,6 @@ title: 37_WNUMB
 
 #### Description
 
-Sets the numerical display, as found in the [WSPCL](FF7/Field/Script/Opcodes/36_WSPCL "wikilink") opcode. The number may be set with a specified value or retrieved from two 16-bit values, and the number of digits to show is specified with *C*. Unlike the other special window setting function, [STTIM](FF7/Field/Script/Opcodes/38_STTIM "wikilink"), the [WINDOW](50_WINDOW.md) ID must be given for this opcode.
+Sets the numerical display, as found in the [WSPCL](36_WSPCL.md) opcode. The number may be set with a specified value or retrieved from two 16-bit values, and the number of digits to show is specified with *C*. Unlike the other special window setting function, [STTIM](38_STTIM.md), the [WINDOW](50_WINDOW.md) ID must be given for this opcode.
 
 If the value does not fit in the specified number of digits for the display, the higher units are not displayed.

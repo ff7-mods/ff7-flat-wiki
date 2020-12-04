@@ -2,8 +2,6 @@
 title: 64_SCR2D
 ---
 
-[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 64 SCR2D
-
 -   Opcode: **0x64**
 -   Short name: **SCR2D**
 -   Long name: Scroll 2D
@@ -22,4 +20,4 @@ title: 64_SCR2D
 
 #### Description
 
-Instantaneously scrolls the current view to the coordinates found in the arguments (or the values found at the addresses if memory banks and address are specified). The move to the new coordinates is instant; variants exist for [linear](FF7/Field/Script/Opcodes/68_SCR2DL "wikilink") and [smooth](66_SCR2DC.md) scrolling.
+Instantaneously scrolls the current view to the coordinates found in the arguments (or the values found at the addresses if memory banks and address are specified). The move to the new coordinates is instant; variants exist for [linear](68_SCR2DL.md) and [smooth](66_SCR2DC.md) scrolling.

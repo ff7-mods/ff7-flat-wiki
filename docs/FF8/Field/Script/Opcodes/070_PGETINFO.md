@@ -2,8 +2,6 @@
 title: 070_PGETINFO
 ---
 
-[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 070 PGETINFO
-
 -   Opcode: **0x070**
 -   Short name: **PGETINFO**
 -   Long name: Get Party Member Worldspace Coordinates?

@@ -2,8 +2,6 @@
 title: FileFormat_SFX
 ---
 
-[Home](../index.md) > [FF8](../FF8.md) > FileFormat SFX
-
 By myst6re.
 
 ## Sound ids

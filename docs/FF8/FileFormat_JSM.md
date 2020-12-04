@@ -2,8 +2,6 @@
 title: FileFormat_JSM
 ---
 
-[Home](../index.md) > [FF8](../FF8.md) > FileFormat JSM
-
 By myst6re.
 
 ## Fields Scripts

@@ -2,8 +2,6 @@
 title: C4_OFSTW
 ---
 
-[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > C4 OFSTW
-
 -   Opcode: **0xC4**
 -   Short name: **OFSTW**
 -   Long name: Wait for Offset

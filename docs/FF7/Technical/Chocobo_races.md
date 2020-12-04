@@ -2,8 +2,6 @@
 title: Chocobo_races
 ---
 
-[Home](../../index.md) > [FF7](../../FF7.md) > [Technical](../Technical.md) > Chocobo races
-
 ### Symptoms
 
 In Gold Saucer, whenever I go to Chocobo Races my game crashes to Windows. I'm using Windows 2000 or XP.

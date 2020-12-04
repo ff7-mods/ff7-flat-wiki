@@ -2,8 +2,6 @@
 title: Model_Loader
 ---
 
-[Home](../../index.md) > [FF7](../../FF7.md) > [Field](../Field.md) > Model Loader
-
 ## Model loader (FF7 PC)
 
 | Offset | Size                   | Data                 |

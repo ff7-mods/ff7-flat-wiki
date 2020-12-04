@@ -2,8 +2,6 @@
 title: HRC
 ---
 
-[Home](../index.md) > [PSX](../PSX.md) > HRC
-
 ## HRC Hierarchy data format
 
 An HRC file is product of the original Playstation Psy-Q 3D development libraries. They describe the bone hierarchy of a 3D model. Most of the time they originally start as a plain text file exported from 3D editing software, or from a 3D file converter. From this they can be "compiled" into binary form more usable for the PSX.

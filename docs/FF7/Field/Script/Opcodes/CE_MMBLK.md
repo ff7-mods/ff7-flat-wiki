@@ -2,8 +2,6 @@
 title: CE_MMBLK
 ---
 
-[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > CE MMBLK
-
 -   Opcode: **0xCE**
 -   Short name: **MMBLK**
 -   Long name: Party Select: Character Lock

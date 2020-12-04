@@ -2,8 +2,6 @@
 title: 4F_HPd
 ---
 
-[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 4F HPd
-
 -   Opcode: **0x4F**
 -   Short name: **HPd**
 -   Long name: HP Down

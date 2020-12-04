@@ -2,8 +2,6 @@
 title: 0FF_FACEDIRP
 ---
 
-[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 0FF FACEDIRP
-
 -   Opcode: **0x0FF**
 -   Short name: **FACEDIRP**
 -   Long name: Head face to party member

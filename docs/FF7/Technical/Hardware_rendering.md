@@ -2,8 +2,6 @@
 title: Hardware_rendering
 ---
 
-[Home](../../index.md) > [FF7](../../FF7.md) > [Technical](../Technical.md) > Hardware rendering
-
 ### Symptoms
 
 In Final Fantasy VII Configurator I can't choose *Hardware Acceleration* in *Renderer* section. The test box on the right say's that system failed in *8-bit Paletted Textures* test.

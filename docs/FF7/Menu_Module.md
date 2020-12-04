@@ -2,8 +2,6 @@
 title: Menu_Module
 ---
 
-[Home](../index.md) > [FF7](../FF7.md) > Menu Module
-
 ## Menu Overview
 
 ### Important Files

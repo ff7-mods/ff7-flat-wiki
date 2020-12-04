@@ -2,8 +2,6 @@
 title: 73_PGTDR
 ---
 
-[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 73 PGTDR
-
 -   Opcode: **0x73**
 -   Short name: **PGTDR**
 -   Long name: Get Party Member Direction

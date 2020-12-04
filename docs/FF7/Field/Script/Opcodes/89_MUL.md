@@ -2,8 +2,6 @@
 title: 89_MUL
 ---
 
-[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 89 MUL
-
 -   Opcode: **0x89**
 -   Short name: **MUL**
 -   Long name: Multiplication (8-bit)

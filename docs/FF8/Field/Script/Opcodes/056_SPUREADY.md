@@ -2,8 +2,6 @@
 title: 056_SPUREADY
 ---
 
-[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 056 SPUREADY
-
 -   Opcode: **0x056**
 -   Short name: **SPUREADY**
 -   Long name: SPU Start

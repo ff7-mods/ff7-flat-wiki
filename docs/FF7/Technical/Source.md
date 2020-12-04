@@ -2,8 +2,6 @@
 title: Source
 ---
 
-[Home](../../index.md) > [FF7](../../FF7.md) > [Technical](../Technical.md) > Source
-
 Source Code Forensics
 
 The PC port's executable contains some very interesting artifacts from it's development cycle. This is a listing of the known source files referenced within Final Fantasy 7's PC executable. This listing is attainable with a single UNIX like command, and cleaned up with a little editing.

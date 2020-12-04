@@ -2,8 +2,6 @@
 title: 013_PSHAC
 ---
 
-[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 013 PSHAC
-
 -   Opcode: **0x013**
 -   Short name: **PSHAC**
 -   Long name: Push actor code???

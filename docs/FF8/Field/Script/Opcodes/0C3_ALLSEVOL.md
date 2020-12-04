@@ -2,8 +2,6 @@
 title: 0C3_ALLSEVOL
 ---
 
-[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 0C3 ALLSEVOL
-
 -   Opcode: **0x0C3**
 -   Short name: **ALLSEVOL**
 -   Long name: Set Volume of all Sound Effects

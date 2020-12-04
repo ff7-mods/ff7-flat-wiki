@@ -2,8 +2,6 @@
 title: 026_LADDERDOWN
 ---
 
-[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 026 LADDERDOWN
-
 -   Opcode: **0x026**
 -   Short name: **LADDERDOWN**
 -   Long name: ????

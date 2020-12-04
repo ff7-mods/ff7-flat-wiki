@@ -2,8 +2,6 @@
 title: 063_PUSHRADIUS
 ---
 
-[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 063 PUSHRADIUS
-
 -   Opcode: **0x063**
 -   Short name: **PUSHRADIUS**
 -   Long name: Set Push Radius

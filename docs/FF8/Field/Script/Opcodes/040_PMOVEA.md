@@ -2,8 +2,6 @@
 title: 040_PMOVEA
 ---
 
-[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 040 PMOVEA
-
 -   Opcode: **0x040**
 -   Short name: **PMOVEA**
 -   Long name: Move to Party Actor

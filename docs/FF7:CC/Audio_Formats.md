@@ -2,12 +2,10 @@
 title: Audio_Formats
 ---
 
-[Home](../index.md) > [FF7:CC](../FF7:CC.md) > Audio Formats
-
 # Known FF7:CC Audio Formats
 
--   [\[RIFF](Audio_Formats.md#RIFF_Format)\]
--   [\[SSCF](Audio_Formats.md#SSCF_Format)\]
+-   [\[RIFF](FF7:CC/Audio_Formats#RIFF_Format "wikilink")\]
+-   [\[SSCF](FF7:CC/Audio_Formats#SSCF_Format "wikilink")\]
 
 ## RIFF Format
 

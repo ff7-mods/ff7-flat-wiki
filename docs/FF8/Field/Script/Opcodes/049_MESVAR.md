@@ -2,8 +2,6 @@
 title: 049_MESVAR
 ---
 
-[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 049 MESVAR
-
 -   Opcode: **0x049**
 -   Short name: **MESVAR**
 -   Long name: Set Message Variable

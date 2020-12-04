@@ -2,8 +2,6 @@
 title: Item_data
 ---
 
-[Home](../index.md) > [FF7](../FF7.md) > Item data
-
 ## KERNEL.BIN - Section 5: Item data format
 
 This section contains the item data. Each item record is 28 bytes long.

@@ -2,8 +2,6 @@
 title: 00D_POPM_W
 ---
 
-[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 00D POPM W
-
 -   Opcode: **0x00D**
 -   Short name: **POPM\_W**
 -   Long name: Pop to memory (word)

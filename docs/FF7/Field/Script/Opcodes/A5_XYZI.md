@@ -2,8 +2,6 @@
 title: A5_XYZI
 ---
 
-[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > A5 XYZI
-
 -   Opcode: **0xA5**
 -   Short name: **XYZI**
 -   Long name: Place Object

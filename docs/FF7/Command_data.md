@@ -2,8 +2,6 @@
 title: Command_data
 ---
 
-[Home](../index.md) > [FF7](../FF7.md) > Command data
-
 ## KERNEL.BIN - Section 1: Command data format
 
 This section contains the data for Menu commands.  

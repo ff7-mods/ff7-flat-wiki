@@ -2,8 +2,6 @@
 title: 6D_IDLCK
 ---
 
-[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 6D IDLCK
-
 -   Opcode: **0x6D**
 -   Short name: **IDLCK**
 -   Long name: Triangle Boundary

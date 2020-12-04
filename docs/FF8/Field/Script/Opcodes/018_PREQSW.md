@@ -2,8 +2,6 @@
 title: 018_PREQSW
 ---
 
-[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 018 PREQSW
-
 -   Opcode: **0x018**
 -   Short name: **PREQSW**
 -   Long name: Request party entity execution (asynchronous execution, guaranteed)

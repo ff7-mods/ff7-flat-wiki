@@ -2,8 +2,6 @@
 title: F0_MUSIC
 ---
 
-[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > F0 MUSIC
-
 -   Opcode: **0xF0**
 -   Short name: **MUSIC**
 -   Long name: Play Music

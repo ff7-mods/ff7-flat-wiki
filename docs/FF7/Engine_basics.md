@@ -2,8 +2,6 @@
 title: Engine_basics
 ---
 
-[Home](../index.md) > [FF7](../FF7.md) > Engine basics
-
 ## Parts of the Engine
 
 The engine used to power Final Fantasy 7 is split into several modules. This allowed the programming team to break apart into very distinct groups. It also created a very diverse game playing environment. It also allowed the artists to only have to work within their own module, keeping the artwork as dynamic as possible.
@@ -14,11 +12,11 @@ The core system is made up of six modules. They are called the kernel, field, me
 
   
 
-
+<center>
 
 ![](../assets/Engine_parts.jpg)
 
-
+</center>
 
   
 

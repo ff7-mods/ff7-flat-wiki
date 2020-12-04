@@ -2,8 +2,6 @@
 title: Directory11_Field
 ---
 
-[Home](../../index.md) > [Xeno](../../Xeno.md) > [GameDirectoryDescription](../GameDirectoryDescription.md) > Directory11 Field
-
 ## File Format
 
 There are pairs of two files. First one are field model textures. The second one are model, sprites data, as well as text and script.

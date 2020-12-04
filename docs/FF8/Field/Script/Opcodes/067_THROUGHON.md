@@ -2,8 +2,6 @@
 title: 067_THROUGHON
 ---
 
-[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 067 THROUGHON
-
 -   Opcode: **0x067**
 -   Short name: **THROUGHON**
 -   Long name: Through mode on

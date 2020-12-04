@@ -2,8 +2,6 @@
 title: D1_LINON
 ---
 
-[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > D1 LINON
-
 -   Opcode: **0xD1**
 -   Short name: **LINON**
 -   Long name: Line Switch

@@ -2,9 +2,7 @@
 title: Background
 ---
 
-[Home](../../index.md) > [FF7](../../FF7.md) > [Field](../Field.md) > Background
-
-### Section 9: Background ([Terence Fergusson](../../User:Terence_Fergusson.md)
+### Section 9: Background ([Terence Fergusson](User:Terence_Fergusson "wikilink"))
 
 Firstly, a number of variables.
 

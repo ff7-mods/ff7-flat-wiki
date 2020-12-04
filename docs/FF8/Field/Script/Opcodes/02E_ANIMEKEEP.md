@@ -2,8 +2,6 @@
 title: 02E_ANIMEKEEP
 ---
 
-[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 02E ANIMEKEEP
-
 -   Opcode: **0x02E**
 -   Short name: **ANIMEKEEP**
 -   Long name: Animate, keep last frame

@@ -2,8 +2,6 @@
 title: 06_PRQEW
 ---
 
-[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 06 PRQEW
-
 -   Opcode: **0x06**
 -   Short name: **PRQEW**
 -   Long name: Request party entity execution (synchronous, guaranteed)
@@ -16,7 +14,7 @@ title: 06_PRQEW
 #### Arguments
 
 -   **const UByte** *PM*: The ID of the current party member (0, 1 or 2).
--   **const Bit\[3\]** *P*: The [priority](../Priorities.md).
+-   **const Bit\[3\]** *P*: The [priority](../Priorities.md) at which we want to execute the remote script (high 3 bits of byte).
 -   **const Bit\[5\]** *F*: The ID of the specific member function of *PM* 's entity to be executed (low 5 bits of byte).
 
 #### Description

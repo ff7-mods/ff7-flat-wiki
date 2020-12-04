@@ -2,8 +2,6 @@
 title: 05F_SETMESSPEED
 ---
 
-[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 05F SETMESSPEED
-
 -   Opcode: **0x05F**
 -   Short name: **SETMESSPEED**
 -   Long name: Set Message Speed

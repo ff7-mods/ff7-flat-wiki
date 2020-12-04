@@ -2,8 +2,6 @@
 title: 100_FACEDIRLIMIT
 ---
 
-[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 100 FACEDIRLIMIT
-
 -   Opcode: **0x100**
 -   Short name: **FACEDIRLIMIT**
 -   Long name: Limit Head Facing

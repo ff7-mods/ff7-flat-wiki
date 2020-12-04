@@ -2,8 +2,6 @@
 title: BattleStructure
 ---
 
-[Home](../index.md) > [FF8](../FF8.md) > BattleStructure
-
 By JeMaCheHi
 
 Scene.out contains enemy placement data and flags for each of the game's battle encounters.

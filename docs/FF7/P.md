@@ -2,8 +2,6 @@
 title: P
 ---
 
-[Home](../index.md) > [FF7](../FF7.md) > P
-
 This page describes format of P files.
 
 'P file' is a binary file containing data which form 3D model. File specifies model's vertices, polygons, colors, texture coordinates and model sub-groups. File does not specify references to the texture files, animations, model skeleton or anything else.

@@ -2,8 +2,6 @@
 title: 23_BTRLD
 ---
 
-[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 23 BTRLD
-
 -   Opcode: **0x23**
 -   Short name: **BTRLD**
 -   Long name: Battle Result Load
@@ -28,6 +26,6 @@ Stores the result of the last [BATTLE](70_BATTLE.md) to an address in memory. Th
 |--------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 8 (0x1000)                     | 1: The party escaped the battle.                                                                                                                                                   |
 | 0: The party did not escape.   |                                                                                                                                                                                    |
-| 1 (0x1)                        | 1: The party was defeated (correct [battle mode](FF7/Field/Script/Opcodes/22_BTMD2 "wikilink") must be set to avoid [game over](FF_GAMEOVER.md). |
+| 1 (0x1)                        | 1: The party was defeated (correct [battle mode](22_BTMD2.md) must be set to avoid [game over](FF_GAMEOVER.md)). |
 | 0: The party was not defeated. |                                                                                                                                                                                    |
 |                                |                                                                                                                                                                                    |

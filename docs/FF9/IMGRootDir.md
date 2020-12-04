@@ -2,8 +2,6 @@
 title: IMGRootDir
 ---
 
-[Home](../index.md) > [FF9](../FF9.md) > IMGRootDir
-
 # Root Directory
 
 The first sector of FF9.IMG contains a root directory of information with sector locations for subdirectories and the sector of the first file in that subdirectory.

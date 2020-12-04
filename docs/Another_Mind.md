@@ -2,8 +2,6 @@
 title: Another_Mind
 ---
 
-[Home](index.md) > Another Mind
-
 (The following Was ripped off of Wikipedia because I'm lazy)
 
 Another Mind is an FMV visual Novel created by Squaresofy for Sony PlayStation and released on November 12, 1998 in Japan. The game is extremely obscure. The game involves a 16 year-old girl named Hitomi Hayama who is involved in a car accident and admitted to a hospital. Upon waking, she realizes that another mind has taken residence in her head. The player takes on the role of this separate consciousness. The pair are then put into the middle of a mystery that begins at the hospital, which includes a murder, several suicide attempts, and a bombing attempt. Hitomi frequently communicates back with the player, and the player must convince her to perform actions rather than commanding.
@@ -19,7 +17,7 @@ The following are the file formats for the game. These are loacted in the /PRGDA
 | [ANZ](ANZ.md) | LZS Compressed Dialog Answer Lookup |
 | [BBB](BBB.md) | Unknown                             |
 | [BIN](BIN.md) | Unknown                             |
-| [BIZ](BIZ.md)   |
+| [BIZ](BIZ.md) | LZS Compressed BIN file (Unknown)   |
 | [DAT](DAT.md) | Sound Effects                       |
 | [DCT](DCT.md) | Japanese Word Dictionary            |
 | [KAT](KAT.md) | Unknown                             |

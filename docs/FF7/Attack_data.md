@@ -2,8 +2,6 @@
 title: Attack_data
 ---
 
-[Home](../index.md) > [FF7](../FF7.md) > Attack data
-
 ## KERNEL.BIN - Section 2: Attack data format
 
 *(Note: Akari and NFITC1 have some minor differences with respect to information on this page. Most of this page comes from NFITC1's work on WallMarket)* This section contains the data for the different attacks. Each record is 28 bytes long.
@@ -16,8 +14,8 @@ title: Attack_data
 | 0x03   | 1 byte                            | Unknown                                                                                             |
 | 0x04   | 2 byte                            | Casting cost                                                                                        |
 | 0x06   | 2 bytes                           | [Impact Sound](Battle/Sound_Effect_Id_List.md)                                          |
-| 0x08   | 2 bytes                           | [Camera Movement Id](Battle/Camera_Movement_Id_List?redlink=1.md) for single target.    |
-| 0x0A   | 2 bytes                           | [Camera Movement Id](Battle/Camera_Movement_Id_List?redlink=1.md) for multiple targets. |
+| 0x08   | 2 bytes                           | [Camera Movement Id](FF7/Battle/Camera_Movement_Id_List?redlink=1 "wikilink") for single target.    |
+| 0x0A   | 2 bytes                           | [Camera Movement Id](FF7/Battle/Camera_Movement_Id_List?redlink=1 "wikilink") for multiple targets. |
 | 0x0C   | 1 byte                            | [Target Flags](Battle/Targeting_Data.md)                                                |
 | 0x0D   | 1 byte                            | [Attack Effect Id](Battle/Attack_Effect_Id_List.md)                                     |
 | 0x0E   | 1 byte                            | [Damage Calculation](Battle/Damage_Calculation.md)                                      |

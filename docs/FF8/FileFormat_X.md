@@ -2,8 +2,6 @@
 title: FileFormat_X
 ---
 
-[Home](../index.md) > [FF8](../FF8.md) > FileFormat X
-
 By MaKiPL. Thanks for help in research for: shakotay2 (XeNTaX), Halfer, Yagami Light. Complete list of original battle stages by Kaspar01: [List of battle stages](BS_list.md)
 
 ## Info
@@ -267,7 +265,7 @@ Complete list (without replacing bit order - as is in HEX editor/memory):
 
 ## Texture
 
-Contains one [TIMs](../PSX/TIM_format.md).
+Contains one [TIMs](../PSX/TIM_format.md) with various size 512x256, 673x256, 768x256 (8BPP).
 
 ### UV calculation algorithm
 

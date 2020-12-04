@@ -2,8 +2,6 @@
 title: 161_ADDMAGIC
 ---
 
-[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 161 ADDMAGIC
-
 -   Opcode: **0x161**
 -   Short name: **ADDMAGIC**
 -   Long name: Add magic stock to character

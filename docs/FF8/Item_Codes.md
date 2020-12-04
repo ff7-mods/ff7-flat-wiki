@@ -2,8 +2,6 @@
 title: Item_Codes
 ---
 
-[Home](../index.md) > [FF8](../FF8.md) > Item Codes
-
 | Index | Item Name                |
 |-------|--------------------------|
 | 000   | empty                    |

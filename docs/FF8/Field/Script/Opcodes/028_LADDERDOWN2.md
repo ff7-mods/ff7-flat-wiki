@@ -2,8 +2,6 @@
 title: 028_LADDERDOWN2
 ---
 
-[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 028 LADDERDOWN2
-
 -   Opcode: **0x028**
 -   Short name: **LADDERDOWN2**
 -   Long name: ????

@@ -2,8 +2,6 @@
 title: D0_LINE
 ---
 
-[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > D0 LINE
-
 -   Opcode: **0xD0**
 -   Short name: **LINE**
 -   Long name: Line Definition
@@ -24,7 +22,7 @@ title: D0_LINE
 
 #### Description
 
-Defines a line on the walkmesh that, when crossed by a playable character, causes one of the entity's scripts to be executed. These are similar to the triggers in [Section 8](FF7/Field/3D_Related "wikilink"). All the lines in the current field can be turned on or off by using the [LINON](D1_LINON.md) opcode.
+Defines a line on the walkmesh that, when crossed by a playable character, causes one of the entity's scripts to be executed. These are similar to the triggers in [Section 8](../../3D_Related.md). All the lines in the current field can be turned on or off by using the [LINON](D1_LINON.md) opcode.
 
 #### Additional Detail
 

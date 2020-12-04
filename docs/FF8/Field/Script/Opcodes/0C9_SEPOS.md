@@ -2,8 +2,6 @@
 title: 0C9_SEPOS
 ---
 
-[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 0C9 SEPOS
-
 -   Opcode: **0x0C9**
 -   Short name: **SEPOS**
 -   Long name: Set Sound Effect Pan

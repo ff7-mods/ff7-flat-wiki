@@ -2,8 +2,6 @@
 title: FIELD.TDB
 ---
 
-[Home](../../index.md) > [FF7](../../FF7.md) > [Field](../Field.md) > FIELD.TDB
-
 ## Format for Field.TDB
 
 [Cyberman](User:Cyberman "wikilink") 21:45, 10 Jan 2007 (CST) Field.TDB is an [LZS compressed](../LZS_format.md) file the first DWORD of which is it's compressed size.

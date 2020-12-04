@@ -2,8 +2,6 @@
 title: B1_CANM!1
 ---
 
-[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > B1 CANM!1
-
 -   Opcode: **0xB1**
 -   Short name: **CANM!1**
 -   Long name: Particial Animation.
@@ -22,6 +20,6 @@ title: B1_CANM!1
 
 #### Description
 
-Exactly the same as [ANIM!1](AF_ANIM!1.md), but allow set first and last frame of given animation.
+Exactly the same as [ANIM!1](FF7/Field/Script/Opcodes/AF_ANIM!1 "wikilink"), but allow set first and last frame of given animation.
 
 Makou Reactor Description: Play partially the animation \#%1 of the field model (first frame=%2, last frame=%3, speed=%4)

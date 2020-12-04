@@ -2,8 +2,6 @@
 title: 79_MINUS2!
 ---
 
-[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 79 MINUS2!
-
 -   Opcode: **0x79**
 -   Short name: **MINUS2!**
 -   Long name: Saturated Subtraction (16-bit)

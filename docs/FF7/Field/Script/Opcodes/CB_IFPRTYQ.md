@@ -2,8 +2,6 @@
 title: CB_IFPRTYQ
 ---
 
-[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > CB IFPRTYQ
-
 -   Opcode: **0xCB**
 -   Short name: **IFPRTYQ**
 -   Long name: If Party Member

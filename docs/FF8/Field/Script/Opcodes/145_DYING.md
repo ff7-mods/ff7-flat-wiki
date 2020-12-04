@@ -2,8 +2,6 @@
 title: 145_DYING
 ---
 
-[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 145 DYING
-
 -   Opcode: **0x145**
 -   Short name: **DYING**
 -   Long name: unknown

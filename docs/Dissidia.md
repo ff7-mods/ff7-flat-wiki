@@ -2,9 +2,7 @@
 title: Dissidia
 ---
 
-[Home](index.md) > Dissidia
-
-<small> Last updated: [Koral](User:Koral.md) </small>
+<small> Last updated: [Koral](User:Koral "wikilink") 14:03, 30 Mar 2009 (EDT) </small>
 
   
 

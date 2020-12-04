@@ -2,8 +2,6 @@
 title: 13F_WHOAMI
 ---
 
-[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 13F WHOAMI
-
 -   Opcode: **0x13F**
 -   Short name: **WHOAMI**
 -   Long name: Get Junction Correspondent?

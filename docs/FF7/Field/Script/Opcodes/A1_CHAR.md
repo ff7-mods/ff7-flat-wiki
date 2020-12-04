@@ -2,8 +2,6 @@
 title: A1_CHAR
 ---
 
-[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > A1 CHAR
-
 -   Opcode: **0xA1**
 -   Short name: **CHAR**
 -   Long name: Character definition

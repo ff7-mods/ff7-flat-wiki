@@ -2,8 +2,6 @@
 title: EA_MPPAL2
 ---
 
-[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > EA MPPAL2
-
 -   Opcode: **0xEA**
 -   Short name: **MPPAL2**
 -   Long name: Multiply Palette

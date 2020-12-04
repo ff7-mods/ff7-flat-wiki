@@ -2,8 +2,6 @@
 title: 105_SARALYDISPON
 ---
 
-[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 105 SARALYDISPON
-
 -   Opcode: **0x069**
 -   Short name: **SARALYDISPON**
 -   Long name: Salary on

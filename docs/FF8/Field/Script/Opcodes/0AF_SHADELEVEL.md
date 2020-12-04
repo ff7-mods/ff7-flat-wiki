@@ -2,8 +2,6 @@
 title: 0AF_SHADELEVEL
 ---
 
-[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 0AF SHADELEVEL
-
 \_\_NOTOC\_\_
 
 -   Opcode: **0x0AF**
@@ -25,4 +23,4 @@ none
 
 Sets some shading for the actor.
 
-[Category:Unfinished FF8 Opcodes](../../../../Category:Unfinished_FF8_Opcodes.md)
+[Category:Unfinished FF8 Opcodes](Category:Unfinished_FF8_Opcodes "wikilink")

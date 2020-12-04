@@ -2,8 +2,6 @@
 title: WorldMap_wmset
 ---
 
-[Home](../index.md) > [FF8](../FF8.md) > WorldMap wmset
-
 ## File general info
 
 Please reefer to [WmsetXX.obj](WorldMap_wmsetxx.md) for more specific info.

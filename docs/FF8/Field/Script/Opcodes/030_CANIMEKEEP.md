@@ -2,8 +2,6 @@
 title: 030_CANIMEKEEP
 ---
 
-[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 030 CANIMEKEEP
-
 -   Opcode: **0x030**
 -   Short name: **CANIMEKEEP**
 -   Long name: Controlled animation, keep last frame

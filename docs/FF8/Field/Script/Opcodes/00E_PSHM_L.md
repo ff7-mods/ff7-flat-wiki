@@ -2,8 +2,6 @@
 title: 00E_PSHM_L
 ---
 
-[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 00E PSHM L
-
 -   Opcode: **0x00E**
 -   Short name: **PSHM\_L**
 -   Long name: Push from memory (long)

@@ -2,8 +2,6 @@
 title: 7A_INC!
 ---
 
-[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 7A INC!
-
 -   Opcode: **0x7A**
 -   Short name: **INC!**
 -   Long name: Saturated Increment (8-bit)

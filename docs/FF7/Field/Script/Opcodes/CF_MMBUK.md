@@ -2,8 +2,6 @@
 title: CF_MMBUK
 ---
 
-[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > CF MMBUK
-
 -   Opcode: **0xCF**
 -   Short name: **MMBUK**
 -   Long name: Party Select: Character Unlock

@@ -2,8 +2,6 @@
 title: C9_PRTYM
 ---
 
-[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > C9 PRTYM
-
 -   Opcode: **0xC9**
 -   Short name: **PRTYM**
 -   Long name: Party Remove

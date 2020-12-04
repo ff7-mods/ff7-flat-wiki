@@ -2,11 +2,9 @@
 title: Field_ID
 ---
 
-[Home](../../index.md) > [FF7](../../FF7.md) > [Field](../Field.md) > Field ID
-
 ## Purpose
 
-Field IDs are used internally by scripts to reference fields, for example with the [MAPJUMP](FF7/Field/Script/Opcodes/60_MAPJUMP "wikilink") and [LSTMP](Script/Opcodes/6E_LSTMP.md) opcodes.
+Field IDs are used internally by scripts to reference fields, for example with the [MAPJUMP](Script/Opcodes/60_MAPJUMP.md) and [LSTMP](Script/Opcodes/6E_LSTMP.md) opcodes.
 
 ## Field Table
 

@@ -2,8 +2,6 @@
 title: C5_TALKR
 ---
 
-[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > C5 TALKR
-
 -   Opcode: **0xC5**
 -   Short name: **TALKR**
 -   Long name: Talk Range

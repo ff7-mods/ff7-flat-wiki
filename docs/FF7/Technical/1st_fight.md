@@ -2,8 +2,6 @@
 title: 1st_fight
 ---
 
-[Home](../../index.md) > [FF7](../../FF7.md) > [Technical](../Technical.md) > 1st fight
-
 ### Symptoms
 
 You start a fight after getting on the train, it crashes before even starting.

@@ -2,8 +2,6 @@
 title: FileFormat_TDW
 ---
 
-[Home](../index.md) > [FF8](../FF8.md) > FileFormat TDW
-
 By myst6re.
 
 ## font
@@ -15,7 +13,7 @@ For the field, this is a file for the japanese PSX version only, it adds text ch
 | 0            | 4 bytes                   | Offset to widths (always 8)                      |
 | 4            | 4 bytes                   | Offset to data                                   |
 | offsetWidths | offsetData - offsetWidths | [Character widths](#character-widths) |
-| offsetData   | varies                    | [Texture (TIM)](#texture)             |
+| offsetData   | varies                    | [Texture (TIM)](#Texture "wikilink")             |
 
 ### Character widths
 

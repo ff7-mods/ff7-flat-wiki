@@ -2,8 +2,6 @@
 title: 065_AMES
 ---
 
-[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 065 AMES
-
 -   Opcode: **0x065**
 -   Short name: **AMES**
 -   Long name: A? Message
@@ -27,4 +25,4 @@ none
 
 #### Description
 
-Pop up a message window until [WINCLOSE](FF8/Field/Script/Opcodes/04C_WINCLOSE "wikilink") or [MESSYNC](048_MESSYNC.md) is called.
+Pop up a message window until [WINCLOSE](04C_WINCLOSE.md) or [MESSYNC](048_MESSYNC.md) is called.

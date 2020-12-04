@@ -2,8 +2,6 @@
 title: 5B_SMTRA
 ---
 
-[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 5B SMTRA
-
 -   Opcode: **0x5B**
 -   Short name: **SMTRA**
 -   Long name: Set Materia

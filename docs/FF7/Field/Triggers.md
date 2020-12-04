@@ -2,8 +2,6 @@
 title: Triggers
 ---
 
-[Home](../../index.md) > [FF7](../../FF7.md) > [Field](../Field.md) > Triggers
-
 # Triggers/Gateways
 
 [1](http://forums.qhimm.com/index.php?topic=4358.msg58674#msg58674) [2](http://forums.qhimm.com/index.php?topic=3247.msg53525#msg53525) and [3](http://forums.qhimm.com/index.php?topic=7129.msg87583#msg87583)

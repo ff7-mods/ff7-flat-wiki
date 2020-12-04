@@ -2,8 +2,6 @@
 title: F5_ARROW
 ---
 
-[Home](../../../../../index.md) > [FF7](../../../../../FF7.md) > [Field](../../../../Field.md) > [Script](../../../Script.md) > [Opcodes](../../Opcodes.md) > [0F SPECIAL](../0F_SPECIAL.md) > F5 ARROW
-
 -   Opcode: **0x0FF5**
 -   Short name: **SPECIAL: ARROW**
 -   Long name: Special: Arrow Switch

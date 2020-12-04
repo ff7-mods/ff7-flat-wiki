@@ -2,8 +2,6 @@
 title: 80_SETBYTE
 ---
 
-[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 80 SETBYTE
-
 -   Opcode: **0x80**
 -   Short name: **SETBYTE**
 -   Long name: Byte Set

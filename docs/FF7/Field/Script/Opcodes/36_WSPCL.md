@@ -2,8 +2,6 @@
 title: 36_WSPCL
 ---
 
-[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 36 WSPCL
-
 -   Opcode: **0x36**
 -   Short name: **WSPCL**
 -   Long name: Window Special (Numerical Display)
@@ -22,9 +20,9 @@ title: 36_WSPCL
 
 #### Description
 
-Creates a numerical display inside the given window. The display can be either in the form of a clock, or a scoreboard with six digits. This only creates the numerical display; to actually show it, a [MESSAGE](FF7/Field/Script/Opcodes/40_MESSAGE "wikilink") or [ASK](48_ASK.md) command needs to be issued. Using a blank line of dialog will allow you to create a numerical display in the top-left of the window without field dialog hidden behind it. Alternatively, dialog can be shown along with the display by placing the display in an appropriate area of the window.
+Creates a numerical display inside the given window. The display can be either in the form of a clock, or a scoreboard with six digits. This only creates the numerical display; to actually show it, a [MESSAGE](40_MESSAGE.md) or [ASK](48_ASK.md) command needs to be issued. Using a blank line of dialog will allow you to create a numerical display in the top-left of the window without field dialog hidden behind it. Alternatively, dialog can be shown along with the display by placing the display in an appropriate area of the window.
 
-To set the time for the clock variant, [STTIM](FF7/Field/Script/Opcodes/38_STTIM "wikilink") is used. To set the number for the numerical display, [WNUMB](37_WNUMB.md) is used.
+To set the time for the clock variant, [STTIM](38_STTIM.md) is used. To set the number for the numerical display, [WNUMB](37_WNUMB.md) is used.
 
 #### Display types
 

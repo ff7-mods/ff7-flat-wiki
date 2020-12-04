@@ -2,8 +2,6 @@
 title: Image_Formats
 ---
 
-[Home](../index.md) > [FF7:CC](../FF7:CC.md) > Image Formats
-
 # Image Interlacing
 
 Pixel-Data for all texture formats appears to have the same interlacing mechanism.
@@ -37,9 +35,9 @@ if width = 128, then you get 1 interlaced column
 
 # Known FF7:CC Image Formats
 
--   [\[IMG](Image_Formats.md#IMG_Format)\]
--   [\[TEX](Image_Formats.md#TEX_Format)\]
--   [\[GT](Image_Formats.md#GT_Format)\]
+-   [\[IMG](FF7:CC/Image_Formats#IMG_Format "wikilink")\]
+-   [\[TEX](FF7:CC/Image_Formats#TEX_Format "wikilink")\]
+-   [\[GT](FF7:CC/Image_Formats#GT_Format "wikilink")\]
 
   
 Note that the Pixel-data is interlaced for all of these formats, as described above.

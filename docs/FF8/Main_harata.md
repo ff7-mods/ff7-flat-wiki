@@ -2,8 +2,6 @@
 title: Main_harata
 ---
 
-[Home](../index.md) > [FF8](../FF8.md) > Main harata
-
 By MaKiPL
 
 ------------------------------------------------------------------------

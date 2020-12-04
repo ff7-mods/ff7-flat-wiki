@@ -2,8 +2,6 @@
 title: Game_won%27t_run
 ---
 
-[Home](../../index.md) > [FF7](../../FF7.md) > [Technical](../Technical.md) > Game won%27t run
-
 ### Symptoms
 
 When I click on game shortcut/executable I get some error suddenly, or screen goes black for a while and then it crashes back to windows.

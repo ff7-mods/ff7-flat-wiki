@@ -2,8 +2,6 @@
 title: 085_CTURNL
 ---
 
-[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 085 CTURNL
-
 -   Opcode: **0x085**
 -   Short name: **CTURNL**
 -   Long name: Turn Character

@@ -2,8 +2,6 @@
 title: Swirl
 ---
 
-[Home](../../index.md) > [FF7](../../FF7.md) > [Technical](../Technical.md) > Swirl
-
 ### Symptoms
 
 When entering a regular battle the game crashes during the "swirl effect".

@@ -2,8 +2,6 @@
 title: Low_level_libraries
 ---
 
-[Home](../../index.md) > [FF7](../../FF7.md) > [Kernel](../Kernel.md) > Low level libraries
-
 ## PC to PSX comparison
 
 The files and data formats used in the PSX version of FF7 and it's PC port are conceptually the same thing, and accomplish the same tasks. That being said, they both have wildly different formats, both of which were derived from a third original format that is also somewhat different to the first two.
@@ -50,7 +48,7 @@ Example 2: Within the WINDOW.BIN file there are three files. The first two are t
 
 ### LZS Archives
 
-The [LZS format](FF7/LZS_format "wikilink") is used throughout the PSX version of Final Fantasy 7, often ending with the .lzs extension. LZS itself stands for Lempel-Ziv-Shannon-Fano, Statistical plus Arithmetic. It was originally developed by [Professor Haruhiko Okumura](http://oku.edu.mie-u.ac.jp/~okumura/index-e.html) based on the work of [Abraham Lempel](http://www.hpl.hp.com/about/bios/abraham_lempel.html) and [Jacob Ziv](http://www.marconifoundation.org/pages/dynamic/fellows/fellow_details.php?roster_id=23).
+The [LZS format](../LZS_format.md) is used throughout the PSX version of Final Fantasy 7, often ending with the .lzs extension. LZS itself stands for Lempel-Ziv-Shannon-Fano, Statistical plus Arithmetic. It was originally developed by [Professor Haruhiko Okumura](http://oku.edu.mie-u.ac.jp/~okumura/index-e.html) based on the work of [Abraham Lempel](http://www.hpl.hp.com/about/bios/abraham_lempel.html) and [Jacob Ziv](http://www.marconifoundation.org/pages/dynamic/fellows/fellow_details.php?roster_id=23).
 
 ### LGP Archives
 
@@ -58,11 +56,11 @@ The LGP file format is only used for the PC port of Final Fantasy 7. These are l
 
 ## Textures
 
-A texture is just a picture that is placed into video memory. It is later manipulated by the engine and displayed on the screen. The native format of a texture was the Psy-Q [TIM](../../PSX/TIM_format.md). This is used as the native format for the PSX version as well, with a few caveats explained below. The file can hold multiple color look up tables. This was one of the reasons why a video card on the PC that could do palleted data at high color depths was needed.
+A texture is just a picture that is placed into video memory. It is later manipulated by the engine and displayed on the screen. The native format of a texture was the Psy-Q [TIM](../../PSX/TIM_format.md) (Texture Image Map). This is used as the native format for the PSX version as well, with a few caveats explained below. The file can hold multiple color look up tables. This was one of the reasons why a video card on the PC that could do palleted data at high color depths was needed.
 
 ### TIM texture data format for PSX
 
-The [TIM files](PSX/TIM_format "wikilink") are found both on raw format and also within several archives, including [BIN](FF7/Kernel/Low_level_libraries#BIN_archive_data_format "wikilink"), [LZS](FF7/Kernel/Low_level_libraries#LZS_Archives "wikilink"), or even MNU. The format proper has the ability to contain 24 bit bitmaps, but is not used in FF7. The format was created because the PSX does not have direct access to it's VRAM, and must go through the [GPU](PSX/GPU "wikilink") for any graphic access. [A TIM file](../../PSX/TIM_format.md) is a clean way to load a texture and color look up table into VRAM.
+The [TIM files](../../PSX/TIM_format.md) are found both on raw format and also within several archives, including [BIN](Low_level_libraries.md#BIN_archive_data_format), [LZS](Low_level_libraries.md#LZS_Archives), or even MNU. The format proper has the ability to contain 24 bit bitmaps, but is not used in FF7. The format was created because the PSX does not have direct access to it's VRAM, and must go through the [GPU](../../PSX/GPU.md) for any graphic access. [A TIM file](../../PSX/TIM_format.md) is a clean way to load a texture and color look up table into VRAM.
 
 ### TEX texture data format for the PC
 
@@ -70,14 +68,14 @@ TEX files are texture files for the PC. The format for these files are located [
 
 ## File formats for 3D models
 
-During the development process, 3D models contain a good deal of information needed by the artist every time they save or load the model. When the model is finished, it is often exported and broken up into smaller files with many unneeded attributes stripped from them. When the models for FF7 were created, they were exported into Psy-Q's 3D library formats. These include [resource data (.RSD)](PSX/RSD "wikilink"), polygon data (.PLY), polygon groups (.GRP), materials (.MAT), [textures (.TIM)](PSX/TIM_file "wikilink"), [skeletal hierarchy (.HRC)](../../PSX/HRC.md).
+During the development process, 3D models contain a good deal of information needed by the artist every time they save or load the model. When the model is finished, it is often exported and broken up into smaller files with many unneeded attributes stripped from them. When the models for FF7 were created, they were exported into Psy-Q's 3D library formats. These include [resource data (.RSD)](PSX/RSD "wikilink"), polygon data (.PLY), polygon groups (.GRP), materials (.MAT), [textures (.TIM)](PSX/TIM_file "wikilink"), [skeletal hierarchy (.HRC)](PSX/HRC "wikilink"), and animation (.ANM).
 
 The models are handled differently between modules. The models in the "battle" modules have a different animation system than the field models. When the models were converted to the PC version, they were taken from the Psy-Q formats to a more PC-friendly one. Some are even the original, uncompiled, Psy-Q files.
 
 ### Model formats for PSX
 
-The Playstation models are stored in the following directories, \\ENEMY1 \\ENEMY2 \\ENEMY3 \\ENEMY4 \\ENEMY5 \\ENEMY6 (battle models), \\FIELD (field models and field character models), \\MAGIC (Summon magic), and \\STAGE1 \\STAGE2 (battle scenes). Battle model names for special characters and party characters are stored in \\ENEMY6, all models of this type end in an .LZS extension. The same goes with summon magic used they are stored with there animations etc. in \\MAGIC with a .LZS extension. The only exception to this extension is the FIELD models, which use the extensions BSX and BCX for scene models and character models respectively. The [Playstation battle model format](FF7/Playstation_Battle_Model_Format "wikilink"), is different than the [Playstation field model format](FF7/Field/BSX "wikilink"), also the [FF7/Playstation battle scene format](FF7/Playstation_battle_scene_format "wikilink"), is similiar but not identical to the [Playstation battle model format](FF7/Playstation_Battle_Model_Format "wikilink"). The [Playstation magic model](../Playstation_magic_model.md) format is a work in progress.
+The Playstation models are stored in the following directories, \\ENEMY1 \\ENEMY2 \\ENEMY3 \\ENEMY4 \\ENEMY5 \\ENEMY6 (battle models), \\FIELD (field models and field character models), \\MAGIC (Summon magic), and \\STAGE1 \\STAGE2 (battle scenes). Battle model names for special characters and party characters are stored in \\ENEMY6, all models of this type end in an .LZS extension. The same goes with summon magic used they are stored with there animations etc. in \\MAGIC with a .LZS extension. The only exception to this extension is the FIELD models, which use the extensions BSX and BCX for scene models and character models respectively. The [Playstation battle model format](../Playstation_Battle_Model_Format.md), is different than the [Playstation field model format](../Field/BSX.md), also the [FF7/Playstation battle scene format](../Playstation_battle_scene_format.md), is similiar but not identical to the [Playstation battle model format](../Playstation_Battle_Model_Format.md). The [Playstation magic model](../Playstation_magic_model.md) format is a work in progress.
 
 ### Model Formats for PC
 
-The PC models are stored in the LGP files in the /DATA directory. The names for the models were obfuscated a little. The data can be found in the [Hierarchy files (.HRC)](PSX/HRC "wikilink"), [Resource data files (.RSD)](PSX/RSD "wikilink"), and [Polygon files (.P)](../P.md).
+The PC models are stored in the LGP files in the /DATA directory. The names for the models were obfuscated a little. The data can be found in the [Hierarchy files (.HRC)](PSX/HRC "wikilink"), [Resource data files (.RSD)](PSX/RSD "wikilink"), and [Polygon files (.P)](FF7/P "wikilink").

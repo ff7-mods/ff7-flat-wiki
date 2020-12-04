@@ -2,8 +2,6 @@
 title: CC_IFMEMBQ
 ---
 
-[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > CC IFMEMBQ
-
 -   Opcode: **0xCC**
 -   Short name: **IFMEMBQ**
 -   Long name: If Party Member Available

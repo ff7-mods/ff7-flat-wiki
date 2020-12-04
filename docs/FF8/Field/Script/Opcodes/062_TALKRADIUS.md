@@ -2,8 +2,6 @@
 title: 062_TALKRADIUS
 ---
 
-[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 062 TALKRADIUS
-
 -   Opcode: **0x062**
 -   Short name: **TALKRADIUS**
 -   Long name: Set Talk Radius

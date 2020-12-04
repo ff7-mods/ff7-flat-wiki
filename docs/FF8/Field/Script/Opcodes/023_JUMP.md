@@ -2,8 +2,6 @@
 title: 023_JUMP
 ---
 
-[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 023 JUMP
-
 -   Opcode: **0x023**
 -   Short name: **JUMP**
 -   Long name: Jump to location

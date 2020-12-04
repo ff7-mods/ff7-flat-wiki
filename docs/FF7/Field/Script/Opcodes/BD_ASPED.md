@@ -2,8 +2,6 @@
 title: BD_ASPED
 ---
 
-[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > BD ASPED
-
 -   Opcode: **0xBD**
 -   Short name: **ASPED**
 -   Long name: Animation Speed

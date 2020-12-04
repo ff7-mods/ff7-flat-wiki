@@ -2,8 +2,6 @@
 title: 132_MOVIECUT
 ---
 
-[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 132 MOVIECUT
-
 -   Opcode: **0x132**
 -   Short name: **MOVIECUT**
 -   Long name: ?

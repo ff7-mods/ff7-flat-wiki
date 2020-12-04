@@ -2,8 +2,6 @@
 title: 59_DLITM
 ---
 
-[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 59 DLITM
-
 -   Opcode: **0x59**
 -   Short name: **DLITM**
 -   Long name: Delete Item

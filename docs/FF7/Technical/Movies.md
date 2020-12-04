@@ -2,8 +2,6 @@
 title: Movies
 ---
 
-[Home](../../index.md) > [FF7](../../FF7.md) > [Technical](../Technical.md) > Movies
-
 ### Symptoms
 
 When I reach a movie (FMV) in the game, it displays upside down.

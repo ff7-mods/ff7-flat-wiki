@@ -2,8 +2,6 @@
 title: Materia_data
 ---
 
-[Home](../index.md) > [FF7](../FF7.md) > Materia data
-
 ## KERNEL.BIN - Section 9: Materia data format
 
 This section contains the Materia data. Each record is 20 bytes long.

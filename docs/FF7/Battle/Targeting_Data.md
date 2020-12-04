@@ -2,8 +2,6 @@
 title: Targeting_Data
 ---
 
-[Home](../../index.md) > [FF7](../../FF7.md) > [Battle](../Battle.md) > Targeting Data
-
 ## Targeting Data
 
 Before targeting is explained in full, some information of rows must be understood. There are two or three rows in any battle. Most normal battles have two rows, allies and enemies. Pincer Attacks and Side Attacks have three rows. Two enemy rows for pincer attacks and one for side attacks. Furthermore, under most conditions, a "viable target" is a battle participant (enemy or ally) that is not inflicted with "Death".

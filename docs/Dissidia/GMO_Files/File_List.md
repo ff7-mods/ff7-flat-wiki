@@ -2,8 +2,6 @@
 title: File_List
 ---
 
-[Home](../../index.md) > [Dissidia](../../Dissidia.md) > [GMO Files](../GMO_Files.md) > File List
-
 # GMO File List
 
 <small>[Aurenasek116](http://web.archive.org/web/20161116013929/http://forums.qhimm.com/index.php?action=profile;u=4603)</small>

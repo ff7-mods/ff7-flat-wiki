@@ -2,8 +2,6 @@
 title: 07D_MOVESYNC
 ---
 
-[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 07D MOVESYNC
-
 -   Opcode: **0x07D**
 -   Short name: **MOVESYNC**
 -   Long name: Move Sync

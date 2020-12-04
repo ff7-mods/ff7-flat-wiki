@@ -2,8 +2,6 @@
 title: Impact_Effect_Id_List
 ---
 
-[Home](../../index.md) > [FF7](../../FF7.md) > [Battle](../Battle.md) > Impact Effect Id List
-
 | Id  | List Of Attacks            | Description           |
 |-----|----------------------------|-----------------------|
 | 36  | Tonfa                      | Yellow flash.         |

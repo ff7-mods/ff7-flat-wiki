@@ -2,8 +2,6 @@
 title: FileFormat_SYM
 ---
 
-[Home](../index.md) > [FF8](../FF8.md) > FileFormat SYM
-
 By myst6re.
 
 ## Script entity/function names

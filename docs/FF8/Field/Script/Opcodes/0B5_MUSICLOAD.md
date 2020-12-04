@@ -2,8 +2,6 @@
 title: 0B5_MUSICLOAD
 ---
 
-[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 0B5 MUSICLOAD
-
 -   Opcode: **0x0B5**
 -   Short name: **MUSICLOAD**
 -   Long name: Load Music

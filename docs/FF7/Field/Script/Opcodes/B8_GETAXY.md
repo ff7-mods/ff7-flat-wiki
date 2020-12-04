@@ -2,8 +2,6 @@
 title: B8_GETAXY
 ---
 
-[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > B8 GETAXY
-
 -   Opcode: **0xB8**
 -   Short name: **GETAXY**
 -   Long name: Get Entity XY

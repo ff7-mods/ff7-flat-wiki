@@ -2,8 +2,6 @@
 title: 046_MESW
 ---
 
-[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 046 MESW
-
 -   Opcode: **0x046**
 -   Short name: **MESW**
 -   Long name: Display Message and Wait

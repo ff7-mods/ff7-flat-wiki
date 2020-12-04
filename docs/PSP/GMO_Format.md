@@ -2,9 +2,7 @@
 title: GMO_Format
 ---
 
-[Home](../index.md) > [PSP](../PSP.md) > GMO Format
-
-<small>Last updated: [Koral](../User:Koral.md)</small>
+<small>Last updated: [Koral](User:Koral "wikilink") 06:48, 7 Apr 2009 (EDT)</small>
 
 # GMO Model-data container
 

@@ -2,8 +2,6 @@
 title: 2C_BGPDH
 ---
 
-[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 2C BGPDH
-
 -   Opcode: **0x2C**
 -   Short name: **BGPDH**
 -   Long name: Background Depth

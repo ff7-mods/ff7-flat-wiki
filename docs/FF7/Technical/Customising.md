@@ -2,8 +2,6 @@
 title: Customising
 ---
 
-[Home](../../index.md) > [FF7](../../FF7.md) > [Technical](../Technical.md) > Customising
-
 ## Essentials
 
 The entries in this section are to enable you to play [Final Fantasy VII](../../FF7.md) should you encounter issues in running the game.

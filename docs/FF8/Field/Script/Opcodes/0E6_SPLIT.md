@@ -2,8 +2,6 @@
 title: 0E6_SPLIT
 ---
 
-[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 0E6 SPLIT
-
 -   Opcode: **0x0E6**
 -   Short name: **SPLIT**
 -   Long name: Split followers

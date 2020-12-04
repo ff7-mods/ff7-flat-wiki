@@ -2,8 +2,6 @@
 title: FileFormat_INF
 ---
 
-[Home](../index.md) > [FF8](../FF8.md) > FileFormat INF
-
 By myst6re.
 
 # Gateways/Triggers

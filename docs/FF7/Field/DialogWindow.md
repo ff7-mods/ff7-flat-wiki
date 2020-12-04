@@ -2,8 +2,6 @@
 title: DialogWindow
 ---
 
-[Home](../../index.md) > [FF7](../../FF7.md) > [Field](../Field.md) > DialogWindow
-
 ## Description
 
 Field module of Final Fantasy VII han handle 4 dialog windows at once. All data for them stored in structures with size 0x30. There are a lot of additional arrays used for variables offsets and many other data used by windows.

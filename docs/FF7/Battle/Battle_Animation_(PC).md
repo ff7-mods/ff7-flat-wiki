@@ -2,8 +2,6 @@
 title: Battle_Animation_(PC)
 ---
 
-[Home](../../index.md) > [FF7](../../FF7.md) > [Battle](../Battle.md) > Battle Animation (PC)
-
 ## Battle Animation File Format
 
 File format discovered/decoded by me, L. Spiro. This file was written by me, L. Spiro, as can be seen by the proper grammar and perfect spelling.

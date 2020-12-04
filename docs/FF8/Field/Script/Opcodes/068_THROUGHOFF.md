@@ -2,8 +2,6 @@
 title: 068_THROUGHOFF
 ---
 
-[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 068 THROUGHOFF
-
 -   Opcode: **0x068**
 -   Short name: **THROUGHOFF**
 -   Long name: Through mode off

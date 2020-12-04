@@ -2,8 +2,6 @@
 title: Autoexec.nt
 ---
 
-[Home](../../index.md) > [FF7](../../FF7.md) > [Technical](../Technical.md) > Autoexec.nt
-
 ### Symptoms
 
 I get one of following errors when trying to install Final Fantasy VII:

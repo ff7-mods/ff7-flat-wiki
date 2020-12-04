@@ -2,8 +2,6 @@
 title: 066_GETINFO
 ---
 
-[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 066 GETINFO
-
 -   Opcode: **0x066**
 -   Short name: **GETINFO**
 -   Long name: Get Worldspace Coordinates?

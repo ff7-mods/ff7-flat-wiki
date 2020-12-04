@@ -2,15 +2,13 @@
 title: FF8
 ---
 
-[Home](index.md) > FF8
-
 # Contents
 
 ### History
 
-Final Fantasy VIII came after the mega hit [Final Fantasy VII](FF7 "wikilink"), it in itself was a very successful game release for Square. For more on the [history of Final Fantasy VIII read here](FF8/HistoryOf.md). The Game Engine
+Final Fantasy VIII came after the mega hit [Final Fantasy VII](FF7.md), it in itself was a very successful game release for Square. For more on the [history of Final Fantasy VIII read here](FF8/HistoryOf.md). The Game Engine
 
--   [Final Fantasy VIII's Engine](FF8/Engine.md)
+-   [Final Fantasy VIII's Engine](FF8/Engine "wikilink")
 
 ### Engine constants
 
@@ -18,7 +16,7 @@ Final Fantasy VIII came after the mega hit [Final Fantasy VII](FF7 "wikilink"), 
 
 ### Details of the Game
 
--   [Final Fantasy VIII's Kernel](FF8/Kernel.md)
+-   [Final Fantasy VIII's Kernel](FF8/Kernel "wikilink")
 -   [Game variables used in scripting](FF8/Variables.md)
 -   [World map camera](FF8/Engine/WorldMapCamera.md)
 -   [Battle encounters list](FF8/Encounter_Codes.md)
@@ -47,8 +45,8 @@ Final Fantasy VIII came after the mega hit [Final Fantasy VII](FF7 "wikilink"), 
 -   [\[DAT](FF8/FileFormat_DAT.md)\] Battle Models
 -   [Scene.out](FF8/BattleStructure.md) Battle encounter data
 -   [r0win.dat](FF8/FileFormat_r0win.md) Winning sequence
--   [b0wave.dat](FF8/FileFormat_b0wave.md)
--   [a9btlfnt.bft](FF8/FileFormat_TDW.md)
+-   [b0wave.dat](FF8/FileFormat_b0wave.md) Core battle data (Textures+Music+Font)
+-   [a9btlfnt.bft](FF8/FileFormat_TDW.md) Battle Font (Redirect to TDW)
 -   [.mag files](FF8/FileFormat_magfiles.md) - MAG files
 
 ### Field files
@@ -59,18 +57,18 @@ Final Fantasy VIII came after the mega hit [Final Fantasy VII](FF7 "wikilink"), 
 -   [\[MIM](FF8/FileFormat_MIM.md)\] Field Background Image Data
 -   [\[MAP](FF8/FileFormat_MAP.md)\] Field Background Tile Data
 -   [\[JSM](FF8/FileFormat_JSM.md)\] Field Scripts
--   [\[SYM](FF8/FileFormat_SYM.md)
+-   [\[SYM](FF8/FileFormat_SYM.md)\] Field Script names (unused)
 -   [\[MSD](FF8/FileFormat_MSD.md)\] Field Dialogs
 -   [\[INF](FF8/FileFormat_INF.md)\] Field Gateways
--   [\[ID](FF7/Field/Walkmesh.md)
+-   [\[ID](FF7/Field/Walkmesh.md)\] Field Walkmesh (same format as FF7)
 -   [\[CA](FF8/FileFormat_CA.md)\] Field Camera
 -   [\[TDW](FF8/FileFormat_TDW.md)\] Extra font
--   [\[MSK](FF8/FileFormat_MSK.md)
+-   [\[MSK](FF8/FileFormat_MSK.md)\] Movie cam (?)
 -   [\[RAT](FF8/FileFormat_RAT_MRT.md) & \[MRT\]\] Battle related
 -   [\[PMD](FF8/FileFormat_PMD.md)\] Particle Info
 -   [\[PMP](FF8/FileFormat_PMP.md)\] Particle Image Data
--   [\[PVP](FF8/FileFormat_PVP.md)
--   [\[SFX](FF8/FileFormat_SFX.md)
+-   [\[PVP](FF8/FileFormat_PVP.md)\] Unknown (often 0x0c000000, sometimes 0x0a000000 or 0x0b000000)
+-   [\[SFX](FF8/FileFormat_SFX.md)\] Indexes to Sound Effects (?)
 
 ### World map files
 
@@ -97,14 +95,14 @@ Final Fantasy VIII came after the mega hit [Final Fantasy VII](FF7 "wikilink"), 
 
 ### Menu
 
--   [\*.sp1/\*.sp2](FF8/Menu_sp2.md)
+-   [\*.sp1/\*.sp2](FF8/Menu_sp2 "wikilink")
 -   [mngrphd.bin](FF8/Menu_mngrphd_bin.md)
 -   [mngrp.bin](FF8/Menu_mngrp_bin.md)
--   [tkmnmes\*.bin](FF8/Menu_tkmnmes.md)
--   [mag\*.tex](Ff8/Menu_mag_textures.md)
+-   [tkmnmes\*.bin](FF8/Menu_tkmnmes "wikilink")
+-   [mag\*.tex](Ff8/Menu_mag_textures "wikilink")
 -   [mngrp strings](FF8/Menu_mngrp_strings_locations.md)
 -   [mngrp complex strings](FF8/Menu_mngrp_complex_strings.md)
--   [m00\*.bin and m00\*.msg](FF8/Menu_m000_m004.md)
+-   [m00\*.bin and m00\*.msg](FF8/Menu_m000_m004 "wikilink")
 -   [areames.dc1](FF8/Menu_areames_dc1.md)
 
 # Tools and Patches

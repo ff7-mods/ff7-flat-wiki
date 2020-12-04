@@ -2,8 +2,6 @@
 title: Armor_data
 ---
 
-[Home](../index.md) > [FF7](../FF7.md) > Armor data
-
 ## KERNEL.BIN - Section 7: Armor data format
 
 This section contains the armor data. Each record is 36 bytes long.

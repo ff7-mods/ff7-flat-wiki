@@ -2,8 +2,6 @@
 title: FileFormat_ONE
 ---
 
-[Home](../index.md) > [FF8](../FF8.md) > FileFormat ONE
-
 By myst6re.
 
 # chara.one Archive
@@ -35,4 +33,4 @@ For each model:
 
 ## Data
 
-This is the same data structure as a [MCH model](FF8/FileFormat_MCH "wikilink") (without header). In the PlayStation version, each model textures + data is [LZS](../FF7/LZS_format.md) compressed.
+This is the same data structure as a [MCH model](FileFormat_MCH.md) (without header). In the PlayStation version, each model textures + data is [LZS](../FF7/LZS_format.md) compressed.

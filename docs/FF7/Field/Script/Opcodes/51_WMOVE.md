@@ -2,8 +2,6 @@
 title: 51_WMOVE
 ---
 
-[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 51 WMOVE
-
 -   Opcode: **0x51**
 -   Short name: **WMOVE**
 -   Long name: Window Move
@@ -21,4 +19,4 @@ title: 51_WMOVE
 
 #### Description
 
-Repositions the window, with the given ID, and a (x,y) translation. The window will be repositioned the next time a [MESSAGE](FF7/Field/Script/Opcodes/40_MESSAGE "wikilink") or [ASK](48_ASK.md), referencing this window, is issued.
+Repositions the window, with the given ID, and a (x,y) translation. The window will be repositioned the next time a [MESSAGE](40_MESSAGE.md) or [ASK](48_ASK.md), referencing this window, is issued.

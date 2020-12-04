@@ -2,8 +2,6 @@
 title: B3_DIR
 ---
 
-[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > B3 DIR
-
 -   Opcode: **0xB3**
 -   Short name: **DIR**
 -   Long name: Direction

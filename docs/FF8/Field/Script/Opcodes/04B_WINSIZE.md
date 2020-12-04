@@ -2,8 +2,6 @@
 title: 04B_WINSIZE
 ---
 
-[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 04B WINSIZE
-
 -   Opcode: **0x04B**
 -   Short name: **WINSIZE**
 -   Long name: Set Window Size

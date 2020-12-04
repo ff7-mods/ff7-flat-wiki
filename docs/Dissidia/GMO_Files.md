@@ -2,9 +2,7 @@
 title: GMO_Files
 ---
 
-[Home](../index.md) > [Dissidia](../Dissidia.md) > GMO Files
-
-<small>Last updated: [Koral](../User:Koral.md)</small>
+<small>Last updated: [Koral](User:Koral "wikilink") 14:04, 30 Mar 2009 (EDT)</small>
 
 # GMO Model File
 

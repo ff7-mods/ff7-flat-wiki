@@ -2,11 +2,9 @@
 title: LGP_format
 ---
 
-[Home](../index.md) > [FF7](../FF7.md) > LGP format
+### LGP Archive format for PC by [Ficedula](User:Ficedula "wikilink")
 
-### LGP Archive format for PC by [Ficedula](../User:Ficedula.md)
-
-This section explains how the LGP archives from FF7 PC are constructed. If you're looking for a tool that already manages LGP archives, try [Ficedula](../User:Ficedula.md)'s [LGP Editor](http://sylphds.net/f2k3/index.html).
+This section explains how the LGP archives from FF7 PC are constructed. If you're looking for a tool that already manages LGP archives, try [Ficedula](User:Ficedula "wikilink")'s [LGP Editor](http://sylphds.net/f2k3/index.html).
 
 Essentially the LGP file is split up into four (maybe less, depending on how you count it) sections.
 

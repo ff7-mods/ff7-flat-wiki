@@ -2,8 +2,6 @@
 title: A9_CMOVE
 ---
 
-[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > A9 CMOVE
-
 -   Opcode: **0xA9**
 -   Short name: **CMOVE**
 -   Long name: Move Object (No Animation)
@@ -22,4 +20,4 @@ title: A9_CMOVE
 
 #### Description
 
-Similar to [MOVE](A8_MOVE.md).
+Similar to [MOVE](A8_MOVE.md), but the field object won't play its animation whilst it moves. Field object will not be rotated according to movement (it will move without changing direction).

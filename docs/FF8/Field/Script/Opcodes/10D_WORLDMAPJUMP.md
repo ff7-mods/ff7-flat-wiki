@@ -2,8 +2,6 @@
 title: 10D_WORLDMAPJUMP
 ---
 
-[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 10D WORLDMAPJUMP
-
 -   Opcode: **0x10D**
 -   Short name: **WORLDMAPJUMP**
 -   Long name: Jump to world map

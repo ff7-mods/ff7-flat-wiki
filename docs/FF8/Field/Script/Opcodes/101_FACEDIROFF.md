@@ -2,8 +2,6 @@
 title: 101_FACEDIROFF
 ---
 
-[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 101 FACEDIROFF
-
 -   Opcode: **0x101**
 -   Short name: **FACEDIROFF**
 -   Long name: Stop head facing

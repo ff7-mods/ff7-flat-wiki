@@ -2,8 +2,6 @@
 title: Battle_Scenes
 ---
 
-[Home](../../index.md) > [FF7](../../FF7.md) > [Battle](../Battle.md) > Battle Scenes
-
 ## Introduction
 
 FF7 keeps each enemy battle configuration is a file called "scene.bin" This file is located in the following directories.
@@ -21,7 +19,7 @@ This file is exactly the same in both versions. This holds all the battle config
 
 The scene.bin file contains 256 gziped files which give us information for all the FF7 monsters. In order to find these files in scene.bin, you have to know that the file is structured with blocks exactly 0x2000 bytes in length. In the first table (scene.bin block), you will see what contains a block. Blocks are concatenated with each other to form the scene.bin file. So if you want to extract data from scene.bin, you'll need to find the correct blocks and to extract the gziped files from it. After that you simply ungzip those files and you'll find 256 files, with a length is 7808 bytes. Known information about those files can be found in the second table (The Data File specification). Because extracting file manually would be a pain, several tools was developed in order to help you. You can use [Scene Reader](http://spinningcone.com/ff/stormmedia/projects/SceneReader.zip) for example, it's a win32 tool to extract and repack scene.bin archive.
 
-Also note, that in [kernel.bin](FF7/Kernel/Kernel.bin "wikilink") there is a look-up table for scene.bin, which tells how many files there are in each section of scene.bin. You need to update it every time you repack the file and something changes. The table is at offset 0x0F1C of the third section of the kernel.bin file. You can use [SceneFix](http://forums.qhimm.com/index.php?topic=7127.0) program, which'll update the table for you.
+Also note, that in [kernel.bin](../Kernel/Kernel.bin.md) there is a look-up table for scene.bin, which tells how many files there are in each section of scene.bin. You need to update it every time you repack the file and something changes. The table is at offset 0x0F1C of the third section of the kernel.bin file. You can use [SceneFix](http://forums.qhimm.com/index.php?topic=7127.0) program, which'll update the table for you.
 
 We have 1024 possible battle numbers: 0 - 1023. Each group of \*4\* Battle Numbers refers to a particular Scene file: for instance, Battles 0-3 refer to File 0 in Scene.bin, Battles 4-7 refer to File 1 in Scene.bin, and so forth.
 
@@ -44,27 +42,27 @@ In the japanese scene.bin, ennemies names and attacks names have a size of 16 by
 | 0x0002 |    2 bytes     |                                             Enemy ID 2                                             |
 | 0x0004 |    2 bytes     |                                             Enemy ID 3                                             |
 | 0x0006 |    2 bytes     |                                       Padding (always FFFFh)                                       |
-| 0x0008 | 4 \* 20 bytes  |         Battle Setup (4 records) ([format explanation](#battle-setup-1-format)         |
-| 0x0058 | 4 \* 48 bytes  | Camera Placement Data (4 records) ([format explanation](#camera-placement-data-format) |
-| 0x0118 | 6 \* 16 bytes  |      Battle Formation 1 (6 records) ([format explanation](#battle-formation-data)      |
+| 0x0008 | 4 \* 20 bytes  |         Battle Setup (4 records) ([format explanation](#battle-setup-1-format))         |
+| 0x0058 | 4 \* 48 bytes  | Camera Placement Data (4 records) ([format explanation](#camera-placement-data-format)) |
+| 0x0118 | 6 \* 16 bytes  |      Battle Formation 1 (6 records) ([format explanation](#battle-formation-data))      |
 | 0x0178 | 6 \* 16 bytes  |                                   Battle Formation 2 (6 records)                                   |
 | 0x01E8 | 6 \* 16 bytes  |                                   Battle Formation 3 (6 records)                                   |
 | 0x0238 | 6 \* 16 bytes  |                                   Battle Formation 4 (6 records)                                   |
-| 0x0298 |   184 bytes    |                 Enemy Data 1 ([format explanation](#enemy-data-format)                 |
+| 0x0298 |   184 bytes    |                 Enemy Data 1 ([format explanation](#enemy-data-format))                 |
 | 0x0350 |   184 bytes    |                                            Enemy Data 2                                            |
 | 0x0408 |   184 bytes    |                                            Enemy Data 3                                            |
-| 0x04C0 | 32 \* 28 bytes |            Attack Data (32 records) ([format explanation](../Attack_data.md)             |
+| 0x04C0 | 32 \* 28 bytes |            Attack Data (32 records) ([format explanation](../Attack_data.md))             |
 | 0x0840 | 32 \* 2 bytes  |                                      Attack IDs (32 records)                                       |
-| 0x0880 | 32 \* 32 bytes |               Attack Names (32 records, [in FF Text format](../FF_Text.md)               |
+| 0x0880 | 32 \* 32 bytes |               Attack Names (32 records, [in FF Text format](../FF_Text.md))               |
 | 0x0C80 |    2 bytes     |                                    Formation 1 AI Script Offset                                    |
 | 0x0C82 |    2 bytes     |                                    Formation 2 AI Script Offset                                    |
 | 0x0C84 |    2 bytes     |                                    Formation 3 AI Script Offset                                    |
 | 0x0C86 |    2 bytes     |                                    Formation 4 AI Script Offset                                    |
-| 0x0C88 | 0 - 504 bytes  |             Beginning of Formation AI Data ([format explanation](#ai-data)             |
+| 0x0C88 | 0 - 504 bytes  |             Beginning of Formation AI Data ([format explanation](#ai-data))             |
 | 0x0E80 |    2 bytes     |                                         Enemy 1 AI Offset                                          |
 | 0x0E82 |    2 bytes     |                                         Enemy 2 AI Offset                                          |
 | 0x0E84 |    2 bytes     |                                         Enemy 3 AI Offset                                          |
-| 0x0E86 | 0 - 4090 bytes |                  Beginning of AI Data ([format explanation](#ai-data)                  |
+| 0x0E86 | 0 - 4090 bytes |                  Beginning of AI Data ([format explanation](#ai-data))                  |
 
 #### Battle Setup 1 format
 
@@ -215,7 +213,7 @@ In the japanese scene.bin, ennemies names and attacks names have a size of 16 by
 0Eh - Scream<br />
 0Fh - HIDDEN<br />
 10h-1Fh - No Effect<br />
-20h-3Fh - <a href="Status_Effects.md" title="wikilink">Statuses</a> (Damage done by actions that inflict these statuses will be modified)<br />
+20h-3Fh - <a href="Status_Effects">Statuses</a> (Damage done by actions that inflict these statuses will be modified)<br />
 FFh - No element</p></td></tr><tr class="odd"><td style="text-align: center;"><p>0x0030</p></td><td style="text-align: center;"><p>8 bytes</p></td><td style="text-align: center;"><p>Element rates for elements above, respectively (8 records):<br />
 00h - Death<br />
 02h - Double Damage<br />
@@ -223,7 +221,7 @@ FFh - No element</p></td></tr><tr class="odd"><td style="text-align: center;"><p
 05h - Nullify Damage<br />
 06h - Absorb 100%<br />
 07h - Full Cure<br />
-FFh - Nothing</p></td></tr><tr class="even"><td style="text-align: center;"><p>0x0038</p></td><td style="text-align: center;"><p>16 bytes</p></td><td style="text-align: center;"><p>Action animation index (1 byte each).</p></td></tr><tr class="odd"><td style="text-align: center;"><p>0x0048</p></td><td style="text-align: center;"><p>32 bytes</p></td><td style="text-align: center;"><p>Enemy Attack ID's (2 bytes each).</p></td></tr><tr class="even"><td style="text-align: center;"><p>0x0068</p></td><td style="text-align: center;"><p>32 bytes</p></td><td style="text-align: center;"><p>Enemy Attacks <a href="Camera_Movement_Id_List.md" title="wikilink">Camera Movement Id</a> for single and multiple targets (2 bytes each). If set this will overwrite camera movement set in attack itself.</p></td></tr><tr class="odd"><td style="text-align: center;"><p>0x0088</p></td><td style="text-align: center;"><p>4 bytes</p></td><td style="text-align: center;"><p>Item drop/steal rates.<br />
+FFh - Nothing</p></td></tr><tr class="even"><td style="text-align: center;"><p>0x0038</p></td><td style="text-align: center;"><p>16 bytes</p></td><td style="text-align: center;"><p>Action animation index (1 byte each).</p></td></tr><tr class="odd"><td style="text-align: center;"><p>0x0048</p></td><td style="text-align: center;"><p>32 bytes</p></td><td style="text-align: center;"><p>Enemy Attack ID's (2 bytes each).</p></td></tr><tr class="even"><td style="text-align: center;"><p>0x0068</p></td><td style="text-align: center;"><p>32 bytes</p></td><td style="text-align: center;"><p>Enemy Attacks <a href="Camera_Movement_Id_List">Camera Movement Id</a> for single and multiple targets (2 bytes each). If set this will overwrite camera movement set in attack itself.</p></td></tr><tr class="odd"><td style="text-align: center;"><p>0x0088</p></td><td style="text-align: center;"><p>4 bytes</p></td><td style="text-align: center;"><p>Item drop/steal rates.<br />
 These are chances to get items listed in next section. 1 byte per item. If the rate is lower than 80h, for e.g. 08h - then this is a drop item and has 8/63 [63 is max] chance for drop. But if rate is higher than 80h, let's say... A0h, then this is an item for steal, and chances for successful steal is A0h - 80h = 20h = 32/63.</p></td></tr><tr class="even"><td style="text-align: center;"><p>0x008C</p></td><td style="text-align: center;"><p>8 bytes</p></td><td style="text-align: center;"><p>This is a list of Item ID's which are described above. 2 bytes per item. FFFFh means no item.</p></td></tr><tr class="odd"><td style="text-align: center;"><p>0x0094</p></td><td style="text-align: center;"><p>6 bytes</p></td><td style="text-align: center;"><p>Indexes of up to three attacks (2 bytes each) that enemy can perform while manipulated or berserked</p></td></tr><tr class="even"><td style="text-align: center;"><p>0x009A</p></td><td style="text-align: center;"><p>2 bytes</p></td><td style="text-align: center;"><p>Unknown data</p></td></tr><tr class="odd"><td style="text-align: center;"><p>0x009C</p></td><td style="text-align: center;"><p>2 bytes</p></td><td style="text-align: center;"><p>Enemy's MP</p></td></tr><tr class="even"><td style="text-align: center;"><p>0x009E</p></td><td style="text-align: center;"><p>2 bytes</p></td><td style="text-align: center;"><p>AP points you receive when you win the battle</p></td></tr><tr class="odd"><td style="text-align: center;"><p>0x00A0</p></td><td style="text-align: center;"><p>2 bytes</p></td><td style="text-align: center;"><p>Enemy can be morphed into this item. FFFFh if it can't be morphed into anything.</p></td></tr><tr class="even"><td style="text-align: center;"><p>0x00A2</p></td><td style="text-align: center;"><p>1 byte</p></td><td style="text-align: center;"><p>Multiplier for back damage. damage = damage * 0xXX / 8.</p></td></tr><tr class="odd"><td style="text-align: center;"><p>0x00A3</p></td><td style="text-align: center;"><p>1 byte</p></td><td style="text-align: center;"><p>align 0xff.</p></td></tr><tr class="even"><td style="text-align: center;"><p>0x00A4</p></td><td style="text-align: center;"><p>4 bytes</p></td><td style="text-align: center;"><p>Enemy's HP</p></td></tr><tr class="odd"><td style="text-align: center;"><p>0x00A8</p></td><td style="text-align: center;"><p>4 bytes</p></td><td style="text-align: center;"><p>Exp points you receive when you win the battle</p></td></tr><tr class="even"><td style="text-align: center;"><p>0x00AC</p></td><td style="text-align: center;"><p>4 bytes</p></td><td style="text-align: center;"><p>Gil you receive when you win the battle</p></td></tr><tr class="odd"><td style="text-align: center;"><p>0x00B0</p></td><td style="text-align: center;"><p>4 bytes</p></td><td style="text-align: center;"><p>Status immunities</p></td></tr><tr class="even"><td style="text-align: center;"><p>0x00B4</p></td><td style="text-align: center;"><p>4 bytes</p></td><td style="text-align: center;"><p>Unknown [Always FFFFFFFFh]</p></td></tr></tbody></table>
 
 #### Formation ID

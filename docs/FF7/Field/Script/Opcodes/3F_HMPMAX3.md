@@ -2,8 +2,6 @@
 title: 3F_HMPMAX3
 ---
 
-[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 3F HMPMAX3
-
 -   Opcode: **0x3F**
 -   Short name: **HMPMAX3**
 -   Long name: HP/MP Maximum

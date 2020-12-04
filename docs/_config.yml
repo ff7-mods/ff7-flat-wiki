@@ -2,3 +2,4 @@ theme: jekyll-theme-cayman
 plugins:
   - jekyll-relative-links
   - jekyll-redirect-from
+  - jekyll-sitemap

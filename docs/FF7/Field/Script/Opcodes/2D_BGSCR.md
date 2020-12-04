@@ -2,8 +2,6 @@
 title: 2D_BGSCR
 ---
 
-[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 2D BGSCR
-
 -   Opcode: **0x2D**
 -   Short name: **BGSCR**
 -   Long name: Background Scroll

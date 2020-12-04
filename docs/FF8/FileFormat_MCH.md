@@ -2,8 +2,6 @@
 title: FileFormat_MCH
 ---
 
-[Home](../index.md) > [FF8](../FF8.md) > FileFormat MCH
-
 <small>Authors: [Koral](User:Koral "wikilink"), [JWP](http://forums.qhimm.com/index.php?topic=6961.msg86318#msg86318) and [Vehek](http://forums.qhimm.com/index.php?topic=13261.msg184344#msg184344)</small>
 
 # MCH Field Character Models

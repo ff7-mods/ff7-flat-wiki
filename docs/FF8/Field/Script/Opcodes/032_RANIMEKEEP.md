@@ -2,8 +2,6 @@
 title: 032_RANIMEKEEP
 ---
 
-[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 032 RANIMEKEEP
-
 -   Opcode: **0x032**
 -   Short name: **RANIMEKEEP**
 -   Long name: Resume script, Animate, keep last frame

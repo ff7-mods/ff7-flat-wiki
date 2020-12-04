@@ -2,8 +2,6 @@
 title: 01A_UNUSE
 ---
 
-[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 01A UNUSE
-
 -   Opcode: **0x01A**
 -   Short name: **UNUSE**
 -   Long name: Unuse entity

@@ -2,8 +2,6 @@
 title: Tools
 ---
 
-[Home](../index.md) > [FF8](../FF8.md) > Tools
-
 ## Essentials
 
 The entries in this section are to enable you to play [Final Fantasy VIII](../FF8.md) should you encounter issues in running the game.

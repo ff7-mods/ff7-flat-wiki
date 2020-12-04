@@ -2,8 +2,6 @@
 title: Error_112
 ---
 
-[Home](../../index.md) > [FF7](../../FF7.md) > [Technical](../Technical.md) > Error 112
-
 ### Symptoms
 
 During installation of Final Fantasy VII 'Error 112' is popping, preventing you from completing the installation.

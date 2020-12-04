@@ -2,8 +2,6 @@
 title: Kernel.bin
 ---
 
-[Home](../../index.md) > [FF7](../../FF7.md) > [Kernel](../Kernel.md) > Kernel.bin
-
 ## Important Files
 
 |   PSX Version    |        PC Version        |

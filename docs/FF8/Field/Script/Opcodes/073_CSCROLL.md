@@ -2,8 +2,6 @@
 title: 073_CSCROLL
 ---
 
-[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 073 CSCROLL
-
 -   Opcode: **0x073**
 -   Short name: **CSCROLL**
 -   Long name: C? Scroll

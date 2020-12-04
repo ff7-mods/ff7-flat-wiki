@@ -2,8 +2,6 @@
 title: 174_UNKNOWN9
 ---
 
-[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 174 UNKNOWN9
-
 -   Opcode: **0x174**
 -   Short name: **UNKNOWN9**
 -   Long name: Counterclockwise Turn

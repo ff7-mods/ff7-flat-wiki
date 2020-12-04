@@ -2,8 +2,6 @@
 title: 26_BLINK
 ---
 
-[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 26 BLINK
-
 -   Opcode: **0x26**
 -   Short name: **BLINK**
 -   Long name: Character Blink

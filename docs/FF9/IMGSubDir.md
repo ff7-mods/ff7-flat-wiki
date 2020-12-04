@@ -2,8 +2,6 @@
 title: IMGSubDir
 ---
 
-[Home](../index.md) > [FF9](../FF9.md) > IMGSubDir
-
 # Sub Directory Information
 
 The sub directories consist of a file list structure and then actual file data.

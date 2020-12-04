@@ -2,8 +2,6 @@
 title: E0_BGON
 ---
 
-[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > E0 BGON
-
 -   Opcode: **0xE0**
 -   Short name: **BGON**
 -   Long name: Background On

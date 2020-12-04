@@ -2,8 +2,6 @@
 title: FF_Text
 ---
 
-[Home](../index.md) > [FF7](../FF7.md) > FF Text
-
 FF Text is a format that Squaresoft used to store strings in the English version of Final Fantasy VII. Large subsets of the character (e.g. A-Z, a-z, 0-9) set are coded as simply their ASCII values offset by 0x20.
 
 |     | 00          | 01        | 02    | 03          | 04          | 05          | 06  | 07    | 08        | 09         | 0A        | 0B        | 0C        | 0D       | 0E         | 0F       |

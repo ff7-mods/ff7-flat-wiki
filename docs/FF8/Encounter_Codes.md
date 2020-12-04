@@ -2,8 +2,6 @@
 title: Encounter_Codes
 ---
 
-[Home](../index.md) > [FF8](../FF8.md) > Encounter Codes
-
 ## Usable Encounters
 
 | Encounter ID | Description                                        | Location                                 |

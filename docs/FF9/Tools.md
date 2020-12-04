@@ -2,8 +2,6 @@
 title: Tools
 ---
 
-[Home](../index.md) > [FF9](../FF9.md) > Tools
-
 ### Editors
 
 | Project Name | Description     | Author                                                              | Version / Status | Links                                                                                                         |

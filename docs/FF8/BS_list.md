@@ -2,8 +2,6 @@
 title: BS_list
 ---
 
-[Home](../index.md) > [FF8](../FF8.md) > BS list
-
 This list was written by kaspar01.
 
 -   21-08-2015: Updated with new kaspar01 info

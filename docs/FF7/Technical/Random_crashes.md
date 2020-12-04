@@ -2,8 +2,6 @@
 title: Random_crashes
 ---
 
-[Home](../../index.md) > [FF7](../../FF7.md) > [Technical](../Technical.md) > Random crashes
-
 ### Symptoms
 
 The game stops responding, sometimes you continue to hear music and other times it even crashes to the desktop.

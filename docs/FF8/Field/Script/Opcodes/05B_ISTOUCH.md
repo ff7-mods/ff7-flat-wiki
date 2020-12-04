@@ -2,8 +2,6 @@
 title: 05B_ISTOUCH
 ---
 
-[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 05B ISTOUCH
-
 -   Opcode: **0x05B**
 -   Short name: **ISTOUCH**
 -   Long name: Is Touching
@@ -15,7 +13,7 @@ none
 #### Stack
 
   
-*Actor code* (set by [PSHAC](013_PSHAC.md)
+*Actor code* (set by [PSHAC](013_PSHAC.md))
 
 **ISTOUCH**
 

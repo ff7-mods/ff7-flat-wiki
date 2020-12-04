@@ -2,8 +2,6 @@
 title: 0A_SPTYE
 ---
 
-[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 0A SPTYE
-
 -   Opcode: **0x0A**
 -   Short name: **SPTYE**
 -   Long name: Set Party From Memory

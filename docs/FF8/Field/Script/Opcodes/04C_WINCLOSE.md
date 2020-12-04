@@ -2,8 +2,6 @@
 title: 04C_WINCLOSE
 ---
 
-[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 04C WINCLOSE
-
 -   Opcode: **0x04C**
 -   Short name: **WINCLOSE**
 -   Long name: Close Message Window

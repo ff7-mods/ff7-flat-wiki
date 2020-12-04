@@ -2,8 +2,6 @@
 title: WorldMap_Module
 ---
 
-[Home](../index.md) > [FF7](../FF7.md) > WorldMap Module
-
 ## Preamble
 
 The following was originaly described by Tonberry, in qhimm's forum. It was completed by Ficedula sometimes later, who reversed texture data.
@@ -165,7 +163,7 @@ For each vertex v in *number of vertices*
 `  uint16 Unused; // fill to fit structure to 32bit boundry`  
 `} NormalType;`
 
-structures added by [Cyberman](../User:Cyberman.md)
+structures added by [Cyberman](User:Cyberman "wikilink") 13:43, 10 Jan 2007 (CST)
 
 ### Walkmap
 

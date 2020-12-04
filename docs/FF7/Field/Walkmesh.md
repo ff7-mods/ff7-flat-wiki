@@ -2,27 +2,25 @@
 title: Walkmesh
 ---
 
-[Home](../../index.md) > [FF7](../../FF7.md) > [Field](../Field.md) > Walkmesh
+### Section 5: Walkmesh ([Kero](User:Kero "wikilink"))
 
-### Section 5: Walkmesh ([Kero](../../User:Kero.md)
 
-<div class="thumb tright">
-<div class="thumbinner" style="width: 182px">
+
 
 <figure><img src="Field_Wutai.jpg" title="180px-Field_Wutai.jpg" width="180" alt="180px-Field_Wutai.jpg" /><figcaption aria-hidden="true"><img src="180px-Field_Wutai.jpg" title="fig:180px-Field_Wutai.jpg" alt="180px-Field_Wutai.jpg" /></figcaption></figure>
 
-<div class="thumbcaption">
-<div class="magnify">
+
+
 
 ![](../../assets/Field_Wutai.jpg)
 
-</div>
+
 
 Wutai Walkmesh
 
-</div>
-</div>
-</div>
+
+
+
 
 Every every offset is here relative, 00 is at the start of section 5 (after length indicator).
 

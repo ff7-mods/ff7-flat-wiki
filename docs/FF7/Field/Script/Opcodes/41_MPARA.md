@@ -2,8 +2,6 @@
 title: 41_MPARA
 ---
 
-[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 41 MPARA
-
 -   Opcode: **0x41**
 -   Short name: **MPARA**
 -   Long name: Message Parameter (8-bit value/address)
@@ -22,7 +20,7 @@ title: 41_MPARA
 
 #### Description
 
-Replaces the [Variable Control Code](FF7/Field/Variable_Dialog "wikilink"), found in lines of dialog, with a specific value. This allows either literal values or values retrieved from memory to be displayed in message boxes. Message parameters are set, and then the dialog with the Variable control codes is displayed using [MESSAGE](40_MESSAGE.md), as normal.
+Replaces the [Variable Control Code](../../Variable_Dialog.md), found in lines of dialog, with a specific value. This allows either literal values or values retrieved from memory to be displayed in message boxes. Message parameters are set, and then the dialog with the Variable control codes is displayed using [MESSAGE](40_MESSAGE.md), as normal.
 
 The ID of the *W*indow must be provided, but this can be still be provided before the window has been created using [WINDOW](50_WINDOW.md). For lines of dialog with multiple Variable codes, the *I* argument identifies which code this value should replace, starting from zero for the first Variable code found in the line of dialog about to be displayed.
 

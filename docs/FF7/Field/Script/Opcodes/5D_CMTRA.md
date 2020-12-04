@@ -2,8 +2,6 @@
 title: 5D_CMTRA
 ---
 
-[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 5D CMTRA
-
 -   Opcode: **0x5D**
 -   Short name: **CMTRA**
 -   Long name: Check Materia

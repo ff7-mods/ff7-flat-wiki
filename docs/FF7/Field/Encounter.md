@@ -2,8 +2,6 @@
 title: Encounter
 ---
 
-[Home](../../index.md) > [FF7](../../FF7.md) > [Field](../Field.md) > Encounter
-
 ## Overview
 
 The encounter section provides encounter data for the field by referencing [battle IDs](../Battle/Battle_Scenes.md) and providing probabilites for each type of encounter required. The section consists of two *encounter tables* that hold sets of these battle configurations; these tables may be switched between using field scripting. The two encounter tables are contiguous and follow directly after the section's length description; due to the presence of the two encounter tables regardless of whether they are used or not, the section length is always 48 bytes.

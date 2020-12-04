@@ -2,8 +2,6 @@
 title: Opcodes
 ---
 
-[Home](../../../index.md) > [FF8](../../../FF8.md) > [Field](../../Field.md) > [Script](../Script.md) > Opcodes
-
 By Aali, myst6re and Shard.
 
 ## The language
@@ -57,25 +55,25 @@ Which means when you call **SET3**, the ZCoord is the top item on the stack, YCo
 
 | Opcode | Name                                                                              | Function Type      |
 |--------|-----------------------------------------------------------------------------------|--------------------|
-| 000    | [000 NOP](Opcodes/000_NOP.md)*                 | Script Processing  |
+| 000    | [000 NOP](Opcodes/000_NOP.md) *(Unused)*                 | Script Processing  |
 | 001    | [001 CAL](Opcodes/001_CAL.md)                            | Script Processing  |
 | 002    | [002 JMP](Opcodes/002_JMP.md)                            | Script Processing  |
 | 003    | [003 JPF](Opcodes/003_JPF.md)                            | Script Processing  |
-| 004    | [004 GJMP](Opcodes/004_GJMP.md)*               | Script Processing  |
+| 004    | [004 GJMP](Opcodes/004_GJMP.md) *(Unused)*               | Script Processing  |
 | 005    | [005 LBL](Opcodes/005_LBL.md)                            | Script Processing  |
 | 006    | [006 RET](Opcodes/006_RET.md)                            | Script Processing  |
-| 007    | [007 PSHN\_L](Opcodes/007_PSHN_L.md)                     | Memory             |
-| 008    | [008 PSHI\_L](Opcodes/008_PSHI_L.md)                     | Memory             |
-| 009    | [009 POPI\_L](Opcodes/009_POPI_L.md)                     | Memory             |
-| 00A    | [00A PSHM\_B](Opcodes/00A_PSHM_B.md)                     | Memory             |
-| 00B    | [00B POPM\_B](Opcodes/00B_POPM_B.md)                     | Memory             |
-| 00C    | [00C PSHM\_W](Opcodes/00C_PSHM_W.md)                     | Memory             |
-| 00D    | [00D POPM\_W](Opcodes/00D_POPM_W.md)                     | Memory             |
-| 00E    | [00E PSHM\_L](Opcodes/00E_PSHM_L.md)                     | Memory             |
-| 00F    | [00F POPM\_L](Opcodes/00F_POPM_L.md)                     | Memory             |
-| 010    | [010 PSHSM\_B](Opcodes/010_PSHSM_B.md)                   | Memory             |
-| 011    | [011 PSHSM\_W](Opcodes/011_PSHSM_W.md)                   | Memory             |
-| 012    | [012 PSHSM\_L](Opcodes/012_PSHSM_L.md)                   | Memory             |
+| 007    | [007 PSHN\_L](FF8/Field/Script/Opcodes/007_PSHN_L "wikilink")                     | Memory             |
+| 008    | [008 PSHI\_L](FF8/Field/Script/Opcodes/008_PSHI_L "wikilink")                     | Memory             |
+| 009    | [009 POPI\_L](FF8/Field/Script/Opcodes/009_POPI_L "wikilink")                     | Memory             |
+| 00A    | [00A PSHM\_B](FF8/Field/Script/Opcodes/00A_PSHM_B "wikilink")                     | Memory             |
+| 00B    | [00B POPM\_B](FF8/Field/Script/Opcodes/00B_POPM_B "wikilink")                     | Memory             |
+| 00C    | [00C PSHM\_W](FF8/Field/Script/Opcodes/00C_PSHM_W "wikilink")                     | Memory             |
+| 00D    | [00D POPM\_W](FF8/Field/Script/Opcodes/00D_POPM_W "wikilink")                     | Memory             |
+| 00E    | [00E PSHM\_L](FF8/Field/Script/Opcodes/00E_PSHM_L "wikilink")                     | Memory             |
+| 00F    | [00F POPM\_L](FF8/Field/Script/Opcodes/00F_POPM_L "wikilink")                     | Memory             |
+| 010    | [010 PSHSM\_B](FF8/Field/Script/Opcodes/010_PSHSM_B "wikilink")                   | Memory             |
+| 011    | [011 PSHSM\_W](FF8/Field/Script/Opcodes/011_PSHSM_W "wikilink")                   | Memory             |
+| 012    | [012 PSHSM\_L](FF8/Field/Script/Opcodes/012_PSHSM_L "wikilink")                   | Memory             |
 | 013    | [013 PSHAC](Opcodes/013_PSHAC.md)                        | Memory             |
 | 014    | [014 REQ](Opcodes/014_REQ.md)                            | Script Processing  |
 | 015    | [015 REQSW](Opcodes/015_REQSW.md)                        | Script Processing  |
@@ -84,7 +82,7 @@ Which means when you call **SET3**, the ZCoord is the top item on the stack, YCo
 | 018    | [018 PREQSW](Opcodes/018_PREQSW.md)                      | Script Processing  |
 | 019    | [019 PREQEW](Opcodes/019_PREQEW.md)                      | Script Processing  |
 | 01A    | [01A UNUSE](Opcodes/01A_UNUSE.md)                        | Entity             |
-| 01B    | [01B DEBUG](Opcodes/01B_DEBUG.md)*             |                    |
+| 01B    | [01B DEBUG](Opcodes/01B_DEBUG.md) *(Unused)*             |                    |
 | 01C    | [01C HALT](Opcodes/01C_HALT.md)                          | Script Processing  |
 | 01D    | [01D SET](Opcodes/01D_SET.md)                            | Entity             |
 | 01E    | [01E SET3](Opcodes/01E_SET3.md)                          | Entity             |
@@ -127,7 +125,7 @@ Which means when you call **SET3**, the ZCoord is the top item on the stack, YCo
 | 043    | [043 PJUMPA](Opcodes/043_PJUMPA.md)                      |                    |
 | 044    | [044 ANIMESYNC](Opcodes/044_ANIMESYNC.md)                | Script Processing  |
 | 045    | [045 ANIMESTOP](Opcodes/045_ANIMESTOP.md)                | Animation          |
-| 046    | [046 MESW](Opcodes/046_MESW.md)*               |                    |
+| 046    | [046 MESW](Opcodes/046_MESW.md) *(Unused)*               |                    |
 | 047    | [047 MES](Opcodes/047_MES.md)                            | Message            |
 | 048    | [048 MESSYNC](Opcodes/048_MESSYNC.md)                    | Script Processing  |
 | 049    | [049 MESVAR](Opcodes/049_MESVAR.md)                      | Message            |
@@ -199,13 +197,13 @@ Which means when you call **SET3**, the ZCoord is the top item on the stack, YCo
 | 08B    | [08B ISPARTY](Opcodes/08B_ISPARTY.md)                    | Party Management   |
 | 08C    | [08C ADDMEMBER](Opcodes/08C_ADDMEMBER.md)                | Party Management   |
 | 08D    | [08D SUBMEMBER](Opcodes/08D_SUBMEMBER.md)                | Party Management   |
-| 08E    | [08E ISMEMBER](Opcodes/08E_ISMEMBER.md)*       | Party Management   |
+| 08E    | [08E ISMEMBER](Opcodes/08E_ISMEMBER.md) *(Unused)*       | Party Management   |
 | 08F    | [08F LTURN](Opcodes/08F_LTURN.md)                        |                    |
 | 090    | [090 CTURN](Opcodes/090_CTURN.md)                        |                    |
 | 091    | [091 PLTURN](Opcodes/091_PLTURN.md)                      |                    |
 | 092    | [092 PCTURN](Opcodes/092_PCTURN.md)                      |                    |
 | 093    | [093 JOIN](Opcodes/093_JOIN.md)                          | Entity             |
-| 094    | [094 MESFORCUS](Opcodes/094_MESFORCUS.md)*     |                    |
+| 094    | [094 MESFORCUS](Opcodes/094_MESFORCUS.md) *(Unused)*     |                    |
 | 095    | [095 BGANIME](Opcodes/095_BGANIME.md)                    | Field related      |
 | 096    | [096 RBGANIME](Opcodes/096_RBGANIME.md)                  | Field related      |
 | 097    | [097 RBGANIMELOOP](Opcodes/097_RBGANIMELOOP.md)          | Field related      |
@@ -215,11 +213,11 @@ Which means when you call **SET3**, the ZCoord is the top item on the stack, YCo
 | 09B    | [09B BGANIMESPEED](Opcodes/09B_BGANIMESPEED.md)          | Field related      |
 | 09C    | [09C SETTIMER](Opcodes/09C_SETTIMER.md)                  | Timer              |
 | 09D    | [09D DISPTIMER](Opcodes/09D_DISPTIMER.md)                | Timer              |
-| 09E    | [09E SHADETIMER](Opcodes/09E_SHADETIMER.md)*   |                    |
+| 09E    | [09E SHADETIMER](Opcodes/09E_SHADETIMER.md) *(Unused)*   |                    |
 | 09F    | [09F SETGETA](Opcodes/09F_SETGETA.md)                    |                    |
 | 0A0    | [0A0 SETROOTTRANS](Opcodes/0A0_SETROOTTRANS.md)          |                    |
 | 0A1    | [0A1 SETVIBRATE](Opcodes/0A1_SETVIBRATE.md)              |                    |
-| 0A2    | [0A2 STOPVIBRATE](Opcodes/0A2_STOPVIBRATE.md)* |                    |
+| 0A2    | [0A2 STOPVIBRATE](Opcodes/0A2_STOPVIBRATE.md) *(Unused)* |                    |
 | 0A3    | [0A3 MOVIEREADY](Opcodes/0A3_MOVIEREADY.md)              | Movie              |
 | 0A4    | [0A4 GETTIMER](Opcodes/0A4_GETTIMER.md)                  | Timer              |
 | 0A5    | [0A5 FADEIN](Opcodes/0A5_FADEIN.md)                      | Field related      |
@@ -231,7 +229,7 @@ Which means when you call **SET3**, the ZCoord is the top item on the stack, YCo
 | 0AB    | [0AB FOLLOWOFF](Opcodes/0AB_FOLLOWOFF.md)                |                    |
 | 0AC    | [0AC FOLLOWON](Opcodes/0AC_FOLLOWON.md)                  |                    |
 | 0AD    | [0AD GAMEOVER](Opcodes/0AD_GAMEOVER.md)                  | Field related      |
-| 0AE    | [0AE ENDING](Opcodes/0AE_ENDING.md)*           |                    |
+| 0AE    | [0AE ENDING](Opcodes/0AE_ENDING.md) *(Unused)*           |                    |
 | 0AF    | [0AF SHADELEVEL](Opcodes/0AF_SHADELEVEL.md)              |                    |
 | 0B0    | [0B0 SHADEFORM](Opcodes/0B0_SHADEFORM.md)                |                    |
 | 0B1    | [0B1 FMOVEA](Opcodes/0B1_FMOVEA.md)                      |                    |
@@ -254,7 +252,7 @@ Which means when you call **SET3**, the ZCoord is the top item on the stack, YCo
 | 0C2    | [0C2 MUSICVOLFADE](Opcodes/0C2_MUSICVOLFADE.md)          | Music and Sound    |
 | 0C3    | [0C3 ALLSEVOL](Opcodes/0C3_ALLSEVOL.md)                  | Music and Sound    |
 | 0C4    | [0C4 ALLSEVOLTRANS](Opcodes/0C4_ALLSEVOLTRANS.md)        | Music and Sound    |
-| 0C5    | [0C5 ALLSEPOS](Opcodes/0C5_ALLSEPOS.md)*       | Music and Sound    |
+| 0C5    | [0C5 ALLSEPOS](Opcodes/0C5_ALLSEPOS.md) *(Unused)*       | Music and Sound    |
 | 0C6    | [0C6 ALLSEPOSTRANS](Opcodes/0C6_ALLSEPOSTRANS.md)        | Music and Sound    |
 | 0C7    | [0C7 SEVOL](Opcodes/0C7_SEVOL.md)                        | Music and Sound    |
 | 0C8    | [0C8 SEVOLTRANS](Opcodes/0C8_SEVOLTRANS.md)              | Music and Sound    |
@@ -263,7 +261,7 @@ Which means when you call **SET3**, the ZCoord is the top item on the stack, YCo
 | 0CB    | [0CB SETBATTLEMUSIC](Opcodes/0CB_SETBATTLEMUSIC.md)      | Music and Sound    |
 | 0CC    | [0CC BATTLEMODE](Opcodes/0CC_BATTLEMODE.md)              | Battle             |
 | 0CD    | [0CD SESTOP](Opcodes/0CD_SESTOP.md)                      | Music and Sound    |
-| 0CE    | [0CE BGANIMEFLAG](Opcodes/0CE_BGANIMEFLAG.md)* |                    |
+| 0CE    | [0CE BGANIMEFLAG](Opcodes/0CE_BGANIMEFLAG.md) *(Unused)* |                    |
 | 0CF    | [0CF INITSOUND](Opcodes/0CF_INITSOUND.md)                |                    |
 | 0D0    | [0D0 BGSHADE](Opcodes/0D0_BGSHADE.md)                    |                    |
 | 0D1    | [0D1 BGSHADESTOP](Opcodes/0D1_BGSHADESTOP.md)            |                    |
@@ -272,11 +270,11 @@ Which means when you call **SET3**, the ZCoord is the top item on the stack, YCo
 | 0D4    | [0D4 LSCROLL2](Opcodes/0D4_LSCROLL2.md)                  |                    |
 | 0D5    | [0D5 CSCROLL2](Opcodes/0D5_CSCROLL2.md)                  |                    |
 | 0D6    | [0D6 DSCROLLA2](Opcodes/0D6_DSCROLLA2.md)                |                    |
-| 0D7    | [0D7 LSCROLLA2](Opcodes/0D7_LSCROLLA2.md)*     |                    |
+| 0D7    | [0D7 LSCROLLA2](Opcodes/0D7_LSCROLLA2.md) *(Unused)*     |                    |
 | 0D8    | [0D8 CSCROLLA2](Opcodes/0D8_CSCROLLA2.md)                |                    |
-| 0D9    | [0D9 DSCROLLP2](Opcodes/0D9_DSCROLLP2.md)*     |                    |
-| 0DA    | [0DA LSCROLLP2](Opcodes/0DA_LSCROLLP2.md)*     |                    |
-| 0DB    | [0DB CSCROLLP2](Opcodes/0DB_CSCROLLP2.md)*     |                    |
+| 0D9    | [0D9 DSCROLLP2](Opcodes/0D9_DSCROLLP2.md) *(Unused)*     |                    |
+| 0DA    | [0DA LSCROLLP2](Opcodes/0DA_LSCROLLP2.md) *(Unused)*     |                    |
+| 0DB    | [0DB CSCROLLP2](Opcodes/0DB_CSCROLLP2.md) *(Unused)*     |                    |
 | 0DC    | [0DC SCROLLSYNC2](Opcodes/0DC_SCROLLSYNC2.md)            |                    |
 | 0DD    | [0DD SCROLLMODE2](Opcodes/0DD_SCROLLMODE2.md)            |                    |
 | 0DE    | [0DE MENUENABLE](Opcodes/0DE_MENUENABLE.md)              | Menus              |
@@ -309,7 +307,7 @@ Which means when you call **SET3**, the ZCoord is the top item on the stack, YCo
 | 0F9    | [0F9 MAPFADEON](Opcodes/0F9_MAPFADEON.md)                | Field related      |
 | 0FA    | [0FA INITTRACE](Opcodes/0FA_INITTRACE.md)                |                    |
 | 0FB    | [0FB SETDRESS](Opcodes/0FB_SETDRESS.md)                  | Entity             |
-| 0FC    | [0FC GETDRESS](Opcodes/0FC_GETDRESS.md)*       | Entity             |
+| 0FC    | [0FC GETDRESS](Opcodes/0FC_GETDRESS.md) *(Unused)*       | Entity             |
 | 0FD    | [0FD FACEDIR](Opcodes/0FD_FACEDIR.md)                    | Entity             |
 | 0FE    | [0FE FACEDIRA](Opcodes/0FE_FACEDIRA.md)                  |                    |
 | 0FF    | [0FF FACEDIRP](Opcodes/0FF_FACEDIRP.md)                  |                    |
@@ -327,25 +325,25 @@ Which means when you call **SET3**, the ZCoord is the top item on the stack, YCo
 | 10B    | [10B BATTLECUT](Opcodes/10B_BATTLECUT.md)                |                    |
 | 10C    | [10C FOOTSTEPCOPY](Opcodes/10C_FOOTSTEPCOPY.md)          |                    |
 | 10D    | [10D WORLDMAPJUMP](Opcodes/10D_WORLDMAPJUMP.md)          | Field related      |
-| 10E    | [10E RFACEDIRI](Opcodes/10E_RFACEDIRI.md)*     |                    |
+| 10E    | [10E RFACEDIRI](Opcodes/10E_RFACEDIRI.md) *(Unused)*     |                    |
 | 10F    | [10F RFACEDIR](Opcodes/10F_RFACEDIR.md)                  |                    |
 | 110    | [110 RFACEDIRA](Opcodes/110_RFACEDIRA.md)                |                    |
 | 111    | [111 RFACEDIRP](Opcodes/111_RFACEDIRP.md)                |                    |
 | 112    | [112 RFACEDIROFF](Opcodes/112_RFACEDIROFF.md)            |                    |
 | 113    | [113 FACEDIRSYNC](Opcodes/113_FACEDIRSYNC.md)            |                    |
 | 114    | [114 COPYINFO](Opcodes/114_COPYINFO.md)                  |                    |
-| 115    | [115 PCOPYINFO](Opcodes/115_PCOPYINFO.md)*     |                    |
+| 115    | [115 PCOPYINFO](Opcodes/115_PCOPYINFO.md) *(Unused)*     |                    |
 | 116    | [116 RAMESW](Opcodes/116_RAMESW.md)                      | Message            |
 | 117    | [117 BGSHADEOFF](Opcodes/117_BGSHADEOFF.md)              | Field related      |
 | 118    | [118 AXIS](Opcodes/118_AXIS.md)                          |                    |
-| 119    | [119 AXISSYNC](Opcodes/119_AXISSYNC.md)*       |                    |
+| 119    | [119 AXISSYNC](Opcodes/119_AXISSYNC.md) *(Unused)*       |                    |
 | 11A    | [11A MENUNORMAL](Opcodes/11A_MENUNORMAL.md)              | Menus              |
 | 11B    | [11B MENUPHS](Opcodes/11B_MENUPHS.md)                    | Menus              |
 | 11C    | [11C BGCLEAR](Opcodes/11C_BGCLEAR.md)                    |                    |
 | 11D    | [11D GETPARTY](Opcodes/11D_GETPARTY.md)                  | Party Management   |
 | 11E    | [11E MENUSHOP](Opcodes/11E_MENUSHOP.md)                  | Menus              |
 | 11F    | [11F DISC](Opcodes/11F_DISC.md)                          | Field related      |
-| 120    | [120 DSCROLL3](Opcodes/120_DSCROLL3.md)*       |                    |
+| 120    | [120 DSCROLL3](Opcodes/120_DSCROLL3.md) *(Unused)*       |                    |
 | 121    | [121 LSCROLL3](Opcodes/121_LSCROLL3.md)                  |                    |
 | 122    | [122 CSCROLL3](Opcodes/122_CSCROLL3.md)                  |                    |
 | 123    | [123 MACCEL](Opcodes/123_MACCEL.md)                      |                    |
@@ -357,7 +355,7 @@ Which means when you call **SET3**, the ZCoord is the top item on the stack, YCo
 | 129    | [129 MENUNAME](Opcodes/129_MENUNAME.md)                  | Menus              |
 | 12A    | [12A REST](Opcodes/12A_REST.md)                          |                    |
 | 12B    | [12B MOVECANCEL](Opcodes/12B_MOVECANCEL.md)              |                    |
-| 12C    | [12C PMOVECANCEL](Opcodes/12C_PMOVECANCEL.md)* |                    |
+| 12C    | [12C PMOVECANCEL](Opcodes/12C_PMOVECANCEL.md) *(Unused)* |                    |
 | 12D    | [12D ACTORMODE](Opcodes/12D_ACTORMODE.md)                |                    |
 | 12E    | [12E MENUSAVE](Opcodes/12E_MENUSAVE.md)                  | Menus              |
 | 12F    | [12F SAVEENABLE](Opcodes/12F_SAVEENABLE.md)              | Menus              |
@@ -384,13 +382,13 @@ Which means when you call **SET3**, the ZCoord is the top item on the stack, YCo
 | 144    | [144 MUSICSKIP](Opcodes/144_MUSICSKIP.md)                |                    |
 | 145    | [145 DYING](Opcodes/145_DYING.md)                        | Party Management   |
 | 146    | [146 SETHP](Opcodes/146_SETHP.md)                        | Party Management   |
-| 147    | [147 GETHP](Opcodes/147_GETHP.md)*             | Party Management   |
+| 147    | [147 GETHP](Opcodes/147_GETHP.md) *(Unused)*             | Party Management   |
 | 148    | [148 MOVEFLUSH](Opcodes/148_MOVEFLUSH.md)                |                    |
 | 149    | [149 MUSICVOLSYNC](Opcodes/149_MUSICVOLSYNC.md)          |                    |
 | 14A    | [14A PUSHANIME](Opcodes/14A_PUSHANIME.md)                |                    |
 | 14B    | [14B POPANIME](Opcodes/14B_POPANIME.md)                  |                    |
 | 14C    | [14C KEYSCAN2](Opcodes/14C_KEYSCAN2.md)                  | Input              |
-| 14D    | [14D KEYON2](Opcodes/14D_KEYON2.md)*           | Input              |
+| 14D    | [14D KEYON2](Opcodes/14D_KEYON2.md) *(Unused)*           | Input              |
 | 14E    | [14E PARTICLEON](Opcodes/14E_PARTICLEON.md)              |                    |
 | 14F    | [14F PARTICLEOFF](Opcodes/14F_PARTICLEOFF.md)            |                    |
 | 150    | [150 KEYSIGHNCHANGE](Opcodes/150_KEYSIGHNCHANGE.md)      |                    |
@@ -404,15 +402,15 @@ Which means when you call **SET3**, the ZCoord is the top item on the stack, YCo
 | 158    | [158 LASTOUT](Opcodes/158_LASTOUT.md)                    |                    |
 | 159    | [159 SEALEDOFF](Opcodes/159_SEALEDOFF.md)                |                    |
 | 15A    | [15A MENUTUTO](Opcodes/15A_MENUTUTO.md)                  | Menus              |
-| 15B    | [15B OPENEYES](Opcodes/15B_OPENEYES.md)*       |                    |
+| 15B    | [15B OPENEYES](Opcodes/15B_OPENEYES.md) *(Unused)*       |                    |
 | 15C    | [15C CLOSEEYES](Opcodes/15C_CLOSEEYES.md)                |                    |
-| 15D    | [15D BLINKEYES](Opcodes/15D_BLINKEYES.md)*     |                    |
+| 15D    | [15D BLINKEYES](Opcodes/15D_BLINKEYES.md) *(Unused)*     |                    |
 | 15E    | [15E SETCARD](Opcodes/15E_SETCARD.md)                    | Item/Magic/Card/GF |
 | 15F    | [15F HOWMANYCARD](Opcodes/15F_HOWMANYCARD.md)            | Item/Magic/Card/GF |
 | 160    | [160 WHERECARD](Opcodes/160_WHERECARD.md)                | Item/Magic/Card/GF |
 | 161    | [161 ADDMAGIC](Opcodes/161_ADDMAGIC.md)                  | Item/Magic/Card/GF |
 | 162    | [162 SWAP](Opcodes/162_SWAP.md)                          |                    |
-| 163    | [163 SETPARTY2](Opcodes/163_SETPARTY2.md)*     |                    |
+| 163    | [163 SETPARTY2](Opcodes/163_SETPARTY2.md) *(Unused)*     |                    |
 | 164    | [164 SPUSYNC](Opcodes/164_SPUSYNC.md)                    | Timer              |
 | 165    | [165 BROKEN](Opcodes/165_BROKEN.md)                      |                    |
 | 166    | [166 UNKNOWN1](Opcodes/166_UNKNOWN1.md)                  |                    |

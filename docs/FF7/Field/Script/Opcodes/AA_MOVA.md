@@ -2,8 +2,6 @@
 title: AA_MOVA
 ---
 
-[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > AA MOVA
-
 -   Opcode: **0xAA**
 -   Short name: **MOVA**
 -   Long name: Move to Entity

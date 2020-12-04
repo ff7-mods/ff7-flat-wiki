@@ -2,8 +2,6 @@
 title: 02B_SETMODEL
 ---
 
-[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 02B SETMODEL
-
 -   Opcode: **0x02B**
 -   Short name: **SETMODEL**
 -   Long name: Set model

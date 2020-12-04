@@ -2,8 +2,6 @@
 title: 181_UNKNOWN16
 ---
 
-[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 181 UNKNOWN16
-
 -   Opcode: **0x181**
 -   Short name: **UNKNOWN16**
 -   Long name: Set Draw Point ID

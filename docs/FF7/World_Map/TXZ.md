@@ -2,8 +2,6 @@
 title: TXZ
 ---
 
-[Home](../../index.md) > [FF7](../../FF7.md) > [World Map](../World_Map.md) > TXZ
-
 ## WM0.TXZ
 
 The following information applies specifically to WM0.TXZ, it is reasonable to assume that the rest of the TXZ files use a similar format, where WM2.TXZ and WM3.TXZ presumably holds equivalent data for the underwater and snowfield maps respectively.
@@ -43,7 +41,7 @@ The following structure can be used to read this data:
 `   unsigned int reserved:7;`  
 `};`
 
-Texture IDs are the same for the PSX and PC version which means that this table maps 1:1 to the table of PC textures which can be found here: [FF7/WorldMap\_Module/TextureTable](../WorldMap_Module/TextureTable.md)
+Texture IDs are the same for the PSX and PC version which means that this table maps 1:1 to the table of PC textures which can be found here: [FF7/WorldMap\_Module/TextureTable](FF7/WorldMap_Module/TextureTable "wikilink")
 
 After this table follows a number of blocks intended for direct VRAM upload, each block has the following structure:
 

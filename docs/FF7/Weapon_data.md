@@ -2,8 +2,6 @@
 title: Weapon_data
 ---
 
-[Home](../index.md) > [FF7](../FF7.md) > Weapon data
-
 ## KERNEL.BIN - Section 6: Weapon data format
 
 This section contains the weapon data. Each weapon attribute is 44 bytes long.

@@ -2,8 +2,6 @@
 title: 172_UNKNOWN7
 ---
 
-[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 172 UNKNOWN7
-
 -   Opcode: **0x172**
 -   Short name: **UNKNOWN7**
 -   Long name: Counterclockwise Turn

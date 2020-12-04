@@ -2,8 +2,6 @@
 title: 81_SETWORD
 ---
 
-[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 81 SETWORD
-
 -   Opcode: **0x81**
 -   Short name: **SETWORD**
 -   Long name: Word Set

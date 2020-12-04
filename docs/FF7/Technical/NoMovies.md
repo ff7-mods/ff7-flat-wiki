@@ -2,8 +2,6 @@
 title: NoMovies
 ---
 
-[Home](../../index.md) > [FF7](../../FF7.md) > [Technical](../Technical.md) > NoMovies
-
 ### Symptoms
 
 The movies are not displayed in game and do not properly display when viewed outside the game

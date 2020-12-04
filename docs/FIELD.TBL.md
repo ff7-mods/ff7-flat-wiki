@@ -2,8 +2,6 @@
 title: FIELD.TBL
 ---
 
-[Home](index.md) > FIELD.TBL
-
 ## General
 
 This file contains 64 records of 24 bytes each, they correspond to the 64 WM\* fields, but they work in the opposite direction. Each 24 byte record contains 2 scenarios, which are 12 bytes a piece, and indicated by the second parameter. Each scenario contains the Field Id for the field that it should jump to, this is at offset 0x6. For instance, when walking into North Corel, there are two possible fields that it can jump to; if you fail the Corel Train mission, it will jump to ncorel2 map instead of ncorel. The other data in this record is unknown, but does contains coordinates within the field to which your character will be initiated. For instance, the Chocobo Farm can be entered from the bottom or from the side, depending on certain flags set within your file game save.

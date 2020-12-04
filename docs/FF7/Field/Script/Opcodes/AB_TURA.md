@@ -2,8 +2,6 @@
 title: AB_TURA
 ---
 
-[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > AB TURA
-
 -   Opcode: **0xAB**
 -   Short name: **TURA**
 -   Long name: Turn to entity

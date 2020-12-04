@@ -2,8 +2,6 @@
 title: 0C5_ALLSEPOS
 ---
 
-[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 0C5 ALLSEPOS
-
 -   Opcode: **0x0C5**
 -   Short name: **ALLSEPOS**
 -   Long name: Set Pan for all Sound Effects

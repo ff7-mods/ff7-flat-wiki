@@ -2,8 +2,6 @@
 title: Bike_minigame
 ---
 
-[Home](../../index.md) > [FF7](../../FF7.md) > [Technical](../Technical.md) > Bike minigame
-
 ### Symptoms
 
 During the Bike mini-game the speeds the vehicles travel at are so fast as to be unplayable.

@@ -2,8 +2,6 @@
 title: E5_STPAL
 ---
 
-[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > E5 STPAL
-
 -   Opcode: **0xE5**
 -   Short name: **STPAL**
 -   Long name: Store Palette

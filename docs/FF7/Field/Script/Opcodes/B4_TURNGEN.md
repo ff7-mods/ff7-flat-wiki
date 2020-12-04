@@ -2,8 +2,6 @@
 title: B4_TURNGEN
 ---
 
-[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > B4 TURNGEN
-
 -   Opcode: **0xB4**
 -   Short name: **TURNGEN**
 -   Long name: Generate Turn

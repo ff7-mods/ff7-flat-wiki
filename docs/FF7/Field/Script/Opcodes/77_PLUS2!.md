@@ -2,8 +2,6 @@
 title: 77_PLUS2!
 ---
 
-[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 77 PLUS2!
-
 -   Opcode: **0x77**
 -   Short name: **PLUS2!**
 -   Long name: Saturated Addition (16-bit)

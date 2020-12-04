@@ -2,8 +2,6 @@
 title: 17_IFSWL
 ---
 
-[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 17 IFSWL
-
 -   Opcode: **0x17**
 -   Short name: **IFSWL**
 -   Long name: If (Signed Word, Long Jump)

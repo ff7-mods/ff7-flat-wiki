@@ -2,9 +2,7 @@
 title: FF7
 ---
 
-[Home](index.md) > FF7
-
-<small> This is a Stub article. A Wiki version of Gears should go here. For more information, select the "discussion" tab above so we can best architecture the data. For those who want to start converting, download the [Gears pdf](https://wiki.ffrtt.ru/gears.pdf) [Halkun](User:Halkun.md) </small>
+<small> This is a Stub article. A Wiki version of Gears should go here. For more information, select the "discussion" tab above so we can best architecture the data. For those who want to start converting, download the [Gears pdf](https://wiki.ffrtt.ru/gears.pdf) [Halkun](User:Halkun "wikilink") 20:18, 5 Mar 2005 (CST) </small>
 
   
 
@@ -50,7 +48,7 @@ title: FF7
         -   General PC Field File Format
         -   PC Field File Header
         -   File Section Details
-    -   [Field Format (PSX)](FF7/Field_Module.md#Field_Format_.28PSX.29)
+    -   [Field Format (PSX)](FF7/Field_Module#Field_Format_.28PSX.29 "wikilink")
         -   [PSX DAT Format](FF7/Field_Module.md#PSX_DAT_Format)
         -   [PSX MIM Format](FF7/Field_Module.md#PSX_MIM_Format)
         -   [PSX BSX Format](FF7/Field_Module.md#PSX_BSX_Format)
@@ -59,13 +57,13 @@ title: FF7
     -   Battle Overview
     -   [Battle Mechanics](FF7/Battle/Battle_Mechanics.md)
     -   [Battle Field](FF7/Battle/Battle_Field.md)
-    -   [Battle Scenes (scene.bin)](FF7/Battle/Battle_Scenes.md)
+    -   [Battle Scenes (scene.bin)](FF7/Battle/Battle_Scenes "wikilink")
         -   [Battle Scripts](FF7/Battle/Battle_Scenes/Battle_Script.md)
-    -   [Battle Models (PSX)](FF7/Playstation_Battle_Model_Format.md)
-    -   [Battle Animation (PC)](FF7/Battle/Battle_Animation_(PC).md)
+    -   [Battle Models (PSX)](FF7/Playstation_Battle_Model_Format "wikilink")
+    -   [Battle Animation (PC)](FF7/Battle/Battle_Animation_(PC) "wikilink")
 -   [The World Map Module](FF7/WorldMap_Module.md)
-    -   [World Map BSZ model file format (PSX)](FF7/World_Map/BSZ.md)
-    -   [World Map TXZ file format (PSX)](FF7/World_Map/TXZ.md)
+    -   [World Map BSZ model file format (PSX)](FF7/World_Map/BSZ "wikilink")
+    -   [World Map TXZ file format (PSX)](FF7/World_Map/TXZ "wikilink")
     -   [World Map Script Engine](FF7/WorldMap_Module/Script.md)
 -   Sound
     -   [PSX Sound](FF7/PSX/PSX_Sound.md)

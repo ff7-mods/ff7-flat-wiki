@@ -2,8 +2,6 @@
 title: D4_SIN
 ---
 
-[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > D4 SIN
-
 -   Opcode: **0xD4**
 -   Short name: **SIN**
 -   Long name: SIN Calculation

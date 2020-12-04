@@ -2,8 +2,6 @@
 title: 68_SCR2DL
 ---
 
-[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 68 SCR2DL
-
 -   Opcode: **0x68**
 -   Short name: **SCR2DC**
 -   Long name: Scroll to Coordinates (Linear)

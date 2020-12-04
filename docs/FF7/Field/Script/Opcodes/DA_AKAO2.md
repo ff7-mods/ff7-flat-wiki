@@ -2,8 +2,6 @@
 title: DA_AKAO2
 ---
 
-[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > DA AKAO2
-
 -   Opcode: **0xDA**
 -   Short name: **AKAO2**
 -   Long name: Sound Operation (word param1)

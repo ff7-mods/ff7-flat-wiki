@@ -2,8 +2,6 @@
 title: 01C_HALT
 ---
 
-[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 01C HALT
-
 -   Opcode: **0x01C**
 -   Short name: **HALT**
 -   Long name: Halt

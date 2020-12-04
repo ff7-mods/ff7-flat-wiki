@@ -2,8 +2,6 @@
 title: 50_WINDOW
 ---
 
-[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 50 WINDOW
-
 -   Opcode: **0x50**
 -   Short name: **WINDOW**
 -   Long name: Window creation
@@ -23,7 +21,7 @@ title: 50_WINDOW
 
 #### Description
 
-Creates a window with a given ID and placement/size parameters. Windows are used to show [dialog](FF7/Field/Script/Opcodes/40_MESSAGE "wikilink"), present [choices](48_ASK.md) and so on, each of which reference the window's ID to insert text. This command only initializes a window ID, but does not present itself until a dialog command is issued on it.
+Creates a window with a given ID and placement/size parameters. Windows are used to show [dialog](40_MESSAGE.md), present [choices](48_ASK.md) and so on, each of which reference the window's ID to insert text. This command only initializes a window ID, but does not present itself until a dialog command is issued on it.
 
 Adjustments are made for windows that are either too close an edge, or the width / height is too big for the screen. Eg:
 

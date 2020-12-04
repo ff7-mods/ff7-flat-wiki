@@ -2,8 +2,6 @@
 title: 0xa8aa
 ---
 
-[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [PSX](../../../PSX.md) > [Sound](../../Sound.md) > [Opcodes](../Opcodes.md) > 0xa8aa
-
 ## 0xA8, 0xAA, 0xA3 (Channel Volume, Pan, Volume Modifier)
 
 0xA8 has one 8-bit parameter, which used in calculation of base channel volume.

@@ -2,8 +2,6 @@
 title: BB_CANIM2
 ---
 
-[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > BB CANIM2
-
 -   Opcode: **0xBB**
 -   Short name: **CANIM2**
 -   Long name: Particial Animation.

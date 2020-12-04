@@ -2,8 +2,6 @@
 title: Graphic_problems
 ---
 
-[Home](../../index.md) > [FF7](../../FF7.md) > [Technical](../Technical.md) > Graphic problems
-
 ### Symptoms
 
 Messed up graphics, black boxes are common.

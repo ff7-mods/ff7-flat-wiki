@@ -2,8 +2,6 @@
 title: LZSS_format
 ---
 
-[Home](../index.md) > [FF7](../FF7.md) > LZSS format
-
 #### Format
 
 The LZSS archive has a very small header at 0x00 that has the length of the compressed file as an unsigned 32 bit integer. After that is the compressed data. Some files use the .lzs extension, probably to make the extension 3 characters long. It has caused some confusion, since LZS is a different compression method.

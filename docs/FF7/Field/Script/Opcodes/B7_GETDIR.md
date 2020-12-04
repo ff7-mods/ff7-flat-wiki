@@ -2,8 +2,6 @@
 title: B7_GETDIR
 ---
 
-[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > B7 GETDIR
-
 -   Opcode: **0xB7**
 -   Short name: **GETDIR**
 -   Long name: Get Entity Direction

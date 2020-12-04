@@ -2,8 +2,6 @@
 title: GameSaveFormat
 ---
 
-[Home](../index.md) > [FF8](../FF8.md) > GameSaveFormat
-
 By myst6re.
 
 ## The save format

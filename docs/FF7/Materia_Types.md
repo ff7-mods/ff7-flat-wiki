@@ -2,8 +2,6 @@
 title: Materia_Types
 ---
 
-[Home](../index.md) > [FF7](../FF7.md) > Materia Types
-
 ## Types
 
 Materia is separated into five categories of functions in the game: "Command", "Magic", "Summon", "Independent", and "Support". Graphically they are yellow, green, red, blue, and purple respectively. The materia type is determined by a single byte value that is separated into two parts. The upper nybble will be considered the sub-type and the lower nybble is the base type. For base types the values will yield the following results:

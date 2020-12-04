@@ -2,8 +2,6 @@
 title: 49_MENU
 ---
 
-[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 49 MENU
-
 -   Opcode: **0x49**
 -   Short name: **MENU**
 -   Long name: Menu

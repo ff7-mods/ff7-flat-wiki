@@ -2,8 +2,6 @@
 title: 155_SETDRAWPOINT
 ---
 
-[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 155 SETDRAWPOINT
-
 -   Opcode: **0x155**
 -   Short name: **SETDRAWPOINT**
 -   Long name: Set Draw Point hidden

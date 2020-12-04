@@ -2,8 +2,6 @@
 title: 34_PDIRA
 ---
 
-[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 34 PDIRA
-
 -   Opcode: **0x34**
 -   Short name: **PDIRA**
 -   Long name: Face Party Member
@@ -19,4 +17,4 @@ title: 34_PDIRA
 
 #### Description
 
-Instantly turns the field object to face the party member specified by **C**. In contrast to [PTURA](FF7/Field/Script/Opcodes/35_PTURA "wikilink"), the turn is not gradual, and the parameter is not a party member ID (from 0 for the first to 2 for the third in the party), but a Character ID (like in [MMBud](CD_MMBud.md). If the specified character ID is not in your party, the field object will turn to the main character.
+Instantly turns the field object to face the party member specified by **C**. In contrast to [PTURA](35_PTURA.md), the turn is not gradual, and the parameter is not a party member ID (from 0 for the first to 2 for the third in the party), but a Character ID (like in [MMBud](CD_MMBud.md)). If the specified character ID is not in your party, the field object will turn to the main character.

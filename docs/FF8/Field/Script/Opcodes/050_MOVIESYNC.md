@@ -2,8 +2,6 @@
 title: 050_MOVIESYNC
 ---
 
-[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 050 MOVIESYNC
-
 -   Opcode: **0x050**
 -   Short name: **MOVIESYNC**
 -   Long name: Movie Synchronize

@@ -2,8 +2,6 @@
 title: Data
 ---
 
-[Home](../../index.md) > [FF9](../../FF9.md) > [File](../File.md) > Data
-
 Almost all files in FF9 has structure, which starts from 2 bytes DB (hex numbers). This record points, that after we'll have pointer list, which points to different data sections in the file (data can be sounds, TIMs, models, etc).
 
 **DB Structure:**

@@ -2,8 +2,6 @@
 title: WorldMap_rail
 ---
 
-[Home](../index.md) > [FF8](../FF8.md) > WorldMap rail
-
 By MaKiPL
 
 ## Info
@@ -12,7 +10,7 @@ Rail.obj is a file containing key locations of train movement. It stores locatio
 
 ### File scheme
 
-The file is built the similiar way as [World map WMX.obj](WorldMap_wmx.md).
+The file is built the similiar way as [World map WMX.obj](WorldMap_wmx.md). The engine is loading animation for specific train every 0x800 bytes (2048). Always. Animation cannot be larger than 2048, and if is smaller than 2048 bytes, then what's left is filled with 00. One animation frame is 16 bytes. Max animation frame is 127, because 127\*16=2032+16(header).
 
   
   

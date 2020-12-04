@@ -2,8 +2,6 @@
 title: Battle_Field
 ---
 
-[Home](../../index.md) > [FF7](../../FF7.md) > [Battle](../Battle.md) > Battle Field
-
 Battle fields are simple 3d models drawed in 3d space.
 
 They stored in directories STAGE1 and STAGE2. There are lzs archives that unpacked and loaded in PSX space 0x801590e4. Size of unpacked field must be less than 0x8d04. It consist from few concatenated files. First one is settings for field. Last one is texture. All others are meshes.

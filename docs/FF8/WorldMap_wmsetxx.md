@@ -2,8 +2,6 @@
 title: WorldMap_wmsetxx
 ---
 
-[Home](../index.md) > [FF8](../FF8.md) > WorldMap wmsetxx
-
 ## Info
 
 WMSETxx.obj (where xx may refer to gr,us,it,fr,sp) is a multi-data world map file containing many core functions and 3D objects. This file contains almost everything: sounds, scripts, dialogs, texts, textures, models- all contained in one file. Main differences between en/it/gr/sp/fr are localized dialogs, so next sections have different offsets. Offsets before this are all the same. [Wmset.obj](WorldMap_wmset.md) is probably never used in-game and is leftover. Dialogs in lang-en/wmset.obj are in english, but the file is different from wmsetus.obj.

@@ -2,8 +2,6 @@
 title: MIDI_format
 ---
 
-[Home](index.md) > MIDI format
-
 # Standard MIDI File (SMF) Format
 
 The <B>Standard MIDI File</B> (SMF) is a file format used to store MIDI data (plus some other kinds of data typically needed by a sequencer.

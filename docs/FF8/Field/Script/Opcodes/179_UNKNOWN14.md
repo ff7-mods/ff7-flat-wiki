@@ -2,8 +2,6 @@
 title: 179_UNKNOWN14
 ---
 
-[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 179 UNKNOWN14
-
 -   Opcode: **0x179**
 -   Short name: **UNKNOWN14**
 -   Long name: Preserve Sound Channel

@@ -2,8 +2,6 @@
 title: 63_SCRLA
 ---
 
-[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 63 SCRLA
-
 -   Opcode: **0x63**
 -   Short name: **SCRLA**
 -   Long name: Scroll To Entity

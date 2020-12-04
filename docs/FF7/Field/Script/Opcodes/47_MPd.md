@@ -2,8 +2,6 @@
 title: 47_MPd
 ---
 
-[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 47 MPd
-
 -   Opcode: **0x47**
 -   Short name: **MPd**
 -   Long name: MP Down
