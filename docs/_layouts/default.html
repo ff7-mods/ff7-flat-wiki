@@ -58,10 +58,10 @@
         <div id="breadcrumbs">
             {% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
             {% assign root = '' %}
-            {% assign rootLink = '/' %}
+            {% assign rootLink = site.baseurl %}
             {% if page.url contains "github.io" %}
             {% assign root = '/ff7-flat-wiki' %}
-            {% assign rootLink = root %}
+            <!-- {% assign rootLink = root %} -->
             {% endif %}
             <a href="{{rootLink}}">Home</a>
             {% for crumb in crumbs offset: 1 %}
