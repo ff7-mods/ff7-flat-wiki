@@ -60,7 +60,6 @@
             {% assign root = '/' %}
             {% if site.url contains "github.io" %}
             {% assign root = site.baseurl %}
-            <!-- {% assign rootLink = root %} -->
             {% endif %}
             <a href="{{root}}">Home</a>
             {% for crumb in crumbs offset: 1 %}
@@ -73,12 +72,6 @@
             {% endif %}
             {% endfor %}
         </div>
-
-        <p>root - {{root}}</p>
-        <p>site.title - {{site.title}}</p>
-        <p>site.description - {{site.description}}</p>
-        <p>site.url - {{site.url}}</p>
-        <p>site.baseurl - {{site.baseurl}}</p>
 
         {{ content }}
 
