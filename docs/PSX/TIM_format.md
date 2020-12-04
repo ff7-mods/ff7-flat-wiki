@@ -14,11 +14,11 @@ A TIM file is made up of three conceptual blocks; the header, the color lookup t
 
   
 
-<center>
+
 
 ![](../assets/PSX_TIM_file_layout.png)
 
-</center>
+
 
   
   
@@ -44,22 +44,22 @@ The CLUT starts with a simple 32-bit word telling the length, in bytes, of the e
 
   
 
-<center>
+
 
 ![](../assets/PSX_TIM_file_clut.png)
 
-</center>
+
 
   
 The length of the CLUT data is always *width* ï¿½ *height* ï¿½ 2 bytes, precisely the amount of data needed to fill a rectangular area of *width* ï¿½ *height* pixels in the frame buffer. Also, the x coordinate of the CLUT needs to be an even multiple of 16, but the y coordinate can be any value between 0-511. Typically they are stored directly under the front/back buffers. Each 16-bit value is interpreted as real color frame buffer pixels, which have the following format:
 
   
 
-<center>
+
 
 ![](../assets/PSX_color_formats_16.png)
 
-</center>
+
 
   
 The red, green and blue samples behave like any RGB-defined color, but the STP (special transparency processing) bit has varying special meanings. Depending on the current transparency processing mode, it denotes if pixels of this color should be treated as transparent or not. If transparency processing is enabled, pixels of this color will be rendered transparent if the STP bit is set. A special case is black pixels (RGB 0,0,0), which **by default** are treated as transparent by the PlayStation *unless* the STP bit is set.
@@ -72,54 +72,54 @@ The image block is structurally identical to the CLUT block and is processed in 
 
   
 
-<center>
+
 
 ![](../assets/PSX_TIM_file_image.png)
 
-</center>
+
 
   
 The image data, while loaded straight into the frame buffer, is structured differently depending on the bit depth of the image. To a TIM file reader, the image data is parsed as a series of 16-bit values with varying interpretations. The most straight-forward interpretation is for 16-bit images (BPP = **10**), in which case the image data has the same format as the frame buffer pixels themselves:
 
   
 
-<center>
+
 
 ![](../assets/PSX_color_formats_16.png)
 
-</center>
+
 
   
 The PlayStation is also capable of handling data in 24-bit color (BPP = **11**), in which case the color samples are stored as 3-byte groups. In the event that an image's width is an uneven number of pixels, the last byte is left as padding; the first pixel of a new row is always stored at the corresponding first pixel of the frame buffer row. The color samples are stored in the following order:
 
   
 
-<center>
+
 
 ![](../assets/PSX_color_formats_24.png)
 
-</center>
+
 
   
 Apart from the two "real" color modes, the PlayStation frequently utilizes color indexed images via CLUTs (color lookup tables). Whenever an image with color index data is drawn to the screen, a reference to a CLUT is included and the color indices get replaced with the corresponding value in the table. For 8-bit indexed colors (BPP = **01**), the image pixels are stored two by two in each 16-bit value as follows:
 
   
 
-<center>
+
 
 ![](../assets/PSX_color_formats_8.png)
 
-</center>
+
 
   
 These images are used in conjuction with a 256-pixel CLUT. For less color-rich images, 4-bit index colors (BPP = **00**) are also available, for use with a 16-pixel CLUT. These pixels are stored four by four in each 16-bit value:
 
   
 
-<center>
+
 
 ![](../assets/PSX_color_formats_4.png)
 
-</center>
+
 
   

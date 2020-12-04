@@ -12,11 +12,11 @@ The core system is made up of six modules. They are called the kernel, field, me
 
   
 
-<center>
+
 
 ![](../assets/Engine_parts.jpg)
 
-</center>
+
 
   
 
