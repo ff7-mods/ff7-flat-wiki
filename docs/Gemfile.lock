@@ -257,6 +257,7 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   jekyll (= 3.9.0)
+  jekyll-github-metadata
 
 RUBY VERSION
    ruby 2.5.0p0

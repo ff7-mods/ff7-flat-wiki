@@ -3,3 +3,4 @@ plugins:
   - jekyll-relative-links
   - jekyll-redirect-from
   - jekyll-sitemap
+  - jekyll-github-metadata
