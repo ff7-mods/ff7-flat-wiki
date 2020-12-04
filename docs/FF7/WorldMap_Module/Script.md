@@ -2,7 +2,7 @@
 title: Script
 ---
 
-[Home](../../Main_Page.md) > [FF7](../../FF7.md) > [WorldMap Module](../WorldMap_Module.md) > Script
+[Home](../../index.md) > [FF7](../../FF7.md) > [WorldMap Module](../WorldMap_Module.md) > Script
 
 ## Script Engine
 

@@ -2,7 +2,7 @@
 title: Audio_Formats
 ---
 
-[Home](../Main_Page.md) > [FF7:CC](../FF7:CC.md) > Audio Formats
+[Home](../index.md) > [FF7:CC](../FF7:CC.md) > Audio Formats
 
 # Known FF7:CC Audio Formats
 

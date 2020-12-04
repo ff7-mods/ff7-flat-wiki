@@ -2,7 +2,7 @@
 title: 8E_MOD2
 ---
 
-[Home](../../../../Main_Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 8E MOD2
+[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 8E MOD2
 
 -   Opcode: **0x8E**
 -   Short name: **MOD2**

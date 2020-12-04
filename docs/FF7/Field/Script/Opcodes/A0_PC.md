@@ -2,7 +2,7 @@
 title: A0_PC
 ---
 
-[Home](../../../../Main_Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > A0 PC
+[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > A0 PC
 
 -   Opcode: **0xA0**
 -   Short name: **PC**

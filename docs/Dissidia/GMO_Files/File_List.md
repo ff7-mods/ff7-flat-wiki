@@ -2,7 +2,7 @@
 title: File_List
 ---
 
-[Home](../../Main_Page.md) > [Dissidia](../../Dissidia.md) > [GMO Files](../GMO_Files.md) > File List
+[Home](../../index.md) > [Dissidia](../../Dissidia.md) > [GMO Files](../GMO_Files.md) > File List
 
 # GMO File List
 

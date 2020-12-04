@@ -2,7 +2,7 @@
 title: 069_BATTLE
 ---
 
-[Home](../../../../Main_Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 069 BATTLE
+[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 069 BATTLE
 
 -   Opcode: **0x069**
 -   Short name: **BATTLE**

@@ -2,7 +2,7 @@
 title: 008_PSHI_L
 ---
 
-[Home](../../../../Main_Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 008 PSHI L
+[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 008 PSHI L
 
 -   Opcode: **0x008**
 -   Short name: **PSHI\_L**

@@ -2,7 +2,7 @@
 title: 48_ASK
 ---
 
-[Home](../../../../Main_Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 48 ASK
+[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 48 ASK
 
 -   Opcode: **0x48**
 -   Short name: **ASK**

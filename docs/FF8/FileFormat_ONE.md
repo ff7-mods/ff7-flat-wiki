@@ -2,7 +2,7 @@
 title: FileFormat_ONE
 ---
 
-[Home](../Main_Page.md) > [FF8](../FF8.md) > FileFormat ONE
+[Home](../index.md) > [FF8](../FF8.md) > FileFormat ONE
 
 By myst6re.
 

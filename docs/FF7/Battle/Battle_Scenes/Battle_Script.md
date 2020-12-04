@@ -2,7 +2,7 @@
 title: Battle_Script
 ---
 
-[Home](../../../Main_Page.md) > [FF7](../../../FF7.md) > [Battle](../../Battle.md) > [Battle Scenes](../Battle_Scenes.md) > Battle Script
+[Home](../../../index.md) > [FF7](../../../FF7.md) > [Battle](../../Battle.md) > [Battle Scenes](../Battle_Scenes.md) > Battle Script
 
 (Information on opcodes provided by Terence Fergusson. Almost all information comes from [this post](http://forums.qhimm.com/index.php?topic=3290.msg45951#msg45951) on the forums.)
 

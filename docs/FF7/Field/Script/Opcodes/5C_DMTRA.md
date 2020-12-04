@@ -2,7 +2,7 @@
 title: 5C_DMTRA
 ---
 
-[Home](../../../../Main_Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 5C DMTRA
+[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 5C DMTRA
 
 -   Opcode: **0x5C**
 -   Short name: **DMTRA**

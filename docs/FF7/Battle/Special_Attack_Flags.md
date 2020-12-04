@@ -2,7 +2,7 @@
 title: Special_Attack_Flags
 ---
 
-[Home](../../Main_Page.md) > [FF7](../../FF7.md) > [Battle](../Battle.md) > Special Attack Flags
+[Home](../../index.md) > [FF7](../../FF7.md) > [Battle](../Battle.md) > Special Attack Flags
 
 Attacks and Items can have additional Special Properties that Damage Calculation takes into account when applying damage. The storage of these bits is reversed from the standard way by having "0" if the effect is active and "1" if it is not.
 

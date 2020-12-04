@@ -2,7 +2,7 @@
 title: 23_BTRLD
 ---
 
-[Home](../../../../Main_Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 23 BTRLD
+[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 23 BTRLD
 
 -   Opcode: **0x23**
 -   Short name: **BTRLD**

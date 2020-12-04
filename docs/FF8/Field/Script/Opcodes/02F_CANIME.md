@@ -2,7 +2,7 @@
 title: 02F_CANIME
 ---
 
-[Home](../../../../Main_Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 02F CANIME
+[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 02F CANIME
 
 -   Opcode: **0x02F**
 -   Short name: **CANIME**

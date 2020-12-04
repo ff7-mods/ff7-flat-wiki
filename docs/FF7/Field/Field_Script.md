@@ -2,7 +2,7 @@
 title: Field_Script
 ---
 
-[Home](../../Main_Page.md) > [FF7](../../FF7.md) > [Field](../Field.md) > Field Script
+[Home](../../index.md) > [FF7](../../FF7.md) > [Field](../Field.md) > Field Script
 
 ### Section 1: Dialog and Event ([Halkun](User:Halkun "wikilink"), [Lasyan](User:Lasyan "wikilink"), [Qhimm](User:Qhimm "wikilink") and [Ficedula](../../User:Ficedula.md)
 

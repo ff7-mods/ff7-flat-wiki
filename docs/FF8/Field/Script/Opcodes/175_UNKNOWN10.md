@@ -2,7 +2,7 @@
 title: 175_UNKNOWN10
 ---
 
-[Home](../../../../Main_Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 175 UNKNOWN10
+[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 175 UNKNOWN10
 
 -   Opcode: **0x175**
 -   Short name: **UNKNOWN10**

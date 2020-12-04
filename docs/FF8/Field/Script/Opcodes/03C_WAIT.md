@@ -2,7 +2,7 @@
 title: 03C_WAIT
 ---
 
-[Home](../../../../Main_Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 03C WAIT
+[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 03C WAIT
 
 -   Opcode: **0x03C**
 -   Short name: **WAIT**

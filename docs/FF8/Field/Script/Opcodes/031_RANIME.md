@@ -2,7 +2,7 @@
 title: 031_RANIME
 ---
 
-[Home](../../../../Main_Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 031 RANIME
+[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 031 RANIME
 
 -   Opcode: **0x031**
 -   Short name: **RANIME**

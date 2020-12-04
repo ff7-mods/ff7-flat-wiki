@@ -2,7 +2,7 @@
 title: 74_GETPC
 ---
 
-[Home](../../../../Main_Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 74 GETPC
+[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 74 GETPC
 
 -   Opcode: **0x74**
 -   Short name: **GETPC**

@@ -2,7 +2,7 @@
 title: FileFormat_r0win
 ---
 
-[Home](../Main_Page.md) > [FF8](../FF8.md) > FileFormat r0win
+[Home](../index.md) > [FF8](../FF8.md) > FileFormat r0win
 
 By MaKiPL
 

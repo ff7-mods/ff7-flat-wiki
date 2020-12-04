@@ -2,7 +2,7 @@
 title: 5E_SHAKE
 ---
 
-[Home](../../../../Main_Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 5E SHAKE
+[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 5E SHAKE
 
 -   Opcode: **0x5E**
 -   Short name: **SHAKE**

@@ -2,7 +2,7 @@
 title: 036_RCANIMELOOP
 ---
 
-[Home](../../../../Main_Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 036 RCANIMELOOP
+[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 036 RCANIMELOOP
 
 -   Opcode: **0x036**
 -   Short name: **RCANIMELOOP**

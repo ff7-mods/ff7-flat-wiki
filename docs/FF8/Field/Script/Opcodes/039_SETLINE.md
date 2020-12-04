@@ -2,7 +2,7 @@
 title: 039_SETLINE
 ---
 
-[Home](../../../../Main_Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 039 SETLINE
+[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 039 SETLINE
 
 -   Opcode: **0x039**
 -   Short name: **SETLINE**

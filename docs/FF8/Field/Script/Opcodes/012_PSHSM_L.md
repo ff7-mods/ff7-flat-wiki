@@ -2,7 +2,7 @@
 title: 012_PSHSM_L
 ---
 
-[Home](../../../../Main_Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 012 PSHSM L
+[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 012 PSHSM L
 
 -   Opcode: **0x012**
 -   Short name: **PSHSM\_L**

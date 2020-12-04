@@ -2,7 +2,7 @@
 title: 0CA_SEPOSTRANS
 ---
 
-[Home](../../../../Main_Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 0CA SEPOSTRANS
+[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 0CA SEPOSTRANS
 
 -   Opcode: **0x0CA**
 -   Short name: **SEPOSTRANS**

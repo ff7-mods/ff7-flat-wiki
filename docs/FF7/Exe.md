@@ -2,7 +2,7 @@
 title: Exe
 ---
 
-[Home](../Main_Page.md) > [FF7](../FF7.md) > Exe
+[Home](../index.md) > [FF7](../FF7.md) > Exe
 
 ## Introduction
 

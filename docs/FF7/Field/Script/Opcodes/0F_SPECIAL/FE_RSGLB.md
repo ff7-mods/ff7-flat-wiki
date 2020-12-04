@@ -2,7 +2,7 @@
 title: FE_RSGLB
 ---
 
-[Home](../../../../../Main_Page.md) > [FF7](../../../../../FF7.md) > [Field](../../../../Field.md) > [Script](../../../Script.md) > [Opcodes](../../Opcodes.md) > [0F SPECIAL](../0F_SPECIAL.md) > FE RSGLB
+[Home](../../../../../index.md) > [FF7](../../../../../FF7.md) > [Field](../../../../Field.md) > [Script](../../../Script.md) > [Opcodes](../../Opcodes.md) > [0F SPECIAL](../0F_SPECIAL.md) > FE RSGLB
 
 -   Opcode: **0x0FFE**
 -   Short name: **SPECIAL: RSGLB**

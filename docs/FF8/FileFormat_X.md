@@ -2,7 +2,7 @@
 title: FileFormat_X
 ---
 
-[Home](../Main_Page.md) > [FF8](../FF8.md) > FileFormat X
+[Home](../index.md) > [FF8](../FF8.md) > FileFormat X
 
 By MaKiPL. Thanks for help in research for: shakotay2 (XeNTaX), Halfer, Yagami Light. Complete list of original battle stages by Kaspar01: [List of battle stages](BS_list.md)
 

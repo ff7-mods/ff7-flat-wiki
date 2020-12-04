@@ -2,7 +2,7 @@
 title: AKAO_sequence
 ---
 
-[Home](../../Main_Page.md) > [FF9](../../FF9.md) > [Sound](../Sound.md) > AKAO sequence
+[Home](../../index.md) > [FF9](../../FF9.md) > [Sound](../Sound.md) > AKAO sequence
 
 ## Introduction
 

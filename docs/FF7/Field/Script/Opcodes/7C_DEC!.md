@@ -2,7 +2,7 @@
 title: 7C_DEC!
 ---
 
-[Home](../../../../Main_Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 7C DEC!
+[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 7C DEC!
 
 -   Opcode: **0x7C**
 -   Short name: **DEC!**

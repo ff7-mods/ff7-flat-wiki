@@ -2,7 +2,7 @@
 title: 76_PLUS!
 ---
 
-[Home](../../../../Main_Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 76 PLUS!
+[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 76 PLUS!
 
 -   Opcode: **0x76**
 -   Short name: **PLUS!**

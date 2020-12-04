@@ -2,7 +2,7 @@
 title: FF7
 ---
 
-[Home](Main_Page.md) > FF7
+[Home](index.md) > FF7
 
 <small> This is a Stub article. A Wiki version of Gears should go here. For more information, select the "discussion" tab above so we can best architecture the data. For those who want to start converting, download the [Gears pdf](https://wiki.ffrtt.ru/gears.pdf) [Halkun](User:Halkun.md) </small>
 

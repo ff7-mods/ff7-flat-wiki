@@ -2,7 +2,7 @@
 title: 28_KAWAI
 ---
 
-[Home](../../../../Main_Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 28 KAWAI
+[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 28 KAWAI
 
 -   Opcode: **0x28**
 -   Short name: **KAWAI**

@@ -2,7 +2,7 @@
 title: Battle_Scenes
 ---
 
-[Home](../../Main_Page.md) > [FF7](../../FF7.md) > [Battle](../Battle.md) > Battle Scenes
+[Home](../../index.md) > [FF7](../../FF7.md) > [Battle](../Battle.md) > Battle Scenes
 
 ## Introduction
 

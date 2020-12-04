@@ -2,7 +2,7 @@
 title: 86_PLUS2
 ---
 
-[Home](../../../../Main_Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 86 PLUS2
+[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 86 PLUS2
 
 -   Opcode: **0x86**
 -   Short name: **PLUS2**

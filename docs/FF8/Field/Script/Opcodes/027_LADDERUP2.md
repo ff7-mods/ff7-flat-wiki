@@ -2,7 +2,7 @@
 title: 027_LADDERUP2
 ---
 
-[Home](../../../../Main_Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 027 LADDERUP2
+[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 027 LADDERUP2
 
 -   Opcode: **0x027**
 -   Short name: **LADDERUP2**

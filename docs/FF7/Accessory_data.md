@@ -2,7 +2,7 @@
 title: Accessory_data
 ---
 
-[Home](../Main_Page.md) > [FF7](../FF7.md) > Accessory data
+[Home](../index.md) > [FF7](../FF7.md) > Accessory data
 
 ## KERNEL.BIN - Section 8: Accessory data format
 

@@ -2,7 +2,7 @@
 title: AKAOframes
 ---
 
-[Home](../Main_Page.md) > [FF7](../FF7.md) > AKAOframes
+[Home](../index.md) > [FF7](../FF7.md) > AKAOframes
 
 # Introduction
 

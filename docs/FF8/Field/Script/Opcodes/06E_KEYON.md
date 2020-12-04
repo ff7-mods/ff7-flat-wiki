@@ -2,7 +2,7 @@
 title: 06E_KEYON
 ---
 
-[Home](../../../../Main_Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 06E KEYON
+[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 06E KEYON
 
 -   Opcode: **0x06E**
 -   Short name: **KEYON**

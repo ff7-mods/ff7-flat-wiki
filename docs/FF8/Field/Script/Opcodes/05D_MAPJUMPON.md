@@ -2,7 +2,7 @@
 title: 05D_MAPJUMPON
 ---
 
-[Home](../../../../Main_Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 05D MAPJUMPON
+[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 05D MAPJUMPON
 
 -   Opcode: **0x05D**
 -   Short name: **MAPJUMPON**

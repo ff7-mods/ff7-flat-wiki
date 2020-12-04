@@ -2,7 +2,7 @@
 title: NoMovies
 ---
 
-[Home](../../Main_Page.md) > [FF7](../../FF7.md) > [Technical](../Technical.md) > NoMovies
+[Home](../../index.md) > [FF7](../../FF7.md) > [Technical](../Technical.md) > NoMovies
 
 ### Symptoms
 

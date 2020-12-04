@@ -2,7 +2,7 @@
 title: TIM_format
 ---
 
-[Home](../Main_Page.md) > [PSX](../PSX.md) > TIM format
+[Home](../index.md) > [PSX](../PSX.md) > TIM format
 
 ## Introduction
 

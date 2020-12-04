@@ -2,7 +2,7 @@
 title: Camera_Matrix
 ---
 
-[Home](../../Main_Page.md) > [FF7](../../FF7.md) > [Field](../Field.md) > Camera Matrix
+[Home](../../index.md) > [FF7](../../FF7.md) > [Field](../Field.md) > Camera Matrix
 
 ### Section 2: Camera Matrix ([Kero](../../User:Kero.md)
 

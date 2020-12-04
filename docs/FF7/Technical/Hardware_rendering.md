@@ -2,7 +2,7 @@
 title: Hardware_rendering
 ---
 
-[Home](../../Main_Page.md) > [FF7](../../FF7.md) > [Technical](../Technical.md) > Hardware rendering
+[Home](../../index.md) > [FF7](../../FF7.md) > [Technical](../Technical.md) > Hardware rendering
 
 ### Symptoms
 

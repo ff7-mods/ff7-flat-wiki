@@ -2,7 +2,7 @@
 title: GMO_Format
 ---
 
-[Home](../Main_Page.md) > [PSP](../PSP.md) > GMO Format
+[Home](../index.md) > [PSP](../PSP.md) > GMO Format
 
 <small>Last updated: [Koral](../User:Koral.md)</small>
 

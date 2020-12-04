@@ -2,7 +2,7 @@
 title: Materia_data
 ---
 
-[Home](../Main_Page.md) > [FF7](../FF7.md) > Materia data
+[Home](../index.md) > [FF7](../FF7.md) > Materia data
 
 ## KERNEL.BIN - Section 9: Materia data format
 

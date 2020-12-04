@@ -2,7 +2,7 @@
 title: 125_ADDITEM
 ---
 
-[Home](../../../../Main_Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 125 ADDITEM
+[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 125 ADDITEM
 
 -   Opcode: **0x125**
 -   Short name: **ADDITEM**

@@ -2,7 +2,7 @@
 title: AKAO_sequence
 ---
 
-[Home](../../../Main_Page.md) > [FF7](../../../FF7.md) > [PSX](../../PSX.md) > [Sound](../Sound.md) > AKAO sequence
+[Home](../../../index.md) > [FF7](../../../FF7.md) > [PSX](../../PSX.md) > [Sound](../Sound.md) > AKAO sequence
 
 ## Introduction
 

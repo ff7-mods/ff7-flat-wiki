@@ -2,7 +2,7 @@
 title: 39_GOLDu
 ---
 
-[Home](../../../../Main_Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 39 GOLDu
+[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 39 GOLDu
 
 -   Opcode: **0x39**
 -   Short name: **GOLDu**

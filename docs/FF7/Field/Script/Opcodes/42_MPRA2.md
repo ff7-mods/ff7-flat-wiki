@@ -2,7 +2,7 @@
 title: 42_MPRA2
 ---
 
-[Home](../../../../Main_Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 42 MPRA2
+[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 42 MPRA2
 
 -   Opcode: **0x42**
 -   Short name: **MPRA2**

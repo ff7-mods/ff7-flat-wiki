@@ -2,7 +2,7 @@
 title: 127_SETODIN
 ---
 
-[Home](../../../../Main_Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 127 SETODIN
+[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 127 SETODIN
 
 -   Opcode: **0x127**
 -   Short name: **SETODIN**

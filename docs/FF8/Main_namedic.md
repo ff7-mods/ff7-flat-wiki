@@ -2,7 +2,7 @@
 title: Main_namedic
 ---
 
-[Home](../Main_Page.md) > [FF8](../FF8.md) > Main namedic
+[Home](../index.md) > [FF8](../FF8.md) > Main namedic
 
 ## Format
 

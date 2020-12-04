@@ -2,7 +2,7 @@
 title: Elemental_Data
 ---
 
-[Home](../../Main_Page.md) > [FF7](../../FF7.md) > [Battle](../Battle.md) > Elemental Data
+[Home](../../index.md) > [FF7](../../FF7.md) > [Battle](../Battle.md) > Elemental Data
 
 ## Elemental Data
 

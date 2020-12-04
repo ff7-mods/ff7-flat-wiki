@@ -2,7 +2,7 @@
 title: 010_PSHSM_B
 ---
 
-[Home](../../../../Main_Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 010 PSHSM B
+[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 010 PSHSM B
 
 -   Opcode: **0x010**
 -   Short name: **PSHSM\_B**

@@ -2,7 +2,7 @@
 title: 07_RETTO
 ---
 
-[Home](../../../../Main_Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 07 RETTO
+[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 07 RETTO
 
 -   Opcode: **0x07**
 -   Short name: **RETTO**

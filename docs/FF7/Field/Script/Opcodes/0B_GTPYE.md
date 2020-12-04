@@ -2,7 +2,7 @@
 title: 0B_GTPYE
 ---
 
-[Home](../../../../Main_Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 0B GTPYE
+[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 0B GTPYE
 
 -   Opcode: **0x0A**
 -   Short name: **GTPYE**

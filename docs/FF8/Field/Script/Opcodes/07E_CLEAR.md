@@ -2,7 +2,7 @@
 title: 07E_CLEAR
 ---
 
-[Home](../../../../Main_Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 07E CLEAR
+[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 07E CLEAR
 
 -   Opcode: **0x07E**
 -   Short name: **CLEAR**

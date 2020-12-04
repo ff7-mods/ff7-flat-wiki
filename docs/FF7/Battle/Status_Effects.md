@@ -2,7 +2,7 @@
 title: Status_Effects
 ---
 
-[Home](../../Main_Page.md) > [FF7](../../FF7.md) > [Battle](../Battle.md) > Status Effects
+[Home](../../index.md) > [FF7](../../FF7.md) > [Battle](../Battle.md) > Status Effects
 
 ## Status Effects
 

@@ -2,7 +2,7 @@
 title: Materia_Types
 ---
 
-[Home](../Main_Page.md) > [FF7](../FF7.md) > Materia Types
+[Home](../index.md) > [FF7](../FF7.md) > Materia Types
 
 ## Types
 

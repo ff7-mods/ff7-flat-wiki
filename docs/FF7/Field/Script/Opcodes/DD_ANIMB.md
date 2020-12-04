@@ -2,7 +2,7 @@
 title: DD_ANIMB
 ---
 
-[Home](../../../../Main_Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > DD ANIMB
+[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > DD ANIMB
 
 -   Opcode: **0xDD**
 -   Short name: **ANIMB**

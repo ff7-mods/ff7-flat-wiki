@@ -2,7 +2,7 @@
 title: BCX
 ---
 
-[Home](../../Main_Page.md) > [FF7](../../FF7.md) > [Field](../Field.md) > BCX
+[Home](../../index.md) > [FF7](../../FF7.md) > [Field](../Field.md) > BCX
 
 BCX files have a similar structure to [BSX files](BSX.md). However, there are a few key differences.
 

@@ -2,7 +2,7 @@
 title: Tile_Map
 ---
 
-[Home](../../../Main_Page.md) > [FF7](../../../FF7.md) > [Field Module](../../Field_Module.md) > [DAT](../DAT.md) > Tile Map
+[Home](../../../index.md) > [FF7](../../../FF7.md) > [Field Module](../../Field_Module.md) > [DAT](../DAT.md) > Tile Map
 
 ## Background Tile Map
 

@@ -2,7 +2,7 @@
 title: FileFormat_MAP
 ---
 
-[Home](../Main_Page.md) > [FF8](../FF8.md) > FileFormat MAP
+[Home](../index.md) > [FF8](../FF8.md) > FileFormat MAP
 
 By Aali.
 

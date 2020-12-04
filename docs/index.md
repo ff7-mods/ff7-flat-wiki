@@ -2,7 +2,7 @@
 title: Main_Page
 ---
 
-[Home]() > Main Page
+[Home](index.md) > Main Page
 
 <b>Welcome to QhimmWiki!</b>
 

@@ -2,7 +2,7 @@
 title: Random_crashes
 ---
 
-[Home](../../Main_Page.md) > [FF7](../../FF7.md) > [Technical](../Technical.md) > Random crashes
+[Home](../../index.md) > [FF7](../../FF7.md) > [Technical](../Technical.md) > Random crashes
 
 ### Symptoms
 

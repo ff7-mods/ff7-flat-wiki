@@ -2,7 +2,7 @@
 title: Sound
 ---
 
-[Home](../Main_Page.md) > [FF9](../FF9.md) > Sound
+[Home](../index.md) > [FF9](../FF9.md) > Sound
 
 -   [Overview](Sound/Overview.md)
 -   [AKAO sequence](Sound/AKAO_sequence.md)

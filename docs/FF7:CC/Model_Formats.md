@@ -2,7 +2,7 @@
 title: Model_Formats
 ---
 
-[Home](../Main_Page.md) > [FF7:CC](../FF7:CC.md) > Model Formats
+[Home](../index.md) > [FF7:CC](../FF7:CC.md) > Model Formats
 
 <small>[Koral](../User:Koral.md)</small>
 

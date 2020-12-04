@@ -2,7 +2,7 @@
 title: 103_SARALYON
 ---
 
-[Home](../../../../Main_Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 103 SARALYON
+[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 103 SARALYON
 
 -   Opcode: **0x067**
 -   Short name: **SARALYON**

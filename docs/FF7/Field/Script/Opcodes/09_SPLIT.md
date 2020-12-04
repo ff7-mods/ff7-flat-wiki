@@ -2,7 +2,7 @@
 title: 09_SPLIT
 ---
 
-[Home](../../../../Main_Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 09 SPLIT
+[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 09 SPLIT
 
 -   Opcode: **0x09**
 -   Short name: **SPLIT**

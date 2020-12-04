@@ -2,7 +2,7 @@
 title: Autoexec.nt
 ---
 
-[Home](../../Main_Page.md) > [FF7](../../FF7.md) > [Technical](../Technical.md) > Autoexec.nt
+[Home](../../index.md) > [FF7](../../FF7.md) > [Technical](../Technical.md) > Autoexec.nt
 
 ### Symptoms
 

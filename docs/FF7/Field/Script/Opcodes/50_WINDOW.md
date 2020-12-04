@@ -2,7 +2,7 @@
 title: 50_WINDOW
 ---
 
-[Home](../../../../Main_Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 50 WINDOW
+[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 50 WINDOW
 
 -   Opcode: **0x50**
 -   Short name: **WINDOW**

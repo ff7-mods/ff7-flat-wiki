@@ -2,7 +2,7 @@
 title: Pointers
 ---
 
-[Home](../../Main_Page.md) > [FF8](../../FF8.md) > [BattleStage](../BattleStage.md) > Pointers
+[Home](../../index.md) > [FF8](../../FF8.md) > [BattleStage](../BattleStage.md) > Pointers
 
 By MaKiPL.
 

@@ -2,7 +2,7 @@
 title: 13_JMPBL
 ---
 
-[Home](../../../../Main_Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 13 JMPBL
+[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 13 JMPBL
 
 -   Opcode: **0x13**
 -   Short name: **JMPBL**

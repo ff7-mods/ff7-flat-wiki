@@ -2,7 +2,7 @@
 title: 019_PREQEW
 ---
 
-[Home](../../../../Main_Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 019 PREQEW
+[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 019 PREQEW
 
 -   Opcode: **0x019**
 -   Short name: **PREQEW**

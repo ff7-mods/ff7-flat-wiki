@@ -2,7 +2,7 @@
 title: 3B_CHGLD
 ---
 
-[Home](../../../../Main_Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 3B CHGLD
+[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 3B CHGLD
 
 -   Opcode: **0x3B**
 -   Short name: **CHGLD**

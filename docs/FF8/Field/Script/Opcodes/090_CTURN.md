@@ -2,7 +2,7 @@
 title: 090_CTURN
 ---
 
-[Home](../../../../Main_Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 090 CTURN
+[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 090 CTURN
 
 -   Opcode: **0x090**
 -   Short name: **CTURN**

@@ -2,7 +2,7 @@
 title: Character_starting_stats
 ---
 
-[Home](../Main_Page.md) > [FF7](../FF7.md) > Character starting stats
+[Home](../index.md) > [FF7](../FF7.md) > Character starting stats
 
 ## KERNEL.BIN - Section 4: Initialization data
 

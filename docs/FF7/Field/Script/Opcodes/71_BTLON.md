@@ -2,7 +2,7 @@
 title: 71_BTLON
 ---
 
-[Home](../../../../Main_Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 71 BTLON
+[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 71 BTLON
 
 -   Opcode: **0x71**
 -   Short name: **BTLON**

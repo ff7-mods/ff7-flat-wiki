@@ -2,7 +2,7 @@
 title: Menu_mngrp_bin
 ---
 
-[Home](../Main_Page.md) > [FF8](../FF8.md) > Menu mngrp bin
+[Home](../index.md) > [FF8](../FF8.md) > Menu mngrp bin
 
 This file is an archive the contains 117 files. I created map by reading [mngrphd.bin](FF8/Menu_mngrphd_bin "wikilink") and filling in data from [FF8 - mngrp.bin by JWP](http://forums.qhimm.com/index.php?topic=17099.0).
 

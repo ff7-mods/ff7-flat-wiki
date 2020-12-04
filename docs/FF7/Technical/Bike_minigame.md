@@ -2,7 +2,7 @@
 title: Bike_minigame
 ---
 
-[Home](../../Main_Page.md) > [FF7](../../FF7.md) > [Technical](../Technical.md) > Bike minigame
+[Home](../../index.md) > [FF7](../../FF7.md) > [Technical](../Technical.md) > Bike minigame
 
 ### Symptoms
 

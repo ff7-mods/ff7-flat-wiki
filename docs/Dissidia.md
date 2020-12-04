@@ -2,7 +2,7 @@
 title: Dissidia
 ---
 
-[Home](Main_Page.md) > Dissidia
+[Home](index.md) > Dissidia
 
 <small> Last updated: [Koral](User:Koral.md) </small>
 

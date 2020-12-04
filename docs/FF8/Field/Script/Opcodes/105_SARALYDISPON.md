@@ -2,7 +2,7 @@
 title: 105_SARALYDISPON
 ---
 
-[Home](../../../../Main_Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 105 SARALYDISPON
+[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 105 SARALYDISPON
 
 -   Opcode: **0x069**
 -   Short name: **SARALYDISPON**

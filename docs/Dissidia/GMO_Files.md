@@ -2,7 +2,7 @@
 title: GMO_Files
 ---
 
-[Home](../Main_Page.md) > [Dissidia](../Dissidia.md) > GMO Files
+[Home](../index.md) > [Dissidia](../Dissidia.md) > GMO Files
 
 <small>Last updated: [Koral](../User:Koral.md)</small>
 

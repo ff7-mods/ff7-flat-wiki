@@ -2,7 +2,7 @@
 title: 06A_BATTLERESULT
 ---
 
-[Home](../../../../Main_Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 06A BATTLERESULT
+[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 06A BATTLERESULT
 
 -   Opcode: **0x06A**
 -   Short name: **BATTLERESULT**

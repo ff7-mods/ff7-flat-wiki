@@ -2,7 +2,7 @@
 title: Item_Codes
 ---
 
-[Home](../Main_Page.md) > [FF8](../FF8.md) > Item Codes
+[Home](../index.md) > [FF8](../FF8.md) > Item Codes
 
 | Index | Item Name                |
 |-------|--------------------------|

@@ -2,7 +2,7 @@
 title: D3_SLINE
 ---
 
-[Home](../../../../Main_Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > D3 SLINE
+[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > D3 SLINE
 
 -   Opcode: **0xD3**
 -   Short name: **SLINE**

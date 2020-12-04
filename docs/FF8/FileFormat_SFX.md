@@ -2,7 +2,7 @@
 title: FileFormat_SFX
 ---
 
-[Home](../Main_Page.md) > [FF8](../FF8.md) > FileFormat SFX
+[Home](../index.md) > [FF8](../FF8.md) > FileFormat SFX
 
 By myst6re.
 

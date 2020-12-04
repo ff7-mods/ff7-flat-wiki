@@ -2,7 +2,7 @@
 title: 015_REQSW
 ---
 
-[Home](../../../../Main_Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 015 REQSW
+[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 015 REQSW
 
 -   Opcode: **0x015**
 -   Short name: **REQSW**

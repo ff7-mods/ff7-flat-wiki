@@ -2,7 +2,7 @@
 title: CD_MMBud
 ---
 
-[Home](../../../../Main_Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > CD MMBud
+[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > CD MMBud
 
 -   Opcode: **0xCD**
 -   Short name: **MMBud**

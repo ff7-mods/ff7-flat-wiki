@@ -2,7 +2,7 @@
 title: 022_FOOTSTEP
 ---
 
-[Home](../../../../Main_Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 022 FOOTSTEP
+[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 022 FOOTSTEP
 
 -   Opcode: **0x022**
 -   Short name: **FOOTSTEP**

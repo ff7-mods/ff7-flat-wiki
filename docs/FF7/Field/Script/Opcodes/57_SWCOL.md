@@ -2,7 +2,7 @@
 title: 57_SWCOL
 ---
 
-[Home](../../../../Main_Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 57 SWCOL
+[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 57 SWCOL
 
 -   Opcode: **0x57**
 -   Short name: **SWCOL**

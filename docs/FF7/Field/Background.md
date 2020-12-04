@@ -2,7 +2,7 @@
 title: Background
 ---
 
-[Home](../../Main_Page.md) > [FF7](../../FF7.md) > [Field](../Field.md) > Background
+[Home](../../index.md) > [FF7](../../FF7.md) > [Field](../Field.md) > Background
 
 ### Section 9: Background ([Terence Fergusson](../../User:Terence_Fergusson.md)
 

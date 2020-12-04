@@ -2,7 +2,7 @@
 title: 159_SEALEDOFF
 ---
 
-[Home](../../../../Main_Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 159 SEALEDOFF
+[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 159 SEALEDOFF
 
 -   Opcode: **0x159**
 -   Short name: **SEALEDOFF**

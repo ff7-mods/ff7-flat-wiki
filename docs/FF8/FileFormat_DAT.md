@@ -2,7 +2,7 @@
 title: FileFormat_DAT
 ---
 
-[Home](../Main_Page.md) > [FF8](../FF8.md) > FileFormat DAT
+[Home](../index.md) > [FF8](../FF8.md) > FileFormat DAT
 
 By Mirex, JWP, random\_npc and myst6re. Edit: We now know the animation and skeleton- see <https://github.com/MaKiPL/OpenVIII/blob/4ac151daad7cd1475eb0694dd0715bc35d7a4b39/FF8/debug_battleDat.cs>
 

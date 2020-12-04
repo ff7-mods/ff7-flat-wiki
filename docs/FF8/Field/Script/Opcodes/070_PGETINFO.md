@@ -2,7 +2,7 @@
 title: 070_PGETINFO
 ---
 
-[Home](../../../../Main_Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 070 PGETINFO
+[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 070 PGETINFO
 
 -   Opcode: **0x070**
 -   Short name: **PGETINFO**

@@ -2,7 +2,7 @@
 title: C1_AXYZI
 ---
 
-[Home](../../../../Main_Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > C1 AXYZI
+[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > C1 AXYZI
 
 -   Opcode: **0xC1**
 -   Short name: **AXYZI**

@@ -2,7 +2,7 @@
 title: Technical
 ---
 
-[Home](../Main_Page.md) > [FF7](../FF7.md) > Technical
+[Home](../index.md) > [FF7](../FF7.md) > Technical
 
 When trying to play Final Fantasy VII on PC, you can encounter variety of problems. Here I'll try to describe most common problems with their solution.
 

@@ -2,7 +2,7 @@
 title: 030_CANIMEKEEP
 ---
 
-[Home](../../../../Main_Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 030 CANIMEKEEP
+[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 030 CANIMEKEEP
 
 -   Opcode: **0x030**
 -   Short name: **CANIMEKEEP**

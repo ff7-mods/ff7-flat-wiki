@@ -2,7 +2,7 @@
 title: 06D_KEYSCAN
 ---
 
-[Home](../../../../Main_Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 06D KEYSCAN
+[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 06D KEYSCAN
 
 -   Opcode: **0x06D**
 -   Short name: **KEYSCAN**

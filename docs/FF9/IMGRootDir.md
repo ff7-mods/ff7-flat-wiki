@@ -2,7 +2,7 @@
 title: IMGRootDir
 ---
 
-[Home](../Main_Page.md) > [FF9](../FF9.md) > IMGRootDir
+[Home](../index.md) > [FF9](../FF9.md) > IMGRootDir
 
 # Root Directory
 

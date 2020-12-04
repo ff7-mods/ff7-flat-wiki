@@ -2,7 +2,7 @@
 title: Magic_Codes
 ---
 
-[Home](../Main_Page.md) > [FF8](../FF8.md) > Magic Codes
+[Home](../index.md) > [FF8](../FF8.md) > Magic Codes
 
 | Index | Spell      |
 |-------|------------|

@@ -2,7 +2,7 @@
 title: 83_BITOFF
 ---
 
-[Home](../../../../Main_Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 83 BITOFF
+[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 83 BITOFF
 
 -   Opcode: **0x83**
 -   Short name: **BITOFF**

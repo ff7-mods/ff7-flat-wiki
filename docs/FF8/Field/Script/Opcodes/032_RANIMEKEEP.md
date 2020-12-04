@@ -2,7 +2,7 @@
 title: 032_RANIMEKEEP
 ---
 
-[Home](../../../../Main_Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 032 RANIMEKEEP
+[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 032 RANIMEKEEP
 
 -   Opcode: **0x032**
 -   Short name: **RANIMEKEEP**

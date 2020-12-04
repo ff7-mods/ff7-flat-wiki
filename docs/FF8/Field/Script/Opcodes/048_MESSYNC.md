@@ -2,7 +2,7 @@
 title: 048_MESSYNC
 ---
 
-[Home](../../../../Main_Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 048 MESSYNC
+[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 048 MESSYNC
 
 -   Opcode: **0x048**
 -   Short name: **MESSYNC**

@@ -2,7 +2,7 @@
 title: Menu_mngrp_complex_strings
 ---
 
-[Home](../Main_Page.md) > [FF8](../FF8.md) > Menu mngrp complex strings
+[Home](../index.md) > [FF8](../FF8.md) > Menu mngrp complex strings
 
 ## Seek Map
 

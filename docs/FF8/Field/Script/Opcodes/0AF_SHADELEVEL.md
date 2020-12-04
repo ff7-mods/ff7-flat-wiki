@@ -2,7 +2,7 @@
 title: 0AF_SHADELEVEL
 ---
 
-[Home](../../../../Main_Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 0AF SHADELEVEL
+[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 0AF SHADELEVEL
 
 \_\_NOTOC\_\_
 

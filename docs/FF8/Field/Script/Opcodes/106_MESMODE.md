@@ -2,7 +2,7 @@
 title: 106_MESMODE
 ---
 
-[Home](../../../../Main_Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 106 MESMODE
+[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 106 MESMODE
 
 -   Opcode: **0x106**
 -   Short name: **MESMODE**

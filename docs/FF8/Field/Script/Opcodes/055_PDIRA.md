@@ -2,7 +2,7 @@
 title: 055_PDIRA
 ---
 
-[Home](../../../../Main_Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 055 PDIRA
+[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 055 PDIRA
 
 -   Opcode: **0x055**
 -   Short name: **PDIRA**

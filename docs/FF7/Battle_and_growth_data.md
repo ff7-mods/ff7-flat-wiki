@@ -2,7 +2,7 @@
 title: Battle_and_growth_data
 ---
 
-[Home](../Main_Page.md) > [FF7](../FF7.md) > Battle and growth data
+[Home](../index.md) > [FF7](../FF7.md) > Battle and growth data
 
 ### Kernel.bin section 3
 

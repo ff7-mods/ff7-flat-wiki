@@ -2,7 +2,7 @@
 title: B1_CANM!1
 ---
 
-[Home](../../../../Main_Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > B1 CANM!1
+[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > B1 CANM!1
 
 -   Opcode: **0xB1**
 -   Short name: **CANM!1**

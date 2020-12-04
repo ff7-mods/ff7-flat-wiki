@@ -2,7 +2,7 @@
 title: Memory_management
 ---
 
-[Home](../../Main_Page.md) > [FF7](../../FF7.md) > [Kernel](../Kernel.md) > Memory management
+[Home](../../index.md) > [FF7](../../FF7.md) > [Kernel](../Kernel.md) > Memory management
 
 ## RAM management
 

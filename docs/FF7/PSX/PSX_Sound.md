@@ -2,7 +2,7 @@
 title: PSX_Sound
 ---
 
-[Home](../../Main_Page.md) > [FF7](../../FF7.md) > [PSX](../PSX.md) > PSX Sound
+[Home](../../index.md) > [FF7](../../FF7.md) > [PSX](../PSX.md) > PSX Sound
 
 -   [Overview](Sound/Overview.md)
 -   [INSTRx.DAT](Sound/INSTRx.DAT.md)

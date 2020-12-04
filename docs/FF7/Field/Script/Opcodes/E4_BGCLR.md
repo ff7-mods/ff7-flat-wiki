@@ -2,7 +2,7 @@
 title: E4_BGCLR
 ---
 
-[Home](../../../../Main_Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > E4 BGCLR
+[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > E4 BGCLR
 
 -   Opcode: **0xE4**
 -   Short name: **BGCLR**

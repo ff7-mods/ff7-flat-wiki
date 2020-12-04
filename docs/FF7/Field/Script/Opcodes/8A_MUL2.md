@@ -2,7 +2,7 @@
 title: 8A_MUL2
 ---
 
-[Home](../../../../Main_Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 8A MUL2
+[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 8A MUL2
 
 -   Opcode: **0x8A**
 -   Short name: **MUL2**

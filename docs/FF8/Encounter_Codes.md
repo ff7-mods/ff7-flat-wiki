@@ -2,7 +2,7 @@
 title: Encounter_Codes
 ---
 
-[Home](../Main_Page.md) > [FF8](../FF8.md) > Encounter Codes
+[Home](../index.md) > [FF8](../FF8.md) > Encounter Codes
 
 ## Usable Encounters
 

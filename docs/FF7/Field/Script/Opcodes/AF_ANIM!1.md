@@ -2,7 +2,7 @@
 title: AF_ANIM!1
 ---
 
-[Home](../../../../Main_Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > AF ANIM!1
+[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > AF ANIM!1
 
 -   Opcode: **0xAF**
 -   Short name: **ANIM!1**

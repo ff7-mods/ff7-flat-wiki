@@ -2,7 +2,7 @@
 title: Another_Mind
 ---
 
-[Home](Main_Page.md) > Another Mind
+[Home](index.md) > Another Mind
 
 (The following Was ripped off of Wikipedia because I'm lazy)
 

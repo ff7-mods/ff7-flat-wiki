@@ -2,7 +2,7 @@
 title: B2_MSPED
 ---
 
-[Home](../../../../Main_Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > B2 MSPED
+[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > B2 MSPED
 
 -   Opcode: **0xB2**
 -   Short name: **MSPED**

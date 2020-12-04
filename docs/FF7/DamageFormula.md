@@ -2,7 +2,7 @@
 title: DamageFormula
 ---
 
-[Home](../Main_Page.md) > [FF7](../FF7.md) > DamageFormula
+[Home](../index.md) > [FF7](../FF7.md) > DamageFormula
 
 ## Accuracy Function considerations
 

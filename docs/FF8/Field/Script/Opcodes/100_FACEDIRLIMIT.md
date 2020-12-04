@@ -2,7 +2,7 @@
 title: 100_FACEDIRLIMIT
 ---
 
-[Home](../../../../Main_Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 100 FACEDIRLIMIT
+[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 100 FACEDIRLIMIT
 
 -   Opcode: **0x100**
 -   Short name: **FACEDIRLIMIT**

@@ -2,7 +2,7 @@
 title: 045_ANIMESTOP
 ---
 
-[Home](../../../../Main_Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 045 ANIMESTOP
+[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 045 ANIMESTOP
 
 -   Opcode: **0x045**
 -   Short name: **ANIMESTOP**

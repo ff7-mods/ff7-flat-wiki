@@ -2,7 +2,7 @@
 title: 017_PREQ
 ---
 
-[Home](../../../../Main_Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 017 PREQ
+[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 017 PREQ
 
 -   Opcode: **0x017**
 -   Short name: **PREQ**

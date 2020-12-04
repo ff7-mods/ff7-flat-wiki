@@ -2,7 +2,7 @@
 title: 43_MPNAM
 ---
 
-[Home](../../../../Main_Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 43 MPNAM
+[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 43 MPNAM
 
 -   Opcode: **0x43**
 -   Short name: **MPNAM**

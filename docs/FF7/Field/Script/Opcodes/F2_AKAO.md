@@ -2,7 +2,7 @@
 title: F2_AKAO
 ---
 
-[Home](../../../../Main_Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > F2 AKAO
+[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > F2 AKAO
 
 -   Opcode: **0xF2**
 -   Short name: **AKAO**

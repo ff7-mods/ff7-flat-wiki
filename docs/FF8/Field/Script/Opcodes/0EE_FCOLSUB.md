@@ -2,7 +2,7 @@
 title: 0EE_FCOLSUB
 ---
 
-[Home](../../../../Main_Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 0EE FCOLSUB
+[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 0EE FCOLSUB
 
 \_\_NOTOC\_\_
 

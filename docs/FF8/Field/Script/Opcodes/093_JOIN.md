@@ -2,7 +2,7 @@
 title: 093_JOIN
 ---
 
-[Home](../../../../Main_Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 093 JOIN
+[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 093 JOIN
 
 -   Opcode: **0x093**
 -   Short name: **JOIN**

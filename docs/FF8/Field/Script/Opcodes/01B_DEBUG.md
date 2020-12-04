@@ -2,7 +2,7 @@
 title: 01B_DEBUG
 ---
 
-[Home](../../../../Main_Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 01B DEBUG
+[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 01B DEBUG
 
 -   Opcode: **0x01B**
 -   Short name: **DEBUG**

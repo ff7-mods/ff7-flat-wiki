@@ -2,7 +2,7 @@
 title: A9_CMOVE
 ---
 
-[Home](../../../../Main_Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > A9 CMOVE
+[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > A9 CMOVE
 
 -   Opcode: **0xA9**
 -   Short name: **CMOVE**

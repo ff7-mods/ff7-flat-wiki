@@ -2,7 +2,7 @@
 title: 9C_2BYTE
 ---
 
-[Home](../../../../Main_Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 9C 2BYTE
+[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 9C 2BYTE
 
 -   Opcode: **0x9C**
 -   Short name: **2BYTE**

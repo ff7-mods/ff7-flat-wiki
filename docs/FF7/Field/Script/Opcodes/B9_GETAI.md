@@ -2,7 +2,7 @@
 title: B9_GETAI
 ---
 
-[Home](../../../../Main_Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > B9 GETAI
+[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > B9 GETAI
 
 -   Opcode: **0xB9**
 -   Short name: **GETAI**

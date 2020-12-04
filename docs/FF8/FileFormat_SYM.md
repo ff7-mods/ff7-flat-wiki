@@ -2,7 +2,7 @@
 title: FileFormat_SYM
 ---
 
-[Home](../Main_Page.md) > [FF8](../FF8.md) > FileFormat SYM
+[Home](../index.md) > [FF8](../FF8.md) > FileFormat SYM
 
 By myst6re.
 

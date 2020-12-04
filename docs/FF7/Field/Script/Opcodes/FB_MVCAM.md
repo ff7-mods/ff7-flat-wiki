@@ -2,7 +2,7 @@
 title: FB_MVCAM
 ---
 
-[Home](../../../../Main_Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > FB MVCAM
+[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > FB MVCAM
 
 -   Opcode: **0xFB**
 -   Short name: **MVCAM**

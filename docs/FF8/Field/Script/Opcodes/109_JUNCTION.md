@@ -2,7 +2,7 @@
 title: 109_JUNCTION
 ---
 
-[Home](../../../../Main_Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 109 JUNCTION
+[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 109 JUNCTION
 
 -   Opcode: **0x0109**
 -   Short name: **JUNCTION**

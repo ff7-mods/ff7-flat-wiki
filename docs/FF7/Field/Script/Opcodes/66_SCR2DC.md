@@ -2,7 +2,7 @@
 title: 66_SCR2DC
 ---
 
-[Home](../../../../Main_Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 66 SCR2DC
+[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 66 SCR2DC
 
 -   Opcode: **0x66**
 -   Short name: **SCR2DC**

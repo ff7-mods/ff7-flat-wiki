@@ -2,7 +2,7 @@
 title: 6E_LSTMP
 ---
 
-[Home](../../../../Main_Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 6E LSTMP
+[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 6E LSTMP
 
 -   Opcode: **0x6E**
 -   Short name: **LSTMP**

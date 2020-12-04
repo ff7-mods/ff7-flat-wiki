@@ -2,7 +2,7 @@
 title: WorldMap_charaone
 ---
 
-[Home](../Main_Page.md) > [FF8](../FF8.md) > WorldMap charaone
+[Home](../index.md) > [FF8](../FF8.md) > WorldMap charaone
 
 by Maki file is different than field [\[ONE](FileFormat_ONE.md) and then again with argument 0x12 having pointer to data as in Wiki in EAX. It's like:
 

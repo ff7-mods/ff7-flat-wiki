@@ -2,7 +2,7 @@
 title: Battle_Animation_(PC)
 ---
 
-[Home](../../Main_Page.md) > [FF7](../../FF7.md) > [Battle](../Battle.md) > Battle Animation (PC)
+[Home](../../index.md) > [FF7](../../FF7.md) > [Battle](../Battle.md) > Battle Animation (PC)
 
 ## Battle Animation File Format
 

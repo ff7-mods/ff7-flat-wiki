@@ -2,7 +2,7 @@
 title: Impact_Effect_Id_List
 ---
 
-[Home](../../Main_Page.md) > [FF7](../../FF7.md) > [Battle](../Battle.md) > Impact Effect Id List
+[Home](../../index.md) > [FF7](../../FF7.md) > [Battle](../Battle.md) > Impact Effect Id List
 
 | Id  | List Of Attacks            | Description           |
 |-----|----------------------------|-----------------------|

@@ -2,7 +2,7 @@
 title: BSZ
 ---
 
-[Home](../../Main_Page.md) > [FF7](../../FF7.md) > [World Map](../World_Map.md) > BSZ
+[Home](../../index.md) > [FF7](../../FF7.md) > [World Map](../World_Map.md) > BSZ
 
 \[Lazy Bastard\]: Using a hex editor, I've mapped out a BSZ file, namely WM0.BSZ - Cloud's world map model. Incidentally, WM1.BSZ is Tifa's world map model, WM2.BSZ is Cid's, and WM3.BSZ seems to be every other world map model, similar to a BSX in fields (though I haven't confirmed this yet).
 

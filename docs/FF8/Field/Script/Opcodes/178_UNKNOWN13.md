@@ -2,7 +2,7 @@
 title: 178_UNKNOWN13
 ---
 
-[Home](../../../../Main_Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 178 UNKNOWN13
+[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 178 UNKNOWN13
 
 -   Opcode: **0x178**
 -   Short name: **UNKNOWN13**

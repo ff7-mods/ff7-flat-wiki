@@ -2,7 +2,7 @@
 title: Variables
 ---
 
-[Home](../Main_Page.md) > [FF8](../FF8.md) > Variables
+[Home](../index.md) > [FF8](../FF8.md) > Variables
 
 By [Shard](../User:Shard.md).
 

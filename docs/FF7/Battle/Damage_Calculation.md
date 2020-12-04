@@ -2,7 +2,7 @@
 title: Damage_Calculation
 ---
 
-[Home](../../Main_Page.md) > [FF7](../../FF7.md) > [Battle](../Battle.md) > Damage Calculation
+[Home](../../index.md) > [FF7](../../FF7.md) > [Battle](../Battle.md) > Damage Calculation
 
 In Attacks, Items, and Weapons there exists a single byte that tells the Battle Engine how to calculate damage based on an attack's set Power and the characters stats. Physical and Magical will rely on the caster's "Attack" and "Magic Attack" stat respectively to calculate base damage. This byte is divided into two nybbles (four bits). Upper Nybble determines what considerations are made in calculating damage such as physical/magical, allowing criticals, how to calculate accuracy, etc. There are also three sets of known formulae that are paired with the Upper nybble values. These are selected in the Lower Nybble and determine how to calculate pre-defense damage. Actual calculation includes a random variance (\[3841..4096\] / 4096), a reduction based on a target's "Defense" or "Magic Defense" stats, and other status-related modifications depending on the type of damage. These will also trigger Physical and Magical Counter Attacks respectively. For more details, these can be considered Base Damage Modifiers as described in Terence Fergusson's [Battle Mechanics FAQ](http://www.gamefaqs.com/console/psx/file/197341/22395). *This [more accurate damage formula page](https://wiki.ffrtt.ru/index.php/DamageFormula) contains more detailed information.*
 

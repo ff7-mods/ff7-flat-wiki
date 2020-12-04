@@ -2,7 +2,7 @@
 title: BC_CANM!2
 ---
 
-[Home](../../../../Main_Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > BC CANM!2
+[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > BC CANM!2
 
 -   Opcode: **0xBC**
 -   Short name: **CANM!2**

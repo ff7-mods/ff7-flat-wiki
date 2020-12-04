@@ -2,7 +2,7 @@
 title: 14_IFUB
 ---
 
-[Home](../../../../Main_Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 14 IFUB
+[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 14 IFUB
 
 -   Opcode: **0x14**
 -   Short name: **IFUB**

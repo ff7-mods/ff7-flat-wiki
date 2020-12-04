@@ -2,7 +2,7 @@
 title: 084_CTURNR
 ---
 
-[Home](../../../../Main_Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 084 CTURNR
+[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 084 CTURNR
 
 -   Opcode: **0x084**
 -   Short name: **CTURNR**

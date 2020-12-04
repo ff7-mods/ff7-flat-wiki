@@ -2,7 +2,7 @@
 title: Triggers
 ---
 
-[Home](../../Main_Page.md) > [FF7](../../FF7.md) > [Field](../Field.md) > Triggers
+[Home](../../index.md) > [FF7](../../FF7.md) > [Field](../Field.md) > Triggers
 
 # Triggers/Gateways
 

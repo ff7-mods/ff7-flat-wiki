@@ -2,7 +2,7 @@
 title: Battle_AI_Addresses
 ---
 
-[Home](../../../Main_Page.md) > [FF7](../../../FF7.md) > [Battle](../../Battle.md) > [Battle Scenes](../Battle_Scenes.md) > Battle AI Addresses
+[Home](../../../index.md) > [FF7](../../../FF7.md) > [Battle](../../Battle.md) > [Battle Scenes](../Battle_Scenes.md) > Battle AI Addresses
 
 *In this page, an "actor" is defined as an entity instance in a battle (scene). The "current actor" is an actor that is executing a script or performing an action. An "active actor" is one that can perform actions. An "action" is defined as an event with a visual representation in battle (eg. an attack or a position change).*
 

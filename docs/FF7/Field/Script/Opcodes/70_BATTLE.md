@@ -2,7 +2,7 @@
 title: 70_BATTLE
 ---
 
-[Home](../../../../Main_Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 70 BATTLE
+[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 70 BATTLE
 
 -   Opcode: **0x70**
 -   Short name: **BATTLE**

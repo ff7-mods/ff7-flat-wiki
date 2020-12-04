@@ -2,7 +2,7 @@
 title: Opcodes
 ---
 
-[Home](../../../Main_Page.md) > [FF7](../../../FF7.md) > [WorldMap Module](../../WorldMap_Module.md) > [Script](../Script.md) > Opcodes
+[Home](../../../index.md) > [FF7](../../../FF7.md) > [WorldMap Module](../../WorldMap_Module.md) > [Script](../Script.md) > Opcodes
 
 ## Stack Operations: Arithmetic
 

@@ -2,7 +2,7 @@
 title: PlaystationMedia
 ---
 
-[Home](../Main_Page.md) > [FF8](../FF8.md) > PlaystationMedia
+[Home](../index.md) > [FF8](../FF8.md) > PlaystationMedia
 
 By myst6re
 

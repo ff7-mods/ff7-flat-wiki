@@ -2,7 +2,7 @@
 title: Palette
 ---
 
-[Home](../../Main_Page.md) > [FF7](../../FF7.md) > [Field](../Field.md) > Palette
+[Home](../../index.md) > [FF7](../../FF7.md) > [Field](../Field.md) > Palette
 
 ### Section 4: Palette ([Terence Fergusson](User:Terence_Fergusson "wikilink") & [myst6re](../../User:Myst6re.md)
 

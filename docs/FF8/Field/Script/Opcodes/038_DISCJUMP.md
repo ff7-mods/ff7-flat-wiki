@@ -2,7 +2,7 @@
 title: 038_DISCJUMP
 ---
 
-[Home](../../../../Main_Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 038 DISCJUMP
+[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 038 DISCJUMP
 
 -   Opcode: **0x038**
 -   Short name: **DISCJUMP**

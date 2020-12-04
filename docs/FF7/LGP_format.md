@@ -2,7 +2,7 @@
 title: LGP_format
 ---
 
-[Home](../Main_Page.md) > [FF7](../FF7.md) > LGP format
+[Home](../index.md) > [FF7](../FF7.md) > LGP format
 
 ### LGP Archive format for PC by [Ficedula](../User:Ficedula.md)
 

@@ -2,7 +2,7 @@
 title: 182_UNKNOWN17
 ---
 
-[Home](../../../../Main_Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 182 UNKNOWN17
+[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 182 UNKNOWN17
 
 -   Opcode: **0x182**
 -   Short name: **UNKNOWN17**

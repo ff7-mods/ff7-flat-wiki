@@ -2,7 +2,7 @@
 title: FD_SPCNM
 ---
 
-[Home](../../../../../Main_Page.md) > [FF7](../../../../../FF7.md) > [Field](../../../../Field.md) > [Script](../../../Script.md) > [Opcodes](../../Opcodes.md) > [0F SPECIAL](../0F_SPECIAL.md) > FD SPCNM
+[Home](../../../../../index.md) > [FF7](../../../../../FF7.md) > [Field](../../../../Field.md) > [Script](../../../Script.md) > [Opcodes](../../Opcodes.md) > [0F SPECIAL](../0F_SPECIAL.md) > FD SPCNM
 
 -   Opcode: **0x0FFD**
 -   Short name: **SPECIAL: SPCNM**

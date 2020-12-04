@@ -2,7 +2,7 @@
 title: Kernel
 ---
 
-[Home](../Main_Page.md) > [FF7](../FF7.md) > Kernel
+[Home](../index.md) > [FF7](../FF7.md) > Kernel
 
 -   [Kernel Overview](Kernel/Overview.md)
 -   [Memory Management](Kernel/Memory_management.md)

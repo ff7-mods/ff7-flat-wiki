@@ -2,7 +2,7 @@
 title: 116_RAMESW
 ---
 
-[Home](../../../../Main_Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 116 RAMESW
+[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 116 RAMESW
 
 -   Opcode: **0x116**
 -   Short name: **RAMESW**

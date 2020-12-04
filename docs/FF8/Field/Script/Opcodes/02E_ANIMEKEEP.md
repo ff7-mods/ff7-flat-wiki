@@ -2,7 +2,7 @@
 title: 02E_ANIMEKEEP
 ---
 
-[Home](../../../../Main_Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 02E ANIMEKEEP
+[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 02E ANIMEKEEP
 
 -   Opcode: **0x02E**
 -   Short name: **ANIMEKEEP**

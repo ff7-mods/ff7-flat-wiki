@@ -2,7 +2,7 @@
 title: 137_DRAWPOINT
 ---
 
-[Home](../../../../Main_Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 137 DRAWPOINT
+[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 137 DRAWPOINT
 
 -   Opcode: **0x137**
 -   Short name: **DRAWPOINT**

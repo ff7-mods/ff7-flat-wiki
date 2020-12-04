@@ -2,7 +2,7 @@
 title: 75_PXYZI
 ---
 
-[Home](../../../../Main_Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 75 PXYZI
+[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 75 PXYZI
 
 -   Opcode: **0x75**
 -   Short name: **PXYZI**

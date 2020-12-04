@@ -2,7 +2,7 @@
 title: WorldMap_texl
 ---
 
-[Home](../Main_Page.md) > [FF8](../FF8.md) > WorldMap texl
+[Home](../index.md) > [FF8](../FF8.md) > WorldMap texl
 
 Contains 20 [.TIM](../PSX/TIM_file.md). Part between next 0x12800 and previous texture end is just filled with 0.
 

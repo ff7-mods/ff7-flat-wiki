@@ -2,7 +2,7 @@
 title: 34_PDIRA
 ---
 
-[Home](../../../../Main_Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 34 PDIRA
+[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 34 PDIRA
 
 -   Opcode: **0x34**
 -   Short name: **PDIRA**

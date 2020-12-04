@@ -2,7 +2,7 @@
 title: GameSaveFormat
 ---
 
-[Home](../Main_Page.md) > [FF8](../FF8.md) > GameSaveFormat
+[Home](../index.md) > [FF8](../FF8.md) > GameSaveFormat
 
 By myst6re.
 

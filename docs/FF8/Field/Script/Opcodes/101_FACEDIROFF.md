@@ -2,7 +2,7 @@
 title: 101_FACEDIROFF
 ---
 
-[Home](../../../../Main_Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 101 FACEDIROFF
+[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 101 FACEDIROFF
 
 -   Opcode: **0x101**
 -   Short name: **FACEDIROFF**

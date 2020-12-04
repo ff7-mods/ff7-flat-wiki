@@ -2,7 +2,7 @@
 title: E1_BGOFF
 ---
 
-[Home](../../../../Main_Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > E1 BGOFF
+[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > E1 BGOFF
 
 -   Opcode: **0xE1**
 -   Short name: **BGOFF**

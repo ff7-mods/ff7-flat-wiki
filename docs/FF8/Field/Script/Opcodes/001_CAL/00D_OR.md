@@ -2,7 +2,7 @@
 title: 00D_OR
 ---
 
-[Home](../../../../../Main_Page.md) > [FF8](../../../../../FF8.md) > [Field](../../../../Field.md) > [Script](../../../Script.md) > [Opcodes](../../Opcodes.md) > [001 CAL](../001_CAL.md) > 00D OR
+[Home](../../../../../index.md) > [FF8](../../../../../FF8.md) > [Field](../../../../Field.md) > [Script](../../../Script.md) > [Opcodes](../../Opcodes.md) > [001 CAL](../001_CAL.md) > 00D OR
 
 -   CAL Opcode: **0x00D OR**
 

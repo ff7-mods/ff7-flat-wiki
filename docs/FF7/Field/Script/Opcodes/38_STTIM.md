@@ -2,7 +2,7 @@
 title: 38_STTIM
 ---
 
-[Home](../../../../Main_Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 38 STTIM
+[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 38 STTIM
 
 -   Opcode: **0x38**
 -   Short name: **STTIM**

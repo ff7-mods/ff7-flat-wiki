@@ -2,7 +2,7 @@
 title: 148_MOVEFLUSH
 ---
 
-[Home](../../../../Main_Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 148 MOVEFLUSH
+[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 148 MOVEFLUSH
 
 -   Opcode: **0x148**
 -   Short name: **MOVEFLUSH**

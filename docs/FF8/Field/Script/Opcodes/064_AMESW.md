@@ -2,7 +2,7 @@
 title: 064_AMESW
 ---
 
-[Home](../../../../Main_Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 064 AMESW
+[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 064 AMESW
 
 -   Opcode: **0x064**
 -   Short name: **AMESW**

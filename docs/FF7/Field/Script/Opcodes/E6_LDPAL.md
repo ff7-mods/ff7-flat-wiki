@@ -2,7 +2,7 @@
 title: E6_LDPAL
 ---
 
-[Home](../../../../Main_Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > E6 LDPAL
+[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > E6 LDPAL
 
 -   Opcode: **0xE6**
 -   Short name: **LDPAL**

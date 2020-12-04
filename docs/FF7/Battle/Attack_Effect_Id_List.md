@@ -2,7 +2,7 @@
 title: Attack_Effect_Id_List
 ---
 
-[Home](../../Main_Page.md) > [FF7](../../FF7.md) > [Battle](../Battle.md) > Attack Effect Id List
+[Home](../../index.md) > [FF7](../../FF7.md) > [Battle](../Battle.md) > Attack Effect Id List
 
 ## Magic Effects
 

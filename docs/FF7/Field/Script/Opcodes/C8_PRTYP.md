@@ -2,7 +2,7 @@
 title: C8_PRTYP
 ---
 
-[Home](../../../../Main_Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > C8 PRTYP
+[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > C8 PRTYP
 
 -   Opcode: **0xC8**
 -   Short name: **PRTYP**

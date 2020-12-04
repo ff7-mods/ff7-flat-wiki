@@ -2,7 +2,7 @@
 title: 9A_LBYTE
 ---
 
-[Home](../../../../Main_Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 9A LBYTE
+[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 9A LBYTE
 
 -   Opcode: **0x9A**
 -   Short name: **LBYTE**

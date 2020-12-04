@@ -2,7 +2,7 @@
 title: 059_PUSHON
 ---
 
-[Home](../../../../Main_Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 059 PUSHON
+[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 059 PUSHON
 
 -   Opcode: **0x059**
 -   Short name: **PUSHON**

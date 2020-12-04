@@ -2,7 +2,7 @@
 title: 00B_POPM_B
 ---
 
-[Home](../../../../Main_Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 00B POPM B
+[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 00B POPM B
 
 -   Opcode: **0x00B**
 -   Short name: **POPM\_B**

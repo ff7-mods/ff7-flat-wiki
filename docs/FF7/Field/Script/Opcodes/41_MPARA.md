@@ -2,7 +2,7 @@
 title: 41_MPARA
 ---
 
-[Home](../../../../Main_Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 41 MPARA
+[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 41 MPARA
 
 -   Opcode: **0x41**
 -   Short name: **MPARA**

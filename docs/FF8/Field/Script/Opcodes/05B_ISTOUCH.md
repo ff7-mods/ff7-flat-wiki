@@ -2,7 +2,7 @@
 title: 05B_ISTOUCH
 ---
 
-[Home](../../../../Main_Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 05B ISTOUCH
+[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 05B ISTOUCH
 
 -   Opcode: **0x05B**
 -   Short name: **ISTOUCH**

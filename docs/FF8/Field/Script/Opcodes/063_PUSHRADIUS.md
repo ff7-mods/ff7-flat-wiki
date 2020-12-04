@@ -2,7 +2,7 @@
 title: 063_PUSHRADIUS
 ---
 
-[Home](../../../../Main_Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 063 PUSHRADIUS
+[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 063 PUSHRADIUS
 
 -   Opcode: **0x063**
 -   Short name: **PUSHRADIUS**

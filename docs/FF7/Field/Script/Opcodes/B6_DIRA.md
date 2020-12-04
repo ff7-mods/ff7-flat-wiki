@@ -2,7 +2,7 @@
 title: B6_DIRA
 ---
 
-[Home](../../../../Main_Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > B6 DIRA
+[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > B6 DIRA
 
 -   Opcode: **0xB6**
 -   Short name: **DIRA**

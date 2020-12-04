@@ -2,7 +2,7 @@
 title: Graphic_problems
 ---
 
-[Home](../../Main_Page.md) > [FF7](../../FF7.md) > [Technical](../Technical.md) > Graphic problems
+[Home](../../index.md) > [FF7](../../FF7.md) > [Technical](../Technical.md) > Graphic problems
 
 ### Symptoms
 

@@ -2,7 +2,7 @@
 title: String_Encoding
 ---
 
-[Home](../Main_Page.md) > [FF8](../FF8.md) > String Encoding
+[Home](../index.md) > [FF8](../FF8.md) > String Encoding
 
 # String Encoding
 

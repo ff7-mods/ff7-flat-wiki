@@ -2,7 +2,7 @@
 title: 11B_MENUPHS
 ---
 
-[Home](../../../../Main_Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 11B MENUPHS
+[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 11B MENUPHS
 
 -   Opcode: **0x11B**
 -   Short name: **MENUPHS**

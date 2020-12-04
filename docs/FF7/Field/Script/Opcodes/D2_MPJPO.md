@@ -2,7 +2,7 @@
 title: D2_MPJPO
 ---
 
-[Home](../../../../Main_Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > D2 MPJPO
+[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > D2 MPJPO
 
 -   Opcode: **0xD2**
 -   Short name: **MPJPO**

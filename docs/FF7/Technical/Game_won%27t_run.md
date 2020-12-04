@@ -2,7 +2,7 @@
 title: Game_won%27t_run
 ---
 
-[Home](../../Main_Page.md) > [FF7](../../FF7.md) > [Technical](../Technical.md) > Game won%27t run
+[Home](../../index.md) > [FF7](../../FF7.md) > [Technical](../Technical.md) > Game won%27t run
 
 ### Symptoms
 

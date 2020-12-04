@@ -2,7 +2,7 @@
 title: 087_SUBPARTY
 ---
 
-[Home](../../../../Main_Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 087 SUBPARTY
+[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 087 SUBPARTY
 
 -   Opcode: **0x087**
 -   Short name: **SUBPARTY**

@@ -2,7 +2,7 @@
 title: Menu_areames_dc1
 ---
 
-[Home](../Main_Page.md) > [FF8](../FF8.md) > Menu areames dc1
+[Home](../index.md) > [FF8](../FF8.md) > Menu areames dc1
 
 ## Format
 

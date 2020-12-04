@@ -2,7 +2,7 @@
 title: IndexFileFormat
 ---
 
-[Home](../Main_Page.md) > [Xeno](../Xeno.md) > IndexFileFormat
+[Home](../index.md) > [Xeno](../Xeno.md) > IndexFileFormat
 
 The original file structure was deleted from the disk, exept two start files: SLUS\_xxx.xx and SYSTEM.CNF, but after game starts file structure restores and game works whith it.
 

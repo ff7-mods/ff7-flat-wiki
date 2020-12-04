@@ -2,7 +2,7 @@
 title: F1_SOUND
 ---
 
-[Home](../../../../Main_Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > F1 SOUND
+[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > F1 SOUND
 
 -   Opcode: **0xF1**
 -   Short name: **SOUND**

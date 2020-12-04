@@ -2,7 +2,7 @@
 title: 78_MINUS!
 ---
 
-[Home](../../../../Main_Page.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 78 MINUS!
+[Home](../../../../index.md) > [FF7](../../../../FF7.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 78 MINUS!
 
 -   Opcode: **0x78**
 -   Short name: **MINUS!**

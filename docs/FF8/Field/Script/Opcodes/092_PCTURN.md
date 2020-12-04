@@ -2,7 +2,7 @@
 title: 092_PCTURN
 ---
 
-[Home](../../../../Main_Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 092 PCTURN
+[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 092 PCTURN
 
 -   Opcode: **0x092**
 -   Short name: **PCTURN**

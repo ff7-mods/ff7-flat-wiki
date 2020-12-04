@@ -2,7 +2,7 @@
 title: LZSS_format
 ---
 
-[Home](../Main_Page.md) > [FF7](../FF7.md) > LZSS format
+[Home](../index.md) > [FF7](../FF7.md) > LZSS format
 
 #### Format
 

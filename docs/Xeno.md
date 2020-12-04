@@ -2,7 +2,7 @@
 title: Xeno
 ---
 
-[Home](Main_Page.md) > Xeno
+[Home](index.md) > Xeno
 
 ## Contents
 

@@ -2,7 +2,7 @@
 title: 0BC_EFFECTPLAY
 ---
 
-[Home](../../../../Main_Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 0BC EFFECTPLAY
+[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 0BC EFFECTPLAY
 
 -   Opcode: **0x0BC**
 -   Short name: **EFFECTPLAY**

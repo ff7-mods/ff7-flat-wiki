@@ -2,7 +2,7 @@
 title: 02A_MAPJUMP3
 ---
 
-[Home](../../../../Main_Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 02A MAPJUMP3
+[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 02A MAPJUMP3
 
 -   Opcode: **0x02A**
 -   Short name: **MAPJUMP3**

@@ -2,7 +2,7 @@
 title: 166_UNKNOWN1
 ---
 
-[Home](../../../../Main_Page.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 166 UNKNOWN1
+[Home](../../../../index.md) > [FF8](../../../../FF8.md) > [Field](../../../Field.md) > [Script](../../Script.md) > [Opcodes](../Opcodes.md) > 166 UNKNOWN1
 
 -   Opcode: **0x166**
 -   Short name: **UNKNOWN1**

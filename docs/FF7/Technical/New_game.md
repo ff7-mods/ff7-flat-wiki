@@ -2,7 +2,7 @@
 title: New_game
 ---
 
-[Home](../../Main_Page.md) > [FF7](../../FF7.md) > [Technical](../Technical.md) > New game
+[Home](../../index.md) > [FF7](../../FF7.md) > [Technical](../Technical.md) > New game
 
 ### Symptoms
 
