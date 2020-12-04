@@ -57,13 +57,20 @@
     <main id="content" class="main-content" role="main">
         <div id="breadcrumbs">
             {% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
-            <a href="/ff7-flat-wiki">Home</a>
+            {% assign root = '' %}
+            {% assign rootLink = '/' %}
+            {% if page.url contains "github.io" %}
+            {% assign root = '/ff7-flat-wiki' %}
+            {% assign rootLink = root %}
+            {% endif %}
+            <a href="{{rootLink}}">Home</a>
             {% for crumb in crumbs offset: 1 %}
             {% if forloop.last %}
             / {{ page.title | replace:'-',' ' | replace:'_',' ' | capitalize }}
             {% else %}
+            {% assign crumb_limit = forloop.index | plus: 1 %}
             / <a
-                href="{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' | replace:'without-plugin/','without-plugins/' }}{% endfor %}">{{ crumb | replace:'-',' ' | replace:'_',' ' | remove:'.html' | capitalize }}</a>
+                href="{{root}}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' | replace:'without-plugin/','without-plugins/' }}{% endfor %}">{{ crumb | replace:'-',' ' | replace:'_',' ' | replace:'ff7-flat-wiki','Home' | remove:'.html' | capitalize }}</a>
             {% endif %}
             {% endfor %}
         </div>
