@@ -67,8 +67,15 @@
             / {{ page.title | replace:'-',' ' | replace:'_',' ' | capitalize }}
             {% else %}
             {% assign crumb_limit = forloop.index | plus: 1 %}
+            {% assign crumblink = '' %}
+            {% for crumb in crumbs limit: crumb_limit %}
+            {% assign crumblinksection = crumb | append: '/' | replace:'without-plugin/','without-plugins/' %}
+            {% assign crumblink = crumblink | append: crumblinksection %}
+            {% endfor %}
+            {% assign crumblink = site.baseurl | append: crumblink %}
+            {% assign crumblinksize = crumblink | size | minus: 1 %}
             / <a
-                href="{{site.baseurl}}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' | replace:'without-plugin/','without-plugins/' }}{% endfor %}">{{ crumb | replace:'-',' ' | replace:'_',' ' | replace:'ff7-flat-wiki','Home' | remove:'.html' | capitalize }}</a>
+                href="{{crumblink | slice: 0, crumblinksize }}">{{ crumb | replace:'-',' ' | replace:'_',' ' | replace:'ff7-flat-wiki','Home' | remove:'.html' | capitalize }}</a>
             {% endif %}
             {% endfor %}
         </div>
