@@ -45,10 +45,13 @@
         <h2 class="project-tagline">Final Fantasy Inside Wiki</h2>
         <!-- <h2 class="project-tagline">
             {{ page.description | default: site.description | default: site.github.project_tagline }}</h2> -->
-        <!-- {% if site.github.is_project_page %}
-        <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
+        {% if site.github.is_project_page %}
+        <!-- https://github.com/dangarfield/ff7-flat-wiki/blob/master/docs/index.md -->
+        <a href="{{site.github.repository_url}}/edit/master/docs/{{page.path}}" class="btn" target="_blank">
+            Edit page on GitHub
+        </a>
         {% endif %}
-        {% if site.show_downloads %}
+        <!-- {% if site.show_downloads %}
         <a href="{{ site.github.zip_url }}" class="btn">Download .zip</a>
         <a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>
         {% endif %} -->
