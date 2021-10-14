@@ -1,7 +1,7 @@
 # FF7 Flat Wiki
 > Static mirror of [FF Inside Wiki](https://wiki.ffrtt.ru) in [Markdown](https://www.markdownguide.org/basic-syntax/) format
 
-Markdown files automatically build into [dangarfield.github.io/ff7-flat-wiki](https://ff7-mods.github.io/ff7-flat-wiki).
+Markdown files automatically build into [ff7-mods.github.io/ff7-flat-wiki](https://ff7-mods.github.io/ff7-flat-wiki).
 
 ![alt text](https://i.ibb.co/x2zGG0V/Engine-parts.jpg "Engine parts")
 
