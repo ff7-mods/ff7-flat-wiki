@@ -2,7 +2,7 @@
 title: TEX_format
 ---
 
-## TEX Texture Data Format for PC by [Mirex](User:Mirex "wikilink") (Edits by [Aali](User:Aali "wikilink"))
+## TEX Texture Data Format for PC by [Mirex](User:Mirex "wikilink") (Edits by [Aali](../User:Aali.md)
 
 FF7 PC texture consists of header, an optional palette and bitmap data. Usually data are stored like palletized picture, with bitmap pixels referencing to palette. Color 0 (in palette its usually black) is usually used as transparent color.
 

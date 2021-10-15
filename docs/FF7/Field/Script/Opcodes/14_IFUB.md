@@ -26,7 +26,7 @@ Performs a comparison between a retrieved values from memory at specific banks a
 
 The type of comparison used is shown in the table below. If the comparison fails, the script pointer jumps forward by the amount specified in the final argument; the starting offset for this jump is just before the jump value argument itself. This, combined with an appropriate [jump forward](10_JMPF.md), is used to implement if/else functionality in scripts, as demonstrated below.
 
-If the content of the 'if' block following the IFUB line is longer than 0xFF, the jump argument will also need to be longer than 0xFF, and hence the [IFUBL](15_IFUBL.md) variant is used instead. If the value to compare is larger than 0xFF, the [IFUW](18_IFUW.md)/[IFUWL](19_IFUWL.md) variants are used. If the value being compared is negative, the [IFSW](16_IFSW.md)/[IFSWL](17_IFSWL.md) variants are used.
+If the content of the 'if' block following the IFUB line is longer than 0xFF, the jump argument will also need to be longer than 0xFF, and hence the [IFUBL](FF7/Field/Script/Opcodes/15_IFUBL "wikilink") variant is used instead. If the value to compare is larger than 0xFF, the [IFUW](FF7/Field/Script/Opcodes/18_IFUW "wikilink")/[IFUWL](FF7/Field/Script/Opcodes/19_IFUWL "wikilink") variants are used. If the value being compared is negative, the [IFSW](FF7/Field/Script/Opcodes/16_IFSW "wikilink")/[IFSWL](17_IFSWL.md) variants are used.
 
 #### Comparison Types
 

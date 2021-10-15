@@ -17,4 +17,4 @@ None.
 
 #### Description
 
-Halts script execution until a prior [KAWAI](28_KAWAI.md) operation has completed, such as a [LIGHT](28_KAWAI/06_LIGHT.md) movement.
+Halts script execution until a prior [KAWAI](FF7/Field/Script/Opcodes/28_KAWAI "wikilink") operation has completed, such as a [LIGHT](28_KAWAI/06_LIGHT.md) movement.

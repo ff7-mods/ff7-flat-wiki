@@ -17,7 +17,7 @@ The following are the file formats for the game. These are loacted in the /PRGDA
 | [ANZ](ANZ.md) | LZS Compressed Dialog Answer Lookup |
 | [BBB](BBB.md) | Unknown                             |
 | [BIN](BIN.md) | Unknown                             |
-| [BIZ](BIZ.md) | LZS Compressed BIN file (Unknown)   |
+| [BIZ](BIZ.md)   |
 | [DAT](DAT.md) | Sound Effects                       |
 | [DCT](DCT.md) | Japanese Word Dictionary            |
 | [KAT](KAT.md) | Unknown                             |

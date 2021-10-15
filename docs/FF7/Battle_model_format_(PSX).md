@@ -4,7 +4,7 @@ title: Battle_model_format_(PSX)
 
 ## Playstation battle model format
 
-The entire file is compressed using [LZS format](LZS_format.md) and is decompressed into the playstation user memory for a battle. The file consists of several section blocks, a header, compiled HRC and model information, battle animations, a texture image in [TIM format](../PSX/TIM_format.md), and optional weapon models. All integers short or long are little endian based. This includes some of the [animation data](animation_format.md) as well.
+The entire file is compressed using [LZS format](FF7/LZS_format "wikilink") and is decompressed into the playstation user memory for a battle. The file consists of several section blocks, a header, compiled HRC and model information, battle animations, a texture image in [TIM format](../PSX/TIM_format.md), and optional weapon models. All integers short or long are little endian based. This includes some of the [animation data](animation_format.md) as well.
 
   
 
@@ -41,7 +41,7 @@ This is the first section and consists of real model data and bone structure. Wi
 
 #### HRC data
 
-This data resembles [Hierarchy files (.HRC)](PSX/HRC "wikilink"), from the PsyQ library. To be correct the HRC files were used to generate this information hence it's called HRC data. The HRC data begins with an unsigned 32 bit integer (BoneCount) indicating the number of bones. Following this is the **root bone**, which is allays zero'd. After the root bone is BoneCount number of bones. The bone information is stored in a structure like the thus (using C conventions):
+This data resembles [Hierarchy files (.HRC)](../PSX/HRC.md):
 
 `typedef struct`  
 `{`  
@@ -152,7 +152,7 @@ All structure information is 32 bit aligned for the PSX GPU.
 `   uint16       Unused;`  
 `} TexQuadric;`
 
-The Flags field on the Textured polygons contains the texture palette offset for the [TIM](../PSX/TIM_format.md) texture file associated with the model. The TexPage is not used in any of the battle models however battle scenes do use this to refer another page of texture data (for 8bpp [TIM](../PSX/TIM_format.md)'s used in them).
+The Flags field on the Textured polygons contains the texture palette offset for the [TIM](PSX/TIM_format "wikilink") texture file associated with the model. The TexPage is not used in any of the battle models however battle scenes do use this to refer another page of texture data (for 8bpp [TIM](../PSX/TIM_format.md).
 
 **Bone structure data**
 

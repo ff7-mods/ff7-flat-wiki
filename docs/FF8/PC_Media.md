@@ -8,7 +8,7 @@ Located in the <installation folder>\\Data\\ folder, there are five (or six for 
 
 ### .fs (File Source)
 
-This is the main data source for all the files in a given category. The files are either [LZSed](../FF7/Kernel/Low_level_libraries.md#LZS_Archives) or left raw (See notes on .fi files) and all concatenated together.
+This is the main data source for all the files in a given category. The files are either [LZSed](../FF7/Kernel/Low_level_libraries.md#LZS_Archives) and all concatenated together.
 
 ### .fl (File List)
 

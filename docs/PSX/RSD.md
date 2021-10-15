@@ -6,7 +6,7 @@ title: RSD
 
 An RSD file is product of the original Playstation Psy-Q 3D development libraries. They are often expoted by 3D modelers when converting from an LWO or DXF file to something more understandable by the PSX. It is in ascii, making it easy to edit by hand. When a 3D editor does an export, four text files are actually created, .rsd, .ply, .mat, and .grp. These can then be "compiled" into a binary .rsd file for the PSX.
 
-In the PC version of Final Fantasy 7, the text .rsd file is used while the other files were "compiled" into [Polygon(.p)](FF7/P "wikilink") format.
+In the PC version of Final Fantasy 7, the text .rsd file is used while the other files were "compiled" into [Polygon(.p)](../FF7/P.md) format.
 
 The following example is "acaa.rsd", the RSD File for Yuffie's Head:
 
@@ -44,7 +44,7 @@ The Group file..
 
 `GRP=ACAB.GRP`
 
-On FF7PC, these files were compiled into a [Polygon(.p)](FF7/P "wikilink") file, but with the same four leter filename.
+On FF7PC, these files were compiled into a [Polygon(.p)](../FF7/P.md) file, but with the same four leter filename.
 
 The next line is telling how many textures this model uses. Usually it is 0, and there are no more lines. However, in our example it is 3, and there are 3 textures in here.
 

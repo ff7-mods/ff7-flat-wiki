@@ -4,7 +4,7 @@ title: Pointers
 
 By MaKiPL.
 
-FF8 engine reads [Battle Stage files](../FileFormat_X.md) by positions coded in executable (.text section of .EXE)
+FF8 engine reads [Battle Stage files](../FileFormat_X.md)
 
 **Here's the list:**
 

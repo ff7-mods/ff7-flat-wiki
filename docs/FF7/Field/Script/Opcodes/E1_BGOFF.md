@@ -20,4 +20,4 @@ title: E1_BGOFF
 
 #### Description
 
-Similar to [BGON](E0_BGON.md), only this opcode turns *off* the portion of background whose [background sprite](../../Sprite.md) specifies it as belonging to the scripted area and layer specified.
+Similar to [BGON](FF7/Field/Script/Opcodes/E0_BGON "wikilink"), only this opcode turns *off* the portion of background whose [background sprite](../../Sprite.md) specifies it as belonging to the scripted area and layer specified.

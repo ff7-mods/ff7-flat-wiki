@@ -4,24 +4,24 @@ title: FF_Text
 
 FF Text is a format that Squaresoft used to store strings in the English version of Final Fantasy VII. Large subsets of the character (e.g. A-Z, a-z, 0-9) set are coded as simply their ASCII values offset by 0x20.
 
-|     | 00          | 01        | 02    | 03          | 04          | 05          | 06  | 07    | 08        | 09         | 0A        | 0B        | 0C        | 0D       | 0E         | 0F       |
-|-----|-------------|-----------|-------|-------------|-------------|-------------|-----|-------|-----------|------------|-----------|-----------|-----------|----------|------------|----------|
-| 00  | {SPACE}     | !         | "     | \#          | $           | %           | &   | '     | (         | )          | \*        | \+        | ,         | \-       | .          | /        |
-| 10  | 0           | 1         | 2     | 3           | 4           | 5           | 6   | 7     | 8         | 9          | :         | ;         | &lt;      | =        | &gt;       | ?        |
-| 20  | @           | A         | B     | C           | D           | E           | F   | G     | H         | I          | J         | K         | L         | M        | N          | O        |
-| 30  | P           | Q         | R     | S           | T           | U           | V   | W     | X         | Y          | Z         | \[       | \\        | \]       | ^          | \_       |
-| 40  | \`          | a         | b     | c           | d           | e           | f   | g     | h         | i          | j         | k         | l         | m        | n          | o        |
-| 50  | p           | q         | r     | s           | t           | u           | v   | w     | x         | y          | z         | {         | \|        | }        | \~         |          |
-| 60  | Ã          | Ã        | Ã    | Ã          | Ã          | Ã          | Ã  | Ã¡    | Ã         | Ã¢         | Ã¤        | Ã£        | Ã¥        | Ã§       | Ã©         | Ã¨       |
-| 70  | Ãª          | Ã«        | Ã­    | Ã¬          | Ã®          | Ã¯          | Ã±  | Ã³    | Ã²        | Ã´         | Ã¶        | Ãµ        | Ãº        | Ã¹       | Ã»         | Ã¼       |
-| 80  | â         | Â°        | Â¢    | Â£          | Ã          | Ã          | Â¶  | Ã    | Â®        | Â©         | â¢       | Â´        | Â¨        | â       | Ã         | Ã       |
-| 90  | â         | Â±        | â¤   | â¥         | Â¥          | Âµ          | â | Î£    | Î         | Ï         | â¡       | <u>Âª</u> | <u>Âº</u> | Î©       | Ã¦         | Ã¸       |
-| A0  | Â¿          | Â¡        | Â¬    | â         | Æ          | â         | â | Â«    | Â»        | â¦        | {NOTHING} | Ã        | Ã        | Ã       | Å         | Å       |
-| B0  | â         | â       | â   | â         | â         | â         | Ã·  | â   | Ã¿        | Å¸         | â       | Â¤        | â¹       | âº      | ï¬        | ï¬      |
-| C0  | â          | âª       | â   | â         | â°         | Ã          | Ã  | Ã    | Ã        | Ã         | Ã­        | Ã®        | Ã¯        | Ã¬       | Ã         | Ã       |
-| D0  | {SPACE}     | Ã        | Ã    | Ã          |             |             |     |       |           |            |           |           |           |          |            |          |
-| E0  | {Choice}    | {Tab}     | ,     | ."          | ..."        |             |     | {EOL} | {New Scr} | {New Scr?} | {Cloud}   | {Barret}  | {Tifa}    | {Aerith} | {Red XIII} | {Yuffie} |
-| F0  | {Cait Sith} | {Vincent} | {Cid} | {Party \#1} | {Party \#2} | {Party \#3} | ã | â³   | â       | â        |           |           |           |          | {FUNC}     | {END}    |
+|     | 00          | 01        | 02    | 03          | 04          | 05          | 06  | 07    | 08        | 09         | 0A        | 0B       | 0C     | 0D       | 0E         | 0F       |
+|-----|-------------|-----------|-------|-------------|-------------|-------------|-----|-------|-----------|------------|-----------|----------|--------|----------|------------|----------|
+| 00  | {SPACE}     | !         | "     | \#          | $           | %           | &   | '     | (         | )          | \*        | \+       | ,      | \-       | .          | /        |
+| 10  | 0           | 1         | 2     | 3           | 4           | 5           | 6   | 7     | 8         | 9          | :         | ;        | &lt;   | =        | &gt;       | ?        |
+| 20  | @           | A         | B     | C           | D           | E           | F   | G     | H         | I          | J         | K        | L      | M        | N          | O        |
+| 30  | P           | Q         | R     | S           | T           | U           | V   | W     | X         | Y          | Z         | \[      | \\     | \]       | ^          | \_       |
+| 40  | \`          | a         | b     | c           | d           | e           | f   | g     | h         | i          | j         | k        | l      | m        | n          | o        |
+| 50  | p           | q         | r     | s           | t           | u           | v   | w     | x         | y          | z         | {        | \|     | }        | \~         |          |
+| 60  | Ä           | Á         | Ç     | É           | Ñ           | Ö           | Ü   | á     | à         | â          | ä         | ã        | å      | ç        | é          | è        |
+| 70  | ê           | ë         | í     | ì           | î           | ï           | ñ   | ó     | ò         | ô          | ö         | õ        | ú      | ù        | û          | ü        |
+| 80  | ⌘           | °         | ¢     | £           | Ù           | Û           | ¶   | ß     | ®         | ©          | ™         | ´        | ¨      | ≠        | Æ          | Ø        |
+| 90  | ∞           | ±         | ≤     | ≥           | ¥           | µ           | ∂   | Σ     | Π         | π          | ⌡         | ª        | º      | Ω        | æ          | ø        |
+| A0  | ¿           | ¡         | ¬     | √           | ƒ           | ≈           | ∆   | «     | »         | …          | {NOTHING} | À        | Ã      | Õ        | Œ          | œ        |
+| B0  | –           | —         | “     | ”           | ‘           | ’           | ÷   | ◊     | ÿ         | Ÿ          | ⁄         | ¤        | ‹      | ›        | ﬁ          | ﬂ        |
+| C0  | ■           | ▪         | ‚     | „           | ‰           | Â           | Ê   | Ë     | Á         | È          | í         | î        | ï      | ì        | Ó          | Ô        |
+| D0  | {SPACE}     | Ò         | Ù     | Û           |             |             |     |       |           |            |           |          |        |          |            |          |
+| E0  | {Choice}    | {Tab}     | ,     | ."          | ..."        |             |     | {EOL} | {New Scr} | {New Scr?} | {Cloud}   | {Barret} | {Tifa} | {Aerith} | {Red XIII} | {Yuffie} |
+| F0  | {Cait Sith} | {Vincent} | {Cid} | {Party \#1} | {Party \#2} | {Party \#3} | 〇  | △     | ☐         | ✕          |           |          |        |          | {FUNC}     | {END}    |
 
 There is no equivalent character to 80h in most font families.  
 Characters D4h - DFh appear to produce odd graphical errors.
@@ -55,7 +55,7 @@ EA: Name of a Character EB: Name of an Item EC: Number ED: Name of the Target EF
 
 Example
 
-`S  t  o  l  e     X       Â !`  
+`S  t  o  l  e     X        !`  
 `33 54 4F 4C 45 00 EB FF FF 01 FF`
 
 The battle engine will replace the "EB FF FF" with the name of the item at the index passed to it.
@@ -76,7 +76,7 @@ The location starts at the position that the data read the byte F9 and proceeds 
 Ex: This is the description of the Poison Ring stored in section 15 of the kernel, both raw data and decoded text.
 
 `24 52 41 49 4E 53 00 3B 30 4F 49 53 4F 4E 3D 00 41 54 54 41 43 4B 53 0C 00 50 52 4F 54 45 43 54 53 00 41 47 F9 21 54 F9 A0 3D`  
-` D  r  a  i  n  s     [  P  o  i  s  o  n  ]     a  t  t  a  c  k  s  ,     p  r  o  t  e  c  t  s     a  g **Â ??  t **Â ??  ]`
+` D  r  a  i  n  s     [  P  o  i  s  o  n  ]     a  t  t  a  c  k  s  ,     p  r  o  t  e  c  t  s     a  g ** ??  t ** ??  ]`
 
 At the end we have two F9 functions located at the end. The first one references the "ains" in the word "Drains" earlier in the description and the second one references the " \[Poison" shortly after. The bytes following the F9 describe how to get to those texts:
 

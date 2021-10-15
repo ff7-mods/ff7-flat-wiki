@@ -20,4 +20,4 @@ title: A9_CMOVE
 
 #### Description
 
-Similar to [MOVE](A8_MOVE.md), but the field object won't play its animation whilst it moves. Field object will not be rotated according to movement (it will move without changing direction).
+Similar to [MOVE](A8_MOVE.md).

@@ -9,16 +9,16 @@ Each of the upper nybble of the damage calculation determines what checks are do
 | Upper Nybble | Functions                                                                                                                                          |
 |--------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
 | 0            | None (always hits)                                                                                                                                 |
-| 1            | [Physical Accuracy](FF7/DamageFormula#0:_Physical_Accuracy_Check "wikilink"), [Critical Check](FF7/DamageFormula#2:_Critical_Hit_Check "wikilink") |
-| 2            | [Magical Accuracy](FF7/DamageFormula#1:_Magical_Accuracy_Check "wikilink")                                                                         |
+| 1            | [Physical Accuracy](DamageFormula.md#0:_Physical_Accuracy_Check), [Critical Check](DamageFormula.md#2:_Critical_Hit_Check) |
+| 2            | [Magical Accuracy](DamageFormula.md#1:_Magical_Accuracy_Check)                                                                         |
 | 3            | Dummy \[3\] (always hits)                                                                                                                          |
 | 4            | Dummy \[4\] (always hits)                                                                                                                          |
 | 5            | Dummy \[5\] (always hits)                                                                                                                          |
-| 6            | [Physical Accuracy](FF7/DamageFormula#0:_Physical_Accuracy_Check "wikilink"), [Critical Check](FF7/DamageFormula#2:_Critical_Hit_Check "wikilink") |
-| 7            | [Magical Accuracy](FF7/DamageFormula#1:_Magical_Accuracy_Check "wikilink")                                                                         |
-| 8            | [Level-based Accuracy](FF7/DamageFormula#7:_Level-based_Accuracy "wikilink")                                                                       |
-| 9            | [Manipulate](FF7/DamageFormula#6:_Manipulate_Accuracy_.28intended_solely_for_playable_characters.29 "wikilink")                                    |
-| A            | [Physical Accuracy](FF7/DamageFormula#0:_Physical_Accuracy_Check "wikilink"), [Critical Check](FF7/DamageFormula#2:_Critical_Hit_Check "wikilink") |
+| 6            | [Physical Accuracy](DamageFormula.md#0:_Physical_Accuracy_Check), [Critical Check](DamageFormula.md#2:_Critical_Hit_Check) |
+| 7            | [Magical Accuracy](DamageFormula.md#1:_Magical_Accuracy_Check)                                                                         |
+| 8            | [Level-based Accuracy](DamageFormula.md#7:_Level-based_Accuracy)                                                                       |
+| 9            | [Manipulate](DamageFormula.md#6:_Manipulate_Accuracy_.28intended_solely_for_playable_characters.29)                                    |
+| A            | [Physical Accuracy](FF7/DamageFormula#0:_Physical_Accuracy_Check "wikilink"), [Critical Check](DamageFormula.md#2:_Critical_Hit_Check) |
 | B            | [Physical Accuracy](FF7/DamageFormula#0:_Physical_Accuracy_Check "wikilink")                                                                       |
 | C            | None (always hits)                                                                                                                                 |
 | D            | None (always hits)                                                                                                                                 |
@@ -356,8 +356,73 @@ The point of these is to set the "attack will miss" flag in the current action m
 
 *0x5DDBB0*
 
-    todo
-    It's long so I'll tackle it when I have a lot of time on my hands
+    ;For the purposes of this code, "Dex" means the adjusted Dexterity of the actor/target if any in-battle dex bonuses have been granted.
+    ;Same holds for the Physical Evade. Physical Hit rate has no in-game bonus opportunities.
+
+    Check_For_Cover()
+
+    HitChance = -1;
+
+    If "Always connect" flag set then HitChance = 255;
+
+    If target has one of the following statuses (Death, Sleep, Confu, Stop, Petrify, Manipulate, Paralysis) then
+        Remove Sleep status
+        Remove Confu status
+        Remove Manipulate status
+        HitChance = 255
+    End If
+
+    If action is flagged as "always hit" then HitChance = 255;
+
+    Physical Chance = (Actor's Dex >> 2) + action physical hit rate
+    If Actor is enemy then
+        Actor's evade = Actor's Physical evade
+    else
+        Actor's evade = (Actor's Dex >> 2) + Actor's Physical evade
+    End If
+    If Target is enemy then
+        Target's evade = Target's Physical evade
+    Else
+        Target's evade = (Target's Dex >> 2) + Target's Physical evade
+    End If
+
+    If HitChance = -1 Then
+        HitChance = Physical Chance + Actor's evade - Target's evade
+        HitChance = FuryAdjust(HitChance)
+    End If
+
+    If HitChance = 0 then HitChance = 1
+
+    Luck Chance = [0..99]
+    If (Actor's Luck / 4) > Luck Chance Then
+        HitChance = 255 ;Lucky Hit
+    Else
+        If Actor is Player Character targetting an enemy Then
+            If (Target's Luck / 4) > Luck Chance
+                HitChance = 0 ;Lucky Dodge
+            End If
+        End If
+    End If
+
+    Miss Chance = (([0..65535] * 99) / 65535) + 1 ;essentially [1..100]
+    if HitChance < Miss Chance then
+        Set Miss flag
+    End If
+
+#### Check\_For\_Cover
+
+`   This is where the game checks if the target is covered under a "cover"ing ally.`  
+`   It only applies to Player Characters`  
+`   It might be more complicated than I'm seeing, but that is definitely ONE of its functions`
+
+#### FuryAdjust(HitChance)
+
+       If HitChance < 255 then 
+            If Actor is in Fury Status
+                HitChance = HitChance - ((HitChance * 3) / 10)
+            End If
+        End If
+        return HitChance 
 
 ### 1: Magical Accuracy Check
 

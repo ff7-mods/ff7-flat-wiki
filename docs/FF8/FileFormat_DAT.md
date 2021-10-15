@@ -211,7 +211,7 @@ Contains AKAO sequence + unknown data (can be empty).
 
 ## Section 11: Textures
 
-Contains some [TIMs](../PSX/TIM_format.md) with size 128x128 (8bit paletized).
+Contains some [TIMs](../PSX/TIM_format.md).
 
 | Offset          | Length            | Description    |
 |-----------------|-------------------|----------------|

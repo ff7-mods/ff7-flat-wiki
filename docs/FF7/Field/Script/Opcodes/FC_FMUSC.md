@@ -17,4 +17,4 @@ title: FC_FMUSC
 
 #### Description
 
-Sets the [MUSIC](F0_MUSIC.md) that will play after the next [BATTLE](70_BATTLE.md) has been issued and fought, this music (I) will be player when the player rejoins the field. As with the MUSIC opcode, the ID represents an offset into the list of music files that have been set by the field file. Hence, provided the field file has the correct music file(s) set, this opcode can be used to set regular or boss battle music for the current field's encounters, or even switched between in the script.
+Sets the [MUSIC](FF7/Field/Script/Opcodes/F0_MUSIC "wikilink") that will play after the next [BATTLE](70_BATTLE.md) set, this opcode can be used to set regular or boss battle music for the current field's encounters, or even switched between in the script.

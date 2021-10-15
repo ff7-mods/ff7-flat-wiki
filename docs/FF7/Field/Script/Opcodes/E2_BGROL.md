@@ -18,4 +18,4 @@ title: E2_BGROL
 
 #### Description
 
-Turns on the next numerical layer in the background area specified by *A*. For example, if background area 3 is currently set to [display layer](E0_BGON.md) 1 for that particular area, a call to BGROL(0,3) will display layer 2 for that area. If an invalid layer is given, or the background rolls past the last layer for this area, no background is displayed by this opcode.
+Turns on the next numerical layer in the background area specified by *A*. For example, if background area 3 is currently set to [display layer](E0_BGON.md) will display layer 2 for that area. If an invalid layer is given, or the background rolls past the last layer for this area, no background is displayed by this opcode.

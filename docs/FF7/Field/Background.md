@@ -2,7 +2,7 @@
 title: Background
 ---
 
-### Section 9: Background ([Terence Fergusson](User:Terence_Fergusson "wikilink"))
+### Section 9: Background ([Terence Fergusson](../../User:Terence_Fergusson.md)
 
 Firstly, a number of variables.
 

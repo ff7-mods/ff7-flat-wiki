@@ -25,7 +25,7 @@ All the bytes used by the game are listed here, along with some that are not use
 
 ##### First Byte (MSB)
 
-<table><thead><tr class="header"><th><p>Bit</p></th><th><p>Description (Bit set to 1)</p></th></tr></thead><tbody><tr class="odd"><td><p>0x80 (10000000)</p></td><td><p>Do not display the AP/EXP/Gil/items received screens.</p></td></tr><tr class="even"><td><p>0x40 (01000000)</p></td><td><p>Activates the battle arena. The next chosen <a href="70_BATTLE">BATTLE</a> instead takes place in the arena,<br />
+<table><thead><tr class="header"><th><p>Bit</p></th><th><p>Description (Bit set to 1)</p></th></tr></thead><tbody><tr class="odd"><td><p>0x80 (10000000)</p></td><td><p>Do not display the AP/EXP/Gil/items received screens.</p></td></tr><tr class="even"><td><p>0x40 (01000000)</p></td><td><p>Activates the battle arena. The next chosen <a href="70_BATTLE.md" title="wikilink">BATTLE</a> instead takes place in the arena,<br />
 but keeping the same enemy formation. The "keep going/no way" interface is enabled.</p></td></tr><tr class="odd"><td><p>0x20 (00100000)</p></td><td><p>Do not play the battle victory music.</p></td></tr><tr class="even"><td><p>0x08 (00001000)</p></td><td><p>The party cannot escape the battle.</p></td></tr><tr class="odd"><td><p>0x04 (00000100)</p></td><td><p>Pre-emptive attack.</p></td></tr><tr class="even"><td><p>0x02 (00000010)</p></td><td><p>The battle is timed; the player must complete the battle before the timer reaches zero,<br />
 or the battle exits, with no AP/EXP/Gil/items received screens displayed.</p></td></tr><tr class="odd"><td></td><td></td></tr></tbody></table>
 

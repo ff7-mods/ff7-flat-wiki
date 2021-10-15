@@ -2,7 +2,7 @@
 title: WorldMap_texl
 ---
 
-Contains 20 [.TIM](../PSX/TIM_file.md) Textures. Every texture is 128x256. Textures represent world map (grass, rocks, tunnel entries, gardens, towns). The textures appear every 0x12800 of bytes (75766 B). Part between next 0x12800 and previous texture end is just filled with 0.
+Contains 20 [.TIM](../PSX/TIM_file.md). Part between next 0x12800 and previous texture end is just filled with 0.
 
 | Number | Offset   | Comment                                                                              |
 |--------|----------|--------------------------------------------------------------------------------------|

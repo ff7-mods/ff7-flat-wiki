@@ -4,7 +4,7 @@ title: TIM_format
 
 ## Introduction
 
-A TIM file is a standard image file format for the [Sony PlayStation](../PSX.md). The file structure closely mimics the way textures are managed in the [frame buffer](frame_buffer.md) by the [GPU](GPU.md). TIM files are [little endian](../Little_endian.md)-based.
+A TIM file is a standard image file format for the [Sony PlayStation](PSX "wikilink"). The file structure closely mimics the way textures are managed in the [frame buffer](PSX/frame_buffer "wikilink") by the [GPU](PSX/GPU "wikilink"). TIM files are [little endian](../Little_endian.md)-based.
 
   
 

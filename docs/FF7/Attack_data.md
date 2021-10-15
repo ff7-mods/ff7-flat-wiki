@@ -14,8 +14,8 @@ title: Attack_data
 | 0x03   | 1 byte                            | Unknown                                                                                             |
 | 0x04   | 2 byte                            | Casting cost                                                                                        |
 | 0x06   | 2 bytes                           | [Impact Sound](Battle/Sound_Effect_Id_List.md)                                          |
-| 0x08   | 2 bytes                           | [Camera Movement Id](FF7/Battle/Camera_Movement_Id_List?redlink=1 "wikilink") for single target.    |
-| 0x0A   | 2 bytes                           | [Camera Movement Id](FF7/Battle/Camera_Movement_Id_List?redlink=1 "wikilink") for multiple targets. |
+| 0x08   | 2 bytes                           | [Camera Movement Id](Battle/Camera_Movement_Id_List?redlink=1.md) for single target.    |
+| 0x0A   | 2 bytes                           | [Camera Movement Id](Battle/Camera_Movement_Id_List?redlink=1.md) for multiple targets. |
 | 0x0C   | 1 byte                            | [Target Flags](Battle/Targeting_Data.md)                                                |
 | 0x0D   | 1 byte                            | [Attack Effect Id](Battle/Attack_Effect_Id_List.md)                                     |
 | 0x0E   | 1 byte                            | [Damage Calculation](Battle/Damage_Calculation.md)                                      |

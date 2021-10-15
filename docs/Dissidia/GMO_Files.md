@@ -2,7 +2,7 @@
 title: GMO_Files
 ---
 
-<small>Last updated: [Koral](User:Koral "wikilink") 14:04, 30 Mar 2009 (EDT)</small>
+<small>Last updated: [Koral](../User:Koral.md)</small>
 
 # GMO Model File
 

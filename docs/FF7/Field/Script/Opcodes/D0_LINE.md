@@ -22,7 +22,7 @@ title: D0_LINE
 
 #### Description
 
-Defines a line on the walkmesh that, when crossed by a playable character, causes one of the entity's scripts to be executed. These are similar to the triggers in [Section 8](../../3D_Related.md). All the lines in the current field can be turned on or off by using the [LINON](D1_LINON.md) opcode.
+Defines a line on the walkmesh that, when crossed by a playable character, causes one of the entity's scripts to be executed. These are similar to the triggers in [Section 8](FF7/Field/3D_Related "wikilink"). All the lines in the current field can be turned on or off by using the [LINON](D1_LINON.md) opcode.
 
 #### Additional Detail
 

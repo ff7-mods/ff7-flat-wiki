@@ -32,8 +32,69 @@ The PAK file has no header. Each movie usually contains a CAM file and two BINK 
 | Offset | Size                         | Description                                       |
 |--------|------------------------------|---------------------------------------------------|
 | 0      | 3 bytes                      | 0x463850 "F8P"                                    |
+| 3      | 3 bytes                      | Unknown                                           |
 | 6      | 2 bytes (uint16)             | Approx number of frames. There can be extra data. |
 | 8      | 44 bytes \* number of frames | Frame data. Each frame ends with "END"            |
+
+Extra info by Kaspar: The number of frames is always equal to the "approx number" above + 1 (therefore we can consider that approx number as the last frame index if we start counting from 0 ). The only exception to this is disc03\_04 wich contains 3 extra frame data (wich is probably pointless since the whole file contains blank camera animation anyway.
+
+Each Frame data sector is structured this way:
+
+| Offset | Size    | Description                          |
+|--------|---------|--------------------------------------|
+| 0      | 6 bytes | Camera Vector X axis                 |
+| 6      | 6 bytes | Camera Vector Y axis                 |
+| 12     | 6 bytes | Camera Vector Z axis                 |
+| 18     | 2 bytes | Camera Vector Z.z (copy)             |
+| 20     | 4 bytes | Camera Space X position              |
+| 24     | 4 bytes | Camera Space Y position              |
+| 28     | 4 bytes | Camera Space Z position              |
+| 32     | 2 bytes | Camera Pan X                         |
+| 34     | 2 bytes | Camera Pan Y                         |
+| 36     | 2 bytes | Zoom                                 |
+| 38     | 2 bytes | Zoom (Repeated)                      |
+| 40     | 1 byte  | Render Mode ('08','10','11' or '50') |
+| 41     | 3 bytes | "END" marker                         |
+
+The 4 Render mode seems to be these :
+
+`   -8 ('08') = render characters over FMV and masks meshes over characters (hiding/masking them)`
+
+`   -16('10') = render characters over FMV (not masked)`
+
+`   -17('11') = don't render characters over FMV`
+
+`   -80('50) = End Transition? (not sure what's this exactly but for sure the character are not rendered with this on)`
+
+the 80 mode (when used) is active for the last 4 frame only and seems like it's not used when the fmv transition to the field at the end (eg. attack on Dollet landing or Galbadia Garden intro)
+
+The camera data is really similar to the Field one contained in the .CA files.
+
+Thanks to TrueOdin that bringed them to my attention it looks like beta PC version for FF7 had some cam files too but they were slightly different:
+
+-each frame sector is 40byte size with no 'END' marker
+
+-there is no header so if you want to know the frame count you have to divide the filesize by 40
+
+-Zoom is not repeated
+
+The structure for FF7 .cam sector is something like this :
+
+| Offset | Size    | Description                                 |
+|--------|---------|---------------------------------------------|
+| 0      | 6 bytes | Camera Vector X axis                        |
+| 6      | 6 bytes | Camera Vector Y axis                        |
+| 12     | 6 bytes | Camera Vector Z axis                        |
+| 18     | 2 bytes | Camera Vector Z.z (copy)                    |
+| 20     | 4 bytes | Camera Space X position                     |
+| 24     | 4 bytes | Camera Space Y position                     |
+| 28     | 4 bytes | Camera Space Z position                     |
+| 32     | 2 bytes | Camera Pan X                                |
+| 34     | 2 bytes | Camera Pan Y                                |
+| 36     | 2 bytes | Zoom                                        |
+| 38     | 2 bytes | Unknown (Xx Repeated? not sure, need check) |
+
+If someone is willing to create a ff7 wiki page for this feel free to move this last part there.
 
 ## Pak File Details
 

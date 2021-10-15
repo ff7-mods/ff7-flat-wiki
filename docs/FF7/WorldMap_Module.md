@@ -97,21 +97,9 @@ Header Structure
 
 #### Triangle
 
-|       size        |                              description                              |
-|:-----------------:|:---------------------------------------------------------------------:|
-|      1 byte       |                    Index of vertex 0 of triangle t                    |
-|      1 byte       |                    Index of vertex 1 of triangle t                    |
-|      1 byte       |                    Index of vertex 2 of triangle t                    |
-| *5 bits (lowest)* |              *Walkmap status of triangle t (see below)*               |
-|     *3 bits*      |                  *Unknown, probably script related*                   |
-|      1 byte       |                 Coordinate u in texture for vertex 0                  |
-|      1 byte       |                 Coordinate v in texture for vertex 0                  |
-|      1 byte       |                 Coordinate u in texture for vertex 1                  |
-|      1 byte       |                 Coordinate v in texture for vertex 1                  |
-|      1 byte       |                 Coordinate u in texture for vertex 2                  |
-|      1 byte       |                 Coordinate v in texture for vertex 2                  |
-| *9 bits (lowest)* |                         *Texture (see below)*                         |
-|     *7 bits*      | *Location (message ID that will be displayed in menus and savegames)* |
+<table><caption>For each triangle t in <em>number of triangles</em></caption><thead><tr class="header"><th style="text-align: center;"><p>size</p></th><th style="text-align: center;"><p>description</p></th></tr></thead><tbody><tr class="odd"><td style="text-align: center;"><p>1 byte</p></td><td style="text-align: center;"><p>Index of vertex 0 of triangle t</p></td></tr><tr class="even"><td style="text-align: center;"><p>1 byte</p></td><td style="text-align: center;"><p>Index of vertex 1 of triangle t</p></td></tr><tr class="odd"><td style="text-align: center;"><p>1 byte</p></td><td style="text-align: center;"><p>Index of vertex 2 of triangle t</p></td></tr><tr class="even"><td style="text-align: center;"><p><em>5 bits (lowest)</em></p></td><td style="text-align: center;"><p><em>Walkmap status of triangle t (see below)</em></p></td></tr><tr class="odd"><td style="text-align: center;"><p><em>3 bits</em></p></td><td style="text-align: center;"><p><em>Mesh function ID to trigger when this triangle is stepped on.<br />
+Values 0-2 mean no script is attached to this triangle.<br />
+For values 3+ subtract 3 from this value and this will give you the mesh function ID to trigger.</em></p></td></tr><tr class="even"><td style="text-align: center;"><p>1 byte</p></td><td style="text-align: center;"><p>Coordinate u in texture for vertex 0</p></td></tr><tr class="odd"><td style="text-align: center;"><p>1 byte</p></td><td style="text-align: center;"><p>Coordinate v in texture for vertex 0</p></td></tr><tr class="even"><td style="text-align: center;"><p>1 byte</p></td><td style="text-align: center;"><p>Coordinate u in texture for vertex 1</p></td></tr><tr class="odd"><td style="text-align: center;"><p>1 byte</p></td><td style="text-align: center;"><p>Coordinate v in texture for vertex 1</p></td></tr><tr class="even"><td style="text-align: center;"><p>1 byte</p></td><td style="text-align: center;"><p>Coordinate u in texture for vertex 2</p></td></tr><tr class="odd"><td style="text-align: center;"><p>1 byte</p></td><td style="text-align: center;"><p>Coordinate v in texture for vertex 2</p></td></tr><tr class="even"><td style="text-align: center;"><p><em>9 bits (lowest)</em></p></td><td style="text-align: center;"><p><em>Texture (see below)</em></p></td></tr><tr class="odd"><td style="text-align: center;"><p><em>7 bits</em></p></td><td style="text-align: center;"><p><em>Location (message ID that will be displayed in menus and savegames)</em></p></td></tr></tbody></table>
 
 For each triangle t in *number of triangles*
 
@@ -121,7 +109,7 @@ For each triangle t in *number of triangles*
 ` uint8 Vertex1Index;`  
 ` uint8 Vertex2Index;`  
 ` `*`uint8`` ``WalkabilityInfo:5;`*  
-` `*`uint8`` ``Unknown:3;`*  
+` `*`uint8`` ``MeshFuncId:3;`*  
 ` uint8 uVertex0, vVertex0;`  
 ` uint8 uVertex1, vVertex1;`  
 ` uint8 uVertex2, vVertex2;`  
@@ -163,7 +151,7 @@ For each vertex v in *number of vertices*
 `  uint16 Unused; // fill to fit structure to 32bit boundry`  
 `} NormalType;`
 
-structures added by [Cyberman](User:Cyberman "wikilink") 13:43, 10 Jan 2007 (CST)
+structures added by [Cyberman](../User:Cyberman.md)
 
 ### Walkmap
 

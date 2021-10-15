@@ -30,7 +30,7 @@ title: F2_AKAO
 
 Perform an operation described by *Op*, and uses the parameters depending on the operation.
 
-##### Operation list (by [Aali](user:aali "wikilink") and [DLPB](user:DLPB2 "wikilink"))
+##### Operation list (by [Aali](user:aali "wikilink") and [DLPB](../../../../user:DLPB2.md)
 
 -   **10** Play music \[param1=Music ID\]
 -   **14** Same as 10

@@ -18,4 +18,4 @@ title: 6E_LSTMP
 
 #### Description
 
-Retrieves the [field ID](../../Field_ID.md) number of the field that was played directly before the current one, into the bank *B* and address *A* specified. The previous area does not include the specific world map locations that are given a field ID (0x1 to 0x40), so traversing via a gateway to the world map, then back to the field, will not cause the world map ID to be retrieved; rather, that same field ID will be loaded.
+Retrieves the [field ID](../../Field_ID.md), so traversing via a gateway to the world map, then back to the field, will not cause the world map ID to be retrieved; rather, that same field ID will be loaded.

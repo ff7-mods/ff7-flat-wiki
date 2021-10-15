@@ -33,7 +33,7 @@ This section begins first with a model header of 36 bytes:
 `    u32 blank2;`  
 `} // sizeof = 36`
 
-This header is followed by the skeleton data, the part headers and the animation headers, like in [BSX files](BSX.md#Models_Section). (And there is no Textures Section)
+This header is followed by the skeleton data, the part headers and the animation headers, like in [BSX files](BSX.md#Models_Section)
 
   
   

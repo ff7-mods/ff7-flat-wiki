@@ -2,9 +2,9 @@
 title: Variables
 ---
 
-By [Shard](User:Shard "wikilink").
+By [Shard](../User:Shard.md).
 
-Game variables can be accessed using the PSHM family of script functions, and can be written to by using the POPM family of functions. Which one you use depends on the size of the variable. The variables are all stored in save files, with the save block starting at address 0xD10 on uncompressed PC saves. The parameter to access a variable in the game scripts is basically the offset from this point in the variable block. For example, getting main story progress (word 256, which is word 0x100 in hex) just gets the two bytes starting at address 0xD10 + 0x100 = 0xE10. The varmap is continuous in memory while the game is running as well. In the en-US version of the original and SE releases (and likely most other versions), the varblock begins at 0x18fe9b8. You can use [Cheat Engine table](https://www.mediafire.com/?ucolf65ewq1yoty%7Cthis) to track them as you play.
+Game variables can be accessed using the PSHM family of script functions, and can be written to by using the POPM family of functions. Which one you use depends on the size of the variable. The variables are all stored in save files, with the save block starting at address 0xD10 on uncompressed PC saves. The parameter to access a variable in the game scripts is basically the offset from this point in the variable block. For example, getting main story progress (word 256, which is word 0x100 in hex) just gets the two bytes starting at address 0xD10 + 0x100 = 0xE10. The varmap is continuous in memory while the game is running as well. In the en-US version of the original and SE releases (and likely most other versions), the varblock begins at 0x18fe9b8. You can use this [Cheat Engine Table](https://www.mediafire.com/?ucolf65ewq1yoty) to track them as you play.
 
 Items in grey are unused by field scripts (some of them may be used in battle scripts).
 
@@ -266,18 +266,15 @@ Items in grey are unused by field scripts (some of them may be used in battle sc
 
 # Notes
 
-1.  1\. When the party splits in disc 2, each party member in the inactive party except Selphie has one of the eight bits changed for this variable. One member has a flag in the 4 most significant bits, and the other has a flag in the 4 least significant bits. It's done this way so that when the characters appear, they animate towards different locations in the field, rather than stacking on top of each other.
-2.  2\. This byte contains flags for which characters are in Squall's party when the party splits in disc 2.
-3.  3\. List of everything that 728 holds throughout the game:
-
--   SeeD field exam "Conduct" score (lose points when you do something wrong at Dollet).
--   Train job attempts (Timber)
--   Tomb of the Unknown King student ID.
--   Who you took to space in disc 3.
-
-1.  4\. The field controlling restriction unlocking in Ultimecia's Castle uses this to figure out where to jump the party after they've broken a seal. It's unknown how SETPLACE actually sets this, it's not always related to the field ID or the SETPLACE parameter. This variable is also set at Balamb Garden's front gate manually.:5. List of everything that 341 holds throughout the game:
-
--   First flashback team
--   Selphie's current action when escaping from Deling's mansion (changes the dialogue)
--   FH Concert Crappiness
--   Something in B-Garden classroom during the paratrooper attack.
+1.  When the party splits in disc 2, each party member in the inactive party except Selphie has one of the eight bits changed for this variable. One member has a flag in the 4 most significant bits, and the other has a flag in the 4 least significant bits. It's done this way so that when the characters appear, they animate towards different locations in the field, rather than stacking on top of each other.
+2.  This byte contains flags for which characters are in Squall's party when the party splits in disc 2.
+3.  List of everything that 728 holds throughout the game:
+    1.  SeeD field exam "Conduct" score (lose points when you do something wrong at Dollet).
+    2.  Train job attempts (Timber)
+    3.  Tomb of the Unknown King student ID.
+    4.  Who you took to space in disc 3.
+4.  The field controlling restriction unlocking in Ultimecia's Castle uses this to figure out where to jump the party after they've broken a seal. It's unknown how SETPLACE actually sets this, it's not always related to the field ID or the SETPLACE parameter. This variable is also set at Balamb Garden's front gate manually.:5. List of everything that 341 holds throughout the game:
+    1.  First flashback team
+    2.  Selphie's current action when escaping from Deling's mansion (changes the dialogue)
+    3.  FH Concert Crappiness
+    4.  Something in B-Garden classroom during the paratrooper attack.

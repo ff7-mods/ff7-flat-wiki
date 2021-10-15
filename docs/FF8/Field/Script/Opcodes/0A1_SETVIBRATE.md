@@ -23,4 +23,4 @@ none
 
 Vibrates the controller.
 
-[Category:Unfinished FF8 Opcodes](Category:Unfinished_FF8_Opcodes "wikilink")
+[Category:Unfinished FF8 Opcodes](../../../../Category:Unfinished_FF8_Opcodes.md)

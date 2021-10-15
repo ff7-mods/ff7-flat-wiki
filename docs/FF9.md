@@ -22,47 +22,47 @@ Some directory entries contain **subdirectories**.
 
 What contains directories and for what contain files
 
-### [Directory '0'](FF9/Dirs/00 "wikilink")
+### [Directory '0'](FF9/Dirs/00.md)
 
-### [Directory '1'](FF9/Dirs/01 "wikilink")
+### [Directory '1'](FF9/Dirs/01.md)
 
 ## [File Cluster Information](FF9/File/Data.md)
 
 Some of the files are actually **data clusters** that contain multiple information these files begin with the hexadecimal number 0xDB.
 
-### [Chunk 0x02: 3D Model data](FF9/File/0x02 "wikilink")
+### [Chunk 0x02: 3D Model data](FF9/File/0x02.md)
 
 This chunk contains 3D model information: vertices, quads, triangles, texture mapping coordinates...
 
-### [Chunk 0x03: 3D Animation](FF9/File/0x03 "wikilink")
+### [Chunk 0x03: 3D Animation](FF9/File/0x03.md)
 
 This chunk contains animation sequences for 3d models...
 
-### [Chunk 0x04: Image data(TIM\`s)](FF9/File/0x04 "wikilink")
+### [Chunk 0x04: Image data(TIM\`s)](FF9/File/0x04.md)
 
 This chunk contains tim-images...
 
-### [Chunk 0x05: Scripts](FF9/File/0x05 "wikilink")
+### [Chunk 0x05: Scripts](FF9/File/0x05.md)
 
 This chunk contains scripts files...
 
-### [Chunk 0x0A: Field tiles](FF9/File/0x0A "wikilink")
+### [Chunk 0x0A: Field tiles](FF9/File/0x0A.md)
 
 This chunk contains information about field tiles and field camera parameters...
 
-### [Chunk 0x0B: Field walkmesh](FF9/File/0x0B "wikilink")
+### [Chunk 0x0B: Field walkmesh](FF9/File/0x0B.md)
 
 This chunk contain field walkmesh data...
 
-### [Chunk 0x0C: Battle scenes](FF9/File/0x0C "wikilink")
+### [Chunk 0x0C: Battle scenes](FF9/File/0x0C.md)
 
 This chunk contain battle scenes geometry...
 
-### [Chunk 0x12: Contain CLUT and TPage for models](FF9/File/0x12 "wikilink")
+### [Chunk 0x12: Contain CLUT and TPage for models](FF9/File/0x12.md)
 
 This chunk contains CLUT and TPage info for models.
 
-### [Chunk 0x1B: Pointers to other 'DB'](FF9/File/0x1B "wikilink")
+### [Chunk 0x1B: Pointers to other 'DB'](FF9/File/0x1B.md)
 
 This chunk contains pointers to other DB structures.
 
@@ -70,7 +70,7 @@ This chunk contains pointers to other DB structures.
 
 # [Character Tables](FF9/CharTables.md)
 
-## [European & US Tables](FF9/CharTables#Character_Table_for_EU_.26_US_version "wikilink")
+## [European & US Tables](FF9/CharTables.md#Character_Table_for_EU_.26_US_version)
 
 ## [Japanese Table](FF9/CharTables.md#Character_Table_for_JP_version)
 

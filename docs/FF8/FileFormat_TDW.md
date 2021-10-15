@@ -13,7 +13,7 @@ For the field, this is a file for the japanese PSX version only, it adds text ch
 | 0            | 4 bytes                   | Offset to widths (always 8)                      |
 | 4            | 4 bytes                   | Offset to data                                   |
 | offsetWidths | offsetData - offsetWidths | [Character widths](#character-widths) |
-| offsetData   | varies                    | [Texture (TIM)](#Texture "wikilink")             |
+| offsetData   | varies                    | [Texture (TIM)](#texture)             |
 
 ### Character widths
 

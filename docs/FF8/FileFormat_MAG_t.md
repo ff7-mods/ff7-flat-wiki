@@ -48,7 +48,7 @@ Example:
 
 -   Note: yes, there's no texture sign in name
 
-To know, how to find out if the given file is texture, please reffer to [MAGfiles\_Generic](FF8/FileFormat_magfiles "wikilink")
+To know, how to find out if the given file is texture, please reffer to [MAGfiles\_Generic](FileFormat_magfiles.md)
 
 ### Type C (chaos like)
 
@@ -62,4 +62,4 @@ Example:
 
 -   Note: yes, there's no texture sign in name
 
-To know, how to find out if the given file is texture, please reffer to [MAGfiles\_Generic](FF8/FileFormat_magfiles "wikilink")
+To know, how to find out if the given file is texture, please reffer to [MAGfiles\_Generic](FileFormat_magfiles.md)

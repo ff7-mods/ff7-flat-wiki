@@ -101,44 +101,108 @@ Starts at \~0x5d4 (see How the engine handles this file?). \[.text:00509820\]
 
 ##### CameraAnimationSet
 
+Seems to be 8 pointers in each set.
+
 | Offset      | Length                           | Description     |
 |-------------|----------------------------------|-----------------|
 | 0           | ushort                           | AnimPointer\*2  |
 | AnimPointer | Varies 144-146-148 bytes usually | CameraAnimation |
 
-##### Camera Animation (WIP)
+## Camera Animation (WIP)
 
-| Offset | Length                    | Description                                                    |
-|--------|---------------------------|----------------------------------------------------------------|
-| 0      | uint8\_t                  | Animation ID                                                   |
-| 1      | uint8\_t                  | Key Frame Count                                                |
-| 2      | uint16\_t (bit varies)    | Main controller, if **0xFFFF** then return                     |
-| 4      | uint16\_t                 | Starting FOV usually \~280                                     |
-| 6      | uint16\_t                 | Ending FOV \~006                                               |
-| 8      | uint16\_t                 | Starting Camera Roll usually 0                                 |
-| 10     | uint16\_t                 | Starting Time usually 0                                        |
-| 12     | uint16\_t                 | Current Time // I'm questioning if this is part of the struct. |
-| 14     | array&lt;uint8\_t,20&gt;  | unknown bytes                                                  |
-| 34     | array&lt;uint16\_t,32&gt; | Start Frame Offsets                                            |
-| 98     | array&lt;int16\_t,32&gt;  | Camera World Z                                                 |
-| 162    | array&lt;int16\_t,32&gt;  | Camera World X                                                 |
-| 226    | array&lt;int16\_t,32&gt;  | Camera World Y                                                 |
-| 290    | array&lt;uint8\_t,32&gt;  | Is Frame Durations Shot \~ bool?                               |
-| 322    | array&lt;int16\_t,32&gt;  | Camera Look At Z                                               |
-| 386    | array&lt;int16\_t,32&gt;  | Camera Look At X                                               |
-| 450    | array&lt;int16\_t,32&gt;  | Camera Look At Y                                               |
-| 514    | array&lt;uint8\_t,32&gt;  | Is Frame Ending Shots \~ bool?                                 |
-| 546    | array&lt;uint8\_t,128&gt; | unknown bytes                                                  |
-| 674    | array&lt;uint8\_t,128&gt; | unknown bytes                                                  |
-| 802    | array&lt;uint8\_t,128&gt; | unknown bytes                                                  |
-| 930    | array&lt;uint8\_t,128&gt; | unknown bytes                                                  |
-| 1058   | array&lt;uint8\_t,34&gt;  | unknown bytes                                                  |
+`All this is based on best effort knowledge from reversing by Maki. I'm just trying to understand it.`
 
-Total bytes of struct is **1092**. Still much is unknown about this struct. I adjusted things from OpenVIII source code. Though some numbers weren't adding up. I know the total size. So I adjusted one of the unknown bytes arrays to fit in the span.
+### Control Word
 
-###### Time
+| Offset | Length                 | Description                     |
+|--------|------------------------|---------------------------------|
+| 0      | uint16\_t (bit varies) | Main controller. If 0xFFFFU END |
+
+#### FOV
+
+`Control Word & 0b0000'0000'1100'0000U`
+
+##### 1 Default
+
+| Offset | Length | Description   |
+|--------|--------|---------------|
+| None   | None   | Start = 0x200 |
+| None   | None   | End = 0x200   |
+
+##### 2 Same
+
+| Offset | Length    | Description |
+|--------|-----------|-------------|
+| 0      | uint16\_t | Start       |
+| 2      | uint16\_t | Padding     |
+| None   | None      | End = Start |
+
+##### 2 Different
+
+| Offset | Length    | Description |
+|--------|-----------|-------------|
+| 0      | uint16\_t | Start       |
+| 2      | uint16\_t | Padding     |
+| 4      | uint16\_t | End         |
+
+#### ROLL
+
+`Control Word & 0b0000'0011'0000'0000U`
+
+##### 0 Unknown
+
+`TODO`
+
+##### 1 Default
+
+| Offset | Length | Description   |
+|--------|--------|---------------|
+| None   | None   | Start = 0x000 |
+| None   | None   | End = 0x000   |
+
+##### 2 Same
+
+| Offset | Length    | Description |
+|--------|-----------|-------------|
+| 0      | uint16\_t | Start       |
+| None   | None      | End = Start |
+
+##### 2 Different
+
+| Offset | Length    | Description |
+|--------|-----------|-------------|
+| 0      | uint16\_t | Start       |
+| 2      | uint16\_t | End         |
+
+#### LAYOUT
+
+`Control Word & 0b0000'0000'0000'0001U`
+
+##### 0 Default
+
+`You'll loop through the data till the first value is less than 0. pushing back to a variable length container.`
+
+| Offset | Length   | Description                                         |
+|--------|----------|-----------------------------------------------------|
+| 0      | int16\_t | if &lt; 0 break; could be related to time of frame. |
+| 2      | 16 bytes | Animation Frame                                     |
+
+##### 1 Other
+
+`TODO`
+
+### Time
 
 `Time is calculated from number of frames. You basically set starting position World+lookat and ending position, then mark number of frames to interpolate between them. Every frame is one draw call and it costs 16. Starting time needs to be equal or higher for next animation frame to be read; If next frame==0xFFFF then it's all done.`
+
+### Animation Frame
+
+| Offset | Length                    | Description             |
+|--------|---------------------------|-------------------------|
+| 0      | uint16\_t                 | is frame durations shot |
+| 2      | Vertice<uint16_t> (x,y,z) | World                   |
+| 8      | uint16\_t                 | is frame ending shot    |
+| 10     | Vertice<uint16_t> (x,y,z) | Look At                 |
 
 ##### Dependency
 
@@ -265,7 +329,7 @@ Complete list (without replacing bit order - as is in HEX editor/memory):
 
 ## Texture
 
-Contains one [TIMs](../PSX/TIM_format.md) with various size 512x256, 673x256, 768x256 (8BPP).
+Contains one [TIMs](../PSX/TIM_format.md).
 
 ### UV calculation algorithm
 

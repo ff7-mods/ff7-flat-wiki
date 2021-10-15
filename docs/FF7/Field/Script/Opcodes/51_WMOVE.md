@@ -19,4 +19,4 @@ title: 51_WMOVE
 
 #### Description
 
-Repositions the window, with the given ID, and a (x,y) translation. The window will be repositioned the next time a [MESSAGE](40_MESSAGE.md) or [ASK](48_ASK.md), referencing this window, is issued.
+Repositions the window, with the given ID, and a (x,y) translation. The window will be repositioned the next time a [MESSAGE](FF7/Field/Script/Opcodes/40_MESSAGE "wikilink") or [ASK](48_ASK.md), referencing this window, is issued.

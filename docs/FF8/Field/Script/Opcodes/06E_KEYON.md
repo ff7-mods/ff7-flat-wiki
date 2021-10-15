@@ -19,4 +19,4 @@ none
 
 #### Description
 
-Enables certain keys to be pressed after they are otherwise disabled (for example with [UCOFF](../../../Script/Opcodes/04E_UCOFF.md)). See some other page for the key values (will edit later)
+Enables certain keys to be pressed after they are otherwise disabled (for example with [UCOFF](../../../Script/Opcodes/04E_UCOFF.md)

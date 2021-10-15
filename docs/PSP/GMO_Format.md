@@ -2,7 +2,7 @@
 title: GMO_Format
 ---
 
-<small>Last updated: [Koral](User:Koral "wikilink") 06:48, 7 Apr 2009 (EDT)</small>
+<small>Last updated: [Koral](../User:Koral.md)</small>
 
 # GMO Model-data container
 

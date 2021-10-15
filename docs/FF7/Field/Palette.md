@@ -2,7 +2,7 @@
 title: Palette
 ---
 
-### Section 4: Palette ([Terence Fergusson](User:Terence_Fergusson "wikilink") & [myst6re](User:Myst6re "wikilink"))
+### Section 4: Palette ([Terence Fergusson](User:Terence_Fergusson "wikilink") & [myst6re](../../User:Myst6re.md)
 
 The following is an overview of the palette data.
 

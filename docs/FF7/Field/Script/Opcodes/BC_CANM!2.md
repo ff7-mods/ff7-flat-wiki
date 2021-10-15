@@ -20,6 +20,6 @@ title: BC_CANM!2
 
 #### Description
 
-Exactly the same as [ANIM!2](FF7/Field/Script/Opcodes/BA_ANIM!2 "wikilink"), but allow set first and last frame of given animation.
+Exactly the same as [ANIM!2](BA_ANIM!2.md), but allow set first and last frame of given animation.
 
 Makou Reactor Description: Play partially the animation \#%1 of the field model (first frame=%2, last frame=%3, speed=%4)

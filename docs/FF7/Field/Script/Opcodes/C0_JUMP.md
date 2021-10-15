@@ -36,4 +36,4 @@ Z\_current = - step^2 \* 1.45 + step \* B + Z\_start;
 
 If current substep equal number of steps then we set current triangle to final triangle and set stage to 2. Which finilize routine on next opcode call.
 
-Neither animation nor sound is specified in this opcode. An animation is played by using an animation opcode such as [DFANM](A2_DFANM.md), and a [SOUND](F1_SOUND.md) played, before the jump.
+Neither animation nor sound is specified in this opcode. An animation is played by using an animation opcode such as [DFANM](FF7/Field/Script/Opcodes/A2_DFANM "wikilink"), and a [SOUND](F1_SOUND.md) played, before the jump.

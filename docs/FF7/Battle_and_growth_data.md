@@ -10,7 +10,7 @@ This file contains a bunch of information about character growth and battles. Ta
 
 | Offset |    Length     |                                  Description                                  |
 |:------:|:-------------:|:-----------------------------------------------------------------------------:|
-| 0x0000 |   56 bytes    |    Character data: Cloud ([see below](#character-data-record))     |
+| 0x0000 |   56 bytes    |    Character data: Cloud ([see below](#character-data-record)     |
 | 0x0038 |   56 bytes    |                            Character data: Barret                             |
 | 0x0070 |   56 bytes    |                             Character data: Tifa                              |
 | 0x00A8 |   56 bytes    |                             Character data: Aeris                             |
@@ -22,15 +22,15 @@ This file contains a bunch of information about character growth and battles. Ta
 | 0x01F8 |  12 x 1 byte  |                         Random bonus to primary stats                         |
 | 0x0204 |  12 x 1 byte  |                             Random bonus % to HP                              |
 | 0x0210 |  12 x 1 byte  |                             Random bonus % to MP                              |
-| 0x021C | 37 x 16 bytes |    Primary stat curve 0 - 36 ([see below](#stat-curve-record))     |
+| 0x021C | 37 x 16 bytes |    Primary stat curve 0 - 36 ([see below](#stat-curve-record)     |
 | 0x046C | 9 x 16 bytes  |                      HP stat curve 37 - 45 (Base \* 40)                       |
 | 0x04FC | 9 x 16 bytes  |                       MP stat curve 46 - 54 (Base \* 2)                       |
 | 0x058C | 9 x 16 bytes  |            EXP stat curve 55 - 63 (Gradient is quadratic, no Base)            |
-| 0x61C  |  1508 bytes   |        Character AI data ([see below](#character-ai-data))         |
+| 0x61C  |  1508 bytes   |        Character AI data ([see below](#character-ai-data)         |
 | 0xC00  |   540 bytes   |                                  FF padding                                   |
 | 0xE1C  |   256 bytes   |         Random number look-up table (all numbers from 0-255 are here)         |
-| 0xF1C  |   64 bytes    |   Scene.bin look-up table ([see below](#Scene.bin_Look-up_file "wikilink"))   |
-| 0xF5C  |   56 bytes    | Spell order from Magic menu in battles ([see below](#magic-order)) |
+| 0xF1C  |   64 bytes    |   Scene.bin look-up table ([see below](#scene.bin-look-up-file)   |
+| 0xF5C  |   56 bytes    | Spell order from Magic menu in battles ([see below](#magic-order) |
 |        |               |                                                                               |
 
 **Table 1: Section 3 of kernel.bin description**
@@ -127,7 +127,7 @@ The Mod only needs to be assigned based on the character's current level.
 
 #### Character AI data
 
-Section contains 24-byte header representing 2-bytes per script block (1 per character?). Each number is an offset from the beginning of this block to the actual AI data. Each script block follows the same AI data found in the [Battle Scenes](Battle/Battle_scenes.md#AI_Data). A basic disassembly of the characters' scripts can be found [here](http://forums.qhimm.com/index.php?topic=7928.msg97889#msg97889)
+Section contains 24-byte header representing 2-bytes per script block (1 per character?). Each number is an offset from the beginning of this block to the actual AI data. Each script block follows the same AI data found in the [Battle Scenes](FF7/Battle/Battle_scenes#AI_Data "wikilink"). A basic disassembly of the characters' scripts can be found [here](http://forums.qhimm.com/index.php?topic=7928.msg97889#msg97889)
 
 #### Scene.bin Look-up Table
 
@@ -159,7 +159,7 @@ So if formation 31h is requested it will see that formation is part of scene 0Ch
 
 Also consider if scene 0Bh were requested. The scene retrieval mentioned above leads the game to conclude that scene 0Bh is in the first block. However, when it tries to loop through the pointers in the block, it will find a null pointer. Then an error beyond your imagination will occur: the game will crash!! D: (not verified, but probably around 0x5D116B)
 
-Both [http://forums.qhimm.com/index.php?topic=7186.0 Hojo](http://forums.qhimm.com/index.php?topic=7186.0_Hojo "wikilink") and [http://forums.qhimm.com/index.php?topic=8481.0 Proud Clod](http://forums.qhimm.com/index.php?topic=8481.0_Proud_Clod "wikilink") will examine this SLUT automatically and make changes accordingly. The moral of the above story is use one of these programs when altering the scene.bin and let them take action accordingly on the KERNEL.BIN.
+Both [http://forums.qhimm.com/index.php?topic=7186.0 Hojo](http://forums.qhimm.com/index.php?topic=7186.0_Hojo "wikilink") and [http://forums.qhimm.com/index.php?topic=8481.0 Proud Clod](http://forums.qhimm.com/index.php?topic=8481.0_Proud_Clod) will examine this SLUT automatically and make changes accordingly. The moral of the above story is use one of these programs when altering the scene.bin and let them take action accordingly on the KERNEL.BIN.
 
 Bonus Info: Since there are only 64 bytes allotted to this table, there must be no more than 64 blocks in a scene.bin file which indirectly limits its size to 64 \* 8K or 512K.
 
@@ -167,7 +167,7 @@ Bonus Info: Since there are only 64 bytes allotted to this table, there must be 
 
 This segment of data tells the game in what order to load the attacks into which Magic section. There are four Magic sections: Restore, Attack, Indirect, and Special. The first three can be reorganized in the battle's magic menu. When the first 56 attacks are loaded, these bytes tell the game which section and what order to be loaded in:
 
-[`AAA:BBBBB`](AAA:BBBBB)  
+[`AAA:BBBBB`](../AAA:BBBBB.md)  
 `AAA - Section`  
 `BBBBB - Index within section of attack loaded`
 

@@ -24,31 +24,31 @@ Special is a multibyte opcode extension, mostly for game specific opcodes to FF7
 
 ##### Kernel
 
-[`F5`` ``ARROW`](FF7/Field/Script/Opcodes/0F_SPECIAL/F5_ARROW "wikilink")  
-[`F6`` ``PNAME`](FF7/Field/Script/Opcodes/0F_SPECIAL/F6_PNAME "wikilink")  
-[`F7`` ``GMSPD`](FF7/Field/Script/Opcodes/0F_SPECIAL/F7_GMSPD "wikilink")  
-[`F8`` ``SMSPD`](FF7/Field/Script/Opcodes/0F_SPECIAL/F8_SMSPD "wikilink")  
-[`FB`` ``BTLCK`](FF7/Field/Script/Opcodes/0F_SPECIAL/FB_BTLCK "wikilink")  
-[`FC`` ``MVLCK`](FF7/Field/Script/Opcodes/0F_SPECIAL/FC_MVLCK "wikilink")  
-[`FD`` ``SPCNM`](FF7/Field/Script/Opcodes/0F_SPECIAL/FD_SPCNM "wikilink")  
-[`FE`` ``RSGLB`](FF7/Field/Script/Opcodes/0F_SPECIAL/FE_RSGLB "wikilink")
+[`F5`` ``ARROW`](0F_SPECIAL/F5_ARROW.md)  
+[`F6`` ``PNAME`](0F_SPECIAL/F6_PNAME.md)  
+[`F7`` ``GMSPD`](0F_SPECIAL/F7_GMSPD.md)  
+[`F8`` ``SMSPD`](0F_SPECIAL/F8_SMSPD.md)  
+[`FB`` ``BTLCK`](0F_SPECIAL/FB_BTLCK.md)  
+[`FC`` ``MVLCK`](0F_SPECIAL/FC_MVLCK.md)  
+[`FD`` ``SPCNM`](0F_SPECIAL/FD_SPCNM.md)  
+[`FE`` ``RSGLB`](0F_SPECIAL/FE_RSGLB.md)
 
 ##### Inventory
 
-[`F9`` ``FLMAT`](FF7/Field/Script/Opcodes/0F_SPECIAL/F9_FLMAT "wikilink")  
-[`FA`` ``FLITM`](FF7/Field/Script/Opcodes/0F_SPECIAL/FA_FLITM "wikilink")  
-[`FF`` ``CLITM`](FF7/Field/Script/Opcodes/0F_SPECIAL/FF_CLITM "wikilink")
+[`F9`` ``FLMAT`](0F_SPECIAL/F9_FLMAT.md)  
+[`FA`` ``FLITM`](0F_SPECIAL/FA_FLITM.md)  
+[`FF`` ``CLITM`](0F_SPECIAL/FF_CLITM.md)
 
 #### Subcodes by Opcode
 
-[`F5`` ``ARROW`](FF7/Field/Script/Opcodes/0F_SPECIAL/F5_ARROW "wikilink")  
-[`F6`` ``PNAME`](FF7/Field/Script/Opcodes/0F_SPECIAL/F6_PNAME "wikilink")  
-[`F7`` ``GMSPD`](FF7/Field/Script/Opcodes/0F_SPECIAL/F7_GMSPD "wikilink")  
-[`F8`` ``SMSPD`](FF7/Field/Script/Opcodes/0F_SPECIAL/F8_SMSPD "wikilink")  
-[`F9`` ``FLMAT`](FF7/Field/Script/Opcodes/0F_SPECIAL/F9_FLMAT "wikilink")  
-[`FA`` ``FLITM`](FF7/Field/Script/Opcodes/0F_SPECIAL/FA_FLITM "wikilink")  
-[`FB`` ``BTLCK`](FF7/Field/Script/Opcodes/0F_SPECIAL/FB_BTLCK "wikilink")  
-[`FC`` ``MVLCK`](FF7/Field/Script/Opcodes/0F_SPECIAL/FC_MVLCK "wikilink")  
-[`FD`` ``SPCNM`](FF7/Field/Script/Opcodes/0F_SPECIAL/FD_SPCNM "wikilink")  
-[`FE`` ``RSGLB`](FF7/Field/Script/Opcodes/0F_SPECIAL/FE_RSGLB "wikilink")  
-[`FF`` ``CLITM`](FF7/Field/Script/Opcodes/0F_SPECIAL/FF_CLITM "wikilink")
+[`F5`` ``ARROW`](0F_SPECIAL/F5_ARROW.md)  
+[`F6`` ``PNAME`](0F_SPECIAL/F6_PNAME.md)  
+[`F7`` ``GMSPD`](0F_SPECIAL/F7_GMSPD.md)  
+[`F8`` ``SMSPD`](0F_SPECIAL/F8_SMSPD.md)  
+[`F9`` ``FLMAT`](0F_SPECIAL/F9_FLMAT.md)  
+[`FA`` ``FLITM`](0F_SPECIAL/FA_FLITM.md)  
+[`FB`` ``BTLCK`](0F_SPECIAL/FB_BTLCK.md)  
+[`FC`` ``MVLCK`](0F_SPECIAL/FC_MVLCK.md)  
+[`FD`` ``SPCNM`](0F_SPECIAL/FD_SPCNM.md)  
+[`FE`` ``RSGLB`](0F_SPECIAL/FE_RSGLB.md)  
+[`FF`` ``CLITM`](0F_SPECIAL/FF_CLITM.md)

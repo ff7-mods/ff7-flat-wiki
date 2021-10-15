@@ -4,7 +4,7 @@ title: PSP
 
 <small> This section is for PSP-hardware specific information which Crises-Core and Dissidia data is orientated towards. </small>
 
-Last updated: [Koral](User:Koral "wikilink") 06:42, 7 Apr 2009 (EDT)
+Last updated: [Koral](User:Koral.md)
 
   
 
@@ -47,7 +47,7 @@ The GMO Format is described in greater detail here: [PSP GMO Format](PSP/GMO_For
 
 ### List of known PSP-games which store their models via GMO
 
--   [Final Fantasy: Dissidia](Dissidia "wikilink")
+-   [Final Fantasy: Dissidia](Dissidia.md)
 -   Castlevania: Dracula X Chronicles
 -   Jeanne D'Arc
 -   Gitaroo Man Lives!

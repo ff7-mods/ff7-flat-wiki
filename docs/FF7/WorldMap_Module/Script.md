@@ -27,9 +27,9 @@ The Worldmap module operates on a fixed set of models, each having a specific mo
 |    4     |     Wild Chocobo?      |
 |    5     |      Tiny Bronco       |
 |    6     |         Buggy          |
-|    7     |        Unknown         |
+|    7     |      Junon Canon       |
 |    8     |       Cargo Ship       |
-|    9     |        Unknown         |
+|    9     | Highwind's propellers  |
 |    10    |     Diamond Weapon     |
 |    11    |    Ultimate Weapon     |
 |    12    |  Fort Condor's Condor  |
@@ -40,7 +40,7 @@ The Worldmap module operates on a fixed set of models, each having a specific mo
 |    17    |     Sunken Gelnika     |
 |    18    |   Underwater Reactor   |
 |    19    |        Chocobo         |
-|    20    |        Unknown         |
+|    20    |      Midgar Canon      |
 |    21    |        Unknown         |
 |    22    |        Unknown         |
 |    23    |        Unknown         |
@@ -56,7 +56,7 @@ Type = 1, Model function
 
 Each model that is currently loaded into the map also has an entity associated with it, this is the state of the model and holds information such as its position, rotation, current animation etc. Most instructions operate on the current active entity, which can be changed with the [330](Script/Opcodes/330.md) opcode. The current active entity can also change as a side effect of certain instructions, all known cases are documented in the opcode descriptions but the list is not complete. The variable holding the current active entity is a global variable that resets every frame, if a script enters a wait state the current active entity is undefined when executing resumes.
 
-Each entity is also a context (see the above section for more information about contexts) and in fact, there is no difference whatsoever between an entity and a context. The distinction is made because of the way they are treated by the scripting engine, the script state of the active entity (or any entity for that matter) cannot be modified (other than asking it to execute a function by means of the [204](Script/Opcodes/204.md) opcode) and conversely, the state of the model corresponding to the context cannot be modified unless it is also the current active entity. This is the default state, whenever a function begins execution the context and current active entity are always equal.
+Each entity is also a context (see the above section for more information about contexts) and in fact, there is no difference whatsoever between an entity and a context. The distinction is made because of the way they are treated by the scripting engine, the script state of the active entity (or any entity for that matter) cannot be modified (other than asking it to execute a function by means of the [204](Script/Opcodes/204.md) and conversely, the state of the model corresponding to the context cannot be modified unless it is also the current active entity. This is the default state, whenever a function begins execution the context and current active entity are always equal.
 
 In addition to the contexts associated with the models there is also a system context, this is where execution begins when the worldmap is first loaded and it also handles events which are not specific to any model on the map. The system context is technically an entity because, again, contexts and entities are the same thing but since it does not correspond to a model, manipulating the state of the system "entity" is an error.
 
@@ -90,7 +90,7 @@ There is also a set of system functions that are executed in response to events 
 
 This table is not complete either.
 
-And finally there is a set of functions which are called when the player enters an area of the walkmesh that is designated to trigger a script (it is not clear exactly which walkmesh types can trigger this event). Which function is executed depends on the mesh coordinates of the player (0-35, 0-27) as well as the exact walkmesh type that triggered the event. In theory there can be more than 2000 unique combinations so no list will be given for these functions :) Fortunately, not all functions need to be implemented, as will become apparent in the next section, functions that do nothing do not need to be implemented at all.
+And finally there is a set of functions which are called when the player steps on a walkmesh triangle that is designated to trigger a script. Which function is executed depends on the mesh coordinates of the player (0-35, 0-27) as well as the function ID [from the MAP file](../WorldMap_Module.md#Triangle) Fortunately, not all functions need to be implemented, as will become apparent in the next section, functions that do nothing do not need to be implemented at all. Most of the mesh functions handle entering field levels from the world map.
 
 ## .ev Format
 

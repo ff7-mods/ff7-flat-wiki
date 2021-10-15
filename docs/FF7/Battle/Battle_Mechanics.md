@@ -130,7 +130,7 @@ Similar to Active Character Data, but more detailed. This data is dependent on w
 | 38h         | MP Cost                                                                                                   |
 | 3Ch         | Action Accuracy                                                                                           |
 | 40h         | [Damage Calculation](Damage_Calculation.md)                                            |
-| 44h         | [Action's Element](FF7/Battle/Elemental_Data "wikilink")                                                  |
+| 44h         | [Action's Element](Elemental_Data.md)                                                  |
 | 48h         | Action's Power                                                                                            |
 | 4Ch         | Phys/Mag Attack Power                                                                                     |
 | 50h         | Action's Target(s) Mask                                                                                   |
@@ -142,15 +142,15 @@ Similar to Active Character Data, but more detailed. This data is dependent on w
 | 68h         | Action Reaction Animation Index                                                                           |
 | 6Ch         | [Attack Special Effects](Attack_Special_Effects.md)                                    |
 | 78h         | Non-self target mask?                                                                                     |
-| 80h         | [Inflicting Status(es)](FF7/Battle/Status_Effects "wikilink")                                             |
-| 84h         | [Curing Status(es)](FF7/Battle/Status_Effects "wikilink")                                                 |
-| 88h         | [Toggling Status(es)](FF7/Battle/Status_Effects "wikilink")                                               |
+| 80h         | [Inflicting Status(es)](Status_Effects.md)                                             |
+| 84h         | [Curing Status(es)](Status_Effects.md)                                                 |
+| 88h         | [Toggling Status(es)](Status_Effects.md)                                               |
 | 8Ch         | Chance to inflict Status                                                                                  |
 | 90h         | Command Properties (details pending)                                                                      |
 | 94h         | Target Mask                                                                                               |
 | 98h         | Attack Index position in scene data (enemy only)                                                          |
 | A0h         | Action Accuracy function (upper nybble of [Damage Calculation](Damage_Calculation.md)) |
-| A4h         | Action Damage function (lower nybble of [Damage Calculation](Damage_Calculation.md))   |
+| A4h         | Action Damage function (lower nybble of [Damage Calculation](Damage_Calculation.md)   |
 | ACh         | Quad Magic Count?                                                                                         |
 | B0h         | Number of attack damage calculations?                                                                     |
 | B4h         | Follow-up action count (Tifa's Limits, Finishing Touch, etc)                                              |

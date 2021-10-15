@@ -21,4 +21,4 @@ title: 60_MAPJUMP
 
 #### Description
 
-Switches fields to the one indicated by *I*, and places the character at the coordinates and direction specified. This is an alternative to using a [gateway](../../3D_Related.md), and can complement their usage as it allows for more than 12 gateways by simulating their behaviour through a [LINE](D0_LINE.md) which, when crossed, executes a MAPJUMP.
+Switches fields to the one indicated by *I*, and places the character at the coordinates and direction specified. This is an alternative to using a [gateway](FF7/Field/3D_Related "wikilink"), and can complement their usage as it allows for more than 12 gateways by simulating their behaviour through a [LINE](D0_LINE.md) which, when crossed, executes a MAPJUMP.

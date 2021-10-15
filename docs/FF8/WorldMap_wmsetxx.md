@@ -260,8 +260,9 @@ UNKNOWN
 
 | Offset | Length | Description   |
 |--------|--------|---------------|
-| 0x00   | WORD   | World block X |
-| 0x02   | WORD   | World block Y |
+| 0x00   | BYTE   | World block X |
+| 0x01   | BYTE   | World block Y |
+| 0x02   | WORD   | Magic ID      |
 
 Magic contained in world map draw point: (ID is: section35 magic entry+0x80 \[add 1 to be correct with list below\])
 

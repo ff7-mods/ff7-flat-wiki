@@ -25,4 +25,4 @@ none
 
 #### Description
 
-Pop up a message window until [WINCLOSE](04C_WINCLOSE.md) or [MESSYNC](048_MESSYNC.md) is called.
+Pop up a message window until [WINCLOSE](FF8/Field/Script/Opcodes/04C_WINCLOSE "wikilink") or [MESSYNC](048_MESSYNC.md) is called.

@@ -41,7 +41,7 @@ The following structure can be used to read this data:
 `   unsigned int reserved:7;`  
 `};`
 
-Texture IDs are the same for the PSX and PC version which means that this table maps 1:1 to the table of PC textures which can be found here: [FF7/WorldMap\_Module/TextureTable](FF7/WorldMap_Module/TextureTable "wikilink")
+Texture IDs are the same for the PSX and PC version which means that this table maps 1:1 to the table of PC textures which can be found here: [FF7/WorldMap\_Module/TextureTable](../WorldMap_Module/TextureTable.md)
 
 After this table follows a number of blocks intended for direct VRAM upload, each block has the following structure:
 

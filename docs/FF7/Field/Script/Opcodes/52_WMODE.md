@@ -21,7 +21,7 @@ title: 52_WMODE
 
 Changes properties associated with the [WINDOW](50_WINDOW.md) whose ID is specified. The mode byte sets the style of the window, as detailed below. If the final byte is set to 1, the window cannot be closed by the player pushing \[OK\].
 
-The mode of the window should be changed before it is displayed with [MESSAGE](40_MESSAGE.md) or [ASK](48_ASK.md), or the changes will not be visible unless the window is closed and reopened.
+The mode of the window should be changed before it is displayed with [MESSAGE](FF7/Field/Script/Opcodes/40_MESSAGE "wikilink") or [ASK](48_ASK.md), or the changes will not be visible unless the window is closed and reopened.
 
 #### Mode Table
 

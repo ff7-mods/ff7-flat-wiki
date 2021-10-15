@@ -21,4 +21,4 @@ title: 2F_WSIZW
 
 #### Description
 
-Resizes and/or repositions the window, after it has been created with the [WINDOW](50_WINDOW.md) opcode. On the next [MESSAGE](40_MESSAGE.md) or [ASK](48_ASK.md), the window will be positioned and sized with the new properties.
+Resizes and/or repositions the window, after it has been created with the [WINDOW](50_WINDOW.md) opcode. On the next [MESSAGE](FF7/Field/Script/Opcodes/40_MESSAGE "wikilink") or [ASK](FF7/Field/Script/Opcodes/48_ASK "wikilink"), the window will be positioned and sized with the new properties.

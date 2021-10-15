@@ -2,7 +2,7 @@
 title: WorldMap_charaone
 ---
 
-by Maki file is different than field [\[ONE](FileFormat_ONE.md)\] Basically you have to read the whole file step-by-step as there are minimum pointers and no sizes at all. Therefore just to read one character on world map you have to actually read all content of chara.one. You have to read whole TIM textures first, calculate the global size of TIM texture and advance further. Textures are always 0x10000000 08000000. My approach is to read uint64 and check if it contains TIM header. If not, then geometry section (see Chara). I named the bones/animation section as "section 12" because game engine calls function for chara.one files with 0x11 for reading the header data (chara) and then again with argument 0x12 having pointer to data as in Wiki in EAX. It's like:
+by Maki file is different than field [\[ONE](FileFormat_ONE.md) and then again with argument 0x12 having pointer to data as in Wiki in EAX. It's like:
 
 `uint myPointer = charaOneFunction(pointer_to_Chara_section, 0x11...);`  
 `charaOneFunction(myPointer, 0x12...);`

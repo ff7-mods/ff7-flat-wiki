@@ -18,7 +18,7 @@ title: 30_IFKEY
 
 #### Description
 
-Checks the status of a button being pressed; if pressed, regardless of the previous condition of the button press state (see [IFKEYON](31_IFKEYON.md) / [IFKEYOFF](32_IFKEYOFF.md)), the "if" body executes (that is, the script pointer is moved to the opcode after the current IFKEY). If the checked button fails the condition check, then the script pointer moves ahead *A* bytes.
+Checks the status of a button being pressed; if pressed, regardless of the previous condition of the button press state (see [IFKEYON](FF7/Field/Script/Opcodes/31_IFKEYON "wikilink") / [IFKEYOFF](32_IFKEYOFF.md). If the checked button fails the condition check, then the script pointer moves ahead *A* bytes.
 
 The highlighted keys in the button ID table below do not quite act as the rest when used with this particular opcode. For these keys, IFKEY acts in the same manner as IFKEYON; these keys cannot be checked repeatedly, and the if statement body will only execute once, regardless of whether the key is being held down.
 

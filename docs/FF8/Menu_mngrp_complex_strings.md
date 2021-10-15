@@ -26,4 +26,4 @@ Before the string sections, there is a section with a map of seek data.
 |--------------------------|-------------------|----------------------------------------------------|--------------------------------------------------------|
 | Byte\[6\]                | 6                 | UNK                                                | Fist one is **0xFFFFFFFFFFFF**                         |
 | UInt16                   | 2                 | Entry\_Length                                      | Length of entry from start.                            |
-| Byte \[Entry\_Length-8\] | Entry\_Length - 8 | [Encoded\_Strings](FF8/String_Encoding "wikilink") | Entry might have more than string, each ends with 0x00 |
+| Byte \[Entry\_Length-8\] | Entry\_Length - 8 | [Encoded\_Strings](String_Encoding.md) | Entry might have more than string, each ends with 0x00 |

@@ -14,7 +14,7 @@ title: 03_REQEW
 #### Arguments
 
 -   **const UByte** *E*: The ID of the target [entity](../Entity.md).
--   **const Bit\[3\]** *P*: The [priority](../Priorities.md) at which we want to execute the remote script (high 3 bits of byte).
+-   **const Bit\[3\]** *P*: The [priority](../Priorities.md).
 -   **const Bit\[5\]** *F*: The ID of the specific member function of *E* to be executed (low 5 bits of byte).
 
 #### Description

@@ -6,7 +6,7 @@ title: Xeno
 
 -   [Introduction](Xeno/Introduction.md)
 -   [Game Directory Description](Xeno/GameDirectoryDescription.md)
-    -   [Directory11 - Field](Xeno/GameDirectoryDescription/Directory11_Field "wikilink")
+    -   [Directory11 - Field](Xeno/GameDirectoryDescription/Directory11_Field.md)
 -   Formats
     -   [Index File Format](Xeno/IndexFileFormat.md)
     -   [Archive and Pack](Xeno/ArchiveAndPack.md)

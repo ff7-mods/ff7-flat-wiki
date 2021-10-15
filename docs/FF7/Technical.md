@@ -6,11 +6,11 @@ When trying to play Final Fantasy VII on PC, you can encounter variety of proble
 
 ### Before actual game
 
--   ['Error 112' during installation](FF7/Technical/Error_112 "wikilink")
--   [I get some weird error about C:\\WINDOWS\\SYSTEM32\\AUTOEXEC.NT when launching the installer](FF7/Technical/Autoexec.nt "wikilink")
--   [I can't select Hardware rendering in game configuration](FF7/Technical/Hardware_rendering "wikilink")
--   [I get some error while starting game executable or game won't run at all](FF7/Technical/Game_won't_run "wikilink")
--   [After pressing 'New game' I get only black screen or game crashes](FF7/Technical/New_game "wikilink")
+-   ['Error 112' during installation](Technical/Error_112.md)
+-   [I get some weird error about C:\\WINDOWS\\SYSTEM32\\AUTOEXEC.NT when launching the installer](Technical/Autoexec.nt.md)
+-   [I can't select Hardware rendering in game configuration](Technical/Hardware_rendering.md)
+-   [I get some error while starting game executable or game won't run at all](Technical/Game_won't_run.md)
+-   [After pressing 'New game' I get only black screen or game crashes](Technical/New_game.md)
 
 ### During the game
 
