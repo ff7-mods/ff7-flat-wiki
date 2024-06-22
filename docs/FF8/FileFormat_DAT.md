@@ -188,7 +188,7 @@ kernel\_id is the used table in kernel.bin. May be 0x02 (= magic), 0x04 (= item)
 | 4      | 4 bytes | Offset to code executed at ennemy's turn |
 | 8      | 4 bytes | Offset to counterattack code             |
 | 12     | 4 bytes | Offset to death code                     |
-| 16     | 4 bytes | Unknown offset                           |
+| 16     | 4 bytes | Offset to "before dying or taking a hit" |
 
 ### Texts
 
