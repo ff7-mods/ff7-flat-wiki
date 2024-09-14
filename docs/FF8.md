@@ -105,6 +105,7 @@ Final Fantasy VIII came after the mega hit [Final Fantasy VII](FF7 "wikilink"), 
 -   [m00\*.bin and m00\*.msg](FF8/Menu_m000_m004.md)
 -   [areames.dc1](FF8/Menu_areames_dc1.md)
 -   [price.bin](FF8/Menu_price_bin.md)
+-   [shop.bin](https://github.com/HobbitDur/TonberryShop/wiki)
 
 # Tools and Patches
 
