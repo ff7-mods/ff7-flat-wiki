@@ -4,7 +4,7 @@ title: Menu_mngrp_complex_strings
 
 ## Seek Map
 Before the several string sections (5), there is a section with a map of seek data.
-The seek map is composed of 4 bytes containing the number of seek location, then for each of those seek location, 4 bytes info. So the total size of the seek map is 4 + 4*Number seek
+The seek map is composed of 4 bytes containing the number of seek location, then for each of those seek location, 4 bytes info. So the total size of the seek map is 4 + 4*(Number seek).
 
 ### Number seek
 | Type   | Size | Value | Description               |
