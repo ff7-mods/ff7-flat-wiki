@@ -84,9 +84,9 @@ Final Fantasy VIII came after the mega hit [Final Fantasy VII](FF7 "wikilink"), 
 -   [chara.one](FF8/WorldMap_charaone.md)
 
 ### Main
-  For kernel data, there is a dedicated wiki in the Doomtrain tool done by Maki ([Dommtrain wiki](https://github.com/DarkShinryu/doomtrain/wiki)) which detail the kernel.bin
+  For kernel data, there is a dedicated wiki in the [Dommtrain](https://github.com/DarkShinryu/doomtrain/wiki) tool done by Maki which detail the kernel.bin
   
-  For namedic, you can also find the info on the wiki of the ShumiTranslator tool done by HobbitDur ([ShumiTranslator namedic wiki](https://github.com/HobbitDur/ShumiTranslator/wiki/Namedic_bin)) which detail the following file (link is kept here to the old wiki for archive purpose):
+  For namedic, you can also find the info on the wiki of the [ShumiTranslator](https://github.com/HobbitDur/ShumiTranslator/wiki/Namedic_bin) tool done by HobbitDur which detail the following file (link is kept here to the old wiki for archive purpose):
   -   [namedic.bin](FF8/Main_namedic.md)
 
   For others:
@@ -96,7 +96,7 @@ Final Fantasy VIII came after the mega hit [Final Fantasy VII](FF7 "wikilink"), 
 
 
 ### Menu
-For text menu, there is a dedicated wiki in the ShumiTranslator tool done by HobbitDur ([ShumiTranslator wiki]([https://github.com/HobbitDur/ShumiTranslator/wiki](https://github.com/HobbitDur/ShumiTranslator/wiki)) which detail the following files (link are kept here to the old wiki for archive purpose):
+For text menu, there is a dedicated wiki in the [ShumiTranslator]([https://github.com/HobbitDur/ShumiTranslator/wiki](https://github.com/HobbitDur/ShumiTranslator/wiki) tool done by HobbitDur which detail the following files (link are kept here to the old wiki for archive purpose):
 -   [mngrphd.bin](FF8/Menu_mngrphd_bin.md)
 -   [mngrp.bin](FF8/Menu_mngrp_bin.md)
 -   [tkmnmes\*.bin](FF8/Menu_tkmnmes.md)
@@ -104,7 +104,7 @@ For text menu, there is a dedicated wiki in the ShumiTranslator tool done by Hob
 -   [mngrp complex strings](FF8/Menu_mngrp_complex_strings.md)
 -   [m00\*.bin and m00\*.msg](FF8/Menu_m000_m004.md)
 
-For shop, you can also find the info on the wiki of the TonberryShop tool done by HobbitDur: ([TonberryShop wiki]([https://github.com/HobbitDur/TonberryShop/wiki](https://github.com/HobbitDur/ShumiTranslator/wiki)) which detail the following file (link is kept here to the old wiki for archive purpose):
+For shop, you can also find the info on the wiki of the [TonberryShop]([https://github.com/HobbitDur/TonberryShop/wiki] tool done by HobbitDur which detail the following file (link is kept here to the old wiki for archive purpose):
 -   [shop.bin](https://github.com/HobbitDur/TonberryShop/wiki)
 
 For others files
