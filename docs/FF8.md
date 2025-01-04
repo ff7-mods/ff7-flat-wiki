@@ -85,8 +85,10 @@ Final Fantasy VIII came after the mega hit [Final Fantasy VII](FF7 "wikilink"), 
 
 ### Main
   For kernel data, there is a dedicated wiki in the Doomtrain tool done by Maki ([Dommtrain wiki](https://github.com/DarkShinryu/doomtrain/wiki)) which detail the kernel.bin
+  
   For namedic, you can also find the info on the wiki of the ShumiTranslator tool done by HobbitDur ([ShumiTranslator namedic wiki](https://github.com/HobbitDur/ShumiTranslator/wiki/Namedic_bin)) which detail the following file (link is kept here to the old wiki for archive purpose):
   -   [namedic.bin](FF8/Main_namedic.md)
+
   For others:
 -   [wm2field.tbl](FF8/Main_wm2.md) 
 -   [harata.cnf](FF8/Main_harata.md)
@@ -101,8 +103,10 @@ For text menu, there is a dedicated wiki in the ShumiTranslator tool done by Hob
 -   [mngrp strings](FF8/Menu_mngrp_strings_locations.md)
 -   [mngrp complex strings](FF8/Menu_mngrp_complex_strings.md)
 -   [m00\*.bin and m00\*.msg](FF8/Menu_m000_m004.md)
+
 For shop, you can also find the info on the wiki of the TonberryShop tool done by HobbitDur: ([TonberryShop wiki]([https://github.com/HobbitDur/TonberryShop/wiki](https://github.com/HobbitDur/ShumiTranslator/wiki)) which detail the following file (link is kept here to the old wiki for archive purpose):
 -   [shop.bin](https://github.com/HobbitDur/TonberryShop/wiki)
+
 For others files
 -   [mag\*.tex](FF8/Menu_mag_textures.md)
 -   [\*.sp1/\*.sp2](FF8/Menu_sp2.md)
