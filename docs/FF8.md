@@ -14,7 +14,7 @@ Final Fantasy VIII came after the mega hit [Final Fantasy VII](FF7 "wikilink"), 
 
 ### Details of the Game
 
--   [Final Fantasy VIII's Kernel](FF8/Kernel.md)
+-   [Final Fantasy VIII's Kernel](FF8/Kernel.md) Empty file for the moment
 -   [Game variables used in scripting](FF8/Variables.md)
 -   [World map camera](FF8/Engine/WorldMapCamera.md)
 -   [Battle encounters list](FF8/Encounter_Codes.md)
@@ -55,18 +55,18 @@ Final Fantasy VIII came after the mega hit [Final Fantasy VII](FF7 "wikilink"), 
 -   [\[MIM](FF8/FileFormat_MIM.md)\] Field Background Image Data
 -   [\[MAP](FF8/FileFormat_MAP.md)\] Field Background Tile Data
 -   [\[JSM](FF8/FileFormat_JSM.md)\] Field Scripts
--   [\[SYM](FF8/FileFormat_SYM.md)
+-   [\[SYM](FF8/FileFormat_SYM.md)\] Script entity
 -   [\[MSD](FF8/FileFormat_MSD.md)\] Field Dialogs
 -   [\[INF](FF8/FileFormat_INF.md)\] Field Gateways
--   [\[ID](FF7/Field/Walkmesh.md)
+-   [\[ID](FF7/Field/Walkmesh.md)\] Walkmesh field (from FF7)
 -   [\[CA](FF8/FileFormat_CA.md)\] Field Camera
 -   [\[TDW](FF8/FileFormat_TDW.md)\] Extra font
--   [\[MSK](FF8/FileFormat_MSK.md)
+-   [\[MSK](FF8/FileFormat_MSK.md)\] Mask files
 -   [\[RAT](FF8/FileFormat_RAT_MRT.md) & \[MRT\]\] Battle related
 -   [\[PMD](FF8/FileFormat_PMD.md)\] Particle Info
 -   [\[PMP](FF8/FileFormat_PMP.md)\] Particle Image Data
--   [\[PVP](FF8/FileFormat_PVP.md)
--   [\[SFX](FF8/FileFormat_SFX.md)
+-   PVP (No info on this wiki)
+-   [\[SFX](FF8/FileFormat_SFX.md)\] Sound IDs
 
 ### World map files
 
@@ -85,11 +85,13 @@ Final Fantasy VIII came after the mega hit [Final Fantasy VII](FF7 "wikilink"), 
 
 ### Main
   For kernel data, there is a dedicated wiki in the Doomtrain tool done by Maki ([Dommtrain wiki](https://github.com/DarkShinryu/doomtrain/wiki)) which detail the kernel.bin
+  For namedic, you can also find the info on the wiki of the ShumiTranslator tool done by HobbitDur ([ShumiTranslator namedic wiki](https://github.com/HobbitDur/ShumiTranslator/wiki/Namedic_bin)) which detail the following file (link is kept here to the old wiki for archive purpose):
+  -   [namedic.bin](FF8/Main_namedic.md)
   For others:
 -   [wm2field.tbl](FF8/Main_wm2.md) 
 -   [harata.cnf](FF8/Main_harata.md)
--   [init.out](FF8/Main_init.md)
--   [namedic.bin](FF8/Main_namedic.md)
+-   [init.out](FF8/Main_init.md) 
+
 
 ### Menu
 For text menu, there is a dedicated wiki in the ShumiTranslator tool done by HobbitDur ([ShumiTranslator wiki]([https://github.com/HobbitDur/ShumiTranslator/wiki](https://github.com/HobbitDur/ShumiTranslator/wiki)) which detail the following files (link are kept here to the old wiki for archive purpose):
