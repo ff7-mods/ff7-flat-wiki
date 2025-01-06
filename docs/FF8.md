@@ -18,6 +18,8 @@ Final Fantasy VIII came after the mega hit [Final Fantasy VII](FF7 "wikilink"), 
 -   [Game variables used in scripting](FF8/Variables.md)
 -   [World map camera](FF8/Engine/WorldMapCamera.md)
 -   [Battle encounters list](FF8/Encounter_Codes.md)
+
+  For String encoding, you can  find the info on the wiki of the [ShumiTranslator](https://github.com/HobbitDur/ShumiTranslator/wiki/FF8_char) tool done by HobbitDur which detail the following file (link is kept here to the old wiki for archive purpose):
 -   [String Encoding](FF8/String_Encoding.md)
 
 ### Media Formats
