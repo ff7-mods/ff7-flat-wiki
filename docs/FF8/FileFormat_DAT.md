@@ -2,7 +2,7 @@
 title: FileFormat_DAT
 ---
 
-By Mirex, JWP, random\_npc and myst6re. Edit: We now know the animation and skeleton- see <https://github.com/MaKiPL/OpenVIII/blob/4ac151daad7cd1475eb0694dd0715bc35d7a4b39/FF8/debug_battleDat.cs>
+By Mirex, JWP, random\_npc and myst6re (and now HobbitDur too). Edit: We now know the animation and skeleton- see <https://github.com/MaKiPL/OpenVIII/blob/4ac151daad7cd1475eb0694dd0715bc35d7a4b39/FF8/debug_battleDat.cs>
 
 ## Header
 
@@ -140,13 +140,46 @@ Can be empty.
 
 ## Section 7: Informations & stats
 
-<table><thead><tr class="header"><th><p>Offset</p></th><th><p>Length</p></th><th><p>Description</p></th></tr></thead><tbody><tr class="odd"><td><p>0</p></td><td><p>24 bytes</p></td><td><p>Monster name</p></td></tr><tr class="even"><td><p>24</p></td><td><p>4 bytes</p></td><td><p>HP values</p></td></tr><tr class="odd"><td><p>28</p></td><td><p>4 bytes</p></td><td><p>Str values</p></td></tr><tr class="even"><td><p>32</p></td><td><p>4 bytes</p></td><td><p>Vit values</p></td></tr><tr class="odd"><td><p>36</p></td><td><p>4 bytes</p></td><td><p>Mag values</p></td></tr><tr class="even"><td><p>40</p></td><td><p>4 bytes</p></td><td><p>Spr values</p></td></tr><tr class="odd"><td><p>44</p></td><td><p>4 bytes</p></td><td><p>Spd values</p></td></tr><tr class="even"><td><p>48</p></td><td><p>4 bytes</p></td><td><p>Eva values</p></td></tr><tr class="odd"><td><p>52</p></td><td><p>16*4 bytes</p></td><td><p>Abilities, low level</p></td></tr><tr class="even"><td><p>116</p></td><td><p>16*4 bytes</p></td><td><p>Abilities, med level</p></td></tr><tr class="odd"><td><p>180</p></td><td><p>16*4 bytes</p></td><td><p>Abilities, high level</p></td></tr><tr class="even"><td><p>244</p></td><td><p>1 byte</p></td><td><p>Med level start</p></td></tr><tr class="odd"><td><p>245</p></td><td><p>1 byte</p></td><td><p>High level start</p></td></tr><tr class="even"><td><p>246</p></td><td><p>1 byte</p></td><td><p>Unknown (flags, 3 bits used)</p></td></tr><tr class="odd"><td><p>247</p></td><td><p>1 byte</p></td><td><p>[LSB] Zombie / Fly / zz1 / LvUP-Down Immunity / HP Hidden / Auto-Reflect / Auto-Shell / Auto-Protect [MSB]</p></td></tr><tr class="even"><td><p>248</p></td><td><p>3 bytes</p></td><td><p>Cards (low/med/high)</p></td></tr><tr class="odd"><td><p>251</p></td><td><p>3 bytes</p></td><td><p>Devour (low/med/high)</p></td></tr><tr class="even"><td><p>254</p></td><td><p>1 byte</p></td><td><p>[LSB] zz1 / zz2 / unused / unused / unused / unused / Diablos missed / Always obtains card [MSB]</p></td></tr><tr class="odd"><td><p>255</p></td><td><p>1 byte</p></td><td><p>Unknown (flags, 4 bits used)</p></td></tr><tr class="even"><td><p>256</p></td><td><p>2 bytes</p></td><td><p>Extra EXP</p></td></tr><tr class="odd"><td><p>258</p></td><td><p>2 bytes</p></td><td><p>EXP</p></td></tr><tr class="even"><td><p>260</p></td><td><p>8 bytes</p></td><td><p>Draw (low)</p></td></tr><tr class="odd"><td><p>268</p></td><td><p>8 bytes</p></td><td><p>Draw (med)</p></td></tr><tr class="even"><td><p>276</p></td><td><p>8 bytes</p></td><td><p>Draw (high)</p></td></tr><tr class="odd"><td><p>284</p></td><td><p>8 bytes</p></td><td><p>Mug (low)</p></td></tr><tr class="even"><td><p>292</p></td><td><p>8 bytes</p></td><td><p>Mug (med)</p></td></tr><tr class="odd"><td><p>300</p></td><td><p>8 bytes</p></td><td><p>Mug (high)</p></td></tr><tr class="even"><td><p>308</p></td><td><p>8 bytes</p></td><td><p>Drop (low)</p></td></tr><tr class="odd"><td><p>316</p></td><td><p>8 bytes</p></td><td><p>Drop (med)</p></td></tr><tr class="even"><td><p>324</p></td><td><p>8 bytes</p></td><td><p>Drop (high)</p></td></tr><tr class="odd"><td><p>332</p></td><td><p>1 byte</p></td><td><p>Mug rate</p></td></tr><tr class="even"><td><p>333</p></td><td><p>1 byte</p></td><td><p>Drop rate</p></td></tr><tr class="odd"><td><p>334</p></td><td><p>1 byte</p></td><td><p>Padding (0x00)</p></td></tr><tr class="even"><td><p>335</p></td><td><p>1 byte</p></td><td><p>APs</p></td></tr><tr class="odd"><td><p>336</p></td><td><p>16 bytes</p></td><td><p>Unknown</p></td></tr><tr class="even"><td><p>352</p></td><td><p>8 bytes</p></td><td><p>Elemental resistance<br />
-(Fire, Ice, Thunder, Earth, Poison, Wind, Water, Holy)</p></td></tr><tr class="odd"><td><p>360</p></td><td><p>20 bytes</p></td><td><p>Mental resistance<br />
-(Death, Poison, Petrify, Darkness,<br />
-Silence, Beserk, Zombie, Sleep,<br />
-Haste, Slow, Stop, Regen,<br />
-Reflect, Doom, Slow Petrify, Float,<br />
-Confuse, Drain, Expulsion, ???)</p></td></tr></tbody></table>
+| Offset | Length      | Description                                                                             |
+|--------|-------------|-----------------------------------------------------------------------------------------|
+| 0      | 24 bytes    | Monster name                                                                            |
+| 24     | 4 bytes     | HP values                                                                               |
+| 28     | 4 bytes     | Str values                                                                              |
+| 32     | 4 bytes     | Vit values                                                                              |
+| 36     | 4 bytes     | Mag values                                                                              |
+| 40     | 4 bytes     | Spr values                                                                              |
+| 44     | 4 bytes     | Spd values                                                                              |
+| 48     | 4 bytes     | Eva values                                                                              |
+| 52     | 16*4 bytes  | Abilities, low level                                                                    |
+| 116    | 16*4 bytes  | Abilities, med level                                                                    |
+| 180    | 16*4 bytes  | Abilities, high level                                                                   |
+| 244    | 1 byte      | Med level start                                                                         |
+| 245    | 1 byte      | High level start                                                                        |
+| 246    | 1 byte      | Unknown (flags, 3 bits used)                                                            |
+| 247    | 1 byte      | [LSB] Zombie / Fly / zz1 / LvUP-Down Immunity / HP Hidden / Auto-Reflect / Auto-Shell / Auto-Protect [MSB] |
+| 248    | 3 bytes     | Cards (low/med/high)                                                                    |
+| 251    | 3 bytes     | Devour (low/med/high)                                                                   |
+| 254    | 1 byte      | [LSB] zz1 / zz2 / unused / unused / unused / unused / Diablos missed / Always obtains card [MSB] |
+| 255    | 1 byte      | Unknown (flags, 4 bits used)                                                            |
+| 256    | 2 bytes     | Extra EXP                                                                               |
+| 258    | 2 bytes     | EXP                                                                                     |
+| 260    | 8 bytes     | Draw (low)                                                                              |
+| 268    | 8 bytes     | Draw (med)                                                                              |
+| 276    | 8 bytes     | Draw (high)                                                                             |
+| 284    | 8 bytes     | Mug (low)                                                                               |
+| 292    | 8 bytes     | Mug (med)                                                                               |
+| 300    | 8 bytes     | Mug (high)                                                                              |
+| 308    | 8 bytes     | Drop (low)                                                                              |
+| 316    | 8 bytes     | Drop (med)                                                                              |
+| 324    | 8 bytes     | Drop (high)                                                                             |
+| 332    | 1 byte      | Mug rate                                                                                |
+| 333    | 1 byte      | Drop rate                                                                               |
+| 334    | 1 byte      | Padding (0x00)                                                                          |
+| 335    | 1 byte      | APs                                                                                     |
+| 336    | 16 bytes    | Renzokuken data: 8 renzokuken depending on the level of crisis.<br/> Each 2 byte is a special action (for example 332 is a renzokuen with 7hit)|                                                                         
+| 352    | 8 bytes     | Elemental resistance (Fire, Ice, Thunder, Earth, Poison, Wind, Water, Holy)             |
+| 360    | 20 bytes    | Mental resistance (Death, Poison, Petrify, Darkness, Silence, Beserk, Zombie, Sleep,<br> Haste, Slow, Stop, Regen, Reflect, Doom, Slow Petrify, Float, Confuse, Drain, Expulsion, ???) |
+
 
 ### Abilities
 
