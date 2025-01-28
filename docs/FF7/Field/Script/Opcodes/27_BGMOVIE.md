@@ -2,9 +2,9 @@
 title: 27_BGMOVIE
 ---
 
--   Opcode: **0x27**
--   Short name: **BGMOVIE**
--   Long name: Background Movie
+- Opcode: **0x27**
+- Short name: **BGMOVIE**
+- Long name: Background Movie
 
 #### Memory layout
 
@@ -13,7 +13,7 @@ title: 27_BGMOVIE
 
 #### Arguments
 
--   **const UByte** *S*: Switch background movie on/off (1/0, respectively).
+- **const UByte** *S*: Switch background movie on/off (1/0, respectively).
 
 #### Description
 

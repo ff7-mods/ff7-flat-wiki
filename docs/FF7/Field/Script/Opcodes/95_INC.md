@@ -2,9 +2,9 @@
 title: 95_INC
 ---
 
--   Opcode: **0x95**
--   Short name: **INC**
--   Long name: Increment (8-bit)
+- Opcode: **0x95**
+- Short name: **INC**
+- Long name: Increment (8-bit)
 
 #### Memory layout
 
@@ -13,8 +13,8 @@ title: 95_INC
 
 #### Arguments
 
--   **const UByte** *B*: Destination bank.
--   **const UByte** *A*: Address.
+- **const UByte** *B*: Destination bank.
+- **const UByte** *A*: Address.
 
 #### Description
 

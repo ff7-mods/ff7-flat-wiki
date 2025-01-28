@@ -12,13 +12,13 @@ title: Models
 
 ## Model Loader data
 
-| Offset | Size | Data                                                                       |
-|--------|------|----------------------------------------------------------------------------|
-| 0      | 1    | Face ID                                                                    |
-| 1      | 1    | Number of bones                                                            |
-| 2      | 1    | Number of parts                                                            |
-| 3      | 1    | Number of animations                                                       |
-| 4      | 1    | Unknown                                                                    |
-| 5      | 1    | Non Playable Character? (sometimes 1, also present in the PC model loader) |
-| 6      | 1    | Unknown                                                                    |
-| 7      | 1    | Global model ID (to find out which BCX to use)                             |
+| Offset | Size | Data |
+|----|----|----|
+| 0 | 1 | Face ID |
+| 1 | 1 | Number of bones |
+| 2 | 1 | Number of parts |
+| 3 | 1 | Number of animations |
+| 4 | 1 | Unknown |
+| 5 | 1 | Non Playable Character? (sometimes 1, also present in the PC model loader) |
+| 6 | 1 | Unknown |
+| 7 | 1 | Global model ID (to find out which BCX to use) |

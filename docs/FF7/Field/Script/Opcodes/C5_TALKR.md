@@ -2,9 +2,9 @@
 title: C5_TALKR
 ---
 
--   Opcode: **0xC5**
--   Short name: **TALKR**
--   Long name: Talk Range
+- Opcode: **0xC5**
+- Short name: **TALKR**
+- Long name: Talk Range
 
 #### Memory layout
 
@@ -13,8 +13,8 @@ title: C5_TALKR
 
 #### Arguments
 
--   **const UByte** *B*: Bank to retrieve *T*, or zero if *T* is specified as a literal value.
--   **const UByte** *T*: Range value.
+- **const UByte** *B*: Bank to retrieve *T*, or zero if *T* is specified as a literal value.
+- **const UByte** *T*: Range value.
 
 #### Description
 

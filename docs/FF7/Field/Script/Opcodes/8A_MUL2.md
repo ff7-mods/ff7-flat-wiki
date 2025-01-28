@@ -2,9 +2,9 @@
 title: 8A_MUL2
 ---
 
--   Opcode: **0x8A**
--   Short name: **MUL2**
--   Long name: Multiplication (16-bit)
+- Opcode: **0x8A**
+- Short name: **MUL2**
+- Long name: Multiplication (16-bit)
 
 #### Memory layout
 
@@ -13,10 +13,10 @@ title: 8A_MUL2
 
 #### Arguments
 
--   **const Bit\[4\]** *D*: Destination bank
--   **const Bit\[4\]** *S*: Source bank
--   **const UByte** *Dest*: The destination variable, to which the operand is multiplied.
--   **const SWord** *Oper*: The operand, which is multiplied with the destination.
+- **const Bit\[4\]** *D*: Destination bank
+- **const Bit\[4\]** *S*: Source bank
+- **const UByte** *Dest*: The destination variable, to which the operand is multiplied.
+- **const SWord** *Oper*: The operand, which is multiplied with the destination.
 
 #### Description
 

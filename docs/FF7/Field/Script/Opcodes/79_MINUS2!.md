@@ -2,9 +2,9 @@
 title: 79_MINUS2!
 ---
 
--   Opcode: **0x79**
--   Short name: **MINUS2!**
--   Long name: Saturated Subtraction (16-bit)
+- Opcode: **0x79**
+- Short name: **MINUS2!**
+- Long name: Saturated Subtraction (16-bit)
 
 #### Memory layout
 
@@ -13,10 +13,10 @@ title: 79_MINUS2!
 
 #### Arguments
 
--   **const Bit\[4\]** *D*: Destination bank
--   **const Bit\[4\]** *S*: Source bank
--   **const UByte** *Dest*: The destination variable, to which the operand is subtracted.
--   **const SWord** *Oper*: The operand to be subtracted from the destination.
+- **const Bit\[4\]** *D*: Destination bank
+- **const Bit\[4\]** *S*: Source bank
+- **const UByte** *Dest*: The destination variable, to which the operand is subtracted.
+- **const SWord** *Oper*: The operand to be subtracted from the destination.
 
 #### Description
 

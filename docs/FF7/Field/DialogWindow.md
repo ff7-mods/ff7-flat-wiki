@@ -14,7 +14,7 @@ Window is state driven. The way how window handling input and shown are dependen
 
 This is offsets to english version of game. But japanese has exactly same structure, just offsets a bit different. this is all offsets used by dialog windows (opcode reading offsets not included here).
 
-800491D0 character id -&gt; savemap block assosiation id. (0-0, 1-1, 2-2, 3-3, 4-4, 5-5, 6-6, 7-7, 8-8, 9-6, A-7)
+800491D0 character id -\> savemap block assosiation id. (0-0, 1-1, 2-2, 3-3, 4-4, 5-5, 6-6, 7-7, 8-8, 9-6, A-7)
 
 80049208 window RGB. (size \[r\]\[g\]\[b\]x4)
 
@@ -80,7 +80,7 @@ This is offsets to english version of game. But japanese has exactly same struct
 
 8009D7D0 \[\] savemap message speed.
 
-800E0738 digit-&gt;letter assosiation array (10-26 letters from character table)
+800E0738 digit-\>letter assosiation array (10-26 letters from character table)
 
 800E4214 memory bank array for getting variable for windows. 8 for each window. (size 0x8 0x1)
 
@@ -144,39 +144,39 @@ E - wait for next window (next block of text will show after this). Opcodes 0xE8
 
 message window states:
 
-state 0: call "dialog\_window\_init".
+state 0: call "dialog_window_init".
 
-state 1: call "dialog\_window\_growth".
+state 1: call "dialog_window_growth".
 
-state 2: call "dialog\_copy\_text\_from\_field".
+state 2: call "dialog_copy_text_from_field".
 
 state 3: discrease 8011445C (wait time) by 1 each call. When wait time == 0, then set state to 2.
 
 state 4: if "OK" button (0x0020) pressed then discrease 80083284 (dialog scrolling value) by 2. Increment 801142CC (additional rows) by 1. Set state to 8.
 
-state 6: if WMODE cbc & 0x01 not set and "OK" button (0x0020) pressed then set state to 7 and call "dialog\_window\_discrease".
+state 6: if WMODE cbc & 0x01 not set and "OK" button (0x0020) pressed then set state to 7 and call "dialog_window_discrease".
 
-state 7: call "dialog\_window\_discrease".
+state 7: call "dialog_window_discrease".
 
-state 8: call "dialog\_scroll\_text".
+state 8: call "dialog_scroll_text".
 
-state 9: call "dialog\_init\_next\_window".
+state 9: call "dialog_init_next_window".
 
-state B: if "OK" button (0x0020) pressed then set state to C. Discrease 80083284 (dialog scrolling value) by 2. Set 800E424C to current\_row \* 10 + 11.
+state B: if "OK" button (0x0020) pressed then set state to C. Discrease 80083284 (dialog scrolling value) by 2. Set 800E424C to current_row \* 10 + 11.
 
-state C: call "dialog\_scroll\_text\_during\_ok".
+state C: call "dialog_scroll_text_during_ok".
 
 state D: if "OK" button (0x0020) pressed then set state to 2.
 
-state E: if "OK" button (0x0020) pressed then call "dialog\_init\_next\_window".
+state E: if "OK" button (0x0020) pressed then call "dialog_init_next_window".
 
 ask window states:
 
-state 0: call "dialog\_window\_init".
+state 0: call "dialog_window_init".
 
-state 1: call "dialog\_window\_growth".
+state 1: call "dialog_window_growth".
 
-state 2: call "dialog\_copy\_text\_from\_field".
+state 2: call "dialog_copy_text_from_field".
 
 state 3: discrease 8011445C (wait time) by 1 each call. When wait time == 0, then set state to 2.
 
@@ -189,44 +189,44 @@ state 6: if WMODE cbc & 0x01 not set then set (8008328E) enable pointer to 1.
 `        if WMODE cbc & 0x01 not set then set (80083298) pointex X to 5 and (8008329A) pointer Y to current_row * 10 + 6.`  
 `        if WMODE cbc & 0x01 not set and "OK" button (0x0020) pressed then set state to 7 and call "play_window_pointer_click_sound" and "dialog_window_discrease".`
 
-state 7: call "dialog\_window\_discrease".
+state 7: call "dialog_window_discrease".
 
 `        if window is still closing invert (8008328E) enable pointer to make it blink.`  
 `        when window closed set (8008328E) enable pointer to 0.`
 
-state 8: call "dialog\_scroll\_text".
+state 8: call "dialog_scroll_text".
 
-state 9: call "dialog\_init\_next\_window".
+state 9: call "dialog_init_next_window".
 
-state B: if "OK" button (0x0020) pressed then set state to C. Discrease 80083284 (dialog scrolling value) by 2. Set 800E424C to current\_row \* 10 + 11.
+state B: if "OK" button (0x0020) pressed then set state to C. Discrease 80083284 (dialog scrolling value) by 2. Set 800E424C to current_row \* 10 + 11.
 
-state C: call "dialog\_scroll\_text\_during\_ok".
+state C: call "dialog_scroll_text_during_ok".
 
 state D: if "OK" button (0x0020) pressed then set state to 2.
 
-state E: if "OK" button (0x0020) pressed then call "dialog\_init\_next\_window".
+state E: if "OK" button (0x0020) pressed then call "dialog_init_next_window".
 
-state cycle 0-&gt;1-&gt;2
+state cycle 0-\>1-\>2
 
-2-&gt;0xE7-&gt;4-&gt;8-&gt;2
+2-\>0xE7-\>4-\>8-\>2
 
-2-&gt;0xE8-&gt;E-&gt;2
+2-\>0xE8-\>E-\>2
 
-2-&gt;0xE9-&gt;E-&gt;2
+2-\>0xE9-\>E-\>2
 
-2-&gt;0xFEDC-&gt;D-&gt;2
+2-\>0xFEDC-\>D-\>2
 
-2-&gt;0xFEDD-&gt;3-&gt;2
+2-\>0xFEDD-\>3-\>2
 
-2-&gt;0xFEE0-&gt;B-&gt;C-&gt;9-&gt;2
+2-\>0xFEE0-\>B-\>C-\>9-\>2
 
-2-&gt;0xFEFF-&gt;D-&gt;2
+2-\>0xFEFF-\>D-\>2
 
-2-&gt;0xFF-&gt;6-&gt;7-&gt;0
+2-\>0xFF-\>6-\>7-\>0
 
 ## Functions
 
-dialog\_copy\_text\_from\_field:
+dialog_copy_text_from_field:
 
 `   First we set reading parameters.`  
 `   If 800832A2 (cbc) 0x02 bit is set then A1 = 0x100, S5 = 1. This will cause all characters show at once.`  
@@ -236,7 +236,7 @@ dialog\_copy\_text\_from\_field:
 `   Now we use A1, S5, 80114480 and 80114470 to calculate 80114470 value which will be used to calculate if we must continue reading characters or not. 80114470 = 80114470 + S5 * 80114480 / 10 + A1.`  
 `   Now we will read characters until 80114470 <= S5 if so - end string copy until next call.`
 
-dialog\_window\_init:
+dialog_window_init:
 
 `   Do check if pointer to field dialog section not 0 (call "funcd4848" if it zero and return 1 (stop MESSAGE or ASK opcode)).`  
 `   Set parent entity to this window.`  
@@ -259,20 +259,20 @@ dialog\_window\_init:
 `   Increment 80071E2C (opened windows number) by 1;`  
 `   Write 0xFF at start of window string.`
 
-dialog\_window\_growth:
+dialog_window_growth:
 
 `   Increment current_width by width / 4, but current_width no less than 8 and no more than width.`  
 `   Increment current_height by height / 4, but current_height no less than 8 and no more than height.`  
 `   If current_width == width and current_height == height then set state to 1.`
 
-dialog\_window\_discrease:
+dialog_window_discrease:
 
 `   Decrement current_width by width / 4, but current_width no less than 8.`  
 `   Decrement current_height by height / 4, but current_height no less than 8.`  
 `   If current_width  <= 8 and current_height <= 8 then set state to 0. Set 80083286 (letters in window string) to 0. Remove parent entity from this window (set to FF).`  
 `   Decrement 80071E2C (opened windows number) by 1;`
 
-dialog\_init\_next\_window:
+dialog_init_next_window:
 
 `   Set 80083284 to 0.`  
 `   Set 80083286 to 0.`  
@@ -283,23 +283,23 @@ dialog\_init\_next\_window:
 `   Set 80114480 to 1.`  
 `   Write 0xFF at start of window string.`
 
-dialog\_copy\_text\_from\_field:
+dialog_copy_text_from_field:
 
 `   Copy text from field to window string. Set state to 6 when tork normally. Can set other state according to readed opcodes.`
 
-dialog\_scroll\_text:
+dialog_scroll_text:
 
 `   Discrease 80083284 (dialog scrolling value) by 2 each time called.`  
 `   If discreased by 0x10 (X & 0x0F == false) - set state to 2 and copy new part of string.`
 
-dialog\_scroll\_text\_during\_ok:
+dialog_scroll_text_during_ok:
 
 `   Discrease 80083284 (dialog scrolling value) by 80114480 / 4 each time called and "OK" button (0x0020) pressed.`  
 `   Increase 80114480 by 1 each time "OK" button (0x0020) pressed.`  
 `   Discrease 80114480 by 1 each time "OK" button (0x0020) not pressed.`  
 `   If 800E424C (total width value) + 80083284 (text scrolling value) less than zero set state to 9.`
 
-set\_window\_x\_y\_width\_height:
+set_window_x_y_width_height:
 
 `   Writes data to window structure.`  
 `   Set x_position to given x. X no less than 8. If x + width > 0x138 then set x to 138 - width.`  
@@ -307,25 +307,25 @@ set\_window\_x\_y\_width\_height:
 `   Set width to given width.`  
 `   Set height to given height.`
 
-set\_window\_style\_cbc:
+set_window_style_cbc:
 
 `   Writes data to window structure.`  
 `   Set WMODE_style to given stype.`  
 `   Set WMODE_cbc to given cbc.`
 
-set\_state\_to\_close:
+set_state_to_close:
 
 `   If state == 1 return 0;`  
 `   If state 0 or 3 or 5 or 7 or 9 or A or C or E return 1;`  
 `   Id state 2 or 4 or 6 or 8 or B or D set state to 7 and then return 1;`
 
-add\_x\_y\_to\_window\_position:
+add_x_y_to_window_position:
 
 `   Writes data to window structure.`  
 `   Add given x to x_position.`  
 `   Add given y to y_position.`
 
-reset\_window:
+reset_window:
 
 `   Writes data to window structure.`  
 `   Set x_position to 0x08.`  
@@ -347,7 +347,7 @@ reset\_window:
 `   Clear 800E4D48 (offsets for getting variable from memory block for windows) array with 0.`  
 `   Set 8011445C (time to wait for windows) to 0.`
 
-set\_window\_height:
+set_window_height:
 
 `   Writes data to window structure.`  
 `   Set height to given height value.`

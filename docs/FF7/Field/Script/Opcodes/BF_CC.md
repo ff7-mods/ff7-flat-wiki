@@ -2,9 +2,9 @@
 title: BF_CC
 ---
 
--   Opcode: **0xBF**
--   Short name: **CC**
--   Long name: Character Control
+- Opcode: **0xBF**
+- Short name: **CC**
+- Long name: Character Control
 
 #### Memory layout
 
@@ -13,7 +13,7 @@ title: BF_CC
 
 #### Arguments
 
--   **const UByte** *E*: Entity ID.
+- **const UByte** *E*: Entity ID.
 
 #### Description
 

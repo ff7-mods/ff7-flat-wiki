@@ -2,9 +2,9 @@
 title: 14_IFUB
 ---
 
--   Opcode: **0x14**
--   Short name: **IFUB**
--   Long name: If (Unsigned Byte)
+- Opcode: **0x14**
+- Short name: **IFUB**
+- Long name: If (Unsigned Byte)
 
 #### Memory layout
 
@@ -13,12 +13,12 @@ title: 14_IFUB
 
 #### Arguments
 
--   **const Bit\[4\]** *B1*: First memory bank to access.
--   **const Bit\[4\]** *B2*: Second memory bank to access.
--   **const UByte** *A*: Address, from the first bank, of the value to retrieve.
--   **const UByte** *V*: Unsigned value to compare the retrieved value to, or address from the second bank of the value to retrieve.
--   **const UByte** *C*: Type of comparison to perform.
--   **const UByte** *E*: Amount to jump if the comparison does not hold.
+- **const Bit\[4\]** *B1*: First memory bank to access.
+- **const Bit\[4\]** *B2*: Second memory bank to access.
+- **const UByte** *A*: Address, from the first bank, of the value to retrieve.
+- **const UByte** *V*: Unsigned value to compare the retrieved value to, or address from the second bank of the value to retrieve.
+- **const UByte** *C*: Type of comparison to perform.
+- **const UByte** *E*: Amount to jump if the comparison does not hold.
 
 #### Description
 
@@ -30,20 +30,20 @@ If the content of the 'if' block following the IFUB line is longer than 0xFF, th
 
 #### Comparison Types
 
-| ID  | Comparison Performed  |
-|-----|-----------------------|
-| 0   | A == B                |
-| 1   | A != B                |
-| 2   | A &gt; B              |
-| 3   | A &lt; B              |
-| 4   | A &gt;= B             |
-| 5   | A &lt;= B             |
-| 6   | A & B                 |
-| 7   | A ^ B                 |
-| 8   | A \| B                |
-| 9   | A & (1&lt;&lt;B)      |
-| A   | !((A & (1&lt;&lt;B))) |
-|     |                       |
+| ID  | Comparison Performed |
+|-----|----------------------|
+| 0   | A == B               |
+| 1   | A != B               |
+| 2   | A \> B               |
+| 3   | A \< B               |
+| 4   | A \>= B              |
+| 5   | A \<= B              |
+| 6   | A & B                |
+| 7   | A ^ B                |
+| 8   | A \| B               |
+| 9   | A & (1\<\<B)         |
+| A   | !((A & (1\<\<B)))    |
+|     |                      |
 
 #### If/Else Example
 

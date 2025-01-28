@@ -2,9 +2,9 @@
 title: 5F_NOP
 ---
 
--   Opcode: **0x5F NOP**
--   Short name: **NOP**
--   Long name: No Op
+- Opcode: **0x5F NOP**
+- Short name: **NOP**
+- Long name: No Op
 
 #### Memory layout
 

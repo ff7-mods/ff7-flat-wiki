@@ -2,9 +2,9 @@
 title: 76_PLUS!
 ---
 
--   Opcode: **0x76**
--   Short name: **PLUS!**
--   Long name: Saturated Addition (8-bit)
+- Opcode: **0x76**
+- Short name: **PLUS!**
+- Long name: Saturated Addition (8-bit)
 
 #### Memory layout
 
@@ -13,10 +13,10 @@ title: 76_PLUS!
 
 #### Arguments
 
--   **const Bit\[4\]** *D*: Destination bank
--   **const Bit\[4\]** *S*: Source bank
--   **const UByte** *Dest*: The destination variable, to which the operand is added.
--   **const UByte** *Oper*: The operand, added to the destination.
+- **const Bit\[4\]** *D*: Destination bank
+- **const Bit\[4\]** *S*: Source bank
+- **const UByte** *Dest*: The destination variable, to which the operand is added.
+- **const UByte** *Oper*: The operand, added to the destination.
 
 #### Description
 

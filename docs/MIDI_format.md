@@ -30,7 +30,7 @@ The next 4 bytes must form a 32-bit length (ie, size) of the chunk.
 
 <U>All chunks must begin with these two fields</U> (ie, 8 bytes), which are referred to as the <B>chunk header</B>.
 
-Here's what a chunk's header looks like if you defined it in C: <c> struct CHUNK\_HEADER {
+Here's what a chunk's header looks like if you defined it in C: <c> struct CHUNK_HEADER {
 
 `  char             ID[4];`  
 `  unsigned long    Length; `
@@ -67,7 +67,7 @@ You can specify millisecond-based timing by the data bytes of -25 and 40 subfram
 
 Here's what an MThd chunk looks like if you defined it in C:
 
-<c> struct MTHD\_CHUNK {
+<c> struct MTHD_CHUNK {
 
 `  /* Here's the 8 byte header that all chunks must have */`  
 `  char           ID[4];  /* This will be 'M','T','h','d' */`  
@@ -96,7 +96,7 @@ An MTrk chunk contains all of the midi data (with timing bytes), plus optional n
 
 The MTrk header begins with the ID of <b>MTrk</B>, followed by the Length (ie, number of data bytes for this track). The Length will likely be different for each track. (After all, a track containing the violin part for a Bach concerto will likely contain more data than a track containing a simple 2 bar drum beat).
 
-Here's what an MTrk chunk looks like if you defined it in C: <c> struct MTRK\_CHUNK {
+Here's what an MTrk chunk looks like if you defined it in C: <c> struct MTRK_CHUNK {
 
 `  /* Here's the 8 byte header that all chunks must have */`  
 `  char           ID[4];   /* This will be 'M','T','r','k' */`  

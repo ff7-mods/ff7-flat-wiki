@@ -2,9 +2,9 @@
 title: 2C_BGPDH
 ---
 
--   Opcode: **0x2C**
--   Short name: **BGPDH**
--   Long name: Background Depth
+- Opcode: **0x2C**
+- Short name: **BGPDH**
+- Long name: Background Depth
 
 #### Memory layout
 
@@ -13,10 +13,10 @@ title: 2C_BGPDH
 
 #### Arguments
 
--   **const Bit\[4\]** *B*: Bank to retrieve value for *D*, or zero if *D* is specified as a literal.
--   **const Bit\[4\]** *0*: Four zero bits.
--   **const UByte** *L*: ID number of the layer to manipulate.
--   **const Short** *D*: Z-depth of the specified layer, or the address to find *D* if *B* is non-zero.
+- **const Bit\[4\]** *B*: Bank to retrieve value for *D*, or zero if *D* is specified as a literal.
+- **const Bit\[4\]** *0*: Four zero bits.
+- **const UByte** *L*: ID number of the layer to manipulate.
+- **const Short** *D*: Z-depth of the specified layer, or the address to find *D* if *B* is non-zero.
 
 #### Description
 

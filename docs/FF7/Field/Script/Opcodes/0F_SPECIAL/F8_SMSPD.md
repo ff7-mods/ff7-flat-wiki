@@ -2,9 +2,9 @@
 title: F8_SMSPD
 ---
 
--   Opcode: **0x0FF8**
--   Short name: **SPECIAL: SMSPD**
--   Long name: Special: Set Field Message Speed
+- Opcode: **0x0FF8**
+- Short name: **SPECIAL: SMSPD**
+- Long name: Special: Set Field Message Speed
 
 #### Memory layout
 
@@ -13,8 +13,8 @@ title: F8_SMSPD
 
 #### Arguments
 
--   **const UByte** *0*: A single zero byte.
--   **const UByte** *S*: Field message speed.
+- **const UByte** *0*: A single zero byte.
+- **const UByte** *S*: Field message speed.
 
 #### Description
 

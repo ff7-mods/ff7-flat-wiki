@@ -2,9 +2,9 @@
 title: F9_MOVIE
 ---
 
--   Opcode: **0xF9**
--   Short name: **MOVIE**
--   Long name: Play Movie
+- Opcode: **0xF9**
+- Short name: **MOVIE**
+- Long name: Play Movie
 
 #### Memory layout
 

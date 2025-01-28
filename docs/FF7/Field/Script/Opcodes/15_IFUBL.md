@@ -2,9 +2,9 @@
 title: 15_IFUBL
 ---
 
--   Opcode: **0x15**
--   Short name: **IFUBL**
--   Long name: If (Unsigned Byte, Long Jump)
+- Opcode: **0x15**
+- Short name: **IFUBL**
+- Long name: If (Unsigned Byte, Long Jump)
 
 #### Memory layout
 
@@ -13,12 +13,12 @@ title: 15_IFUBL
 
 #### Arguments
 
--   **const Bit\[4\]** *B1*: First memory bank to access.
--   **const Bit\[4\]** *B2*: Second memory bank to access.
--   **const UByte** *A*: Address, from the first bank, of the value to retrieve.
--   **const UByte** *V*: Unsigned value to compare the retrieved value to, or address from the second bank of the value to retrieve.
--   **const UByte** *C*: Type of comparison to perform.
--   **const UShort** *E*: Amount to jump if the comparison does not hold.
+- **const Bit\[4\]** *B1*: First memory bank to access.
+- **const Bit\[4\]** *B2*: Second memory bank to access.
+- **const UByte** *A*: Address, from the first bank, of the value to retrieve.
+- **const UByte** *V*: Unsigned value to compare the retrieved value to, or address from the second bank of the value to retrieve.
+- **const UByte** *C*: Type of comparison to perform.
+- **const UShort** *E*: Amount to jump if the comparison does not hold.
 
 #### Description
 

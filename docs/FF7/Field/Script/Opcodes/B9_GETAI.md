@@ -2,9 +2,9 @@
 title: B9_GETAI
 ---
 
--   Opcode: **0xB9**
--   Short name: **GETAI**
--   Long name: Get Entity Triangle ID
+- Opcode: **0xB9**
+- Short name: **GETAI**
+- Long name: Get Entity Triangle ID
 
 #### Memory layout
 
@@ -13,9 +13,9 @@ title: B9_GETAI
 
 #### Arguments
 
--   **const UByte** *B*: Bank to store ID.
--   **const UByte** *E*: Entity ID.
--   **const UByte** *A*: Address to store triangle ID.
+- **const UByte** *B*: Bank to store ID.
+- **const UByte** *E*: Entity ID.
+- **const UByte** *A*: Address to store triangle ID.
 
 #### Description
 

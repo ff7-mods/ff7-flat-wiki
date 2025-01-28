@@ -2,9 +2,9 @@
 title: C7_SOLID
 ---
 
--   Opcode: **0xC7**
--   Short name: **SOLID**
--   Long name: Solid object
+- Opcode: **0xC7**
+- Short name: **SOLID**
+- Long name: Solid object
 
 #### Memory layout
 
@@ -13,7 +13,7 @@ title: C7_SOLID
 
 #### Arguments
 
--   **const UByte** *S*: Switch on/off (0/1, respectively).
+- **const UByte** *S*: Switch on/off (0/1, respectively).
 
 #### Description
 

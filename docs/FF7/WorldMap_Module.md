@@ -16,9 +16,9 @@ BOT and MAP files are similar; BOT files are redundant and look like optimized v
 
 ### Content
 
--   WM0 is the above water map.
--   WM2 is the underwater (submarine) map.
--   WM3 is the snowstorm map.
+- WM0 is the above water map.
+- WM2 is the underwater (submarine) map.
+- WM3 is the snowstorm map.
 
 ## MAP Format
 
@@ -97,33 +97,98 @@ Header Structure
 
 #### Triangle
 
-<table><caption>For each triangle t in <em>number of triangles</em></caption><thead><tr class="header"><th style="text-align: center;"><p>size</p></th><th style="text-align: center;"><p>description</p></th></tr></thead><tbody><tr class="odd"><td style="text-align: center;"><p>1 byte</p></td><td style="text-align: center;"><p>Index of vertex 0 of triangle t</p></td></tr><tr class="even"><td style="text-align: center;"><p>1 byte</p></td><td style="text-align: center;"><p>Index of vertex 1 of triangle t</p></td></tr><tr class="odd"><td style="text-align: center;"><p>1 byte</p></td><td style="text-align: center;"><p>Index of vertex 2 of triangle t</p></td></tr><tr class="even"><td style="text-align: center;"><p><em>5 bits (lowest)</em></p></td><td style="text-align: center;"><p><em>Walkmap status of triangle t (see below)</em></p></td></tr><tr class="odd"><td style="text-align: center;"><p><em>3 bits</em></p></td><td style="text-align: center;"><p><em>Mesh function ID to trigger when this triangle is stepped on.<br />
+<table>
+<caption>For each triangle t in <em>number of triangles</em></caption>
+<thead>
+<tr>
+<th style="text-align: center; background: rgb(204,204,204);"><p>size</p></th>
+<th style="text-align: center; background: rgb(204,204,204);"><p>description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><p>1 byte</p></td>
+<td style="text-align: center;"><p>Index of vertex 0 of triangle t</p></td>
+</tr>
+<tr>
+<td style="text-align: center;"><p>1 byte</p></td>
+<td style="text-align: center;"><p>Index of vertex 1 of triangle t</p></td>
+</tr>
+<tr>
+<td style="text-align: center;"><p>1 byte</p></td>
+<td style="text-align: center;"><p>Index of vertex 2 of triangle t</p></td>
+</tr>
+<tr>
+<td style="text-align: center;"><p><em>5 bits (lowest)</em></p></td>
+<td style="text-align: center;"><p><em>Walkmap status of triangle t (see below)</em></p></td>
+</tr>
+<tr>
+<td style="text-align: center;"><p><em>3 bits</em></p></td>
+<td style="text-align: center;"><p><em>Mesh function ID to trigger when this triangle is stepped on.<br />
 Values 0-2 mean no script is attached to this triangle.<br />
-For values 3+ subtract 3 from this value and this will give you the mesh function ID to trigger.</em></p></td></tr><tr class="even"><td style="text-align: center;"><p>1 byte</p></td><td style="text-align: center;"><p>Coordinate u in texture for vertex 0</p></td></tr><tr class="odd"><td style="text-align: center;"><p>1 byte</p></td><td style="text-align: center;"><p>Coordinate v in texture for vertex 0</p></td></tr><tr class="even"><td style="text-align: center;"><p>1 byte</p></td><td style="text-align: center;"><p>Coordinate u in texture for vertex 1</p></td></tr><tr class="odd"><td style="text-align: center;"><p>1 byte</p></td><td style="text-align: center;"><p>Coordinate v in texture for vertex 1</p></td></tr><tr class="even"><td style="text-align: center;"><p>1 byte</p></td><td style="text-align: center;"><p>Coordinate u in texture for vertex 2</p></td></tr><tr class="odd"><td style="text-align: center;"><p>1 byte</p></td><td style="text-align: center;"><p>Coordinate v in texture for vertex 2</p></td></tr><tr class="even"><td style="text-align: center;"><p><em>9 bits (lowest)</em></p></td><td style="text-align: center;"><p><em>Texture (see below)</em></p></td></tr><tr class="odd"><td style="text-align: center;"><p><em>7 bits</em></p></td><td style="text-align: center;"><p><em>Location (message ID that will be displayed in menus and savegames)</em></p></td></tr></tbody></table>
-
-For each triangle t in *number of triangles*
+For values 3+ subtract 3 from this value and this will give you the mesh function ID to trigger.</em></p></td>
+</tr>
+<tr>
+<td style="text-align: center;"><p>1 byte</p></td>
+<td style="text-align: center;"><p>Coordinate u in texture for vertex 0</p></td>
+</tr>
+<tr>
+<td style="text-align: center;"><p>1 byte</p></td>
+<td style="text-align: center;"><p>Coordinate v in texture for vertex 0</p></td>
+</tr>
+<tr>
+<td style="text-align: center;"><p>1 byte</p></td>
+<td style="text-align: center;"><p>Coordinate u in texture for vertex 1</p></td>
+</tr>
+<tr>
+<td style="text-align: center;"><p>1 byte</p></td>
+<td style="text-align: center;"><p>Coordinate v in texture for vertex 1</p></td>
+</tr>
+<tr>
+<td style="text-align: center;"><p>1 byte</p></td>
+<td style="text-align: center;"><p>Coordinate u in texture for vertex 2</p></td>
+</tr>
+<tr>
+<td style="text-align: center;"><p>1 byte</p></td>
+<td style="text-align: center;"><p>Coordinate v in texture for vertex 2</p></td>
+</tr>
+<tr>
+<td style="text-align: center;"><p><em>9 bits (lowest)</em></p></td>
+<td style="text-align: center;"><p><em>Texture (see below)</em></p></td>
+</tr>
+<tr>
+<td style="text-align: center;"><p><em>1 bit</em></p></td>
+<td style="text-align: center;"><p><em>Chocobo tracks flag (if 1 then a chocobo fight can happen on this triangle)</em></p></td>
+</tr>
+<tr>
+<td style="text-align: center;"><p><em>6 bits</em></p></td>
+<td style="text-align: center;"><p><em>Region (message ID that will be displayed in menus and savegames, see below)</em></p></td>
+</tr>
+</tbody>
+</table>
 
 `typedef struct`  
 `{`  
 ` uint8 Vertex0Index;`  
 ` uint8 Vertex1Index;`  
 ` uint8 Vertex2Index;`  
-` `*`uint8`` ``WalkabilityInfo:5;`*  
-` `*`uint8`` ``MeshFuncId:3;`*  
+` `*`uint8 WalkabilityInfo:5;`*  
+` `*`uint8 MeshFuncId:3;`*  
 ` uint8 uVertex0, vVertex0;`  
 ` uint8 uVertex1, vVertex1;`  
 ` uint8 uVertex2, vVertex2;`  
-` `*`uint16`` ``TextureInfo:9;`*  
-` `*`uint16`` ``Location:7;`*  
+` `*`uint16 TextureInfo:9;`*  
+` `*`uint16 ChocoboTracks:1;`*  
+` `*`uint16 Region:6;`*  
 `} WorldMeshTriangle;`
 
 #### Vertex
 
-|  size   |                                    description                                    |
-|:-------:|:---------------------------------------------------------------------------------:|
-| 2 bytes |                         Coordinate x of vertex v (signed)                         |
-| 2 bytes |                         Coordinate y of vertex v (signed)                         |
-| 2 bytes |                         Coordinate z of vertex v (signed)                         |
+| size | description |
+|:--:|:--:|
+| 2 bytes | Coordinate x of vertex v (signed) |
+| 2 bytes | Coordinate y of vertex v (signed) |
+| 2 bytes | Coordinate z of vertex v (signed) |
 | 2 bytes | (Unknown: Coordinate w of vertex v?) *Never used for anything in the PC version.* |
 
 For each vertex v in *number of vertices*
@@ -136,11 +201,11 @@ For each vertex v in *number of vertices*
 
 #### Normal
 
-|  size   |                                               description                                               |
-|:-------:|:-------------------------------------------------------------------------------------------------------:|
-| 2 bytes |                                   Coordinate x of normal for vertex v                                   |
-| 2 bytes |                                   Coordinate y of normal for vertex v                                   |
-| 2 bytes |                                   Coordinate z of normal for vertex v                                   |
+| size | description |
+|:--:|:--:|
+| 2 bytes | Coordinate x of normal for vertex v |
+| 2 bytes | Coordinate y of normal for vertex v |
+| 2 bytes | Coordinate z of normal for vertex v |
 | 2 bytes | (Unknown: Coordinate w of normal for vertex v? "Always 0") *Never used for anything in the PC version.* |
 
 For each vertex v in *number of vertices*
@@ -153,44 +218,71 @@ For each vertex v in *number of vertices*
 
 structures added by [Cyberman](../User:Cyberman.md)
 
+### Regions
+
+Each triangle has a region ID that corresponds with the region name showed in the menu and stored in the save files. The names are loaded from the \`mes\` file and are 0-indexed. Below is the English list of valid region names and their IDs:
+
+|  id  |           name           |
+|:----:|:------------------------:|
+| *0*  |      *Midgar Area*       |
+| *1*  |    *Grasslands Area*     |
+| *2*  |       *Junon Area*       |
+| *3*  |       *Corel Area*       |
+| *4*  |    *Gold Saucer Area*    |
+| *5*  |      *Gongaga Area*      |
+| *6*  |       *Cosmo Area*       |
+| *7*  |       *Nibel Area*       |
+| *8*  | *Rocket Launch Pad Area* |
+| *9*  |       *Wutai Area*       |
+| *10* |     *Woodlands Area*     |
+| *11* |      *Icicle Area*       |
+| *12* |      *Mideel Area*       |
+| *13* |    *North Corel Area*    |
+| *14* |     *Cactus Island*      |
+| *15* |     *Goblin Island*      |
+| *16* |      *Round Island*      |
+| *17* |          *Sea*           |
+| *18* |   *Bottom of the Sea*    |
+| *19* |        *Glacier*         |
+
 ### Walkmap
 
 *Each triangle can have one of the 32 different walkmap types described below.*
 
-| code |            type             |                                                           description                                                           |
-|:----:|:---------------------------:|:-------------------------------------------------------------------------------------------------------------------------------:|
-| *0*  |           *Grass*           |                                                   *Most things can go here.*                                                    |
-| *1*  |          *Forest*           |                                           *No landing here, but anything else goes.*                                            |
-| *2*  |         *Mountain*          |                                              *Chocobos and flying machines only.*                                               |
-| *3*  |            *Sea*            |                                   *Deep water, only gold chocobo and submarine can go here.*                                    |
-| *4*  |      *River Crossing*       |                                        *Buggy, tiny bronco and water-capable chocobos.*                                         |
-| *5*  |           *River*           |                                                   *Tiny bronco and chocobos.*                                                   |
-| *6*  |           *Water*           |                                                 *Shallow water, same as above.*                                                 |
-| *7*  |           *Swamp*           |                                          *Midgar zolom can only move in swamp areas.*                                           |
-| *8*  |          *Desert*           |                                                          *No landing.*                                                          |
-| *9*  |         *Wasteland*         |                                    *Found around Midgar, Wutai and misc other. No landing.*                                     |
-| *10* |           *Snow*            |                                                *Leaves footprints, no landing.*                                                 |
-| *11* |         *Riverside*         |                                          *Beach-like area where river and land meet.*                                           |
-| *12* |           *Cliff*           |                                  *Sharp drop, usually where the player can be on either side.*                                  |
-| *13* |       *Corel Bridge*        |                                  *Tiny bridge over the waterfall from Costa del Sol to Corel.*                                  |
-| *14* |       *Wutai Bridge*        |                                             *Rickety rope bridges south of Wutai.*                                              |
-| *15* |          *Unused*           |                                    *Doesn't seem to be used anywhere in the original data.*                                     |
-| *16* |         *Hill side*         |                                   *This is the tiny walkable part at the foot of a mountain.*                                   |
-| *17* |           *Beach*           |                                              *Where land and shallow water meets.*                                              |
-| *18* |          *Sub Pen*          |                                      *Only place where you can enter/exit the submarine.*                                       |
-| *19* |          *Canyon*           |                   *The ground in cosmo canyon has this type, walkability seems to be the same as wasteland.*                    |
-| *20* |       *Mountain Pass*       |                           *The small path through the mountains connecting Costa del Sol and Corel.*                            |
-| *21* |          *Unknown*          |                                    *Present around bridges, may have some special meaning.*                                     |
-| *22* |         *Waterfall*         |                                          *River type where the tiny bronco can't go.*                                           |
-| *23* |          *Unused*           |                                    *Doesn't seem to be used anywhere in the original data.*                                     |
-| *24* |    *Gold Saucer Desert*     |                                          *Special desert type for the golden saucer.*                                           |
-| *25* |          *Jungle*           |                                *Walkability same as forest, used in southern parts of the map.*                                 |
-| *26* |          *Sea (2)*          | *Special type of deep water, only used in one small spot next to HP-MP cave, possibly related to the underwater map/submarine.* |
-| *27* |       *Northern Cave*       |                                  *Inside part of the crater, where you can land the highwind.*                                  |
-| *28* | *Gold Saucer Desert Border* |            *Narrow strip of land surrounding the golden saucer desert. Probably related to the "quicksand" script.*             |
-| *29* |        *Bridgehead*         |                            *Small area at both ends of every bridge. May have some special meaning.*                            |
-| *30* |       *Back Entrance*       |                                   *Special type that can be set unwalkable from the script.*                                    |
-| *31* |          *Unused*           |                                    *Doesn't seem to be used anywhere in the original data.*                                     |
+| code | type | description |
+|:--:|:--:|:--:|
+| *0* | *Grass* | *Most things can go here.* |
+| *1* | *Forest* | *No landing here, but anything else goes.* |
+| *2* | *Mountain* | *Chocobos and flying machines only.* |
+| *3* | *Sea* | *Deep water, only gold chocobo and submarine can go here.* |
+| *4* | *River Crossing* | *Buggy, tiny bronco and water-capable chocobos.* |
+| *5* | *River* | *Tiny bronco and chocobos.* |
+| *6* | *Water* | *Shallow water, same as above.* |
+| *7* | *Swamp* | *Midgar zolom can only move in swamp areas.* |
+| *8* | *Desert* | *No landing.* |
+| *9* | *Wasteland* | *Found around Midgar, Wutai and misc other. No landing.* |
+| *10* | *Snow* | *Leaves footprints, no landing.* |
+| *11* | *Riverside* | *Beach-like area where river and land meet.* |
+| *12* | *Cliff* | *Sharp drop, usually where the player can be on either side.* |
+| *13* | *Corel Bridge* | *Tiny bridge over the waterfall from Costa del Sol to Corel.* |
+| *14* | *Wutai Bridge* | *Rickety rope bridges south of Wutai.* |
+| *15* | *Unused* | *Doesn't seem to be used anywhere in the original data.* |
+| *16* | *Hill side* | *This is the tiny walkable part at the foot of a mountain.* |
+| *17* | *Beach* | *Where land and shallow water meets.* |
+| *18* | *Sub Pen* | *Only place where you can enter/exit the submarine.* |
+| *19* | *Canyon* | *The ground in cosmo canyon has this type, walkability seems to be the same as wasteland.* |
+| *20* | *Mountain Pass* | *The small path through the mountains connecting Costa del Sol and Corel.* |
+| *21* | *Unknown* | *Present around bridges and the Northern Crater, may have some special meaning.* |
+| *22* | *Waterfall* | *River type where the tiny bronco can't go.* |
+| *23* | *Unused* | *Doesn't seem to be used anywhere in the original data.* |
+| *24* | *Gold Saucer Desert* | *Special desert type for the golden saucer.* |
+| *25* | *Jungle* | *Walkability same as forest, used in southern parts of the map.* |
+| *26* | *Sea (2)* | *Special type of deep water, only used in one small spot next to HP-MP cave, possibly related to the underwater map/submarine.* |
+| *27* | *Northern Cave* | *Inside part of the crater, where you can land the highwind.* |
+| *28* | *Gold Saucer Desert Border* | *Narrow strip of land surrounding the golden saucer desert. Probably related to the "quicksand" script.* |
+| *29* | *Bridgehead* | *Small area at both ends of every bridge. May have some special meaning.* |
+| *30* | *Back Entrance* | *Special type that can be set unwalkable from the script.* |
+| *31* | *Unused* | *Doesn't seem to be used anywhere in the original data.* |
 
 ### Texture
 

@@ -2,9 +2,9 @@
 title: 93_XOR
 ---
 
--   Opcode: **0x93**
--   Short name: **XOR**
--   Long name: Bitwise XOR (8-bit)
+- Opcode: **0x93**
+- Short name: **XOR**
+- Long name: Bitwise XOR (8-bit)
 
 #### Memory layout
 
@@ -13,10 +13,10 @@ title: 93_XOR
 
 #### Arguments
 
--   **const Bit\[4\]** *D*: Destination bank
--   **const Bit\[4\]** *S*: Source bank
--   **const UByte** *Dest*: Contains an operand of the bitwise XOR and receives the result.
--   **const UByte** *Oper*: The second operand of the bitwise XOR.
+- **const Bit\[4\]** *D*: Destination bank
+- **const Bit\[4\]** *S*: Source bank
+- **const UByte** *Dest*: Contains an operand of the bitwise XOR and receives the result.
+- **const UByte** *Oper*: The second operand of the bitwise XOR.
 
 #### Description
 

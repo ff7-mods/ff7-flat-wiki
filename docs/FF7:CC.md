@@ -32,28 +32,28 @@ The RAW files themselves appear to be organised into clusters of same Types, or 
 
   
 
-| RAW Files     | Type \[bytes within 8-byte header\]                                                                                                                | Description                                                                                                                |
-|---------------|----------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|
-| 00000 - 00005 | ? (various unknown)                                                                                                                                | Possibly misc system files, or events occuring at game boot-up                                                             |
-| 00006 - 00062 | **[PSMF](FF7:CC/Video_Formats.md#PSMF_Format)**                                                                                            | \* PSP format Video files                                                                                                  |
-| 00063 - 01349 | **[RIFF](FF7:CC/Audio_Formats.md#RIFF_Format)**                                                                                            | \* Audio files, usually voiced dialogues                                                                                   |
-| 01350 - 01417 | **[SSCF](FF7:CC/Audio_Formats.md#SSCF_Format)**                                                                                            | \* Audio files, usually background music                                                                                   |
-| 01418 - 01442 | **IMG**, ? (various unknown)                                                                                                                       | Possibly Menu and DMW related stuff, IMG are HUD or sprite images                                                          |
-| 01443 - 01445 | **PNG**                                                                                                                                            | \* standard PNG images                                                                                                     |
-| 01446         | ?                                                                                                                                                  | seems to contain a list of Locations and Mission Titles                                                                    |
-| 01447         | ?                                                                                                                                                  | Contains a long list of character names, probably used when talking to NPC's etc                                           |
-| 01448 - 01455 | ?                                                                                                                                                  | Maybe mesh data                                                                                                            |
-| 01456         | **MBD**                                                                                                                                            |                                                                                                                            |
-| 01457 - 02011 | **[GT](FF7:CC/Image_Formats.md#GT_Format)**, **ATEL**                                                                                      | \* Story progression and Event data, GT are Chapter-End Images, ATEL are events and dialogue script data                   |
-| 02012 - 02161 | **[! (exp TYPE-1)](FF7:CC/Model_Formats.md#exp_TYPE-1_Models)                                  | \* Static Mesh Models: Location Map Models                                                                                 |
-| 02162 - 02457 | **[! (exp TYPE-0)](FF7:CC/Model_Formats#exp_TYPE-0_Models "wikilink")**, **[TEX](FF7:CC/Image_Formats.md#TEX_Format) | \* Skinned Animated Models: Characters, Monsters, NPCs and Event-Specific Models                                           |
-| 02458 - 03352 | ? (various unknown)                                                                                                                                | Tiny files, no common header, no ascii info visible. No idea.                                                              |
-| 03353 - 08538 | ? (various unknown)                                                                                                                                | no common header, fairly small files &lt;500 kb. Ditto                                                                     |
-| 08539 - 08622 | **MOT**, **SSCF**                                                                                                                                  | Monster / Battle / Boss data: maybe "file-names", Event Scripts, Boss Battle scripts, Monster behaviour or something else. |
-| 08623 - 08627 | **zack**, **ATEL**                                                                                                                                 | Possibly Zack's specific battle data                                                                                       |
-| 08628 - 08690 | **MAGIC**                                                                                                                                          | Zack's Battle commands, actions and animations                                                                             |
-| 08671 - 08706 | ? (various unknown)                                                                                                                                | tiny files                                                                                                                 |
-| 08707 - 08725 | **[PSMF](FF7:CC/Video_Formats.md#PSMF_Format)**                                                                                            | \* more Videos                                                                                                             |
+| RAW Files | Type \[bytes within 8-byte header\] | Description |
+|----|----|----|
+| 00000 - 00005 | ? (various unknown) | Possibly misc system files, or events occuring at game boot-up |
+| 00006 - 00062 | **[PSMF](FF7:CC/Video_Formats.md#PSMF_Format)** | \* PSP format Video files |
+| 00063 - 01349 | **[RIFF](FF7:CC/Audio_Formats.md#RIFF_Format)** | \* Audio files, usually voiced dialogues |
+| 01350 - 01417 | **[SSCF](FF7:CC/Audio_Formats.md#SSCF_Format)** | \* Audio files, usually background music |
+| 01418 - 01442 | **IMG**, ? (various unknown) | Possibly Menu and DMW related stuff, IMG are HUD or sprite images |
+| 01443 - 01445 | **PNG** | \* standard PNG images |
+| 01446 | ? | seems to contain a list of Locations and Mission Titles |
+| 01447 | ? | Contains a long list of character names, probably used when talking to NPC's etc |
+| 01448 - 01455 | ? | Maybe mesh data |
+| 01456 | **MBD** |  |
+| 01457 - 02011 | **[GT](FF7:CC/Image_Formats.md#GT_Format)**, **ATEL** | \* Story progression and Event data, GT are Chapter-End Images, ATEL are events and dialogue script data |
+| 02012 - 02161 | **[! (exp TYPE-1)](FF7:CC/Model_Formats.md#exp_TYPE-1_Models) | \* Static Mesh Models: Location Map Models |
+| 02162 - 02457 | **[! (exp TYPE-0)](FF7:CC/Model_Formats#exp_TYPE-0_Models "wikilink")**, **[TEX](FF7:CC/Image_Formats.md#TEX_Format) | \* Skinned Animated Models: Characters, Monsters, NPCs and Event-Specific Models |
+| 02458 - 03352 | ? (various unknown) | Tiny files, no common header, no ascii info visible. No idea. |
+| 03353 - 08538 | ? (various unknown) | no common header, fairly small files \<500 kb. Ditto |
+| 08539 - 08622 | **MOT**, **SSCF** | Monster / Battle / Boss data: maybe "file-names", Event Scripts, Boss Battle scripts, Monster behaviour or something else. |
+| 08623 - 08627 | **zack**, **ATEL** | Possibly Zack's specific battle data |
+| 08628 - 08690 | **MAGIC** | Zack's Battle commands, actions and animations |
+| 08671 - 08706 | ? (various unknown) | tiny files |
+| 08707 - 08725 | **[PSMF](FF7:CC/Video_Formats.md#PSMF_Format)** | \* more Videos |
 
   
 *\** - These files are understood enough to view and/or extract their contents.
@@ -66,27 +66,27 @@ Overview of the different types of data files and what they contain. List shows 
 
 ### [Game Events and Scripts](FF7:CC/Game_Event_Files.md)
 
--   [ATEL](FF7:CC/File_Types.md) Files
--   [MBD](FF7:CC/File_Types.md) Files
+- [ATEL](FF7:CC/File_Types.md) Files
+- [MBD](FF7:CC/File_Types.md) Files
 
 ### [Sprites, Images and Texture Data](FF7:CC/Image_Formats.md)
 
--   [\[IMG](FF7:CC/Image_Formats.md#IMG_Format)\] Files
--   [\[TEX](FF7:CC/Image_Formats.md#TEX_Format)\] Files
--   [\[GT](FF7:CC/Image_Formats.md#GT_Format)\] Files
+- [\[IMG](FF7:CC/Image_Formats.md#IMG_Format)\] Files
+- [\[TEX](FF7:CC/Image_Formats.md#TEX_Format)\] Files
+- [\[GT](FF7:CC/Image_Formats.md#GT_Format)\] Files
 
 ### [Audio Data](FF7:CC/Audio_Formats.md)
 
--   [RIFF](FF7:CC/Audio_Formats.md#RIFF_Format) Files
--   [SSCF](FF7:CC/Audio_Formats.md#SSCF_Format) Files
+- [RIFF](FF7:CC/Audio_Formats.md#RIFF_Format) Files
+- [SSCF](FF7:CC/Audio_Formats.md#SSCF_Format) Files
 
 ### [Video Data](FF7:CC/Video_Formats.md)
 
--   [\[PSMF](FF7:CC/Video_Formats.md#PSMF_Format)\]
+- [\[PSMF](FF7:CC/Video_Formats.md#PSMF_Format)\]
 
 ### [Models and Mesh Geometry](FF7:CC/Model_Formats.md)
 
--   [\[!](FF7:CC/Model_Formats.md#exp_Format) Model\] Files
+- [\[!](FF7:CC/Model_Formats.md#exp_Format) Model\] Files
 
 ### [Battles and Monsters](FF7:CC/Battle_and_Monster_Data.md)
 
@@ -134,10 +134,10 @@ Someone has been able to iniate this menu somehow, screenshots of which were pos
 
 Contained within all ATEL files are the following Menu-Dialogue texts.
 
--   The "Kupo!" suggests a Moogle narrating, possibly related to the Debug-Menu.
--   The "Materia has leveled up!" suggests maybe a hidden Materia was used to initiate this Menu.
--   "Gondola" and "Elevator" may be references to the side-quest during the mission in Junon.
--   It is currently unknown why these texts appear within ALL \[ATEL\] files, the only possibility being that they serve as interfaces to the Debug-Menu, which has now been confirmed to exist.
+- The "Kupo!" suggests a Moogle narrating, possibly related to the Debug-Menu.
+- The "Materia has leveled up!" suggests maybe a hidden Materia was used to initiate this Menu.
+- "Gondola" and "Elevator" may be references to the side-quest during the mission in Junon.
+- It is currently unknown why these texts appear within ALL \[ATEL\] files, the only possibility being that they serve as interfaces to the Debug-Menu, which has now been confirmed to exist.
 
 `<TEXT>`  
 ` Materia has leveled up!`  
@@ -203,10 +203,10 @@ Contained within all ATEL files are the following Menu-Dialogue texts.
 
 ### Viewers / Extractors
 
-| Project Name                         | Description                                                                                                                                                                                           | Author                                                              | Version / Status | Links                                                                                                                                                            |
-|--------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------|------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| FF7CC Data Extractor                 | Extracts the Data-Files from the FF7CC PKG and FSE files stored on PSP Media                                                                                                                          | [G](http://forums.qhimm.com/index.php?action=profile;u=3309)        | 1.0              | [Forum](http://forums.qhimm.com/index.php?topic=7053.0), [Binary](http://superg.org.ua/ff7cc_extractor.tar.bz2), [Mirror](http://www.mediafire.com/?nwm24zynjmk) |
-| RINOA Model Viewer                   | Suppors some FF7CC Data-Files, such as Game-Scripts, and Models, also has an OBJ mesh exporter                                                                                                        | [Koral](http://forums.qhimm.com/index.php?action=profile;u=5116)    | 0.51             | [Forum](http://forums.qhimm.com/index.php?topic=8451.0), [Binary](http://www.mediafire.com/?jzqmgzmoq4m)                                                         |
-| \[!\]-Model Extractor (aka mesh2rdm) | Powerful file viewer and extractor, exporting out skin-weighted models from !-Models to OBJ or SMD                                                                                                    | [MrAdults](http://forums.qhimm.com/index.php?action=profile;u=3607) | v1.81            | [Website](http://www.richwhitehouse.com/index.php?postid=30)                                                                                                     |
-| MarC's HiMD Renderer                 | Convert FF7CC \[SSCF\] audio-files to wav, mp3, ogg or pcm <small>( -- [aljnx](http://forums.qhimm.com/index.php?action=profile;u=4675))</small>                                                      | MarC                                                                | 0.54             | [Website](http://www.marcnetsystem.co.uk/)                                                                                                                       |
-| CC Plugin for Xpert2                 | Allows Xpert2 to extract and re-pack the Data-files from and to FF7CC PKG and FSE files stored on PSP Media <small>( -- [Karlislie](http://forums.qhimm.com/index.php?action=profile;u=5343))</small> |                                                                     |                  | [Download](http://www.mediafire.com/download.php?j5tnduxoemd), [Mirror](http://www.mediafire.com/?hmbmdzdmwki)                                                   |
+| Project Name | Description | Author | Version / Status | Links |
+|----|----|----|----|----|
+| FF7CC Data Extractor | Extracts the Data-Files from the FF7CC PKG and FSE files stored on PSP Media | [G](http://forums.qhimm.com/index.php?action=profile;u=3309) | 1.0 | [Forum](http://forums.qhimm.com/index.php?topic=7053.0), [Binary](http://superg.org.ua/ff7cc_extractor.tar.bz2), [Mirror](http://www.mediafire.com/?nwm24zynjmk) |
+| RINOA Model Viewer | Suppors some FF7CC Data-Files, such as Game-Scripts, and Models, also has an OBJ mesh exporter | [Koral](http://forums.qhimm.com/index.php?action=profile;u=5116) | 0.51 | [Forum](http://forums.qhimm.com/index.php?topic=8451.0), [Binary](http://www.mediafire.com/?jzqmgzmoq4m) |
+| \[!\]-Model Extractor (aka mesh2rdm) | Powerful file viewer and extractor, exporting out skin-weighted models from !-Models to OBJ or SMD | [MrAdults](http://forums.qhimm.com/index.php?action=profile;u=3607) | v1.81 | [Website](http://www.richwhitehouse.com/index.php?postid=30) |
+| MarC's HiMD Renderer | Convert FF7CC \[SSCF\] audio-files to wav, mp3, ogg or pcm <small>( -- [aljnx](http://forums.qhimm.com/index.php?action=profile;u=4675))</small> | MarC | 0.54 | [Website](http://www.marcnetsystem.co.uk/) |
+| CC Plugin for Xpert2 | Allows Xpert2 to extract and re-pack the Data-files from and to FF7CC PKG and FSE files stored on PSP Media <small>( -- [Karlislie](http://forums.qhimm.com/index.php?action=profile;u=5343))</small> |  |  | [Download](http://www.mediafire.com/download.php?j5tnduxoemd), [Mirror](http://www.mediafire.com/?hmbmdzdmwki) |

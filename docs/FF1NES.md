@@ -10,8 +10,8 @@ FF1 uses this technology to organize it's ROM. The game is split into 16 banks o
 
 A typical NES ROM downloaded from the Internet almost always has a 10 byte header at the beginning. For our purposes, this data is going to be thrown away. This is for two reasons.
 
--   This document assumes you have an original ROM dump and not something downloaded.
--   It messes up bank boundaries and offsets by 10 bytes, making it harder to point to data
+- This document assumes you have an original ROM dump and not something downloaded.
+- It messes up bank boundaries and offsets by 10 bytes, making it harder to point to data
 
 The following below is a map of the ROM.
 

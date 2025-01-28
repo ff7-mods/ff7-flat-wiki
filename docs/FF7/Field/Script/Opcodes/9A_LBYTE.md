@@ -2,9 +2,9 @@
 title: 9A_LBYTE
 ---
 
--   Opcode: **0x9A**
--   Short name: **LBYTE**
--   Long name: Low Byte
+- Opcode: **0x9A**
+- Short name: **LBYTE**
+- Long name: Low Byte
 
 #### Memory layout
 
@@ -13,10 +13,10 @@ title: 9A_LBYTE
 
 #### Arguments
 
--   **const Bit\[4\]** *D*: Destination bank.
--   **const Bit\[4\]** *S*: Source bank.
--   **const UByte** *DA*: Destination address.
--   **const UByte** *SA*: Source address.
+- **const Bit\[4\]** *D*: Destination bank.
+- **const Bit\[4\]** *S*: Source bank.
+- **const UByte** *DA*: Destination address.
+- **const UByte** *SA*: Source address.
 
 #### Description
 

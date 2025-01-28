@@ -2,9 +2,9 @@
 title: D0_LINE
 ---
 
--   Opcode: **0xD0**
--   Short name: **LINE**
--   Long name: Line Definition
+- Opcode: **0xD0**
+- Short name: **LINE**
+- Long name: Line Definition
 
 #### Memory layout
 
@@ -13,12 +13,12 @@ title: D0_LINE
 
 #### Arguments
 
--   **const Short** *XA*: X-coordinate of the first point of the line.
--   **const Short** *YA*: Y-coordinate of the first point of the line.
--   **const Short** *ZA*: Z-coordinate of the first point of the line.
--   **const Short** *XB*: X-coordinate of the second point of the line.
--   **const Short** *YB*: Y-coordinate of the second point of the line.
--   **const Short** *ZB*: Z-coordinate of the second point of the line.
+- **const Short** *XA*: X-coordinate of the first point of the line.
+- **const Short** *YA*: Y-coordinate of the first point of the line.
+- **const Short** *ZA*: Z-coordinate of the first point of the line.
+- **const Short** *XB*: X-coordinate of the second point of the line.
+- **const Short** *YB*: Y-coordinate of the second point of the line.
+- **const Short** *ZB*: Z-coordinate of the second point of the line.
 
 #### Description
 
@@ -28,12 +28,12 @@ Defines a line on the walkmesh that, when crossed by a playable character, cause
 
 There are generally 6 scripts (other than the init and main) if the entity is a LINE (taken from Makou Reactor):
 
--   script index 2 -&gt; S1 - \[OK\]
--   script index 3 -&gt; S2 - Move
--   script index 4 -&gt; S3 - Move
--   script index 5 -&gt; S4 - Go
--   script index 6 -&gt; S5 - Go 1x
--   script index 7 -&gt; S6 - Go away
+- script index 2 -\> S1 - \[OK\]
+- script index 3 -\> S2 - Move
+- script index 4 -\> S3 - Move
+- script index 5 -\> S4 - Go
+- script index 6 -\> S5 - Go 1x
+- script index 7 -\> S6 - Go away
 
 Here is a JSON file containing a little more details on the occurrences, frequencies and combinations of the LINE op code usage: <https://github.com/dangarfield/ff7-fenrir/blob/master/workings-out/output/line-occurences.json>
 
@@ -73,9 +73,9 @@ Only one script can be running per entity at any one time. Eg, if there is a lin
 
 It appears as though the priority for running the scripts is as follows:
 
--   S5 - Go 1x
--   S4 - Go
--   S2 - Move
--   S3 - Move
--   S1 - \[OK\]
--   S6 - Go away
+- S5 - Go 1x
+- S4 - Go
+- S2 - Move
+- S3 - Move
+- S1 - \[OK\]
+- S6 - Go away

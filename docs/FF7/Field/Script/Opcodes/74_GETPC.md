@@ -2,9 +2,9 @@
 title: 74_GETPC
 ---
 
--   Opcode: **0x74**
--   Short name: **GETPC**
--   Long name: Get Party Character
+- Opcode: **0x74**
+- Short name: **GETPC**
+- Long name: Get Party Character
 
 #### Memory layout
 
@@ -13,9 +13,9 @@ title: 74_GETPC
 
 #### Arguments
 
--   **const UByte** *B*: Bank to store the value.
--   **const UByte** *C*: Character offset in the party whose value should be retrieved.
--   **const UByte** *A*: Address to store the value.
+- **const UByte** *B*: Bank to store the value.
+- **const UByte** *C*: Character offset in the party whose value should be retrieved.
+- **const UByte** *A*: Address to store the value.
 
 #### Description
 

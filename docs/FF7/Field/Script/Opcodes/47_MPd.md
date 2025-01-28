@@ -2,9 +2,9 @@
 title: 47_MPd
 ---
 
--   Opcode: **0x47**
--   Short name: **MPd**
--   Long name: MP Down
+- Opcode: **0x47**
+- Short name: **MPd**
+- Long name: MP Down
 
 #### Memory layout
 
@@ -13,9 +13,9 @@ title: 47_MPd
 
 #### Arguments
 
--   **const UByte** *B*: Bank to retrieve value for decreasing, or zero if the amount is specified by a constant in *V*.
--   **const UByte** *P*: Party member whose MP will decrease (0 to 2).
--   **const UShort** *V*: Value to decrease MP by, or address to retrieve value from if *B* is non-zero.
+- **const UByte** *B*: Bank to retrieve value for decreasing, or zero if the amount is specified by a constant in *V*.
+- **const UByte** *P*: Party member whose MP will decrease (0 to 2).
+- **const UShort** *V*: Value to decrease MP by, or address to retrieve value from if *B* is non-zero.
 
 #### Description
 

@@ -2,9 +2,9 @@
 title: 31_IFKEYON
 ---
 
--   Opcode: **0x31**
--   Short name: **IFKEYON**
--   Long name: If Key Pressed (First Time)
+- Opcode: **0x31**
+- Short name: **IFKEYON**
+- Long name: If Key Pressed (First Time)
 
 #### Memory layout
 
@@ -13,8 +13,8 @@ title: 31_IFKEYON
 
 #### Arguments
 
--   **const UShort (Bit field)** *B*: Button ID to check for.
--   **const UByte** *A*: Amount to jump if condition is false.
+- **const UShort (Bit field)** *B*: Button ID to check for.
+- **const UByte** *A*: Amount to jump if condition is false.
 
 #### Description
 

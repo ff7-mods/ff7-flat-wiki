@@ -2,9 +2,9 @@
 title: CE_MMBLK
 ---
 
--   Opcode: **0xCE**
--   Short name: **MMBLK**
--   Long name: Party Select: Character Lock
+- Opcode: **0xCE**
+- Short name: **MMBLK**
+- Long name: Party Select: Character Lock
 
 #### Memory layout
 
@@ -13,7 +13,7 @@ title: CE_MMBLK
 
 #### Arguments
 
--   **const UByte** *C*: Character ID to lock.
+- **const UByte** *C*: Character ID to lock.
 
 #### Description
 

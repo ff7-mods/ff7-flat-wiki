@@ -2,9 +2,9 @@
 title: B8_GETAXY
 ---
 
--   Opcode: **0xB8**
--   Short name: **GETAXY**
--   Long name: Get Entity XY
+- Opcode: **0xB8**
+- Short name: **GETAXY**
+- Long name: Get Entity XY
 
 #### Memory layout
 
@@ -13,11 +13,11 @@ title: B8_GETAXY
 
 #### Arguments
 
--   **const Bit\[4\]** *B1*: Bank to store *X*.
--   **const Bit\[4\]** *B2*: Bank to store *Y*.
--   **const UByte** *E*: Entity ID to retrieve.
--   **const UByte** *X*: Address to store X-coordinate.
--   **const UByte** *Y*: Address to store Y-coordinate.
+- **const Bit\[4\]** *B1*: Bank to store *X*.
+- **const Bit\[4\]** *B2*: Bank to store *Y*.
+- **const UByte** *E*: Entity ID to retrieve.
+- **const UByte** *X*: Address to store X-coordinate.
+- **const UByte** *Y*: Address to store Y-coordinate.
 
 #### Description
 

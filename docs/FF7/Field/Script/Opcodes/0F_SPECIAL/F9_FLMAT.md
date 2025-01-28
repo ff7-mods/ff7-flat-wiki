@@ -2,9 +2,9 @@
 title: F9_FLMAT
 ---
 
--   Opcode: **0x0FF9**
--   Short name: **SPECIAL: FLMAT**
--   Long name: Special: Fill Materia
+- Opcode: **0x0FF9**
+- Short name: **SPECIAL: FLMAT**
+- Long name: Special: Fill Materia
 
 #### Memory layout
 

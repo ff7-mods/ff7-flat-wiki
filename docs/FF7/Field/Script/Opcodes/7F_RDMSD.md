@@ -2,9 +2,9 @@
 title: 7F_RDMSD
 ---
 
--   Opcode: **0x7F**
--   Short name: **RDMSD**
--   Long name: Seed Random Generator
+- Opcode: **0x7F**
+- Short name: **RDMSD**
+- Long name: Seed Random Generator
 
 #### Memory layout
 
@@ -13,8 +13,8 @@ title: 7F_RDMSD
 
 #### Arguments
 
--   **const UByte** *B*: Bank in which the seed value is stored, or zero if *S* is specified as a literal value.
--   **const UByte** *S*: Seed for the random generator, or address for the seed if *B* is non-zero.
+- **const UByte** *B*: Bank in which the seed value is stored, or zero if *S* is specified as a literal value.
+- **const UByte** *S*: Seed for the random generator, or address for the seed if *B* is non-zero.
 
 #### Description
 

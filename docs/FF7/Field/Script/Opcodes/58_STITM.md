@@ -2,9 +2,9 @@
 title: 58_STITM
 ---
 
--   Opcode: **0x58**
--   Short name: **STITM**
--   Long name: Set Item
+- Opcode: **0x58**
+- Short name: **STITM**
+- Long name: Set Item
 
 #### Memory layout
 
@@ -13,10 +13,10 @@ title: 58_STITM
 
 #### Arguments
 
--   **const Bit\[4\]** *B1*: Source bank 1, or zero if *T* is set as a constant value.
--   **const Bit\[4\]** *B2*: Source bank 2, or zero if *A* is set as a constant value.
--   **const UShort** *T*: [Type of item](../Item_ID.md) to add, or source address to retrieve item type from.
--   **const UByte** *A*: Amount of item to add, or source address to retrieve item quantity from.
+- **const Bit\[4\]** *B1*: Source bank 1, or zero if *T* is set as a constant value.
+- **const Bit\[4\]** *B2*: Source bank 2, or zero if *A* is set as a constant value.
+- **const UShort** *T*: [Type of item](../Item_ID.md) to add, or source address to retrieve item type from.
+- **const UByte** *A*: Amount of item to add, or source address to retrieve item quantity from.
 
 #### Description
 

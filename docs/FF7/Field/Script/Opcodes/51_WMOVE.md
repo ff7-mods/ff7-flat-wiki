@@ -2,9 +2,9 @@
 title: 51_WMOVE
 ---
 
--   Opcode: **0x51**
--   Short name: **WMOVE**
--   Long name: Window Move
+- Opcode: **0x51**
+- Short name: **WMOVE**
+- Long name: Window Move
 
 #### Memory layout
 
@@ -13,9 +13,9 @@ title: 51_WMOVE
 
 #### Arguments
 
--   **const UByte** *I*: [WINDOW](50_WINDOW.md) ID to resize.
--   **const Short** *X*: X-translation of the window.
--   **const Short** *Y*: Y-translation of the window.
+- **const UByte** *I*: [WINDOW](50_WINDOW.md) ID to resize.
+- **const Short** *X*: X-translation of the window.
+- **const Short** *Y*: Y-translation of the window.
 
 #### Description
 

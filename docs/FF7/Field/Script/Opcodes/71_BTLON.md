@@ -2,9 +2,9 @@
 title: 71_BTLON
 ---
 
--   Opcode: **0x71**
--   Short name: **BTLON**
--   Long name: Battle Switch
+- Opcode: **0x71**
+- Short name: **BTLON**
+- Long name: Battle Switch
 
 #### Memory layout
 
@@ -13,7 +13,7 @@ title: 71_BTLON
 
 #### Arguments
 
--   **const UByte** *S*: Switch battles on/off (0/1, respectively).
+- **const UByte** *S*: Switch battles on/off (0/1, respectively).
 
 #### Description
 

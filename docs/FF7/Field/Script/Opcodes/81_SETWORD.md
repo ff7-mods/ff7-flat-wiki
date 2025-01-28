@@ -2,9 +2,9 @@
 title: 81_SETWORD
 ---
 
--   Opcode: **0x81**
--   Short name: **SETWORD**
--   Long name: Word Set
+- Opcode: **0x81**
+- Short name: **SETWORD**
+- Long name: Word Set
 
 #### Memory layout
 
@@ -13,10 +13,10 @@ title: 81_SETWORD
 
 #### Arguments
 
--   **const Bit\[4\]** *D*: Destination bank.
--   **const Bit\[4\]** *S*: Source bank.
--   **const UByte** *A*: Destination address.
--   **const Short** *V*: Value to be written/Source address.
+- **const Bit\[4\]** *D*: Destination bank.
+- **const Bit\[4\]** *S*: Source bank.
+- **const UByte** *A*: Destination address.
+- **const Short** *V*: Value to be written/Source address.
 
 #### Description
 

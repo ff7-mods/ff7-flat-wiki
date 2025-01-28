@@ -2,9 +2,9 @@
 title: D8_PMJMP
 ---
 
--   Opcode: **0xD8**
--   Short name: **PMJMP**
--   Long name: Prepare Field Change
+- Opcode: **0xD8**
+- Short name: **PMJMP**
+- Long name: Prepare Field Change
 
 #### Memory layout
 
@@ -13,7 +13,7 @@ title: D8_PMJMP
 
 #### Arguments
 
--   **const UShort** *I*: [Field ID](../../Field_List.md) of the map to prepare to jump to.
+- **const UShort** *I*: [Field ID](../../Field_List.md) of the map to prepare to jump to.
 
 #### Description
 

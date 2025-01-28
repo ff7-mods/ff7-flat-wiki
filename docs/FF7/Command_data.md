@@ -7,13 +7,13 @@ title: Command_data
 This section contains the data for Menu commands.  
 There are 32 entries of 8 bytes in the following format:
 
-| Offset | Length  | Description                                                                               |
-|:------:|---------|-------------------------------------------------------------------------------------------|
-|  0x00  | 1 byte  | Initial Cursor Action\*                                                                   |
-|  0x01  | 1 byte  | [Target Flags](Battle/Targeting_Data.md)                                      |
-|  0x02  | 2 bytes | Unknown (Always \[FFFFh\])                                                                |
-|  0x04  | 2 bytes | [Camera Movement Id](Battle/Camera_Movement_Id_List.md) for single target.    |
-|  0x06  | 2 bytes | [Camera Movement Id](Battle/Camera_Movement_Id_List.md) for multiple targets. |
+| Offset | Length | Description |  |
+|:--:|----|----|----|
+| 0x00 | 1 byte | Initial Cursor Action\* |  |
+| 0x01 | 1 byte | [Target Flags](Battle/Targeting_Data.md) |  |
+| 0x02 | 2 bytes | Unknown (Always \[FFFFh\]) |  |
+| 0x04 | 2 bytes | [Camera Movement Id](Battle/Camera_Movement_Id_List.md) for single target. |  |
+| 0x06 | 2 bytes | [Camera Movement Id](Battle/Camera_Movement_Id_List.md) for multiple targets. |  |
 
   
 \*Initial Cursor Action: The different values will tell it what to do or what menu to bring up:

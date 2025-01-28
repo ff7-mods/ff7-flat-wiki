@@ -2,9 +2,9 @@
 title: C4_OFSTW
 ---
 
--   Opcode: **0xC4**
--   Short name: **OFSTW**
--   Long name: Wait for Offset
+- Opcode: **0xC4**
+- Short name: **OFSTW**
+- Long name: Wait for Offset
 
 #### Memory layout
 

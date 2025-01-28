@@ -2,9 +2,9 @@
 title: 54_WCLSE
 ---
 
--   Opcode: **0x54**
--   Short name: **WCLSE**
--   Long name: Window Close
+- Opcode: **0x54**
+- Short name: **WCLSE**
+- Long name: Window Close
 
 #### Memory layout
 
@@ -13,7 +13,7 @@ title: 54_WCLSE
 
 #### Arguments
 
--   **const UByte** *N*: The ID of the window to close.
+- **const UByte** *N*: The ID of the window to close.
 
 #### Description
 

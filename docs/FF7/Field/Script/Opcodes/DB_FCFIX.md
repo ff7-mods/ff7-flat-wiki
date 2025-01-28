@@ -2,9 +2,9 @@
 title: DB_FCFIX
 ---
 
--   Opcode: **0xDB**
--   Short name: **FCFIX**
--   Long name: Character rotatability
+- Opcode: **0xDB**
+- Short name: **FCFIX**
+- Long name: Character rotatability
 
 #### Memory layout
 
@@ -13,7 +13,7 @@ title: DB_FCFIX
 
 #### Arguments
 
--   **const UByte** *S*: 1 - lock.
+- **const UByte** *S*: 1 - lock.
 
 #### Description
 

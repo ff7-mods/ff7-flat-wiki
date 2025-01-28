@@ -2,9 +2,9 @@
 title: 62_SCRLC
 ---
 
--   Opcode: **0x62**
--   Short name: **SCRLC**
--   Long name: Scroll To Playable Character Stop Movement
+- Opcode: **0x62**
+- Short name: **SCRLC**
+- Long name: Scroll To Playable Character Stop Movement
 
 #### Memory layout
 
@@ -13,10 +13,10 @@ title: 62_SCRLC
 
 #### Arguments
 
--   **const UByte** *B*: PRESUME -&gt; Bank for the scroll speed, or zero if it is specified as a literal value. Always zero in game data
--   **const UShort** *S*: Speed of the scroll, in frames, or the address to find the speed if *B* is non-zero.
--   **const UByte** *U*: Unknown -&gt; Always zero in game data. Seems to affect the speed above.
--   **const UByte** *T*: Type of scroll.
+- **const UByte** *B*: PRESUME -\> Bank for the scroll speed, or zero if it is specified as a literal value. Always zero in game data
+- **const UShort** *S*: Speed of the scroll, in frames, or the address to find the speed if *B* is non-zero.
+- **const UByte** *U*: Unknown -\> Always zero in game data. Seems to affect the speed above.
+- **const UByte** *T*: Type of scroll.
 
 #### Description
 
@@ -24,10 +24,10 @@ Scrolls the current view so that the main playable character is in the center of
 
 #### Scroll Types
 
-| ID  | Scroll Type                                                                                                    |
-|-----|----------------------------------------------------------------------------------------------------------------|
-| 0   | No effect - Camera does not move, returns script, camera still follows the playable character is it did before |
-| 1   | No effect - Camera does not move, returns script, camera still follows the playable character is it did before |
-| 2   | Linear                                                                                                         |
-| 3   | Smooth (QuadraticInAndOut)                                                                                     |
-|     |                                                                                                                |
+| ID | Scroll Type |
+|----|----|
+| 0 | No effect - Camera does not move, returns script, camera still follows the playable character is it did before |
+| 1 | No effect - Camera does not move, returns script, camera still follows the playable character is it did before |
+| 2 | Linear |
+| 3 | Smooth (QuadraticInAndOut) |
+|  |  |

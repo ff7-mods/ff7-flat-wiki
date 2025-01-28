@@ -2,9 +2,9 @@
 title: 21_TUTOR
 ---
 
--   Opcode: **0x21**
--   Short name: **TUTOR**
--   Long name: Play Tutorial
+- Opcode: **0x21**
+- Short name: **TUTOR**
+- Long name: Play Tutorial
 
 #### Memory layout
 
@@ -13,7 +13,7 @@ title: 21_TUTOR
 
 #### Arguments
 
--   **const UByte** *T*: Tutorial ID.
+- **const UByte** *T*: Tutorial ID.
 
 #### Description
 

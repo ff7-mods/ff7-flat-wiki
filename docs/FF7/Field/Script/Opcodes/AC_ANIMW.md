@@ -2,9 +2,9 @@
 title: AC_ANIMW
 ---
 
--   Opcode: **0xAC**
--   Short name: **ANIMW**
--   Long name: Wait for Animation
+- Opcode: **0xAC**
+- Short name: **ANIMW**
+- Long name: Wait for Animation
 
 #### Memory layout
 

@@ -2,9 +2,9 @@
 title: 73_PGTDR
 ---
 
--   Opcode: **0x73**
--   Short name: **PGTDR**
--   Long name: Get Party Member Direction
+- Opcode: **0x73**
+- Short name: **PGTDR**
+- Long name: Get Party Member Direction
 
 #### Memory layout
 
@@ -13,9 +13,9 @@ title: 73_PGTDR
 
 #### Arguments
 
--   **const UByte** *B*: Bank to store direction.
--   **const UByte** *P*: Party member ID, from 0 to 2.
--   **const UByte** *D*: Address to store direction.
+- **const UByte** *B*: Bank to store direction.
+- **const UByte** *P*: Party member ID, from 0 to 2.
+- **const UByte** *D*: Address to store direction.
 
 #### Description
 

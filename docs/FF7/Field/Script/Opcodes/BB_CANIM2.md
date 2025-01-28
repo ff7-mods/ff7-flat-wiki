@@ -2,9 +2,9 @@
 title: BB_CANIM2
 ---
 
--   Opcode: **0xBB**
--   Short name: **CANIM2**
--   Long name: Particial Animation.
+- Opcode: **0xBB**
+- Short name: **CANIM2**
+- Long name: Particial Animation.
 
 #### Memory layout
 
@@ -13,10 +13,10 @@ title: BB_CANIM2
 
 #### Arguments
 
--   **const UByte** *A*: Animation ID for this entity's field object.
--   **const UByte** *F*: First frame of animation.
--   **const UByte** *L*: Last frame of animation.
--   **const UByte** *S*: Relative speed of animation. Real model animation speed divide by this to calculate real play speed.
+- **const UByte** *A*: Animation ID for this entity's field object.
+- **const UByte** *F*: First frame of animation.
+- **const UByte** *L*: Last frame of animation.
+- **const UByte** *S*: Relative speed of animation. Real model animation speed divide by this to calculate real play speed.
 
 #### Description
 

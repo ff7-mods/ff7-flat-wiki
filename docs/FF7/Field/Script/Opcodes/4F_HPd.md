@@ -2,9 +2,9 @@
 title: 4F_HPd
 ---
 
--   Opcode: **0x4F**
--   Short name: **HPd**
--   Long name: HP Down
+- Opcode: **0x4F**
+- Short name: **HPd**
+- Long name: HP Down
 
 #### Memory layout
 
@@ -13,9 +13,9 @@ title: 4F_HPd
 
 #### Arguments
 
--   **const UByte** *B*: Bank to retrieve value for decreasing, or zero if the amount is specified by a constant in *V*.
--   **const UByte** *P*: Party member whose HP will decrease (0 to 2).
--   **const UShort** *V*: Value to decrease HP by, or address to retrieve value from if *B* is non-zero.
+- **const UByte** *B*: Bank to retrieve value for decreasing, or zero if the amount is specified by a constant in *V*.
+- **const UByte** *P*: Party member whose HP will decrease (0 to 2).
+- **const UShort** *V*: Value to decrease HP by, or address to retrieve value from if *B* is non-zero.
 
 #### Description
 

@@ -2,9 +2,9 @@
 title: FE_RSGLB
 ---
 
--   Opcode: **0x0FFE**
--   Short name: **SPECIAL: RSGLB**
--   Long name: Special: Reset Game And ?
+- Opcode: **0x0FFE**
+- Short name: **SPECIAL: RSGLB**
+- Long name: Special: Reset Game And ?
 
 #### Memory layout
 

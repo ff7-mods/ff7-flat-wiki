@@ -2,9 +2,9 @@
 title: 38_STTIM
 ---
 
--   Opcode: **0x38**
--   Short name: **STTIM**
--   Long name: Set Timer
+- Opcode: **0x38**
+- Short name: **STTIM**
+- Long name: Set Timer
 
 #### Memory layout
 
@@ -13,13 +13,13 @@ title: 38_STTIM
 
 #### Arguments
 
--   **const Bit\[4\]** *B1*: Bank to find hours value, or zero if hours (*B1*) is passed as a value.
--   **const Bit\[4\]** *B2*: Bank to find minutes value, or zero if minutes (*B2*) is passed as a value.
--   **const Bit\[4\]** *0*: Zero.
--   **const Bit\[4\]** *B3*: Bank to find seconds value, or zero if seconds (*B3*) is passed as a value.
--   **const UByte** *H*: Hours, or address to find hours value, if *B1* is non-zero.
--   **const UByte** *M*: Minutes, or address to find minutes value, if *B2* is non-zero.
--   **const UByte** *S*: Seconds, or address to find seconds value, if *B3* is non-zero.
+- **const Bit\[4\]** *B1*: Bank to find hours value, or zero if hours (*B1*) is passed as a value.
+- **const Bit\[4\]** *B2*: Bank to find minutes value, or zero if minutes (*B2*) is passed as a value.
+- **const Bit\[4\]** *0*: Zero.
+- **const Bit\[4\]** *B3*: Bank to find seconds value, or zero if seconds (*B3*) is passed as a value.
+- **const UByte** *H*: Hours, or address to find hours value, if *B1* is non-zero.
+- **const UByte** *M*: Minutes, or address to find minutes value, if *B2* is non-zero.
+- **const UByte** *S*: Seconds, or address to find seconds value, if *B3* is non-zero.
 
 #### Description
 

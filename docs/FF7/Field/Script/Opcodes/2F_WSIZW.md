@@ -2,9 +2,9 @@
 title: 2F_WSIZW
 ---
 
--   Opcode: **0x2F**
--   Short name: **WSIZW**
--   Long name: Window Resize
+- Opcode: **0x2F**
+- Short name: **WSIZW**
+- Long name: Window Resize
 
 #### Memory layout
 
@@ -13,11 +13,11 @@ title: 2F_WSIZW
 
 #### Arguments
 
--   **const UByte** *I*: [WINDOW](50_WINDOW.md) ID to resize.
--   **const UShort** *X*: X-coordinate of the window.
--   **const UShort** *Y*: Y-coordinate of the window.
--   **const UShort** *W*: Width of the window.
--   **const UShort** *H*: Height of the window.
+- **const UByte** *I*: [WINDOW](50_WINDOW.md) ID to resize.
+- **const UShort** *X*: X-coordinate of the window.
+- **const UShort** *Y*: Y-coordinate of the window.
+- **const UShort** *W*: Width of the window.
+- **const UShort** *H*: Height of the window.
 
 #### Description
 

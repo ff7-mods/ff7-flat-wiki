@@ -2,9 +2,9 @@
 title: 63_SCRLA
 ---
 
--   Opcode: **0x63**
--   Short name: **SCRLA**
--   Long name: Scroll To Entity
+- Opcode: **0x63**
+- Short name: **SCRLA**
+- Long name: Scroll To Entity
 
 #### Memory layout
 
@@ -13,10 +13,10 @@ title: 63_SCRLA
 
 #### Arguments
 
--   **const UByte** *B*: Bank for the scroll speed, or zero if it is specified as a literal value.
--   **const UShort** *S*: Speed of the scroll, in frames, or the address to find the speed if *B* is non-zero.
--   **const UByte** *E*: Entity ID to scroll to.
--   **const UByte** *T*: Type of scroll.
+- **const UByte** *B*: Bank for the scroll speed, or zero if it is specified as a literal value.
+- **const UShort** *S*: Speed of the scroll, in frames, or the address to find the speed if *B* is non-zero.
+- **const UByte** *E*: Entity ID to scroll to.
+- **const UByte** *T*: Type of scroll.
 
 #### Description
 

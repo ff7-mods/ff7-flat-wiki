@@ -2,9 +2,9 @@
 title: C6_SLIDR
 ---
 
--   Opcode: **0xC6**
--   Short name: **SLIDR**
--   Long name: Solid Range
+- Opcode: **0xC6**
+- Short name: **SLIDR**
+- Long name: Solid Range
 
 #### Memory layout
 
@@ -13,8 +13,8 @@ title: C6_SLIDR
 
 #### Arguments
 
--   **const UByte** *B*: Bank to retrieve *R*, or zero if *R* is specified as a literal value.
--   **const UByte** *R*: Range value.
+- **const UByte** *B*: Bank to retrieve *R*, or zero if *R* is specified as a literal value.
+- **const UByte** *R*: Range value.
 
 #### Description
 

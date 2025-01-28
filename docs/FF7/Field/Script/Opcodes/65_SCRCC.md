@@ -2,9 +2,9 @@
 title: 65_SCRCC
 ---
 
--   Opcode: **0x65**
--   Short name: **SCRCC**
--   Long name: Scroll To Playable Character
+- Opcode: **0x65**
+- Short name: **SCRCC**
+- Long name: Scroll To Playable Character
 
 #### Memory layout
 

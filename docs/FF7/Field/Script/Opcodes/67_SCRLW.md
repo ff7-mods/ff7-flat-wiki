@@ -2,9 +2,9 @@
 title: 67_SCRLW
 ---
 
--   Opcode: **0x67**
--   Short name: **SCRLW**
--   Long name: Wait for scroll
+- Opcode: **0x67**
+- Short name: **SCRLW**
+- Long name: Wait for scroll
 
 #### Memory layout
 

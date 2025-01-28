@@ -2,9 +2,9 @@
 title: FB_MVCAM
 ---
 
--   Opcode: **0xFB**
--   Short name: **MVCAM**
--   Long name: Movie Camera Switch
+- Opcode: **0xFB**
+- Short name: **MVCAM**
+- Long name: Movie Camera Switch
 
 #### Memory layout
 
@@ -13,7 +13,7 @@ title: FB_MVCAM
 
 #### Arguments
 
--   **const UByte** *S*: Switch on/off (0/1, respectively).
+- **const UByte** *S*: Switch on/off (0/1, respectively).
 
 #### Description
 

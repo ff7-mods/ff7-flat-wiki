@@ -2,9 +2,9 @@
 title: 13_JMPBL
 ---
 
--   Opcode: **0x13**
--   Short name: **JMPBL**
--   Long name: Jump back (long)
+- Opcode: **0x13**
+- Short name: **JMPBL**
+- Long name: Jump back (long)
 
 #### Memory layout
 
@@ -13,7 +13,7 @@ title: 13_JMPBL
 
 #### Arguments
 
--   **const UShort** *A*: Amount to jump backwards.
+- **const UShort** *A*: Amount to jump backwards.
 
 #### Description
 

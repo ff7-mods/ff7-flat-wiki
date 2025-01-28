@@ -2,9 +2,9 @@
 title: DC_CCANM
 ---
 
--   Opcode: **0xDC**
--   Short name: **CCANM**
--   Long name: Stand/Walk/Run animation.
+- Opcode: **0xDC**
+- Short name: **CCANM**
+- Long name: Stand/Walk/Run animation.
 
 #### Memory layout
 
@@ -13,8 +13,8 @@ title: DC_CCANM
 
 #### Arguments
 
--   **const UByte** *A*: Animation ID for selected action.
--   **const UByte** *I*: Id of selected action. (0 - stand, 1 - walk, 2 - run).
+- **const UByte** *A*: Animation ID for selected action.
+- **const UByte** *I*: Id of selected action. (0 - stand, 1 - walk, 2 - run).
 
 #### Description
 

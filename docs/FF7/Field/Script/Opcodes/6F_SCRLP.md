@@ -2,9 +2,9 @@
 title: 6F_SCRLP
 ---
 
--   Opcode: **0x6F**
--   Short name: **SCRLP**
--   Long name: Scroll To Party Member
+- Opcode: **0x6F**
+- Short name: **SCRLP**
+- Long name: Scroll To Party Member
 
 #### Memory layout
 
@@ -13,10 +13,10 @@ title: 6F_SCRLP
 
 #### Arguments
 
--   **const UByte** *B*: Bank for the scroll speed, or zero if it is specified as a literal value.
--   **const UShort** *S*: Speed of the scroll, in frames, or the address to find the speed if *B* is non-zero.
--   **const UByte** *P*: Party ID to scroll to, between 0 and 2.
--   **const UByte** *T*: [Type](63_SCRLA.md) of scroll.
+- **const UByte** *B*: Bank for the scroll speed, or zero if it is specified as a literal value.
+- **const UShort** *S*: Speed of the scroll, in frames, or the address to find the speed if *B* is non-zero.
+- **const UByte** *P*: Party ID to scroll to, between 0 and 2.
+- **const UByte** *T*: [Type](63_SCRLA.md) of scroll.
 
 #### Description
 

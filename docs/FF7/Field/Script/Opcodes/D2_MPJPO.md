@@ -2,9 +2,9 @@
 title: D2_MPJPO
 ---
 
--   Opcode: **0xD2**
--   Short name: **MPJPO**
--   Long name: Gateway Switch (Map Jump Off)
+- Opcode: **0xD2**
+- Short name: **MPJPO**
+- Long name: Gateway Switch (Map Jump Off)
 
 #### Memory layout
 
@@ -13,7 +13,7 @@ title: D2_MPJPO
 
 #### Arguments
 
--   **const UByte** *S*: Switch on/off (0/1, respectively).
+- **const UByte** *S*: Switch on/off (0/1, respectively).
 
 #### Description
 

@@ -2,9 +2,9 @@
 title: 12_JMPB
 ---
 
--   Opcode: **0x12**
--   Short name: **JMPB**
--   Long name: Jump back
+- Opcode: **0x12**
+- Short name: **JMPB**
+- Long name: Jump back
 
 #### Memory layout
 
@@ -13,7 +13,7 @@ title: 12_JMPB
 
 #### Arguments
 
--   **const UByte** *A*: Amount to jump backwards.
+- **const UByte** *A*: Amount to jump backwards.
 
 #### Description
 

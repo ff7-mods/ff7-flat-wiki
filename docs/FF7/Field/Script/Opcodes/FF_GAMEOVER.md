@@ -2,9 +2,9 @@
 title: FF_GAMEOVER
 ---
 
--   Opcode: **0xFF**
--   Short name: **GAMEOVER**
--   Long name: Game over
+- Opcode: **0xFF**
+- Short name: **GAMEOVER**
+- Long name: Game over
 
 #### Memory layout
 

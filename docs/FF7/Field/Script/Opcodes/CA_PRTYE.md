@@ -2,9 +2,9 @@
 title: CA_PRTYE
 ---
 
--   Opcode: **0xCA**
--   Short name: **PRTYE**
--   Long name: Party Change
+- Opcode: **0xCA**
+- Short name: **PRTYE**
+- Long name: Party Change
 
 #### Memory layout
 
@@ -13,9 +13,9 @@ title: CA_PRTYE
 
 #### Arguments
 
--   **const UByte** *1*: Character ID for first party character.
--   **const UByte** *2*: Character ID for second party character.
--   **const UByte** *3*: Character ID for third party character.
+- **const UByte** *1*: Character ID for first party character.
+- **const UByte** *2*: Character ID for second party character.
+- **const UByte** *3*: Character ID for third party character.
 
 #### Description
 

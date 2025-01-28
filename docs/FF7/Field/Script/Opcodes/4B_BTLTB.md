@@ -2,9 +2,9 @@
 title: 4B_BTLTB
 ---
 
--   Opcode: **0x4B**
--   Short name: **BTLTB**
--   Long name: Battle Table
+- Opcode: **0x4B**
+- Short name: **BTLTB**
+- Long name: Battle Table
 
 #### Memory layout
 
@@ -13,7 +13,7 @@ title: 4B_BTLTB
 
 #### Arguments
 
--   **const UByte** *I*: ID of the encounter table to use, either 0 (standard) or 1.
+- **const UByte** *I*: ID of the encounter table to use, either 0 (standard) or 1.
 
 #### Description
 

@@ -2,9 +2,9 @@
 title: 39_GOLDu
 ---
 
--   Opcode: **0x39**
--   Short name: **GOLDu**
--   Long name: Gil Up
+- Opcode: **0x39**
+- Short name: **GOLDu**
+- Long name: Gil Up
 
 #### Memory layout
 
@@ -18,14 +18,14 @@ title: 39_GOLDu
 
 Increase by a constant amount:
 
--   **const UByte** *0*: Zero.
--   **const ULong** *A*: Amount to increase.
+- **const UByte** *0*: Zero.
+- **const ULong** *A*: Amount to increase.
 
 Increase by an amount found in memory:
 
--   **const Bit\[4\]** *B*: Source bank.
--   **const UByte** *A*: Source address.
--   **const UByte\[3\]** *0*: Three zero bytes.
+- **const Bit\[4\]** *B*: Source bank.
+- **const UByte** *A*: Source address.
+- **const UByte\[3\]** *0*: Three zero bytes.
 
 #### Description
 

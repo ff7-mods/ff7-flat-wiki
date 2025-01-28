@@ -2,9 +2,9 @@
 title: F5_ARROW
 ---
 
--   Opcode: **0x0FF5**
--   Short name: **SPECIAL: ARROW**
--   Long name: Special: Arrow Switch
+- Opcode: **0x0FF5**
+- Short name: **SPECIAL: ARROW**
+- Long name: Special: Arrow Switch
 
 #### Memory layout
 
@@ -13,7 +13,7 @@ title: F5_ARROW
 
 #### Arguments
 
--   **const UByte** *S*: Switch on/off (0/1, respectively).
+- **const UByte** *S*: Switch on/off (0/1, respectively).
 
 #### Description
 

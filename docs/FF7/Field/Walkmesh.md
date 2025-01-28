@@ -5,32 +5,42 @@ title: Walkmesh
 ### Section 5: Walkmesh ([Kero](../../User:Kero.md)
 
 <div class="thumb tright">
+
 <div class="thumbinner" style="width: 182px">
 
-<figure><img src="Field_Wutai.jpg" title="180px-Field_Wutai.jpg" width="180" alt="180px-Field_Wutai.jpg" /><figcaption aria-hidden="true"><img src="180px-Field_Wutai.jpg" title="fig:180px-Field_Wutai.jpg" alt="180px-Field_Wutai.jpg" /></figcaption></figure>
+<figure>
+<img src="Field_Wutai.jpg" title="180px-Field_Wutai.jpg" width="180" />
+<figcaption><img src="180px-Field_Wutai.jpg" title="180px-Field_Wutai.jpg" alt="180px-Field_Wutai.jpg" /></figcaption>
+</figure>
 
 <div class="thumbcaption">
+
 <div class="magnify">
 
-![](../../assets/Field_Wutai.jpg)
+<figure>
+<img src="Field_Wutai.jpg" title="Field_Wutai.jpg" />
+<figcaption>Field_Wutai.jpg</figcaption>
+</figure>
 
 </div>
 
 Wutai Walkmesh
 
 </div>
+
 </div>
+
 </div>
 
 Every every offset is here relative, 00 is at the start of section 5 (after length indicator).
 
 Section 5 of field files is a stored walkmesh. A walkmesh is a mesh of polygons on which characters move, telling the engine for example how high it is, and using this the character can, for example, cross bridges with the real feeling that in the middle he is at a higher place than on the sides. It has very simple structure.
 
-| Offset             | Name                     | Data Type | Length    | Description                 |
-|--------------------|--------------------------|-----------|-----------|-----------------------------|
-| 0x0000             | NoS                      | DWORD     | 0x04      | Number of Sectors           |
-| 0x0004             | Sector Pool (SP)         | DWORD     | 24 \* NoS | The data pool of Secots     |
-| 0x0004 + 24 \* NoS | Sector Access Pool (SAP) | WORD\[3\] | 6 \* NoS  | ID of triangle of each Edge |
+| Offset | Name | Data Type | Length | Description |
+|----|----|----|----|----|
+| 0x0000 | NoS | DWORD | 0x04 | Number of Sectors |
+| 0x0004 | Sector Pool (SP) | DWORD | 24 \* NoS | The data pool of Secots |
+| 0x0004 + 24 \* NoS | Sector Access Pool (SAP) | WORD\[3\] | 6 \* NoS | ID of triangle of each Edge |
 
 #### Section 5 Header
 
@@ -50,7 +60,7 @@ Startofs 0x04 Length NoS\*24
 `   vertex_3s v[3];     // a triangle has 3 vertices`  
 `} sect_t;          // Sector Type`
 
-The pool consists of sectors, which are in fact triangles, each with their vertices position. For each sector there are 3 vertices (3 vertex\_3s). Res is always equal to v\[0\].z (it is just a padding value). The polygons are 'wound' clockwise, this makes determining if a point is within a triangle easier.
+The pool consists of sectors, which are in fact triangles, each with their vertices position. For each sector there are 3 vertices (3 vertex_3s). Res is always equal to v\[0\].z (it is just a padding value). The polygons are 'wound' clockwise, this makes determining if a point is within a triangle easier.
 
 #### Access pool
 

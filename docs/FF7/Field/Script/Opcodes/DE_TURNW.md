@@ -2,9 +2,9 @@
 title: DE_TURNW
 ---
 
--   Opcode: **0xDE**
--   Short name: **TURNW**
--   Long name: Wait for Turn
+- Opcode: **0xDE**
+- Short name: **TURNW**
+- Long name: Wait for Turn
 
 #### Memory layout
 

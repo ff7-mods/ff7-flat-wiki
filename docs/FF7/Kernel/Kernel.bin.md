@@ -15,35 +15,35 @@ The file KERNEL.BIN archive is in [BIN-GZIP format](FF7/Kernel/Low_level_librari
 
 The KERNEL.BIN file consists of the following sections.
 
-| File | Data                                                            | Offset |
-|------|-----------------------------------------------------------------|--------|
-| 1    | [Command data](../Command_data.md)                     | 0x0006 |
-| 2    | [Attack data](../Attack_data.md)                       | 0x0086 |
-| 3    | [Battle and growth data](../Battle_and_growth_data.md) | 0x063A |
-| 4    | [Initialization data](../Character_starting_stats.md)  | 0x0F7F |
-| 5    | [Item data](../Item_data.md)                           | 0x111B |
-| 6    | [Weapon data](../Weapon_data.md)                       | 0x137A |
-| 7    | [Armor data](../Armor_data.md)                         | 0x1A30 |
-| 8    | [Accessory data](../Accessory_data.md)                 | 0x1B73 |
-| 9    | [Materia data](../Materia_data.md)                     | 0x1C11 |
-| 10   | Command descriptions                                            | 0x1F32 |
-| 11   | Magic descriptions                                              | 0x2199 |
-| 12   | Item descriptions                                               | 0x28D4 |
-| 13   | Weapon descriptions                                             | 0x2EE2 |
-| 14   | Armor descriptions                                              | 0x307B |
-| 15   | Accessory descriptions                                          | 0x315F |
-| 16   | Materia descriptions                                            | 0x3384 |
-| 17   | Key Item descriptions                                           | 0x3838 |
-| 18   | Command Names                                                   | 0x3BE2 |
-| 19   | Magic Names                                                     | 0x3CCA |
-| 20   | Item Names                                                      | 0x4293 |
-| 21   | Weapon Names                                                    | 0x4651 |
-| 22   | Armor Names                                                     | 0x4B02 |
-| 23   | Accessory Names                                                 | 0x4C4B |
-| 24   | Materia Names                                                   | 0x4D90 |
-| 25   | Key Item Names                                                  | 0x5040 |
-| 26   | Battle and Battle-Screen Text                                   | 0x5217 |
-| 27   | Summon Attack Names                                             | 0x5692 |
+| File | Data | Offset |
+|----|----|----|
+| 1 | [Command data](../Command_data.md) | 0x0006 |
+| 2 | [Attack data](../Attack_data.md) | 0x0086 |
+| 3 | [Battle and growth data](../Battle_and_growth_data.md) | 0x063A |
+| 4 | [Initialization data](../Character_starting_stats.md) | 0x0F7F |
+| 5 | [Item data](../Item_data.md) | 0x111B |
+| 6 | [Weapon data](../Weapon_data.md) | 0x137A |
+| 7 | [Armor data](../Armor_data.md) | 0x1A30 |
+| 8 | [Accessory data](../Accessory_data.md) | 0x1B73 |
+| 9 | [Materia data](../Materia_data.md) | 0x1C11 |
+| 10 | Command descriptions | 0x1F32 |
+| 11 | Magic descriptions | 0x2199 |
+| 12 | Item descriptions | 0x28D4 |
+| 13 | Weapon descriptions | 0x2EE2 |
+| 14 | Armor descriptions | 0x307B |
+| 15 | Accessory descriptions | 0x315F |
+| 16 | Materia descriptions | 0x3384 |
+| 17 | Key Item descriptions | 0x3838 |
+| 18 | Command Names | 0x3BE2 |
+| 19 | Magic Names | 0x3CCA |
+| 20 | Item Names | 0x4293 |
+| 21 | Weapon Names | 0x4651 |
+| 22 | Armor Names | 0x4B02 |
+| 23 | Accessory Names | 0x4C4B |
+| 24 | Materia Names | 0x4D90 |
+| 25 | Key Item Names | 0x5040 |
+| 26 | Battle and Battle-Screen Text | 0x5217 |
+| 27 | Summon Attack Names | 0x5692 |
 
 ## The KERNEL2.BIN Archive
 

@@ -4,7 +4,7 @@ title: Video_Formats
 
 # Known FF7:CC Video Formats
 
--   [\[PSMF](Video_Formats.md#PSMF_Format)\]
+- [\[PSMF](Video_Formats.md#PSMF_Format)\]
 
   
 

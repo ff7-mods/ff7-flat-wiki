@@ -2,9 +2,9 @@
 title: D5_COS
 ---
 
--   Opcode: **0xD5**
--   Short name: **COS**
--   Long name: COS Calculation
+- Opcode: **0xD5**
+- Short name: **COS**
+- Long name: COS Calculation
 
 #### Memory layout
 
@@ -13,14 +13,14 @@ title: D5_COS
 
 #### Arguments
 
--   **const Bit\[4\]** *B1*: Destination bank.
--   **const Bit\[4\]** *B2*: Bank to retrieve *M*, or zero if *M* is specified as a literal value.
--   **const Bit\[4\]** *B3*: Bank to retrieve *A*, or zero if *A* is specified as a literal value.
--   **const Bit\[4\]** *B4*: Bank to retrieve *S*, or zero if *S* is specified as a literal value.
--   **const UByte** *D*: Destination address.
--   **const UByte** *M*: Multiplicand, or address to retrieve value if *B2* is non-zero.
--   **const UByte** *A*: Addition, or address to retrieve value if *B3* is non-zero.
--   **const UByte** *S*: Variable for cos angle, or source address to retrieve value if *B4* is non-zero.
+- **const Bit\[4\]** *B1*: Destination bank.
+- **const Bit\[4\]** *B2*: Bank to retrieve *M*, or zero if *M* is specified as a literal value.
+- **const Bit\[4\]** *B3*: Bank to retrieve *A*, or zero if *A* is specified as a literal value.
+- **const Bit\[4\]** *B4*: Bank to retrieve *S*, or zero if *S* is specified as a literal value.
+- **const UByte** *D*: Destination address.
+- **const UByte** *M*: Multiplicand, or address to retrieve value if *B2* is non-zero.
+- **const UByte** *A*: Addition, or address to retrieve value if *B3* is non-zero.
+- **const UByte** *S*: Variable for cos angle, or source address to retrieve value if *B4* is non-zero.
 
 #### Description
 

@@ -2,9 +2,9 @@
 title: 6E_LSTMP
 ---
 
--   Opcode: **0x6E**
--   Short name: **LSTMP**
--   Long name: Last Map
+- Opcode: **0x6E**
+- Short name: **LSTMP**
+- Long name: Last Map
 
 #### Memory layout
 
@@ -13,8 +13,8 @@ title: 6E_LSTMP
 
 #### Arguments
 
--   **const UByte** *B*: Bank to store value.
--   **const UByte** *A*: Address to store value.
+- **const UByte** *B*: Bank to store value.
+- **const UByte** *A*: Address to store value.
 
 #### Description
 

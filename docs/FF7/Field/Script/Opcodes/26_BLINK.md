@@ -2,9 +2,9 @@
 title: 26_BLINK
 ---
 
--   Opcode: **0x26**
--   Short name: **BLINK**
--   Long name: Character Blink
+- Opcode: **0x26**
+- Short name: **BLINK**
+- Long name: Character Blink
 
 #### Memory layout
 
@@ -13,7 +13,7 @@ title: 26_BLINK
 
 #### Arguments
 
--   **const UByte** *S*: Switch on/off (0/1, respectively).
+- **const UByte** *S*: Switch on/off (0/1, respectively).
 
 #### Description
 

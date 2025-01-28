@@ -4,8 +4,8 @@ title: INSTRx.ALL
 
 There is two files of this structure on FF7 game discs:
 
--   SOUND/INSTR.ALL - Main game sounds (93 instruments)
--   SOUND/INSTR2.ALL - Voices from ending theme "One Winged Angel" (4 instruments)
+- SOUND/INSTR.ALL - Main game sounds (93 instruments)
+- SOUND/INSTR2.ALL - Voices from ending theme "One Winged Angel" (4 instruments)
 
 These files contain all sample data for every instrument in game. Every instrument consists of 16-byte PSX ADPCM frames. Frame format is known and there is numerous decompressors for it whether on the net, or in Q-Gears source.
 

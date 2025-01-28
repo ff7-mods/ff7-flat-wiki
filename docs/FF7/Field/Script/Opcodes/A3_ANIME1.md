@@ -2,9 +2,9 @@
 title: A3_ANIME1
 ---
 
--   Opcode: **0xA3**
--   Short name: **ANIME1**
--   Long name: Wait While Animate/Return
+- Opcode: **0xA3**
+- Short name: **ANIME1**
+- Long name: Wait While Animate/Return
 
 #### Memory layout
 
@@ -13,8 +13,8 @@ title: A3_ANIME1
 
 #### Arguments
 
--   **const UByte** *A*: Animation ID for this entity's field object.
--   **const UByte** *S*: Speed the animation is played at. Real model animation speed divide by this to calculate real play speed.
+- **const UByte** *A*: Animation ID for this entity's field object.
+- **const UByte** *S*: Speed the animation is played at. Real model animation speed divide by this to calculate real play speed.
 
 #### Description
 

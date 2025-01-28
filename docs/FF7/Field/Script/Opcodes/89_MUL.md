@@ -2,9 +2,9 @@
 title: 89_MUL
 ---
 
--   Opcode: **0x89**
--   Short name: **MUL**
--   Long name: Multiplication (8-bit)
+- Opcode: **0x89**
+- Short name: **MUL**
+- Long name: Multiplication (8-bit)
 
 #### Memory layout
 
@@ -13,10 +13,10 @@ title: 89_MUL
 
 #### Arguments
 
--   **const Bit\[4\]** *D*: Destination bank
--   **const Bit\[4\]** *S*: Source bank
--   **const UByte** *Dest*: The destination variable, to which the operand is multiplied.
--   **const UByte** *Oper*: The operand, which is multiplied with the destination.
+- **const Bit\[4\]** *D*: Destination bank
+- **const Bit\[4\]** *S*: Source bank
+- **const UByte** *Dest*: The destination variable, to which the operand is multiplied.
+- **const UByte** *Oper*: The operand, which is multiplied with the destination.
 
 #### Description
 

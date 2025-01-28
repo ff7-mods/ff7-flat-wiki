@@ -2,9 +2,9 @@
 title: 43_MPNAM
 ---
 
--   Opcode: **0x43**
--   Short name: **MPNAM**
--   Long name: Map Name
+- Opcode: **0x43**
+- Short name: **MPNAM**
+- Long name: Map Name
 
 #### Memory layout
 
@@ -13,7 +13,7 @@ title: 43_MPNAM
 
 #### Arguments
 
--   **const UByte** *D*: Dialog ID.
+- **const UByte** *D*: Dialog ID.
 
 #### Description
 

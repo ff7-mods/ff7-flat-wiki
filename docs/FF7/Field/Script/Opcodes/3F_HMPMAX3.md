@@ -2,9 +2,9 @@
 title: 3F_HMPMAX3
 ---
 
--   Opcode: **0x3F**
--   Short name: **HMPMAX3**
--   Long name: HP/MP Maximum
+- Opcode: **0x3F**
+- Short name: **HMPMAX3**
+- Long name: HP/MP Maximum
 
 #### Memory layout
 

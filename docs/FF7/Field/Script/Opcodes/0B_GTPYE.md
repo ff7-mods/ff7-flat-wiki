@@ -2,9 +2,9 @@
 title: 0B_GTPYE
 ---
 
--   Opcode: **0x0A**
--   Short name: **GTPYE**
--   Long name: Get Party To Memory
+- Opcode: **0x0A**
+- Short name: **GTPYE**
+- Long name: Get Party To Memory
 
 #### Memory layout
 
@@ -13,13 +13,13 @@ title: 0B_GTPYE
 
 #### Arguments
 
--   **const Bit\[4\]** *B1*: Bank for first party member.
--   **const Bit\[4\]** *B2*: Bank for second party member.
--   **const Bit\[4\]** *B3*: Bank for third party member.
--   **const Bit\[4\]** *0*: Zero.
--   **const UByte** *A1*: Address for first party member.
--   **const UByte** *A2*: Address for second party member.
--   **const UByte** *A3*: Address for third party member.
+- **const Bit\[4\]** *B1*: Bank for first party member.
+- **const Bit\[4\]** *B2*: Bank for second party member.
+- **const Bit\[4\]** *B3*: Bank for third party member.
+- **const Bit\[4\]** *0*: Zero.
+- **const UByte** *A1*: Address for first party member.
+- **const UByte** *A2*: Address for second party member.
+- **const UByte** *A3*: Address for third party member.
 
 #### Description
 

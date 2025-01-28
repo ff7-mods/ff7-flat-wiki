@@ -2,9 +2,9 @@
 title: 4A_MENU2
 ---
 
--   Opcode: **0x4A**
--   Short name: **MENU2**
--   Long name: Main menu accessibility
+- Opcode: **0x4A**
+- Short name: **MENU2**
+- Long name: Main menu accessibility
 
 #### Memory layout
 
@@ -13,7 +13,7 @@ title: 4A_MENU2
 
 #### Arguments
 
--   **const UByte** *S*: On/off switch (0/1, respectively).
+- **const UByte** *S*: On/off switch (0/1, respectively).
 
 #### Description
 

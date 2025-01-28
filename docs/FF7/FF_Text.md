@@ -4,24 +4,24 @@ title: FF_Text
 
 FF Text is a format that Squaresoft used to store strings in the English version of Final Fantasy VII. Large subsets of the character (e.g. A-Z, a-z, 0-9) set are coded as simply their ASCII values offset by 0x20.
 
-|     | 00          | 01        | 02    | 03          | 04          | 05          | 06  | 07    | 08        | 09         | 0A        | 0B       | 0C     | 0D       | 0E         | 0F       |
-|-----|-------------|-----------|-------|-------------|-------------|-------------|-----|-------|-----------|------------|-----------|----------|--------|----------|------------|----------|
-| 00  | {SPACE}     | !         | "     | \#          | $           | %           | &   | '     | (         | )          | \*        | \+       | ,      | \-       | .          | /        |
-| 10  | 0           | 1         | 2     | 3           | 4           | 5           | 6   | 7     | 8         | 9          | :         | ;        | &lt;   | =        | &gt;       | ?        |
-| 20  | @           | A         | B     | C           | D           | E           | F   | G     | H         | I          | J         | K        | L      | M        | N          | O        |
-| 30  | P           | Q         | R     | S           | T           | U           | V   | W     | X         | Y          | Z         | \[      | \\     | \]       | ^          | \_       |
-| 40  | \`          | a         | b     | c           | d           | e           | f   | g     | h         | i          | j         | k        | l      | m        | n          | o        |
-| 50  | p           | q         | r     | s           | t           | u           | v   | w     | x         | y          | z         | {        | \|     | }        | \~         |          |
-| 60  | Ä           | Á         | Ç     | É           | Ñ           | Ö           | Ü   | á     | à         | â          | ä         | ã        | å      | ç        | é          | è        |
-| 70  | ê           | ë         | í     | ì           | î           | ï           | ñ   | ó     | ò         | ô          | ö         | õ        | ú      | ù        | û          | ü        |
-| 80  | ⌘           | °         | ¢     | £           | Ù           | Û           | ¶   | ß     | ®         | ©          | ™         | ´        | ¨      | ≠        | Æ          | Ø        |
-| 90  | ∞           | ±         | ≤     | ≥           | ¥           | µ           | ∂   | Σ     | Π         | π          | ⌡         | ª        | º      | Ω        | æ          | ø        |
-| A0  | ¿           | ¡         | ¬     | √           | ƒ           | ≈           | ∆   | «     | »         | …          | {NOTHING} | À        | Ã      | Õ        | Œ          | œ        |
-| B0  | –           | —         | “     | ”           | ‘           | ’           | ÷   | ◊     | ÿ         | Ÿ          | ⁄         | ¤        | ‹      | ›        | ﬁ          | ﬂ        |
-| C0  | ■           | ▪         | ‚     | „           | ‰           | Â           | Ê   | Ë     | Á         | È          | í         | î        | ï      | ì        | Ó          | Ô        |
-| D0  | {SPACE}     | Ò         | Ù     | Û           |             |             |     |       |           |            |           |          |        |          |            |          |
-| E0  | {Choice}    | {Tab}     | ,     | ."          | ..."        |             |     | {EOL} | {New Scr} | {New Scr?} | {Cloud}   | {Barret} | {Tifa} | {Aerith} | {Red XIII} | {Yuffie} |
-| F0  | {Cait Sith} | {Vincent} | {Cid} | {Party \#1} | {Party \#2} | {Party \#3} | 〇  | △     | ☐         | ✕          |           |          |        |          | {FUNC}     | {END}    |
+|  | 00 | 01 | 02 | 03 | 04 | 05 | 06 | 07 | 08 | 09 | 0A | 0B | 0C | 0D | 0E | 0F |
+|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|
+| 00 | {SPACE} | ! | " | \# | \$ | % | & | ' | ( | ) | \* | \+ | , | \- | . | / |
+| 10 | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | : | ; | \< | = | \> | ? |
+| 20 | @ | A | B | C | D | E | F | G | H | I | J | K | L | M | N | O |
+| 30 | P | Q | R | S | T | U | V | W | X | Y | Z | \[| \\ | \] | ^ | \_ |
+| 40 | \` | a | b | c | d | e | f | g | h | i | j | k | l | m | n | o |
+| 50 | p | q | r | s | t | u | v | w | x | y | z | { | \| | } | ~ |  |
+| 60 | Ä | Á | Ç | É | Ñ | Ö | Ü | á | à | â | ä | ã | å | ç | é | è |
+| 70 | ê | ë | í | ì | î | ï | ñ | ó | ò | ô | ö | õ | ú | ù | û | ü |
+| 80 | ⌘ | ° | ¢ | £ | Ù | Û | ¶ | ß | ® | © | ™ | ´ | ¨ | ≠ | Æ | Ø |
+| 90 | ∞ | ± | ≤ | ≥ | ¥ | µ | ∂ | Σ | Π | π | ⌡ | ª | º | Ω | æ | ø |
+| A0 | ¿ | ¡ | ¬ | √ | ƒ | ≈ | ∆ | « | » | … | {NOTHING} | À | Ã | Õ | Œ | œ |
+| B0 | – | — | “ | ” | ‘ | ’ | ÷ | ◊ | ÿ | Ÿ | ⁄ | ¤ | ‹ | › | ﬁ | ﬂ |
+| C0 | ■ | ▪ | ‚ | „ | ‰ | Â | Ê | Ë | Á | È | í | î | ï | ì | Ó | Ô |
+| D0 | {SPACE} | Ò | Ù | Û |  |  |  |  |  |  |  |  |  |  |  |  |
+| E0 | {Choice} | {Tab} | , | ." | ..." |  |  | {EOL} | {New Scr} | {New Scr?} | {Cloud} | {Barret} | {Tifa} | {Aerith} | {Red XIII} | {Yuffie} |
+| F0 | {Cait Sith} | {Vincent} | {Cid} | {Party \#1} | {Party \#2} | {Party \#3} | 〇 | △ | ☐ | ✕ |  |  |  |  | {FUNC} | {END} |
 
 There is no equivalent character to 80h in most font families.  
 Characters D4h - DFh appear to produce odd graphical errors.
@@ -91,5 +91,5 @@ NOTE: This may even request that a NULL terminator (0xFF) be output as well, but
 
 ### Useful downloads
 
--   [Ficedula's FF7 Text decoder](http://aaronserv.dyndns.org/hosting/qhimmwiki/ficedula_ff7textdecoder_1.00.zip)
--   [Reference table with FF7 Text values](http://www.subfan.pl/ff7pl/fieldtool.tbl)
+- [Ficedula's FF7 Text decoder](http://aaronserv.dyndns.org/hosting/qhimmwiki/ficedula_ff7textdecoder_1.00.zip)
+- [Reference table with FF7 Text values](http://www.subfan.pl/ff7pl/fieldtool.tbl)

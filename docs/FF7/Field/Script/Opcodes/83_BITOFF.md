@@ -2,9 +2,9 @@
 title: 83_BITOFF
 ---
 
--   Opcode: **0x83**
--   Short name: **BITOFF**
--   Long name: Reset Bit
+- Opcode: **0x83**
+- Short name: **BITOFF**
+- Long name: Reset Bit
 
 #### Memory layout
 
@@ -13,10 +13,10 @@ title: 83_BITOFF
 
 #### Arguments
 
--   **const Bit\[4\]** *D*: Destination bank.
--   **const Bit\[4\]** *S*: Source bank.
--   **const UByte** *Dest*: Destination address.
--   **const UByte** *Bit*: The number of the bit to turn off.
+- **const Bit\[4\]** *D*: Destination bank.
+- **const Bit\[4\]** *S*: Source bank.
+- **const UByte** *Dest*: Destination address.
+- **const UByte** *Bit*: The number of the bit to turn off.
 
 #### Description
 

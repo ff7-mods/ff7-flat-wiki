@@ -2,9 +2,9 @@
 title: 3B_CHGLD
 ---
 
--   Opcode: **0x3B**
--   Short name: **CHGLD**
--   Long name: Check Gil
+- Opcode: **0x3B**
+- Short name: **CHGLD**
+- Long name: Check Gil
 
 #### Memory layout
 
@@ -13,10 +13,10 @@ title: 3B_CHGLD
 
 #### Arguments
 
--   **const Bit\[4\]** *B1*: Destination bank 1.
--   **const Bit\[4\]** *B2*: Destination bank 2.
--   **const UByte** *A1*: Destination address 1.
--   **const UByte** *A2*: Destination address 2.
+- **const Bit\[4\]** *B1*: Destination bank 1.
+- **const Bit\[4\]** *B2*: Destination bank 2.
+- **const UByte** *A1*: Destination address 1.
+- **const UByte** *A2*: Destination address 2.
 
 #### Description
 

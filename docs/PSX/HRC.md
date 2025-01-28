@@ -57,7 +57,7 @@ This seems to be a simple "ID". As far as I know, this is the first line in all 
 
 `:SKELETON sd_yufi_sk`
 
-This tells you the name of the skeleton, in our example "sd\_yufi\_sk".
+This tells you the name of the skeleton, in our example "sd_yufi_sk".
 
 `:BONES 24`
 

@@ -2,9 +2,9 @@
 title: 2B_SLIP
 ---
 
--   Opcode: **0x2B**
--   Short name: **SLIP**
--   Long name: Slipability
+- Opcode: **0x2B**
+- Short name: **SLIP**
+- Long name: Slipability
 
 #### Memory layout
 
@@ -13,7 +13,7 @@ title: 2B_SLIP
 
 #### Arguments
 
--   **const UByte** *S*: On/off switch (0/1, respectively).
+- **const UByte** *S*: On/off switch (0/1, respectively).
 
 #### Description
 

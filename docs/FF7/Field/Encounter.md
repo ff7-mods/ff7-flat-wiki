@@ -58,7 +58,7 @@ The second ten bits denote the [ID](../Battle/Battle_Scenes.md) of the battle.
 
 The set of ten battles is split into two groups. The first six battles are generic battles, intended for general use, whose probabilities must total 64. The final four battles are intended to be used in the following order:
 
--   Back Attack 1
--   Back Attack 2
--   Side Attack
--   Attack From Both Sides
+- Back Attack 1
+- Back Attack 2
+- Side Attack
+- Attack From Both Sides

@@ -2,9 +2,9 @@
 title: FE_CHMST
 ---
 
--   Opcode: **0xFE**
--   Short name: **CHMST**
--   Long name: Check Music
+- Opcode: **0xFE**
+- Short name: **CHMST**
+- Long name: Check Music
 
 #### Memory layout
 
@@ -13,8 +13,8 @@ title: FE_CHMST
 
 #### Arguments
 
--   **const UByte** *B*: Bank to store boolean.
--   **const UByte** *A*: Address to store boolean.
+- **const UByte** *B*: Bank to store boolean.
+- **const UByte** *A*: Address to store boolean.
 
 #### Description
 

@@ -2,9 +2,9 @@
 title: F6_BMUSC
 ---
 
--   Opcode: **0xF6**
--   Short name: **BMUSC**
--   Long name: Battle Music
+- Opcode: **0xF6**
+- Short name: **BMUSC**
+- Long name: Battle Music
 
 #### Memory layout
 
@@ -13,7 +13,7 @@ title: F6_BMUSC
 
 #### Arguments
 
--   **const UByte** *I*: ID of the music file to play, as set in the field file.
+- **const UByte** *I*: ID of the music file to play, as set in the field file.
 
 #### Description
 

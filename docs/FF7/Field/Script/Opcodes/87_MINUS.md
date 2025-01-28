@@ -2,9 +2,9 @@
 title: 87_MINUS
 ---
 
--   Opcode: **0x87**
--   Short name: **MINUS**
--   Long name: Subtraction (8-bit)
+- Opcode: **0x87**
+- Short name: **MINUS**
+- Long name: Subtraction (8-bit)
 
 #### Memory layout
 
@@ -13,10 +13,10 @@ title: 87_MINUS
 
 #### Arguments
 
--   **const Bit\[4\]** *D*: Destination bank
--   **const Bit\[4\]** *S*: Source bank
--   **const UByte** *Dest*: The destination variable, to which the operand is subtracted.
--   **const UByte** *Oper*: The operand to be subtracted from the destination.
+- **const Bit\[4\]** *D*: Destination bank
+- **const Bit\[4\]** *S*: Source bank
+- **const UByte** *Dest*: The destination variable, to which the operand is subtracted.
+- **const UByte** *Oper*: The operand to be subtracted from the destination.
 
 #### Description
 

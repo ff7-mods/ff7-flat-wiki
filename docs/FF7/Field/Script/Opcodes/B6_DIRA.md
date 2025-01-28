@@ -2,9 +2,9 @@
 title: B6_DIRA
 ---
 
--   Opcode: **0xB6**
--   Short name: **DIRA**
--   Long name: Direction to Entity
+- Opcode: **0xB6**
+- Short name: **DIRA**
+- Long name: Direction to Entity
 
 #### Memory layout
 
@@ -13,7 +13,7 @@ title: B6_DIRA
 
 #### Arguments
 
--   **const UByte** *E*: Entity ID to direct towards.
+- **const UByte** *E*: Entity ID to direct towards.
 
 #### Description
 

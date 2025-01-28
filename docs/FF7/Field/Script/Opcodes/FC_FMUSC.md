@@ -2,9 +2,9 @@
 title: FC_FMUSC
 ---
 
--   Opcode: **0xFC**
--   Short name: **FMUSC**
--   Long name: Field Music
+- Opcode: **0xFC**
+- Short name: **FMUSC**
+- Long name: Field Music
 
 #### Memory layout
 
@@ -13,7 +13,7 @@ title: FC_FMUSC
 
 #### Arguments
 
--   **const UByte** *I*: ID of the music file to play, as set in the field file.
+- **const UByte** *I*: ID of the music file to play, as set in the field file.
 
 #### Description
 

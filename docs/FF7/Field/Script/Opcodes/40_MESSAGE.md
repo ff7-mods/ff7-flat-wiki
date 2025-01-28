@@ -2,9 +2,9 @@
 title: 40_MESSAGE
 ---
 
--   Opcode: **0x40**
--   Short name: **MESSAGE**
--   Long name: Message display
+- Opcode: **0x40**
+- Short name: **MESSAGE**
+- Long name: Message display
 
 #### Memory layout
 
@@ -13,8 +13,8 @@ title: 40_MESSAGE
 
 #### Arguments
 
--   **const UByte** *N*: The ID of the window to use.
--   **const UByte** *D*: The zero-based index of the [dialog](../../Script.md) that will be displayed.
+- **const UByte** *N*: The ID of the window to use.
+- **const UByte** *D*: The zero-based index of the [dialog](../../Script.md) that will be displayed.
 
 #### Description
 

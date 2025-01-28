@@ -35,27 +35,27 @@ This is uniq pack of different data. There are always 8 files in there. All of t
 
 There are files:
 
--   1\) unknown
--   2\) walkmeshes
--   3\) pack of 3d models
--   4\) sprites
--   5\) sprites animation
--   6\) entitys and scripts
--   7\) unknown
--   8\) text
+- 1\) unknown
+- 2\) walkmeshes
+- 3\) pack of 3d models
+- 4\) sprites
+- 5\) sprites animation
+- 6\) entitys and scripts
+- 7\) unknown
+- 8\) text
 
 **2) walkmeshes**
 
 Contains number of walkmeshes for character and camera.
 
-|                                 Start offset                                  |    Size    |                 Value                  |
-|:-----------------------------------------------------------------------------:|:----------:|:--------------------------------------:|
-|                                     0x00                                      | 0x04 bytes |          Number of walkmeshes          |
-|                       0x04 + Number of walkmesh \* 0x04                       | 0x04 bytes |           Length of walkmesh           |
-|                   0x04 + (Number of walkmeshes + 1) \* 0x04                   | 0x04 bytes |              End of file               |
-|    0x04 + (Number of walkmeshes + 1) \* 0x04 + Number of walkmesh \* 0x08     | 0x04 bytes | Start of walkmesh triangle description |
-| 0x04 + (Number of walkmeshes + 1) \* 0x04 + Number of walkmesh \* 0x08 + 0x04 | 0x04 bytes |       Start of walkmesh vertexes       |
-|                                                                               |            |                                        |
+| Start offset | Size | Value |
+|:--:|:--:|:--:|
+| 0x00 | 0x04 bytes | Number of walkmeshes |
+| 0x04 + Number of walkmesh \* 0x04 | 0x04 bytes | Length of walkmesh |
+| 0x04 + (Number of walkmeshes + 1) \* 0x04 | 0x04 bytes | End of file |
+| 0x04 + (Number of walkmeshes + 1) \* 0x04 + Number of walkmesh \* 0x08 | 0x04 bytes | Start of walkmesh triangle description |
+| 0x04 + (Number of walkmeshes + 1) \* 0x04 + Number of walkmesh \* 0x08 + 0x04 | 0x04 bytes | Start of walkmesh vertexes |
+|  |  |  |
 
 Vertex array are simple.
 

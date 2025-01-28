@@ -2,9 +2,9 @@
 title: 35_PTURA
 ---
 
--   Opcode: **0x35**
--   Short name: **PTURA**
--   Long name: Turn to Party Member
+- Opcode: **0x35**
+- Short name: **PTURA**
+- Long name: Turn to Party Member
 
 #### Memory layout
 
@@ -13,9 +13,9 @@ title: 35_PTURA
 
 #### Arguments
 
--   **const UByte** *P*: Party member to turn towards.
--   **const UByte** *S*: Speed of turning; the larger the number, the slower the turn.
--   **const UByte** *A*: Larger numbers increase the likelihood that the turn will be anticlockwise.
+- **const UByte** *P*: Party member to turn towards.
+- **const UByte** *S*: Speed of turning; the larger the number, the slower the turn.
+- **const UByte** *A*: Larger numbers increase the likelihood that the turn will be anticlockwise.
 
 #### Description
 

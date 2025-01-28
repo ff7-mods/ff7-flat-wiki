@@ -28,7 +28,7 @@ The first line is an ID. It is always the following.
 
 The number, 940102, is a date. January 2nd, 1994. This was created with one of the first SGI workstations for PSX development.
 
-The Second line is a comment. Every line beginning with "\#" is ignored by the engine.
+The Second line is a comment. Every line beginning with "#" is ignored by the engine.
 
 `# Output by SGI RSD fileset library libRsdObj.`
 
@@ -50,6 +50,6 @@ The next line is telling how many textures this model uses. Usually it is 0, and
 
 `NTEX=3`
 
-In the last section you can see an array telling you the filenames for the textures. However, if you want to have the "real" filename, you'll have to replace "TIM" by "TEX""ACAC.TIM" --&gt; "ACAC.TEX"
+In the last section you can see an array telling you the filenames for the textures. However, if you want to have the "real" filename, you'll have to replace "TIM" by "TEX""ACAC.TIM" --\> "ACAC.TEX"
 
 `TEX[x]=y`

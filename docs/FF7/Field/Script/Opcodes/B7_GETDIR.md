@@ -2,9 +2,9 @@
 title: B7_GETDIR
 ---
 
--   Opcode: **0xB7**
--   Short name: **GETDIR**
--   Long name: Get Entity Direction
+- Opcode: **0xB7**
+- Short name: **GETDIR**
+- Long name: Get Entity Direction
 
 #### Memory layout
 
@@ -13,9 +13,9 @@ title: B7_GETDIR
 
 #### Arguments
 
--   **const UByte** *B*: Bank to store direction.
--   **const UByte** *E*: Entity ID to retrieve.
--   **const UByte** *A*: Address to store direction.
+- **const UByte** *B*: Bank to store direction.
+- **const UByte** *E*: Entity ID to retrieve.
+- **const UByte** *A*: Address to store direction.
 
 #### Description
 

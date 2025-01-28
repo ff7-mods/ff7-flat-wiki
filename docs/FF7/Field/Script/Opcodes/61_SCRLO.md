@@ -2,9 +2,9 @@
 title: 61_SCRLO
 ---
 
--   Opcode: **0x61**
--   Short name: **SCRL0**
--   Long name: Scroll Not In Use
+- Opcode: **0x61**
+- Short name: **SCRL0**
+- Long name: Scroll Not In Use
 
 #### Memory layout
 

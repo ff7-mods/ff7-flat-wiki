@@ -2,9 +2,9 @@
 title: F3_MUSVT
 ---
 
--   Opcode: **0xF3**
--   Short name: **MUSVT**
--   Long name: Music Video Tape Segment
+- Opcode: **0xF3**
+- Short name: **MUSVT**
+- Long name: Music Video Tape Segment
 
 #### Memory layout
 
@@ -13,7 +13,7 @@ title: F3_MUSVT
 
 #### Arguments
 
--   **const UByte** *id*: Integer referencing the music file reference as loaded in the field scripts.
+- **const UByte** *id*: Integer referencing the music file reference as loaded in the field scripts.
 
 #### Description
 

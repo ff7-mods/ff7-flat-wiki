@@ -2,9 +2,9 @@
 title: A2_DFANM
 ---
 
--   Opcode: **0xA2**
--   Short name: **DFANM**
--   Long name: Animate, Loop
+- Opcode: **0xA2**
+- Short name: **DFANM**
+- Long name: Animate, Loop
 
 #### Memory layout
 
@@ -13,8 +13,8 @@ title: A2_DFANM
 
 #### Arguments
 
--   **const UByte** *A*: Animation ID for this entity's field object.
--   **const UByte** *S*: Speed the animation is played at. Higher numbers indicate slower animations.
+- **const UByte** *A*: Animation ID for this entity's field object.
+- **const UByte** *S*: Speed the animation is played at. Higher numbers indicate slower animations.
 
 #### Description
 

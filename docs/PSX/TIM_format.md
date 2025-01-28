@@ -16,7 +16,10 @@ A TIM file is made up of three conceptual blocks; the header, the color lookup t
 
 
 
-![](../assets/PSX_TIM_file_layout.png)
+<figure>
+<img src="PSX_TIM_file_layout.png" title="PSX_TIM_file_layout.png" />
+<figcaption>PSX_TIM_file_layout.png</figcaption>
+</figure>
 
 
 
@@ -46,7 +49,10 @@ The CLUT starts with a simple 32-bit word telling the length, in bytes, of the e
 
 
 
-![](../assets/PSX_TIM_file_clut.png)
+<figure>
+<img src="PSX_TIM_file_clut.png" title="PSX_TIM_file_clut.png" />
+<figcaption>PSX_TIM_file_clut.png</figcaption>
+</figure>
 
 
 
@@ -57,7 +63,10 @@ The length of the CLUT data is always *width* ï¿½ *height* ï¿½ 2 bytes, pr
 
 
 
-![](../assets/PSX_color_formats_16.png)
+<figure>
+<img src="PSX_color_formats_16.png" title="PSX_color_formats_16.png" />
+<figcaption>PSX_color_formats_16.png</figcaption>
+</figure>
 
 
 
@@ -74,7 +83,10 @@ The image block is structurally identical to the CLUT block and is processed in 
 
 
 
-![](../assets/PSX_TIM_file_image.png)
+<figure>
+<img src="PSX_TIM_file_image.png" title="PSX_TIM_file_image.png" />
+<figcaption>PSX_TIM_file_image.png</figcaption>
+</figure>
 
 
 
@@ -85,7 +97,10 @@ The image data, while loaded straight into the frame buffer, is structured diffe
 
 
 
-![](../assets/PSX_color_formats_16.png)
+<figure>
+<img src="PSX_color_formats_16.png" title="PSX_color_formats_16.png" />
+<figcaption>PSX_color_formats_16.png</figcaption>
+</figure>
 
 
 
@@ -96,7 +111,10 @@ The PlayStation is also capable of handling data in 24-bit color (BPP = **11**),
 
 
 
-![](../assets/PSX_color_formats_24.png)
+<figure>
+<img src="PSX_color_formats_24.png" title="PSX_color_formats_24.png" />
+<figcaption>PSX_color_formats_24.png</figcaption>
+</figure>
 
 
 
@@ -107,7 +125,10 @@ Apart from the two "real" color modes, the PlayStation frequently utilizes color
 
 
 
-![](../assets/PSX_color_formats_8.png)
+<figure>
+<img src="PSX_color_formats_8.png" title="PSX_color_formats_8.png" />
+<figcaption>PSX_color_formats_8.png</figcaption>
+</figure>
 
 
 
@@ -118,7 +139,10 @@ These images are used in conjuction with a 256-pixel CLUT. For less color-rich i
 
 
 
-![](../assets/PSX_color_formats_4.png)
+<figure>
+<img src="PSX_color_formats_4.png" title="PSX_color_formats_4.png" />
+<figcaption>PSX_color_formats_4.png</figcaption>
+</figure>
 
 
 

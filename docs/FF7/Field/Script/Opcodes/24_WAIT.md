@@ -2,9 +2,9 @@
 title: 24_WAIT
 ---
 
--   Opcode: **0x24**
--   Short name: **WAIT**
--   Long name: Wait
+- Opcode: **0x24**
+- Short name: **WAIT**
+- Long name: Wait
 
 #### Memory layout
 
@@ -13,7 +13,7 @@ title: 24_WAIT
 
 #### Arguments
 
--   **const UShort** *A*: Amount (number of frames) to wait.
+- **const UShort** *A*: Amount (number of frames) to wait.
 
 #### Description
 

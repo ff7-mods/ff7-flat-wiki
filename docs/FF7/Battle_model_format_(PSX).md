@@ -12,28 +12,66 @@ The entire file is compressed using [LZS format](FF7/LZS_format "wikilink") and 
 
 The header section is a sequence of little endian 32 bit unsigned integers. The first integer (entitled SectionCount) contains the number of pointers offset from the beginning of the file. The remaining integers are SectionCount number of pointers.
 
-<table><tbody><tr class="odd"><td><p>Offset<br />
-</p></td><td><p>Size<br />
-</p></td><td><p>Description<br />
-</p></td></tr><tr class="even"><td><p>000000<br />
-</p></td><td><p>4 bytes long<br />
-</p></td><td><p>Number of Sections<br />
-</p></td></tr><tr class="odd"><td><p>N*4<br />
-</p></td><td><p>4 bytes long<br />
-</p></td><td><p>Pointer to each section of data.<br />
-</p></td></tr><tr class="even"><td><p>(N+1)*4<br />
-</p></td><td><p>Varies<br />
-</p></td><td><p>First section of data, this is the actual 3d data for the model.<br />
-</p></td></tr><tr class="odd"><td><p>(N+2)*4<br />
-</p></td><td><p>Varies<br />
-</p></td><td><p>First animation for the model.<br />
-</p></td></tr><tr class="even"><td><p>unknown<br />
-</p></td><td><p>Varies<br />
-</p></td><td><p>Tim image information often 4bpp sometimes 8bpp # of cluts varies<br />
-</p></td></tr><tr class="odd"><td><p>unknown<br />
-</p></td><td><p>Varies<br />
-</p></td><td><p>Battle weapon models for characters go here they have identical format to the first section, save they do not have textured polygons<br />
-</p></td></tr></tbody></table>
+<table>
+<tbody>
+<tr>
+<td style="width: 76px; text-align: center; vertical-align: middle; background-color: rgb(204, 204, 204)"><p>Offset<br />
+</p></td>
+<td style="text-align: center; vertical-align: middle; background-color: rgb(204, 204, 204)"><p>Size<br />
+</p></td>
+<td style="text-align: center; vertical-align: middle; background-color: rgb(204, 204, 204)"><p>Description<br />
+</p></td>
+</tr>
+<tr>
+<td style="width: 76px; text-align: center; vertical-align: middle"><p>000000<br />
+</p></td>
+<td style="vertical-align: top"><p>4 bytes long<br />
+</p></td>
+<td style="vertical-align: top"><p>Number of Sections<br />
+</p></td>
+</tr>
+<tr>
+<td style="width: 76px; text-align: center; vertical-align: middle"><p>N*4<br />
+</p></td>
+<td style="vertical-align: top"><p>4 bytes long<br />
+</p></td>
+<td style="vertical-align: top"><p>Pointer to each section of data.<br />
+</p></td>
+</tr>
+<tr>
+<td style="width: 76px; text-align: center; vertical-align: middle"><p>(N+1)*4<br />
+</p></td>
+<td style="vertical-align: top"><p>Varies<br />
+</p></td>
+<td style="vertical-align: top"><p>First section of data, this is the actual 3d data for the model.<br />
+</p></td>
+</tr>
+<tr>
+<td style="width: 76px; text-align: center; vertical-align: middle"><p>(N+2)*4<br />
+</p></td>
+<td style="vertical-align: top"><p>Varies<br />
+</p></td>
+<td style="vertical-align: top"><p>First animation for the model.<br />
+</p></td>
+</tr>
+<tr>
+<td style="width: 76px; text-align: center; vertical-align: middle"><p>unknown<br />
+</p></td>
+<td style="vertical-align: top"><p>Varies<br />
+</p></td>
+<td style="vertical-align: top"><p>Tim image information often 4bpp sometimes 8bpp # of cluts varies<br />
+</p></td>
+</tr>
+<tr>
+<td style="width: 76px; text-align: center; vertical-align: middle"><p>unknown<br />
+</p></td>
+<td style="vertical-align: top"><p>Varies<br />
+</p></td>
+<td style="vertical-align: top"><p>Battle weapon models for characters go here they have identical format to the first section, save they do not have textured polygons<br />
+</p></td>
+</tr>
+</tbody>
+</table>
 
 ### Battle model HRC/model information
 
@@ -54,35 +92,81 @@ Where offset is relative to the begining of the section. If Offset is 0 then the
 
 **HRC Table structure**
 
-<table><tbody><tr class="odd"><td><p>Offset<br />
-</p></td><td><p>Size<br />
-</p></td><td><p>Description<br />
-</p></td></tr><tr class="even"><td><p>000000<br />
-</p></td><td><p>4 bytes long<br />
-</p></td><td><p>Number of Bones<br />
-</p></td></tr><tr class="odd"><td><p>000004<br />
-</p></td><td><p>8 bytes<br />
-</p></td><td><p>root bone (always 0 values)<br />
-</p></td></tr><tr class="even"><td><p>000008<br />
-</p></td><td><p>8*N bytes<br />
-</p></td><td><p>ï¿½Bones and joints of model<br />
-</p></td></tr></tbody></table>
+<table>
+<tbody>
+<tr>
+<td style="width: 76px; vertical-align: middle; background-color: rgb(204, 204, 204); text-align: center"><p>Offset<br />
+</p></td>
+<td style="text-align: center; vertical-align: middle; background-color: rgb(204, 204, 204)"><p>Size<br />
+</p></td>
+<td style="text-align: center; vertical-align: middle; background-color: rgb(204, 204, 204)"><p>Description<br />
+</p></td>
+</tr>
+<tr>
+<td style="width: 76px; vertical-align: middle; text-align: center"><p>000000<br />
+</p></td>
+<td style="vertical-align: top"><p>4 bytes long<br />
+</p></td>
+<td style="vertical-align: top"><p>Number of Bones<br />
+</p></td>
+</tr>
+<tr>
+<td style="width: 76px; vertical-align: middle; text-align: center"><p>000004<br />
+</p></td>
+<td style="vertical-align: top"><p>8 bytes<br />
+</p></td>
+<td style="vertical-align: top"><p>root bone (always 0 values)<br />
+</p></td>
+</tr>
+<tr>
+<td style="vertical-align: top; text-align: center"><p>000008<br />
+</p></td>
+<td style="vertical-align: top"><p>8*N bytes<br />
+</p></td>
+<td style="vertical-align: top"><p>ï¿½Bones and joints of model<br />
+</p></td>
+</tr>
+</tbody>
+</table>
 
 **Bone Structure**
 
-<table><tbody><tr class="odd"><td><p>Offset<br />
-</p></td><td><p>Size<br />
-</p></td><td><p>Description<br />
-</p></td></tr><tr class="even"><td><p>000000<br />
-</p></td><td><p>2 bytes (word)<br />
-</p></td><td><p>Parent Bone<br />
-</p></td></tr><tr class="odd"><td><p>000002<br />
-</p></td><td><p>2 bytes (signed)<br />
-</p></td><td><p>Bone Length<br />
-</p></td></tr><tr class="even"><td><p>000004<br />
-</p></td><td><p>4 bytes<br />
-</p></td><td><p>ï¿½Offset to bone data object is a joint if 0<br />
-</p></td></tr></tbody></table>
+<table>
+<tbody>
+<tr>
+<td style="width: 76px; vertical-align: middle; background-color: rgb(204, 204, 204); text-align: center"><p>Offset<br />
+</p></td>
+<td style="text-align: center; vertical-align: middle; background-color: rgb(204, 204, 204)"><p>Size<br />
+</p></td>
+<td style="text-align: center; vertical-align: middle; background-color: rgb(204, 204, 204)"><p>Description<br />
+</p></td>
+</tr>
+<tr>
+<td style="width: 76px; vertical-align: middle; text-align: center"><p>000000<br />
+</p></td>
+<td style="vertical-align: top"><p>2 bytes (word)<br />
+</p></td>
+<td style="vertical-align: top"><p>Parent Bone<br />
+</p></td>
+</tr>
+<tr>
+<td style="width: 76px; vertical-align: middle; text-align: center"><p>000002<br />
+</p></td>
+<td style="vertical-align: top"><p>2 bytes (signed)<br />
+</p></td>
+<td style="vertical-align: top"><p>Bone Length<br />
+</p></td>
+</tr>
+<tr>
+<td style="vertical-align: top; text-align: center"><p>000004<br />
+</p></td>
+<td style="vertical-align: top"><p>4 bytes<br />
+</p></td>
+<td style="vertical-align: top"><p>ï¿½Offset to bone data object is a joint if 0<br />
+</p></td>
+</tr>
+</tbody>
+</table>
 
 #### Model information
 
@@ -156,51 +240,129 @@ The Flags field on the Textured polygons contains the texture palette offset for
 
 **Bone structure data**
 
-<table><tbody><tr class="odd"><td><p>Offset<br />
-</p></td><td><p>Size<br />
-</p></td><td><p>Description<br />
-</p></td></tr><tr class="even"><td><p>000000<br />
-</p></td><td><p>4 bytes (long)<br />
-</p></td><td><p>Vertex pool size (in bytes)<br />
-</p></td></tr><tr class="odd"><td><p>000004<br />
-</p></td><td><p>Vertex Pool Size bytes<br />
-</p></td><td><p>Vertex pool for bone structure<br />
-</p></td></tr><tr class="even"><td><p>...<br />
-</p></td><td><p>2 bytes (word)<br />
-</p></td><td><p>ï¿½Number of polygons<br />
-</p></td></tr><tr class="odd"><td><p>...<br />
-</p></td><td><p>2 bytes (word)<br />
-</p></td><td><p>Polygon flags (Palette)<br />
-</p></td></tr><tr class="even"><td><p>...<br />
-</p></td><td><p>N * 16 bytes<br />
-</p></td><td><p>Textured Triangles if N polygons = 0 these ocupy no space<br />
-</p></td></tr><tr class="odd"><td><p>...<br />
-</p></td><td><p>2 bytes (word)<br />
-</p></td><td><p>Number of polygons quadrics&gt;<br />
-</p></td></tr><tr class="even"><td><p>...<br />
-</p></td><td><p>2 bytes (word)<br />
-</p></td><td><p>Polygon flags (Palette)<br />
-</p></td></tr><tr class="odd"><td><p>...<br />
-</p></td><td><p>N * 20 bytes<br />
-</p></td><td><p>Textured Quadrics if N polygons = 0 these ocupy no space<br />
-</p></td></tr><tr class="even"><td><p>...<br />
-</p></td><td><p>2 bytes (word)<br />
-</p></td><td><p>Number of polygons<br />
-</p></td></tr><tr class="odd"><td><p>...<br />
-</p></td><td><p>2 bytes (word)<br />
-</p></td><td><p><br />
-</p></td></tr><tr class="even"><td><p>...<br />
-</p></td><td><p>N * 20 bytes<br />
-</p></td><td><p>Colored vertex triangles if N polygons = 0 these ocupy no space<br />
-</p></td></tr><tr class="odd"><td><p>...<br />
-</p></td><td><p>2 bytes (word)<br />
-</p></td><td><p>Number of polygons<br />
-</p></td></tr><tr class="even"><td><p>...<br />
-</p></td><td><p>2 bytes (word)<br />
-</p></td><td><p><br />
-</p></td></tr><tr class="odd"><td><p>...<br />
-</p></td><td><p>N * 24 bytes<br />
-</p></td><td><p>Colored vertex quadrics if N polygons = 0 these ocupy no space</p></td></tr></tbody></table>
+<table>
+<tbody>
+<tr>
+<td style="width: 76px; vertical-align: middle; background-color: rgb(204, 204, 204); text-align: center"><p>Offset<br />
+</p></td>
+<td style="text-align: center; vertical-align: middle; background-color: rgb(204, 204, 204)"><p>Size<br />
+</p></td>
+<td style="text-align: center; vertical-align: middle; background-color: rgb(204, 204, 204)"><p>Description<br />
+</p></td>
+</tr>
+<tr>
+<td style="width: 76px; vertical-align: middle; text-align: center"><p>000000<br />
+</p></td>
+<td style="vertical-align: top"><p>4 bytes (long)<br />
+</p></td>
+<td style="vertical-align: top"><p>Vertex pool size (in bytes)<br />
+</p></td>
+</tr>
+<tr>
+<td style="width: 76px; vertical-align: middle; text-align: center"><p>000004<br />
+</p></td>
+<td style="vertical-align: top"><p>Vertex Pool Size bytes<br />
+</p></td>
+<td style="vertical-align: top"><p>Vertex pool for bone structure<br />
+</p></td>
+</tr>
+<tr>
+<td style="vertical-align: top; text-align: center"><p>...<br />
+</p></td>
+<td style="vertical-align: top"><p>2 bytes (word)<br />
+</p></td>
+<td style="vertical-align: top"><p>ï¿½Number of polygons<br />
+</p></td>
+</tr>
+<tr>
+<td style="vertical-align: top; text-align: center"><p>...<br />
+</p></td>
+<td style="vertical-align: top"><p>2 bytes (word)<br />
+</p></td>
+<td style="vertical-align: top"><p>Polygon flags (Palette)<br />
+</p></td>
+</tr>
+<tr>
+<td style="vertical-align: top; text-align: center"><p>...<br />
+</p></td>
+<td style="vertical-align: top"><p>N * 16 bytes<br />
+</p></td>
+<td style="vertical-align: top"><p>Textured Triangles if N polygons = 0 these ocupy no space<br />
+</p></td>
+</tr>
+<tr>
+<td style="vertical-align: top; text-align: center"><p>...<br />
+</p></td>
+<td style="vertical-align: top"><p>2 bytes (word)<br />
+</p></td>
+<td style="vertical-align: top"><p>Number of polygons quadrics&gt;<br />
+</p></td>
+</tr>
+<tr>
+<td style="vertical-align: top; text-align: center"><p>...<br />
+</p></td>
+<td style="vertical-align: top"><p>2 bytes (word)<br />
+</p></td>
+<td style="vertical-align: top"><p>Polygon flags (Palette)<br />
+</p></td>
+</tr>
+<tr>
+<td style="vertical-align: top; text-align: center"><p>...<br />
+</p></td>
+<td style="vertical-align: top"><p>N * 20 bytes<br />
+</p></td>
+<td style="vertical-align: top"><p>Textured Quadrics if N polygons = 0 these ocupy no space<br />
+</p></td>
+</tr>
+<tr>
+<td style="vertical-align: top; text-align: center"><p>...<br />
+</p></td>
+<td style="vertical-align: top"><p>2 bytes (word)<br />
+</p></td>
+<td style="vertical-align: top"><p>Number of polygons<br />
+</p></td>
+</tr>
+<tr>
+<td style="vertical-align: top; text-align: center"><p>...<br />
+</p></td>
+<td style="vertical-align: top"><p>2 bytes (word)<br />
+</p></td>
+<td style="vertical-align: top"><p><br />
+</p></td>
+</tr>
+<tr>
+<td style="vertical-align: top; text-align: center"><p>...<br />
+</p></td>
+<td style="vertical-align: top"><p>N * 20 bytes<br />
+</p></td>
+<td style="vertical-align: top"><p>Colored vertex triangles if N polygons = 0 these ocupy no space<br />
+</p></td>
+</tr>
+<tr>
+<td style="vertical-align: top; text-align: center"><p>...<br />
+</p></td>
+<td style="vertical-align: top"><p>2 bytes (word)<br />
+</p></td>
+<td style="vertical-align: top"><p>Number of polygons<br />
+</p></td>
+</tr>
+<tr>
+<td style="vertical-align: top; text-align: center"><p>...<br />
+</p></td>
+<td style="vertical-align: top"><p>2 bytes (word)<br />
+</p></td>
+<td style="vertical-align: top"><p><br />
+</p></td>
+</tr>
+<tr>
+<td style="vertical-align: top; text-align: center"><p>...<br />
+</p></td>
+<td style="vertical-align: top"><p>N * 24 bytes<br />
+</p></td>
+<td style="vertical-align: top"><p>Colored vertex quadrics if N polygons = 0 these ocupy no space</p></td>
+</tr>
+</tbody>
+</table>
 
 ### Battle animations
 
@@ -240,7 +402,7 @@ C8 01 00 00 - Offset to Bone Description Section (0x000001C8)
   
   
 
--   \*\* \*\*\* Header runs until Offsets to Animations, Texture, and Weapon Bone Data\*\*\*
+- \*\* \*\*\* Header runs until Offsets to Animations, Texture, and Weapon Bone Data\*\*\*
 
   
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
@@ -286,7 +448,7 @@ BC DB 00 00 A8 E5 00 00 F4 EE 00 00 6C F9 00 00 C4 04 01 00 EC 0F 01 00 4C 1B 01
   
   
 
--   \*\* \*\*\* Offsets to Animations, Texture, and Weapon Bone Data runs until Bone Description Section\*\*\*
+- \*\* \*\*\* Offsets to Animations, Texture, and Weapon Bone Data runs until Bone Description Section\*\*\*
 
   
   
@@ -343,7 +505,7 @@ C4 00 00 00 - Bone offset from Bone Description Section
 
   
 
--   Pelvis
+- Pelvis
 
   
   
@@ -364,7 +526,7 @@ Breakdown:
 
   
 
--   Torso
+- Torso
 
   
   
@@ -384,7 +546,7 @@ Breakdown:
 
   
 
--   Head
+- Head
 
   
   
@@ -442,7 +604,7 @@ E0 2A 00 00 - Bone offset from Bone Description Section
 
   
 
--   Left arm, shoulder to elbow
+- Left arm, shoulder to elbow
 
   
   
@@ -462,7 +624,7 @@ Breakdown:
 
   
 
--   Left arm, elbow to wrist
+- Left arm, elbow to wrist
 
   
   
@@ -482,7 +644,7 @@ AB FF - Bone Length
 
   
 
--   Left arm, wrist to fingertips
+- Left arm, wrist to fingertips
 
   
   
@@ -538,7 +700,7 @@ Breakdown:
 
   
 
--   Right arm, shoulder to elbow
+- Right arm, shoulder to elbow
 
   
   
@@ -558,7 +720,7 @@ B0 3A 00 00 - Bone offset from Bone Description Section
 
   
 
--   Right arm, elbow to wrist
+- Right arm, elbow to wrist
 
   
   
@@ -578,7 +740,7 @@ B4 FF - Bone Length
 
   
 
--   Right arm, wrist to fingertips
+- Right arm, wrist to fingertips
 
   
   
@@ -616,7 +778,7 @@ EB FE - Bone Length
 
   
 
--   Left leg, hip to knee
+- Left leg, hip to knee
 
   
   
@@ -637,7 +799,7 @@ CC 43 00 00 - Bone offset from Bone Description Section
   
   
 
--   Left leg, knee to top of boot
+- Left leg, knee to top of boot
 
   
   
@@ -657,7 +819,7 @@ B3 FF - Bone Length
 
   
 
--   Left foot, back part of boot
+- Left foot, back part of boot
 
   
   
@@ -677,7 +839,7 @@ Breakdown:
 
   
 
--   Left foot, front part of boot
+- Left foot, front part of boot
 
   
   
@@ -713,7 +875,7 @@ EB FE - Bone Length
 
   
 
--   Right leg, hip to knee
+- Right leg, hip to knee
 
   
   
@@ -733,7 +895,7 @@ EC 4F 00 00 - Bone offset from Bone Description Section
 
   
 
--   Right leg, knee to top of boot
+- Right leg, knee to top of boot
 
   
   
@@ -753,7 +915,7 @@ B3 FF - Bone Length
 
   
 
--   Right foot, back part of boot
+- Right foot, back part of boot
 
   
   
@@ -773,13 +935,13 @@ Breakdown:
 
   
 
--   Right foot, front part of boot
+- Right foot, front part of boot
 
   
   
   
 
--   \*\* \*\*\* Individual Bone Descriptions runs until Bone Data Section\*\*\*
+- \*\* \*\*\* Individual Bone Descriptions runs until Bone Data Section\*\*\*
 
   
   
@@ -2264,7 +2426,7 @@ B2 FF 00 00 FF FF CE FF 90 FF 00 00 27 00 DF FF B0 FF 00 00 D6 FF DE FF B0 FF 00
   
   
 
--   \*\* \*\*\* Bone Data Section runs until Model Settings Section\*\*\*
+- \*\* \*\*\* Bone Data Section runs until Model Settings Section\*\*\*
 
   
   
@@ -2354,7 +2516,7 @@ EC 2C E5 EE EC E5 EE 00 E8 FC 00 E0 EA F4 19 F3 EC 2C 2D 2D 2E FA E5 EE
   
   
 
--   \*\* \*\*\* Model Settings Section runs until Animation Data Section\*\*\*
+- \*\* \*\*\* Model Settings Section runs until Animation Data Section\*\*\*
 
   
   
@@ -4280,7 +4442,7 @@ C1 00 00 00
   
   
 
--   \*\* \*\*\* Animation Data Section runs until Texture Data Section\*\*\*
+- \*\* \*\*\* Animation Data Section runs until Texture Data Section\*\*\*
 
   
   
@@ -4787,7 +4949,7 @@ BB 74 87 77 7F EE DD CD 00 20 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
   
   
 
--   \*\* \*\*\* Texture Data Section runs until Weapon Bone Data Section\*\*\*
+- \*\* \*\*\* Texture Data Section runs until Weapon Bone Data Section\*\*\*
 
   
   
@@ -7680,7 +7842,7 @@ E0 02 F8 02 00 03 10 03 5A 32 B9 38 5A 32 B9 00 2E 1C 6B 00 17 0E 50 00 C0 02 00
   
   
 
--   \*\* \*\*\* Weapon Bone Data Section runs until the end of the file\*\*\*
+- \*\* \*\*\* Weapon Bone Data Section runs until the end of the file\*\*\*
 
   
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
@@ -7709,7 +7871,7 @@ Breakdown:
   
   
 
--   \*\* \*\*\* Header runs until Offsets to Animations, Weapon Bone Data, and Texture\*\*\*
+- \*\* \*\*\* Header runs until Offsets to Animations, Weapon Bone Data, and Texture\*\*\*
 
   
   
@@ -7737,7 +7899,7 @@ Note: These are four-byte offsets. The last one is the offset to the Texture Dat
   
   
 
--   \*\* \*\*\* Offsets to Animations, Weapon Bone Data, and Texture runs until Bone Description Section\*\*\*
+- \*\* \*\*\* Offsets to Animations, Weapon Bone Data, and Texture runs until Bone Description Section\*\*\*
 
   
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
@@ -8184,7 +8346,7 @@ Breakdown:
   
   
 
--   \*\* \*\*\* Individual Bone Descriptions runs until Bone Data Section\*\*\*
+- \*\* \*\*\* Individual Bone Descriptions runs until Bone Data Section\*\*\*
 
   
   
@@ -9969,7 +10131,7 @@ EA FF 00 00 00 00 20 00 00 00 00 00 14 00 00 00 20 00 08 00 10 00 00 00 20 28 00
   
   
 
--   \*\* \*\*\* Bone Data Section runs until Model Settings Section\*\*\*
+- \*\* \*\*\* Bone Data Section runs until Model Settings Section\*\*\*
 
   
   
@@ -10011,7 +10173,7 @@ A4 01 00 00 72 01 32 01 72 01 00 00 02 0C B9 F9 79 05 00 00 60 FF 00 00 45 01 79
   
   
 
--   \*\* \*\*\* Model Settings Section runs until Animation Data Section\*\*\*
+- \*\* \*\*\* Model Settings Section runs until Animation Data Section\*\*\*
 
   
   
@@ -10568,7 +10730,7 @@ CE D6 0D 80 EF F9 EF F4 9F 4F A8 D3 00 00 00 00
   
   
 
--   \*\* \*\*\* Animation Data Section runs until Weapon Bone Data Section\*\*\*
+- \*\* \*\*\* Animation Data Section runs until Weapon Bone Data Section\*\*\*
 
   
   
@@ -10618,7 +10780,7 @@ EC FF 4F 00 50 00 00 00 EC FF F0 FE 50 00 00 00 00 00 20 00 00 00 00 00 00 00 00
   
   
 
--   \*\* \*\*\* Weapon Bone Data Section runs until Texture Data Section\*\*\*
+- \*\* \*\*\* Weapon Bone Data Section runs until Texture Data Section\*\*\*
 
   
   
@@ -10644,7 +10806,7 @@ Texture Data (modified TIM format) - \[at offset 0x000080D0\]:
   
   
 
--   \*\* \*\*\* Texture Section runs until the end of the file\*\*\*
+- \*\* \*\*\* Texture Section runs until the end of the file\*\*\*
 
   
   

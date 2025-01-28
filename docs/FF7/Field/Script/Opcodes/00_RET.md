@@ -2,9 +2,9 @@
 title: 00_RET
 ---
 
--   Opcode: **0x00**
--   Short name: **RET**
--   Long name: Return from request / Halt
+- Opcode: **0x00**
+- Short name: **RET**
+- Long name: Return from request / Halt
 
 #### Memory layout
 

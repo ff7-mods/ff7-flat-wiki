@@ -2,9 +2,9 @@
 title: 2D_BGSCR
 ---
 
--   Opcode: **0x2D**
--   Short name: **BGSCR**
--   Long name: Background Scroll
+- Opcode: **0x2D**
+- Short name: **BGSCR**
+- Long name: Background Scroll
 
 #### Memory layout
 
@@ -13,11 +13,11 @@ title: 2D_BGSCR
 
 #### Arguments
 
--   **const Bit\[4\]** *B1*: Bank to retrieve value for *X*, or zero if *X* is specified as a literal.
--   **const Bit\[4\]** *B2*: Bank to retrieve value for *Y*, or zero if *Y* is specified as a literal.
--   **const UByte** *L*: ID number of the layer to manipulate.
--   **const Short** *X*: Speed of the scroll in the X direction; positive values indicate right-to-left scrolling.
--   **const Short** *Y*: Speed of the scroll in the Y direction; positive values indicate bottom-to-top scrolling.
+- **const Bit\[4\]** *B1*: Bank to retrieve value for *X*, or zero if *X* is specified as a literal.
+- **const Bit\[4\]** *B2*: Bank to retrieve value for *Y*, or zero if *Y* is specified as a literal.
+- **const UByte** *L*: ID number of the layer to manipulate.
+- **const Short** *X*: Speed of the scroll in the X direction; positive values indicate right-to-left scrolling.
+- **const Short** *Y*: Speed of the scroll in the Y direction; positive values indicate bottom-to-top scrolling.
 
 #### Description
 

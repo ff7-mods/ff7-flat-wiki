@@ -2,9 +2,9 @@
 title: 5B_SMTRA
 ---
 
--   Opcode: **0x5B**
--   Short name: **SMTRA**
--   Long name: Set Materia
+- Opcode: **0x5B**
+- Short name: **SMTRA**
+- Long name: Set Materia
 
 #### Memory layout
 
@@ -13,12 +13,12 @@ title: 5B_SMTRA
 
 #### Arguments
 
--   **const Bit\[4\]** *B1*: Source bank 1, or zero if *T* is set as a constant value.
--   **const Bit\[4\]** *B2*: Source bank 2, or zero if this unit of *AP* is set as a constant value.
--   **const Bit\[4\]** *B3*: Source bank 3, or zero if this unit of *AP* is set as a constant value.
--   **const Bit\[4\]** *B4*: Source bank 4, or zero if this unit of *AP* is set as a constant value.
--   **const UByte** *T*: [Type of materia](../Materia_ID.md) to add, or source address 1.
--   **const UByte\[3\]** *AP*: Amount of AP the newly added materia will have, or source addresses 2, 3 and 4.
+- **const Bit\[4\]** *B1*: Source bank 1, or zero if *T* is set as a constant value.
+- **const Bit\[4\]** *B2*: Source bank 2, or zero if this unit of *AP* is set as a constant value.
+- **const Bit\[4\]** *B3*: Source bank 3, or zero if this unit of *AP* is set as a constant value.
+- **const Bit\[4\]** *B4*: Source bank 4, or zero if this unit of *AP* is set as a constant value.
+- **const UByte** *T*: [Type of materia](../Materia_ID.md) to add, or source address 1.
+- **const UByte\[3\]** *AP*: Amount of AP the newly added materia will have, or source addresses 2, 3 and 4.
 
 #### Description
 
@@ -30,10 +30,10 @@ If *B1* is non-zero, then *T* specifies the address to be used with *B1* to find
 
 The following example adds a piece of Slash All materia (ID: 0xE) using the following parameters:
 
--   Materia ID retrieved from memory bank 6, address 1D;
--   16^1 set explicitly with a constant value;
--   16^2 set explicitly with a constant value;
--   16^3 retrieved from memory bank 6, address 1B.
+- Materia ID retrieved from memory bank 6, address 1D;
+- 16^1 set explicitly with a constant value;
+- 16^2 set explicitly with a constant value;
+- 16^3 retrieved from memory bank 6, address 1B.
 
 `SETWORD(60,1B,1,0)`  
 `SETWORD(60,1D,E,0)`  

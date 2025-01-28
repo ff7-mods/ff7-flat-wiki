@@ -2,9 +2,9 @@
 title: A8_MOVE
 ---
 
--   Opcode: **0xA8**
--   Short name: **MOVE**
--   Long name: Move Object
+- Opcode: **0xA8**
+- Short name: **MOVE**
+- Long name: Move Object
 
 #### Memory layout
 
@@ -13,10 +13,10 @@ title: A8_MOVE
 
 #### Arguments
 
--   **const Bit\[4\]** *B1*: Bank to retrieve X-coordinate, or zero if it is specified as a literal value.
--   **const Bit\[4\]** *B2*: Bank to retrieve Y-coordinate, or zero if it is specified as a literal value.
--   **const Short** *X*: X-coordinate, or lower byte specifying an address for the value if *B1* is non-zero.
--   **const Short** *Y*: Y-coordinate, or lower byte specifying an address for the value if *B2* is non-zero.
+- **const Bit\[4\]** *B1*: Bank to retrieve X-coordinate, or zero if it is specified as a literal value.
+- **const Bit\[4\]** *B2*: Bank to retrieve Y-coordinate, or zero if it is specified as a literal value.
+- **const Short** *X*: X-coordinate, or lower byte specifying an address for the value if *B1* is non-zero.
+- **const Short** *Y*: Y-coordinate, or lower byte specifying an address for the value if *B2* is non-zero.
 
 #### Description
 

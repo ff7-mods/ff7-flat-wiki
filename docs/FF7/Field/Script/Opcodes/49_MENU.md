@@ -2,9 +2,9 @@
 title: 49_MENU
 ---
 
--   Opcode: **0x49**
--   Short name: **MENU**
--   Long name: Menu
+- Opcode: **0x49**
+- Short name: **MENU**
+- Long name: Menu
 
 #### Memory layout
 
@@ -13,9 +13,9 @@ title: 49_MENU
 
 #### Arguments
 
--   **const UByte** *B*: Bank for parameter, or zero if *P* is specified as a literal value.
--   **const UByte** *T*: Type of menu, or special event.
--   **const UByte** *P*: Parameter to the menu, or address of parameter value, if *B* is non-zero.
+- **const UByte** *B*: Bank for parameter, or zero if *P* is specified as a literal value.
+- **const UByte** *T*: Type of menu, or special event.
+- **const UByte** *P*: Parameter to the menu, or address of parameter value, if *B* is non-zero.
 
 #### Description
 
@@ -46,4 +46,4 @@ Some types of menu are erroneous or produce erratic behaviour, and were most lik
 
 #### Parameters
 
--   Character Name Entry: Parameter indicates the name of the character to edit, and follows the standard Character IDs, as well as 0x64 to indicate the Chocobo naming screen.
+- Character Name Entry: Parameter indicates the name of the character to edit, and follows the standard Character IDs, as well as 0x64 to indicate the Chocobo naming screen.

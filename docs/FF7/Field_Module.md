@@ -15,30 +15,40 @@ title: Field_Module
 
 The field module is the core of the game to which everything else is spawned. It is tied very closely with the kernel and contains many low-level calls to it. The field system also contains a self-contained bytecode language called commonly called "Field Script". The field module is responsible for the following:
 
--   The loading and parsing of the field files
--   The display of the 2D background ands related special effects
--   The display of 3D elements in the field such as the camera, perspective and and entities
--   The running of the Field Script to display events and to get user input
--   The on-demand loading of other modules when needed
+- The loading and parsing of the field files
+- The display of the 2D background ands related special effects
+- The display of 3D elements in the field such as the camera, perspective and and entities
+- The running of the Field Script to display events and to get user input
+- The on-demand loading of other modules when needed
 
 The Field module loads modular "Field Files". In the PC version, the Field File is a single file with nine sections. In the PSX version, there are three files with the same name but with different extensions that do the same thing. The three files are MIM (Mutiple Image Maps, or the backgrounds), DAT (Field Script Data), and BSX (3D data).
 
 <div class="thumb tright">
+
 <div class="thumbinner" style="width: 182px">
 
-![![](180px-Field_BackgroundVRAM.jpg "fig:180px-Field_BackgroundVRAM.jpg")](../assets/Field_BackgroundVRAM.jpg)
+<figure>
+<img src="Field_BackgroundVRAM.jpg" title="180px-Field_BackgroundVRAM.jpg" />
+<figcaption><img src="180px-Field_BackgroundVRAM.jpg" title="180px-Field_BackgroundVRAM.jpg" alt="180px-Field_BackgroundVRAM.jpg" /></figcaption>
+</figure>
 
 <div class="thumbcaption">
+
 <div class="magnify">
 
-![](../assets/Field_BackgroundVRAM.jpg)
+<figure>
+<img src="Field_BackgroundVRAM.jpg" title="Field_BackgroundVRAM.jpg" />
+<figcaption>Field_BackgroundVRAM.jpg</figcaption>
+</figure>
 
 </div>
 
 Snapshot of the PSX's VRAM demonstrating the background field files in various stages of assembly.
 
 </div>
+
 </div>
+
 </div>
 
 The backgrounds are actually 16x16 blocks that are loaded into VRAM and then assembled into the video buffer every frame. The system allows for layers to obscure the 3D entities using a simple painter's algorithm.
@@ -63,8 +73,97 @@ All field files should contain 9 sections; it's what FF7 expects.
 
 ### PC Field File Header
 
-<table><thead><tr class="header"><th><p>Offset</p></th><th><p>Size</p></th><th><p>Description</p></th><th><p>Section Data</p></th></tr></thead><tbody><tr class="odd"><td><p>0x00</p></td><td><p>2 bytes</p></td><td><p>Blank</p></td><td><p>Always 0x00</p></td></tr><tr class="even"><td><p>0x02</p></td><td><p>4 bytes</p></td><td><p>Number of Sections</p></td><td><p>Always 0x0009</p></td></tr><tr class="odd"><td><p>0x06</p></td><td><p>4 bytes</p></td><td><p>Pointer to Section 1</p></td><td><p><a href="Field/Field_Script.md" title="wikilink">Field Script &amp; Dialog</a></p></td></tr><tr class="even"><td><p>0x0A</p></td><td><p>4 bytes</p></td><td><p>Pointer to Section 2</p></td><td><p><a href="Field/Camera_Matrix.md" title="wikilink">Camera Matrix</a></p></td></tr><tr class="odd"><td><p>0x0E</p></td><td><p>4 bytes</p></td><td><p>Pointer to Section 3</p></td><td><p><a href="Field/Model_Loader.md" title="wikilink">Model Loader</a></p></td></tr><tr class="even"><td><p>0x12</p></td><td><p>4 bytes</p></td><td><p>Pointer to Section 4</p></td><td><p><a href="Field/Palette.md" title="wikilink">Palette</a></p></td></tr><tr class="odd"><td><p>0x16</p></td><td><p>4 bytes</p></td><td><p>Pointer to Section 5</p></td><td><p><a href="Field/Walkmesh.md" title="wikilink">Walkmesh</a></p></td></tr><tr class="even"><td><p>0x1A</p></td><td><p>4 bytes</p></td><td><p>Pointer to Section 6</p></td><td><p><a href="Field_Module/DAT/Tile_Map.md" title="wikilink">TileMap</a> (Unused)</p></td></tr><tr class="odd"><td><p>0x1E</p></td><td><p>4 bytes</p></td><td><p>Pointer to Section 7</p></td><td><p><a href="Field/Encounter.md" title="wikilink">Encounter</a></p></td></tr><tr class="even"><td><p>0x22</p></td><td><p>4 bytes</p></td><td><p>Pointer to Section 8</p></td><td><p><a href="Field/Triggers.md" title="wikilink">Triggers</a></p></td></tr><tr class="odd"><td><p>0x26</p></td><td><p>4 bytes</p></td><td><p>Pointer to Section 9</p></td><td><p><a href="Field/Background.md" title="wikilink">Background</a></p></td></tr><tr class="even"><td><p>0x2A</p></td><td><p>4 bytes</p></td><td><p>Where Pointer to Section 1 points to</p></td><td><p>Length of Section 1</p></td></tr><tr class="odd"><td><p>0x2E</p></td><td><p>Varies</p></td><td><p>Start of Section 1 data. Continues for the<br />
-number of bytes specified in Section Length</p></td><td><p><em>See links above</em></p></td></tr></tbody></table>
+<table>
+<thead>
+<tr>
+<th><p>Offset</p></th>
+<th><p>Size</p></th>
+<th><p>Description</p></th>
+<th><p>Section Data</p></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><p>0x00</p></td>
+<td><p>2 bytes</p></td>
+<td><p>Blank</p></td>
+<td><p>Always 0x00</p></td>
+</tr>
+<tr>
+<td><p>0x02</p></td>
+<td><p>4 bytes</p></td>
+<td><p>Number of Sections</p></td>
+<td><p>Always 0x0009</p></td>
+</tr>
+<tr>
+<td><p>0x06</p></td>
+<td><p>4 bytes</p></td>
+<td><p>Pointer to Section 1</p></td>
+<td><p><a href="Field/Field_Script.md" title="wikilink">Field Script &amp; Dialog</a></p></td>
+</tr>
+<tr>
+<td><p>0x0A</p></td>
+<td><p>4 bytes</p></td>
+<td><p>Pointer to Section 2</p></td>
+<td><p><a href="Field/Camera_Matrix.md" title="wikilink">Camera Matrix</a></p></td>
+</tr>
+<tr>
+<td><p>0x0E</p></td>
+<td><p>4 bytes</p></td>
+<td><p>Pointer to Section 3</p></td>
+<td><p><a href="Field/Model_Loader.md" title="wikilink">Model Loader</a></p></td>
+</tr>
+<tr>
+<td><p>0x12</p></td>
+<td><p>4 bytes</p></td>
+<td><p>Pointer to Section 4</p></td>
+<td><p><a href="Field/Palette.md" title="wikilink">Palette</a></p></td>
+</tr>
+<tr>
+<td><p>0x16</p></td>
+<td><p>4 bytes</p></td>
+<td><p>Pointer to Section 5</p></td>
+<td><p><a href="Field/Walkmesh.md" title="wikilink">Walkmesh</a></p></td>
+</tr>
+<tr>
+<td><p>0x1A</p></td>
+<td><p>4 bytes</p></td>
+<td><p>Pointer to Section 6</p></td>
+<td><p><a href="Field_Module/DAT/Tile_Map.md" title="wikilink">TileMap</a> (Unused)</p></td>
+</tr>
+<tr>
+<td><p>0x1E</p></td>
+<td><p>4 bytes</p></td>
+<td><p>Pointer to Section 7</p></td>
+<td><p><a href="Field/Encounter.md" title="wikilink">Encounter</a></p></td>
+</tr>
+<tr>
+<td><p>0x22</p></td>
+<td><p>4 bytes</p></td>
+<td><p>Pointer to Section 8</p></td>
+<td><p><a href="Field/Triggers.md" title="wikilink">Triggers</a></p></td>
+</tr>
+<tr>
+<td><p>0x26</p></td>
+<td><p>4 bytes</p></td>
+<td><p>Pointer to Section 9</p></td>
+<td><p><a href="Field/Background.md" title="wikilink">Background</a></p></td>
+</tr>
+<tr>
+<td><p>0x2A</p></td>
+<td><p>4 bytes</p></td>
+<td><p>Where Pointer to Section 1 points to</p></td>
+<td><p>Length of Section 1</p></td>
+</tr>
+<tr>
+<td><p>0x2E</p></td>
+<td><p>Varies</p></td>
+<td><p>Start of Section 1 data. Continues for the<br />
+number of bytes specified in Section Length</p></td>
+<td><p><em>See links above</em></p></td>
+</tr>
+</tbody>
+</table>
 
 Each section generally starts with a four byte integer indicating the length of the section. You could just work this out by comparing offsets (how much space until the next section/end of file, etc) but FF7 stores the length at the start of the section anyway. After that the actual data follows. So the first bit of data for a section is actually 4 bytes after the point given in the section header (since the first four bytes are actually the length marker).
 
@@ -80,8 +179,45 @@ The header for the DAT file (after it is decompressed), is 28 bytes in size (the
 
 There are 7 sections each corresponding to the first 7 memory locations at the beginning of the file.
 
-<table><thead><tr class="header"><th style="text-align: center;"><p>Section Name</p></th><th style="text-align: center;"><p>Section Information</p></th></tr></thead><tbody><tr class="odd"><td style="text-align: center;"><p><a href="Field/Script.md" title="wikilink">Script</a></p></td><td style="text-align: center;"><p>Contains conversations, save point interaction etc.</p></td></tr><tr class="even"><td style="text-align: center;"><p><a href="Field/Walkmesh.md" title="wikilink">Walkmesh</a></p></td><td style="text-align: center;"><p>Contains walkmesh triangles and access info.</p></td></tr><tr class="odd"><td style="text-align: center;"><p><a href="Field_Module/DAT/Tile_Map.md" title="wikilink">TileMap</a></p></td><td style="text-align: center;"><p>Contains the information for the background, animation,<br />
-and static scene objects.</p></td></tr><tr class="even"><td style="text-align: center;"><p><a href="Field/Camera_Matrix.md" title="wikilink">Camera_Matrix</a></p></td><td style="text-align: center;"><p>Contains camera info.</p></td></tr><tr class="odd"><td style="text-align: center;"><p><a href="Field/Triggers.md" title="wikilink">Triggers</a></p></td><td style="text-align: center;"><p>Contains triggers, singles, gateways and so on.</p></td></tr><tr class="even"><td style="text-align: center;"><p><a href="Field/Encounter.md" title="wikilink">Encounter</a></p></td><td style="text-align: center;"><p>Battle Encounter information for location.</p></td></tr><tr class="odd"><td style="text-align: center;"><p><a href="Field/Models.md" title="wikilink">Models</a></p></td><td style="text-align: center;"><p>Some info about field models.</p></td></tr></tbody></table>
+<table>
+<thead>
+<tr>
+<th style="text-align: center; background: rgb(0,255,0);"><p>Section Name</p></th>
+<th style="text-align: center; background: rgb(0,255,0);"><p>Section Information</p></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center; background: rgb(200,255,200);"><p><a href="Field/Script.md" title="wikilink">Script</a></p></td>
+<td style="text-align: center; background: rgb(200,255,200);"><p>Contains conversations, save point interaction etc.</p></td>
+</tr>
+<tr>
+<td style="text-align: center; background: rgb(200,255,200);"><p><a href="Field/Walkmesh.md" title="wikilink">Walkmesh</a></p></td>
+<td style="text-align: center; background: rgb(200,255,200);"><p>Contains walkmesh triangles and access info.</p></td>
+</tr>
+<tr>
+<td style="text-align: center; background: rgb(200,255,200);"><p><a href="Field_Module/DAT/Tile_Map.md" title="wikilink">TileMap</a></p></td>
+<td style="text-align: center; background: rgb(200,255,200);"><p>Contains the information for the background, animation,<br />
+and static scene objects.</p></td>
+</tr>
+<tr>
+<td style="text-align: center; background: rgb(200,255,200);"><p><a href="Field/Camera_Matrix.md" title="wikilink">Camera_Matrix</a></p></td>
+<td style="text-align: center; background: rgb(200,255,200);"><p>Contains camera info.</p></td>
+</tr>
+<tr>
+<td style="text-align: center; background: rgb(200,255,200);"><p><a href="Field/Triggers.md" title="wikilink">Triggers</a></p></td>
+<td style="text-align: center; background: rgb(200,255,200);"><p>Contains triggers, singles, gateways and so on.</p></td>
+</tr>
+<tr>
+<td style="text-align: center; background: rgb(200,255,200);"><p><a href="Field/Encounter.md" title="wikilink">Encounter</a></p></td>
+<td style="text-align: center; background: rgb(200,255,200);"><p>Battle Encounter information for location.</p></td>
+</tr>
+<tr>
+<td style="text-align: center; background: rgb(200,255,200);"><p><a href="Field/Models.md" title="wikilink">Models</a></p></td>
+<td style="text-align: center; background: rgb(200,255,200);"><p>Some info about field models.</p></td>
+</tr>
+</tbody>
+</table>
 
 ### PSX MIM Format
 
@@ -121,10 +257,10 @@ Each animation file holds one character animation ( run, walk or some other). So
 
 -- animation file contents --
 
-| Name   | Size in bytes          |
-|--------|------------------------|
-| header | 36                     |
-| frames | frames\_count \* frame |
+| Name   | Size in bytes         |
+|--------|-----------------------|
+| header | 36                    |
+| frames | frames_count \* frame |
 
 -- one frame, size is (bones \* 12 + 12 + 12) --
 
@@ -145,7 +281,7 @@ header structure, 36 bytes
 `    unsigned int32 runtime_data[5];`  
 `} anim_head;`
 
-I understand only two values from the header, 'frames\_count' which is number of animation frames and 'bones\_count' which is suprisingly number of animated bones.
+I understand only two values from the header, 'frames_count' which is number of animation frames and 'bones_count' which is suprisingly number of animated bones.
 
 *version should always be 1 or FF7 will not load the file*
 

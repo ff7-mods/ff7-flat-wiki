@@ -8,10 +8,30 @@ They stored in directories STAGE1 and STAGE2. There are lzs archives that unpack
 
 ### Settings (first file)
 
-<table><thead><tr class="header"><th style="text-align: center;"><p>Offset</p></th><th style="text-align: center;"><p>Size</p></th><th style="text-align: center;"><p>Value</p></th></tr></thead><tbody><tr class="odd"><td style="text-align: center;"><p>0</p></td><td style="text-align: center;"><p>1 byte</p></td><td style="text-align: center;"><p>Type of 3d mesh. There are 6 type of meshes:<br />
+<table>
+<thead>
+<tr>
+<th style="text-align: center; background: rgb(204,204,204);"><p>Offset</p></th>
+<th style="text-align: center; background: rgb(204,204,204);"><p>Size</p></th>
+<th style="text-align: center; background: rgb(204,204,204);"><p>Value</p></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><p>0</p></td>
+<td style="text-align: center;"><p>1 byte</p></td>
+<td style="text-align: center;"><p>Type of 3d mesh. There are 6 type of meshes:<br />
 0 - mesh with horisontal scrolling parts (field 47 - Corel Train Battle).<br />
 1 - normal static mesh.<br />
 2 - mesh with vertical scrolling parts (field 12 - Shinra Elevators).<br />
 3 - mesh with lifestream (field 4e - Final Battle - Sephiroth).<br />
 4 - mesh with rotating parts (field 39 - Safer Battle)<br />
-5 - normal static mesh, same as 1. (field 01,44,45 - Bizarro Battles)</p></td></tr><tr class="even"><td style="text-align: center;"><p>1</p></td><td style="text-align: center;"><p>7 bytes</p></td><td style="text-align: center;"><p>unknown</p></td></tr></tbody></table>
+5 - normal static mesh, same as 1. (field 01,44,45 - Bizarro Battles)</p></td>
+</tr>
+<tr>
+<td style="text-align: center; background: rgb(255,255,204);"><p>1</p></td>
+<td style="text-align: center; background: rgb(255,255,204);"><p>7 bytes</p></td>
+<td style="text-align: center; background: rgb(255,255,204);"><p>unknown</p></td>
+</tr>
+</tbody>
+</table>

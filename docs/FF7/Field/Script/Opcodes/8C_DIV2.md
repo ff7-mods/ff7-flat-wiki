@@ -2,9 +2,9 @@
 title: 8C_DIV2
 ---
 
--   Opcode: **0x8C**
--   Short name: **DIV2**
--   Long name: Division (16-bit)
+- Opcode: **0x8C**
+- Short name: **DIV2**
+- Long name: Division (16-bit)
 
 #### Memory layout
 
@@ -13,10 +13,10 @@ title: 8C_DIV2
 
 #### Arguments
 
--   **const Bit\[4\]** *D*: Destination bank
--   **const Bit\[4\]** *S*: Source bank
--   **const UByte** *Dest*: Contains the nominator of the division and receives the quotient.
--   **const SWord** *Den*: The denominator of the division.
+- **const Bit\[4\]** *D*: Destination bank
+- **const Bit\[4\]** *S*: Source bank
+- **const UByte** *Dest*: Contains the nominator of the division and receives the quotient.
+- **const SWord** *Den*: The denominator of the division.
 
 #### Description
 

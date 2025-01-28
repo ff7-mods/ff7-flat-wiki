@@ -2,9 +2,9 @@
 title: F5_MULCK
 ---
 
--   Opcode: **0xF5**
--   Short name: **MULCK**
--   Long name: Music Lock
+- Opcode: **0xF5**
+- Short name: **MULCK**
+- Long name: Music Lock
 
 #### Memory layout
 
@@ -13,7 +13,7 @@ title: F5_MULCK
 
 #### Arguments
 
--   **const UByte** *S*: Lock on/off (1/0, respectively).
+- **const UByte** *S*: Lock on/off (1/0, respectively).
 
 #### Description
 

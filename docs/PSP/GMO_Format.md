@@ -60,8 +60,8 @@ They usually mark Model or Skeletal data, although there may be more types which
 
 Known Values:
 
--   0x6f6d Models
--   0x305f Skeletal Animations
+- 0x6f6d Models
+- 0x305f Skeletal Animations
 
   
 
@@ -97,4 +97,4 @@ Known Values:
 
 # References
 
--   [<http://www.richwhitehouse.com/index.php?postid=34>](http://www.richwhitehouse.com/index.php?postid=34)
+- [<http://www.richwhitehouse.com/index.php?postid=34>](http://www.richwhitehouse.com/index.php?postid=34)

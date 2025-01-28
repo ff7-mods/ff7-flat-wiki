@@ -2,9 +2,9 @@
 title: 5A_CKITM
 ---
 
--   Opcode: **0x5A**
--   Short name: **CKITM**
--   Long name: Check Item
+- Opcode: **0x5A**
+- Short name: **CKITM**
+- Long name: Check Item
 
 #### Memory layout
 
@@ -13,9 +13,9 @@ title: 5A_CKITM
 
 #### Arguments
 
--   **const UByte** *B*: Bank to store result.
--   **const UShort** *I*: [Item ID](../../Item_ID.md) to check.
--   **const UByte** *A*: Address to store result.
+- **const UByte** *B*: Bank to store result.
+- **const UShort** *I*: [Item ID](../../Item_ID.md) to check.
+- **const UByte** *A*: Address to store result.
 
 #### Description
 

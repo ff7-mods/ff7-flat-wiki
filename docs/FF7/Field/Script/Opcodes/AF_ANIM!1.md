@@ -2,9 +2,9 @@
 title: AF_ANIM!1
 ---
 
--   Opcode: **0xAF**
--   Short name: **ANIM!1**
--   Long name: Wait While Animate/Stay
+- Opcode: **0xAF**
+- Short name: **ANIM!1**
+- Long name: Wait While Animate/Stay
 
 #### Memory layout
 
@@ -13,8 +13,8 @@ title: AF_ANIM!1
 
 #### Arguments
 
--   **const UByte** *A*: Animation ID for this entity's field object.
--   **const UByte** *S*: Speed the animation is played at. Higher numbers indicate slower animations.
+- **const UByte** *A*: Animation ID for this entity's field object.
+- **const UByte** *S*: Speed the animation is played at. Higher numbers indicate slower animations.
 
 #### Description
 

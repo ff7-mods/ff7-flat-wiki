@@ -2,9 +2,9 @@
 title: DD_ANIMB
 ---
 
--   Opcode: **0xDD**
--   Short name: **ANIMB**
--   Long name: Stop Animation.
+- Opcode: **0xDD**
+- Short name: **ANIMB**
+- Long name: Stop Animation.
 
 #### Memory layout
 

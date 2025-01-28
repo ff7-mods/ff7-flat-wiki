@@ -2,9 +2,9 @@
 title: 3E_MHMMX
 ---
 
--   Opcode: **0x3E**
--   Short name: **MHMMX**
--   Long name: All HP/MP Maximum with Status Clear
+- Opcode: **0x3E**
+- Short name: **MHMMX**
+- Long name: All HP/MP Maximum with Status Clear
 
 #### Memory layout
 

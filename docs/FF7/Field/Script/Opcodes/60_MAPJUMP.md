@@ -2,9 +2,9 @@
 title: 60_MAPJUMP
 ---
 
--   Opcode: **0x60**
--   Short name: **MAPJUMP**
--   Long name: Change Field
+- Opcode: **0x60**
+- Short name: **MAPJUMP**
+- Long name: Change Field
 
 #### Memory layout
 
@@ -13,11 +13,11 @@ title: 60_MAPJUMP
 
 #### Arguments
 
--   **const UShort** *I*: [Field ID](../../Field_List.md) of the map to jump to.
--   **const Short** *X*: X-coordinate of the player on the next field.
--   **const Short** *Y*: Y-coordinate of the player on the next field.
--   **const Short** *Z*: Z-coordinate of the player on the next field.
--   **const UByte** *D*: Direction the character will be facing on the next field, in the standard game format.
+- **const UShort** *I*: [Field ID](../../Field_List.md) of the map to jump to.
+- **const Short** *X*: X-coordinate of the player on the next field.
+- **const Short** *Y*: Y-coordinate of the player on the next field.
+- **const Short** *Z*: Z-coordinate of the player on the next field.
+- **const UByte** *D*: Direction the character will be facing on the next field, in the standard game format.
 
 #### Description
 

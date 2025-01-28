@@ -2,9 +2,9 @@
 title: F0_MUSIC
 ---
 
--   Opcode: **0xF0**
--   Short name: **MUSIC**
--   Long name: Play Music
+- Opcode: **0xF0**
+- Short name: **MUSIC**
+- Long name: Play Music
 
 #### Memory layout
 
@@ -13,7 +13,7 @@ title: F0_MUSIC
 
 #### Arguments
 
--   **const UByte** *I*: ID for the music file that has been set in the field file.
+- **const UByte** *I*: ID for the music file that has been set in the field file.
 
 #### Description
 

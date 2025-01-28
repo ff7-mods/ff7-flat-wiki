@@ -4,8 +4,8 @@ title: Audio_Formats
 
 # Known FF7:CC Audio Formats
 
--   [\[RIFF](Audio_Formats.md#RIFF_Format)\]
--   [\[SSCF](Audio_Formats.md#SSCF_Format)\]
+- [\[RIFF](Audio_Formats.md#RIFF_Format)\]
+- [\[SSCF](Audio_Formats.md#SSCF_Format)\]
 
 ## RIFF Format
 

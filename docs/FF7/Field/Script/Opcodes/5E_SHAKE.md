@@ -2,9 +2,9 @@
 title: 5E_SHAKE
 ---
 
--   Opcode: **0x5E**
--   Short name: **SHAKE**
--   Long name: Shake Camera
+- Opcode: **0x5E**
+- Short name: **SHAKE**
+- Long name: Shake Camera
 
 #### Memory layout
 
@@ -13,12 +13,12 @@ title: 5E_SHAKE
 
 #### Arguments
 
--   **const Short** *U1*: Bank to retrieve X-coordinate, or zero if it is specified as a literal value
--   **const Short** *U2*: Bank to retrieve Y-coordinate, or zero if it is specified as a literal value
--   **const Short** *xA*: The amplitude or how far the 'bounce' is on the x axis
--   **const Short** *xF*: The time taken for each tween moment between 'bounces' on the x axis
--   **const Short** *yA*: The amplitude or how far the 'bounce' is on the y axis
--   **const Short** *yF*: The time taken for each tween moment between 'bounces' on the y axis
+- **const Short** *U1*: Bank to retrieve X-coordinate, or zero if it is specified as a literal value
+- **const Short** *U2*: Bank to retrieve Y-coordinate, or zero if it is specified as a literal value
+- **const Short** *xA*: The amplitude or how far the 'bounce' is on the x axis
+- **const Short** *xF*: The time taken for each tween moment between 'bounces' on the x axis
+- **const Short** *yA*: The amplitude or how far the 'bounce' is on the y axis
+- **const Short** *yF*: The time taken for each tween moment between 'bounces' on the y axis
 
 #### Description
 
@@ -26,7 +26,7 @@ The current camera movement through standard op codes (eg, [SCR2DC](FF7/Field/Sc
 
 SHAKE is async.
 
-SHAKE commands (with the exception of type 0 -&gt; which resets the stop the shake) are a chain of tweens. If a shake command has been executed, the current movement (tween) continues until it finished, but the next tween it's the existing queue is not applied. Instead, the new SHAKE commands are queued and subsequently run instead.
+SHAKE commands (with the exception of type 0 -\> which resets the stop the shake) are a chain of tweens. If a shake command has been executed, the current movement (tween) continues until it finished, but the next tween it's the existing queue is not applied. Instead, the new SHAKE commands are queued and subsequently run instead.
 
 All tweens are executed with quadratic in and out easing.
 
@@ -48,9 +48,9 @@ There are 4 tween types as determined by the **T** value:
 
 *Note: N/A = Not applicable, can be any value, doesn't affect functionality*
 
-| Type | Description                 | Axes  | xA            | xF                | yA            | yF                |
-|------|-----------------------------|-------|---------------|-------------------|---------------|-------------------|
-| 0    | Stop SHAKE and reset camera | X & Y | N/A           | N/A Must be &gt;0 | N/A           | N/A Must be &gt;0 |
-| 1    | SHAKE X axis only           | X     | Must be &gt;0 | Must be &gt;0     | N/A           | N/A               |
-| 2    | SHAKE Y axis only           | Y     | N/A           | N/A               | Must be &gt;0 | Must be &gt;0     |
-| 3    | SHAKE X & Y axis            | X & Y | Must be &gt;0 | Must be &gt;0     | Must be &gt;0 | Must be &gt;0     |
+| Type | Description | Axes | xA | xF | yA | yF |
+|----|----|----|----|----|----|----|
+| 0 | Stop SHAKE and reset camera | X & Y | N/A | N/A Must be \>0 | N/A | N/A Must be \>0 |
+| 1 | SHAKE X axis only | X | Must be \>0 | Must be \>0 | N/A | N/A |
+| 2 | SHAKE Y axis only | Y | N/A | N/A | Must be \>0 | Must be \>0 |
+| 3 | SHAKE X & Y axis | X & Y | Must be \>0 | Must be \>0 | Must be \>0 | Must be \>0 |

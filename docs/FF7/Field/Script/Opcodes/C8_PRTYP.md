@@ -2,9 +2,9 @@
 title: C8_PRTYP
 ---
 
--   Opcode: **0xC8**
--   Short name: **PRTYP**
--   Long name: Party Add
+- Opcode: **0xC8**
+- Short name: **PRTYP**
+- Long name: Party Add
 
 #### Memory layout
 
@@ -13,7 +13,7 @@ title: C8_PRTYP
 
 #### Arguments
 
--   **const UByte** *C*: Character ID to add.
+- **const UByte** *C*: Character ID to add.
 
 #### Description
 

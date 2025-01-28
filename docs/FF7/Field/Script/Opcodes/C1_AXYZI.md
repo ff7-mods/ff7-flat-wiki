@@ -2,9 +2,9 @@
 title: C1_AXYZI
 ---
 
--   Opcode: **0xC1**
--   Short name: **AXYZI**
--   Long name: Entity Get Position
+- Opcode: **0xC1**
+- Short name: **AXYZI**
+- Long name: Entity Get Position
 
 #### Memory layout
 
@@ -13,15 +13,15 @@ title: C1_AXYZI
 
 #### Arguments
 
--   **const Bit\[4\]** *B1*: Bank to store *X*.
--   **const Bit\[4\]** *B2*: Bank to store *Y*.
--   **const Bit\[4\]** *B3*: Bank to store *Z*.
--   **const Bit\[4\]** *B4*: Bank to store *I*.
--   **const UByte** *A*: Entity ID whose field object will have its position retrieved from.
--   **const UByte** *X*: Address to store the X-coordinate of the entity's object.
--   **const UByte** *Y*: Address to store the Y-coordinate of the entity's object.
--   **const UByte** *Z*: Address to store the Z-coordinate of the entity's object.
--   **const UByte** *I*: Address to store the ID of the walkmesh triangle the object is standing on.
+- **const Bit\[4\]** *B1*: Bank to store *X*.
+- **const Bit\[4\]** *B2*: Bank to store *Y*.
+- **const Bit\[4\]** *B3*: Bank to store *Z*.
+- **const Bit\[4\]** *B4*: Bank to store *I*.
+- **const UByte** *A*: Entity ID whose field object will have its position retrieved from.
+- **const UByte** *X*: Address to store the X-coordinate of the entity's object.
+- **const UByte** *Y*: Address to store the Y-coordinate of the entity's object.
+- **const UByte** *Z*: Address to store the Z-coordinate of the entity's object.
+- **const UByte** *I*: Address to store the ID of the walkmesh triangle the object is standing on.
 
 #### Description
 

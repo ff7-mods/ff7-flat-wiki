@@ -2,9 +2,9 @@
 title: FA_FLITM
 ---
 
--   Opcode: **0x0FFA**
--   Short name: **SPECIAL: FLITM**
--   Long name: Special: Fill Items
+- Opcode: **0x0FFA**
+- Short name: **SPECIAL: FLITM**
+- Long name: Special: Fill Items
 
 #### Memory layout
 

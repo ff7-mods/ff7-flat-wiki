@@ -2,9 +2,9 @@
 title: 97_DEC
 ---
 
--   Opcode: **0x97**
--   Short name: **DEC**
--   Long name: Decrement (8-bit)
+- Opcode: **0x97**
+- Short name: **DEC**
+- Long name: Decrement (8-bit)
 
 #### Memory layout
 
@@ -13,8 +13,8 @@ title: 97_DEC
 
 #### Arguments
 
--   **const UByte** *B*: Destination bank.
--   **const UByte** *A*: Address.
+- **const UByte** *B*: Destination bank.
+- **const UByte** *A*: Address.
 
 #### Description
 

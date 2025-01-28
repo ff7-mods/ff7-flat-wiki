@@ -2,9 +2,9 @@
 title: 64_SCR2D
 ---
 
--   Opcode: **0x64**
--   Short name: **SCR2D**
--   Long name: Scroll 2D
+- Opcode: **0x64**
+- Short name: **SCR2D**
+- Long name: Scroll 2D
 
 #### Memory layout
 
@@ -13,10 +13,10 @@ title: 64_SCR2D
 
 #### Arguments
 
--   **const Bit\[4\]** *B1*: Source bank 1, or zero if *X* is set as a constant value.
--   **const Bit\[4\]** *B2*: Source bank 2, or zero if *Y* is set as a constant value.
--   **const Short** *X*: X-coordinate to scroll to, or address to find *X* if *B1* is non-zero.
--   **const Short** *Y*: Y-coordinate to scroll to, or address to find *Y* if *B2* is non-zero.
+- **const Bit\[4\]** *B1*: Source bank 1, or zero if *X* is set as a constant value.
+- **const Bit\[4\]** *B2*: Source bank 2, or zero if *Y* is set as a constant value.
+- **const Short** *X*: X-coordinate to scroll to, or address to find *X* if *B1* is non-zero.
+- **const Short** *Y*: Y-coordinate to scroll to, or address to find *Y* if *B2* is non-zero.
 
 #### Description
 

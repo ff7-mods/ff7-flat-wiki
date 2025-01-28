@@ -2,9 +2,9 @@
 title: 10_JMPF
 ---
 
--   Opcode: **0x10**
--   Short name: **JMPF**
--   Long name: Jump forward
+- Opcode: **0x10**
+- Short name: **JMPF**
+- Long name: Jump forward
 
 #### Memory layout
 
@@ -13,7 +13,7 @@ title: 10_JMPF
 
 #### Arguments
 
--   **const UByte** *A*: Amount to jump forward.
+- **const UByte** *A*: Amount to jump forward.
 
 #### Description
 

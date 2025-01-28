@@ -32,7 +32,7 @@ This is an overview the camera data format.
 | 0x20   | 4 bytes | *Blank*                  |
 | 0x24   | 2 bytes | Zoom                     |
 
-There may be multiple cameras in a single file, in that case (mds5\_1, blinst\_1...) this data structure (sizeof=38 bytes) is repeated several times, and there is no indication of the count of cameras, except the size of the section.
+There may be multiple cameras in a single file, in that case (mds5_1, blinst_1...) this data structure (sizeof=38 bytes) is repeated several times, and there is no indication of the count of cameras, except the size of the section.
 
 How to get vectors for the axis:
 

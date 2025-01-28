@@ -2,9 +2,9 @@
 title: 99_RANDOM
 ---
 
--   Opcode: **0x99**
--   Short name: **RANDOM**
--   Long name: Random
+- Opcode: **0x99**
+- Short name: **RANDOM**
+- Long name: Random
 
 #### Memory layout
 
@@ -13,8 +13,8 @@ title: 99_RANDOM
 
 #### Arguments
 
--   **const UByte** *B*: Destination bank.
--   **const UByte** *A*: Destination address.
+- **const UByte** *B*: Destination bank.
+- **const UByte** *A*: Destination address.
 
 #### Description
 

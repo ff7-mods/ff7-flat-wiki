@@ -2,9 +2,9 @@
 title: 42_MPRA2
 ---
 
--   Opcode: **0x42**
--   Short name: **MPRA2**
--   Long name: Message Parameter (16-bit)
+- Opcode: **0x42**
+- Short name: **MPRA2**
+- Long name: Message Parameter (16-bit)
 
 #### Memory layout
 
@@ -13,10 +13,10 @@ title: 42_MPRA2
 
 #### Arguments
 
--   **const UByte** *B*: Bank to retrieve value from, or zero if using a literal value.
--   **const UByte** *W*: [WINDOW](50_WINDOW.md) ID for this parameter.
--   **const UByte** *I*: ID of the "[Variable](../../Variable_Dialog.md)" dialog code that this value will replace.
--   **const UShort** *V*: Value to insert into dialog, or address of value, if *B* is non-zero.
+- **const UByte** *B*: Bank to retrieve value from, or zero if using a literal value.
+- **const UByte** *W*: [WINDOW](50_WINDOW.md) ID for this parameter.
+- **const UByte** *I*: ID of the "[Variable](../../Variable_Dialog.md)" dialog code that this value will replace.
+- **const UShort** *V*: Value to insert into dialog, or address of value, if *B* is non-zero.
 
 #### Description
 

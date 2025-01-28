@@ -2,9 +2,9 @@
 title: D7_SLDR2
 ---
 
--   Opcode: **0xD7**
--   Short name: **SLDR2**
--   Long name: Solid Range (16-bit)
+- Opcode: **0xD7**
+- Short name: **SLDR2**
+- Long name: Solid Range (16-bit)
 
 #### Memory layout
 
@@ -13,8 +13,8 @@ title: D7_SLDR2
 
 #### Arguments
 
--   **const UByte** *B*: Bank to retrieve *R*, or zero if *R* is specified as a literal value.
--   **const UShort** *R*: Range value.
+- **const UByte** *B*: Bank to retrieve *R*, or zero if *R* is specified as a literal value.
+- **const UShort** *R*: Range value.
 
 #### Description
 

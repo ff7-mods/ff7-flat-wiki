@@ -6,7 +6,7 @@ title: Background
 
 Firstly, a number of variables.
 
-At offset $28, a Word = background width (BGWidth) At offset $2A, a Word = background height (BGHeight) At offset $2C, a Word = number of background sprites (NumBGSprites) At offset $32, the background sprite data. See below for format (each sprite is 52 bytes long) After the background sprite data, another $7 bytes, unknown purpose. Then (ie. at offset $32 + NumBGSprites\*52 + $7) a Word = number of 2nd layer background sprites (NumBG2Sprites) Then another $12 bytes, unknown purpose. Then (ie. at offset $32 + NumBGSprites\*52 + $1B) the background layer 2 sprite data. See below for format. Then another $3D bytes, unknown purpose. Then (ie. at offset $32 + NumBGSprites\*52 + NumBG2Sprites\*52 + $58) the raw image data.
+At offset \$28, a Word = background width (BGWidth) At offset \$2A, a Word = background height (BGHeight) At offset \$2C, a Word = number of background sprites (NumBGSprites) At offset \$32, the background sprite data. See below for format (each sprite is 52 bytes long) After the background sprite data, another \$7 bytes, unknown purpose. Then (ie. at offset \$32 + NumBGSprites\*52 + \$7) a Word = number of 2nd layer background sprites (NumBG2Sprites) Then another \$12 bytes, unknown purpose. Then (ie. at offset \$32 + NumBGSprites\*52 + \$1B) the background layer 2 sprite data. See below for format. Then another \$3D bytes, unknown purpose. Then (ie. at offset \$32 + NumBGSprites\*52 + NumBG2Sprites\*52 + \$58) the raw image data.
 
 #### Background format
 
@@ -50,11 +50,11 @@ StartOffset := (Page shl 16) or ((SrcY shl 8) or SrcX) + (Page+1)\*6;
 
 this is equivalent to
 
-StartOffset := (Page \* $FFFF) + (SrcY \* $FF) + SrcX + (Page+1)\*6;
+StartOffset := (Page \* \$FFFF) + (SrcY \* \$FF) + SrcX + (Page+1)\*6;
 
-(Page shl 16), (Page\*$FFFF): Each page takes up 256x256 = $FFFF bytes, so skip that many for each page.
+(Page shl 16), (Page\*\$FFFF): Each page takes up 256x256 = \$FFFF bytes, so skip that many for each page.
 
-(SrcY shl 8), (SrcY\*$FF): Each pixel row takes up 256 = $FF bytes, so skip that many to get to the right row.
+(SrcY shl 8), (SrcY\*\$FF): Each pixel row takes up 256 = \$FF bytes, so skip that many to get to the right row.
 
 SrcX: Taken directly.
 
@@ -95,4 +95,4 @@ Byte: 8 bit, unsigned, integer Word: 16 bit, unsigned, integer Smallint: 16 bit,
 
 (Unsigned = positive values only. Signed can hold positive or negative values).
 
-Also, whenever I use numbers with $ signs above, it means I'm using hex values (hexadecimal).
+Also, whenever I use numbers with \$ signs above, it means I'm using hex values (hexadecimal).

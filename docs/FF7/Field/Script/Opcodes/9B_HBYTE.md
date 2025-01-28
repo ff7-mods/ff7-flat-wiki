@@ -2,9 +2,9 @@
 title: 9B_HBYTE
 ---
 
--   Opcode: **0x9B**
--   Short name: **HBYTE**
--   Long name: High Byte
+- Opcode: **0x9B**
+- Short name: **HBYTE**
+- Long name: High Byte
 
 #### Memory layout
 
@@ -13,10 +13,10 @@ title: 9B_HBYTE
 
 #### Arguments
 
--   **const Bit\[4\]** *D*: Destination bank.
--   **const Bit\[4\]** *S*: Source bank.
--   **const UByte** *DA*: Destination address.
--   **const UShort** *SA*: Source address, *or* the word given as a literal, if source bank is zero.
+- **const Bit\[4\]** *D*: Destination bank.
+- **const Bit\[4\]** *S*: Source bank.
+- **const UByte** *DA*: Destination address.
+- **const UShort** *SA*: Source address, *or* the word given as a literal, if source bank is zero.
 
 #### Description
 

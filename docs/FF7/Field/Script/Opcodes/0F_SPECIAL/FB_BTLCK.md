@@ -2,16 +2,16 @@
 title: FB_BTLCK
 ---
 
--   Opcode: **0x0FFB**
--   Short name: **SPECIAL: BTLCK**
--   Long name: Special: Battle Lock
+- Opcode: **0x0FFB**
+- Short name: **SPECIAL: BTLCK**
+- Long name: Special: Battle Lock
 
 #### Memory layout
 
 | 0x0F | 0xFB | *B* |
 |------|------|-----|
 
--   **const UByte** *B*: Battle lock on/off (1/0, respectively).
+- **const UByte** *B*: Battle lock on/off (1/0, respectively).
 
 #### Description
 

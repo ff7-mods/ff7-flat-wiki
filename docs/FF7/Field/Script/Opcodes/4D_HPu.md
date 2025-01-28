@@ -2,9 +2,9 @@
 title: 4D_HPu
 ---
 
--   Opcode: **0x4D**
--   Short name: **HPu**
--   Long name: HP Up
+- Opcode: **0x4D**
+- Short name: **HPu**
+- Long name: HP Up
 
 #### Memory layout
 
@@ -13,9 +13,9 @@ title: 4D_HPu
 
 #### Arguments
 
--   **const UByte** *B*: Bank to retrieve value for increasing, or zero if the amount is specified by a constant in *V*.
--   **const UByte** *P*: Party member whose HP will increase (0 to 2).
--   **const UShort** *V*: Value to increase HP by, or address to retrieve value from if *B* is non-zero.
+- **const UByte** *B*: Bank to retrieve value for increasing, or zero if the amount is specified by a constant in *V*.
+- **const UByte** *P*: Party member whose HP will increase (0 to 2).
+- **const UShort** *V*: Value to increase HP by, or address to retrieve value from if *B* is non-zero.
 
 #### Description
 

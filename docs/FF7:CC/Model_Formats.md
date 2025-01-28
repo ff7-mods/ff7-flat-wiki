@@ -6,7 +6,7 @@ title: Model_Formats
 
 # Known FF7:CC Model Formats
 
--   \[\[FF7:CC/Model Formats\#exp Format\|\[!\] (exp) Format\]\]
+- \[\[FF7:CC/Model Formats#exp Format\|\[!\] (exp) Format\]\]
 
 Note that the Vertices must decoded in accordance with the PSP-GPU specifications, detailed below.
 
@@ -24,8 +24,8 @@ Each \[!\]-File contains multiple Models and Textures to represent a single enti
 
 These files include
 
--   [TYPE-0](Model_Formats.md#exp_TYPE-0_Models) Characters, Monsters, NPCs and various prop Models
--   [TYPE-1](Model_Formats.md#exp_TYPE-1_Models) Location Map Models
+- [TYPE-0](Model_Formats.md#exp_TYPE-0_Models) Characters, Monsters, NPCs and various prop Models
+- [TYPE-1](Model_Formats.md#exp_TYPE-1_Models) Location Map Models
 
 ### File Structure
 
@@ -65,8 +65,8 @@ These files include
 
 The \*TYPE\* value determines how to parse the vertex-data which follows, and known values are:
 
--   00 - Used for Characters, Monsters, Props, etc
--   01 - Used for Location-Maps
+- 00 - Used for Characters, Monsters, Props, etc
+- 01 - Used for Location-Maps
 
 See the section on PSP-GPU for more information on parsing the vertices.
 

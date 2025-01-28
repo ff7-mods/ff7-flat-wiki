@@ -2,9 +2,9 @@
 title: 9C_2BYTE
 ---
 
--   Opcode: **0x9C**
--   Short name: **2BYTE**
--   Long name: Two Byte Value
+- Opcode: **0x9C**
+- Short name: **2BYTE**
+- Long name: Two Byte Value
 
 #### Memory layout
 
@@ -13,12 +13,12 @@ title: 9C_2BYTE
 
 #### Arguments
 
--   **const Bit\[4\]** *B1*: Destination bank.
--   **const Bit\[4\]** *B2*: Bank to retrieve *L*, or zero if *L* is specified as a literal value.
--   **const UByte** *B3*: Bank to retrieve *H*, or zero if *H* is specified as a literal value.
--   **const UByte** *D*: Destination address.
--   **const UByte** *L*: Low byte, or address to retrieve value if *B2* is non-zero.
--   **const UByte** *H*: High byte, or address to retrieve value if *B3* is non-zero.
+- **const Bit\[4\]** *B1*: Destination bank.
+- **const Bit\[4\]** *B2*: Bank to retrieve *L*, or zero if *L* is specified as a literal value.
+- **const UByte** *B3*: Bank to retrieve *H*, or zero if *H* is specified as a literal value.
+- **const UByte** *D*: Destination address.
+- **const UByte** *L*: Low byte, or address to retrieve value if *B2* is non-zero.
+- **const UByte** *H*: High byte, or address to retrieve value if *B3* is non-zero.
 
 #### Description
 

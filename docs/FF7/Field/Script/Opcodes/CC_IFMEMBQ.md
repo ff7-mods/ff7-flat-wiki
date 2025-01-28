@@ -2,9 +2,9 @@
 title: CC_IFMEMBQ
 ---
 
--   Opcode: **0xCC**
--   Short name: **IFMEMBQ**
--   Long name: If Party Member Available
+- Opcode: **0xCC**
+- Short name: **IFMEMBQ**
+- Long name: If Party Member Available
 
 #### Memory layout
 
@@ -13,8 +13,8 @@ title: CC_IFMEMBQ
 
 #### Arguments
 
--   **const UByte** *C*: [Character ID](../../Character_ID.md) to check.
--   **const UByte** *A*: Amount to jump if comparison is false.
+- **const UByte** *C*: [Character ID](../../Character_ID.md) to check.
+- **const UByte** *A*: Amount to jump if comparison is false.
 
 #### Description
 

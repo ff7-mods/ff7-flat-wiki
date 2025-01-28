@@ -2,9 +2,9 @@
 title: D1_LINON
 ---
 
--   Opcode: **0xD1**
--   Short name: **LINON**
--   Long name: Line Switch
+- Opcode: **0xD1**
+- Short name: **LINON**
+- Long name: Line Switch
 
 #### Memory layout
 
@@ -13,7 +13,7 @@ title: D1_LINON
 
 #### Arguments
 
--   **const UByte** *S*: Switch on/off (1/0, respectively).
+- **const UByte** *S*: Switch on/off (1/0, respectively).
 
 #### Description
 

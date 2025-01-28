@@ -2,9 +2,9 @@
 title: 6B_FADE
 ---
 
--   Opcode: **0x6B**
--   Short name: **FADE**
--   Long name: Fade
+- Opcode: **0x6B**
+- Short name: **FADE**
+- Long name: Fade
 
 #### Memory layout
 
@@ -13,16 +13,16 @@ title: 6B_FADE
 
 #### Arguments
 
--   **const Bit\[4\]** *B1*: Bank to retrieve *R*, or zero if *R* is given as a literal value.
--   **const Bit\[4\]** *B2*: Bank to retrieve *G*, or zero if *G* is given as a literal value.
--   **const Bit\[4\]** *0*: Zero.
--   **const Bit\[4\]** *B3*: Bank to retrieve *B*, or zero if *B* is given as a literal value.
--   **const UByte** *R*: Red component value, or address of red value if *B1* is non-zero.
--   **const UByte** *G*: Green component value, or address of green value if *B2* is non-zero.
--   **const UByte** *B*: Blue component value, or address of blue value if *B3* is non-zero.
--   **const UByte** *S*: Speed of fade. Larger numbers indicate faster fades.
--   **const UByte** *T*: Type of fade; see table.
--   **const UByte** *A*: Adjusts the speed of the fade, based on fade in/out.
+- **const Bit\[4\]** *B1*: Bank to retrieve *R*, or zero if *R* is given as a literal value.
+- **const Bit\[4\]** *B2*: Bank to retrieve *G*, or zero if *G* is given as a literal value.
+- **const Bit\[4\]** *0*: Zero.
+- **const Bit\[4\]** *B3*: Bank to retrieve *B*, or zero if *B* is given as a literal value.
+- **const UByte** *R*: Red component value, or address of red value if *B1* is non-zero.
+- **const UByte** *G*: Green component value, or address of green value if *B2* is non-zero.
+- **const UByte** *B*: Blue component value, or address of blue value if *B3* is non-zero.
+- **const UByte** *S*: Speed of fade. Larger numbers indicate faster fades.
+- **const UByte** *T*: Type of fade; see table.
+- **const UByte** *A*: Adjusts the speed of the fade, based on fade in/out.
 
 #### Description
 
@@ -70,7 +70,7 @@ Simple formulas based on the passed *r*, *g*, *b* values:
 `   colorInverse1 -> rgb(0xFF - r, 0xFF - g, 0xFF - b)`  
 `   colorInverse4 -> rgb(4 * (0xFF - r), 4 * (0xFF - g), 4 * (0xFF - b))`
 
-Frame by frame, the tweens will calculate the correct values between the **from** and **to** colours over the period of time of the fade. Eg: FROM rgb(10,10,10) -&gt; TO rgb(30,20,10) will increase like this:
+Frame by frame, the tweens will calculate the correct values between the **from** and **to** colours over the period of time of the fade. Eg: FROM rgb(10,10,10) -\> TO rgb(30,20,10) will increase like this:
 
 `   rgb(10,10,10)`  
 `   rgb(12,11,10)`  
@@ -97,23 +97,23 @@ Whilst it seems as though a fade my be a gradual opacity, in FF7, it isn't. Inst
 
 #### Fade Types - FADE
 
-| ID  | Description                                            | Async/Sync             | Blending Type | From color    | To color      | Hold end color after finished | Speed          | Adjust (typically) |
-|-----|--------------------------------------------------------|------------------------|---------------|---------------|---------------|-------------------------------|----------------|--------------------|
-| 1   | colorInverse4 to field subtractive, hold field         | Async, ensure wait for | Subtractive   | colorInverse4 | colorBlack    | colorBlack                    | speedToSeconds | 0xFF               |
-| 2   | field to colorInverse4 subtractive, hold color         | Async, ensure wait for | Subtractive   | colorBlack    | colorInverse4 | colorInverse4                 | speedToSeconds | 0x00               |
-| 3   | Not in use...                                          |                        |               |               |               |                               |                |                    |
-| 4   | instant no wait black, hold black                      | Instant, no fade       | Normal        |               | colorBlack    | colorBlack                    | Instant        | 0x00               |
-| 5   | colorStandard to field additive, hold field            | Async, ensure wait for | Additive      | colorStandard | colorBlack    | colorBlack                    | speedToSeconds | 0xFF               |
-| 6   | field to colorStandard additive, hold color            | Async, ensure wait for | Normal        | colorBlack    | colorStandard | colorStandard                 | speedToSeconds | 0x00               |
-| 7   | instant but wait colorInverse1 subtractive, hold field | Async, ensure wait for | Subtractive   | colorInverse1 | colorInverse1 | colorBlack                    | speedToSeconds | 0xFF               |
-| 8   | instant but wait colorInverse1 subtractive, hold color | Async, ensure wait for | Subtractive   | colorInverse1 | colorInverse1 | colorInverse1                 | speedToSeconds | 0x00               |
-| 9   | instant but wait colorStandard additive, hold field    | Async, ensure wait for | Additive      | colorStandard | colorStandard | colorBlack                    | speedToSeconds | 0xFF               |
-| 10  | instant but wait colorStandard additive, hold color    | Async, ensure wait for | Additive      | colorStandard | colorStandard | colorStandard                 | speedToSeconds | 0x00               |
+| ID | Description | Async/Sync | Blending Type | From color | To color | Hold end color after finished | Speed | Adjust (typically) |
+|----|----|----|----|----|----|----|----|----|
+| 1 | colorInverse4 to field subtractive, hold field | Async, ensure wait for | Subtractive | colorInverse4 | colorBlack | colorBlack | speedToSeconds | 0xFF |
+| 2 | field to colorInverse4 subtractive, hold color | Async, ensure wait for | Subtractive | colorBlack | colorInverse4 | colorInverse4 | speedToSeconds | 0x00 |
+| 3 | Not in use... |  |  |  |  |  |  |  |
+| 4 | instant no wait black, hold black | Instant, no fade | Normal |  | colorBlack | colorBlack | Instant | 0x00 |
+| 5 | colorStandard to field additive, hold field | Async, ensure wait for | Additive | colorStandard | colorBlack | colorBlack | speedToSeconds | 0xFF |
+| 6 | field to colorStandard additive, hold color | Async, ensure wait for | Normal | colorBlack | colorStandard | colorStandard | speedToSeconds | 0x00 |
+| 7 | instant but wait colorInverse1 subtractive, hold field | Async, ensure wait for | Subtractive | colorInverse1 | colorInverse1 | colorBlack | speedToSeconds | 0xFF |
+| 8 | instant but wait colorInverse1 subtractive, hold color | Async, ensure wait for | Subtractive | colorInverse1 | colorInverse1 | colorInverse1 | speedToSeconds | 0x00 |
+| 9 | instant but wait colorStandard additive, hold field | Async, ensure wait for | Additive | colorStandard | colorStandard | colorBlack | speedToSeconds | 0xFF |
+| 10 | instant but wait colorStandard additive, hold color | Async, ensure wait for | Additive | colorStandard | colorStandard | colorStandard | speedToSeconds | 0x00 |
 
 #### Fade Types - NFADE
 
-| ID  | Description                                    | Async/Sync             | Blending Type | From color | To color      | Hold end color after finished | Speed        |
-|-----|------------------------------------------------|------------------------|---------------|------------|---------------|-------------------------------|--------------|
-| 0   | instant no wait show field, hold field         | Instant, no fade       | Subtractive   |            | colorBlack    | colorBlack                    | Instant      |
-| 11  | field to colorStandard additive, hold color    | Async, ensure wait for | Additive      | colorBlack | colorStandard | colorStandard                 | *S* = frames |
-| 12  | field to colorStandard subtractive, hold color | Async, ensure wait for | Subtractive   | colorBlack | colorStandard | colorStandard                 | *S* = frames |
+| ID | Description | Async/Sync | Blending Type | From color | To color | Hold end color after finished | Speed |
+|----|----|----|----|----|----|----|----|
+| 0 | instant no wait show field, hold field | Instant, no fade | Subtractive |  | colorBlack | colorBlack | Instant |
+| 11 | field to colorStandard additive, hold color | Async, ensure wait for | Additive | colorBlack | colorStandard | colorStandard | *S* = frames |
+| 12 | field to colorStandard subtractive, hold color | Async, ensure wait for | Subtractive | colorBlack | colorStandard | colorStandard | *S* = frames |

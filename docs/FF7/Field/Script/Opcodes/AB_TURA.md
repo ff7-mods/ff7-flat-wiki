@@ -2,9 +2,9 @@
 title: AB_TURA
 ---
 
--   Opcode: **0xAB**
--   Short name: **TURA**
--   Long name: Turn to entity
+- Opcode: **0xAB**
+- Short name: **TURA**
+- Long name: Turn to entity
 
 #### Memory layout
 
@@ -13,9 +13,9 @@ title: AB_TURA
 
 #### Arguments
 
--   **const Bit\[4\]** *Entity id*: Entity id to which model we calculate direction during first opcode call.
--   **const Short** *Rotate side type*: Specify how model will be rotated. (0 - clockwise/ 1 - anti-clockwise/ 2 - closest)
--   **const Short** *Steps in rotation*: Set number of steps in rotation.
+- **const Bit\[4\]** *Entity id*: Entity id to which model we calculate direction during first opcode call.
+- **const Short** *Rotate side type*: Specify how model will be rotated. (0 - clockwise/ 1 - anti-clockwise/ 2 - closest)
+- **const Short** *Steps in rotation*: Set number of steps in rotation.
 
 #### Description
 

@@ -4,10 +4,10 @@ title: INSTRx.DAT
 
 There are two files of such type:
 
-| File             | Number of Instruments | Load Offset        | Load Size            | Description                                 |
-|------------------|-----------------------|--------------------|----------------------|---------------------------------------------|
-| SOUND/INSTR.DAT  | 93                    | 0                  | 0x2000 (128 \* 0x40) | Main game sounds                            |
-| SOUND/INSTR2.DAT | 4                     | 0xD40 (53 \* 0x40) | 0x12C0 (75 \* 0x40)  | Voices from ending theme "One Winged Angel" |
+| File | Number of Instruments | Load Offset | Load Size | Description |
+|----|----|----|----|----|
+| SOUND/INSTR.DAT | 93 | 0 | 0x2000 (128 \* 0x40) | Main game sounds |
+| SOUND/INSTR2.DAT | 4 | 0xD40 (53 \* 0x40) | 0x12C0 (75 \* 0x40) | Voices from ending theme "One Winged Angel" |
 
 These files contain index data for all instruments from INSTRx.ALL.
 

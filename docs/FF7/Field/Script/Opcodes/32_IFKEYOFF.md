@@ -2,9 +2,9 @@
 title: 32_IFKEYOFF
 ---
 
--   Opcode: **0x32**
--   Short name: **IFKEYOFF**
--   Long name: If Key Lifted
+- Opcode: **0x32**
+- Short name: **IFKEYOFF**
+- Long name: If Key Lifted
 
 #### Memory layout
 
@@ -13,8 +13,8 @@ title: 32_IFKEYOFF
 
 #### Arguments
 
--   **const UShort (Bit field)** *B*: Button ID to check for.
--   **const UByte** *A*: Amount to jump if condition is false.
+- **const UShort (Bit field)** *B*: Button ID to check for.
+- **const UByte** *A*: Amount to jump if condition is false.
 
 #### Description
 

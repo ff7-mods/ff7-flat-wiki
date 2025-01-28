@@ -47,8 +47,8 @@ The GMO Format is described in greater detail here: [PSP GMO Format](PSP/GMO_For
 
 ### List of known PSP-games which store their models via GMO
 
--   [Final Fantasy: Dissidia](Dissidia.md)
--   Castlevania: Dracula X Chronicles
--   Jeanne D'Arc
--   Gitaroo Man Lives!
--   Exit
+- [Final Fantasy: Dissidia](Dissidia.md)
+- Castlevania: Dracula X Chronicles
+- Jeanne D'Arc
+- Gitaroo Man Lives!
+- Exit

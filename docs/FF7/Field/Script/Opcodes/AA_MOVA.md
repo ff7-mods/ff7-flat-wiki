@@ -2,9 +2,9 @@
 title: AA_MOVA
 ---
 
--   Opcode: **0xAA**
--   Short name: **MOVA**
--   Long name: Move to Entity
+- Opcode: **0xAA**
+- Short name: **MOVA**
+- Long name: Move to Entity
 
 #### Memory layout
 
@@ -13,7 +13,7 @@ title: AA_MOVA
 
 #### Arguments
 
--   **const UByte** *E*: Entity ID to move towards.
+- **const UByte** *E*: Entity ID to move towards.
 
 #### Description
 

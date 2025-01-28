@@ -25,14 +25,53 @@ Following this is the table of contents (TOC): One entry per file.
 
 Each entry in the TOC has the following structure:
 
-<table><thead><tr class="header"><th><p>Offset</p></th><th><p>Length</p></th></tr></thead><tbody><tr class="odd"><td><p>20 bytes</p></td><td><p>Null terminated string, giving filename</p></td></tr><tr class="even"><td><p>4 byte integer</p></td><td><p>Position in this file where data starts for the file</p></td></tr><tr class="odd"><td><p>1 byte</p></td><td><p>Some sort of check code. File attributes? Normally seems to be<br />
-14 but it does vary.</p></td></tr><tr class="even"><td><p>2 byte short</p></td><td><p>Something to do with duplicate file names. If a name is unique it is 0, otherwise it is assigned a value based on existing duplicates. (Hard to explain)</p></td></tr></tbody></table>
+<table>
+<thead>
+<tr>
+<th><p>Offset</p></th>
+<th><p>Length</p></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><p>20 bytes</p></td>
+<td><p>Null terminated string, giving filename</p></td>
+</tr>
+<tr>
+<td><p>4 byte integer</p></td>
+<td><p>Position in this file where data starts for the file</p></td>
+</tr>
+<tr>
+<td><p>1 byte</p></td>
+<td style="background: rgb(255,255,204)"><p>Some sort of check code. File attributes? Normally seems to be<br />
+14 but it does vary.</p></td>
+</tr>
+<tr>
+<td><p>2 byte short</p></td>
+<td style="background: rgb(255,255,204)"><p>Something to do with duplicate file names. If a name is unique it is 0, otherwise it is assigned a value based on existing duplicates. (Hard to explain)</p></td>
+</tr>
+</tbody>
+</table>
 
-#### Section 2: CRC Code
+#### Section 2: Section formerly designated as "CRC Code"
 
-This code is used to validate the LGP archive. The bad news is I have no idea how to make it (I've figured out how to decode it, ie. find out whether the archive is valid, but I can't create my own). The good news is you don't need to! The only thing this CRC is based on is the number of files in the archive (maybe the filenames too, haven't checked that). Anyway, the TOC is the only thing this check relates to. So if you're replicating an archive from FF7 for use in the game with the same number of files and filenames you can just copy the CRC section from an existing file.
+This section is 3600 bytes. It is 30 sets of 30 entries containing two 16-bit words each (30 x 30 x 2 x 2 = 3600)
 
-Normally it's 3602 bytes long (one archive may be different, possibly MAGIC.LGP). Anyway, one normally-safe way of calculating the CRC size is to find the end of the TOC and the beginning of the first file. Anything in between is probably CRC code (this is not guaranteed to work. It works with "official" archives but editors - such as [LGP Editor](http://www.ficedula.com/) - can alter the TOC to achieve extra things).
+The sets contain file-group information which is based on the first two letters of each file name.
+
+The first letter, minus the value for ascii 'a' (0x61) is the index of the set to which the file belongs.
+
+The second letter, minus the value for ascii ' ' ' (0x60) is the index of the entry within the set. Since the second letter in all of the file names is ascii 'a' or greater, it means that the lowest entry index is 1, so the first entry (at index 0) in every group is always zero (0x0000).
+
+Each entry is two words.
+
+The first word is the 1-based index of the directory entry for the first file in the set.
+
+The second word is the number of files in the set, most of which are 0x003c (60). There are a few entries after the bulk which have fewer entries.
+
+The meaning of these sets and why they're divided in this manner is yet to be determined.
+
+There is one 16-bit word with the value of 0 (0x0000) at the end of this data which may belong to this section or the next.
 
 #### Section 3: Actual Data
 
@@ -52,9 +91,9 @@ After the last piece of data comes the file descriptor. This is a simple string,
 
 The game is remarkably flexible about LGP archives. So long as the TOC and the CRC data is intact it'll accept just about anything.
 
--   Example 1: The filename in the TOC and in the actual file header don't have to match. It only checks the TOC.
--   Example 2: You can point two entries in the TOC at the same data and it works.
--   Example 3: You can have ANY junk in the data section so long as all the TOC entries point to a valid file header. Not every piece of data has to be "accounted" for by the TOC. There can be data not used.
+- Example 1: The filename in the TOC and in the actual file header don't have to match. It only checks the TOC.
+- Example 2: You can point two entries in the TOC at the same data and it works.
+- Example 3: You can have ANY junk in the data section so long as all the TOC entries point to a valid file header. Not every piece of data has to be "accounted" for by the TOC. There can be data not used.
 
 [LGP Editor](http://www.ficedula.com/) uses this to its advantage in the Advanced Editor. If you want to replace a file in an LGP archive with your own copy, it just puts the file on the end of the LGP, writes a new file terminator, and updates the TOC to point at the new file. It even lets you link two TOC entries to the same data or have "inactive" files in the archive that aren't referenced by any TOC entry.
 
@@ -70,6 +109,6 @@ Sometimes, there are data "gaps" in the file that don't appear to be referenced 
 
 Below there are links to known programs that are capable to edit LGP archives:
 
--   [LGP Tools](http://www.sylphds.net/f2k3/programs/lgptools/lgptools160.zip) - with an Advanced LGP Editor allowing edit archive thoughoutly
--   [Emerald](http://elentor.com/Projetos/FF7-Tools/Extracting/Emerald.zip) - has mass extracting/repacking function
--   [Unmass](http://mirex.mypage.sk/index.php?selected=1#Unmass) - general file extractor with LGP archives support
+- [LGP Tools](http://www.sylphds.net/f2k3/programs/lgptools/lgptools160.zip) - with an Advanced LGP Editor allowing edit archive thoughoutly
+- [Emerald](http://elentor.com/Projetos/FF7-Tools/Extracting/Emerald.zip) - has mass extracting/repacking function
+- [Unmass](http://mirex.mypage.sk/index.php?selected=1#Unmass) - general file extractor with LGP archives support

@@ -2,9 +2,9 @@
 title: 2A_PMOVA
 ---
 
--   Opcode: **0x2A**
--   Short name: **PMOVA**
--   Long name: Move to Party Member
+- Opcode: **0x2A**
+- Short name: **PMOVA**
+- Long name: Move to Party Member
 
 #### Memory layout
 
@@ -13,7 +13,7 @@ title: 2A_PMOVA
 
 #### Arguments
 
--   **const UByte** *P*: Party member to move towards (0 to 2).
+- **const UByte** *P*: Party member to move towards (0 to 2).
 
 #### Description
 

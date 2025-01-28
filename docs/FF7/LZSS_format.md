@@ -34,7 +34,7 @@ Here's how you get it:
 
 `real_offset = tail - ((tail - 18 - raw_offset) mod 4096)`
 
-Here, 'tail' is your current output position (eg. 10,000), 'raw\_offset' is the 12-bit data value you've retrieved from the compressed reference, and 'real\_offset' is the position in your output buffer you can begin reading from. This is a bit complex because it's not exactly the way LZSS traditionally does decompression.
+Here, 'tail' is your current output position (eg. 10,000), 'raw_offset' is the 12-bit data value you've retrieved from the compressed reference, and 'real_offset' is the position in your output buffer you can begin reading from. This is a bit complex because it's not exactly the way LZSS traditionally does decompression.
 
 If you use a 4KiB buffer, you can use the offset directly. The offset is absolute, and not relative to the cursor position or the position in the input stream. You should initialize the buffer position to 0xFEE and not zero. The buffer content should be initialized to zero.
 
@@ -48,7 +48,7 @@ If we're at position 1000 in our output, and we need to read in a new control by
 
 We read in a control byte: 0xFC. In binary, that's 11111100. That informs us that the current block of data has two compressed offsets (@ 2 bytes each), followed by 6 literal data bytes. Once we'd read in the next 10 bytes (the compressed data plus the literal data), we'd be ready to read in our next control byte and start again.
 
-Looking at the first compressed reference, we read in $53 $12. That gives us a base offset of $153 (the 53 from the first byte, and the '1' from the second byte makes up the higher nybble). The base length is $2 (we just take the low nybble of the second byte).
+Looking at the first compressed reference, we read in \$53 \$12. That gives us a base offset of \$153 (the 53 from the first byte, and the '1' from the second byte makes up the higher nybble). The base length is \$2 (we just take the low nybble of the second byte).
 
 Our final length is obviously just 5.
 
@@ -57,7 +57,7 @@ Our position in output is still 1000. So our final offset is:
 `= 1000 - ((1000 - 18 - 339) and $FFF)`  
 ` `
 
-The 339 is just $153 in decimal. The (and $FFF) is a quick way to do modulus 4096.
+The 339 is just \$153 in decimal. The (and \$FFF) is a quick way to do modulus 4096.
 
 `= 1000 - (643 and 0xFFF)`  
 ` = 1000 - 643`  
@@ -72,7 +72,7 @@ Unfortunately, that doesn't quite cover everything - there's two more things to 
 
 First, if you end up with an negative offset, i.e. reading data from 'before the beginning of the file', write out nulls (zero bytes). That's because the compression buffer is, by default, initialized to zeros; so it's possible, if the start of the file contains a run of zeros, that the file may reference a block you haven't written. For example, if you're at position 50 in your output, it's possible you may get an offset indicating to go back 60 bytes to offset -10. If you have to read 5 bytes from there, you just write out 5 nulls. However, you could have to read 15 bytes from there. In that case, you write out 10 nulls (the part of the data 'before' the file start), then the 5 bytes from the beginning of the file.
 
-Secondly, you can have a repeated run. This is almost the opposite problem: when you go off the end of your output. Say you're at offset 100 in your output, and you have to go to offset 95 to read in a reference. This is okay, but if the reference length is &gt;5, you loop the output. So if you had to write out 15 bytes, you'd write out the five bytes that were available, then write them out again, then again, to make up the 15 bytes you needed.
+Secondly, you can have a repeated run. This is almost the opposite problem: when you go off the end of your output. Say you're at offset 100 in your output, and you have to go to offset 95 to read in a reference. This is okay, but if the reference length is \>5, you loop the output. So if you had to write out 15 bytes, you'd write out the five bytes that were available, then write them out again, then again, to make up the 15 bytes you needed.
 
 The FF7 files use both of these 'tricks', so you can't ignore them.
 

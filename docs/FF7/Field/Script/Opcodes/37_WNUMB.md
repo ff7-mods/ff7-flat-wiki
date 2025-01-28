@@ -2,9 +2,9 @@
 title: 37_WNUMB
 ---
 
--   Opcode: **0x37**
--   Short name: **WNUMB**
--   Long name: Set Number
+- Opcode: **0x37**
+- Short name: **WNUMB**
+- Long name: Set Number
 
 #### Memory layout
 
@@ -13,11 +13,11 @@ title: 37_WNUMB
 
 #### Arguments
 
--   **const Bit\[4\]** *B1*: Bank to retrieve lower two bytes of number, or zero if number is given as a literal value.
--   **const Bit\[4\]** *B2*: Bank to retrieve higher two bytes of number, or zero if number is given as a literal value.
--   **const UByte** *W*: Window ID whose numerical display will be set.
--   **const ULong** *N*: A four-byte number to set the numerical display. If *B1* or *B2* are non-zero, this value is split into two two-byte values, indicating the address to find the number value in banks *B1* and *B2*, respectively.
--   **const UByte** *C*: The number of digits to display, from 1 to 8.
+- **const Bit\[4\]** *B1*: Bank to retrieve lower two bytes of number, or zero if number is given as a literal value.
+- **const Bit\[4\]** *B2*: Bank to retrieve higher two bytes of number, or zero if number is given as a literal value.
+- **const UByte** *W*: Window ID whose numerical display will be set.
+- **const ULong** *N*: A four-byte number to set the numerical display. If *B1* or *B2* are non-zero, this value is split into two two-byte values, indicating the address to find the number value in banks *B1* and *B2*, respectively.
+- **const UByte** *C*: The number of digits to display, from 1 to 8.
 
 #### Description
 

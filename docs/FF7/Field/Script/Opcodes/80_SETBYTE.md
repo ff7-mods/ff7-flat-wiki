@@ -2,9 +2,9 @@
 title: 80_SETBYTE
 ---
 
--   Opcode: **0x80**
--   Short name: **SETBYTE**
--   Long name: Byte Set
+- Opcode: **0x80**
+- Short name: **SETBYTE**
+- Long name: Byte Set
 
 #### Memory layout
 
@@ -13,10 +13,10 @@ title: 80_SETBYTE
 
 #### Arguments
 
--   **const Bit\[4\]** *D*: Destination bank.
--   **const Bit\[4\]** *S*: Source bank.
--   **const UByte** *A*: Destination address.
--   **const UByte** *V*: Value to be written/Source address.
+- **const Bit\[4\]** *D*: Destination bank.
+- **const Bit\[4\]** *S*: Source bank.
+- **const UByte** *A*: Destination address.
+- **const UByte** *V*: Value to be written/Source address.
 
 #### Description
 

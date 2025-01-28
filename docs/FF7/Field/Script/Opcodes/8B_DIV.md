@@ -2,9 +2,9 @@
 title: 8B_DIV
 ---
 
--   Opcode: **0x8B**
--   Short name: **DIV**
--   Long name: Division (8-bit)
+- Opcode: **0x8B**
+- Short name: **DIV**
+- Long name: Division (8-bit)
 
 #### Memory layout
 
@@ -13,10 +13,10 @@ title: 8B_DIV
 
 #### Arguments
 
--   **const Bit\[4\]** *D*: Destination bank
--   **const Bit\[4\]** *S*: Source bank
--   **const UByte** *Dest*: Contains the nominator of the division and
--   **const UByte** *Den*: The denominator of the division.
+- **const Bit\[4\]** *D*: Destination bank
+- **const Bit\[4\]** *S*: Source bank
+- **const UByte** *Dest*: Contains the nominator of the division and
+- **const UByte** *Den*: The denominator of the division.
 
 #### Description
 

@@ -2,9 +2,9 @@
 title: A4_VISI
 ---
 
--   Opcode: **0xA4**
--   Short name: **VISI**
--   Long name: Visibility
+- Opcode: **0xA4**
+- Short name: **VISI**
+- Long name: Visibility
 
 #### Memory layout
 
@@ -13,7 +13,7 @@ title: A4_VISI
 
 #### Arguments
 
--   **const UByte** *S*: Switch on/off (1/0, respectively).
+- **const UByte** *S*: Switch on/off (1/0, respectively).
 
 #### Description
 

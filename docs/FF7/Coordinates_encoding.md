@@ -16,10 +16,10 @@ Second DWord :
 
 Notes :
 
--   X is an unsigned value ranging from 0 to 0x47FFF
--   Y is an unsigned value ranging from 0 to 0x37FFF
--   Z is signed
--   Direction is multiplied by 0x10 after reading from save-game, but that's not affecting anything so we can think of it as a byte value. e.g: 00: South, 40: East, 80: North, C0: West
+- X is an unsigned value ranging from 0 to 0x47FFF
+- Y is an unsigned value ranging from 0 to 0x37FFF
+- Z is signed
+- Direction is multiplied by 0x10 after reading from save-game, but that's not affecting anything so we can think of it as a byte value. e.g: 00: South, 40: East, 80: North, C0: West
 
 | Value |          Object          |
 |:-----:|:------------------------:|

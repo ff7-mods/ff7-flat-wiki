@@ -106,7 +106,7 @@ Parameter structure
 
 ### Section 5
 
-This section looks like section 4, it is used for additional layers. For SpriteTP\_Blend infos, you must use section 3.
+This section looks like section 4, it is used for additional layers. For SpriteTP_Blend infos, you must use section 3.
 
 `struct {`  
 ` INT16 DestinationX;`  

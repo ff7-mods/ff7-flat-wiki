@@ -21,10 +21,10 @@ The Worldmap module operates on a fixed set of models, each having a specific mo
 | Model ID |          Name          |
 |:--------:|:----------------------:|
 |    0     |         Cloud          |
-|    1     |         Tifa?          |
-|    2     |          Cid?          |
+|    1     |          Tifa          |
+|    2     |          Cid           |
 |    3     |        Highwind        |
-|    4     |     Wild Chocobo?      |
+|    4     |      Wild Chocobo      |
 |    5     |      Tiny Bronco       |
 |    6     |         Buggy          |
 |    7     |      Junon Canon       |
@@ -44,7 +44,7 @@ The Worldmap module operates on a fixed set of models, each having a specific mo
 |    21    |        Unknown         |
 |    22    |        Unknown         |
 |    23    |        Unknown         |
-|    24    |  North Crater barrier  |
+|    24    |  North Crater Barrier  |
 |    25    |     Ancient Forest     |
 |    26    |  Key of the Ancients   |
 |    27    |        Unknown         |
@@ -64,31 +64,31 @@ In addition to the contexts associated with the models there is also a system co
 
 As alluded to earlier, the script engine is driven by executing functions, each model has a set of functions that are executed by the game in response to certain events;
 
-| \#  |   Name    |                          Description                           |
-|:---:|:---------:|:--------------------------------------------------------------:|
-|  0  |   Enter   |                Called when the model is loaded                 |
-|  1  |   Exit    |               Called when the model is unloaded                |
-|  2  |   Tick    |    Called each frame if the model is set to recieve ticks?     |
-|  3  | Movement? | Seems to be called for certain models that move around the map |
-|  4  |  Action   |          Called when player interacts with the model           |
-|  5  |  Unknown  |                                                                |
+| \# | Name | Description |
+|:--:|:--:|:--:|
+| 0 | Enter | Called when the model is loaded |
+| 1 | Exit | Called when the model is unloaded |
+| 2 | Tick | Called each frame if the model is set to recieve ticks? |
+| 3 | Movement? | Seems to be called for certain models that move around the map |
+| 4 | Action | Called when player interacts with the model |
+| 5 | Unknown |  |
 
 This table is probably not complete.
 
-There is also a set of system functions that are executed in response to events which are not related to a certain model;
+There is also a set of 32 system functions that are executed in response to certain events. First 10 are called by the game's executable (subroutine at address 0x7640BC in the PC version), while the remaining ones are called by the WM scripts using the "[run function](Script/Opcodes/204.md)" opcode with Model ID parameter set to 0xFFFF.
 
-| \#  |     Name     |                          Description                          |
-|:---:|:------------:|:-------------------------------------------------------------:|
-|  0  |    Enter     |              Called when the worldmap is loaded               |
-|  1  |     Exit     |             Called when the worldmap is unloaded              |
-|  2  |     Tick     |                       Called each frame                       |
-|  3  |   Unknown    |                                                               |
-|  4  |   Unknown    |                                                               |
-|  5  |   Unknown    |                                                               |
-|  6  |   Unknown    |                   Enter highwind interior?                    |
-|  7  | Midgar Zolom | Called when the player touches the midgar zolom in the swamp. |
-
-This table is not complete either.
+| \# | Name | Description |
+|:--:|:--:|:--:|
+| 0 | Enter | Called when the worldmap is loaded |
+| 1 | Exit | Called when the worldmap is unloaded |
+| 2 | Tick | Called each frame (only does a check if Zolom should be reset) |
+| 3 | Dummy function (copy of Function ID 2) |  |
+| 4 | Dummy function (copy of Function ID 2) |  |
+| 5 | Dummy function (copy of Function ID 2) |  |
+| 6 | Unknown | Enter highwind interior |
+| 7 | Midgar Zolom | Called when the player touches the midgar zolom in the swamp. |
+| 8 | Dummy function (copy of Function ID 2) |  |
+| 9 | Northern Cave landing | Checks if Highwind can land in the crater switches to Highwind Deck map |
 
 And finally there is a set of functions which are called when the player steps on a walkmesh triangle that is designated to trigger a script. Which function is executed depends on the mesh coordinates of the player (0-35, 0-27) as well as the function ID [from the MAP file](../WorldMap_Module.md#Triangle) Fortunately, not all functions need to be implemented, as will become apparent in the next section, functions that do nothing do not need to be implemented at all. Most of the mesh functions handle entering field levels from the world map.
 

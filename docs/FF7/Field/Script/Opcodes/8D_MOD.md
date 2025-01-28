@@ -2,9 +2,9 @@
 title: 8D_MOD
 ---
 
--   Opcode: **0x8D**
--   Short name: **MOD**
--   Long name: Modulus (8-bit)
+- Opcode: **0x8D**
+- Short name: **MOD**
+- Long name: Modulus (8-bit)
 
 #### Memory layout
 
@@ -13,10 +13,10 @@ title: 8D_MOD
 
 #### Arguments
 
--   **const Bit\[4\]** *D*: Destination bank
--   **const Bit\[4\]** *S*: Source bank
--   **const UByte** *Dest*: Contains the nominator of the division and receives the remainder.
--   **const UByte** *Den*: The denominator of the division.
+- **const Bit\[4\]** *D*: Destination bank
+- **const Bit\[4\]** *S*: Source bank
+- **const UByte** *Dest*: Contains the nominator of the division and receives the remainder.
+- **const UByte** *Den*: The denominator of the division.
 
 #### Description
 

@@ -2,9 +2,9 @@
 title: CD_MMBud
 ---
 
--   Opcode: **0xCD**
--   Short name: **MMBud**
--   Long name: Member Block +/- (Party Select: Character Switch)
+- Opcode: **0xCD**
+- Short name: **MMBud**
+- Long name: Member Block +/- (Party Select: Character Switch)
 
 #### Memory layout
 
@@ -13,8 +13,8 @@ title: CD_MMBud
 
 #### Arguments
 
--   **const UByte** *S*: Switches the character on/off (1/0, respectively).
--   **const UByte** *C*: Character ID whose status will change.
+- **const UByte** *S*: Switches the character on/off (1/0, respectively).
+- **const UByte** *C*: Character ID whose status will change.
 
 #### Description
 

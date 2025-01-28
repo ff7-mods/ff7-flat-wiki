@@ -8,9 +8,62 @@ Before targeting is explained in full, some information of rows must be understo
 
 Targeting is set by a single byte with eight different effects for each bit that is set:
 
-<table><thead><tr class="header"><th><p>Bit</p></th><th><p>Effect on Target Selection</p></th><th><p>Explanation</p></th></tr></thead><tbody><tr class="odd"><td><p>01h</p></td><td><p>Enable Selection</p></td><td><p>Cursor will move to the battle field and a target can be selected with the constraints in the following.</p></td></tr><tr class="even"><td><p>02h</p></td><td><p>Start Cursor on Enemy Row</p></td><td><p>Cursor will start on the first enemy row.</p></td></tr><tr class="odd"><td><p>04h</p></td><td><p>Multiple Targets by Default</p></td><td><p>Cursor will select all targets in a given row.</p></td></tr><tr class="even"><td><p>08h</p></td><td><p>Toggle Multiple/Single Targets</p></td><td><p>Caster can switch cursor between multiple targets or single targets. (Also indicates if damage will be split among targets)</p></td></tr><tr class="odd"><td><p>10h</p></td><td><p>One Row Only</p></td><td><p>Cursor will only target allies or enemies as defined in 02h and cannot be moved from the row.</p></td></tr><tr class="even"><td><p>20h<br />
-</p></td><td><p>"Short Range"<br />
-(physical damage only)</p></td><td><ul><li>If the target or the caster is not in the front of their row, the target will take half damage.</li><li>For every attack this is enabled, they are constrained by the <a href="Battle_Scenes.md#Binary_.22Cover_Flags.22" title="wikilink">Binary "Cover Flags"</a></li></ul></td></tr><tr class="odd"><td><p>40h</p></td><td><p>All Rows</p></td><td><p>Cursor will select viable targets</p></td></tr><tr class="even"><td><p>80h</p></td><td><p>Random Target among Selected</p></td><td><p>When multiple targets are selected, one will be selected at random to be the receiving target. Cursor will cycle among all viable targets.</p></td></tr></tbody></table>
+<table>
+<thead>
+<tr>
+<th><p>Bit</p></th>
+<th><p>Effect on Target Selection</p></th>
+<th><p>Explanation</p></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><p>01h</p></td>
+<td><p>Enable Selection</p></td>
+<td><p>Cursor will move to the battle field and a target can be selected with the constraints in the following.</p></td>
+</tr>
+<tr>
+<td><p>02h</p></td>
+<td><p>Start Cursor on Enemy Row</p></td>
+<td><p>Cursor will start on the first enemy row.</p></td>
+</tr>
+<tr>
+<td><p>04h</p></td>
+<td><p>Multiple Targets by Default</p></td>
+<td><p>Cursor will select all targets in a given row.</p></td>
+</tr>
+<tr>
+<td><p>08h</p></td>
+<td><p>Toggle Multiple/Single Targets</p></td>
+<td><p>Caster can switch cursor between multiple targets or single targets. (Also indicates if damage will be split among targets)</p></td>
+</tr>
+<tr>
+<td><p>10h</p></td>
+<td><p>One Row Only</p></td>
+<td><p>Cursor will only target allies or enemies as defined in 02h and cannot be moved from the row.</p></td>
+</tr>
+<tr>
+<td><p>20h<br />
+</p></td>
+<td><p>"Short Range"<br />
+(physical damage only)</p></td>
+<td><ul>
+<li>If the target or the caster is not in the front of their row, the target will take half damage.</li>
+<li>For every attack this is enabled, they are constrained by the <a href="Battle_Scenes.md#Binary_.22Cover_Flags.22" title="wikilink">Binary "Cover Flags"</a></li>
+</ul></td>
+</tr>
+<tr>
+<td><p>40h</p></td>
+<td><p>All Rows</p></td>
+<td><p>Cursor will select viable targets</p></td>
+</tr>
+<tr>
+<td><p>80h</p></td>
+<td><p>Random Target among Selected</p></td>
+<td><p>When multiple targets are selected, one will be selected at random to be the receiving target. Cursor will cycle among all viable targets.</p></td>
+</tr>
+</tbody>
+</table>
 
 Targets are set in three places. On Commands, on Attacks, and on Weapons. The Command's target (if not NULL \[FFh\]) trumps any target information provided by the Attack or the Weapon. As such, it is analyzed first. Any additional settings are added through the weapon or attack.  
 This is further trumped by "Confuse" and "Berserk" which will set the target data to C0h and 97h respectively. Confuse will pick any available command to perform and Berserk will just attack with the equipped weapon.

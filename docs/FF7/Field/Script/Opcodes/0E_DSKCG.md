@@ -2,9 +2,9 @@
 title: 0E_DSKCG
 ---
 
--   Opcode: **0x0E**
--   Short name: **DSKCG**
--   Long name: Disk Change Screen
+- Opcode: **0x0E**
+- Short name: **DSKCG**
+- Long name: Disk Change Screen
 
 #### Memory layout
 
@@ -13,7 +13,7 @@ title: 0E_DSKCG
 
 #### Arguments
 
--   **const UByte** *D*: Disk number.
+- **const UByte** *D*: Disk number.
 
 #### Description
 

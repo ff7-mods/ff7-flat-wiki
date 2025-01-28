@@ -30,21 +30,21 @@ The name "Dissidia" comes from the latin word "Dissidium", which originated word
 
 ### GMO Models
 
--   These files contain all the **Characters** and **Location-Map** models within the game.
--   The data-format is standard [PSP GMO Format](PSP/GMO_Format.md)
--   A complete list of Models referenced by the Filenames can be found here: \[\[Dissidia/GMO\_Files/File\_List\|\[GMO\] File List\]\]
+- These files contain all the **Characters** and **Location-Map** models within the game.
+- The data-format is standard [PSP GMO Format](PSP/GMO_Format.md)
+- A complete list of Models referenced by the Filenames can be found here: \[\[Dissidia/GMO_Files/File_List\|\[GMO\] File List\]\]
 
 .
 
 ## Miscelenous Findings
 
--   **Aeris** and **Tonberry** from Crises-Core can be seen in GMO files *File000895* and *File000896* respectively, even though they are not actually within the game. Presumably leftovers from testing.
+- **Aeris** and **Tonberry** from Crises-Core can be seen in GMO files *File000895* and *File000896* respectively, even though they are not actually within the game. Presumably leftovers from testing.
 
 ## Tools
 
 ### Viewers / Extractors
 
-| Project Name                   | Description                                                                                    | Author                                                              | Version / Status | Links                                                                 |
-|--------------------------------|------------------------------------------------------------------------------------------------|---------------------------------------------------------------------|------------------|-----------------------------------------------------------------------|
-| Dissidia Data-Extration Tools  | Number of essential tools to view and extract the data files from the Dissidia game-files      | Vash                                                                |                  | [Website](http://www.alucard.cc/)                                     |
-| GMO File Viewer (aka mesh2rdm) | Powerful file viewer and extractor, exporting out models from Dissidia GMO files as OBJ or SMD | [MrAdults](http://forums.qhimm.com/index.php?action=profile;u=3607) | v2.02            | [Blog and Website](http://www.richwhitehouse.com/index.php?postid=35) |
+| Project Name | Description | Author | Version / Status | Links |
+|----|----|----|----|----|
+| Dissidia Data-Extration Tools | Number of essential tools to view and extract the data files from the Dissidia game-files | Vash |  | [Website](http://www.alucard.cc/) |
+| GMO File Viewer (aka mesh2rdm) | Powerful file viewer and extractor, exporting out models from Dissidia GMO files as OBJ or SMD | [MrAdults](http://forums.qhimm.com/index.php?action=profile;u=3607) | v2.02 | [Blog and Website](http://www.richwhitehouse.com/index.php?postid=35) |

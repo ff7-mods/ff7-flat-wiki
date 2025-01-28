@@ -2,9 +2,9 @@
 title: 7E_TLKON
 ---
 
--   Opcode: **0x7E**
--   Short name: **TLKON**
--   Long name: Talk Switch
+- Opcode: **0x7E**
+- Short name: **TLKON**
+- Long name: Talk Switch
 
 #### Memory layout
 
@@ -13,7 +13,7 @@ title: 7E_TLKON
 
 #### Arguments
 
--   **const UByte** *B*: Switch on/off (0/1, respectively).
+- **const UByte** *B*: Switch on/off (0/1, respectively).
 
 #### Description
 

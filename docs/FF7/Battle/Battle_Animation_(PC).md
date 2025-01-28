@@ -120,15 +120,15 @@ Now letâ€™s look at the other structures we will use.
 
 First frameâ€¦
 
--   Read X bits and store as a signed SHORT.
--   Convert the SHORT to the INT field, adding 0x1000 if negative.
--   Convert to FLOAT using (INT / 4096 \* 360). Apply this FLOAT to your model.
+- Read X bits and store as a signed SHORT.
+- Convert the SHORT to the INT field, adding 0x1000 if negative.
+- Convert to FLOAT using (INT / 4096 \* 360). Apply this FLOAT to your model.
 
 Next frameâ€¦
 
--   Read X bits, and add them to the SHORT value from last frame.
--   Convert the SHORT to the INT field, adding 0x1000 if negative.
--   Convert to FLOAT using (INT / 4096 \* 360). Apply this FLOAT to your model.
+- Read X bits, and add them to the SHORT value from last frame.
+- Convert the SHORT to the INT field, adding 0x1000 if negative.
+- Convert to FLOAT using (INT / 4096 \* 360). Apply this FLOAT to your model.
 
 Repeatâ€¦
 
@@ -225,7 +225,7 @@ Remember that we stored our animation buffer with a 5-byte â€œFF7FrameMiniHe
 
 </code>
 
-After this cast, â€œpfmhMiniHeader-&gt;bKeyâ€ will contain a number, either 0, 2, or 4. Each rotation is stored in (12 - â€œpfmhMiniHeader-&gt;bKeyâ€) bits. This mean either 12, 10, or 8, respectively. This is important to know. But first, there is offset data. Each offset is 16 bits (a signed SHORT). In the first frame of Cloudâ€™s first animation (rtda), these bytes are 00 00 FE 2E 00 00. 16 bits Ã— 3 = 48 bits, or 6 bytes. To get these bits, we first need to make a pointer point to the correct location. â€œpbBufferâ€ points 5 bytes before this data, so letâ€™s make a pointer that points to this data directly.
+After this cast, â€œpfmhMiniHeader-\>bKeyâ€ will contain a number, either 0, 2, or 4. Each rotation is stored in (12 - â€œpfmhMiniHeader-\>bKeyâ€) bits. This mean either 12, 10, or 8, respectively. This is important to know. But first, there is offset data. Each offset is 16 bits (a signed SHORT). In the first frame of Cloudâ€™s first animation (rtda), these bytes are 00 00 FE 2E 00 00. 16 bits Ã— 3 = 48 bits, or 6 bytes. To get these bits, we first need to make a pointer point to the correct location. â€œpbBufferâ€ points 5 bytes before this data, so letâ€™s make a pointer that points to this data directly.
 
 <code>
 
@@ -247,7 +247,7 @@ When we use â€œGetBitsFixed()â€ to get the bits.
 
 After doing this, we have each of the three offsets, 0, -466, and 0. The Y (-466) is always stored as its inverse, but for now we donâ€™t worry about that.
 
-The first frame is uncompressed, but it could be 12, 10, or 8 bits per rotation. How do we know? â€œpfmhMiniHeader-&gt;bKeyâ€!
+The first frame is uncompressed, but it could be 12, 10, or 8 bits per rotation. How do we know? â€œpfmhMiniHeader-\>bKeyâ€!
 
 For each bone, there are 3 rotations. So, for each bone, we do this:
 
@@ -389,9 +389,9 @@ Now we have the change from the previous frame. In our â€œFF7ShortVecâ€
 
 Now all that is left is to decode the rotations. Rotations change size in multiple ways. There is no single simple way to express them.
 
-They are, however, always at least one bit long. The first bit is a flag. If 0, the rotational change is 0, and that is the end of that rotation. If it is not 0, then we must get the next 3 bits. The next 3 bits can tell us to do one of three things. If the resulting 3-bit signed value is 0, then the rotation delta is (-1 &lt;&lt; pfmhMiniHeader-&gt;bKey). This is the smallest possible decrement for the given precision (remember that precision is based off â€œpfmhMiniHeader-&gt;bKeyâ€. If the 3-bit value is 7, then we treat the rotation the same way as we do in the first frame, where we read (12-pfmhMiniHeader-&gt;bKey) bits, then shift left by â€œpfmhMiniHeader-&gt;bKeyâ€.
+They are, however, always at least one bit long. The first bit is a flag. If 0, the rotational change is 0, and that is the end of that rotation. If it is not 0, then we must get the next 3 bits. The next 3 bits can tell us to do one of three things. If the resulting 3-bit signed value is 0, then the rotation delta is (-1 \<\< pfmhMiniHeader-\>bKey). This is the smallest possible decrement for the given precision (remember that precision is based off â€œpfmhMiniHeader-\>bKeyâ€. If the 3-bit value is 7, then we treat the rotation the same way as we do in the first frame, where we read (12-pfmhMiniHeader-\>bKey) bits, then shift left by â€œpfmhMiniHeader-\>bKeyâ€.
 
-The complicated cases are 1 through 6. If the 3-bit value is from 1 to 6, then this indicates the number of bits in the rotation delta. For our example, letâ€™s assume the 3-bit value was 4. This means we need to read the next 4 bits from the stream. These 4 bits will be the animation delta, but we actually have to handle them before we can call it final. The first bit of this new data is a sign bit which determines if the value is below 0. If it is below zero, we must subtract from that number (1 &lt;&lt; (\[Number of Bits\] â€“ 1)). So, if the 3-bit value was 4, and we read 4 bits from the stream, and the resulting value was negative, we would subtract from that value (1 &lt;&lt; 3), or 8. If the 4-bit value is positive, we add (1 &lt;&lt; (\[Number of Bits\] â€“ 1)) to it. After we handle the positive and negative cases, we have to adjust for our precision again. So, we shift left the resulting value by â€œpfmhMiniHeader-&gt;bKeyâ€. This is all shown in the code below.
+The complicated cases are 1 through 6. If the 3-bit value is from 1 to 6, then this indicates the number of bits in the rotation delta. For our example, letâ€™s assume the 3-bit value was 4. This means we need to read the next 4 bits from the stream. These 4 bits will be the animation delta, but we actually have to handle them before we can call it final. The first bit of this new data is a sign bit which determines if the value is below 0. If it is below zero, we must subtract from that number (1 \<\< (\[Number of Bits\] â€“ 1)). So, if the 3-bit value was 4, and we read 4 bits from the stream, and the resulting value was negative, we would subtract from that value (1 \<\< 3), or 8. If the 4-bit value is positive, we add (1 \<\< (\[Number of Bits\] â€“ 1)) to it. After we handle the positive and negative cases, we have to adjust for our precision again. So, we shift left the resulting value by â€œpfmhMiniHeader-\>bKeyâ€. This is all shown in the code below.
 
 3\. <code>
 

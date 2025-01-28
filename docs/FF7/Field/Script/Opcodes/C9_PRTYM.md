@@ -2,9 +2,9 @@
 title: C9_PRTYM
 ---
 
--   Opcode: **0xC9**
--   Short name: **PRTYM**
--   Long name: Party Remove
+- Opcode: **0xC9**
+- Short name: **PRTYM**
+- Long name: Party Remove
 
 #### Memory layout
 
@@ -13,7 +13,7 @@ title: C9_PRTYM
 
 #### Arguments
 
--   **const UByte** *C*: Character ID to remove.
+- **const UByte** *C*: Character ID to remove.
 
 #### Description
 

@@ -8,7 +8,7 @@ title: Menu_Module
 
 |   PSX Version    |       PC Version        |
 |:----------------:|:-----------------------:|
-|   /MENU/\*.MNU   | /DATA/MENU/MENU\_US.LGP |
+|   /MENU/\*.MNU   | /DATA/MENU/MENU_US.LGP  |
 | /INIT/WINDOW.BIN | /DATA/KERNEL/WINDOW.BIN |
 
 The menu module is probably the second most powerful module in the game. From here you can set a multitude of environment variables and view character records directly. It's really more of a master variable controller than the "select-o-thing" it appears to be.
@@ -32,15 +32,24 @@ Menu has the incredible honor of being initialized right after the kernel. It is
 
 After initialization, the first Menu module ran is "Begin" The following is a picture of "Begin" in VRAM. Things to note is the font and static menu textures from /INIT/WINNDOW.BIN are highlighted in the lower right hand corner.
 
-![](../assets/Menu_Windowbin.jpg)
+<figure>
+<img src="Menu_Windowbin.jpg" title="Menu_Windowbin.jpg" />
+<figcaption>Menu_Windowbin.jpg</figcaption>
+</figure>
 
 The following is an expanded picture of the textures from the PC version. The PSX version only differs in texture size and the way the buttons are displayed.
 
-![](../assets/Menu_PC_Textures.jpg)
+<figure>
+<img src="Menu_PC_Textures.jpg" title="Menu_PC_Textures.jpg" />
+<figcaption>Menu_PC_Textures.jpg</figcaption>
+</figure>
 
 To better see what each section is, here is an annotated version with the more obvious textures labeled.
 
-![](../assets/Menu_PCT_Annotated.jpg)
+<figure>
+<img src="Menu_PCT_Annotated.jpg" title="Menu_PCT_Annotated.jpg" />
+<figcaption>Menu_PCT_Annotated.jpg</figcaption>
+</figure>
 
 This is never banked out, however small parts are overwritten and cashed for a while when Battle is loaded, but are overwritten again when menu is loaded. The large blank spot under the menu text is for the Japanese characters that were removed in the non-Japanese version of the game. This spot is unused in these versions.
 
@@ -52,13 +61,19 @@ The 13 Modules are displayed like the following.
 
 This is the begin menu.
 
-![](../assets/Menu_Begin.jpg)
+<figure>
+<img src="Menu_Begin.jpg" title="Menu_Begin.jpg" />
+<figcaption>Menu_Begin.jpg</figcaption>
+</figure>
 
 This is a screen form the "save" module. Begin initializes the menu system and calls save to load a game or to start the game.
 
 ### Party
 
-![](../assets/Menu_Party.jpg)
+<figure>
+<img src="Menu_Party.jpg" title="Menu_Party.jpg" />
+<figcaption>Menu_Party.jpg</figcaption>
+</figure>
 
 This is the menu you see when you manually enter the menu system. Things to note is the empty box in the lower screen shows what location you are in. Debug rooms have no name most of the time.
 
@@ -66,13 +81,19 @@ This is the menu you see when you manually enter the menu system. Things to note
 
 This is the item menu.
 
-![](../assets/Menu_Item.jpg)
+<figure>
+<img src="Menu_Item.jpg" title="Menu_Item.jpg" />
+<figcaption>Menu_Item.jpg</figcaption>
+</figure>
 
 ### Magic
 
 This is the magic menu.
 
-![](../assets/Menu_Magic.jpg)
+<figure>
+<img src="Menu_Magic.jpg" title="Menu_Magic.jpg" />
+<figcaption>Menu_Magic.jpg</figcaption>
+</figure>
 
 Both magic and summon are accessed in the same module.
 
@@ -80,7 +101,10 @@ Both magic and summon are accessed in the same module.
 
 The equip menu is a little strange.
 
-![](../assets/Menu_Equip.jpg)
+<figure>
+<img src="Menu_Equip.jpg" title="Menu_Equip.jpg" />
+<figcaption>Menu_Equip.jpg</figcaption>
+</figure>
 
 Equip and Materia are in the same module.
 
@@ -88,11 +112,17 @@ Equip and Materia are in the same module.
 
 This is the status menu.
 
-![](../assets/Menu_Status.jpg)
+<figure>
+<img src="Menu_Status.jpg" title="Menu_Status.jpg" />
+<figcaption>Menu_Status.jpg</figcaption>
+</figure>
 
 ### Change
 
-![](../assets/Menu_Change.jpg)
+<figure>
+<img src="Menu_Change.jpg" title="Menu_Change.jpg" />
+<figcaption>Menu_Change.jpg</figcaption>
+</figure>
 
 Also known as "Order", this is the simplest and smallest of all the menu modules, it just changes the order of the party, it uses the party screen as a background.
 
@@ -100,11 +130,17 @@ Also known as "Order", this is the simplest and smallest of all the menu modules
 
 This is the limit menu.
 
-![](../assets/Menu_Limit.jpg)
+<figure>
+<img src="Menu_Limit.jpg" title="Menu_Limit.jpg" />
+<figcaption>Menu_Limit.jpg</figcaption>
+</figure>
 
 ### Config
 
-![](../assets/Menu_Config.jpg)
+<figure>
+<img src="Menu_Config.jpg" title="Menu_Config.jpg" />
+<figcaption>Menu_Config.jpg</figcaption>
+</figure>
 
 This is where a good deal of environment variables can be changed.
 
@@ -112,7 +148,10 @@ This is where a good deal of environment variables can be changed.
 
 This is also known as the PHS screen.
 
-![](../assets/Menu_Form.jpg)
+<figure>
+<img src="Menu_Form.jpg" title="Menu_Form.jpg" />
+<figcaption>Menu_Form.jpg</figcaption>
+</figure>
 
 Form can also be called when you need to make a two or three teams of people.
 
@@ -120,7 +159,10 @@ Form can also be called when you need to make a two or three teams of people.
 
 The all important save screen.
 
-![](../assets/Menu_Save.jpg)
+<figure>
+<img src="Menu_Save.jpg" title="Menu_Save.jpg" />
+<figcaption>Menu_Save.jpg</figcaption>
+</figure>
 
 To save time, this will only load the first 80 bytes of each save as a preview. It allows a quick look without having to load the whole memory card, which can take upward of a minute. This is also responsible for loading games too, when called from "Begin".
 
@@ -128,7 +170,10 @@ To save time, this will only load the first 80 bytes of each save as a preview. 
 
 This is the naming screen.
 
-![](../assets/Menu_Name.jpg)
+<figure>
+<img src="Menu_Name.jpg" title="Menu_Name.jpg" />
+<figcaption>Menu_Name.jpg</figcaption>
+</figure>
 
 If you try and use the same name screen twice in a game, you will loose your old name and will be overwritten with the default one.
 
@@ -136,7 +181,10 @@ If you try and use the same name screen twice in a game, you will loose your old
 
 This is your typical shop.
 
-![](../assets/Menu_Shop.jpg)
+<figure>
+<img src="Menu_Shop.jpg" title="Menu_Shop.jpg" />
+<figcaption>Menu_Shop.jpg</figcaption>
+</figure>
 
 You can, of course, sell items from this module as well.
 
@@ -144,43 +192,440 @@ You can, of course, sell items from this module as well.
 
 The PSX version keeps the menu modules contained in a .MNU file. The PC version has the menu code internal to the executable. The highlighted modules can be called with the MENU script command. The MENU command always takes a first argument of 00. The second argument is the Menu ID number, and the third is the argument.
 
-| Module Name                | PSX Filename       | Menu ID Number | Argument                 |
-|----------------------------|--------------------|:--------------:|--------------------------|
-| Begin                      | /MENU/BGINMENU.MNU |      N/A       | N/A                      |
-| Party                      | /MENU/PATYMENU.MNU |      0x09      | 0x00                     |
-| Item                       | /MENU/ITEMMENU.MNU |      N/A       | N/A                      |
-| Magic                      | /MENU/MGICMENU.MNU |      N/A       | N/A                      |
-| Equip                      | /MENU/EQIPMENU.MNU |      N/A       | N/A                      |
-| Status                     | /MENU/STATMENU.MNU |      N/A       | N/A                      |
-| Change                     | /MENU/CHNGMENU.MNU |      N/A       | N/A                      |
-| Limit                      | /MENU/LIMTMENU.MNU |      N/A       | N/A                      |
-| Config                     | /MENU/CNFGMENU.MNU |      N/A       | N/A                      |
-| Form                       | /MENU/FORMMENU.MNU |      0x07      | 0x00 - Make a party of 3 |
-| 0x01 - Split into 3 groups |                    |                |                          |
-| 0x02 - Split into 2 groups |                    |                |                          |
-| Save                       | /MENU/SAVEMENU.MNU |      0x0E      | 0x00                     |
-| Name                       | /MENU/NAMEMENU.MNU |      0x06      | 0x00 - Cloud             |
-| 0x01 - Barret              |                    |                |                          |
-| 0x02 - Tifa                |                    |                |                          |
-| 0x03 - Aerith              |                    |                |                          |
-| 0x04 - Red XII             |                    |                |                          |
-| 0x05 - Yuffie              |                    |                |                          |
-| 0x06 - Cait Sith           |                    |                |                          |
-| 0x07 - Vincent             |                    |                |                          |
-| 0x08 - Cid                 |                    |                |                          |
-| 0x09 - Chocobo             |                    |                |                          |
-| Shop                       | /MENU/SHOPMENU.MNU |      0x08      | (0x00-0xFF) Shop Number  |
+| Module Name | PSX Filename       | Menu ID Number | Argument                   |
+|-------------|--------------------|:--------------:|----------------------------|
+| Begin       | /MENU/BGINMENU.MNU |      N/A       | N/A                        |
+| Party       | /MENU/PATYMENU.MNU |      0x09      | 0x00                       |
+| Item        | /MENU/ITEMMENU.MNU |      N/A       | N/A                        |
+| Magic       | /MENU/MGICMENU.MNU |      N/A       | N/A                        |
+| Equip       | /MENU/EQIPMENU.MNU |      N/A       | N/A                        |
+| Status      | /MENU/STATMENU.MNU |      N/A       | N/A                        |
+| Change      | /MENU/CHNGMENU.MNU |      N/A       | N/A                        |
+| Limit       | /MENU/LIMTMENU.MNU |      N/A       | N/A                        |
+| Config      | /MENU/CNFGMENU.MNU |      N/A       | N/A                        |
+| Form        | /MENU/FORMMENU.MNU |      0x07      | 0x00 - Make a party of 3   |
+|             |                    |                | 0x01 - Split into 3 groups |
+|             |                    |                | 0x02 - Split into 2 groups |
+| Save        | /MENU/SAVEMENU.MNU |      0x0E      | 0x00                       |
+| Name        | /MENU/NAMEMENU.MNU |      0x06      | 0x00 - Cloud               |
+|             |                    |                | 0x01 - Barret              |
+|             |                    |                | 0x02 - Tifa                |
+|             |                    |                | 0x03 - Aerith              |
+|             |                    |                | 0x04 - Red XII             |
+|             |                    |                | 0x05 - Yuffie              |
+|             |                    |                | 0x06 - Cait Sith           |
+|             |                    |                | 0x07 - Vincent             |
+|             |                    |                | 0x08 - Cid                 |
+|             |                    |                | 0x09 - Chocobo             |
+| Shop        | /MENU/SHOPMENU.MNU |      0x08      | (0x00-0xFF) Shop Number    |
 
 ## Menu dependencies
 
 On the PSX, Menu dependencies are kept in two different directories. The window dressing textures that stay in memory are found in /INIT/WINDOW.BIN and stored as a BIN-GZIP archive. In the MENU directory, some MNU files contain TIM files appended at the end that are displayed when they are loaded. Two of them, PARTYMENU.MNU and FORMMENU.MNU, externally reference TIM files on the disk as they share these resources. SAVEMENU.MNU also externally references the memory card ports.
 
-The PC version has the MNU files internal to the executable and only have external resources. These are kept within the MENU\_US.LGP file. The PC version has textures in two different sizes to support the two resolutions the game runs in. The following is a table of the menu resources and where they are located in both the PC and PSX version.
+The PC version has the MNU files internal to the executable and only have external resources. These are kept within the MENU_US.LGP file. The PC version has textures in two different sizes to support the two resolutions the game runs in. The following is a table of the menu resources and where they are located in both the PC and PSX version.
 
-<table><thead><tr class="header"><th><p>Picture</p></th><th><p>Description</p></th><th><p>Low Resolution<br />
-PC Filename</p></th><th><p>High Resolution<br />
-PC Filename</p></th><th><p>PSX Location (in<br />
-/MENU unless noted)</p></th><th><p>TIM Offset</p></th></tr></thead><tbody><tr class="odd"><td></td><td><p>Cloud Avatar</p></td><td><p>CLOUD_L.TEX</p></td><td><p>CLOUD.TEX</p></td><td><p>CLOUD.TIM</p></td><td><p>N/A</p></td></tr><tr class="even"><td></td><td><p>Barret Avatar</p></td><td><p>BARRE_L.TEX</p></td><td><p>BARRE.TEX</p></td><td><p>BARRE.TIM</p></td><td><p>N/A</p></td></tr><tr class="odd"><td></td><td><p>Tifa Avatar</p></td><td><p>TIFA_L.TEX</p></td><td><p>TIFA.TEX</p></td><td><p>TIFA.TIM</p></td><td><p>N/A</p></td></tr><tr class="even"><td></td><td><p>Cloud Avatar</p></td><td><p>CLOUD_L.TEX</p></td><td><p>CLOUD.TEX</p></td><td><p>CLOUD.TIM</p></td><td><p>N/A</p></td></tr><tr class="odd"><td></td><td><p>Aeris Avatar</p></td><td><p>EARITH_L.TEX</p></td><td><p>EARITH.TEX</p></td><td><p>EARITH.TIM</p></td><td><p>N/A</p></td></tr><tr class="even"><td></td><td><p>Red XIII Avatar</p></td><td><p>RED_L.TEX</p></td><td><p>RED.TEX</p></td><td><p>RED.TIM</p></td><td><p>N/A</p></td></tr><tr class="odd"><td></td><td><p>Yuffie Avatar</p></td><td><p>YUFI_L.TEX</p></td><td><p>YUFI.TEX</p></td><td><p>YUFI.TIM</p></td><td><p>N/A</p></td></tr><tr class="even"><td></td><td><p>Cait Sith Avatar</p></td><td><p>KETC_L.TEX</p></td><td><p>KETC.TEX</p></td><td><p>KETC.TIM</p></td><td><p>N/A</p></td></tr><tr class="odd"><td></td><td><p>Vincent Avatar</p></td><td><p>BINS_L.TEX</p></td><td><p>BINS.TEX</p></td><td><p>BINS.TIM</p></td><td><p>N/A</p></td></tr><tr class="even"><td></td><td><p>Cid Avatar</p></td><td><p>CIDO_L.TEX</p></td><td><p>CIDO.TEX</p></td><td><p>CIDO_L.TIM</p></td><td><p>N/A</p></td></tr><tr class="odd"><td></td><td><p>Young Cloud Avatar</p></td><td><p>PCLOUD_L.TEX</p></td><td><p>PCLOUD.TEX</p></td><td><p>PCLOUD.TIM</p></td><td><p>N/A</p></td></tr><tr class="even"><td></td><td><p>Sephiroth Avatar</p></td><td><p>PCEFI_L.TEX</p></td><td><p>PCEFI.TEX</p></td><td><p>PCEFI.TIM</p></td><td><p>N/A</p></td></tr><tr class="odd"><td></td><td><p>Chocobo Avatar</p></td><td><p>CHOCO_L.TEX</p></td><td><p>CHOCO.TEX</p></td><td><p>CHOCO.TIM</p></td><td><p>N/A</p></td></tr><tr class="even"><td></td><td><p>Placeholder Avatar</p></td><td><p>N/A</p></td><td><p>N/A</p></td><td><p>KALI.TIM</p></td><td><p>N/A</p></td></tr><tr class="odd"><td></td><td><p>Cloud Avatar</p></td><td><p>CLOUD_L.TEX</p></td><td><p>CLOUD.TEX</p></td><td><p>NAMEMENU.MNU</p></td><td><p>0x1E7C</p></td></tr><tr class="even"><td></td><td><p>Barret Avatar</p></td><td><p>BARRE_L.TEX</p></td><td><p>BARRE.TEX</p></td><td><p>NAMEMENU.MNU</p></td><td><p>0x29A0</p></td></tr><tr class="odd"><td></td><td><p>Tifa Avatar</p></td><td><p>TIFA_L.TEX</p></td><td><p>TIFA.TEX</p></td><td><p>NAMEMENU.MNU</p></td><td><p>0x34C4</p></td></tr><tr class="even"><td></td><td><p>Aeris Avatar</p></td><td><p>EARITH_L.TEX</p></td><td><p>EARITH.TEX</p></td><td><p>NAMEMENU.MNU</p></td><td><p>0x3FE8</p></td></tr><tr class="odd"><td></td><td><p>Red XIII Avatar</p></td><td><p>RED_L.TEX</p></td><td><p>RED.TEX</p></td><td><p>NAMEMENU.MNU</p></td><td><p>0x4B0C</p></td></tr><tr class="even"><td></td><td><p>Yuffie Avatar</p></td><td><p>YUFI_L.TEX</p></td><td><p>YUFI.TEX</p></td><td><p>NAMEMENU.MNU</p></td><td><p>0x5630</p></td></tr><tr class="odd"><td></td><td><p>Cait Sith Avatar</p></td><td><p>KETC_L.TEX</p></td><td><p>KETC.TEX</p></td><td><p>NAMEMENU.MNU</p></td><td><p>0x6154</p></td></tr><tr class="even"><td></td><td><p>Vincent Avatar</p></td><td><p>BINS_L.TEX</p></td><td><p>BINS.TEX</p></td><td><p>NAMEMENU.MNU</p></td><td><p>0x6C78</p></td></tr><tr class="odd"><td></td><td><p>Cid Avatar</p></td><td><p>CIDO_L.TEX</p></td><td><p>CIDO.TEX</p></td><td><p>NAMEMENU.MNU</p></td><td><p>0x779C</p></td></tr><tr class="even"><td></td><td><p>Chocobo Avatar</p></td><td><p>CHOCO_L.TEX</p></td><td><p>CHOCO.TEX</p></td><td><p>NAMEMENU.MNU</p></td><td><p>0x82C0</p></td></tr><tr class="odd"><td></td><td><p>Load screen background</p></td><td><p>BUSTER.TEX</p></td><td><p>N/A</p></td><td><p>SAVEMENU.MNU</p></td><td><p>0x4EDC</p></td></tr><tr class="even"><td></td><td><p>Save Icon 1</p></td><td><p>N/A</p></td><td><p>N/A</p></td><td><p>SAVEMENU.MNU</p></td><td><p>0xF4F4</p></td></tr><tr class="odd"><td></td><td><p>Save Icon 2</p></td><td><p>N/A</p></td><td><p>N/A</p></td><td><p>SAVEMENU.MNU</p></td><td><p>0xF502</p></td></tr><tr class="even"><td></td><td><p>Save Icon 3</p></td><td><p>N/A</p></td><td><p>N/A</p></td><td><p>SAVEMENU.MNU</p></td><td><p>0xF8F8</p></td></tr><tr class="odd"><td></td><td><p>Save Icon 4</p></td><td><p>N/A</p></td><td><p>N/A</p></td><td><p>SAVEMENU.MNU</p></td><td><p>0xFCEE</p></td></tr><tr class="even"><td></td><td><p>Save Icon 5</p></td><td><p>N/A</p></td><td><p>N/A</p></td><td><p>SAVEMENU.MNU</p></td><td><p>0x100E4</p></td></tr><tr class="odd"><td></td><td><p>Save Icon 6</p></td><td><p>N/A</p></td><td><p>N/A</p></td><td><p>SAVEMENU.MNU</p></td><td><p>0x104DA</p></td></tr><tr class="even"><td></td><td><p>Save Icon 7</p></td><td><p>N/A</p></td><td><p>N/A</p></td><td><p>SAVEMENU.MNU</p></td><td><p>0x108DA</p></td></tr><tr class="odd"><td></td><td><p>Save Icon 8</p></td><td><p>N/A</p></td><td><p>N/A</p></td><td><p>SAVEMENU.MNU</p></td><td><p>0x10CC6</p></td></tr><tr class="even"><td></td><td><p>Save Icon 9</p></td><td><p>N/A</p></td><td><p>N/A</p></td><td><p>SAVEMENU.MNU</p></td><td><p>0x110BC</p></td></tr><tr class="odd"><td></td><td><p>Save Icon 10</p></td><td><p>N/A</p></td><td><p>N/A</p></td><td><p>SAVEMENU.MNU</p></td><td><p>0x114B2</p></td></tr><tr class="even"><td></td><td><p>Save Icon 11</p></td><td><p>N/A</p></td><td><p>N/A</p></td><td><p>SAVEMENU.MNU</p></td><td><p>0x118A8</p></td></tr><tr class="odd"><td></td><td><p>Save Icon 12</p></td><td><p>N/A</p></td><td><p>N/A</p></td><td><p>SAVEMENU.MNU</p></td><td><p>0x11C9E</p></td></tr><tr class="even"><td></td><td><p>Save Icon 13</p></td><td><p>N/A</p></td><td><p>N/A</p></td><td><p>SAVEMENU.MNU</p></td><td><p>0x12094</p></td></tr><tr class="odd"><td></td><td><p>Save Icon 14</p></td><td><p>N/A</p></td><td><p>N/A</p></td><td><p>SAVEMENU.MNU</p></td><td><p>0x1248A</p></td></tr><tr class="even"><td></td><td><p>Save Icon 15</p></td><td><p>N/A</p></td><td><p>N/A</p></td><td><p>SAVEMENU.MNU</p></td><td><p>0x12880</p></td></tr><tr class="odd"><td></td><td><p>Coin command</p></td><td><p>ZENI.TEX</p></td><td><p>ZENI_H.TEX</p></td><td><p>ITEMMENU.MNU</p></td><td><p>0x3890</p></td></tr><tr class="even"><td></td><td><p>Window Dressings</p></td><td><p>BTL_WIN_H.TEX</p></td><td><p>BTL_WIN_A_H.TEX</p></td><td><p>/INIT/WINDOW.BIN</p></td><td><p>0x0006</p></td></tr><tr class="odd"><td></td><td><p>BTL_WIN_B_H.TEX</p></td><td></td><td></td><td></td><td></td></tr><tr class="even"><td></td><td><p>BTL_WIN_C_H.TEX</p></td><td></td><td></td><td></td><td></td></tr><tr class="odd"><td></td><td><p>BTL_WIN_D_H.TEX</p></td><td></td><td></td><td></td><td></td></tr><tr class="even"><td><p>BTL_WIN_L.TEX</p></td><td><p>BTL_WIN_A_L.TEX</p></td><td></td><td></td><td></td><td></td></tr><tr class="odd"><td></td><td><p>BTL_WIN_B_L.TEX</p></td><td></td><td></td><td></td><td></td></tr><tr class="even"><td></td><td><p>BTL_WIN_C_L.TEX</p></td><td></td><td></td><td></td><td></td></tr><tr class="odd"><td></td><td><p>BTL_WIN_D_L.TEX</p></td><td></td><td></td><td></td><td></td></tr><tr class="even"><td></td><td><p>Menu Font</p></td><td><p>USFONT_L.TEX</p></td><td><p>USFONT_A_L.TEX</p></td><td><p>/INIT/WINDOW.BIN</p></td><td><p>0x2754</p></td></tr><tr class="odd"><td></td><td><p>USFONT_B_L.TEX</p></td><td></td><td></td><td></td><td></td></tr><tr class="even"><td><p>USFONT_H.TEX</p></td><td><p>USFONT_A_H.TEX</p></td><td></td><td></td><td></td><td></td></tr><tr class="odd"><td></td><td><p>USFONT_B_H.TEX</p></td><td></td><td></td><td></td><td></td></tr></tbody></table>
+<table>
+<thead>
+<tr>
+<th><p>Picture</p></th>
+<th><p>Description</p></th>
+<th><p>Low Resolution<br />
+PC Filename</p></th>
+<th><p>High Resolution<br />
+PC Filename</p></th>
+<th><p>PSX Location (in<br />
+/MENU unless noted)</p></th>
+<th><p>TIM Offset</p></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td><p>Cloud Avatar</p></td>
+<td><p>CLOUD_L.TEX</p></td>
+<td><p>CLOUD.TEX</p></td>
+<td><p>CLOUD.TIM</p></td>
+<td><p>N/A</p></td>
+</tr>
+<tr>
+<td></td>
+<td><p>Barret Avatar</p></td>
+<td><p>BARRE_L.TEX</p></td>
+<td><p>BARRE.TEX</p></td>
+<td><p>BARRE.TIM</p></td>
+<td><p>N/A</p></td>
+</tr>
+<tr>
+<td></td>
+<td><p>Tifa Avatar</p></td>
+<td><p>TIFA_L.TEX</p></td>
+<td><p>TIFA.TEX</p></td>
+<td><p>TIFA.TIM</p></td>
+<td><p>N/A</p></td>
+</tr>
+<tr>
+<td></td>
+<td><p>Cloud Avatar</p></td>
+<td><p>CLOUD_L.TEX</p></td>
+<td><p>CLOUD.TEX</p></td>
+<td><p>CLOUD.TIM</p></td>
+<td><p>N/A</p></td>
+</tr>
+<tr>
+<td></td>
+<td><p>Aeris Avatar</p></td>
+<td><p>EARITH_L.TEX</p></td>
+<td><p>EARITH.TEX</p></td>
+<td><p>EARITH.TIM</p></td>
+<td><p>N/A</p></td>
+</tr>
+<tr>
+<td></td>
+<td><p>Red XIII Avatar</p></td>
+<td><p>RED_L.TEX</p></td>
+<td><p>RED.TEX</p></td>
+<td><p>RED.TIM</p></td>
+<td><p>N/A</p></td>
+</tr>
+<tr>
+<td></td>
+<td><p>Yuffie Avatar</p></td>
+<td><p>YUFI_L.TEX</p></td>
+<td><p>YUFI.TEX</p></td>
+<td><p>YUFI.TIM</p></td>
+<td><p>N/A</p></td>
+</tr>
+<tr>
+<td></td>
+<td><p>Cait Sith Avatar</p></td>
+<td><p>KETC_L.TEX</p></td>
+<td><p>KETC.TEX</p></td>
+<td><p>KETC.TIM</p></td>
+<td><p>N/A</p></td>
+</tr>
+<tr>
+<td></td>
+<td><p>Vincent Avatar</p></td>
+<td><p>BINS_L.TEX</p></td>
+<td><p>BINS.TEX</p></td>
+<td><p>BINS.TIM</p></td>
+<td><p>N/A</p></td>
+</tr>
+<tr>
+<td></td>
+<td><p>Cid Avatar</p></td>
+<td><p>CIDO_L.TEX</p></td>
+<td><p>CIDO.TEX</p></td>
+<td><p>CIDO_L.TIM</p></td>
+<td><p>N/A</p></td>
+</tr>
+<tr>
+<td></td>
+<td><p>Young Cloud Avatar</p></td>
+<td><p>PCLOUD_L.TEX</p></td>
+<td><p>PCLOUD.TEX</p></td>
+<td><p>PCLOUD.TIM</p></td>
+<td><p>N/A</p></td>
+</tr>
+<tr>
+<td></td>
+<td><p>Sephiroth Avatar</p></td>
+<td><p>PCEFI_L.TEX</p></td>
+<td><p>PCEFI.TEX</p></td>
+<td><p>PCEFI.TIM</p></td>
+<td><p>N/A</p></td>
+</tr>
+<tr>
+<td></td>
+<td><p>Chocobo Avatar</p></td>
+<td><p>CHOCO_L.TEX</p></td>
+<td><p>CHOCO.TEX</p></td>
+<td><p>CHOCO.TIM</p></td>
+<td><p>N/A</p></td>
+</tr>
+<tr>
+<td></td>
+<td><p>Placeholder Avatar</p></td>
+<td><p>N/A</p></td>
+<td><p>N/A</p></td>
+<td><p>KALI.TIM</p></td>
+<td><p>N/A</p></td>
+</tr>
+<tr>
+<td style="background: rgb(230,230,255)"></td>
+<td style="background: rgb(230,230,255)"><p>Cloud Avatar</p></td>
+<td style="background: rgb(230,230,255)"><p>CLOUD_L.TEX</p></td>
+<td style="background: rgb(230,230,255)"><p>CLOUD.TEX</p></td>
+<td style="background: rgb(230,230,255)"><p>NAMEMENU.MNU</p></td>
+<td style="background: rgb(230,230,255)"><p>0x1E7C</p></td>
+</tr>
+<tr>
+<td style="background: rgb(230,230,255)"></td>
+<td style="background: rgb(230,230,255)"><p>Barret Avatar</p></td>
+<td style="background: rgb(230,230,255)"><p>BARRE_L.TEX</p></td>
+<td style="background: rgb(230,230,255)"><p>BARRE.TEX</p></td>
+<td style="background: rgb(230,230,255)"><p>NAMEMENU.MNU</p></td>
+<td style="background: rgb(230,230,255)"><p>0x29A0</p></td>
+</tr>
+<tr>
+<td style="background: rgb(230,230,255)"></td>
+<td style="background: rgb(230,230,255)"><p>Tifa Avatar</p></td>
+<td style="background: rgb(230,230,255)"><p>TIFA_L.TEX</p></td>
+<td style="background: rgb(230,230,255)"><p>TIFA.TEX</p></td>
+<td style="background: rgb(230,230,255)"><p>NAMEMENU.MNU</p></td>
+<td style="background: rgb(230,230,255)"><p>0x34C4</p></td>
+</tr>
+<tr>
+<td style="background: rgb(230,230,255)"></td>
+<td style="background: rgb(230,230,255)"><p>Aeris Avatar</p></td>
+<td style="background: rgb(230,230,255)"><p>EARITH_L.TEX</p></td>
+<td style="background: rgb(230,230,255)"><p>EARITH.TEX</p></td>
+<td style="background: rgb(230,230,255)"><p>NAMEMENU.MNU</p></td>
+<td style="background: rgb(230,230,255)"><p>0x3FE8</p></td>
+</tr>
+<tr>
+<td style="background: rgb(230,230,255)"></td>
+<td style="background: rgb(230,230,255)"><p>Red XIII Avatar</p></td>
+<td style="background: rgb(230,230,255)"><p>RED_L.TEX</p></td>
+<td style="background: rgb(230,230,255)"><p>RED.TEX</p></td>
+<td style="background: rgb(230,230,255)"><p>NAMEMENU.MNU</p></td>
+<td style="background: rgb(230,230,255)"><p>0x4B0C</p></td>
+</tr>
+<tr>
+<td style="background: rgb(230,230,255)"></td>
+<td style="background: rgb(230,230,255)"><p>Yuffie Avatar</p></td>
+<td style="background: rgb(230,230,255)"><p>YUFI_L.TEX</p></td>
+<td style="background: rgb(230,230,255)"><p>YUFI.TEX</p></td>
+<td style="background: rgb(230,230,255)"><p>NAMEMENU.MNU</p></td>
+<td style="background: rgb(230,230,255)"><p>0x5630</p></td>
+</tr>
+<tr>
+<td style="background: rgb(230,230,255)"></td>
+<td style="background: rgb(230,230,255)"><p>Cait Sith Avatar</p></td>
+<td style="background: rgb(230,230,255)"><p>KETC_L.TEX</p></td>
+<td style="background: rgb(230,230,255)"><p>KETC.TEX</p></td>
+<td style="background: rgb(230,230,255)"><p>NAMEMENU.MNU</p></td>
+<td style="background: rgb(230,230,255)"><p>0x6154</p></td>
+</tr>
+<tr>
+<td style="background: rgb(230,230,255)"></td>
+<td style="background: rgb(230,230,255)"><p>Vincent Avatar</p></td>
+<td style="background: rgb(230,230,255)"><p>BINS_L.TEX</p></td>
+<td style="background: rgb(230,230,255)"><p>BINS.TEX</p></td>
+<td style="background: rgb(230,230,255)"><p>NAMEMENU.MNU</p></td>
+<td style="background: rgb(230,230,255)"><p>0x6C78</p></td>
+</tr>
+<tr>
+<td style="background: rgb(230,230,255)"></td>
+<td style="background: rgb(230,230,255)"><p>Cid Avatar</p></td>
+<td style="background: rgb(230,230,255)"><p>CIDO_L.TEX</p></td>
+<td style="background: rgb(230,230,255)"><p>CIDO.TEX</p></td>
+<td style="background: rgb(230,230,255)"><p>NAMEMENU.MNU</p></td>
+<td style="background: rgb(230,230,255)"><p>0x779C</p></td>
+</tr>
+<tr>
+<td style="background: rgb(230,230,255)"></td>
+<td style="background: rgb(230,230,255)"><p>Chocobo Avatar</p></td>
+<td style="background: rgb(230,230,255)"><p>CHOCO_L.TEX</p></td>
+<td style="background: rgb(230,230,255)"><p>CHOCO.TEX</p></td>
+<td style="background: rgb(230,230,255)"><p>NAMEMENU.MNU</p></td>
+<td style="background: rgb(230,230,255)"><p>0x82C0</p></td>
+</tr>
+<tr>
+<td></td>
+<td><p>Load screen background</p></td>
+<td><p>BUSTER.TEX</p></td>
+<td><p>N/A</p></td>
+<td><p>SAVEMENU.MNU</p></td>
+<td><p>0x4EDC</p></td>
+</tr>
+<tr>
+<td></td>
+<td><p>Save Icon 1</p></td>
+<td><p>N/A</p></td>
+<td><p>N/A</p></td>
+<td><p>SAVEMENU.MNU</p></td>
+<td><p>0xF4F4</p></td>
+</tr>
+<tr>
+<td></td>
+<td><p>Save Icon 2</p></td>
+<td><p>N/A</p></td>
+<td><p>N/A</p></td>
+<td><p>SAVEMENU.MNU</p></td>
+<td><p>0xF502</p></td>
+</tr>
+<tr>
+<td></td>
+<td><p>Save Icon 3</p></td>
+<td><p>N/A</p></td>
+<td><p>N/A</p></td>
+<td><p>SAVEMENU.MNU</p></td>
+<td><p>0xF8F8</p></td>
+</tr>
+<tr>
+<td></td>
+<td><p>Save Icon 4</p></td>
+<td><p>N/A</p></td>
+<td><p>N/A</p></td>
+<td><p>SAVEMENU.MNU</p></td>
+<td><p>0xFCEE</p></td>
+</tr>
+<tr>
+<td></td>
+<td><p>Save Icon 5</p></td>
+<td><p>N/A</p></td>
+<td><p>N/A</p></td>
+<td><p>SAVEMENU.MNU</p></td>
+<td><p>0x100E4</p></td>
+</tr>
+<tr>
+<td></td>
+<td><p>Save Icon 6</p></td>
+<td><p>N/A</p></td>
+<td><p>N/A</p></td>
+<td><p>SAVEMENU.MNU</p></td>
+<td><p>0x104DA</p></td>
+</tr>
+<tr>
+<td></td>
+<td><p>Save Icon 7</p></td>
+<td><p>N/A</p></td>
+<td><p>N/A</p></td>
+<td><p>SAVEMENU.MNU</p></td>
+<td><p>0x108DA</p></td>
+</tr>
+<tr>
+<td></td>
+<td><p>Save Icon 8</p></td>
+<td><p>N/A</p></td>
+<td><p>N/A</p></td>
+<td><p>SAVEMENU.MNU</p></td>
+<td><p>0x10CC6</p></td>
+</tr>
+<tr>
+<td></td>
+<td><p>Save Icon 9</p></td>
+<td><p>N/A</p></td>
+<td><p>N/A</p></td>
+<td><p>SAVEMENU.MNU</p></td>
+<td><p>0x110BC</p></td>
+</tr>
+<tr>
+<td></td>
+<td><p>Save Icon 10</p></td>
+<td><p>N/A</p></td>
+<td><p>N/A</p></td>
+<td><p>SAVEMENU.MNU</p></td>
+<td><p>0x114B2</p></td>
+</tr>
+<tr>
+<td></td>
+<td><p>Save Icon 11</p></td>
+<td><p>N/A</p></td>
+<td><p>N/A</p></td>
+<td><p>SAVEMENU.MNU</p></td>
+<td><p>0x118A8</p></td>
+</tr>
+<tr>
+<td></td>
+<td><p>Save Icon 12</p></td>
+<td><p>N/A</p></td>
+<td><p>N/A</p></td>
+<td><p>SAVEMENU.MNU</p></td>
+<td><p>0x11C9E</p></td>
+</tr>
+<tr>
+<td></td>
+<td><p>Save Icon 13</p></td>
+<td><p>N/A</p></td>
+<td><p>N/A</p></td>
+<td><p>SAVEMENU.MNU</p></td>
+<td><p>0x12094</p></td>
+</tr>
+<tr>
+<td></td>
+<td><p>Save Icon 14</p></td>
+<td><p>N/A</p></td>
+<td><p>N/A</p></td>
+<td><p>SAVEMENU.MNU</p></td>
+<td><p>0x1248A</p></td>
+</tr>
+<tr>
+<td></td>
+<td><p>Save Icon 15</p></td>
+<td><p>N/A</p></td>
+<td><p>N/A</p></td>
+<td><p>SAVEMENU.MNU</p></td>
+<td><p>0x12880</p></td>
+</tr>
+<tr>
+<td></td>
+<td><p>Coin command</p></td>
+<td><p>ZENI.TEX</p></td>
+<td><p>ZENI_H.TEX</p></td>
+<td><p>ITEMMENU.MNU</p></td>
+<td><p>0x3890</p></td>
+</tr>
+<tr>
+<td rowspan="8" style="background: rgb(255,255,255)"></td>
+<td rowspan="8" style="background: rgb(255,255,255)"><p>Window Dressings</p></td>
+<td><p>BTL_WIN_H.TEX</p></td>
+<td><p>BTL_WIN_A_H.TEX</p></td>
+<td rowspan="8" style="background: rgb(255,255,255)"><p>/INIT/WINDOW.BIN</p></td>
+<td rowspan="8" style="background: rgb(255,255,255)"><p>0x0006</p></td>
+</tr>
+<tr>
+<td></td>
+<td><p>BTL_WIN_B_H.TEX</p></td>
+</tr>
+<tr>
+<td></td>
+<td><p>BTL_WIN_C_H.TEX</p></td>
+</tr>
+<tr>
+<td></td>
+<td><p>BTL_WIN_D_H.TEX</p></td>
+</tr>
+<tr>
+<td><p>BTL_WIN_L.TEX</p></td>
+<td><p>BTL_WIN_A_L.TEX</p></td>
+</tr>
+<tr>
+<td></td>
+<td><p>BTL_WIN_B_L.TEX</p></td>
+</tr>
+<tr>
+<td></td>
+<td><p>BTL_WIN_C_L.TEX</p></td>
+</tr>
+<tr>
+<td></td>
+<td><p>BTL_WIN_D_L.TEX</p></td>
+</tr>
+<tr>
+<td rowspan="4" style="background: rgb(255,255,255)"></td>
+<td rowspan="4" style="background: rgb(255,255,255)"><p>Menu Font</p></td>
+<td><p>USFONT_L.TEX</p></td>
+<td><p>USFONT_A_L.TEX</p></td>
+<td rowspan="4" style="background: rgb(255,255,255)"><p>/INIT/WINDOW.BIN</p></td>
+<td rowspan="4" style="background: rgb(255,255,255)"><p>0x2754</p></td>
+</tr>
+<tr>
+<td></td>
+<td><p>USFONT_B_L.TEX</p></td>
+</tr>
+<tr>
+<td><p>USFONT_H.TEX</p></td>
+<td><p>USFONT_A_H.TEX</p></td>
+</tr>
+<tr>
+<td></td>
+<td><p>USFONT_B_H.TEX</p></td>
+</tr>
+</tbody>
+</table>
 
 ## The Save Game format
 

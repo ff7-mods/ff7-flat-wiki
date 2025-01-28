@@ -2,9 +2,9 @@
 title: 3A_GOLDd
 ---
 
--   Opcode: **0x3A**
--   Short name: **GOLDd**
--   Long name: Gil Down
+- Opcode: **0x3A**
+- Short name: **GOLDd**
+- Long name: Gil Down
 
 #### Memory layout
 
@@ -18,14 +18,14 @@ title: 3A_GOLDd
 
 Decrease by a constant amount:
 
--   **const UByte** *0*: Zero.
--   **const ULong** *A*: Amount to increase.
+- **const UByte** *0*: Zero.
+- **const ULong** *A*: Amount to increase.
 
 Decrease by an amount found in memory:
 
--   **const Bit\[4\]** *B*: Source bank.
--   **const UByte** *A*: Source address.
--   **const UByte\[3\]** *0*: Three zero bytes.
+- **const Bit\[4\]** *B*: Source bank.
+- **const UByte** *A*: Source address.
+- **const UByte\[3\]** *0*: Three zero bytes.
 
 #### Description
 

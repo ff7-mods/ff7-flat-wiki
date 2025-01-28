@@ -2,9 +2,9 @@
 title: CF_MMBUK
 ---
 
--   Opcode: **0xCF**
--   Short name: **MMBUK**
--   Long name: Party Select: Character Unlock
+- Opcode: **0xCF**
+- Short name: **MMBUK**
+- Long name: Party Select: Character Unlock
 
 #### Memory layout
 
@@ -13,7 +13,7 @@ title: CF_MMBUK
 
 #### Arguments
 
--   **const UByte** *C*: Character ID to unlock.
+- **const UByte** *C*: Character ID to unlock.
 
 #### Description
 

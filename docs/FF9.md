@@ -80,8 +80,8 @@ This chunk contains pointers to other DB structures.
 
 # Sound
 
--   [Sound](FF9/Sound.md)
+- [Sound](FF9/Sound.md)
 
 # Tools and Patches
 
--   [Tools and Patches](FF9/Tools.md)
+- [Tools and Patches](FF9/Tools.md)

@@ -2,9 +2,9 @@
 title: CB_IFPRTYQ
 ---
 
--   Opcode: **0xCB**
--   Short name: **IFPRTYQ**
--   Long name: If Party Member
+- Opcode: **0xCB**
+- Short name: **IFPRTYQ**
+- Long name: If Party Member
 
 #### Memory layout
 
@@ -13,8 +13,8 @@ title: CB_IFPRTYQ
 
 #### Arguments
 
--   **const UByte** *C*: [Character ID](../../Character_ID.md) to check.
--   **const UByte** *A*: Amount to jump if comparison is false.
+- **const UByte** *C*: [Character ID](../../Character_ID.md) to check.
+- **const UByte** *A*: Amount to jump if comparison is false.
 
 #### Description
 

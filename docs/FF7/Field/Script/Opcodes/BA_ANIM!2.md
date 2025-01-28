@@ -2,9 +2,9 @@
 title: BA_ANIM!2
 ---
 
--   Opcode: **0xBA**
--   Short name: **ANIM!2**
--   Long name: Animate/Stay
+- Opcode: **0xBA**
+- Short name: **ANIM!2**
+- Long name: Animate/Stay
 
 #### Memory layout
 
@@ -13,8 +13,8 @@ title: BA_ANIM!2
 
 #### Arguments
 
--   **const UByte** *A*: Animation ID for this entity's field object.
--   **const UByte** *S*: Speed the animation is played at. Higher numbers indicate slower animations.
+- **const UByte** *A*: Animation ID for this entity's field object.
+- **const UByte** *S*: Speed the animation is played at. Higher numbers indicate slower animations.
 
 #### Description
 

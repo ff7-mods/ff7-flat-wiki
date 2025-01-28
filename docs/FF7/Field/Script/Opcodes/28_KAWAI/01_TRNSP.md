@@ -2,9 +2,9 @@
 title: 01_TRNSP
 ---
 
--   Opcode: **0x28/01**
--   Short name: **KAWAI/TRNSP**
--   Long name: Character Transparency
+- Opcode: **0x28/01**
+- Short name: **KAWAI/TRNSP**
+- Long name: Character Transparency
 
 #### Memory layout
 
@@ -13,9 +13,9 @@ title: 01_TRNSP
 
 #### Arguments
 
--   **const UByte** *4*: Total length of opcode and argument list.
--   **const UByte** *1*: Subop code.
--   **const UByte** *S*: Switch on/off (1/0, respectively).
+- **const UByte** *4*: Total length of opcode and argument list.
+- **const UByte** *1*: Subop code.
+- **const UByte** *S*: Switch on/off (1/0, respectively).
 
 #### Description
 

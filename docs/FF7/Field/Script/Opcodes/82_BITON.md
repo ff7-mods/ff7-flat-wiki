@@ -2,9 +2,9 @@
 title: 82_BITON
 ---
 
--   Opcode: **0x82**
--   Short name: **BITON**
--   Long name: Set Bit
+- Opcode: **0x82**
+- Short name: **BITON**
+- Long name: Set Bit
 
 #### Memory layout
 
@@ -13,10 +13,10 @@ title: 82_BITON
 
 #### Arguments
 
--   **const Bit\[4\]** *D*: Destination bank.
--   **const Bit\[4\]** *S*: Source bank.
--   **const UByte** *Dest*: Destination address.
--   **const UByte** *Bit*: The number of the bit to turn on.
+- **const Bit\[4\]** *D*: Destination bank.
+- **const Bit\[4\]** *S*: Source bank.
+- **const UByte** *Dest*: Destination address.
+- **const UByte** *Bit*: The number of the bit to turn on.
 
 #### Description
 

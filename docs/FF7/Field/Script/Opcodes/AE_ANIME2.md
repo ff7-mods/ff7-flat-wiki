@@ -2,9 +2,9 @@
 title: AE_ANIME2
 ---
 
--   Opcode: **0xAE**
--   Short name: **ANIME2**
--   Long name: Animate/Return
+- Opcode: **0xAE**
+- Short name: **ANIME2**
+- Long name: Animate/Return
 
 #### Memory layout
 
@@ -13,8 +13,8 @@ title: AE_ANIME2
 
 #### Arguments
 
--   **const UByte** *A*: Animation ID for this entity's field object.
--   **const UByte** *S*: Speed the animation is played at. Real model animation speed divide by this to calculate real play speed.
+- **const UByte** *A*: Animation ID for this entity's field object.
+- **const UByte** *S*: Speed the animation is played at. Real model animation speed divide by this to calculate real play speed.
 
 #### Description
 

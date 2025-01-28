@@ -2,9 +2,9 @@
 title: 30_IFKEY
 ---
 
--   Opcode: **0x30**
--   Short name: **IFKEY**
--   Long name: If Key Pressed
+- Opcode: **0x30**
+- Short name: **IFKEY**
+- Long name: If Key Pressed
 
 #### Memory layout
 
@@ -13,8 +13,8 @@ title: 30_IFKEY
 
 #### Arguments
 
--   **const UShort (Bit field)** *B*: Button ID to check for.
--   **const UByte** *A*: Amount to jump if button not pressed.
+- **const UShort (Bit field)** *B*: Button ID to check for.
+- **const UByte** *A*: Amount to jump if button not pressed.
 
 #### Description
 
@@ -26,7 +26,7 @@ Button IDs can be ORd with each other to produce a combination of keys to check 
 
 #### Button IDs
 
-| ID                         | Button \|-\#    | 0b1 / 1 | L2 / Camera |
+| ID                         | Button \|-#     | 0b1 / 1 | L2 / Camera |
 |----------------------------|-----------------|---------|-------------|
 | 0b10 / 2                   | R2 / Target     |         |             |
 | 0b100 / 4                  | L1 / PageUp     |         |             |

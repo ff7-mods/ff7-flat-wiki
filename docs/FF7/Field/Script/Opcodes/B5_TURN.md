@@ -2,22 +2,22 @@
 title: B5_TURN
 ---
 
--   Opcode: **0xB5**
--   Short name: **TURN**
--   Long name: Generate Turn
+- Opcode: **0xB5**
+- Short name: **TURN**
+- Long name: Generate Turn
 
 #### Memory layout
 
 | 0xB4 | *00 / B2* | *Final rotation* | *ignored* | *Steps in rotation* | *Type of steps calculation* |
-|------|-----------|------------------|-----------|---------------------|-----------------------------|
+|----|----|----|----|----|----|
 
 #### Arguments
 
--   **const Bit\[4\]** *B2*: Bank to retrieve Final rotation, or zero if specifying *Final rotation* as a literal value.
--   **const Bute** *Final rotation*: Rotation value to which model will be rotated.
--   **const Short** *ignored*: Although this is set in script it is compleatly ignored by opcode.
--   **const Short** *Steps in rotation*: Set number of steps in rotation.
--   **const UShort** *Type of steps calculation*: Specify how to calculate rotation step by step. (1 - linear/ 2 - smooth.).
+- **const Bit\[4\]** *B2*: Bank to retrieve Final rotation, or zero if specifying *Final rotation* as a literal value.
+- **const Bute** *Final rotation*: Rotation value to which model will be rotated.
+- **const Short** *ignored*: Although this is set in script it is compleatly ignored by opcode.
+- **const Short** *Steps in rotation*: Set number of steps in rotation.
+- **const UShort** *Type of steps calculation*: Specify how to calculate rotation step by step. (1 - linear/ 2 - smooth.).
 
 #### Description
 

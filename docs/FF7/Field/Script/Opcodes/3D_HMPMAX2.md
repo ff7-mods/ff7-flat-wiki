@@ -2,9 +2,9 @@
 title: 3D_HMPMAX2
 ---
 
--   Opcode: **0x3D**
--   Short name: **HMPMAX2**
--   Long name: HP/MP Maximum
+- Opcode: **0x3D**
+- Short name: **HMPMAX2**
+- Long name: HP/MP Maximum
 
 #### Memory layout
 

@@ -6,22 +6,22 @@ title: Triggers
 
 [1](http://forums.qhimm.com/index.php?topic=4358.msg58674#msg58674) [2](http://forums.qhimm.com/index.php?topic=3247.msg53525#msg53525) and [3](http://forums.qhimm.com/index.php?topic=7129.msg87583#msg87583)
 
-| Offset | Size     | Data                                                                                                  |
-|--------|----------|-------------------------------------------------------------------------------------------------------|
-| 0      | 9        | Name of field (\\0 terminated)                                                                        |
-| 9      | 1        | Control Direction                                                                                     |
-| 10     | 2        | Height to focus the camera on the character (0= normal focus, &lt;0= focus below, &gt;0= focus above) |
-| 12     | 8        | Camera Range                                                                                          |
-| 20     | 4        | Unknown (Bg layer 3 & 4 related)                                                                      |
-| 24     | 2        | Background layer 3 animation width (or 1024 if no layer 3)                                            |
-| 26     | 2        | Background layer 3 animation height (or 1024)                                                         |
-| 28     | 2        | Background layer 4 animation width (or 1024)                                                          |
-| 30     | 2        | Background layer 4 animation height (or 1024)                                                         |
-| 32     | 24       | Unknown (Bg layer 3 & 4 related)                                                                      |
-| 56     | 12 \* 24 | Gateways                                                                                              |
-| 344    | 12 \* 16 | Triggers                                                                                              |
-| 536    | 12       | Shown arrows on gateway lines (not present in jp version)                                             |
-| 548    | 12 \* 16 | Arrows (not present in jp version)                                                                    |
+| Offset | Size | Data |
+|----|----|----|
+| 0 | 9 | Name of field (\0 terminated) |
+| 9 | 1 | Control Direction |
+| 10 | 2 | Height to focus the camera on the character (0= normal focus, \<0= focus below, \>0= focus above) |
+| 12 | 8 | Camera Range |
+| 20 | 4 | Unknown (Bg layer 3 & 4 related) |
+| 24 | 2 | Background layer 3 animation width (or 1024 if no layer 3) |
+| 26 | 2 | Background layer 3 animation height (or 1024) |
+| 28 | 2 | Background layer 4 animation width (or 1024) |
+| 30 | 2 | Background layer 4 animation height (or 1024) |
+| 32 | 24 | Unknown (Bg layer 3 & 4 related) |
+| 56 | 12 \* 24 | Gateways |
+| 344 | 12 \* 16 | Triggers |
+| 536 | 12 | Shown arrows on gateway lines (not present in jp version) |
+| 548 | 12 \* 16 | Arrows (not present in jp version) |
 
 ## range
 

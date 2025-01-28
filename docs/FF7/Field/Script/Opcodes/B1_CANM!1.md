@@ -2,9 +2,9 @@
 title: B1_CANM!1
 ---
 
--   Opcode: **0xB1**
--   Short name: **CANM!1**
--   Long name: Particial Animation.
+- Opcode: **0xB1**
+- Short name: **CANM!1**
+- Long name: Particial Animation.
 
 #### Memory layout
 
@@ -13,10 +13,10 @@ title: B1_CANM!1
 
 #### Arguments
 
--   **const UByte** *A*: Animation ID for this entity's field object.
--   **const UByte** *F*: First frame of animation.
--   **const UByte** *L*: Last frame of animation.
--   **const UByte** *S*: Relative speed of animation. Real model animation speed divide by this to calculate real play speed.
+- **const UByte** *A*: Animation ID for this entity's field object.
+- **const UByte** *F*: First frame of animation.
+- **const UByte** *L*: Last frame of animation.
+- **const UByte** *S*: Relative speed of animation. Real model animation speed divide by this to calculate real play speed.
 
 #### Description
 

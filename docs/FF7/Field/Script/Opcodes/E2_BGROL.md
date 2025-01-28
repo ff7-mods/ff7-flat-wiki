@@ -2,9 +2,9 @@
 title: E2_BGROL
 ---
 
--   Opcode: **0xE2**
--   Short name: **BGROL**
--   Long name: Background Roll
+- Opcode: **0xE2**
+- Short name: **BGROL**
+- Long name: Background Roll
 
 #### Memory layout
 
@@ -13,8 +13,8 @@ title: E2_BGROL
 
 #### Arguments
 
--   **const UByte** *B*: Bank to retrieve *A*, or zero if *A* is specified as a literal.
--   **const UByte** *A*: The ID of the background area to roll, as specified in the background's sprite.
+- **const UByte** *B*: Bank to retrieve *A*, or zero if *A* is specified as a literal.
+- **const UByte** *A*: The ID of the background area to roll, as specified in the background's sprite.
 
 #### Description
 

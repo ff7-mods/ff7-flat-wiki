@@ -6,24 +6,24 @@ title: DamageFormula
 
 Each of the upper nybble of the damage calculation determines what checks are done to accuracy of the action and whether or not it will connect, be critical or miss. Here are the functions in order processed based on the upper nybble:
 
-| Upper Nybble | Functions                                                                                                                                          |
-|--------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
-| 0            | None (always hits)                                                                                                                                 |
-| 1            | [Physical Accuracy](DamageFormula.md#0:_Physical_Accuracy_Check), [Critical Check](DamageFormula.md#2:_Critical_Hit_Check) |
-| 2            | [Magical Accuracy](DamageFormula.md#1:_Magical_Accuracy_Check)                                                                         |
-| 3            | Dummy \[3\] (always hits)                                                                                                                          |
-| 4            | Dummy \[4\] (always hits)                                                                                                                          |
-| 5            | Dummy \[5\] (always hits)                                                                                                                          |
-| 6            | [Physical Accuracy](DamageFormula.md#0:_Physical_Accuracy_Check), [Critical Check](DamageFormula.md#2:_Critical_Hit_Check) |
-| 7            | [Magical Accuracy](DamageFormula.md#1:_Magical_Accuracy_Check)                                                                         |
-| 8            | [Level-based Accuracy](DamageFormula.md#7:_Level-based_Accuracy)                                                                       |
-| 9            | [Manipulate](DamageFormula.md#6:_Manipulate_Accuracy_.28intended_solely_for_playable_characters.29)                                    |
-| A            | [Physical Accuracy](FF7/DamageFormula#0:_Physical_Accuracy_Check "wikilink"), [Critical Check](DamageFormula.md#2:_Critical_Hit_Check) |
-| B            | [Physical Accuracy](FF7/DamageFormula#0:_Physical_Accuracy_Check "wikilink")                                                                       |
-| C            | None (always hits)                                                                                                                                 |
-| D            | None (always hits)                                                                                                                                 |
-| E            | None (always hits)                                                                                                                                 |
-| F            | None (always hits)                                                                                                                                 |
+| Upper Nybble | Functions |
+|----|----|
+| 0 | None (always hits) |
+| 1 | [Physical Accuracy](DamageFormula.md#0:_Physical_Accuracy_Check), [Critical Check](DamageFormula.md#2:_Critical_Hit_Check) |
+| 2 | [Magical Accuracy](DamageFormula.md#1:_Magical_Accuracy_Check) |
+| 3 | Dummy \[3\] (always hits) |
+| 4 | Dummy \[4\] (always hits) |
+| 5 | Dummy \[5\] (always hits) |
+| 6 | [Physical Accuracy](DamageFormula.md#0:_Physical_Accuracy_Check), [Critical Check](DamageFormula.md#2:_Critical_Hit_Check) |
+| 7 | [Magical Accuracy](DamageFormula.md#1:_Magical_Accuracy_Check) |
+| 8 | [Level-based Accuracy](DamageFormula.md#7:_Level-based_Accuracy) |
+| 9 | [Manipulate](DamageFormula.md#6:_Manipulate_Accuracy_.28intended_solely_for_playable_characters.29) |
+| A | [Physical Accuracy](FF7/DamageFormula#0:_Physical_Accuracy_Check "wikilink"), [Critical Check](DamageFormula.md#2:_Critical_Hit_Check) |
+| B | [Physical Accuracy](FF7/DamageFormula#0:_Physical_Accuracy_Check "wikilink") |
+| C | None (always hits) |
+| D | None (always hits) |
+| E | None (always hits) |
+| F | None (always hits) |
 
 # Damage Calculations
 
@@ -409,7 +409,7 @@ The point of these is to set the "attack will miss" flag in the current action m
         Set Miss flag
     End If
 
-#### Check\_For\_Cover
+#### Check_For_Cover
 
 `   This is where the game checks if the target is covered under a "cover"ing ally.`  
 `   It only applies to Player Characters`  

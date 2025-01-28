@@ -2,9 +2,9 @@
 title: 34_PDIRA
 ---
 
--   Opcode: **0x34**
--   Short name: **PDIRA**
--   Long name: Face Party Member
+- Opcode: **0x34**
+- Short name: **PDIRA**
+- Long name: Face Party Member
 
 #### Memory layout
 
@@ -13,7 +13,7 @@ title: 34_PDIRA
 
 #### Arguments
 
--   **const UByte** *C*: Character ID to face.
+- **const UByte** *C*: Character ID to face.
 
 #### Description
 

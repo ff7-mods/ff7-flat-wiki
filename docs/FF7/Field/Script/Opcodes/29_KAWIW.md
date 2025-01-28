@@ -2,9 +2,9 @@
 title: 29_KAWIW
 ---
 
--   Opcode: **0x29**
--   Short name: **KAWIW**
--   Long name: Wait For Kawai
+- Opcode: **0x29**
+- Short name: **KAWIW**
+- Long name: Wait For Kawai
 
 #### Memory layout
 

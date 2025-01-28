@@ -2,9 +2,9 @@
 title: FF_CLITM
 ---
 
--   Opcode: **0x0FFF**
--   Short name: **SPECIAL: CLITM**
--   Long name: Special: Clear Items
+- Opcode: **0x0FFF**
+- Short name: **SPECIAL: CLITM**
+- Long name: Special: Clear Items
 
 #### Memory layout
 

@@ -2,9 +2,9 @@
 title: 86_PLUS2
 ---
 
--   Opcode: **0x86**
--   Short name: **PLUS2**
--   Long name: Addition (16-bit)
+- Opcode: **0x86**
+- Short name: **PLUS2**
+- Long name: Addition (16-bit)
 
 #### Memory layout
 
@@ -13,10 +13,10 @@ title: 86_PLUS2
 
 #### Arguments
 
--   **const Bit\[4\]** *D*: Destination bank
--   **const Bit\[4\]** *S*: Source bank
--   **const UByte** *Dest*: The destination variable, to which the operand is added.
--   **const SWord** *Oper*: The operand, added to the destination.
+- **const Bit\[4\]** *D*: Destination bank
+- **const Bit\[4\]** *S*: Source bank
+- **const UByte** *Dest*: The destination variable, to which the operand is added.
+- **const SWord** *Oper*: The operand, added to the destination.
 
 #### Description
 

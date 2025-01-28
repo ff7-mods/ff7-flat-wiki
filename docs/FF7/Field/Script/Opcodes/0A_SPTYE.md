@@ -2,9 +2,9 @@
 title: 0A_SPTYE
 ---
 
--   Opcode: **0x0A**
--   Short name: **SPTYE**
--   Long name: Set Party From Memory
+- Opcode: **0x0A**
+- Short name: **SPTYE**
+- Long name: Set Party From Memory
 
 #### Memory layout
 
@@ -13,13 +13,13 @@ title: 0A_SPTYE
 
 #### Arguments
 
--   **const Bit\[4\]** *B1*: Bank for first party member.
--   **const Bit\[4\]** *B2*: Bank for second party member.
--   **const Bit\[4\]** *B3*: Bank for third party member.
--   **const Bit\[4\]** *0*: Zero.
--   **const UByte** *A1*: Address for first party member.
--   **const UByte** *A2*: Address for second party member.
--   **const UByte** *A3*: Address for third party member.
+- **const Bit\[4\]** *B1*: Bank for first party member.
+- **const Bit\[4\]** *B2*: Bank for second party member.
+- **const Bit\[4\]** *B3*: Bank for third party member.
+- **const Bit\[4\]** *0*: Zero.
+- **const UByte** *A1*: Address for first party member.
+- **const UByte** *A2*: Address for second party member.
+- **const UByte** *A3*: Address for third party member.
 
 #### Description
 

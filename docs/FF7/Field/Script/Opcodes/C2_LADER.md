@@ -2,9 +2,9 @@
 title: C2_LADER
 ---
 
--   Opcode: **0xC2**
--   Short name: **LADER**
--   Long name: Ladder
+- Opcode: **0xC2**
+- Short name: **LADER**
+- Long name: Ladder
 
 #### Memory layout
 
@@ -13,18 +13,18 @@ title: C2_LADER
 
 #### Arguments
 
--   **const Bit\[4\]** *B1*: Bank to retrieve X-coordinate, or zero if *X* is specified as a literal value.
--   **const Bit\[4\]** *B2*: Bank to retrieve Y-coordinate, or zero if *Y* is specified as a literal value.
--   **const Bit\[4\]** *B3*: Bank to retrieve Z-coordinate, or zero if *Z* is specified as a literal value.
--   **const Bit\[4\]** *B4*: Bank to retrieve ID, or zero if *I* is specified as a literal value.
--   **const Short** *X*: X-coordinate of the end of the ladder, or address to find X-coordinate if *B1* is non-zero.
--   **const Short** *Y*: Y-coordinate of the end of the ladder, or address to find Y-coordinate if *B2* is non-zero.
--   **const Short** *Z*: Z-coordinate of the end of the ladder, or address to find Z-coordinate if *B3* is non-zero.
--   **const UShort** *I*: ID of the walkmesh triangle found at the end of the ladder, or address to find ID if *B4* is non-zero.
--   **const UByte** *K*: The keys used to move the character on the ladder.
--   **const UByte** *A*: Animation ID for the field object's movement animation.
--   **const UByte** *D*: Direction the character faces when climbing the ladder.
--   **const UByte** *S*: Speed of the animation whilst climbing the ladder.
+- **const Bit\[4\]** *B1*: Bank to retrieve X-coordinate, or zero if *X* is specified as a literal value.
+- **const Bit\[4\]** *B2*: Bank to retrieve Y-coordinate, or zero if *Y* is specified as a literal value.
+- **const Bit\[4\]** *B3*: Bank to retrieve Z-coordinate, or zero if *Z* is specified as a literal value.
+- **const Bit\[4\]** *B4*: Bank to retrieve ID, or zero if *I* is specified as a literal value.
+- **const Short** *X*: X-coordinate of the end of the ladder, or address to find X-coordinate if *B1* is non-zero.
+- **const Short** *Y*: Y-coordinate of the end of the ladder, or address to find Y-coordinate if *B2* is non-zero.
+- **const Short** *Z*: Z-coordinate of the end of the ladder, or address to find Z-coordinate if *B3* is non-zero.
+- **const UShort** *I*: ID of the walkmesh triangle found at the end of the ladder, or address to find ID if *B4* is non-zero.
+- **const UByte** *K*: The keys used to move the character on the ladder.
+- **const UByte** *A*: Animation ID for the field object's movement animation.
+- **const UByte** *D*: Direction the character faces when climbing the ladder.
+- **const UByte** *S*: Speed of the animation whilst climbing the ladder.
 
 #### Description
 

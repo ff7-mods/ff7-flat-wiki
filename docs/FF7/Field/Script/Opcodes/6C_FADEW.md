@@ -2,9 +2,9 @@
 title: 6C_FADEW
 ---
 
--   Opcode: **0x6C**
--   Short name: **FADEW**
--   Long name: Wait for fade
+- Opcode: **0x6C**
+- Short name: **FADEW**
+- Long name: Wait for fade
 
 #### Memory layout
 

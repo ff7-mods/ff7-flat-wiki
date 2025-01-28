@@ -2,9 +2,9 @@
 title: 45_MPu
 ---
 
--   Opcode: **0x45**
--   Short name: **MPu**
--   Long name: MP Up
+- Opcode: **0x45**
+- Short name: **MPu**
+- Long name: MP Up
 
 #### Memory layout
 
@@ -13,9 +13,9 @@ title: 45_MPu
 
 #### Arguments
 
--   **const UByte** *B*: Bank to retrieve value for increasing, or zero if the amount is specified by a constant in *V*.
--   **const UByte** *P*: Party member whose MP will increase (0 to 2).
--   **const UShort** *V*: Value to increase MP by, or address to retrieve value from if *B* is non-zero.
+- **const UByte** *B*: Bank to retrieve value for increasing, or zero if the amount is specified by a constant in *V*.
+- **const UByte** *P*: Party member whose MP will increase (0 to 2).
+- **const UShort** *V*: Value to increase MP by, or address to retrieve value from if *B* is non-zero.
 
 #### Description
 

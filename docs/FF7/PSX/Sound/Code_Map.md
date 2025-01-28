@@ -4,49 +4,284 @@ title: Code_Map
 
 # Code Map
 
-Introduces functions, variables and data related to sound, contained in SCUS\_941.63 (game program of US version). Note that all symbol names below are for convenience only.
+Introduces functions, variables and data related to sound, contained in SCUS_941.63 (game program of US version). Note that all symbol names below are for convenience only.
 
-<table><thead><tr class="header"><th><p>PSX Address</p></th><th><p>Declaration</p></th><th><p>Description</p></th></tr></thead><tbody><tr class="odd"><td><p>0x800293D0</p></td><td><p>void _AkaoSpuTransferCallback(void)</p></td><td></td></tr><tr class="even"><td><p>0x800293F4</p></td><td><p>void _AkaoSpuSetTransferCallback(void)</p></td><td></td></tr><tr class="odd"><td><p>0x80029424</p></td><td><p>unsigned int _AkaoTransferSamples(const unsigned char *addr, unsigned int size)</p></td><td></td></tr><tr class="even"><td><p>0x800294A4</p></td><td><p>void _AkaoWaitForSpuTransfer(void)</p></td><td></td></tr><tr class="odd"><td><p>0x800294BC</p></td><td><p>void _AkaoReset(void)</p></td><td></td></tr><tr class="even"><td><p>0x800297A4</p></td><td><p>void AkaoLoadInstrumentSet(const sturct AkaoSampleSet *sampleSet, const struct AkaoInstrumentAttr *instrumentSet)</p></td><td><p>Load standard instrument set</p><p><em>sampleSet</em>: corresponding to SOUND/INSTR.ALL</p><p><em>instrumentSet</em>: corresponding to SOUND/INSTR.DAT</p><p>This function is called transparently from 0x8002988C.</p></td></tr><tr class="odd"><td><p>0x80029818</p></td><td><p>void AkaoLoadInstrumentSet2(const sturct AkaoSampleSet *sampleSet, const struct AkaoInstrumentAttr *instrumentSet)</p></td><td><p>Load additional instrument set</p><p><em>sampleSet</em>: corresponding to SOUND/INSTR2.ALL</p><p><em>instrumentSet</em>: corresponding to SOUND/INSTR2.DAT</p></td></tr><tr class="even"><td><p>0x8002988C</p></td><td><p>void AkaoInitialize(const sturct AkaoSampleSet *sampleSet, const struct AkaoInstrumentAttr *instrumentSet)</p></td><td><p>Initialize sound driver and load initial instruments</p><p><em>sampleSet</em>: corresponding to SOUND/INSTR.ALL</p><p><em>instrumentSet</em>: corresponding to SOUND/INSTR.DAT</p></td></tr><tr class="odd"><td><p>0x800299C8</p></td><td><p>void AkaoDeinitialize(void)</p></td><td><p>Deinitialize sound driver</p></td></tr><tr class="even"><td><p>0x80029AF0</p></td><td><p>void AkaoSetReverbMode(int mode)</p></td><td></td></tr><tr class="odd"><td><p>0x80029B78</p></td><td><p>void _AkaoTransferSeqBody(const unsigned char *data, int size)</p></td><td></td></tr><tr class="even"><td><p>0x80029C48</p></td><td><p>void _AkaoLoadTracks(void)</p></td><td></td></tr><tr class="odd"><td><p>0x8002DA30</p></td><td><p>void AkaoNewMessage(struct AkaoMessage **ppMessage)</p></td><td></td></tr><tr class="even"><td><p>0x8002DA7C</p></td><td><p>int AkaoPostMessage(void)</p></td><td><p>Post a new command message to the queue (with some wrapped processing)</p><p>The message data comes from a global variable at 0x8009A000.</p><p>Return value depends on the content of the message data.</p><p><strong>Opcode 0x10</strong></p><p>Load and start playing new <a href="AKAO_sequence.md" title="wikilink">AKAO sequence</a></p><p>Returns: 0 for success, 1 for already loaded, and -1 for invalid signature</p><p><strong>Opcode 0x92</strong></p><p>Set value to the condition variable used by Opcode 0xEF.</p></td></tr><tr class="odd"><td><p>0x8002E1A8</p></td><td><p>void _AkaoDispatchMessages(void)</p></td><td></td></tr><tr class="even"><td><p>0x8002E23C</p></td><td><p>void _AkaoWriteSpuRegisters(int voiceNum, struct AkaoSpuVoiceAttr *attr)</p></td><td></td></tr><tr class="odd"><td><p>0x8002E478</p></td><td><p>void _AkaoDspOnTick(struct AkaoPlayerTrack *track, struct AkaoPlayer *player, int voiceMask)</p></td><td></td></tr><tr class="even"><td><p>0x8002ED34</p></td><td><p>void _AkaoCalculateVolumeAndPitch(struct AkaoPlayerTrack *track, int voiceMask, int voiceNum)</p></td><td></td></tr><tr class="odd"><td><p>0x8002F24C</p></td><td><p>void _AkaoCalculateVolumeAndPitch2(struct AkaoPlayerTrack *track, int voiceMask)</p></td><td></td></tr><tr class="even"><td><p>0x8002F738</p></td><td><p>void _AkaoDspOverlayVoice(struct AkaoPlayerTrack *track, int unknownVoiceMask, int voiceNum)</p></td><td></td></tr><tr class="odd"><td><p>0x8002F848</p></td><td><p>void _AkaoDspMain(void)</p></td><td></td></tr><tr class="even"><td><p>0x8002FF4C</p></td><td><p>void _AkaoSpuNoiseVoice(void)</p></td><td></td></tr><tr class="odd"><td><p>0x80030038</p></td><td><p>void _AkaoSpuReverbVoice(void)</p></td><td></td></tr><tr class="even"><td><p>0x80030148</p></td><td><p>void _AkaoSpuPitchLFOVoice(void)</p></td><td></td></tr><tr class="odd"><td><p>0x80030234</p></td><td><p>int _AkaoTimerCallback(void)</p></td><td><p>Sound callback event that is periodically triggered by root counter 2</p></td></tr><tr class="even"><td><p>0x800308D4</p></td><td><p>void _AkaoMain(void)</p></td><td></td></tr><tr class="odd"><td><p>0x80030E7C</p></td><td><p>void _AkaoDispatchVoice(struct AkaoPlayerTrack *track, struct AkaoPlayer *player, int voiceMask)</p></td><td><p>Dispatch voice opcodes until the next note or end of track</p></td></tr><tr class="even"><td><p>0x80031820</p></td><td><p>void AkaoSetInstrument(struct AkaoPlayerTrack *track, unsigned short progNumber)</p></td><td></td></tr><tr class="odd"><td><p>0x800318BC</p></td><td><p>int _AkaoReadNextNote(struct AkaoPlayerTrack *track)</p></td><td></td></tr><tr class="even"><td><p>0x80031A70</p></td><td><p>int _AkaoFindNextEndPoint(struct AkaoPlayerTrack *track)</p></td><td></td></tr><tr class="odd"><td><p>0x80049548</p></td><td><p>void (* const MESSAGE_HANDLERS[256])(struct AkaoMessage *)</p></td><td></td></tr><tr class="even"><td><p>0x80049948</p></td><td><p>const unsigned char VOICE_OPCODE_LENGTHS[0x60]</p></td><td><p>Length table for voice opcodes 0xa0-0xff</p><p>0 for end of track and branches</p></td></tr><tr class="odd"><td><p>0x80049AA8</p></td><td><p>void (* const VOICE_OPCODES[0x60])(struct AkaoPlayerTrack *, struct AkaoPlayer *, int)</p></td><td><p>Address table for voice opcodes 0xa0-0xff</p></td></tr><tr class="even"><td><p>0x80049C28</p></td><td><p>const unsigned short DELTA_TIME_TABLE[11];</p></td><td></td></tr><tr class="odd"><td><p>0x80049C44</p></td><td><p>const unsigned short VOLUME_TABLE_L[128]</p></td><td><p>See <a href="Opcodes/0xa8aa.md" title="wikilink">Opcode 0xAA</a> for volume balance calculation</p></td></tr><tr class="even"><td><p>0x80049E44</p></td><td><p>const unsigned short VOLUME_TABLE_R[128]</p></td><td><p>See <a href="Opcodes/0xa8aa.md" title="wikilink">Opcode 0xAA</a> for volume balance calculation</p></td></tr><tr class="odd"><td><p>0x8004A5CC</p></td><td><p>const short *LFO_FORMS[16]</p></td><td></td></tr><tr class="even"><td><p>0x8004A60C</p></td><td><p>const unsigned char EMPTY_ADPCM[32]</p></td><td></td></tr><tr class="odd"><td><p>0x80063010</p></td><td><p>int g_AkaoNumQueuedMessages</p></td><td></td></tr><tr class="even"><td><p>0x80081DC8</p></td><td><p>AkaoMessage g_AkaoMessageQueue[]</p></td><td></td></tr><tr class="odd"><td><p>0x80083580</p></td><td><p>unsigned char g_AkaoSeqData[]</p></td><td><p>RAM area to load AKAO sequence data</p></td></tr><tr class="even"><td><p>0x8009A000</p></td><td><p>AkaoMessage g_AkaoMessage</p></td><td><p>Message data to be posted. Processed by the function 0x8002DA7C</p></td></tr></tbody></table>
+<table>
+<thead>
+<tr>
+<th><p>PSX Address</p></th>
+<th><p>Declaration</p></th>
+<th><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><p>0x800293D0</p></td>
+<td><p>void _AkaoSpuTransferCallback(void)</p></td>
+<td></td>
+</tr>
+<tr>
+<td><p>0x800293F4</p></td>
+<td><p>void _AkaoSpuSetTransferCallback(void)</p></td>
+<td></td>
+</tr>
+<tr>
+<td><p>0x80029424</p></td>
+<td><p>unsigned int _AkaoTransferSamples(const unsigned char *addr, unsigned int size)</p></td>
+<td></td>
+</tr>
+<tr>
+<td><p>0x800294A4</p></td>
+<td><p>void _AkaoWaitForSpuTransfer(void)</p></td>
+<td></td>
+</tr>
+<tr>
+<td><p>0x800294BC</p></td>
+<td><p>void _AkaoReset(void)</p></td>
+<td></td>
+</tr>
+<tr>
+<td><p>0x800297A4</p></td>
+<td><p>void AkaoLoadInstrumentSet(const sturct AkaoSampleSet *sampleSet, const struct AkaoInstrumentAttr *instrumentSet)</p></td>
+<td><p>Load standard instrument set</p>
+<p><em>sampleSet</em>: corresponding to SOUND/INSTR.ALL</p>
+<p><em>instrumentSet</em>: corresponding to SOUND/INSTR.DAT</p>
+<p>This function is called transparently from 0x8002988C.</p></td>
+</tr>
+<tr>
+<td><p>0x80029818</p></td>
+<td><p>void AkaoLoadInstrumentSet2(const sturct AkaoSampleSet *sampleSet, const struct AkaoInstrumentAttr *instrumentSet)</p></td>
+<td><p>Load additional instrument set</p>
+<p><em>sampleSet</em>: corresponding to SOUND/INSTR2.ALL</p>
+<p><em>instrumentSet</em>: corresponding to SOUND/INSTR2.DAT</p></td>
+</tr>
+<tr>
+<td><p>0x8002988C</p></td>
+<td><p>void AkaoInitialize(const sturct AkaoSampleSet *sampleSet, const struct AkaoInstrumentAttr *instrumentSet)</p></td>
+<td><p>Initialize sound driver and load initial instruments</p>
+<p><em>sampleSet</em>: corresponding to SOUND/INSTR.ALL</p>
+<p><em>instrumentSet</em>: corresponding to SOUND/INSTR.DAT</p></td>
+</tr>
+<tr>
+<td><p>0x800299C8</p></td>
+<td><p>void AkaoDeinitialize(void)</p></td>
+<td><p>Deinitialize sound driver</p></td>
+</tr>
+<tr>
+<td><p>0x80029AF0</p></td>
+<td><p>void AkaoSetReverbMode(int mode)</p></td>
+<td></td>
+</tr>
+<tr>
+<td><p>0x80029B78</p></td>
+<td><p>void _AkaoTransferSeqBody(const unsigned char *data, int size)</p></td>
+<td></td>
+</tr>
+<tr>
+<td><p>0x80029C48</p></td>
+<td><p>void _AkaoLoadTracks(void)</p></td>
+<td></td>
+</tr>
+<tr>
+<td><p>0x8002DA30</p></td>
+<td><p>void AkaoNewMessage(struct AkaoMessage **ppMessage)</p></td>
+<td></td>
+</tr>
+<tr>
+<td><p>0x8002DA7C</p></td>
+<td><p>int AkaoPostMessage(void)</p></td>
+<td><p>Post a new command message to the queue (with some wrapped processing)</p>
+<p>The message data comes from a global variable at 0x8009A000.</p>
+<p>Return value depends on the content of the message data.</p>
+<p><strong>Opcode 0x10</strong></p>
+<p>Load and start playing new <a href="AKAO_sequence.md" title="wikilink">AKAO sequence</a></p>
+<p>Returns: 0 for success, 1 for already loaded, and -1 for invalid signature</p>
+<p><strong>Opcode 0x92</strong></p>
+<p>Set value to the condition variable used by Opcode 0xEF.</p></td>
+</tr>
+<tr>
+<td><p>0x8002E1A8</p></td>
+<td><p>void _AkaoDispatchMessages(void)</p></td>
+<td></td>
+</tr>
+<tr>
+<td><p>0x8002E23C</p></td>
+<td><p>void _AkaoWriteSpuRegisters(int voiceNum, struct AkaoSpuVoiceAttr *attr)</p></td>
+<td></td>
+</tr>
+<tr>
+<td><p>0x8002E478</p></td>
+<td><p>void _AkaoDspOnTick(struct AkaoPlayerTrack *track, struct AkaoPlayer *player, int voiceMask)</p></td>
+<td></td>
+</tr>
+<tr>
+<td><p>0x8002ED34</p></td>
+<td><p>void _AkaoCalculateVolumeAndPitch(struct AkaoPlayerTrack *track, int voiceMask, int voiceNum)</p></td>
+<td></td>
+</tr>
+<tr>
+<td><p>0x8002F24C</p></td>
+<td><p>void _AkaoCalculateVolumeAndPitch2(struct AkaoPlayerTrack *track, int voiceMask)</p></td>
+<td></td>
+</tr>
+<tr>
+<td><p>0x8002F738</p></td>
+<td><p>void _AkaoDspOverlayVoice(struct AkaoPlayerTrack *track, int unknownVoiceMask, int voiceNum)</p></td>
+<td></td>
+</tr>
+<tr>
+<td><p>0x8002F848</p></td>
+<td><p>void _AkaoDspMain(void)</p></td>
+<td></td>
+</tr>
+<tr>
+<td><p>0x8002FF4C</p></td>
+<td><p>void _AkaoSpuNoiseVoice(void)</p></td>
+<td></td>
+</tr>
+<tr>
+<td><p>0x80030038</p></td>
+<td><p>void _AkaoSpuReverbVoice(void)</p></td>
+<td></td>
+</tr>
+<tr>
+<td><p>0x80030148</p></td>
+<td><p>void _AkaoSpuPitchLFOVoice(void)</p></td>
+<td></td>
+</tr>
+<tr>
+<td><p>0x80030234</p></td>
+<td><p>int _AkaoTimerCallback(void)</p></td>
+<td><p>Sound callback event that is periodically triggered by root counter 2</p></td>
+</tr>
+<tr>
+<td><p>0x800308D4</p></td>
+<td><p>void _AkaoMain(void)</p></td>
+<td></td>
+</tr>
+<tr>
+<td><p>0x80030E7C</p></td>
+<td><p>void _AkaoDispatchVoice(struct AkaoPlayerTrack *track, struct AkaoPlayer *player, int voiceMask)</p></td>
+<td><p>Dispatch voice opcodes until the next note or end of track</p></td>
+</tr>
+<tr>
+<td><p>0x80031820</p></td>
+<td><p>void AkaoSetInstrument(struct AkaoPlayerTrack *track, unsigned short progNumber)</p></td>
+<td></td>
+</tr>
+<tr>
+<td><p>0x800318BC</p></td>
+<td><p>int _AkaoReadNextNote(struct AkaoPlayerTrack *track)</p></td>
+<td></td>
+</tr>
+<tr>
+<td><p>0x80031A70</p></td>
+<td><p>int _AkaoFindNextEndPoint(struct AkaoPlayerTrack *track)</p></td>
+<td></td>
+</tr>
+<tr>
+<td><p>0x80049548</p></td>
+<td><p>void (* const MESSAGE_HANDLERS[256])(struct AkaoMessage *)</p></td>
+<td></td>
+</tr>
+<tr>
+<td><p>0x80049948</p></td>
+<td><p>const unsigned char VOICE_OPCODE_LENGTHS[0x60]</p></td>
+<td><p>Length table for voice opcodes 0xa0-0xff</p>
+<p>0 for end of track and branches</p></td>
+</tr>
+<tr>
+<td><p>0x80049AA8</p></td>
+<td><p>void (* const VOICE_OPCODES[0x60])(struct AkaoPlayerTrack *, struct AkaoPlayer *, int)</p></td>
+<td><p>Address table for voice opcodes 0xa0-0xff</p></td>
+</tr>
+<tr>
+<td><p>0x80049C28</p></td>
+<td><p>const unsigned short DELTA_TIME_TABLE[11];</p></td>
+<td></td>
+</tr>
+<tr>
+<td><p>0x80049C44</p></td>
+<td><p>const unsigned short VOLUME_TABLE_L[128]</p></td>
+<td><p>See <a href="Opcodes/0xa8aa.md" title="wikilink">Opcode 0xAA</a> for volume balance calculation</p></td>
+</tr>
+<tr>
+<td><p>0x80049E44</p></td>
+<td><p>const unsigned short VOLUME_TABLE_R[128]</p></td>
+<td><p>See <a href="Opcodes/0xa8aa.md" title="wikilink">Opcode 0xAA</a> for volume balance calculation</p></td>
+</tr>
+<tr>
+<td><p>0x8004A5CC</p></td>
+<td><p>const short *LFO_FORMS[16]</p></td>
+<td></td>
+</tr>
+<tr>
+<td><p>0x8004A60C</p></td>
+<td><p>const unsigned char EMPTY_ADPCM[32]</p></td>
+<td></td>
+</tr>
+<tr>
+<td><p>0x80063010</p></td>
+<td><p>int g_AkaoNumQueuedMessages</p></td>
+<td></td>
+</tr>
+<tr>
+<td><p>0x80081DC8</p></td>
+<td><p>AkaoMessage g_AkaoMessageQueue[]</p></td>
+<td></td>
+</tr>
+<tr>
+<td><p>0x80083580</p></td>
+<td><p>unsigned char g_AkaoSeqData[]</p></td>
+<td><p>RAM area to load AKAO sequence data</p></td>
+</tr>
+<tr>
+<td><p>0x8009A000</p></td>
+<td><p>AkaoMessage g_AkaoMessage</p></td>
+<td><p>Message data to be posted. Processed by the function 0x8002DA7C</p></td>
+</tr>
+</tbody>
+</table>
 
 ## Runtime Library Functions
 
 ### LIBSPU
 
-| PSX Address | Declaration                                                                                      | Description |
-|-------------|--------------------------------------------------------------------------------------------------|-------------|
-| 0x80036298  | void SpuInit(void)                                                                               |             |
-| 0x80036FFC  | long SpuInitMalloc(long num, char \*top)                                                         |             |
-| 0x800373AC  | long SpuMallocWithStartAddr(unsigned long addr, long size)                                       |             |
-| 0x80037964  | unsigned long SpuSetNoiseVoice(long on\_off, unsigned long voice\_bit)                           |             |
-| 0x80037B90  | long SpuSetNoiseClock(long n\_clock)                                                             |             |
-| 0x80037BE0  | unsigned long SpuRead(unsigned char \*addr, unsigned long size)                                  |             |
-| 0x80037C40  | long SpuSetReverb(long on\_off)                                                                  |             |
-| 0x80037D90  | long SpuGetReverb(void)                                                                          |             |
-| 0x80037E1C  | long SpuSetReverbModeParam(SpuReverbAttr \*attr)                                                 |             |
-| 0x800387FC  | void SpuGetReverbModeParam (SpuReverbAttr \*attr)                                                |             |
-| 0x8003884C  | long SpuSetReverbDepth(SpuReverbAttr \*attr)                                                     |             |
-| 0x800388C4  | unsigned long SpuSetReverbVoice(long on\_off, unsigned long voice\_bit)                          |             |
-| 0x800388E8  | long SpuClearReverbWorkArea(long mode)                                                           |             |
-| 0x80038A84  | long SpuSetIRQ(long on\_off)                                                                     |             |
-| 0x80038BC4  | unsigned long SpuSetIRQAddr(unsigned long addr)                                                  |             |
-| 0x80038C04  | SpuIRQCallbackProc SpuSetIRQCallback(SpuIRQCallbackProc func)                                    |             |
-| 0x80038C6C  | void SpuSetKey(long on\_off, unsigned long voice\_bit)                                           |             |
-| 0x80038F04  | unsigned long SpuWrite(unsigned char \*addr, unsigned long size)                                 |             |
-| 0x80038F64  | unsigned long SpuSetTransferStartAddr(unsigned long addr)                                        |             |
-| 0x80038FB8  | long SpuSetTransferMode(long mode)                                                               |             |
-| 0x80038FEC  | SpuTransferCallbackProc SpuSetTransferCallback(SpuTransferCallbackProc func)                     |             |
-| 0x80039010  | unsigned long SpuSetPitchLFOVoice(long on\_off, unsigned long voice\_bit)                        |             |
-| 0x80039034  | void SpuSetCommonAttr(SpuCommonAttr \*attr)                                                      |             |
-| 0x800393C8  | void SpuSetVoiceVolume(int voiceNum, short volL, short volR)                                     |             |
-| 0x80039450  | void SpuSetVoiceVolumeAttr(int voiceNum, short volL, short volR, short volModeL, short volModeR) |             |
-| 0x800395C8  | void SpuSetVoicePitch(int voiceNum, unsigned short pitch)                                        |             |
-| 0x80039644  | void SpuSetVoiceStartAddr(int voiceNum, unsigned long startAddr)                                 |             |
-| 0x800396C0  | void SpuSetVoiceLoopStartAddr(int voiceNum, unsigned long lsa)                                   |             |
-| 0x8003973C  | void SpuSetVoiceDR(int voiceNum, unsigned short DR)                                              |             |
-| 0x800397C8  | void SpuSetVoiceSL(int voiceNum, unsigned short SL)                                              |             |
-| 0x80039850  | void SpuSetVoiceARAttr(int voiceNum, unsigned short AR, long ARmode)                             |             |
-| 0x800398EC  | void SpuSetVoiceSRAttr(int voiceNum, unsigned short SR, long SRmode)                             |             |
-| 0x800399D0  | void SpuSetVoiceRRAttr(int voiceNum, unsigned short RR, long RRmode)                             |             |
+| PSX Address | Declaration | Description |
+|----|----|----|
+| 0x80036298 | void SpuInit(void) |  |
+| 0x80036FFC | long SpuInitMalloc(long num, char \*top) |  |
+| 0x800373AC | long SpuMallocWithStartAddr(unsigned long addr, long size) |  |
+| 0x80037964 | unsigned long SpuSetNoiseVoice(long on_off, unsigned long voice_bit) |  |
+| 0x80037B90 | long SpuSetNoiseClock(long n_clock) |  |
+| 0x80037BE0 | unsigned long SpuRead(unsigned char \*addr, unsigned long size) |  |
+| 0x80037C40 | long SpuSetReverb(long on_off) |  |
+| 0x80037D90 | long SpuGetReverb(void) |  |
+| 0x80037E1C | long SpuSetReverbModeParam(SpuReverbAttr \*attr) |  |
+| 0x800387FC | void SpuGetReverbModeParam (SpuReverbAttr \*attr) |  |
+| 0x8003884C | long SpuSetReverbDepth(SpuReverbAttr \*attr) |  |
+| 0x800388C4 | unsigned long SpuSetReverbVoice(long on_off, unsigned long voice_bit) |  |
+| 0x800388E8 | long SpuClearReverbWorkArea(long mode) |  |
+| 0x80038A84 | long SpuSetIRQ(long on_off) |  |
+| 0x80038BC4 | unsigned long SpuSetIRQAddr(unsigned long addr) |  |
+| 0x80038C04 | SpuIRQCallbackProc SpuSetIRQCallback(SpuIRQCallbackProc func) |  |
+| 0x80038C6C | void SpuSetKey(long on_off, unsigned long voice_bit) |  |
+| 0x80038F04 | unsigned long SpuWrite(unsigned char \*addr, unsigned long size) |  |
+| 0x80038F64 | unsigned long SpuSetTransferStartAddr(unsigned long addr) |  |
+| 0x80038FB8 | long SpuSetTransferMode(long mode) |  |
+| 0x80038FEC | SpuTransferCallbackProc SpuSetTransferCallback(SpuTransferCallbackProc func) |  |
+| 0x80039010 | unsigned long SpuSetPitchLFOVoice(long on_off, unsigned long voice_bit) |  |
+| 0x80039034 | void SpuSetCommonAttr(SpuCommonAttr \*attr) |  |
+| 0x800393C8 | void SpuSetVoiceVolume(int voiceNum, short volL, short volR) |  |
+| 0x80039450 | void SpuSetVoiceVolumeAttr(int voiceNum, short volL, short volR, short volModeL, short volModeR) |  |
+| 0x800395C8 | void SpuSetVoicePitch(int voiceNum, unsigned short pitch) |  |
+| 0x80039644 | void SpuSetVoiceStartAddr(int voiceNum, unsigned long startAddr) |  |
+| 0x800396C0 | void SpuSetVoiceLoopStartAddr(int voiceNum, unsigned long lsa) |  |
+| 0x8003973C | void SpuSetVoiceDR(int voiceNum, unsigned short DR) |  |
+| 0x800397C8 | void SpuSetVoiceSL(int voiceNum, unsigned short SL) |  |
+| 0x80039850 | void SpuSetVoiceARAttr(int voiceNum, unsigned short AR, long ARmode) |  |
+| 0x800398EC | void SpuSetVoiceSRAttr(int voiceNum, unsigned short SR, long SRmode) |  |
+| 0x800399D0 | void SpuSetVoiceRRAttr(int voiceNum, unsigned short RR, long RRmode) |  |
 
 ### LIBETC
 
@@ -59,18 +294,18 @@ Introduces functions, variables and data related to sound, contained in SCUS\_94
 
 ### LIBAPI
 
-| PSX Address | Declaration                                                               | Description |
-|-------------|---------------------------------------------------------------------------|-------------|
-| 0x800429F0  | void DeliverEvent(unsigned long ev1, unsigned long ev2)                   |             |
-| 0x80042A00  | long OpenEvent(unsigned long desc, long spec, long mode, long (\*func)()) |             |
-| 0x80042A10  | long CloseEvent(long event)                                               |             |
-| 0x80042A20  | long WaitEvent(long event)                                                |             |
-| 0x80042A40  | long EnableEvent(long event)                                              |             |
-| 0x80042A50  | long DisableEvent(long event)                                             |             |
-| 0x80042BC0  | long SetRCnt(unsigned long spec, unsigned short target, long mode)        |             |
-| 0x80042C60  | long GetRCnt(unsigned long spec)                                          |             |
-| 0x80042C98  | long StartRCnt(unsigned long spec)                                        |             |
-| 0x80042CCC  | long StopRCnt(unsigned long spec)                                         |             |
+| PSX Address | Declaration | Description |
+|----|----|----|
+| 0x800429F0 | void DeliverEvent(unsigned long ev1, unsigned long ev2) |  |
+| 0x80042A00 | long OpenEvent(unsigned long desc, long spec, long mode, long (\*func)()) |  |
+| 0x80042A10 | long CloseEvent(long event) |  |
+| 0x80042A20 | long WaitEvent(long event) |  |
+| 0x80042A40 | long EnableEvent(long event) |  |
+| 0x80042A50 | long DisableEvent(long event) |  |
+| 0x80042BC0 | long SetRCnt(unsigned long spec, unsigned short target, long mode) |  |
+| 0x80042C60 | long GetRCnt(unsigned long spec) |  |
+| 0x80042C98 | long StartRCnt(unsigned long spec) |  |
+| 0x80042CCC | long StopRCnt(unsigned long spec) |  |
 
 # Structures
 

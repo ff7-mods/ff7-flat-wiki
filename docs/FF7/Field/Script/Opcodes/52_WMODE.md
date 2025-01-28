@@ -2,9 +2,9 @@
 title: 52_WMODE
 ---
 
--   Opcode: **0x52**
--   Short name: **WMODE**
--   Long name: Window Mode
+- Opcode: **0x52**
+- Short name: **WMODE**
+- Long name: Window Mode
 
 #### Memory layout
 
@@ -13,9 +13,9 @@ title: 52_WMODE
 
 #### Arguments
 
--   **const UByte** *N*: The ID of the window whose mode will be set.
--   **const UByte** *M*: Mode of the window.
--   **const UByte** *C*: Window permanency.
+- **const UByte** *N*: The ID of the window whose mode will be set.
+- **const UByte** *M*: Mode of the window.
+- **const UByte** *C*: Window permanency.
 
 #### Description
 

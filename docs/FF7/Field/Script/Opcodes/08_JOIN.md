@@ -2,9 +2,9 @@
 title: 08_JOIN
 ---
 
--   Opcode: **0x08**
--   Short name: **JOIN**
--   Long name: Party Field Join
+- Opcode: **0x08**
+- Short name: **JOIN**
+- Long name: Party Field Join
 
 #### Memory layout
 
@@ -13,7 +13,7 @@ title: 08_JOIN
 
 #### Arguments
 
--   **const UByte** *S*: Speed that the characters join back together.
+- **const UByte** *S*: Speed that the characters join back together.
 
 #### Description
 

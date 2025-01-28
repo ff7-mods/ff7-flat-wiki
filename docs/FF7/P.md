@@ -10,7 +10,10 @@ P-files are used as parts of field models, battle models, battle locations on PC
 
 *Feel free to add more information.*
 
-![](../assets/Ff7field3dfiles.png)
+<figure>
+<img src="Ff7field3dfiles.png" title="Ff7field3dfiles.png" />
+<figcaption>Ff7field3dfiles.png</figcaption>
+</figure>
 
 ------------------------------------------------------------------------
 
@@ -60,12 +63,12 @@ This is a short diagram of the file structure
 
 The .p files have a 128-Byte-long Header. The following is the known structure of the header.
 
-| Off | 00          | 01          | 02               | 03                 | 04  | 05         | 06          | 07  | 08  | 09  | 0A  | 0B  | 0C  | 0D  | 0E  | 0F  |
-|-----|-------------|-------------|------------------|--------------------|-----|------------|-------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-| 00  | Version     | 01          | 00               | 00                 | 00  | VertexType | NumVertices |     |     |     |     |     |     |     |     |     |
-| 10  | NumNormals  | NumUnknown1 | NumTexCoords     | NumVertexColors    |     |            |             |     |     |     |     |     |     |     |     |     |
-| 20  | NumEdges    | NumPolygons | NumUnknown2      | NumUnknown3        |     |            |             |     |     |     |     |     |     |     |     |     |
-| 30  | NumHundreds | NumGroups   | NumBoundingBoxes | NormIndexTableFlag |     |            |             |     |     |     |     |     |     |     |     |     |
+| Off | 00 | 01 | 02 | 03 | 04 | 05 | 06 | 07 | 08 | 09 | 0A | 0B | 0C | 0D | 0E | 0F |
+|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|
+| 00 | Version |  |  |  | 01 | 00 | 00 | 00 | VertexType |  |  |  | NumVertices |  |  |  |
+| 10 | NumNormals |  |  |  | NumUnknown1 |  |  |  | NumTexCoords |  |  |  | NumVertexColors |  |  |  |
+| 20 | NumEdges |  |  |  | NumPolygons |  |  |  | NumUnknown2 |  |  |  | NumUnknown3 |  |  |  |
+| 30 | NumHundreds |  |  |  | NumGroups |  |  |  | NumBoundingBoxes |  |  |  | NormIndexTableFlag |  |  |  |
 
 **Table 1: P File header**
 
@@ -97,18 +100,18 @@ This 64 bytes long header is followed by 64 bytes of runtime data which are to b
 
 Here are the meanings of values from header:
 
-|                  |                                                                                                                                                                                                                                                                                                                     |
-|------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| VertexType       | Specifies the type of vertices this file contains, should always be 1 (which translates into LVERTEX in the D3D driver) 0 translates into VERTEX, which looks the same as LVERTEX but is never used in the original FF7 data. 2 translates into TLVERTEX, you don't want this unless you know exactly what it does. |
-| NumVerts         | Number of Vertices                                                                                                                                                                                                                                                                                                  |
-| NumNormals       | Number of Normals (always 0 in Battle files)                                                                                                                                                                                                                                                                        |
-| NumTexCs         | Number of Texture Coords                                                                                                                                                                                                                                                                                            |
-| NumVertexColors  | Number of Vertex Colors                                                                                                                                                                                                                                                                                             |
-| NumEdges         | Number of Edges                                                                                                                                                                                                                                                                                                     |
-| NumPolys         | Number of Polygons                                                                                                                                                                                                                                                                                                  |
-| NumHundreds      | Number of Hundreds (Someone should really come up with a better name for this)                                                                                                                                                                                                                                      |
-| NumGroups        | Number of Groups                                                                                                                                                                                                                                                                                                    |
-| NumBoundingBoxes | Number of Bounding Boxes                                                                                                                                                                                                                                                                                            |
+|  |  |
+|----|----|
+| VertexType | Specifies the type of vertices this file contains, should always be 1 (which translates into LVERTEX in the D3D driver) 0 translates into VERTEX, which looks the same as LVERTEX but is never used in the original FF7 data. 2 translates into TLVERTEX, you don't want this unless you know exactly what it does. |
+| NumVerts | Number of Vertices |
+| NumNormals | Number of Normals (always 0 in Battle files) |
+| NumTexCs | Number of Texture Coords |
+| NumVertexColors | Number of Vertex Colors |
+| NumEdges | Number of Edges |
+| NumPolys | Number of Polygons |
+| NumHundreds | Number of Hundreds (Someone should really come up with a better name for this) |
+| NumGroups | Number of Groups |
+| NumBoundingBoxes | Number of Bounding Boxes |
 
   
 
@@ -168,10 +171,10 @@ Array of polygon definitions. I know only meaning of values which specify vertex
 `    unsigned short     zero, VertexIndex[3], NormalIndex[3], EdgeIndex[3], u[2];`  
 `} Ppolygon;`
 
-| Off | 00         | 01           | 02           | 03           | 04           | 05           | 06           | 07         | 08  | 09  | 0A  | 0B  | 0C  | 0D  | 0E  | 0F  |
-|-----|------------|--------------|--------------|--------------|--------------|--------------|--------------|------------|-----|-----|-----|-----|-----|-----|-----|-----|
-| 00  | 00 00      | VertexIndex1 | VertexIndex2 | VertexIndex3 | NormalIndex1 | NormalIndex2 | NormalIndex3 | EdgeIndex1 |     |     |     |     |     |     |     |     |
-| 10  | EdgeIndex2 | EdgeIndex3   | u1           | u2           |              |              |              |            |     |     |     |     |     |     |     |     |
+| Off | 00 | 01 | 02 | 03 | 04 | 05 | 06 | 07 | 08 | 09 | 0A | 0B | 0C | 0D | 0E | 0F |
+|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|
+| 00 | 00 00 |  | VertexIndex1 |  | VertexIndex2 |  | VertexIndex3 |  | NormalIndex1 |  | NormalIndex2 |  | NormalIndex3 |  | EdgeIndex1 |  |
+| 10 | EdgeIndex2 |  | EdgeIndex3 |  | u1 |  | u2 |  |  |  |  |  |  |  |  |  |
 
 **Table 1: Structure of single polygon data**
 
@@ -197,12 +200,12 @@ Complex structure that specifies render state (texturing, blend modes, culling, 
 
 ### Groups
 
-| Off | 00              | 01                | 02          | 03                 | 04  | 05  | 06  | 07  | 08  | 09  | 0A  | 0B  | 0C  | 0D  | 0E  | 0F  |
-|-----|-----------------|-------------------|-------------|--------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-| 00  | PrimitiveType   | PolygonStartIndex | NumPolygons | VerticesStartIndex |     |     |     |     |     |     |     |     |     |     |     |     |
-| 10  | NumVertices     | EdgeStartIndex    | NumEdges    | ?                  |     |     |     |     |     |     |     |     |     |     |     |     |
-| 20  | ?               | ?                 | ?           | TexCoordStartIndex |     |     |     |     |     |     |     |     |     |     |     |     |
-| 30  | AreTexturesUsed | TextureNumber     |             |                    |     |     |     |     |     |     |     |     |     |     |     |     |
+| Off | 00 | 01 | 02 | 03 | 04 | 05 | 06 | 07 | 08 | 09 | 0A | 0B | 0C | 0D | 0E | 0F |
+|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|
+| 00 | PrimitiveType |  |  |  | PolygonStartIndex |  |  |  | NumPolygons |  |  |  | VerticesStartIndex |  |  |  |
+| 10 | NumVertices |  |  |  | EdgeStartIndex |  |  |  | NumEdges |  |  |  | ? |  |  |  |
+| 20 | ? |  |  |  | ? |  |  |  | ? |  |  |  | TexCoordStartIndex |  |  |  |
+| 30 | AreTexturesUsed |  |  |  | TextureNumber |  |  |  |  |  |  |  |  |  |  |  |
 
 **Table 1: Structure of single 'groups' record**
 
@@ -228,7 +231,7 @@ Complex structure that specifies render state (texturing, blend modes, culling, 
 
 Section contains array of group information. Each group specifies group of polygons. To read this groupâ€™s geometry you have to read polygons from polygon segment. First polygon is one with index *group.PolygonStartIndex*, number of polygons is defined by *group.NumPolygons*. Polygon has indexes of vertices. These indexes are group-relative and that means that you have to add *group.VerticesStartIndex* to each vertex index. Itâ€™s the same with vertex texture coords. Their indexes are group-relative too, to each index you have to add *group.TexCoordStartIndex*.
 
-If *group.textures\_used* is equal 1 then texture is applied on all polygons of current group. If its 0 there is no texture. If its 1 then *group.TextureNumber* defines which texture to use on polygons. Though, texture name is not specified inside the P-file, it is specified in HRC or DA file, which loads model as a whole ( it points to texture files, P-files, animation files etc.) Size of this section is ( 56 \* NumGroups ).
+If *group.textures_used* is equal 1 then texture is applied on all polygons of current group. If its 0 there is no texture. If its 1 then *group.TextureNumber* defines which texture to use on polygons. Though, texture name is not specified inside the P-file, it is specified in HRC or DA file, which loads model as a whole ( it points to texture files, P-files, animation files etc.) Size of this section is ( 56 \* NumGroups ).
 
 ### Bounding box
 

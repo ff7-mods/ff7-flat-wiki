@@ -2,9 +2,9 @@
 title: 11_JMPFL
 ---
 
--   Opcode: **0x11**
--   Short name: **JMPFL**
--   Long name: Jump forward (long)
+- Opcode: **0x11**
+- Short name: **JMPFL**
+- Long name: Jump forward (long)
 
 #### Memory layout
 
@@ -13,7 +13,7 @@ title: 11_JMPFL
 
 #### Arguments
 
--   **const UShort** *A*: Amount to jump forward.
+- **const UShort** *A*: Amount to jump forward.
 
 #### Description
 

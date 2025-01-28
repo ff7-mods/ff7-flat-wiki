@@ -2,9 +2,9 @@
 title: 7C_DEC!
 ---
 
--   Opcode: **0x7C**
--   Short name: **DEC!**
--   Long name: Saturated Decrement (8-bit)
+- Opcode: **0x7C**
+- Short name: **DEC!**
+- Long name: Saturated Decrement (8-bit)
 
 #### Memory layout
 
@@ -13,8 +13,8 @@ title: 7C_DEC!
 
 #### Arguments
 
--   **const Bit\[4\]** *D*: Destination bank
--   **const UByte** *Dest*: The destination address in the bank where the variable is deccremented.
+- **const Bit\[4\]** *D*: Destination bank
+- **const UByte** *Dest*: The destination address in the bank where the variable is deccremented.
 
 #### Description
 

@@ -2,9 +2,9 @@
 title: 8E_MOD2
 ---
 
--   Opcode: **0x8E**
--   Short name: **MOD2**
--   Long name: Modulus (16-bit)
+- Opcode: **0x8E**
+- Short name: **MOD2**
+- Long name: Modulus (16-bit)
 
 #### Memory layout
 
@@ -13,10 +13,10 @@ title: 8E_MOD2
 
 #### Arguments
 
--   **const Bit\[4\]** *D*: Destination bank
--   **const Bit\[4\]** *S*: Source bank
--   **const UByte** *Dest*: Contains the nominator of the division and receives the remainder.
--   **const SWord** *Den*: The denominator of the division.
+- **const Bit\[4\]** *D*: Destination bank
+- **const Bit\[4\]** *S*: Source bank
+- **const UByte** *Dest*: Contains the nominator of the division and receives the remainder.
+- **const SWord** *Den*: The denominator of the division.
 
 #### Description
 

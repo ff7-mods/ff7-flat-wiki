@@ -2,9 +2,9 @@
 title: 6D_IDLCK
 ---
 
--   Opcode: **0x6D**
--   Short name: **IDLCK**
--   Long name: Triangle Boundary
+- Opcode: **0x6D**
+- Short name: **IDLCK**
+- Long name: Triangle Boundary
 
 #### Memory layout
 
@@ -13,8 +13,8 @@ title: 6D_IDLCK
 
 #### Arguments
 
--   **const UShort** *I*: Triangle ID.
--   **const UByte** *S*: Switch boundary off/on (0/1, respectively).
+- **const UShort** *I*: Triangle ID.
+- **const UByte** *S*: Switch boundary off/on (0/1, respectively).
 
 #### Description
 

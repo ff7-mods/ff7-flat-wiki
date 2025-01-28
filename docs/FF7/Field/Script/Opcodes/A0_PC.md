@@ -2,9 +2,9 @@
 title: A0_PC
 ---
 
--   Opcode: **0xA0**
--   Short name: **PC**
--   Long name: Playable Character
+- Opcode: **0xA0**
+- Short name: **PC**
+- Long name: Playable Character
 
 #### Memory layout
 
@@ -13,7 +13,7 @@ title: A0_PC
 
 #### Arguments
 
--   **const UByte** *C*: Character ID.
+- **const UByte** *C*: Character ID.
 
 #### Description
 

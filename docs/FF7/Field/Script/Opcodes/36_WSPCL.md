@@ -2,9 +2,9 @@
 title: 36_WSPCL
 ---
 
--   Opcode: **0x36**
--   Short name: **WSPCL**
--   Long name: Window Special (Numerical Display)
+- Opcode: **0x36**
+- Short name: **WSPCL**
+- Long name: Window Special (Numerical Display)
 
 #### Memory layout
 
@@ -13,10 +13,10 @@ title: 36_WSPCL
 
 #### Arguments
 
--   **const UByte** *W*: [WINDOW](50_WINDOW.md) ID to apply the change to.
--   **const UByte** *T*: Type of display.
--   **const UByte** *X*: X-coordinate of the numerical display, relative to the top-left of the window.
--   **const UByte** *Y*: Y-coordinate of the numerical display, relative to the top-left of the window.
+- **const UByte** *W*: [WINDOW](50_WINDOW.md) ID to apply the change to.
+- **const UByte** *T*: Type of display.
+- **const UByte** *X*: X-coordinate of the numerical display, relative to the top-left of the window.
+- **const UByte** *Y*: Y-coordinate of the numerical display, relative to the top-left of the window.
 
 #### Description
 

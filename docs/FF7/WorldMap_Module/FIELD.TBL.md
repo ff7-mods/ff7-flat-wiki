@@ -12,15 +12,15 @@ This file contains 64 records of 24 bytes each, they correspond to the 64 WM\* f
 
 ## Structure
 
--   **Short** *X*: X-coordinate of the player on the next field.
--   **Short** *Y*: Y-coordinate of the player on the next field.
--   **Short** *Z*: Z-coordinate of the player on the next field.
--   **UShort** *F*: Field ID of the field to jump to.
--   **UByte** *D*: Direction the character will be facing on the next field, in the standard game format.
--   **3xUByte** *?*: All 3 bytes exactly match the previous byte
+- **Short** *X*: X-coordinate of the player on the next field.
+- **Short** *Y*: Y-coordinate of the player on the next field.
+- **Short** *T*: Triangle ID of the player on the next field.
+- **UShort** *F*: Field ID of the field to jump to.
+- **UByte** *D*: Direction the character will be facing on the next field, in the standard game format.
+- **3xUByte** *?*: All 3 bytes exactly match the previous byte
 
 Offset to scenario record = ((Field Table Id - 1) \* 24) + (Scenario \* 12) Length = ALWAYS 12 bytes
 
 ## Additional Info
 
-Another note of interest: As mentioned, there are 64 entries in FIELD.TBL, which correspond with the 64 WM fields. As known, when transitioning from field maps to the world map, the game uses 64 dummy-type fields to indicate 64 different points of entry (per coordinates) to the world map (some of which are relative coordinates to where you last were on the world map). These are NOT stored in FIELD.TBL. It is also important to note that all entry points map exactly to the exit points; that is, when you are leaving Midgar, you are in map mds5\_5 and it MAPJUMPs to wm0, which puts you on the south side of Midgar, but when you walk into Midgar from the world map, it'll be record 0 in FIELD.TBL, which directs the game to jump to mds5\_5.
+Another note of interest: As mentioned, there are 64 entries in FIELD.TBL, which correspond with the 64 WM fields. As known, when transitioning from field maps to the world map, the game uses 64 dummy-type fields to indicate 64 different points of entry (per coordinates) to the world map (some of which are relative coordinates to where you last were on the world map). These are NOT stored in FIELD.TBL. Instead they are stored in the System function ID 0 in the [worldmap scripts](Script.md#Functions). It is also important to note that all entry points map exactly to the exit points; that is, when you are leaving Midgar, you are in map mds5_5 and it MAPJUMPs to wm0, which puts you on the south side of Midgar, but when you walk into Midgar from the world map, it'll be record 0 in FIELD.TBL, which directs the game to jump to mds5_5.

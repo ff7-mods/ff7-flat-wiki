@@ -30,49 +30,49 @@ The 0004 bit here causes darkness to halve the accuracy byte when the ability da
 
 After testing this significantly, it cannot be determined what this effect is based on a visual inspection. Here is a complete list of attacks that have this property. No enemy exclusive attacks have it.
 
--   Life
--   Life2
--   Confu
--   Haste
--   Slow
--   Death
--   Escape
--   Remove
--   Fire3
--   Ice3
--   Bolt3
--   Quake2
--   Quake3
--   Bio3
--   Demi3
--   FullCure
--   Ultima
--   Choco/Mog
--   Shiva
--   Ifrit
--   Ramuh
--   Titan
--   Odin
--   Leviathan
--   Bahamut
--   Kjata
--   Alexander
--   Phoenix
--   Neo Bahamut
--   Hades
--   Typoon
--   Bahamut ZERO
--   Knights of Round
--   White Wind
--   Big Guard
--   Bad Breath
--   Beta
--   Aqualung
--   Trine
--   Magic Breath
--   Pandora's Box
--   Fat-Chocobo
--   Gunge Lance
+- Life
+- Life2
+- Confu
+- Haste
+- Slow
+- Death
+- Escape
+- Remove
+- Fire3
+- Ice3
+- Bolt3
+- Quake2
+- Quake3
+- Bio3
+- Demi3
+- FullCure
+- Ultima
+- Choco/Mog
+- Shiva
+- Ifrit
+- Ramuh
+- Titan
+- Odin
+- Leviathan
+- Bahamut
+- Kjata
+- Alexander
+- Phoenix
+- Neo Bahamut
+- Hades
+- Typoon
+- Bahamut ZERO
+- Knights of Round
+- White Wind
+- Big Guard
+- Bad Breath
+- Beta
+- Aqualung
+- Trine
+- Magic Breath
+- Pandora's Box
+- Fat-Chocobo
+- Gunge Lance
 
   
 Things it doesn't do:  

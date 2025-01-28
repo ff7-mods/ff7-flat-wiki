@@ -12,25 +12,25 @@ note: [sector](glossary/sector.md) hereon refers to a 2048 byte chunk of the fil
 
 The root directory begins with the following header format
 
-|      Name       | Units/Size | Description                                                   |
-|:---------------:|:----------:|:--------------------------------------------------------------|
-|    Signature    | char\[4\]  | 'FF9'\\0 (signature to indicate it's an FF9 data file likely) |
-|     unknown     |   DWORD    | No information available at this time                         |
-| Directory Count |   DWORD    | This contains the number of directories in the FF9.IMG file.  |
-|     unknown     |   DWORD    | No information available at this time                         |
-|                 |            |                                                               |
+| Name | Units/Size | Description |
+|:--:|:--:|:---|
+| Signature | char\[4\] | 'FF9'\0 (signature to indicate it's an FF9 data file likely) |
+| unknown | DWORD | No information available at this time |
+| Directory Count | DWORD | This contains the number of directories in the FF9.IMG file. |
+| unknown | DWORD | No information available at this time |
+|  |  |  |
 
 ## Root Directory Entries
 
 Following the Root Directory header are the entries for the subdirectories.
 
-|             Name             | Units/Size | Description                                                           |
-|:----------------------------:|:----------:|:----------------------------------------------------------------------|
-|             Type             |   DWORD    | The type of subdirectory this is                                      |
-|          File Count          |   DWORD    | This gives the number of files within the subdirectory.               |
-| Directory Information Sector |   DWORD    | Sector that contains the directory information (IE file sector list). |
-|      First File Sector       |   DWORD    | This points to the sector of the first file (for fast reference?)     |
-|                              |            |                                                                       |
+| Name | Units/Size | Description |
+|:--:|:--:|:---|
+| Type | DWORD | The type of subdirectory this is |
+| File Count | DWORD | This gives the number of files within the subdirectory. |
+| Directory Information Sector | DWORD | Sector that contains the directory information (IE file sector list). |
+| First File Sector | DWORD | This points to the sector of the first file (for fast reference?) |
+|  |  |  |
 
 Directory Types
 

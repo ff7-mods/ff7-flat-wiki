@@ -8,30 +8,30 @@ This file contains a bunch of information about character growth and battles. Ta
 
 #### General data layout
 
-| Offset |    Length     |                                  Description                                  |
-|:------:|:-------------:|:-----------------------------------------------------------------------------:|
-| 0x0000 |   56 bytes    |    Character data: Cloud ([see below](#character-data-record)     |
-| 0x0038 |   56 bytes    |                            Character data: Barret                             |
-| 0x0070 |   56 bytes    |                             Character data: Tifa                              |
-| 0x00A8 |   56 bytes    |                             Character data: Aeris                             |
-| 0x00E0 |   56 bytes    |                           Character data: Red XIII                            |
-| 0x0118 |   56 bytes    |                            Character data: Yuffie                             |
-| 0x0150 |   56 bytes    |                           Character data: Cait Sith                           |
-| 0x0188 |   56 bytes    |                            Character data: Vincent                            |
-| 0x01C0 |   56 bytes    |                              Character data: Cid                              |
-| 0x01F8 |  12 x 1 byte  |                         Random bonus to primary stats                         |
-| 0x0204 |  12 x 1 byte  |                             Random bonus % to HP                              |
-| 0x0210 |  12 x 1 byte  |                             Random bonus % to MP                              |
-| 0x021C | 37 x 16 bytes |    Primary stat curve 0 - 36 ([see below](#stat-curve-record)     |
-| 0x046C | 9 x 16 bytes  |                      HP stat curve 37 - 45 (Base \* 40)                       |
-| 0x04FC | 9 x 16 bytes  |                       MP stat curve 46 - 54 (Base \* 2)                       |
-| 0x058C | 9 x 16 bytes  |            EXP stat curve 55 - 63 (Gradient is quadratic, no Base)            |
-| 0x61C  |  1508 bytes   |        Character AI data ([see below](#character-ai-data)         |
-| 0xC00  |   540 bytes   |                                  FF padding                                   |
-| 0xE1C  |   256 bytes   |         Random number look-up table (all numbers from 0-255 are here)         |
-| 0xF1C  |   64 bytes    |   Scene.bin look-up table ([see below](#scene.bin-look-up-file)   |
-| 0xF5C  |   56 bytes    | Spell order from Magic menu in battles ([see below](#magic-order) |
-|        |               |                                                                               |
+| Offset | Length | Description |
+|:--:|:--:|:--:|
+| 0x0000 | 56 bytes | Character data: Cloud ([see below](#character-data-record) |
+| 0x0038 | 56 bytes | Character data: Barret |
+| 0x0070 | 56 bytes | Character data: Tifa |
+| 0x00A8 | 56 bytes | Character data: Aeris |
+| 0x00E0 | 56 bytes | Character data: Red XIII |
+| 0x0118 | 56 bytes | Character data: Yuffie |
+| 0x0150 | 56 bytes | Character data: Cait Sith |
+| 0x0188 | 56 bytes | Character data: Vincent |
+| 0x01C0 | 56 bytes | Character data: Cid |
+| 0x01F8 | 12 x 1 byte | Random bonus to primary stats |
+| 0x0204 | 12 x 1 byte | Random bonus % to HP |
+| 0x0210 | 12 x 1 byte | Random bonus % to MP |
+| 0x021C | 37 x 16 bytes | Primary stat curve 0 - 36 ([see below](#stat-curve-record) |
+| 0x046C | 9 x 16 bytes | HP stat curve 37 - 45 (Base \* 40) |
+| 0x04FC | 9 x 16 bytes | MP stat curve 46 - 54 (Base \* 2) |
+| 0x058C | 9 x 16 bytes | EXP stat curve 55 - 63 (Gradient is quadratic, no Base) |
+| 0x61C | 1508 bytes | Character AI data ([see below](#character-ai-data) |
+| 0xC00 | 540 bytes | FF padding |
+| 0xE1C | 256 bytes | Random number look-up table (all numbers from 0-255 are here) |
+| 0xF1C | 64 bytes | Scene.bin look-up table ([see below](#scene.bin-look-up-file) |
+| 0xF5C | 56 bytes | Spell order from Magic menu in battles ([see below](#magic-order) |
+|  |  |  |
 
 **Table 1: Section 3 of kernel.bin description**
 
@@ -177,6 +177,6 @@ Eg: The fourth attack in [Attack data](Attack_data.md) is Regen. The fourth byte
 
 NOTES:
 
--   If a value is repeated, that attack will override the previous listing.
--   The final two bytes are NULL (0xFF) so the game moves the Attack pointer ahead to load the summon attacks(?).
-    -   Even if these were not NULL, they would be ignored.
+- If a value is repeated, that attack will override the previous listing.
+- The final two bytes are NULL (0xFF) so the game moves the Attack pointer ahead to load the summon attacks(?).
+  - Even if these were not NULL, they would be ignored.

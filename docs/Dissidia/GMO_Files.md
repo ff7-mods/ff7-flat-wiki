@@ -49,8 +49,8 @@ They usually mark Model or Skeletal data, although there may be more types which
 
 Known Values:
 
--   0x6f6d Models
--   0x305f Skeletal Animations
+- 0x6f6d Models
+- 0x305f Skeletal Animations
 
 ### 0x0004 - Bone Info
 

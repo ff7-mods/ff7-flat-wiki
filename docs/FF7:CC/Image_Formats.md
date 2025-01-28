@@ -35,9 +35,9 @@ if width = 128, then you get 1 interlaced column
 
 # Known FF7:CC Image Formats
 
--   [\[IMG](Image_Formats.md#IMG_Format)\]
--   [\[TEX](Image_Formats.md#TEX_Format)\]
--   [\[GT](Image_Formats.md#GT_Format)\]
+- [\[IMG](Image_Formats.md#IMG_Format)\]
+- [\[TEX](Image_Formats.md#TEX_Format)\]
+- [\[GT](Image_Formats.md#GT_Format)\]
 
   
 Note that the Pixel-data is interlaced for all of these formats, as described above.

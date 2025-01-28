@@ -2,9 +2,9 @@
 title: 50_WINDOW
 ---
 
--   Opcode: **0x50**
--   Short name: **WINDOW**
--   Long name: Window creation
+- Opcode: **0x50**
+- Short name: **WINDOW**
+- Long name: Window creation
 
 #### Memory layout
 
@@ -13,11 +13,11 @@ title: 50_WINDOW
 
 #### Arguments
 
--   **const UByte** *N*: The numerical ID that the newly-created window will be associated with.
--   **const UShort** *X*: X-coordinate of the window.
--   **const UShort** *Y*: Y-coordinate of the window.
--   **const UShort** *W*: Window width.
--   **const UShort** *H*: Window height.
+- **const UByte** *N*: The numerical ID that the newly-created window will be associated with.
+- **const UShort** *X*: X-coordinate of the window.
+- **const UShort** *Y*: Y-coordinate of the window.
+- **const UShort** *W*: Window width.
+- **const UShort** *H*: Window height.
 
 #### Description
 
