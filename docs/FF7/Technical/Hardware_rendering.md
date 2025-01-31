@@ -21,4 +21,4 @@ Eidos provided a patch that changes executable version to 1.02. You can download
 
 You also should update your graphic drivers to newest ones. Furthermore, [Aali's OpenGL Driver](http://forums.qhimm.com/index.php?topic=8306.0) fixes more issues on even more recent hardware. Thanks to Aaron for hosting these patches.
 
-[Back to Technical Problems page](../Technical.md)
+[Back to Technical Problems page]()

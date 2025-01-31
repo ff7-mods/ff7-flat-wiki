@@ -43,11 +43,11 @@ This character is in fact an opcode, that takes one or more arguments. For the m
 
 \* these colours are global for a window, you can't reset them with other modifiers.
 
-More info can be found in [Dialog Window](Field/DialogWindow.md#Special_Letters) section of the wiki.
+More info can be found in [Dialog Window](Field/DialogWindow#Special_Letters) section of the wiki.
 
 ### Battle Text within the KERNEL.BIN
 
-Sections 10-17 and 26 of the [KERNEL.BIN](Kernel/Kernel.bin.md) are encoded differently than the rest of the text data. Several other values have additional functions:
+Sections 10-17 and 26 of the [KERNEL.BIN](Kernel/Kernel.bin) are encoded differently than the rest of the text data. Several other values have additional functions:
 
 **EA - F0**: These are variable position markers used in the Battle Text section (25) of KERNEL.BIN. These will only appear in specific texts and should only be used in those texts. These tell the battle engine that when a title needs to be displayed that certain values need to be inserted into the string. These are always followed by two NULL pointers (FFFFh).
 

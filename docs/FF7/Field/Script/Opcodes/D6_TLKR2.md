@@ -18,4 +18,4 @@ title: D6_TLKR2
 
 #### Description
 
-Similar to [TALKR](C5_TALKR.md), but allows a two-byte range value to be used.
+Similar to [TALKR](C5_TALKR), but allows a two-byte range value to be used.

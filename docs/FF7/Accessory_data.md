@@ -31,8 +31,8 @@ This section contains the accessory data. Each record is 16 bytes long.
 |  |  | 0x05 | Increase Manipulation Rate |
 |  |  | 0x06 | Barrier / MBarrier |
 |  |  |  |  |
-| 0x06 | 2 bytes | [Elements Affected](Battle/Elemental_Data.md) |  |
-| 0x08 | 4 bytes | [Status Protect](Battle/Status_Effects.md) |  |
+| 0x06 | 2 bytes | [Elements Affected](Battle/Elemental_Data) |  |
+| 0x08 | 4 bytes | [Status Protect](Battle/Status_Effects) |  |
 | 0x0C | 2 bytes | Equip Mask |  |
 |   |  | 0x0001 | Equipable on Cloud |
 |  |  | 0x0002 | Equipable on Barret |

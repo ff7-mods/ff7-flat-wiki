@@ -18,6 +18,6 @@ title: AE_ANIME2
 
 #### Description
 
-Similarly to [ANIME1](A3_ANIME1.md), the animation specified by *A* is played at speed *S* for the current entity's field object. However, in contrast, the current script's execution is **not** halted whilst the animation is played.
+Similarly to [ANIME1](A3_ANIME1), the animation specified by *A* is played at speed *S* for the current entity's field object. However, in contrast, the current script's execution is **not** halted whilst the animation is played.
 
 Makou Reactor Description: Play animation \#%1 of the field model and reset to previous state (speed=%2)

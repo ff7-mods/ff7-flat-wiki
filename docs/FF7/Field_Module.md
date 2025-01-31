@@ -23,33 +23,7 @@ The field module is the core of the game to which everything else is spawned. It
 
 The Field module loads modular "Field Files". In the PC version, the Field File is a single file with nine sections. In the PSX version, there are three files with the same name but with different extensions that do the same thing. The three files are MIM (Mutiple Image Maps, or the backgrounds), DAT (Field Script Data), and BSX (3D data).
 
-<div class="thumb tright">
-
-<div class="thumbinner" style="width: 182px">
-
-<figure>
-<img src="Field_BackgroundVRAM.jpg" title="180px-Field_BackgroundVRAM.jpg" />
-<figcaption><img src="180px-Field_BackgroundVRAM.jpg" title="180px-Field_BackgroundVRAM.jpg" alt="180px-Field_BackgroundVRAM.jpg" /></figcaption>
-</figure>
-
-<div class="thumbcaption">
-
-<div class="magnify">
-
-<figure>
-<img src="Field_BackgroundVRAM.jpg" title="Field_BackgroundVRAM.jpg" />
-<figcaption>Field_BackgroundVRAM.jpg</figcaption>
-</figure>
-
-</div>
-
-Snapshot of the PSX's VRAM demonstrating the background field files in various stages of assembly.
-
-</div>
-
-</div>
-
-</div>
+![Snapshot of the PSX&#39;s VRAM demonstrating the background field files in various stages of assembly](/assets/Field_BackgroundVRAM.jpg)
 
 The backgrounds are actually 16x16 blocks that are loaded into VRAM and then assembled into the video buffer every frame. The system allows for layers to obscure the 3D entities using a simple painter's algorithm.
 
@@ -65,7 +39,7 @@ Another last thing to note is in the middle of the bottom texture cache there ar
 
 ### General PC Field File Format
 
-Field files are always found in FLEVEL.LGP. They are always [LZS](LZS_format.md) compressed.
+Field files are always found in FLEVEL.LGP. They are always [LZS](LZS_format) compressed.
 
 The first two bytes of each (decompressed) field file are blank (zero). The next four bytes is an integer indicating how many sections are present in the file. Then a number of 4-byte integers follow, giving the starting offset for each section.
 
@@ -99,55 +73,55 @@ All field files should contain 9 sections; it's what FF7 expects.
 <td><p>0x06</p></td>
 <td><p>4 bytes</p></td>
 <td><p>Pointer to Section 1</p></td>
-<td><p><a href="Field/Field_Script.md" title="wikilink">Field Script &amp; Dialog</a></p></td>
+<td><p><a href="Field/Field_Script" title="wikilink">Field Script &amp; Dialog</a></p></td>
 </tr>
 <tr>
 <td><p>0x0A</p></td>
 <td><p>4 bytes</p></td>
 <td><p>Pointer to Section 2</p></td>
-<td><p><a href="Field/Camera_Matrix.md" title="wikilink">Camera Matrix</a></p></td>
+<td><p><a href="Field/Camera_Matrix" title="wikilink">Camera Matrix</a></p></td>
 </tr>
 <tr>
 <td><p>0x0E</p></td>
 <td><p>4 bytes</p></td>
 <td><p>Pointer to Section 3</p></td>
-<td><p><a href="Field/Model_Loader.md" title="wikilink">Model Loader</a></p></td>
+<td><p><a href="Field/Model_Loader" title="wikilink">Model Loader</a></p></td>
 </tr>
 <tr>
 <td><p>0x12</p></td>
 <td><p>4 bytes</p></td>
 <td><p>Pointer to Section 4</p></td>
-<td><p><a href="Field/Palette.md" title="wikilink">Palette</a></p></td>
+<td><p><a href="Field/Palette" title="wikilink">Palette</a></p></td>
 </tr>
 <tr>
 <td><p>0x16</p></td>
 <td><p>4 bytes</p></td>
 <td><p>Pointer to Section 5</p></td>
-<td><p><a href="Field/Walkmesh.md" title="wikilink">Walkmesh</a></p></td>
+<td><p><a href="Field/Walkmesh" title="wikilink">Walkmesh</a></p></td>
 </tr>
 <tr>
 <td><p>0x1A</p></td>
 <td><p>4 bytes</p></td>
 <td><p>Pointer to Section 6</p></td>
-<td><p><a href="Field_Module/DAT/Tile_Map.md" title="wikilink">TileMap</a> (Unused)</p></td>
+<td><p><a href="Field_Module/DAT/Tile_Map" title="wikilink">TileMap</a> (Unused)</p></td>
 </tr>
 <tr>
 <td><p>0x1E</p></td>
 <td><p>4 bytes</p></td>
 <td><p>Pointer to Section 7</p></td>
-<td><p><a href="Field/Encounter.md" title="wikilink">Encounter</a></p></td>
+<td><p><a href="Field/Encounter" title="wikilink">Encounter</a></p></td>
 </tr>
 <tr>
 <td><p>0x22</p></td>
 <td><p>4 bytes</p></td>
 <td><p>Pointer to Section 8</p></td>
-<td><p><a href="Field/Triggers.md" title="wikilink">Triggers</a></p></td>
+<td><p><a href="Field/Triggers" title="wikilink">Triggers</a></p></td>
 </tr>
 <tr>
 <td><p>0x26</p></td>
 <td><p>4 bytes</p></td>
 <td><p>Pointer to Section 9</p></td>
-<td><p><a href="Field/Background.md" title="wikilink">Background</a></p></td>
+<td><p><a href="Field/Background" title="wikilink">Background</a></p></td>
 </tr>
 <tr>
 <td><p>0x2A</p></td>
@@ -173,7 +147,7 @@ To examine each section, please navigate using the links in the table above. For
 
 ### PSX DAT Format
 
-The PSX script is contained in the DAT file, it is compressed with [LZS compression](LZS_format.md). The first 4 bytes of the compressed DAT file is the length of the compressed data starting at address 0x4.
+The PSX script is contained in the DAT file, it is compressed with [LZS compression](LZS_format). The first 4 bytes of the compressed DAT file is the length of the compressed data starting at address 0x4.
 
 The header for the DAT file (after it is decompressed), is 28 bytes in size (they are used in the PSX, it's a list of 7 long word values which point to locations in PSX RAM). So for each of these sections are addressable by taking the first memory location subtracting it and adding 28.
 
@@ -188,32 +162,32 @@ There are 7 sections each corresponding to the first 7 memory locations at the b
 </thead>
 <tbody>
 <tr>
-<td style="text-align: center; background: rgb(200,255,200);"><p><a href="Field/Script.md" title="wikilink">Script</a></p></td>
+<td style="text-align: center; background: rgb(200,255,200);"><p><a href="Field/Script" title="wikilink">Script</a></p></td>
 <td style="text-align: center; background: rgb(200,255,200);"><p>Contains conversations, save point interaction etc.</p></td>
 </tr>
 <tr>
-<td style="text-align: center; background: rgb(200,255,200);"><p><a href="Field/Walkmesh.md" title="wikilink">Walkmesh</a></p></td>
+<td style="text-align: center; background: rgb(200,255,200);"><p><a href="Field/Walkmesh" title="wikilink">Walkmesh</a></p></td>
 <td style="text-align: center; background: rgb(200,255,200);"><p>Contains walkmesh triangles and access info.</p></td>
 </tr>
 <tr>
-<td style="text-align: center; background: rgb(200,255,200);"><p><a href="Field_Module/DAT/Tile_Map.md" title="wikilink">TileMap</a></p></td>
+<td style="text-align: center; background: rgb(200,255,200);"><p><a href="Field_Module/DAT/Tile_Map" title="wikilink">TileMap</a></p></td>
 <td style="text-align: center; background: rgb(200,255,200);"><p>Contains the information for the background, animation,<br />
 and static scene objects.</p></td>
 </tr>
 <tr>
-<td style="text-align: center; background: rgb(200,255,200);"><p><a href="Field/Camera_Matrix.md" title="wikilink">Camera_Matrix</a></p></td>
+<td style="text-align: center; background: rgb(200,255,200);"><p><a href="Field/Camera_Matrix" title="wikilink">Camera_Matrix</a></p></td>
 <td style="text-align: center; background: rgb(200,255,200);"><p>Contains camera info.</p></td>
 </tr>
 <tr>
-<td style="text-align: center; background: rgb(200,255,200);"><p><a href="Field/Triggers.md" title="wikilink">Triggers</a></p></td>
+<td style="text-align: center; background: rgb(200,255,200);"><p><a href="Field/Triggers" title="wikilink">Triggers</a></p></td>
 <td style="text-align: center; background: rgb(200,255,200);"><p>Contains triggers, singles, gateways and so on.</p></td>
 </tr>
 <tr>
-<td style="text-align: center; background: rgb(200,255,200);"><p><a href="Field/Encounter.md" title="wikilink">Encounter</a></p></td>
+<td style="text-align: center; background: rgb(200,255,200);"><p><a href="Field/Encounter" title="wikilink">Encounter</a></p></td>
 <td style="text-align: center; background: rgb(200,255,200);"><p>Battle Encounter information for location.</p></td>
 </tr>
 <tr>
-<td style="text-align: center; background: rgb(200,255,200);"><p><a href="Field/Models.md" title="wikilink">Models</a></p></td>
+<td style="text-align: center; background: rgb(200,255,200);"><p><a href="Field/Models" title="wikilink">Models</a></p></td>
 <td style="text-align: center; background: rgb(200,255,200);"><p>Some info about field models.</p></td>
 </tr>
 </tbody>
@@ -221,37 +195,37 @@ and static scene objects.</p></td>
 
 ### PSX MIM Format
 
-Part of the PSX background data is contained in the [MIM file](FF7/Field/MIMfile "wikilink"), it is compressed with [LZS compression](LZS_format.md). It consists of palettes (256 color ones) and screen blocks. No data for locating the blocks on the screen is in this file. The MIM file is a truncated TIM file and contains the normal clut location height and width information. This information is directly loaded into the PSX video ram to be decoded by the field module.
+Part of the PSX background data is contained in the [MIM file](FF7/Field/MIMfile "wikilink"), it is compressed with [LZS compression](LZS_format). It consists of palettes (256 color ones) and screen blocks. No data for locating the blocks on the screen is in this file. The MIM file is a truncated TIM file and contains the normal clut location height and width information. This information is directly loaded into the PSX video ram to be decoded by the field module.
 
 ### PSX BSX Format
 
-The Field models are contained in the [BSX file](FF7/Field/BSX "wikilink"), it is compressed with [LZS compression](FF7/LZS_format "wikilink"). [FIELD.TDB](Field/FIELD.TDB.md) contains the textures for these models.
+The Field models are contained in the [BSX file](FF7/Field/BSX "wikilink"), it is compressed with [LZS compression](FF7/LZS_format "wikilink"). [FIELD.TDB](Field/FIELD.TDB) contains the textures for these models.
 
 ### PSX BCX Format
 
-The individual characters' field models are stored in [BCX files](FF7/Field/BCX "wikilink"). Their textures are also in [FIELD.TDB](FF7/Field/FIELD.TDB "wikilink"); they are compressed with [LZS compression](LZS_format.md).
+The individual characters' field models are stored in [BCX files](FF7/Field/BCX "wikilink"). Their textures are also in [FIELD.TDB](FF7/Field/FIELD.TDB "wikilink"); they are compressed with [LZS compression](LZS_format).
 
 ## Event Scripting
 
-Event scripting is handled via a series of script commands and entities spawned for the event. The exception to this is the battle event scripting. This is actually a little bit different. Please refer to the [Field Script](Field/Script.md) for more information.
+Event scripting is handled via a series of script commands and entities spawned for the event. The exception to this is the battle event scripting. This is actually a little bit different. Please refer to the [Field Script](Field/Script) for more information.
 
 ## Script commands
 
-The event scripting language for FF7 has 246 commands that have a wide array of functions. For a complete listing of the commands, opcodes, arguments and descriptions, please refer to the [opcodes](Field/Script/Opcodes.md) section.
+The event scripting language for FF7 has 246 commands that have a wide array of functions. For a complete listing of the commands, opcodes, arguments and descriptions, please refer to the [opcodes](Field/Script/Opcodes) section.
 
 ## Movies
 
-Movies in FF7 are actually triggered from the [Field Script](Field/Script.md). The [F8 PMVIE](FF7/Field/Script/Opcodes/F8_PMVIE "wikilink") opcode is first used to set the movie for which the [F9 MOVIE](FF7/Field/Script/Opcodes/F9_MOVIE "wikilink") opcode is used to play. It is important to remember the MOVIE ID may vary in the PS1 versionn depending on what disc you are on. The PC movies were encoded using the DUCK (goose?) format and are AVI video files.
+Movies in FF7 are actually triggered from the [Field Script](Field/Script). The [F8 PMVIE](FF7/Field/Script/Opcodes/F8_PMVIE "wikilink") opcode is first used to set the movie for which the [F9 MOVIE](FF7/Field/Script/Opcodes/F9_MOVIE "wikilink") opcode is used to play. It is important to remember the MOVIE ID may vary in the PS1 versionn depending on what disc you are on. The PC movies were encoded using the DUCK (goose?) format and are AVI video files.
 
 The PS1 movies were encoded using FMV Motion JPEG video files, for the playstation. These files cannot be decode or read directly from the CD disc media because of the Mode 2 format of the files. The files are encoded using ISO Mode 2 which means the sectors are 2302 bytes in length instead of 2048. The video files have interleaved audio (ADPCM format), between video frames and are 320x224 15fps. Video files that have no audio with it actually has empty sectors of space between video frames to prevent the extremely timing sensitive MDEC decoder in the playstation from locking up.
 
-[Cyberman](../User:Cyberman.md)
+[Cyberman](../User:Cyberman)
 
 ## The 3D Overlay
 
 ## Data Organization
 
-## "A" Field Animation Files for PC by [Mirex](User:Mirex "wikilink") (Edits by [Aali](../User:Aali.md)
+## "A" Field Animation Files for PC by [Mirex](User:Mirex "wikilink") (Edits by [Aali](../User:Aali)
 
 Each animation file holds one character animation ( run, walk or some other). Some characters have more animation files. Animation is set of frames, in each frame are stored bone rotations.
 

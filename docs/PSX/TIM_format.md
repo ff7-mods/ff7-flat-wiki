@@ -4,7 +4,7 @@ title: TIM_format
 
 ## Introduction
 
-A TIM file is a standard image file format for the [Sony PlayStation](PSX "wikilink"). The file structure closely mimics the way textures are managed in the [frame buffer](PSX/frame_buffer "wikilink") by the [GPU](PSX/GPU "wikilink"). TIM files are [little endian](../Little_endian.md)-based.
+A TIM file is a standard image file format for the [Sony PlayStation](PSX "wikilink"). The file structure closely mimics the way textures are managed in the [frame buffer](PSX/frame_buffer "wikilink") by the [GPU](PSX/GPU "wikilink"). TIM files are [little endian](../Little_endian)-based.
 
   
 
@@ -16,10 +16,7 @@ A TIM file is made up of three conceptual blocks; the header, the color lookup t
 
 
 
-<figure>
-<img src="PSX_TIM_file_layout.png" title="PSX_TIM_file_layout.png" />
-<figcaption>PSX_TIM_file_layout.png</figcaption>
-</figure>
+![PSX_TIM_file_layout.png](/assets/PSX_TIM_file_layout.png)
 
 
 
@@ -49,10 +46,7 @@ The CLUT starts with a simple 32-bit word telling the length, in bytes, of the e
 
 
 
-<figure>
-<img src="PSX_TIM_file_clut.png" title="PSX_TIM_file_clut.png" />
-<figcaption>PSX_TIM_file_clut.png</figcaption>
-</figure>
+![PSX_TIM_file_clut.png](/assets/PSX_TIM_file_clut.png)
 
 
 
@@ -63,10 +57,7 @@ The length of the CLUT data is always *width* ï¿½ *height* ï¿½ 2 bytes, pr
 
 
 
-<figure>
-<img src="PSX_color_formats_16.png" title="PSX_color_formats_16.png" />
-<figcaption>PSX_color_formats_16.png</figcaption>
-</figure>
+![PSX_color_formats_16.png](/assets/PSX_color_formats_16.png)
 
 
 
@@ -83,10 +74,7 @@ The image block is structurally identical to the CLUT block and is processed in 
 
 
 
-<figure>
-<img src="PSX_TIM_file_image.png" title="PSX_TIM_file_image.png" />
-<figcaption>PSX_TIM_file_image.png</figcaption>
-</figure>
+![PSX_TIM_file_image.png](/assets/PSX_TIM_file_image.png)
 
 
 
@@ -97,10 +85,7 @@ The image data, while loaded straight into the frame buffer, is structured diffe
 
 
 
-<figure>
-<img src="PSX_color_formats_16.png" title="PSX_color_formats_16.png" />
-<figcaption>PSX_color_formats_16.png</figcaption>
-</figure>
+![PSX_color_formats_16.png](/assets/PSX_color_formats_16.png)
 
 
 
@@ -111,10 +96,7 @@ The PlayStation is also capable of handling data in 24-bit color (BPP = **11**),
 
 
 
-<figure>
-<img src="PSX_color_formats_24.png" title="PSX_color_formats_24.png" />
-<figcaption>PSX_color_formats_24.png</figcaption>
-</figure>
+![PSX_color_formats_24.png](/assets/PSX_color_formats_24.png)
 
 
 
@@ -125,10 +107,7 @@ Apart from the two "real" color modes, the PlayStation frequently utilizes color
 
 
 
-<figure>
-<img src="PSX_color_formats_8.png" title="PSX_color_formats_8.png" />
-<figcaption>PSX_color_formats_8.png</figcaption>
-</figure>
+![PSX_color_formats_8.png](/assets/PSX_color_formats_8.png)
 
 
 
@@ -139,10 +118,7 @@ These images are used in conjuction with a 256-pixel CLUT. For less color-rich i
 
 
 
-<figure>
-<img src="PSX_color_formats_4.png" title="PSX_color_formats_4.png" />
-<figcaption>PSX_color_formats_4.png</figcaption>
-</figure>
+![PSX_color_formats_4.png](/assets/PSX_color_formats_4.png)
 
 
 

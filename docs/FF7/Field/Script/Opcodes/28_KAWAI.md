@@ -23,10 +23,10 @@ KAWAI is a multipurpose, graphics-related opcode that performs a variety of diff
 
 #### Subcodes by Opcode
 
-[`00 EYETX`](28_KAWAI/00_EYETX.md)  
-[`01 TRNSP`](28_KAWAI/01_TRNSP.md)  
-[`02 AMBNT`](28_KAWAI/02_AMBNT.md)  
-[`06 LIGHT`](28_KAWAI/06_LIGHT.md)  
-[`0A SBOBJ`](28_KAWAI/0A_SBOBJ.md)  
-[`0D SHINE`](28_KAWAI/0D_SHINE.md)  
-[`FF RESET`](28_KAWAI/FF_RESET.md)
+[`00 EYETX`](28_KAWAI/00_EYETX)  
+[`01 TRNSP`](28_KAWAI/01_TRNSP)  
+[`02 AMBNT`](28_KAWAI/02_AMBNT)  
+[`06 LIGHT`](28_KAWAI/06_LIGHT)  
+[`0A SBOBJ`](28_KAWAI/0A_SBOBJ)  
+[`0D SHINE`](28_KAWAI/0D_SHINE)  
+[`FF RESET`](28_KAWAI/FF_RESET)

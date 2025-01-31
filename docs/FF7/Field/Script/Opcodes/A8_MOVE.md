@@ -20,4 +20,4 @@ title: A8_MOVE
 
 #### Description
 
-Makes the field object, associated with the entity this opcode's script resides in, walk (or move gradually) to the point specified by the coordinates, at the speed previously specified by [MSPED](B2_MSPED.md). The object's standard walk animation is used, found with animation ID 1 in the field object associated with this entity.
+Makes the field object, associated with the entity this opcode's script resides in, walk (or move gradually) to the point specified by the coordinates, at the speed previously specified by [MSPED](B2_MSPED). The object's standard walk animation is used, found with animation ID 1 in the field object associated with this entity.

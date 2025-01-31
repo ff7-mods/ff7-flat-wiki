@@ -11,21 +11,21 @@ title: Kernel.bin
 
 ## The KERNEL.BIN Archive
 
-The file KERNEL.BIN archive is in [BIN-GZIP format](FF7/Kernel/Low_level_libraries#BIN-GZIP_Type_Archives "wikilink"). It consists of 27 gziped sections concatenated together with a 6 byte header for each. This file is the same both on the PC and PSX versions. This holds all the static data and menu text for the game, with a look up table at the beginning of the section. The first 9 sections of data (i.e. The non-text related items) are in typical BIN file archive format. Sections 10-27 are [FF Text files](../FF_Text.md). The text sections have a header of pointers at the beginning of each section and point to a text block below.
+The file KERNEL.BIN archive is in [BIN-GZIP format](FF7/Kernel/Low_level_libraries#BIN-GZIP_Type_Archives "wikilink"). It consists of 27 gziped sections concatenated together with a 6 byte header for each. This file is the same both on the PC and PSX versions. This holds all the static data and menu text for the game, with a look up table at the beginning of the section. The first 9 sections of data (i.e. The non-text related items) are in typical BIN file archive format. Sections 10-27 are [FF Text files](../FF_Text). The text sections have a header of pointers at the beginning of each section and point to a text block below.
 
 The KERNEL.BIN file consists of the following sections.
 
 | File | Data | Offset |
 |----|----|----|
-| 1 | [Command data](../Command_data.md) | 0x0006 |
-| 2 | [Attack data](../Attack_data.md) | 0x0086 |
-| 3 | [Battle and growth data](../Battle_and_growth_data.md) | 0x063A |
-| 4 | [Initialization data](../Character_starting_stats.md) | 0x0F7F |
-| 5 | [Item data](../Item_data.md) | 0x111B |
-| 6 | [Weapon data](../Weapon_data.md) | 0x137A |
-| 7 | [Armor data](../Armor_data.md) | 0x1A30 |
-| 8 | [Accessory data](../Accessory_data.md) | 0x1B73 |
-| 9 | [Materia data](../Materia_data.md) | 0x1C11 |
+| 1 | [Command data](../Command_data) | 0x0006 |
+| 2 | [Attack data](../Attack_data) | 0x0086 |
+| 3 | [Battle and growth data](../Battle_and_growth_data) | 0x063A |
+| 4 | [Initialization data](../Character_starting_stats) | 0x0F7F |
+| 5 | [Item data](../Item_data) | 0x111B |
+| 6 | [Weapon data](../Weapon_data) | 0x137A |
+| 7 | [Armor data](../Armor_data) | 0x1A30 |
+| 8 | [Accessory data](../Accessory_data) | 0x1B73 |
+| 9 | [Materia data](../Materia_data) | 0x1C11 |
 | 10 | Command descriptions | 0x1F32 |
 | 11 | Magic descriptions | 0x2199 |
 | 12 | Item descriptions | 0x28D4 |

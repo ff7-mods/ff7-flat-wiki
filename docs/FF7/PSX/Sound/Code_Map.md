@@ -94,7 +94,7 @@ Introduces functions, variables and data related to sound, contained in SCUS_941
 <p>The message data comes from a global variable at 0x8009A000.</p>
 <p>Return value depends on the content of the message data.</p>
 <p><strong>Opcode 0x10</strong></p>
-<p>Load and start playing new <a href="AKAO_sequence.md" title="wikilink">AKAO sequence</a></p>
+<p>Load and start playing new <a href="AKAO_sequence" title="wikilink">AKAO sequence</a></p>
 <p>Returns: 0 for success, 1 for already loaded, and -1 for invalid signature</p>
 <p><strong>Opcode 0x92</strong></p>
 <p>Set value to the condition variable used by Opcode 0xEF.</p></td>
@@ -203,12 +203,12 @@ Introduces functions, variables and data related to sound, contained in SCUS_941
 <tr>
 <td><p>0x80049C44</p></td>
 <td><p>const unsigned short VOLUME_TABLE_L[128]</p></td>
-<td><p>See <a href="Opcodes/0xa8aa.md" title="wikilink">Opcode 0xAA</a> for volume balance calculation</p></td>
+<td><p>See <a href="Opcodes/0xa8aa" title="wikilink">Opcode 0xAA</a> for volume balance calculation</p></td>
 </tr>
 <tr>
 <td><p>0x80049E44</p></td>
 <td><p>const unsigned short VOLUME_TABLE_R[128]</p></td>
-<td><p>See <a href="Opcodes/0xa8aa.md" title="wikilink">Opcode 0xAA</a> for volume balance calculation</p></td>
+<td><p>See <a href="Opcodes/0xa8aa" title="wikilink">Opcode 0xAA</a> for volume balance calculation</p></td>
 </tr>
 <tr>
 <td><p>0x8004A5CC</p></td>
@@ -309,11 +309,11 @@ Introduces functions, variables and data related to sound, contained in SCUS_941
 
 # Structures
 
-[struct AkaoInstrumentAttr](INSTRx.DAT.md)
+[struct AkaoInstrumentAttr](INSTRx.DAT)
 
-[struct AkaoSampleSet](INSTRx.ALL.md)
+[struct AkaoSampleSet](INSTRx.ALL)
 
-[struct AkaoSeqHeader, struct AkaoDrumKeyAttr](AKAO_sequence.md)
+[struct AkaoSeqHeader, struct AkaoDrumKeyAttr](AKAO_sequence)
 
 `struct AkaoMessage // 36 bytes long`  
 `{`  

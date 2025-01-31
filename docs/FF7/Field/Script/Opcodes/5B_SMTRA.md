@@ -17,7 +17,7 @@ title: 5B_SMTRA
 - **const Bit\[4\]** *B2*: Source bank 2, or zero if this unit of *AP* is set as a constant value.
 - **const Bit\[4\]** *B3*: Source bank 3, or zero if this unit of *AP* is set as a constant value.
 - **const Bit\[4\]** *B4*: Source bank 4, or zero if this unit of *AP* is set as a constant value.
-- **const UByte** *T*: [Type of materia](../Materia_ID.md) to add, or source address 1.
+- **const UByte** *T*: [Type of materia](../Materia_ID) to add, or source address 1.
 - **const UByte\[3\]** *AP*: Amount of AP the newly added materia will have, or source addresses 2, 3 and 4.
 
 #### Description

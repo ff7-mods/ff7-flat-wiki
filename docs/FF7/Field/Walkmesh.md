@@ -2,35 +2,9 @@
 title: Walkmesh
 ---
 
-### Section 5: Walkmesh ([Kero](../../User:Kero.md)
+### Section 5: Walkmesh ([Kero](../../User:Kero)
 
-<div class="thumb tright">
-
-<div class="thumbinner" style="width: 182px">
-
-<figure>
-<img src="Field_Wutai.jpg" title="180px-Field_Wutai.jpg" width="180" />
-<figcaption><img src="180px-Field_Wutai.jpg" title="180px-Field_Wutai.jpg" alt="180px-Field_Wutai.jpg" /></figcaption>
-</figure>
-
-<div class="thumbcaption">
-
-<div class="magnify">
-
-<figure>
-<img src="Field_Wutai.jpg" title="Field_Wutai.jpg" />
-<figcaption>Field_Wutai.jpg</figcaption>
-</figure>
-
-</div>
-
-Wutai Walkmesh
-
-</div>
-
-</div>
-
-</div>
+![Wutai Walkmesh](/assets/Field_Wutai.jpg)
 
 Every every offset is here relative, 00 is at the start of section 5 (after length indicator).
 

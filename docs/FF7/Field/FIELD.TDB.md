@@ -4,7 +4,7 @@ title: FIELD.TDB
 
 ## Format for Field.TDB
 
-[Cyberman](User:Cyberman "wikilink") 21:45, 10 Jan 2007 (CST) Field.TDB is an [LZS compressed](../LZS_format.md) file the first DWORD of which is it's compressed size.
+[Cyberman](User:Cyberman "wikilink") 21:45, 10 Jan 2007 (CST) Field.TDB is an [LZS compressed](../LZS_format) file the first DWORD of which is it's compressed size.
 
 After decompression the file contains the following header
 

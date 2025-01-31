@@ -30,4 +30,4 @@ title: DA_AKAO2
 
 Perform an operation described by *Op*, and uses the parameters depending on the operation.
 
-[Opcode list](F2_AKAO.md#Operation_list)
+[Opcode list](F2_AKAO#Operation_list)

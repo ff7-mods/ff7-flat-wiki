@@ -6,7 +6,7 @@ title: FF7:CC
 
 Information confirmed by Quimm forum members (by MrAdults in particular), HUGE props to them for their support.
 
-Last updated: [Koral](User:Koral.md)
+Last updated: [Koral](User:Koral)
 
   
 
@@ -22,7 +22,7 @@ The game's tagline is "Men cry not for themselves, but for their comrades", a qu
 
 ## Data Retreival and Organisation
 
-Extracting the Data Files using the [FF7CC Data Extractor](FF7:CC.md#Tools) results in 8725 .RAW files. This file extension does not represent any specific file format and was used to clarify the "raw" nature of the data.
+Extracting the Data Files using the [FF7CC Data Extractor](FF7:CC#Tools) results in 8725 .RAW files. This file extension does not represent any specific file format and was used to clarify the "raw" nature of the data.
 
 Every RAW file can be categorised into specific File-Format Types by reading the first 8-bytes of the file.
 
@@ -35,25 +35,25 @@ The RAW files themselves appear to be organised into clusters of same Types, or 
 | RAW Files | Type \[bytes within 8-byte header\] | Description |
 |----|----|----|
 | 00000 - 00005 | ? (various unknown) | Possibly misc system files, or events occuring at game boot-up |
-| 00006 - 00062 | **[PSMF](FF7:CC/Video_Formats.md#PSMF_Format)** | \* PSP format Video files |
-| 00063 - 01349 | **[RIFF](FF7:CC/Audio_Formats.md#RIFF_Format)** | \* Audio files, usually voiced dialogues |
-| 01350 - 01417 | **[SSCF](FF7:CC/Audio_Formats.md#SSCF_Format)** | \* Audio files, usually background music |
+| 00006 - 00062 | **[PSMF](FF7:CC/Video_Formats#PSMF_Format)** | \* PSP format Video files |
+| 00063 - 01349 | **[RIFF](FF7:CC/Audio_Formats#RIFF_Format)** | \* Audio files, usually voiced dialogues |
+| 01350 - 01417 | **[SSCF](FF7:CC/Audio_Formats#SSCF_Format)** | \* Audio files, usually background music |
 | 01418 - 01442 | **IMG**, ? (various unknown) | Possibly Menu and DMW related stuff, IMG are HUD or sprite images |
 | 01443 - 01445 | **PNG** | \* standard PNG images |
 | 01446 | ? | seems to contain a list of Locations and Mission Titles |
 | 01447 | ? | Contains a long list of character names, probably used when talking to NPC's etc |
 | 01448 - 01455 | ? | Maybe mesh data |
 | 01456 | **MBD** |  |
-| 01457 - 02011 | **[GT](FF7:CC/Image_Formats.md#GT_Format)**, **ATEL** | \* Story progression and Event data, GT are Chapter-End Images, ATEL are events and dialogue script data |
-| 02012 - 02161 | **[! (exp TYPE-1)](FF7:CC/Model_Formats.md#exp_TYPE-1_Models) | \* Static Mesh Models: Location Map Models |
-| 02162 - 02457 | **[! (exp TYPE-0)](FF7:CC/Model_Formats#exp_TYPE-0_Models "wikilink")**, **[TEX](FF7:CC/Image_Formats.md#TEX_Format) | \* Skinned Animated Models: Characters, Monsters, NPCs and Event-Specific Models |
+| 01457 - 02011 | **[GT](FF7:CC/Image_Formats#GT_Format)**, **ATEL** | \* Story progression and Event data, GT are Chapter-End Images, ATEL are events and dialogue script data |
+| 02012 - 02161 | **[! (exp TYPE-1)](FF7:CC/Model_Formats#exp_TYPE-1_Models) | \* Static Mesh Models: Location Map Models |
+| 02162 - 02457 | **[! (exp TYPE-0)](FF7:CC/Model_Formats#exp_TYPE-0_Models "wikilink")**, **[TEX](FF7:CC/Image_Formats#TEX_Format) | \* Skinned Animated Models: Characters, Monsters, NPCs and Event-Specific Models |
 | 02458 - 03352 | ? (various unknown) | Tiny files, no common header, no ascii info visible. No idea. |
 | 03353 - 08538 | ? (various unknown) | no common header, fairly small files \<500 kb. Ditto |
 | 08539 - 08622 | **MOT**, **SSCF** | Monster / Battle / Boss data: maybe "file-names", Event Scripts, Boss Battle scripts, Monster behaviour or something else. |
 | 08623 - 08627 | **zack**, **ATEL** | Possibly Zack's specific battle data |
 | 08628 - 08690 | **MAGIC** | Zack's Battle commands, actions and animations |
 | 08671 - 08706 | ? (various unknown) | tiny files |
-| 08707 - 08725 | **[PSMF](FF7:CC/Video_Formats.md#PSMF_Format)** | \* more Videos |
+| 08707 - 08725 | **[PSMF](FF7:CC/Video_Formats#PSMF_Format)** | \* more Videos |
 
   
 *\** - These files are understood enough to view and/or extract their contents.
@@ -64,33 +64,33 @@ The RAW files themselves appear to be organised into clusters of same Types, or 
 
 Overview of the different types of data files and what they contain. List shows the data types currently known.
 
-### [Game Events and Scripts](FF7:CC/Game_Event_Files.md)
+### [Game Events and Scripts](FF7:CC/Game_Event_Files)
 
-- [ATEL](FF7:CC/File_Types.md) Files
-- [MBD](FF7:CC/File_Types.md) Files
+- [ATEL](FF7:CC/File_Types) Files
+- [MBD](FF7:CC/File_Types) Files
 
-### [Sprites, Images and Texture Data](FF7:CC/Image_Formats.md)
+### [Sprites, Images and Texture Data](FF7:CC/Image_Formats)
 
-- [\[IMG](FF7:CC/Image_Formats.md#IMG_Format)\] Files
-- [\[TEX](FF7:CC/Image_Formats.md#TEX_Format)\] Files
-- [\[GT](FF7:CC/Image_Formats.md#GT_Format)\] Files
+- [\[IMG](FF7:CC/Image_Formats#IMG_Format)\] Files
+- [\[TEX](FF7:CC/Image_Formats#TEX_Format)\] Files
+- [\[GT](FF7:CC/Image_Formats#GT_Format)\] Files
 
-### [Audio Data](FF7:CC/Audio_Formats.md)
+### [Audio Data](FF7:CC/Audio_Formats)
 
-- [RIFF](FF7:CC/Audio_Formats.md#RIFF_Format) Files
-- [SSCF](FF7:CC/Audio_Formats.md#SSCF_Format) Files
+- [RIFF](FF7:CC/Audio_Formats#RIFF_Format) Files
+- [SSCF](FF7:CC/Audio_Formats#SSCF_Format) Files
 
-### [Video Data](FF7:CC/Video_Formats.md)
+### [Video Data](FF7:CC/Video_Formats)
 
-- [\[PSMF](FF7:CC/Video_Formats.md#PSMF_Format)\]
+- [\[PSMF](FF7:CC/Video_Formats#PSMF_Format)\]
 
-### [Models and Mesh Geometry](FF7:CC/Model_Formats.md)
+### [Models and Mesh Geometry](FF7:CC/Model_Formats)
 
-- [\[!](FF7:CC/Model_Formats.md#exp_Format) Model\] Files
+- [\[!](FF7:CC/Model_Formats#exp_Format) Model\] Files
 
-### [Battles and Monsters](FF7:CC/Battle_and_Monster_Data.md)
+### [Battles and Monsters](FF7:CC/Battle_and_Monster_Data)
 
-### [Materia](FF7:CC/Materia_Data.md)
+### [Materia](FF7:CC/Materia_Data)
 
 ## Differences between Japanese, US and PAL versions
 

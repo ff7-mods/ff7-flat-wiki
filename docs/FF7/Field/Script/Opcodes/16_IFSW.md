@@ -22,4 +22,4 @@ title: 16_IFSW
 
 #### Description
 
-This is similar to the [IFUW](18_IFUW.md) opcode, but the value compared to may be negative.
+This is similar to the [IFUW](18_IFUW) opcode, but the value compared to may be negative.

@@ -18,7 +18,7 @@ This section contains the armor data. Each record is 36 bytes long.
 | 0x03 | 1 byte | Magic Defense |  |
 | 0x04 | 1 byte | Defense % |  |
 | 0x05 | 1 byte | Magic Defense % |  |
-| 0x06 | 1 byte | [Status Defense](Battle/Status_Effects.md). Index of status bit. |  |
+| 0x06 | 1 byte | [Status Defense](Battle/Status_Effects). Index of status bit. |  |
 | 0x07 | 2 bytes | Unknown |  |
 | 0x09 | 8 bytes | Materia Slots |  |
 |   |  | 0x00 | No Slot |
@@ -41,7 +41,7 @@ This section contains the armor data. Each record is 36 bytes long.
 |  |  | 0x0100 | Equipable on Cid |
 |  |  | 0x0200 | Equipable on Young Cloud |
 |  |  | 0x0400 | Equipable on Sephiroth |
-| 0x14 | 2 bytes | [Elemental Defense](Battle/Elemental_Data.md) |  |
+| 0x14 | 2 bytes | [Elemental Defense](Battle/Elemental_Data) |  |
 | 0x16 | 2 bytes | Unknown \[Always 0x00FF\] |  |
 | 0x18 | 4 bytes | Stat Bonus |  |
 |   |  | 0xFF | None |

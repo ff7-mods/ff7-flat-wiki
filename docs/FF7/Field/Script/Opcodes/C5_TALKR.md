@@ -20,4 +20,4 @@ title: C5_TALKR
 
 Increases the talk range (or rather, button range) for this field object. Larger values mean that the distance between the playable character and the field object in question is increased, so that the button press script for the object's field entity is activated by a button press that is further away than normal.
 
-For ranges larger than one byte, [TLKR2](D6_TLKR2.md) may be used.
+For ranges larger than one byte, [TLKR2](D6_TLKR2) may be used.

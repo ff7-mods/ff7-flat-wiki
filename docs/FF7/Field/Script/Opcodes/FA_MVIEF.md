@@ -18,4 +18,4 @@ title: FA_MVIEF
 
 #### Description
 
-Stores the frame number of the current [MOVIE](F9_MOVIE.md) that is being displayed, in the bank and address specified.
+Stores the frame number of the current [MOVIE](F9_MOVIE) that is being displayed, in the bank and address specified.

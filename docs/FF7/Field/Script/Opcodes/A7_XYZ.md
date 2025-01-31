@@ -23,4 +23,4 @@ title: A7_XYZ
 
 #### Description
 
-Similar to [XYZI](A5_XYZI.md), but does not specify a triangle ID. This lack of triangle ID may cause problems if the field object is set to move from its set position.
+Similar to [XYZI](A5_XYZI), but does not specify a triangle ID. This lack of triangle ID may cause problems if the field object is set to move from its set position.

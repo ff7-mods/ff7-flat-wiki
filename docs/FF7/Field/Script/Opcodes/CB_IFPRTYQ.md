@@ -13,7 +13,7 @@ title: CB_IFPRTYQ
 
 #### Arguments
 
-- **const UByte** *C*: [Character ID](../../Character_ID.md) to check.
+- **const UByte** *C*: [Character ID](../../Character_ID) to check.
 - **const UByte** *A*: Amount to jump if comparison is false.
 
 #### Description

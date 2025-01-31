@@ -22,4 +22,4 @@ title: 19_IFUWL
 
 #### Description
 
-This is similar to the [IFUW](18_IFUW.md) opcode, but allows for a jump on comparison failure of more than 0xFF bytes.
+This is similar to the [IFUW](18_IFUW) opcode, but allows for a jump on comparison failure of more than 0xFF bytes.

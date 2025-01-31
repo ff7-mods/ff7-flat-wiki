@@ -26,4 +26,4 @@ Microsoft has support page about this problem that should help you fix this prob
 
 **Link**: [Microsoft Knowledge Base](http://support.microsoft.com/default.aspx?scid=kb;en-us;324767)
 
-[Back to Technical Problems page](../Technical.md)
+[Back to Technical Problems page]()

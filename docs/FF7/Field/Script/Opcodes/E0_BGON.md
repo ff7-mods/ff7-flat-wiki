@@ -20,6 +20,6 @@ title: E0_BGON
 
 #### Description
 
-Turns on the portion of background whose [background sprite](../../Sprite.md) belongs to the scripted area and state specified.
+Turns on the portion of background whose [background sprite](../../Sprite) belongs to the scripted area and state specified.
 
-Parts of the background image (or more accurately, specific sprites) may be assigned a "scripted area" that allows control over that portion of the background by the scripting system. Within each scripted area, backgrounds are drawn on top of each other in layers, on the same location; these can represent a door in both open and closed states, for example, allowing the script to switch between an open door when a trigger is crossed and a closed door otherwise by simply [turning off](E1_BGOFF.md) the "closed door" background and turning on the "open door" background.
+Parts of the background image (or more accurately, specific sprites) may be assigned a "scripted area" that allows control over that portion of the background by the scripting system. Within each scripted area, backgrounds are drawn on top of each other in layers, on the same location; these can represent a door in both open and closed states, for example, allowing the script to switch between an open door when a trigger is crossed and a closed door otherwise by simply [turning off](E1_BGOFF) the "closed door" background and turning on the "open door" background.

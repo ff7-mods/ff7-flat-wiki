@@ -19,4 +19,4 @@ title: 26_BLINK
 
 Specifies whether the eyes of the current entity's visible object should blink at random intervals. As there is no argument to specify which character this refers to, this opcode must be placed in the correct character entity's script.
 
-To open or shut the character's eyes (change the eye texture used), use [KAWAI](28_KAWAI.md).
+To open or shut the character's eyes (change the eye texture used), use [KAWAI](28_KAWAI).

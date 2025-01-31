@@ -8,7 +8,7 @@ There are four actions to be explained when dealing with any opcode in AI script
 
 The stack is more-or-less a list of values with different lengths. Only the top of the stack (the most recently added value) can be accessed at any given time, but when that value is accessed it is removed from the top of the stack and the previously added value now becomes the top of the stack. Adding to the stack is called "Pushing" a value and taking a value off is called "Popping". When pushing a value to the stack, the value of the number is pushed followed by the value type. The value type can be one of three different things:  
   
-{\| border="1" cellspacing="1" cellpadding="3" align="center" style="border: 1px solid black; border-collapse: collapse;" ! style="background:rgb(204,204,204)" align="center" \| Code ! style="background:rgb(204,204,204)" align="center" \| Type \|- \| align="center" \| 0Xh \| Value \|- \| align="center" \| 1Xh \| [Address](Battle_AI_Addresses.md) Values \|- \|}  
+{\| border="1" cellspacing="1" cellpadding="3" align="center" style="border: 1px solid black; border-collapse: collapse;" ! style="background:rgb(204,204,204)" align="center" \| Code ! style="background:rgb(204,204,204)" align="center" \| Type \|- \| align="center" \| 0Xh \| Value \|- \| align="center" \| 1Xh \| [Address](Battle_AI_Addresses) Values \|- \|}  
 They are stored as DWords, but the X will determine how many bytes to use: 0 = bit, 1 = Byte, 2 = Word, 3 = Three bytes
 
 Now that we've seen the stack, here are the opcodes:
@@ -327,7 +327,7 @@ If pop is Type 02, Type 02 filled with value of first non-null value in pop</p><
 <td style="text-align: center;"><p>95h</p></td>
 <td style="text-align: center;"></td>
 <td style="text-align: center;"><p>One of type 1X, one of type 00</p></td>
-<td style="text-align: center;"><p>If second pop is 1, takes value at local address 2010 and writes value at <a href="../../Savemap.md#Save_Memory_Bank_1.2F2" title="wikilink">memory bank 1/2</a> at offset specified by first pop<br />
+<td style="text-align: center;"><p>If second pop is 1, takes value at local address 2010 and writes value at <a href="../../Savemap#Save_Memory_Bank_1.2F2" title="wikilink">memory bank 1/2</a> at offset specified by first pop<br />
 If second pop is 0, data at memory bank1/2 at offset specified by first pop is stored at local address 2010.<br />
 Otherwise, command is ignored.</p></td>
 </tr>
@@ -401,7 +401,7 @@ The pushed value is, thus, the MP cost of the defined ability as a type 02. Note
 - Second pop must be one of the following:
 
   
-[Command index](../../Command_data.md) in case of character AI
+[Command index](../../Command_data) in case of character AI
 
 20h - For enemy attack
 

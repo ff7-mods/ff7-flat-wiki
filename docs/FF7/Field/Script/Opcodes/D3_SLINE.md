@@ -28,6 +28,6 @@ title: D3_SLINE
 
 #### Description
 
-Alters the two points of a previously defined [LINE](D0_LINE.md). In addition to allowing a line to be adjusted after creation, this opcode also provides the ability to retrieve line end-point values from memory.
+Alters the two points of a previously defined [LINE](D0_LINE). In addition to allowing a line to be adjusted after creation, this opcode also provides the ability to retrieve line end-point values from memory.
 
 If two or more lines are defined in one entity, SLINE only updates the first LINE definition.

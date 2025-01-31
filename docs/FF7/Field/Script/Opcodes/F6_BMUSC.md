@@ -17,4 +17,4 @@ title: F6_BMUSC
 
 #### Description
 
-Sets the [MUSIC](FF7/Field/Script/Opcodes/F0_MUSIC "wikilink") that will play when the next [BATTLE](70_BATTLE.md) set, this opcode can be used to set regular or boss battle music for the current field's encounters, or even switched between in the script.
+Sets the [MUSIC](FF7/Field/Script/Opcodes/F0_MUSIC "wikilink") that will play when the next [BATTLE](70_BATTLE) set, this opcode can be used to set regular or boss battle music for the current field's encounters, or even switched between in the script.

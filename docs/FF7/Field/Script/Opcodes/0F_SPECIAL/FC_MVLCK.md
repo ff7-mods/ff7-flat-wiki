@@ -15,4 +15,4 @@ title: FC_MVLCK
 
 #### Description
 
-Enables or disables the playing of movies; if the movie lock is set to on (1), movies will not be played with the [MOVIE](../F9_MOVIE.md) opcode.
+Enables or disables the playing of movies; if the movie lock is set to on (1), movies will not be played with the [MOVIE](../F9_MOVIE) opcode.

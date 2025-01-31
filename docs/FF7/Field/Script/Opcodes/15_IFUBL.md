@@ -22,4 +22,4 @@ title: 15_IFUBL
 
 #### Description
 
-This is similar to the [IFUB](14_IFUB.md) opcode, but it allows a jump of more than 0xFF if the comparison does not hold. This opcode is used if the 'if' block will be longer than 0xFF.
+This is similar to the [IFUB](14_IFUB) opcode, but it allows a jump of more than 0xFF if the comparison does not hold. This opcode is used if the 'if' block will be longer than 0xFF.

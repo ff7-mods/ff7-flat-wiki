@@ -4,19 +4,19 @@ title: Memory_management
 
 ## RAM management
 
-No matter what module is banked into memory, there is a section of memory 4,340 bytes long (0x10F4 bytes) that is reserved for all the variables for the entire game. This entire image is called the "[Savemap](../Savemap.md)". When it's time to save a game, this section of memory is copied to non-volatile ram, such as a hard disk or memory card.
+No matter what module is banked into memory, there is a section of memory 4,340 bytes long (0x10F4 bytes) that is reserved for all the variables for the entire game. This entire image is called the "[Savemap](../Savemap)". When it's time to save a game, this section of memory is copied to non-volatile ram, such as a hard disk or memory card.
 
-Within the [Savemap](../Savemap.md) there are 5 banks of memory that are directly accessible by the [field scripting language](FF7/Field_script "wikilink"). These can either be accessed 8 bits or 16 bits at a time depending on the field command argument. The following table is basic memory map of the banks and how they relate to the [Savemap](../Savemap.md). There is also an allocation for 256 bytes for temporary field variables. These are not used between field files and are not saved.
+Within the [Savemap](../Savemap) there are 5 banks of memory that are directly accessible by the [field scripting language](FF7/Field_script "wikilink"). These can either be accessed 8 bits or 16 bits at a time depending on the field command argument. The following table is basic memory map of the banks and how they relate to the [Savemap](../Savemap). There is also an allocation for 256 bytes for temporary field variables. These are not used between field files and are not saved.
 
 | Offset | 8 Bit Field Bank | 16 Bit Filed Bank | Description |
 |:--:|:--:|:--:|:--:|
-| 0x0000 | N/A | N/A | Beginning of [Savemap](../Savemap.md) |
+| 0x0000 | N/A | N/A | Beginning of [Savemap](../Savemap) |
 | 0x0BA4 | 0x1 | 0x2 | Field Script Bank 1 |
 | 0x0CA4 | 0x3 | 0x4 | Field Script Bank 2 |
 | 0x0DA4 | 0xB | 0xC | Field Script Bank 3 |
 | 0x0EA4 | 0xD | 0xE | Field Script Bank 4 |
 | 0x0FA4 | 0xF | 0x7 | Field Script Bank 5 |
-| 0x10F4 | N/A | N/A | End of [Savemap](../Savemap.md) |
+| 0x10F4 | N/A | N/A | End of [Savemap](../Savemap) |
 
 |     |     |     |                                       |
 |-----|:---:|:---:|---------------------------------------|
@@ -31,20 +31,14 @@ The PSX video memory can best be seen as a rectangular "surface" made up of 2048
   
 The following is a typical state of VRAM during game play.
 
-<figure>
-<img src="Gears_img_3.jpg" title="Gears_img_3.jpg" />
-<figcaption>Gears_img_3.jpg</figcaption>
-</figure>
+![Gears_img_3.jpg](/assets/Gears_img_3.jpg)
 
 The two game screens on the left side are the video buffer and the back buffer. The patchwork of graphics on the top right are the field graphics for that scene. The bottom row consists of cached graphics and special effects and on right semi-permanent and permanent textures for the game.
 
   
 The following is a schematic representation of VRAM and all it's texture boundaries.
 
-<figure>
-<img src="Gears_img_4.jpg" title="Gears_img_4.jpg" />
-<figcaption>Gears_img_4.jpg</figcaption>
-</figure>
+![Gears_img_4.jpg](/assets/Gears_img_4.jpg)
 
 Here the sections of VRAM are much more visible. The large cyan areas are the video frame buffers. The PSX uses a standard double page buffer to animate the game. The blank areas above and below the frame buffers are blank to allow for a correct V-sync. The dark blue areas to the right of the frame buffers are when the game plays 24 bit movies. This requires a slightly larger display and the first two texture caches are overwritten. During times in the game where no movies can take place, such as Battle, textures are commonly placed here.
 

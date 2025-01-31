@@ -49,7 +49,7 @@ Targeting is set by a single byte with eight different effects for each bit that
 (physical damage only)</p></td>
 <td><ul>
 <li>If the target or the caster is not in the front of their row, the target will take half damage.</li>
-<li>For every attack this is enabled, they are constrained by the <a href="Battle_Scenes.md#Binary_.22Cover_Flags.22" title="wikilink">Binary "Cover Flags"</a></li>
+<li>For every attack this is enabled, they are constrained by the <a href="Battle_Scenes#Binary_.22Cover_Flags.22" title="wikilink">Binary "Cover Flags"</a></li>
 </ul></td>
 </tr>
 <tr>

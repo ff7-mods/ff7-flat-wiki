@@ -26,4 +26,4 @@ title: 25_NFADE
 
 #### Description
 
-See [FADE](6B_FADE.md) op code page for full details.
+See [FADE](6B_FADE) op code page for full details.

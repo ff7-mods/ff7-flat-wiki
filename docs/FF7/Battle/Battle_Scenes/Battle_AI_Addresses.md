@@ -57,7 +57,7 @@ Generally these contain information about the battle itself. These values are th
 |  | 0x2163 | Empty all players' Limit Bars (and other things) |
 |  | 0x2164 | Players can learn limits (never unset?) |
 |  | 0x2165 | No reward screen? |
-| 0x2170 | [Special Attack Flags](../Special_Attack_Flags.md). |  |
+| 0x2170 | [Special Attack Flags](../Special_Attack_Flags). |  |
 | 0x2180 | Unknown (divisor of some sort related to limits) |  |
 | 0x21A0 | During Emerald Weapon battle, keeps track of how many eyes are active. (Possible use in other battles, too) |  |
 | 0x21C0 | Party's Gil |  |
@@ -68,7 +68,7 @@ These values are reflections of a given actor's status. They include some obviou
 
 | Address | Value |  |
 |----|----|----|
-| 0x4000 | Bitmask of current [Statuses](../Status_Effects.md) |  |
+| 0x4000 | Bitmask of current [Statuses](../Status_Effects) |  |
 | 0x4020 | Set of flags relating to situation. |  |
 |  | 0x4020 |  |
 |  | 0x4021 | Ally of current actor |

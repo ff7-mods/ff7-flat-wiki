@@ -17,4 +17,4 @@ None.
 
 #### Description
 
-An alias for [HMPMAX3](3F_HMPMAX3.md).
+An alias for [HMPMAX3](3F_HMPMAX3).

@@ -2,7 +2,7 @@
 title: History
 ---
 
-<small>*from [Halkun](../User:Halkun.md)'s "Gears" document*</small>
+<small>*from [Halkun](../User:Halkun)'s "Gears" document*</small>
 
   
 
@@ -36,7 +36,7 @@ Nintendo, without a drive system, quietly disclosed to their third parties that 
 
 ### The Production
 
-Halfway through the production of Final Fantasy VII, two very important things happened. First a second team was spun off to start production of [Final Fantasy VIII](../FF8.md). This allowed a staggered development cycle were when one game one done, another would be half done, cutting production time in half. Also half way through production, Hironobu Sakaguchi, the producer, learned that his mother Aki had died. Sakaguchi drew on this death and altered the story in a radical way. It now revolved around life and death and the earth.
+Halfway through the production of Final Fantasy VII, two very important things happened. First a second team was spun off to start production of [Final Fantasy VIII](../FF8). This allowed a staggered development cycle were when one game one done, another would be half done, cutting production time in half. Also half way through production, Hironobu Sakaguchi, the producer, learned that his mother Aki had died. Sakaguchi drew on this death and altered the story in a radical way. It now revolved around life and death and the earth.
 
 ### The Release
 

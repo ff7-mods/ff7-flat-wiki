@@ -14,10 +14,7 @@ The core system is made up of six modules. They are called the kernel, field, me
 
 
 
-<figure>
-<img src="Engine_parts.jpg" title="Engine_parts.jpg" />
-<figcaption>Engine_parts.jpg</figcaption>
-</figure>
+![Engine_parts.jpg](/assets/Engine_parts.jpg)
 
 
 

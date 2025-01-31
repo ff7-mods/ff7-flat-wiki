@@ -20,4 +20,4 @@ title: AD_FMOVE
 
 #### Description
 
-Similar to [MOVE](A8_MOVE.md), but the field object won't play its animation whilst it moves. Field object will be rotated according to movement.
+Similar to [MOVE](A8_MOVE), but the field object won't play its animation whilst it moves. Field object will be rotated according to movement.

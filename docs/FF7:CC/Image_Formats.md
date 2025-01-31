@@ -35,9 +35,9 @@ if width = 128, then you get 1 interlaced column
 
 # Known FF7:CC Image Formats
 
-- [\[IMG](Image_Formats.md#IMG_Format)\]
-- [\[TEX](Image_Formats.md#TEX_Format)\]
-- [\[GT](Image_Formats.md#GT_Format)\]
+- [\[IMG](Image_Formats#IMG_Format)\]
+- [\[TEX](Image_Formats#TEX_Format)\]
+- [\[GT](Image_Formats#GT_Format)\]
 
   
 Note that the Pixel-data is interlaced for all of these formats, as described above.
@@ -58,7 +58,7 @@ The image palettes are 32bit format R8G8B8A8. Palettes for textures are fairly e
 
 ## TEX Format
 
-Note: the FF7:CC \[TEX\] format is NOT the same as the FF7 PC [TEX](../FF7/TEX_format.md) format.
+Note: the FF7:CC \[TEX\] format is NOT the same as the FF7 PC [TEX](../FF7/TEX_format) format.
 
   
 \[TEX\] Files are Texture images used by Models, frequently found embedded within \[ATEL\] and \[!\] files which use them.

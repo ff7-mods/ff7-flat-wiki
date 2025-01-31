@@ -39,7 +39,7 @@ All the bytes used by the game are listed here, along with some that are not use
 </tr>
 <tr>
 <td><p>0x40 (01000000)</p></td>
-<td><p>Activates the battle arena. The next chosen <a href="70_BATTLE.md" title="wikilink">BATTLE</a> instead takes place in the arena,<br />
+<td><p>Activates the battle arena. The next chosen <a href="70_BATTLE" title="wikilink">BATTLE</a> instead takes place in the arena,<br />
 but keeping the same enemy formation. The "keep going/no way" interface is enabled.</p></td>
 </tr>
 <tr>

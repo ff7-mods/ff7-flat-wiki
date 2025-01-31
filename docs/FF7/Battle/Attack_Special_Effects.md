@@ -2,7 +2,7 @@
 title: Attack_Special_Effects
 ---
 
-Attacks and Items can have additional Special Effects that take place after Damage Calculation is performed. Several of them take a Modifier that further defines what action to take. If the Effect doesn't take a modifier, the modifier is NULL (FFh). In addition, these effects have specific timings. There are six different timings that will be explained later. Here are the valid values (between 0 - 23h) with examples of some attacks that have these values. If another value is provided it will be ignored. [Damage Calculations](Damage_Calculation.md) A0 - A8 are handled using the highlighted effects and defaulting to damage calculation 11h.
+Attacks and Items can have additional Special Effects that take place after Damage Calculation is performed. Several of them take a Modifier that further defines what action to take. If the Effect doesn't take a modifier, the modifier is NULL (FFh). In addition, these effects have specific timings. There are six different timings that will be explained later. Here are the valid values (between 0 - 23h) with examples of some attacks that have these values. If another value is provided it will be ignored. [Damage Calculations](Damage_Calculation) A0 - A8 are handled using the highlighted effects and defaulting to damage calculation 11h.
 
 <table>
 <thead>

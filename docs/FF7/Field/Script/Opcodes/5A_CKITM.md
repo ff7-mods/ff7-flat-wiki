@@ -14,7 +14,7 @@ title: 5A_CKITM
 #### Arguments
 
 - **const UByte** *B*: Bank to store result.
-- **const UShort** *I*: [Item ID](../../Item_ID.md) to check.
+- **const UShort** *I*: [Item ID](../../Item_ID) to check.
 - **const UByte** *A*: Address to store result.
 
 #### Description

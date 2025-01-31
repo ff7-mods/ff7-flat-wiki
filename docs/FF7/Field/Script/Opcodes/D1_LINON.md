@@ -17,4 +17,4 @@ title: D1_LINON
 
 #### Description
 
-Turns on or off the [LINE](D0_LINE.md) that was registered by this entity in the current field. If set to off, the line will not be triggered by the character walking through them.
+Turns on or off the [LINE](D0_LINE) that was registered by this entity in the current field. If set to off, the line will not be triggered by the character walking through them.

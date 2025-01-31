@@ -2,19 +2,19 @@
 title: BCX
 ---
 
-BCX files have a similar structure to [BSX files](BSX.md). However, there are a few key differences.
+BCX files have a similar structure to [BSX files](BSX). However, there are a few key differences.
 
 ## BCX Header
 
-Same as [BSX files](BSX.md#BSX_Header).
+Same as [BSX files](BSX#BSX_Header).
 
 ## Skeleton Data Section
 
-Same as [BSX files](BSX.md#Skeleton_Data_Section).
+Same as [BSX files](BSX#Skeleton_Data_Section).
 
 ## Animation Data Section
 
-Same as [BSX files](BSX.md#Animation_Data_Section).
+Same as [BSX files](BSX#Animation_Data_Section).
 
 ## Model Info Section
 
@@ -33,7 +33,7 @@ This section begins first with a model header of 36 bytes:
 `    u32 blank2;`  
 `} // sizeof = 36`
 
-This header is followed by the skeleton data, the part headers and the animation headers, like in [BSX files](BSX.md#Models_Section)
+This header is followed by the skeleton data, the part headers and the animation headers, like in [BSX files](BSX#Models_Section)
 
   
   

@@ -18,7 +18,7 @@ title: BA_ANIM!2
 
 #### Description
 
-Similarly to [ANIME2](AE_ANIME2.md), plays the animation found at ID *A* in this entity's field object, at the speed marked by *S*. However, in contrast, the field object stays posed in the last frame of the animation played.
+Similarly to [ANIME2](AE_ANIME2), plays the animation found at ID *A* in this entity's field object, at the speed marked by *S*. However, in contrast, the field object stays posed in the last frame of the animation played.
 
 The current script's execution is halted whilst the animation is played, and continues when the animation has completed.
 

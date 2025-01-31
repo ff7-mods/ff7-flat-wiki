@@ -4,7 +4,7 @@ title: Customising
 
 ## Essentials
 
-The entries in this section are to enable you to play [Final Fantasy VII](../../FF7.md) should you encounter issues in running the game.
+The entries in this section are to enable you to play [Final Fantasy VII](..) should you encounter issues in running the game.
 
 | Name | Description | Author | Version / Status | Links |
 |----|----|----|----|----|
@@ -15,7 +15,7 @@ The entries in this section are to enable you to play [Final Fantasy VII](../../
 
 ## Modifications
 
-The following section maintains a list of projects that can be used in conjunction with [Final Fantasy VII](../../FF7.md) to enhance the game beyond starting and playing the game as normal; these range from patches used to enhance graphics, to viewers and editors for game data. Entries are listed by category, then alphabetically.
+The following section maintains a list of projects that can be used in conjunction with [Final Fantasy VII](..) to enhance the game beyond starting and playing the game as normal; these range from patches used to enhance graphics, to viewers and editors for game data. Entries are listed by category, then alphabetically.
 
 ### Patches
 

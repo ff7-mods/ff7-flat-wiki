@@ -18,4 +18,4 @@ title: E3_BGROL2
 
 #### Description
 
-Similar to [BGROL](E2_BGROL.md), except the roll runs backwards through layers, rather than forwards. Rolling backwards past layer 0 for the area specified results in no background being shown.
+Similar to [BGROL](E2_BGROL), except the roll runs backwards through layers, rather than forwards. Rolling backwards past layer 0 for the area specified results in no background being shown.

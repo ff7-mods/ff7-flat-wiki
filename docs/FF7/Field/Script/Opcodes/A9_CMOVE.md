@@ -20,4 +20,4 @@ title: A9_CMOVE
 
 #### Description
 
-Similar to [MOVE](A8_MOVE.md).
+Similar to [MOVE](A8_MOVE).

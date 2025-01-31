@@ -20,7 +20,7 @@ title: CD_MMBud
 
 Enables or disables the availability of this character in the game, as well as in the right-hand selector pane in the party select menu. If the character is currently in the party, this will have no effect as the character is already displayed in the current party list (left pane).
 
-This turns the character on or off globally. That is, if you turn off the character and then query whether the character is available with [IFMEMBQ](CC_IFMEMBQ.md), the comparison will not hold, and the script will jump to the second argument of IFMEMBQ.
+This turns the character on or off globally. That is, if you turn off the character and then query whether the character is available with [IFMEMBQ](CC_IFMEMBQ), the comparison will not hold, and the script will jump to the second argument of IFMEMBQ.
 
 #### Character IDs
 

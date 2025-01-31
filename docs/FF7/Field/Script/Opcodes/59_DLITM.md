@@ -15,7 +15,7 @@ title: 59_DLITM
 
 - **const Bit\[4\]** *B1*: Source bank 1, or zero if *T* is set as a constant value.
 - **const Bit\[4\]** *B2*: Source bank 2, or zero if *A* is set as a constant value.
-- **const UShort** *T*: [Type of item](../Item_ID.md) to delete, or source address to retrieve item type from.
+- **const UShort** *T*: [Type of item](../Item_ID) to delete, or source address to retrieve item type from.
 - **const UByte** *A*: Amount of item to remove, or source address to retrieve item quantity from.
 
 #### Description

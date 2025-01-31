@@ -14,4 +14,4 @@ This is a very known problem caused by bad memory allocation. Game refers to poi
 
 Eidos has no solution to this problem besides giving you Save so you can play further in-game. This can be fixed using [Aali's OpenGL driver](http://forums.qhimm.com/index.php?topic=8306.0).
 
-[Back to Technical Problems page](../Technical.md)
+[Back to Technical Problems page]()

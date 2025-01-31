@@ -17,4 +17,4 @@ title: 13_JMPBL
 
 #### Description
 
-Jumps backward in the current script a specified amount. The jump begins just before the jump opcode itself and then moves the current byte pointer back the specified number of bytes. Unlike [JMPB](12_JMPB.md), this jump command allows jumps longer than 0xFF bytes.
+Jumps backward in the current script a specified amount. The jump begins just before the jump opcode itself and then moves the current byte pointer back the specified number of bytes. Unlike [JMPB](12_JMPB), this jump command allows jumps longer than 0xFF bytes.

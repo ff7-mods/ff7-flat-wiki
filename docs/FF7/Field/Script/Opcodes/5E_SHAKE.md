@@ -22,7 +22,7 @@ title: 5E_SHAKE
 
 #### Description
 
-The current camera movement through standard op codes (eg, [SCR2DC](FF7/Field/Script/Opcodes/66_SCR2DC "wikilink"), [SCRLA](63_SCRLA.md) and player movement. This camera movement remains unaffected by the SHAKE command. Instead a SHAKE adds an additional X & Y offset to the existing camera when it is running. When it is not running, the shake value is functionally equivalent to *{x:0, y:0}*.
+The current camera movement through standard op codes (eg, [SCR2DC](FF7/Field/Script/Opcodes/66_SCR2DC "wikilink"), [SCRLA](63_SCRLA) and player movement. This camera movement remains unaffected by the SHAKE command. Instead a SHAKE adds an additional X & Y offset to the existing camera when it is running. When it is not running, the shake value is functionally equivalent to *{x:0, y:0}*.
 
 SHAKE is async.
 

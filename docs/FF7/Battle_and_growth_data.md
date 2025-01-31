@@ -131,7 +131,7 @@ Section contains 24-byte header representing 2-bytes per script block (1 per cha
 
 #### Scene.bin Look-up Table
 
-In order to understand the purpose of this table we must understand the structure of the compressed and packed [scene.bin](Battle/Battle_scenes.md) file. It is divided into blocks of 8K in size. Each of these blocks begins with an array of pointers that point to a compressed array of bytes that contain a single scene file. There can be between 1 and 16 inclusive scenes in each of these blocks.
+In order to understand the purpose of this table we must understand the structure of the compressed and packed [scene.bin](Battle/Battle_scenes) file. It is divided into blocks of 8K in size. Each of these blocks begins with an array of pointers that point to a compressed array of bytes that contain a single scene file. There can be between 1 and 16 inclusive scenes in each of these blocks.
 
 There is no direct indication of how many scenes are in each block other than searching through all the headers to find the desired one. It would take a noticeable amount of time to search through each block when the greater valued formations are requested. The working solution to this is a look up table that would tell the scene retrieval method which block contains the desired scene. Enter the Scene Look-Up Table (hereafter abbreviated SLUT because I can :) ).
 
@@ -167,13 +167,13 @@ Bonus Info: Since there are only 64 bytes allotted to this table, there must be 
 
 This segment of data tells the game in what order to load the attacks into which Magic section. There are four Magic sections: Restore, Attack, Indirect, and Special. The first three can be reorganized in the battle's magic menu. When the first 56 attacks are loaded, these bytes tell the game which section and what order to be loaded in:
 
-[`AAA:BBBBB`](../AAA:BBBBB.md)  
+[`AAA:BBBBB`](../AAA:BBBBB)  
 `AAA - Section`  
 `BBBBB - Index within section of attack loaded`
 
 The Magic menu will only display sections 0 - 3 (Summons are section 4, E.Skills are section 5, etc.). The sections are then displayed sequentially in the field magic menu and in the order specified in the battle menu.
 
-Eg: The fourth attack in [Attack data](Attack_data.md) is Regen. The fourth byte in this data segment is 08. This means load Regen into section 0 at position 8.
+Eg: The fourth attack in [Attack data](Attack_data) is Regen. The fourth byte in this data segment is 08. This means load Regen into section 0 at position 8.
 
 NOTES:
 

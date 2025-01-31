@@ -22,4 +22,4 @@ title: 18_IFUW
 
 #### Description
 
-This is similar to the [IFUB](14_IFUB.md) opcode, but it allows the value to be larger than 0xFF.
+This is similar to the [IFUB](14_IFUB) opcode, but it allows the value to be larger than 0xFF.

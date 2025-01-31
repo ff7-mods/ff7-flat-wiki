@@ -17,7 +17,7 @@ title: 5C_DMTRA
 - **const Bit\[4\]** *B2*: Source bank 2, or zero if this unit of *AP* is set as a constant value.
 - **const Bit\[4\]** *B3*: Source bank 3, or zero if this unit of *AP* is set as a constant value.
 - **const Bit\[4\]** *B4*: Source bank 4, or zero if this unit of *AP* is set as a constant value.
-- **const UByte** *T*: [Type of materia](../Materia_ID.md) to remove, or source address 1.
+- **const UByte** *T*: [Type of materia](../Materia_ID) to remove, or source address 1.
 - **const UByte\[3\]** *AP*: Amount of AP the deleted materia must have, or source addresses 2, 3 and 4.
 - **const UByte** *A*: Amount to delete.
 
@@ -27,4 +27,4 @@ Deletes a quantity of materia with the given type and AP.
 
 #### Important Note
 
-This opcode does not appear to function correctly in the PC version of the game. In addition, it is only used once, in the [Debug Rooms](../../../Debug_Rooms.md).
+This opcode does not appear to function correctly in the PC version of the game. In addition, it is only used once, in the [Debug Rooms](../../../Debug_Rooms).

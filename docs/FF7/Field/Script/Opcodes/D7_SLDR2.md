@@ -18,4 +18,4 @@ title: D7_SLDR2
 
 #### Description
 
-Similar to [SLIDR](C6_SLIDR.md), but allows a two-byte range value to be used.
+Similar to [SLIDR](C6_SLIDR), but allows a two-byte range value to be used.

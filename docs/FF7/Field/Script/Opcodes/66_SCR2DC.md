@@ -23,4 +23,4 @@ title: 66_SCR2DC
 
 #### Description
 
-Similar to [SCR2D](64_SCR2D.md), except the scroll is not instantaneous and is performed smoothly, with a slower start and ending, with speed peaking in the center of the scroll. The overall speed can be set with *S*.
+Similar to [SCR2D](64_SCR2D), except the scroll is not instantaneous and is performed smoothly, with a slower start and ending, with speed peaking in the center of the scroll. The overall speed can be set with *S*.

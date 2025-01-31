@@ -18,4 +18,4 @@ title: 6E_LSTMP
 
 #### Description
 
-Retrieves the [field ID](../../Field_ID.md), so traversing via a gateway to the world map, then back to the field, will not cause the world map ID to be retrieved; rather, that same field ID will be loaded.
+Retrieves the [field ID](../../Field_ID), so traversing via a gateway to the world map, then back to the field, will not cause the world map ID to be retrieved; rather, that same field ID will be loaded.

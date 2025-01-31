@@ -18,4 +18,4 @@ title: 7F_RDMSD
 
 #### Description
 
-Seeds the random number generator used by [RANDOM](99_RANDOM.md). The lower four bits of the arguments are used as the seed value by altering the offset used to take a value from the table of pseudo-random numbers.
+Seeds the random number generator used by [RANDOM](99_RANDOM). The lower four bits of the arguments are used as the seed value by altering the offset used to take a value from the table of pseudo-random numbers.

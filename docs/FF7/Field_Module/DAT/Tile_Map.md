@@ -4,7 +4,7 @@ title: Tile_Map
 
 ## Background Tile Map
 
---[Cyberman](User:Cyberman "wikilink") 17:17, 27 Nov 2006 (CST) & --[Myst6re](../../../User:Myst6re.md)
+--[Cyberman](User:Cyberman "wikilink") 17:17, 27 Nov 2006 (CST) & --[Myst6re](../../../User:Myst6re)
 
 The background tile map information on the PSX is actually stored in 2 files. The graphic tiles are in a MIM file with the same name as the DAT file. Both are needed to view the background data completely. This section covers just the Tile Map information and not how to decode the MIM data. The Tile Map consists of 5 subsections. The header for the tile map consists of 4 offsets which are relative to the begining of the section. The first section always starts at offset 0x0010, it is not in the header.
 

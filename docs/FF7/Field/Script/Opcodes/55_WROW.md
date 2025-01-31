@@ -13,7 +13,7 @@ title: 55_WROW
 
 #### Arguments
 
-- **const UByte** *N*: The ID of the [WINDOW](50_WINDOW.md) whose height will be set.
+- **const UByte** *N*: The ID of the [WINDOW](50_WINDOW) whose height will be set.
 - **const UByte** *R*: Number of rows of text that should fit in this window.
 
 #### Description

@@ -22,4 +22,4 @@ title: 17_IFSWL
 
 #### Description
 
-This is similar to the [IFSW](16_IFSW.md) opcode in allowing the comparison value to be negative, but in addition, allows the jump on comparison failure to be longer than 0xFF bytes.
+This is similar to the [IFSW](16_IFSW) opcode in allowing the comparison value to be negative, but in addition, allows the jump on comparison failure to be longer than 0xFF bytes.

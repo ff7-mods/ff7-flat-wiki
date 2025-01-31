@@ -17,4 +17,4 @@ title: 71_BTLON
 
 #### Description
 
-Turns random encounters on or off for this field. Note that if a field does not have any [Encounter Data](../../Encounter.md) set in its field file, battles will not occur regardless of the argument passed with this opcode.
+Turns random encounters on or off for this field. Note that if a field does not have any [Encounter Data](../../Encounter) set in its field file, battles will not occur regardless of the argument passed with this opcode.

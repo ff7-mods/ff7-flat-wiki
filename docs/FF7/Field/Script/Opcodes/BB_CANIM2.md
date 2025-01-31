@@ -20,6 +20,6 @@ title: BB_CANIM2
 
 #### Description
 
-Exactly the same as [ANIME1](A3_ANIME1.md), but allow set first and last frame of given animation.
+Exactly the same as [ANIME1](A3_ANIME1), but allow set first and last frame of given animation.
 
 Makou Reactor Description: Play partially the animation \#%1 of the field model and reset to initial state (first frame=%2, last frame=%3, speed=%4)

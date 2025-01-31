@@ -4,7 +4,7 @@ title: Encounter
 
 ## Overview
 
-The encounter section provides encounter data for the field by referencing [battle IDs](../Battle/Battle_Scenes.md) and providing probabilites for each type of encounter required. The section consists of two *encounter tables* that hold sets of these battle configurations; these tables may be switched between using field scripting. The two encounter tables are contiguous and follow directly after the section's length description; due to the presence of the two encounter tables regardless of whether they are used or not, the section length is always 48 bytes.
+The encounter section provides encounter data for the field by referencing [battle IDs](../Battle/Battle_Scenes) and providing probabilites for each type of encounter required. The section consists of two *encounter tables* that hold sets of these battle configurations; these tables may be switched between using field scripting. The two encounter tables are contiguous and follow directly after the section's length description; due to the presence of the two encounter tables regardless of whether they are used or not, the section length is always 48 bytes.
 
 ` struct SECTION_ENCOUNTER`  
 ` {`  
@@ -33,7 +33,7 @@ Following these are the ten encounter structures; these are divided into two gro
 
 The purpose of two tables is to allow the scripting system to switch between a choice of two sets of encounter data. This is used in-game to allow two levels of difficulty within one field, so that if the player revisits an area in a later part of the game (such as areas of Midgar), the enemies will be suitably more difficult. This can be implemented by placing "easier" encounters in the first table, harder encounter IDs in the second table, and switching appropriately (perhaps by checking the Plot Point Variable).
 
-Tables are switched between by simply passing a 0 or 1 to the [BTLTB](Script/Opcodes/4B_BTLTB.md) opcode, representing the required table. The first table is the default if no BTLTB opcode is specified; either table may be empty, but if switched to using BTLTB, encounters will be deactivated as there will be no encounter data set for that table.
+Tables are switched between by simply passing a 0 or 1 to the [BTLTB](Script/Opcodes/4B_BTLTB) opcode, representing the required table. The first table is the default if no BTLTB opcode is specified; either table may be empty, but if switched to using BTLTB, encounters will be deactivated as there will be no encounter data set for that table.
 
 ## Encounter Structure
 
@@ -52,7 +52,7 @@ Each individual two-byte encounter entry is further split into two groups of bit
 
 The first six bits denote the probability for this encounter; the sum of all the probabilites for the standard encounters is 64, though this is not the case for the special battles. For further information on how encounter probabilities are used and calculated, Terence Fergusson's [Battle Mechanics Guide](http://db.gamefaqs.com/console/psx/file/final_fantasy_vii_enemy_mech.txt) contains detailed information.
 
-The second ten bits denote the [ID](../Battle/Battle_Scenes.md) of the battle.
+The second ten bits denote the [ID](../Battle/Battle_Scenes) of the battle.
 
 ### Encounter Entry Types
 

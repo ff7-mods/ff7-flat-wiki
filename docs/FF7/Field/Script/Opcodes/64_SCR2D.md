@@ -20,4 +20,4 @@ title: 64_SCR2D
 
 #### Description
 
-Instantaneously scrolls the current view to the coordinates found in the arguments (or the values found at the addresses if memory banks and address are specified). The move to the new coordinates is instant; variants exist for [linear](FF7/Field/Script/Opcodes/68_SCR2DL "wikilink") and [smooth](66_SCR2DC.md) scrolling.
+Instantaneously scrolls the current view to the coordinates found in the arguments (or the values found at the addresses if memory banks and address are specified). The move to the new coordinates is instant; variants exist for [linear](FF7/Field/Script/Opcodes/68_SCR2DL "wikilink") and [smooth](66_SCR2DC) scrolling.

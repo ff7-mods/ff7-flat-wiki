@@ -17,4 +17,4 @@ title: C8_PRTYP
 
 #### Description
 
-Adds a character to the party, given by *C*. The character is added in the first given empty party slot (which can be set by [PRTYE](CA_PRTYE.md), the newly added party member occupies the last slot, overwriting the party member already there.
+Adds a character to the party, given by *C*. The character is added in the first given empty party slot (which can be set by [PRTYE](CA_PRTYE), the newly added party member occupies the last slot, overwriting the party member already there.

@@ -4,7 +4,7 @@ title: Encounters
 
 ## Introduction
 
-World map random encounter data is stored in the "enc_w.bin" file in the world_xx.lgp archive (on the PC version). Battles are selected based on the [region](FF7/WorldMap_Module#Regions "wikilink") and [walkmap type](FF7/WorldMap_Module#Walkmap "wikilink") of the [current triangle](../WorldMap_Module.md#Triangle).
+World map random encounter data is stored in the "enc_w.bin" file in the world_xx.lgp archive (on the PC version). Battles are selected based on the [region](FF7/WorldMap_Module#Regions "wikilink") and [walkmap type](FF7/WorldMap_Module#Walkmap "wikilink") of the [current triangle](../WorldMap_Module#Triangle).
 
 **NOTE: The enc_w.bin file contains only data for first 16 regions. Any region later than that will receive encounters from region 16.**
 
@@ -53,9 +53,9 @@ Yuffie encounter chances per region
 
 *\* this also includes all following regions (Round Island being the only one where encounters are possible)*
 
-If that check succeeds the game checks whether player is either on Forest or Jungle type triangle and if Yuffie is available for fightning (based on bit 1 from variable **0x0D29** from the [Savemap Memory Bank 3](../Savemap.md#Save_Memory_Bank_3.2F4). If this succeeds too game determines which battle scene to use based on Cloud's level, using the 1st table stored in enc_w.bin.
+If that check succeeds the game checks whether player is either on Forest or Jungle type triangle and if Yuffie is available for fightning (based on bit 1 from variable **0x0D29** from the [Savemap Memory Bank 3](../Savemap#Save_Memory_Bank_3.2F4). If this succeeds too game determines which battle scene to use based on Cloud's level, using the 1st table stored in enc_w.bin.
 
-Next are checks for Chocobo fights. If the [current triangle](../WorldMap_Module.md#Triangle).
+Next are checks for Chocobo fights. If the [current triangle](../WorldMap_Module#Triangle).
 
 Finally the game does separate checks for special battles (back, side and pincer attacks) and if they fail it will pick one from the 6 normal random battles.
 

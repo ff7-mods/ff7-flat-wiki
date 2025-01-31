@@ -17,4 +17,4 @@ None.
 
 #### Description
 
-Halts current script execution until a previous [OFST](C3_OFST.md) has completed. This is only of use if the offset type is not instantaneous.
+Halts current script execution until a previous [OFST](C3_OFST) has completed. This is only of use if the offset type is not instantaneous.

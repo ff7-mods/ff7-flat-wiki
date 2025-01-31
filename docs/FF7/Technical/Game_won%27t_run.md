@@ -14,4 +14,4 @@ This can be caused by several things. One of them is using Windows XP, second is
 
 First, if you're using Windows XP, try turning on Windows 95 compatibility mode (by right-clicking on shortcut, selecting Properties and in new window - Compatibility Tab). If it doesn't work, try to reinstalling drivers you installed recently. I heard that one guy solved this problem by reinstalling audio drivers and changing sound configuration in Final Fantasy VII configurator.
 
-[Back to Technical Problems page](../Technical.md)
+[Back to Technical Problems page]()

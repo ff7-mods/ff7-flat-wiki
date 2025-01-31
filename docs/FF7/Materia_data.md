@@ -10,9 +10,9 @@ This section contains the Materia data. Each record is 20 bytes long.
 |:--:|----|----|----|----|
 | 0x00 | 8 bytes | Level-up AP limits | Multiples of 100 (4x WORD) |  |
 | 0x08 | 1 byte | Equip Effect | \[See table below\] |  |
-| 0x09 | 3 bytes | [Status Effects](Battle/Status_Effects.md). Only first 24. |  |  |
-| 0x0C | 1 byte | [Element Index](Battle/Elemental_Data.md) |  |  |
-| 0x0D | 1 byte | [Materia Type](Materia_Types.md) |  |  |
+| 0x09 | 3 bytes | [Status Effects](Battle/Status_Effects). Only first 24. |  |  |
+| 0x0C | 1 byte | [Element Index](Battle/Elemental_Data) |  |  |
+| 0x0D | 1 byte | [Materia Type](Materia_Types) |  |  |
 | 0x0E | 1 byte | Materia attributes | \[See Above\] |  |
 | 0x0F | 1 byte | Materia attributes | \[See Above\] |  |
 | 0x10 | 1 byte | Materia attributes | \[See Above\] |  |

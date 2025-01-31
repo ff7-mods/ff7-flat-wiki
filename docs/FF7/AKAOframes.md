@@ -91,20 +91,20 @@ This example plays Chocobo "Whoo-Hoo" (instrument number 0x55) repeatedly.
 
 # Sound Opcode list
 
-[0xa0 (Finish Channel)](../0xa0_(Finish_Channel).md)
+[0xa0 (Finish Channel)](../0xa0_(Finish_Channel))
 
-[0xa1 (Load Instrument)](../0xa1_(Load_Instrument).md)
+[0xa1 (Load Instrument)](../0xa1_(Load_Instrument))
 
-[0xa5 (Pitch Divider)](../0xa5_(Pitch_Divider).md)
+[0xa5 (Pitch Divider)](../0xa5_(Pitch_Divider))
 
-[0xa8 (Channel Volume)](../0xa8_(Channel_Volume).md)
+[0xa8 (Channel Volume)](../0xa8_(Channel_Volume))
 
-[0xaa (Channel Pan)](../0xaa_(Channel_Pan).md)
+[0xaa (Channel Pan)](../0xaa_(Channel_Pan))
 
-[0xc8 (Loop Point)](../0xc8_(Loop_Point).md)
+[0xc8 (Loop Point)](../0xc8_(Loop_Point))
 
-[0xca (Return to Loop Point)](../0xca_(Return_to_Loop_Point).md)
+[0xca (Return to Loop Point)](../0xca_(Return_to_Loop_Point))
 
-[0xe8 (Tempo)](../0xe8_(Tempo).md)
+[0xe8 (Tempo)](../0xe8_(Tempo))
 
-[0xea (Reverb Depth)](../0xea_(Reverb_Depth).md)
+[0xea (Reverb Depth)](../0xea_(Reverb_Depth))

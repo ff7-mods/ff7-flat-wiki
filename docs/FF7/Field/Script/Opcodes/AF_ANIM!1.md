@@ -18,7 +18,7 @@ title: AF_ANIM!1
 
 #### Description
 
-Similarly to [ANIME1](A3_ANIME1.md), **ANIM!1** plays the animation found at ID *A* in this entity's field object, at the speed marked by *S*. However, when the animation is completed, the field object stays posed in the last frame of the animation.
+Similarly to [ANIME1](A3_ANIME1), **ANIM!1** plays the animation found at ID *A* in this entity's field object, at the speed marked by *S*. However, when the animation is completed, the field object stays posed in the last frame of the animation.
 
 Script execution is not halted whilst the animation plays.
 

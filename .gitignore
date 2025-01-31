@@ -3,3 +3,5 @@ output/*
 _site
 .jekyll-cache
 docs-config
+.bundle
+.DS_Store

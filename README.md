@@ -9,6 +9,13 @@ Markdown files automatically build into [ff7-mods.github.io/ff7-flat-wiki](https
 > The existing [FF Inside Wiki](https://wiki.ffrtt.ru) is a vast and amazing treasure trove of information, however, there are questions about resiliency, editability and longevity. In the interest of retaining the knowledge in this area, we should propose at least an independent backup.
 This repo contains the migration tool, the migrated data will be loaded persisted in [ff7-flat-wiki](https://ff7-mods.github.io/ff7-flat-wiki)
 
+## Run locally
+- Install ruby and bundler (`gem install bundler`)
+- Clone repo
+- cd into `ff7-flat-wiki/docs`
+- Install by `bundle install`
+- Run with `bundle exec jekyll serve --baseurl=""`
+- Open `localhost:4000`
 
 ## Editing
 To be discussed.

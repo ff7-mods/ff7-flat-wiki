@@ -14,18 +14,18 @@ The following are the file formats for the game. These are loacted in the /PRGDA
 
 | Extension             | Data                                |
 |-----------------------|-------------------------------------|
-| [ANZ](ANZ.md) | LZS Compressed Dialog Answer Lookup |
-| [BBB](BBB.md) | Unknown                             |
-| [BIN](BIN.md) | Unknown                             |
-| [BIZ](BIZ.md)   |
-| [DAT](DAT.md) | Sound Effects                       |
-| [DCT](DCT.md) | Japanese Word Dictionary            |
-| [KAT](KAT.md) | Unknown                             |
-| [SNG](SNG.md) | Midi/Mod like Music Data            |
-| [STR](STR.md) | MDEC format movie file              |
-| [TIZ](TIZ.md) | LZS Compressed TIM file             |
-| [VIB](VIB.md) | Unknown                             |
-| [ZZZ](ZZZ.md) | LZS Compressed dialogs              |
+| [ANZ](ANZ) | LZS Compressed Dialog Answer Lookup |
+| [BBB](BBB) | Unknown                             |
+| [BIN](BIN) | Unknown                             |
+| [BIZ](BIZ)   |
+| [DAT](DAT) | Sound Effects                       |
+| [DCT](DCT) | Japanese Word Dictionary            |
+| [KAT](KAT) | Unknown                             |
+| [SNG](SNG) | Midi/Mod like Music Data            |
+| [STR](STR) | MDEC format movie file              |
+| [TIZ](TIZ) | LZS Compressed TIM file             |
+| [VIB](VIB) | Unknown                             |
+| [ZZZ](ZZZ) | LZS Compressed dialogs              |
 
 ## Compression
 

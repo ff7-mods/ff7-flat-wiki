@@ -23,4 +23,4 @@ title: 68_SCR2DL
 
 #### Description
 
-Similar to [SCR2D](64_SCR2D.md), except the scroll to the coordinates is linear; that is, the speed is constant throughout the duration of the screen scroll.
+Similar to [SCR2D](64_SCR2D), except the scroll to the coordinates is linear; that is, the speed is constant throughout the duration of the screen scroll.

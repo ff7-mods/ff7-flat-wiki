@@ -17,7 +17,7 @@ title: F8_PMVIE
 
 #### Description
 
-Sets the movie file that will be played at a future point in the script by [MOVIE](F9_MOVIE.md).
+Sets the movie file that will be played at a future point in the script by [MOVIE](F9_MOVIE).
 
 #### FF7 Movie ID List
 

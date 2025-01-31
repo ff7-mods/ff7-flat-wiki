@@ -23,7 +23,7 @@ title: 38_STTIM
 
 #### Description
 
-Sets the clock, as found in the [WSPCL](36_WSPCL.md) opcode.
+Sets the clock, as found in the [WSPCL](36_WSPCL) opcode.
 
 If the hours, minutes or seconds are specified in the argument, the corresponding *B* nybble is zero. Otherwise, the value for the time component is retrieved from the bank and address specified. The seperate time components can be retrieved from memory or specified as a value, in the same argument list, as demonstrated below.
 

@@ -17,4 +17,4 @@ There are two known causes of this problem:
 
 First, check if you have enough space on your hard disk. If not, delete something :). If the problem still exists, enter your Temp directory (C:\Windows\Temp on Windows 98 or C:\Documents and Settings\\Profile Name\]\Local Settings\Temp on Windows XP) and delete everything there. This should fix the problem.
 
-[Back to Technical Problems page](../Technical.md)
+[Back to Technical Problems page]()

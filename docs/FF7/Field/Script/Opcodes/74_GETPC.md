@@ -19,4 +19,4 @@ title: 74_GETPC
 
 #### Description
 
-Gets the standard [Character ID](../../Character_ID.md) for the party member, referenced by *C*. This value is between 0 and 2; 0 for the party member at the top of the list, 1 for the member in the middle, and 2 for the member in the bottom slot, as found in the main menu. The character ID is then placed at the specified bank and address.
+Gets the standard [Character ID](../../Character_ID) for the party member, referenced by *C*. This value is between 0 and 2; 0 for the party member at the top of the list, 1 for the member in the middle, and 2 for the member in the bottom slot, as found in the main menu. The character ID is then placed at the specified bank and address.

@@ -18,4 +18,4 @@ title: 32_IFKEYOFF
 
 #### Description
 
-Similar to [IFKEYON](31_IFKEYON.md). Rather than check if this is the first time the user has pressed the button with the given ID, **IFKEYOFF** will not execute the body of the "if" statement until the user has lifted the key that was previously held down or pressed. This way, the body of the statement will only be executed once, when the key is no longer pressed.
+Similar to [IFKEYON](31_IFKEYON). Rather than check if this is the first time the user has pressed the button with the given ID, **IFKEYOFF** will not execute the body of the "if" statement until the user has lifted the key that was previously held down or pressed. This way, the body of the statement will only be executed once, when the key is no longer pressed.

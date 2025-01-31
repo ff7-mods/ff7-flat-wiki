@@ -18,7 +18,7 @@ title: 5D_CMTRA
 - **const Bit\[4\]** *B3*: Source bank 3, or zero if this unit of *AP* is set as a constant value.
 - **const Bit\[4\]** *B4*: Source bank 4, or zero if this unit of *AP* is set as a constant value.
 - **const UByte** *B5*: Bank to store *A*.
-- **const UByte** *T*: [Type of materia](../Materia_ID.md) to check, or source address 1.
+- **const UByte** *T*: [Type of materia](../Materia_ID) to check, or source address 1.
 - **const UByte\[3\]** *AP*: Amount of AP the checked materia must have, or source addresses 2, 3 and 4.
 - **const UByte** *U*: Unknown.
 - **const UByte** *A*: Address to store amount of materia found.

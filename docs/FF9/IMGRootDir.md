@@ -6,7 +6,7 @@ title: IMGRootDir
 
 The first sector of FF9.IMG contains a root directory of information with sector locations for subdirectories and the sector of the first file in that subdirectory.
 
-note: [sector](glossary/sector.md) hereon refers to a 2048 byte chunk of the file keep this in mind when 'deciphering' information.
+note: [sector](glossary/sector) hereon refers to a 2048 byte chunk of the file keep this in mind when 'deciphering' information.
 
 ## Root Directory Header
 

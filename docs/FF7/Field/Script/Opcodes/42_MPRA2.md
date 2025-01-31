@@ -14,10 +14,10 @@ title: 42_MPRA2
 #### Arguments
 
 - **const UByte** *B*: Bank to retrieve value from, or zero if using a literal value.
-- **const UByte** *W*: [WINDOW](50_WINDOW.md) ID for this parameter.
-- **const UByte** *I*: ID of the "[Variable](../../Variable_Dialog.md)" dialog code that this value will replace.
+- **const UByte** *W*: [WINDOW](50_WINDOW) ID for this parameter.
+- **const UByte** *I*: ID of the "[Variable](../../Variable_Dialog)" dialog code that this value will replace.
 - **const UShort** *V*: Value to insert into dialog, or address of value, if *B* is non-zero.
 
 #### Description
 
-Similar to [MPARA](41_MPARA.md), but allows a constant value of greater than one byte to be supplied. This does not apply if *B* is non-zero, as the address the value is retrieved from must be in the range 0 to 0xFF.
+Similar to [MPARA](41_MPARA), but allows a constant value of greater than one byte to be supplied. This does not apply if *B* is non-zero, as the address the value is retrieved from must be in the range 0 to 0xFF.

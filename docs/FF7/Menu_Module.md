@@ -32,24 +32,15 @@ Menu has the incredible honor of being initialized right after the kernel. It is
 
 After initialization, the first Menu module ran is "Begin" The following is a picture of "Begin" in VRAM. Things to note is the font and static menu textures from /INIT/WINNDOW.BIN are highlighted in the lower right hand corner.
 
-<figure>
-<img src="Menu_Windowbin.jpg" title="Menu_Windowbin.jpg" />
-<figcaption>Menu_Windowbin.jpg</figcaption>
-</figure>
+![Menu_Windowbin.jpg](/assets/Menu_Windowbin.jpg)
 
 The following is an expanded picture of the textures from the PC version. The PSX version only differs in texture size and the way the buttons are displayed.
 
-<figure>
-<img src="Menu_PC_Textures.jpg" title="Menu_PC_Textures.jpg" />
-<figcaption>Menu_PC_Textures.jpg</figcaption>
-</figure>
+![Menu_PC_Textures.jpg](/assets/Menu_PC_Textures.jpg)
 
 To better see what each section is, here is an annotated version with the more obvious textures labeled.
 
-<figure>
-<img src="Menu_PCT_Annotated.jpg" title="Menu_PCT_Annotated.jpg" />
-<figcaption>Menu_PCT_Annotated.jpg</figcaption>
-</figure>
+![Menu_PCT_Annotated.jpg](/assets/Menu_PCT_Annotated.jpg)
 
 This is never banked out, however small parts are overwritten and cashed for a while when Battle is loaded, but are overwritten again when menu is loaded. The large blank spot under the menu text is for the Japanese characters that were removed in the non-Japanese version of the game. This spot is unused in these versions.
 
@@ -61,19 +52,13 @@ The 13 Modules are displayed like the following.
 
 This is the begin menu.
 
-<figure>
-<img src="Menu_Begin.jpg" title="Menu_Begin.jpg" />
-<figcaption>Menu_Begin.jpg</figcaption>
-</figure>
+![Menu_Begin.jpg](/assets/Menu_Begin.jpg)
 
 This is a screen form the "save" module. Begin initializes the menu system and calls save to load a game or to start the game.
 
 ### Party
 
-<figure>
-<img src="Menu_Party.jpg" title="Menu_Party.jpg" />
-<figcaption>Menu_Party.jpg</figcaption>
-</figure>
+![Menu_Party.jpg](/assets/Menu_Party.jpg)
 
 This is the menu you see when you manually enter the menu system. Things to note is the empty box in the lower screen shows what location you are in. Debug rooms have no name most of the time.
 
@@ -81,19 +66,13 @@ This is the menu you see when you manually enter the menu system. Things to note
 
 This is the item menu.
 
-<figure>
-<img src="Menu_Item.jpg" title="Menu_Item.jpg" />
-<figcaption>Menu_Item.jpg</figcaption>
-</figure>
+![Menu_Item.jpg](/assets/Menu_Item.jpg)
 
 ### Magic
 
 This is the magic menu.
 
-<figure>
-<img src="Menu_Magic.jpg" title="Menu_Magic.jpg" />
-<figcaption>Menu_Magic.jpg</figcaption>
-</figure>
+![Menu_Magic.jpg](/assets/Menu_Magic.jpg)
 
 Both magic and summon are accessed in the same module.
 
@@ -101,10 +80,7 @@ Both magic and summon are accessed in the same module.
 
 The equip menu is a little strange.
 
-<figure>
-<img src="Menu_Equip.jpg" title="Menu_Equip.jpg" />
-<figcaption>Menu_Equip.jpg</figcaption>
-</figure>
+![Menu_Equip.jpg](/assets/Menu_Equip.jpg)
 
 Equip and Materia are in the same module.
 
@@ -112,17 +88,11 @@ Equip and Materia are in the same module.
 
 This is the status menu.
 
-<figure>
-<img src="Menu_Status.jpg" title="Menu_Status.jpg" />
-<figcaption>Menu_Status.jpg</figcaption>
-</figure>
+![Menu_Status.jpg](/assets/Menu_Status.jpg)
 
 ### Change
 
-<figure>
-<img src="Menu_Change.jpg" title="Menu_Change.jpg" />
-<figcaption>Menu_Change.jpg</figcaption>
-</figure>
+![Menu_Change.jpg](/assets/Menu_Change.jpg)
 
 Also known as "Order", this is the simplest and smallest of all the menu modules, it just changes the order of the party, it uses the party screen as a background.
 
@@ -130,17 +100,11 @@ Also known as "Order", this is the simplest and smallest of all the menu modules
 
 This is the limit menu.
 
-<figure>
-<img src="Menu_Limit.jpg" title="Menu_Limit.jpg" />
-<figcaption>Menu_Limit.jpg</figcaption>
-</figure>
+![Menu_Limit.jpg](/assets/Menu_Limit.jpg)
 
 ### Config
 
-<figure>
-<img src="Menu_Config.jpg" title="Menu_Config.jpg" />
-<figcaption>Menu_Config.jpg</figcaption>
-</figure>
+![Menu_Config.jpg](/assets/Menu_Config.jpg)
 
 This is where a good deal of environment variables can be changed.
 
@@ -148,10 +112,7 @@ This is where a good deal of environment variables can be changed.
 
 This is also known as the PHS screen.
 
-<figure>
-<img src="Menu_Form.jpg" title="Menu_Form.jpg" />
-<figcaption>Menu_Form.jpg</figcaption>
-</figure>
+![Menu_Form.jpg](/assets/Menu_Form.jpg)
 
 Form can also be called when you need to make a two or three teams of people.
 
@@ -159,10 +120,7 @@ Form can also be called when you need to make a two or three teams of people.
 
 The all important save screen.
 
-<figure>
-<img src="Menu_Save.jpg" title="Menu_Save.jpg" />
-<figcaption>Menu_Save.jpg</figcaption>
-</figure>
+![Menu_Save.jpg](/assets/Menu_Save.jpg)
 
 To save time, this will only load the first 80 bytes of each save as a preview. It allows a quick look without having to load the whole memory card, which can take upward of a minute. This is also responsible for loading games too, when called from "Begin".
 
@@ -170,10 +128,7 @@ To save time, this will only load the first 80 bytes of each save as a preview. 
 
 This is the naming screen.
 
-<figure>
-<img src="Menu_Name.jpg" title="Menu_Name.jpg" />
-<figcaption>Menu_Name.jpg</figcaption>
-</figure>
+![Menu_Name.jpg](/assets/Menu_Name.jpg)
 
 If you try and use the same name screen twice in a game, you will loose your old name and will be overwritten with the default one.
 
@@ -181,10 +136,7 @@ If you try and use the same name screen twice in a game, you will loose your old
 
 This is your typical shop.
 
-<figure>
-<img src="Menu_Shop.jpg" title="Menu_Shop.jpg" />
-<figcaption>Menu_Shop.jpg</figcaption>
-</figure>
+![Menu_Shop.jpg](/assets/Menu_Shop.jpg)
 
 You can, of course, sell items from this module as well.
 
@@ -629,4 +581,4 @@ PC Filename</p></th>
 
 ## The Save Game format
 
-The save game format is lengthy; as such you can find the save game format in a seperate section [here](Savemap.md).
+The save game format is lengthy; as such you can find the save game format in a seperate section [here](Savemap).

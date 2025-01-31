@@ -123,14 +123,14 @@ Similar to Active Character Data, but more detailed. This data is dependent on w
 | 18h | Allowed Targets (Active and targetable) |  |
 | 1Ch | Active Allies? |  |
 | 20h | Command Animation (player characters only) |  |
-| 24h | [Attack Effect](Attack_Effect_Id_List.md) |  |
+| 24h | [Attack Effect](Attack_Effect_Id_List) |  |
 | 28h | Command Index (again) |  |
 | 2Ch | Action Index (again) |  |
 | 30h | Self Mask |  |
 | 38h | MP Cost |  |
 | 3Ch | Action Accuracy |  |
-| 40h | [Damage Calculation](Damage_Calculation.md) |  |
-| 44h | [Action's Element](Elemental_Data.md) |  |
+| 40h | [Damage Calculation](Damage_Calculation) |  |
+| 44h | [Action's Element](Elemental_Data) |  |
 | 48h | Action's Power |  |
 | 4Ch | Phys/Mag Attack Power |  |
 | 50h | Action's Target(s) Mask |  |
@@ -140,22 +140,22 @@ Similar to Active Character Data, but more detailed. This data is dependent on w
 | 60h | Single Target Camera |  |
 | 64h | Multi Target Camera |  |
 | 68h | Action Reaction Animation Index |  |
-| 6Ch | [Attack Special Effects](Attack_Special_Effects.md) |  |
+| 6Ch | [Attack Special Effects](Attack_Special_Effects) |  |
 | 78h | Non-self target mask? |  |
-| 80h | [Inflicting Status(es)](Status_Effects.md) |  |
-| 84h | [Curing Status(es)](Status_Effects.md) |  |
-| 88h | [Toggling Status(es)](Status_Effects.md) |  |
+| 80h | [Inflicting Status(es)](Status_Effects) |  |
+| 84h | [Curing Status(es)](Status_Effects) |  |
+| 88h | [Toggling Status(es)](Status_Effects) |  |
 | 8Ch | Chance to inflict Status |  |
 | 90h | Command Properties (details pending) |  |
 | 94h | Target Mask |  |
 | 98h | Attack Index position in scene data (enemy only) |  |
-| A0h | Action Accuracy function (upper nybble of [Damage Calculation](Damage_Calculation.md)) |  |
-| A4h | Action Damage function (lower nybble of [Damage Calculation](Damage_Calculation.md) |  |
+| A0h | Action Accuracy function (upper nybble of [Damage Calculation](Damage_Calculation)) |  |
+| A4h | Action Damage function (lower nybble of [Damage Calculation](Damage_Calculation) |  |
 | ACh | Quad Magic Count? |  |
 | B0h | Number of attack damage calculations? |  |
 | B4h | Follow-up action count (Tifa's Limits, Finishing Touch, etc) |  |
 | B8h | Number of Targets? |  |
-| BCh | [Attack Additional Effects](Attack_Special_Effects.md) |  |
+| BCh | [Attack Additional Effects](Attack_Special_Effects) |  |
 | C0h | Additional Effect Modifier |  |
 | C4h | Attack Power |  |
 | C8h | Actor's current status |  |

@@ -18,6 +18,6 @@ title: A2_DFANM
 
 #### Description
 
-Plays the animation given by *A* at the speed *S*. The animation loops (plays, completes, then rewinds and plays again) until another animation is played, either using any animation opcode, or an opcode indirectly changes the animation being played, such as [MOVE](A8_MOVE.md).
+Plays the animation given by *A* at the speed *S*. The animation loops (plays, completes, then rewinds and plays again) until another animation is played, either using any animation opcode, or an opcode indirectly changes the animation being played, such as [MOVE](A8_MOVE).
 
 Makou Reactor Description: Play loop animation \#%1 of the field model (speed=%2)

@@ -216,7 +216,7 @@ For each vertex v in *number of vertices*
 `  uint16 Unused; // fill to fit structure to 32bit boundry`  
 `} NormalType;`
 
-structures added by [Cyberman](../User:Cyberman.md)
+structures added by [Cyberman](../User:Cyberman)
 
 ### Regions
 
@@ -286,4 +286,4 @@ Each triangle has a region ID that corresponds with the region name showed in th
 
 ### Texture
 
-The lower 9 bits contain a texture number (0-511, but only 0-281 appear to be used). *Unfortunately, knowing which texture to use is not enough, the UV coordinates found in the mesh data are (presumably) the original PSX VRAM coordinates, so to get the real coordinates you must subtract a texture-specific offset from each of the UV pairs. A complete table with every texture, its original size and offsets can be found [here](WorldMap_Module/TextureTable.md). Sometimes you will end up with negative values after subtracting the offsets, this is normal, the texture should be assumed to repeat itself indefinitely in all directions.*
+The lower 9 bits contain a texture number (0-511, but only 0-281 appear to be used). *Unfortunately, knowing which texture to use is not enough, the UV coordinates found in the mesh data are (presumably) the original PSX VRAM coordinates, so to get the real coordinates you must subtract a texture-specific offset from each of the UV pairs. A complete table with every texture, its original size and offsets can be found [here](WorldMap_Module/TextureTable). Sometimes you will end up with negative values after subtracting the offsets, this is normal, the texture should be assumed to repeat itself indefinitely in all directions.*

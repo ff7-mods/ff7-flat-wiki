@@ -2,7 +2,7 @@
 title: GMO_Files
 ---
 
-<small>Last updated: [Koral](../User:Koral.md)</small>
+<small>Last updated: [Koral](../User:Koral)</small>
 
 # GMO Model File
 

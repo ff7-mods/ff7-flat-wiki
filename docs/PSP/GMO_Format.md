@@ -2,7 +2,7 @@
 title: GMO_Format
 ---
 
-<small>Last updated: [Koral](../User:Koral.md)</small>
+<small>Last updated: [Koral](../User:Koral)</small>
 
 # GMO Model-data container
 

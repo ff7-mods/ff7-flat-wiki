@@ -97,9 +97,9 @@ In the japanese scene.bin, ennemies names and attacks names have a size of 16 by
 | 0x0298 | 184 bytes | Enemy Data 1 ([format explanation](#enemy-data-format) |
 | 0x0350 | 184 bytes | Enemy Data 2 |
 | 0x0408 | 184 bytes | Enemy Data 3 |
-| 0x04C0 | 32 \* 28 bytes | Attack Data (32 records) ([format explanation](../Attack_data.md) |
+| 0x04C0 | 32 \* 28 bytes | Attack Data (32 records) ([format explanation](../Attack_data) |
 | 0x0840 | 32 \* 2 bytes | Attack IDs (32 records) |
-| 0x0880 | 32 \* 32 bytes | Attack Names (32 records, [in FF Text format](../FF_Text.md) |
+| 0x0880 | 32 \* 32 bytes | Attack Names (32 records, [in FF Text format](../FF_Text) |
 | 0x0C80 | 2 bytes | Formation 1 AI Script Offset |
 | 0x0C82 | 2 bytes | Formation 2 AI Script Offset |
 | 0x0C84 | 2 bytes | Formation 3 AI Script Offset |
@@ -225,7 +225,7 @@ In the japanese scene.bin, ennemies names and attacks names have a size of 16 by
 <tr>
 <td style="text-align: center;"><p>0x0002</p></td>
 <td style="text-align: center;"><p>2 bytes</p></td>
-<td style="text-align: center;"><p>Upon defeat of all opponents in current formation, begin battle with <a href="Battle_scenes.md#Formation_ID" title="wikilink">Formation ID</a> without ending battle scene</p></td>
+<td style="text-align: center;"><p>Upon defeat of all opponents in current formation, begin battle with <a href="Battle_scenes#Formation_ID" title="wikilink">Formation ID</a> without ending battle scene</p></td>
 </tr>
 <tr>
 <td style="text-align: center;"><p>0x0004</p></td>
@@ -240,7 +240,7 @@ In the japanese scene.bin, ennemies names and attacks names have a size of 16 by
 <tr>
 <td style="text-align: center;"><p>0x0008</p></td>
 <td style="text-align: center;"><p>4 * 2 bytes</p></td>
-<td style="text-align: center;"><p><a href="Battle_scenes.md#Formation_ID" title="wikilink">Formation ID</a> of candidates for next Battle Arena battle. (default of 03E7h)</p></td>
+<td style="text-align: center;"><p><a href="Battle_scenes#Formation_ID" title="wikilink">Formation ID</a> of candidates for next Battle Arena battle. (default of 03E7h)</p></td>
 </tr>
 <tr>
 <td style="text-align: center;"><p>0x0010</p></td>
@@ -404,7 +404,7 @@ In the japanese scene.bin, ennemies names and attacks names have a size of 16 by
 0Eh - Scream<br />
 0Fh - HIDDEN<br />
 10h-1Fh - No Effect<br />
-20h-3Fh - <a href="Status_Effects.md" title="wikilink">Statuses</a> (Damage done by actions that inflict these statuses will be modified)<br />
+20h-3Fh - <a href="Status_Effects" title="wikilink">Statuses</a> (Damage done by actions that inflict these statuses will be modified)<br />
 FFh - No element</p></td>
 </tr>
 <tr>
@@ -432,7 +432,7 @@ FFh - Nothing</p></td>
 <tr>
 <td style="text-align: center; background: rgb(255,255,255);"><p>0x0068</p></td>
 <td style="text-align: center; background: rgb(255,255,255);"><p>32 bytes</p></td>
-<td style="text-align: center; background: rgb(255,255,255);"><p>Enemy Attacks <a href="Camera_Movement_Id_List.md" title="wikilink">Camera Movement Id</a> for single and multiple targets (2 bytes each). If set this will overwrite camera movement set in attack itself.</p></td>
+<td style="text-align: center; background: rgb(255,255,255);"><p>Enemy Attacks <a href="Camera_Movement_Id_List" title="wikilink">Camera Movement Id</a> for single and multiple targets (2 bytes each). If set this will overwrite camera movement set in attack itself.</p></td>
 </tr>
 <tr>
 <td style="text-align: center;"><p>0x0088</p></td>
@@ -551,7 +551,7 @@ This section contains Battle Script that is executed before or/and during every 
 |  0x1C  |  Custom Event 7  |
 |  0x1E  |  Custom Event 8  |
 
-Its structure and opcodes are described [here](Battle_Scenes/Battle_Script.md).
+Its structure and opcodes are described [here](Battle_Scenes/Battle_Script).
 
 NOTES:
 

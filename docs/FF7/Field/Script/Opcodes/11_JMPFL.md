@@ -17,4 +17,4 @@ title: 11_JMPFL
 
 #### Description
 
-Jumps forward in the current script a specified amount. The jump begins just after the jump opcode itself and then skips the specified number of bytes. Unlike [JMPF](10_JMPF.md), this jump command allows jumps longer than 0xFF bytes.
+Jumps forward in the current script a specified amount. The jump begins just after the jump opcode itself and then skips the specified number of bytes. Unlike [JMPF](10_JMPF), this jump command allows jumps longer than 0xFF bytes.

@@ -17,7 +17,7 @@ title: A1_CHAR
 
 #### Description
 
-Defines a character, or rather, a visible entity. This means that the entity executing this opcode can be associated with a field object, and thus displayed on the walkmesh, as defined in [Section 3](../../../../../../../../../FF7/Field/Object_Loader.md).
+Defines a character, or rather, a visible entity. This means that the entity executing this opcode can be associated with a field object, and thus displayed on the walkmesh, as defined in [Section 3](../../../../../../../../../FF7/Field/Object_Loader).
 
 #### Notes
 

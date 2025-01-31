@@ -18,6 +18,6 @@ title: 31_IFKEYON
 
 #### Description
 
-Similar to [IFKEY](30_IFKEY.md), the condition evaluates to false, and the "if" statement body does not execute, moving the script pointer forward by *A*.
+Similar to [IFKEY](30_IFKEY), the condition evaluates to false, and the "if" statement body does not execute, moving the script pointer forward by *A*.
 
 This is an effective way to stop repeatedly executing the body of the "if" statement due to the user holding the key down; thus, the body of the statement will only execute once. The button state is reset when the user lets go of the button, and at this point, IFKEYON may evaluate to true once more when the button is repressed.

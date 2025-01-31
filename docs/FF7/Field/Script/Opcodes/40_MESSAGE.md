@@ -14,8 +14,8 @@ title: 40_MESSAGE
 #### Arguments
 
 - **const UByte** *N*: The ID of the window to use.
-- **const UByte** *D*: The zero-based index of the [dialog](../../Script.md) that will be displayed.
+- **const UByte** *D*: The zero-based index of the [dialog](..) that will be displayed.
 
 #### Description
 
-Displays a dialog in the [WINDOW](50_WINDOW.md) that has previously been initialised to display this dialog.
+Displays a dialog in the [WINDOW](50_WINDOW) that has previously been initialised to display this dialog.

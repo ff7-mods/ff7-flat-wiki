@@ -17,10 +17,10 @@ title: 12_JMPB
 
 #### Description
 
-Jumps backward in the current script a specified amount. The jump begins just before the jump opcode itself and then moves the current byte pointer back the specified number of bytes. In the following example, the [SOLID](FF7/Field/Script/Opcodes/C7_SOLID "wikilink") and [WAIT](24_WAIT.md) lines are repeated indefinitely.
+Jumps backward in the current script a specified amount. The jump begins just before the jump opcode itself and then moves the current byte pointer back the specified number of bytes. In the following example, the [SOLID](FF7/Field/Script/Opcodes/C7_SOLID "wikilink") and [WAIT](24_WAIT) lines are repeated indefinitely.
 
     SOLID (01)
     WAIT (70,00)
     JMPF (05)
 
-If a jump longer than 0xFF is required, use [JMPBL](13_JMPBL.md) instead.
+If a jump longer than 0xFF is required, use [JMPBL](13_JMPBL) instead.

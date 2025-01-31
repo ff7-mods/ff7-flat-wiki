@@ -43,7 +43,7 @@ In the case of smooth movement, a cosine function is used to simulate "ease-in" 
 
 For the sake of speed, the above calculations are done using look-up tables and fixed-point arithmetic.
 
-Script execution may also be halted until the gradual offset has been completed. For this, see [OFSTW](C4_OFSTW.md).
+Script execution may also be halted until the gradual offset has been completed. For this, see [OFSTW](C4_OFSTW).
 
 #### Movement Types
 

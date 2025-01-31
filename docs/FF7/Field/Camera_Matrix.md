@@ -2,7 +2,7 @@
 title: Camera_Matrix
 ---
 
-### Section 2: Camera Matrix ([Kero](../../User:Kero.md)
+### Section 2: Camera Matrix ([Kero](../../User:Kero)
 
 This is yet to be completely understand, I am pretty sure that this is not exactly trash, since it is based on at least 300 changes of field files. It was pretty nasty, as you can imagine, first divide sections of field file, load section 2 into hexedit, change byte, save section 2, run .bat file that complete new field file with new section 2 and compress it. After that I always had to use ficedula lgp tools, awful, I am definitely going to program command line program for this, in gui i had to alway on original field file, click, replace, click instead of just adding line to .bat file. After that run ff7.exe, go to destinated location and observe what happened.
 

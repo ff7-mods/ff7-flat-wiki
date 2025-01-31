@@ -17,4 +17,4 @@ title: F5_MULCK
 
 #### Description
 
-Locks the [MUSIC](F0_MUSIC.md) to the current selection. Subsequent calls to change the music will fail unless a corresponding MULCK set to 0 is executed.
+Locks the [MUSIC](F0_MUSIC) to the current selection. Subsequent calls to change the music will fail unless a corresponding MULCK set to 0 is executed.

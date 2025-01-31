@@ -13,8 +13,8 @@ title: D8_PMJMP
 
 #### Arguments
 
-- **const UShort** *I*: [Field ID](../../Field_List.md) of the map to prepare to jump to.
+- **const UShort** *I*: [Field ID](../../Field_List) of the map to prepare to jump to.
 
 #### Description
 
-Prepare to jump to the field indicated by *I*. Use before making the [map jump](60_MAPJUMP.md).
+Prepare to jump to the field indicated by *I*. Use before making the [map jump](60_MAPJUMP).
