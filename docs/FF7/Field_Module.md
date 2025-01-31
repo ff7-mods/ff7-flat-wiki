@@ -23,7 +23,7 @@ The field module is the core of the game to which everything else is spawned. It
 
 The Field module loads modular "Field Files". In the PC version, the Field File is a single file with nine sections. In the PSX version, there are three files with the same name but with different extensions that do the same thing. The three files are MIM (Mutiple Image Maps, or the backgrounds), DAT (Field Script Data), and BSX (3D data).
 
-![Snapshot of the PSX&#39;s VRAM demonstrating the background field files in various stages of assembly](/assets/Field_BackgroundVRAM.jpg)
+![Snapshot of the PSX&#39;s VRAM demonstrating the background field files in various stages of assembly]({{site.baseurl}}/assets/Field_BackgroundVRAM.jpg)
 
 The backgrounds are actually 16x16 blocks that are loaded into VRAM and then assembled into the video buffer every frame. The system allows for layers to obscure the 3D entities using a simple painter's algorithm.
 

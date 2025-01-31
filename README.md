@@ -16,6 +16,7 @@ This repo contains the migration tool, the migrated data will be loaded persiste
 - Install by `bundle install`
 - Run with `bundle exec jekyll serve --baseurl=""`
 - Open `localhost:4000`
+_Note: [URL links on local jekyll don't behave like they do on Github Pages due to automatic 301s. Not going to fix it. Manually tweaking of the URL is required.](https://github.com/jekyll/jekyll/issues/9450#issuecomment-2127637456)_
 
 ## Editing
 To be discussed.

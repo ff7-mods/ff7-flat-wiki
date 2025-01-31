@@ -4,7 +4,7 @@ title: Walkmesh
 
 ### Section 5: Walkmesh ([Kero](../../User:Kero)
 
-![Wutai Walkmesh](/assets/Field_Wutai.jpg)
+![Wutai Walkmesh]({{site.baseurl}}/assets/Field_Wutai.jpg)
 
 Every every offset is here relative, 00 is at the start of section 5 (after length indicator).
 

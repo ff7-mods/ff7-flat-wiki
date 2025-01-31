@@ -31,14 +31,14 @@ The PSX video memory can best be seen as a rectangular "surface" made up of 2048
   
 The following is a typical state of VRAM during game play.
 
-![Gears_img_3.jpg](/assets/Gears_img_3.jpg)
+![Gears_img_3.jpg]({{site.baseurl}}/assets/Gears_img_3.jpg)
 
 The two game screens on the left side are the video buffer and the back buffer. The patchwork of graphics on the top right are the field graphics for that scene. The bottom row consists of cached graphics and special effects and on right semi-permanent and permanent textures for the game.
 
   
 The following is a schematic representation of VRAM and all it's texture boundaries.
 
-![Gears_img_4.jpg](/assets/Gears_img_4.jpg)
+![Gears_img_4.jpg]({{site.baseurl}}/assets/Gears_img_4.jpg)
 
 Here the sections of VRAM are much more visible. The large cyan areas are the video frame buffers. The PSX uses a standard double page buffer to animate the game. The blank areas above and below the frame buffers are blank to allow for a correct V-sync. The dark blue areas to the right of the frame buffers are when the game plays 24 bit movies. This requires a slightly larger display and the first two texture caches are overwritten. During times in the game where no movies can take place, such as Battle, textures are commonly placed here.
 
