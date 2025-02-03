@@ -195,10 +195,25 @@ Rotation is also BIT length. First read first bit to see, if there's rotation da
 
 
 
-## Section 4: Unknown
-
+## Section 4: Texture animation data
 Optional section, often empty.
-
+It contains info on animated texture (like blink-eyes)
+It starts with a list of offset followed by data that look like this:
+```
+struct texAnim
+{
+	uint8 textureNum;
+	uint8 originalUCoord; //All UV coords here are for the upper left corner
+	uint8 originalVCoord;
+	uint8 regionUSize;
+	uint8 regionVSize;
+	uint8 copiedRegionCount; //1 less than the actual number
+	uint8 unknown1;
+	uint8 unknown2;
+	//Insert remaining UV coords here
+};
+```
+Refer to this message for more info: [Qhimm message](https://forums.qhimm.com/index.php?topic=11137.msg165149#msg165149)
 ## Section 5: Unknown
 
 Unknown sequences.
