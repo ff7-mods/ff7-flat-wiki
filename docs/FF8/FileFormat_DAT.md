@@ -214,9 +214,9 @@ struct texAnim
 };
 ```
 Refer to this message for more info: [Qhimm message](https://forums.qhimm.com/index.php?topic=11137.msg165149#msg165149)
-## Section 5: Unknown
+## Section 5: Animation sequences
 
-Unknown sequences.
+Contain sequence of animation. Not much known yet, all info are found here: [Qhimm message](https://forums.qhimm.com/index.php?topic=19362.0)
 
 ### Header
 
@@ -225,9 +225,9 @@ Unknown sequences.
 | 0      | 2 bytes                | Number of sequences |
 | 2      | nbSequences \* 2 bytes | Sequences Positions |
 
-## Section 6: unknown
+## Section 6: Camera sequence
 
-Can be empty.
+Not analysed, but defined camera work.
 
 ## Section 7: Informations & stats
 
